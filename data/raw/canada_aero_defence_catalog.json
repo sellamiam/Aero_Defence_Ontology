@@ -1,0 +1,2607 @@
+[
+  {
+    "legal_name": "Bombardier Inc.",
+    "trade_name": "Bombardier Defense",
+    "cage_code": "L3842",
+    "duns_number": "207945812",
+    "business_number": "100582918RC0001",
+    "country": "CAN",
+    "province": "QC",
+    "city": "Dorval",
+    "website": "https://defense.bombardier.com",
+    "tier": "Prime",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CGP_Canada",
+      "NATO_AQAP2110"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainDefence",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "Platform_FixedWingTransport",
+      "Platform_FixedWingCombat"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems",
+      "KIC_DefenceSystemsIntegration",
+      "KIC_InServiceSupport"
+    ],
+    "capabilities": [
+      {
+        "title": "Specialized Mission Aircraft Modification",
+        "description": "Integration of maritime patrol, airborne early warning, and VIP transport architectures on Global 6500 and Challenger platforms.",
+        "trl": 9,
+        "kic": "KIC_DefenceSystemsIntegration"
+      },
+      {
+        "title": "Advanced Aerostructures and High-Speed Wing Integration",
+        "description": "Composite and metallic transonic wing manufacturing, fly-by-wire flight control integration.",
+        "trl": 9,
+        "kic": "KIC_AerospaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Global 6500 Multi-Mission Aircraft",
+        "type": "Product",
+        "domain": "AirPlatform"
+      },
+      {
+        "name": "Challenger 3500 ISR Platform",
+        "type": "Product",
+        "domain": "AirPlatform"
+      }
+    ],
+    "services": [
+      {
+        "name": "Aircraft Fleet Maintenance & Overhaul",
+        "type": "MROService"
+      },
+      {
+        "name": "Special Mission Avionics Engineering",
+        "type": "EngineeringService"
+      }
+    ]
+  },
+  {
+    "legal_name": "CAE Inc.",
+    "trade_name": "CAE Defense & Security",
+    "cage_code": "L0429",
+    "duns_number": "200154823",
+    "business_number": "100783421RC0001",
+    "country": "CAN",
+    "city": "Saint-Laurent",
+    "website": "https://www.cae.com/defence-security",
+    "tier": "Prime",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CGP_Canada",
+      "NATO_AQAP2110",
+      "FacilitySecurity_Secret"
+    ],
+    "domains": [
+      "DomainDefence",
+      "DomainAeronautics",
+      "AirPlatform",
+      "LandPlatform"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat",
+      "Platform_RotaryWing",
+      "Platform_TacticalUAS"
+    ],
+    "kics": [
+      "KIC_TrainingSimulation",
+      "KIC_DefenceSystemsIntegration",
+      "KIC_AIAutonomousSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Synthetic Multi-Domain Environment Simulation",
+        "description": "High-fidelity synthetic combat training and distributed mission operations for air, land, maritime, and cyber domains.",
+        "trl": 9,
+        "kic": "KIC_TrainingSimulation"
+      },
+      {
+        "title": "Full Flight Simulator Level D Systems",
+        "description": "Design and production of full-motion Level D flight simulators with 6-DOF electric motion systems and visual collimated displays.",
+        "trl": 9,
+        "kic": "KIC_TrainingSimulation"
+      }
+    ],
+    "products": [
+      {
+        "name": "CAE 7000XR Full Flight Simulator",
+        "type": "Product"
+      },
+      {
+        "name": "Dynamic Synthetic Environment Generator",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Aircrew Training and Operational Support",
+        "type": "SimulationTrainingService"
+      }
+    ]
+  },
+  {
+    "legal_name": "Pratt & Whitney Canada Corp.",
+    "trade_name": "Pratt & Whitney Canada",
+    "cage_code": "L1108",
+    "duns_number": "200193856",
+    "business_number": "104328574RC0001",
+    "country": "CAN",
+    "city": "Longueuil",
+    "website": "https://www.pwc.ca",
+    "tier": "Prime",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CGP_Canada",
+      "NADCAP_Composites",
+      "NADCAP_Chemical"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainDefence",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "Platform_RotaryWing",
+      "Platform_FixedWingTransport",
+      "Platform_TacticalUAS"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems",
+      "KIC_AdvancedMaterials",
+      "KIC_InServiceSupport"
+    ],
+    "capabilities": [
+      {
+        "title": "Gas Turbine Propulsion Design & Manufacturing",
+        "description": "High-efficiency turboprop, turbofan, and turboshaft propulsion systems for civil and military airframes (PT6A, PW100, PW300 series).",
+        "trl": 9,
+        "kic": "KIC_AerospaceSystems"
+      },
+      {
+        "title": "High-Temperature Superalloy Machining",
+        "description": "Precision casting and EDM machining of single-crystal turbine blades and combustor components.",
+        "trl": 9,
+        "kic": "KIC_AdvancedMaterials"
+      }
+    ],
+    "products": [
+      {
+        "name": "PT6A Turboprop Engine Family",
+        "type": "Product"
+      },
+      {
+        "name": "PW800 Turbofan Engine",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Comprehensive Engine Fleet Overhaul",
+        "type": "MROService"
+      }
+    ]
+  },
+  {
+    "legal_name": "MDA Space Ltd.",
+    "trade_name": "MDA Space",
+    "cage_code": "L0642",
+    "duns_number": "208764129",
+    "business_number": "123849102RC0001",
+    "country": "CAN",
+    "city": "Brampton",
+    "website": "https://mda.space",
+    "tier": "Prime",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CGP_Canada",
+      "FacilitySecurity_Secret"
+    ],
+    "domains": [
+      "SpacePlatform",
+      "DomainDefence",
+      "DomainSpace"
+    ],
+    "platforms": [
+      "Platform_LEOSatellite"
+    ],
+    "kics": [
+      "KIC_SpaceSystems",
+      "KIC_SensorsSonar",
+      "KIC_DefenceSystemsIntegration"
+    ],
+    "capabilities": [
+      {
+        "title": "Space-Based Synthetic Aperture Radar (SAR)",
+        "description": "End-to-end design, launch, and operations of satellite radar systems for global maritime surveillance and tactical intelligence.",
+        "trl": 9,
+        "kic": "KIC_SpaceSystems"
+      },
+      {
+        "title": "Space Robotics and Orbital Servicing",
+        "description": "Orbital manipulators, robotic arms (Canadarm3), and autonomous satellite docking mechanisms.",
+        "trl": 8,
+        "kic": "KIC_SpaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "RADARSAT Constellation System",
+        "type": "Product"
+      },
+      {
+        "name": "MDA AURORA Digital Satellite Product Line",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Earth Observation Satellite Data Analytics",
+        "type": "Service"
+      }
+    ]
+  },
+  {
+    "legal_name": "General Dynamics Land Systems-Canada",
+    "trade_name": "GDLS-Canada",
+    "cage_code": "L0815",
+    "duns_number": "249823451",
+    "business_number": "102847192RC0001",
+    "country": "CAN",
+    "city": "London",
+    "website": "https://www.gdlscanada.com",
+    "tier": "Prime",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CGP_Canada",
+      "NATO_AQAP2110"
+    ],
+    "domains": [
+      "LandPlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_ArmouredCombatVehicle"
+    ],
+    "kics": [
+      "KIC_ArmouredVehicles",
+      "KIC_DefenceSystemsIntegration",
+      "KIC_InServiceSupport"
+    ],
+    "capabilities": [
+      {
+        "title": "Armoured Combat Vehicle Design and Fabrication",
+        "description": "Design, manufacture, and systems integration of Light Armoured Vehicles (LAV III, LAV 6.0, Stryker) and advanced survivability hulls.",
+        "trl": 9,
+        "kic": "KIC_ArmouredVehicles"
+      }
+    ],
+    "products": [
+      {
+        "name": "LAV 6.0 Combat Vehicle",
+        "type": "Product"
+      },
+      {
+        "name": "Armoured Combat Support Vehicle (ACSV)",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Combat Vehicle Fleet Life Extension & ISS",
+        "type": "MROService"
+      }
+    ]
+  },
+  {
+    "legal_name": "Héroux-Devtek Inc.",
+    "trade_name": "Héroux-Devtek",
+    "cage_code": "L1428",
+    "duns_number": "200389145",
+    "business_number": "102394857RC0001",
+    "country": "CAN",
+    "city": "Longueuil",
+    "website": "https://www.herouxdevtek.com",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "NADCAP_NDT",
+      "NADCAP_Chemical",
+      "CGP_Canada"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainDefence",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat",
+      "Platform_FixedWingTransport",
+      "Platform_RotaryWing"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems",
+      "KIC_AdvancedMaterials",
+      "KIC_InServiceSupport"
+    ],
+    "capabilities": [
+      {
+        "title": "Complete Landing Gear Design & Systems Integration",
+        "description": "Turnkey engineering and manufacturing of main and nose landing gear assemblies, shock struts, and electronic brake-by-wire controls.",
+        "trl": 9,
+        "kic": "KIC_AerospaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "High-Strength Landing Gear Struts",
+        "type": "Product"
+      },
+      {
+        "name": "Hydraulic Actuation Subsystems",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Landing Gear MRO & Overhaul Services",
+        "type": "MROService"
+      }
+    ]
+  },
+  {
+    "legal_name": "Magellan Aerospace Corporation",
+    "trade_name": "Magellan Aerospace",
+    "cage_code": "L2391",
+    "duns_number": "208472910",
+    "business_number": "103948572RC0001",
+    "country": "CAN",
+    "city": "Mississauga",
+    "website": "https://magellan.aero",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "NADCAP_Composites",
+      "NADCAP_NDT",
+      "CGP_Canada"
+    ],
+    "domains": [
+      "AirPlatform",
+      "SpacePlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat",
+      "Platform_LEOSatellite"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems",
+      "KIC_AdvancedMaterials",
+      "KIC_SpaceSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "F-35 Horizontal Tail Composite Assemblies",
+        "description": "Advanced carbon-fiber composite aerostructure fabrication and high-precision titanium component machining.",
+        "trl": 9,
+        "kic": "KIC_AdvancedMaterials"
+      },
+      {
+        "title": "Suborbital Rocket & Small Satellite Bus Integration",
+        "description": "Solid rocket motors (CRV7), sounding rocket avionics, and space science platform manufacturing.",
+        "trl": 9,
+        "kic": "KIC_SpaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Composite Horizontal Tail Box (F-35)",
+        "type": "Product"
+      },
+      {
+        "name": "Black Brant Sounding Rocket System",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Aeroengine Repair and Overhaul",
+        "type": "MROService"
+      }
+    ]
+  },
+  {
+    "legal_name": "Bell Textron Canada Ltd.",
+    "trade_name": "Bell",
+    "cage_code": "L1940",
+    "duns_number": "243918274",
+    "business_number": "100482910RC0001",
+    "country": "CAN",
+    "city": "Mirabel",
+    "website": "https://www.bellflight.com",
+    "tier": "Prime",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CGP_Canada",
+      "NATO_AQAP2110"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainDefence",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "Platform_RotaryWing"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems",
+      "KIC_DefenceSystemsIntegration",
+      "KIC_InServiceSupport"
+    ],
+    "capabilities": [
+      {
+        "title": "Commercial and Military Helicopter Manufacturing",
+        "description": "Assembly, flight testing, and customization of commercial and defence utility helicopters (Bell 407, 429, 412, CH-146 Griffon).",
+        "trl": 9,
+        "kic": "KIC_AerospaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Bell 429 Light Twin Helicopter",
+        "type": "Product"
+      },
+      {
+        "name": "Bell 412 Utility Helicopter",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Helicopter Fleet In-Service Support and Modernization",
+        "type": "MROService"
+      }
+    ]
+  },
+  {
+    "legal_name": "L3Harris MAS Inc.",
+    "trade_name": "L3Harris MAS",
+    "cage_code": "L0385",
+    "duns_number": "208394851",
+    "business_number": "893746281RC0001",
+    "country": "CAN",
+    "city": "Mirabel",
+    "website": "https://www.l3harris.com",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CGP_Canada",
+      "FacilitySecurity_Secret"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat",
+      "Platform_FixedWingTransport"
+    ],
+    "kics": [
+      "KIC_InServiceSupport",
+      "KIC_DefenceSystemsIntegration",
+      "KIC_AerospaceSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Fighter Aircraft Structural Life Extension (SLEP)",
+        "description": "Depot-level structural inspection, high-stress fuselage repair, and avionics upgrades for CF-18 Hornet and tactical fleets.",
+        "trl": 9,
+        "kic": "KIC_InServiceSupport"
+      }
+    ],
+    "products": [
+      {
+        "name": "Aircraft Structural Health Monitoring Systems",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Depot Level Maintenance and Fleet Optimization",
+        "type": "MROService"
+      }
+    ]
+  },
+  {
+    "legal_name": "IMP Aerospace & Defence",
+    "trade_name": "IMP Aerospace",
+    "cage_code": "L1321",
+    "duns_number": "200847291",
+    "business_number": "102938475RC0001",
+    "country": "CAN",
+    "city": "Enfield",
+    "website": "https://www.impaerospaceanddefence.com",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CGP_Canada",
+      "NATO_AQAP2110"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_FixedWingTransport",
+      "Platform_RotaryWing"
+    ],
+    "kics": [
+      "KIC_InServiceSupport",
+      "KIC_AerospaceSystems",
+      "KIC_DefenceSystemsIntegration"
+    ],
+    "capabilities": [
+      {
+        "title": "Maritime Patrol & Search and Rescue Aircraft Support",
+        "description": "Comprehensive MRO, avionics upgrade, and mission equipment integration for CP-140 Aurora and CH-149 Cormorant fleets.",
+        "trl": 9,
+        "kic": "KIC_InServiceSupport"
+      }
+    ],
+    "products": [
+      {
+        "name": "Wire Harness and Avionics Integration Kits",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Heavy Aircraft Depot Overhaul and Modifications",
+        "type": "MROService"
+      }
+    ]
+  },
+  {
+    "legal_name": "Calian Group Ltd.",
+    "trade_name": "Calian",
+    "cage_code": "L1982",
+    "duns_number": "208192837",
+    "business_number": "100784920RC0001",
+    "country": "CAN",
+    "city": "Ottawa",
+    "website": "https://www.calian.com",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "ISO9001",
+      "CGP_Canada",
+      "FacilitySecurity_Secret"
+    ],
+    "domains": [
+      "DomainDefence",
+      "DomainSpace",
+      "SpacePlatform"
+    ],
+    "platforms": [
+      "Platform_LEOSatellite"
+    ],
+    "kics": [
+      "KIC_CyberResilience",
+      "KIC_SpaceSystems",
+      "KIC_TrainingSimulation"
+    ],
+    "capabilities": [
+      {
+        "title": "Satellite Ground Communication & RF Systems",
+        "description": "Design and deployment of satellite ground stations, deep space antenna systems, and telemetry tracking & control (TT&C).",
+        "trl": 9,
+        "kic": "KIC_SpaceSystems"
+      },
+      {
+        "title": "Military Health & Readiness Support",
+        "description": "Operational military healthcare, emergency management, and military exercise planning.",
+        "trl": 9,
+        "kic": "KIC_TrainingSimulation"
+      }
+    ],
+    "products": [
+      {
+        "name": "Satellite Ground Station Antennas",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Defense Training Exercise Management",
+        "type": "SimulationTrainingService"
+      }
+    ]
+  },
+  {
+    "legal_name": "Rheinmetall Canada Inc.",
+    "trade_name": "Rheinmetall Canada",
+    "cage_code": "L0927",
+    "duns_number": "249182740",
+    "business_number": "104928174RC0001",
+    "country": "CAN",
+    "city": "Saint-Jean-sur-Richelieu",
+    "website": "https://www.rheinmetall.ca",
+    "tier": "Prime",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CGP_Canada",
+      "NATO_AQAP2110"
+    ],
+    "domains": [
+      "LandPlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_ArmouredCombatVehicle",
+      "Platform_TacticalUAS"
+    ],
+    "kics": [
+      "KIC_ArmouredVehicles",
+      "KIC_AIAutonomousSystems",
+      "KIC_DefenceSystemsIntegration"
+    ],
+    "capabilities": [
+      {
+        "title": "Autonomous Unmanned Ground Vehicles (UGV)",
+        "description": "Mission Master UGV family for autonomous perimeter security, combat support, casualty evacuation, and ISR payloads.",
+        "trl": 8,
+        "kic": "KIC_AIAutonomousSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Mission Master Autonomous UGV",
+        "type": "Product"
+      },
+      {
+        "name": "Integrated Soldier System Suite",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Land Weapon Systems Integration",
+        "type": "EngineeringService"
+      }
+    ]
+  },
+  {
+    "legal_name": "Volatus Aerospace Corp.",
+    "trade_name": "Volatus Aerospace",
+    "cage_code": "L3190",
+    "duns_number": "208471920",
+    "business_number": "782910482RC0001",
+    "country": "CAN",
+    "province": "ON",
+    "city": "Mississauga",
+    "website": "https://www.volatusaerospace.com",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CGP_Canada"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_TacticalUAS"
+    ],
+    "kics": [
+      "KIC_RemotelyPilotedSystems",
+      "KIC_AIAutonomousSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Tactical Mid-Size Drone Integration & Electric Powertrains",
+        "description": "Integration of high-torque brushless DC motors, electronic speed controllers (ESC), and high-density battery powertrains for mid-size tactical drones and commercial UAS platforms.",
+        "trl": 8,
+        "kic": "KIC_RemotelyPilotedSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Tactical Drone Electric Powertrain Suite",
+        "type": "Product"
+      },
+      {
+        "name": "AVID Long-Endurance Mid-Size UAS",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "UAS Flight Operations and System Maintenance",
+        "type": "Service"
+      }
+    ]
+  },
+  {
+    "legal_name": "Pegasus Imagery Ltd.",
+    "trade_name": "Pegasus",
+    "cage_code": "L4102",
+    "duns_number": "209482710",
+    "business_number": "893726194RC0001",
+    "country": "CAN",
+    "province": "ON",
+    "city": "Ottawa",
+    "website": "https://www.pegasusimagery.ca",
+    "tier": "SMESupplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "ISO9001",
+      "CGP_Canada",
+      "FacilitySecurity_Secret"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_TacticalUAS"
+    ],
+    "kics": [
+      "KIC_RemotelyPilotedSystems",
+      "KIC_SensorsSonar"
+    ],
+    "capabilities": [
+      {
+        "title": "Tactical UAS Electric Motor & Long-Endurance Propulsion",
+        "description": "Custom low-acoustic electric propulsion drone motors, high-efficiency motor controllers, and long-range mid-size uncrewed aircraft systems for BVLOS missions.",
+        "trl": 8,
+        "kic": "KIC_RemotelyPilotedSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Atlas Mid-Size Tactical Drone",
+        "type": "Product"
+      },
+      {
+        "name": "High-Efficiency Drone Motor Subsystem",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Autonomous Airborne Intelligence Services",
+        "type": "Service"
+      }
+    ]
+  },
+  {
+    "legal_name": "MicroPilot Systems Canada Ltd.",
+    "trade_name": "MicroPilot",
+    "cage_code": "L2890",
+    "duns_number": "200482918",
+    "business_number": "103928471RC0001",
+    "country": "CAN",
+    "province": "ON",
+    "city": "Waterloo",
+    "website": "https://www.micropilot.com",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CGP_Canada"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_TacticalUAS"
+    ],
+    "kics": [
+      "KIC_RemotelyPilotedSystems",
+      "KIC_AIAutonomousSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Drone Autopilots and Motor Throttle Control Actuation",
+        "description": "Miniature professional autopilots, brushless motor servo controllers, and electronic engine control units for mid-size fixed-wing and multirotor drones.",
+        "trl": 9,
+        "kic": "KIC_RemotelyPilotedSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "MP2128g UAV Autopilot & Motor Controller",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Autopilot Tuning and Propulsion Integration",
+        "type": "EngineeringService"
+      }
+    ]
+  },
+  {
+    "legal_name": "SkyX Systems Corp.",
+    "trade_name": "SkyX",
+    "cage_code": "L5120",
+    "duns_number": "208192847",
+    "business_number": "829104829RC0001",
+    "country": "CAN",
+    "province": "ON",
+    "city": "Markham",
+    "website": "https://www.skyx.com",
+    "tier": "SMESupplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "ISO9001",
+      "CGP_Canada"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_TacticalUAS"
+    ],
+    "kics": [
+      "KIC_RemotelyPilotedSystems",
+      "KIC_AIAutonomousSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "VTOL Drone Electric Propulsion & Motor Modules",
+        "description": "Vertical take-off and landing (VTOL) drone motors, high-reliability brushless drive assemblies, and long-range mid-size aerial monitoring drones.",
+        "trl": 8,
+        "kic": "KIC_RemotelyPilotedSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "SkyOne Mid-Size VTOL Drone",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Autonomous Asset Monitoring Infrastructure",
+        "type": "Service"
+      }
+    ]
+  },
+  {
+    "legal_name": "Draganfly Innovations Canada Inc.",
+    "trade_name": "Draganfly",
+    "cage_code": "L1734",
+    "duns_number": "201948271",
+    "business_number": "819284719RC0001",
+    "country": "CAN",
+    "province": "ON",
+    "city": "Toronto",
+    "website": "https://www.draganfly.com",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CGP_Canada"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_TacticalUAS"
+    ],
+    "kics": [
+      "KIC_RemotelyPilotedSystems",
+      "KIC_AerospaceSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Tactical Drone Electric Motors and Carbon Rotor Assemblies",
+        "description": "Precision brushless electric motors for multirotor and mid-size tactical drones, ruggedized motor mounts, and electronic speed controllers.",
+        "trl": 8,
+        "kic": "KIC_RemotelyPilotedSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Commander 3XL Drone Motor Package",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Custom Drone Engineering & Fleet Integration",
+        "type": "EngineeringService"
+      }
+    ]
+  },
+  {
+    "legal_name": "Flying Colours Corp.",
+    "trade_name": "Flying Colours",
+    "cage_code": "L2108",
+    "duns_number": "208471938",
+    "business_number": "104928172RC0001",
+    "country": "CAN",
+    "province": "ON",
+    "city": "Peterborough",
+    "website": "https://www.flyingcolourscorp.com",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CGP_Canada",
+      "NATO_AQAP2110"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainDefence",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "Platform_FixedWingTransport"
+    ],
+    "kics": [
+      "KIC_InServiceSupport",
+      "KIC_AerospaceSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Mid-Size Business Jet Maintenance, Heavy Overhaul & Completions",
+        "description": "Depot-level heavy maintenance, structural inspections, avionics modifications, and full airframe overhaul for mid-size and large business jets including Bombardier Challenger 300, 350, 604, 650, Global series, and Dassault Falcon.",
+        "trl": 9,
+        "kic": "KIC_InServiceSupport"
+      }
+    ],
+    "products": [
+      {
+        "name": "Special Mission Jet Modification Packages",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Mid-Size Jet Heavy Maintenance & Overhaul",
+        "type": "MROService"
+      },
+      {
+        "name": "Avionics Flight Deck Modernization",
+        "type": "EngineeringService"
+      }
+    ]
+  },
+  {
+    "legal_name": "Skyservice Business Aviation Inc.",
+    "trade_name": "Skyservice",
+    "cage_code": "L1872",
+    "duns_number": "200192847",
+    "business_number": "100482918RC0001",
+    "country": "CAN",
+    "province": "ON",
+    "city": "Mississauga",
+    "website": "https://www.skyservice.com",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CGP_Canada"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainDefence",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "Platform_FixedWingTransport"
+    ],
+    "kics": [
+      "KIC_InServiceSupport",
+      "KIC_AerospaceSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Business Jet Depot Maintenance & Aircraft Inspection MRO",
+        "description": "Comprehensive line and base heavy maintenance, aircraft structural inspection, engine line servicing, and avionics upgrades for mid-size corporate and defence transport jets.",
+        "trl": 9,
+        "kic": "KIC_InServiceSupport"
+      }
+    ],
+    "products": [
+      {
+        "name": "Aircraft Maintenance Tracking Systems",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Aircraft Fleet Heavy Maintenance & MRO",
+        "type": "MROService"
+      }
+    ]
+  },
+  {
+    "legal_name": "Bombardier Aerospace Service Centre Toronto",
+    "trade_name": "Bombardier Service Centre",
+    "cage_code": "L3845",
+    "duns_number": "207945899",
+    "business_number": "100582918RC0002",
+    "country": "CAN",
+    "province": "ON",
+    "city": "Mississauga",
+    "website": "https://businessaircraft.bombardier.com",
+    "tier": "Prime",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CGP_Canada",
+      "NATO_AQAP2110"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainDefence",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "Platform_FixedWingTransport"
+    ],
+    "kics": [
+      "KIC_InServiceSupport",
+      "KIC_AerospaceSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Mid-Size Jet Maintenance, Depot Overhaul & Fleet Modifications",
+        "description": "Factory-authorized depot maintenance, structural C-checks, warranty overhaul, and special mission modifications for Challenger 3500 and Global family mid-size jets.",
+        "trl": 9,
+        "kic": "KIC_InServiceSupport"
+      }
+    ],
+    "products": [
+      {
+        "name": "Factory Authorized Jet Modification Kits",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Authorized Depot Heavy Maintenance & Life Extension",
+        "type": "MROService"
+      }
+    ]
+  },
+  {
+    "legal_name": "StandardAero Business Aviation Services Ltd.",
+    "trade_name": "StandardAero Toronto",
+    "cage_code": "L0954",
+    "duns_number": "208192839",
+    "business_number": "103948271RC0001",
+    "country": "CAN",
+    "province": "ON",
+    "city": "Mississauga",
+    "website": "https://www.standardaero.com",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CGP_Canada"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainDefence",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "Platform_FixedWingTransport"
+    ],
+    "kics": [
+      "KIC_InServiceSupport",
+      "KIC_AerospaceSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Business Jet Airframe & Turbofan Engine Maintenance (MRO)",
+        "description": "Depot-level turbofan engine overhaul, auxiliary power unit (APU) repair, and mid-size jet airframe maintenance and structural modifications.",
+        "trl": 9,
+        "kic": "KIC_InServiceSupport"
+      }
+    ],
+    "products": [
+      {
+        "name": "Turbofan Engine Overhaul Components",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Turbofan Aeroengine Repair & Overhaul (MRO)",
+        "type": "MROService"
+      }
+    ]
+  },
+  {
+    "legal_name": "Frontier Aerospace Inc.",
+    "trade_name": "Frontier Aerospace",
+    "cage_code": "L0022",
+    "duns_number": "205108603",
+    "business_number": "339670711RC0001",
+    "country": "CAN",
+    "province": "ON",
+    "city": "Cambridge",
+    "website": "https://www.frontier-aerospace.ca",
+    "tier": "SMESupplier",
+    "controlled_goods": true,
+    "itar_compliant": false,
+    "certifications": [
+      "ISO9001",
+      "CGP_Canada",
+      "FacilitySecurity_Secret",
+      "CMMC_Level2"
+    ],
+    "domains": [
+      "DomainDefence",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "DomainDefence"
+    ],
+    "kics": [
+      "KIC_CyberResilience"
+    ],
+    "capabilities": [
+      {
+        "title": "Tactical Cyber Resilience and Cryptographic Security",
+        "description": "Hardware security modules (HSM), cross-domain solutions, and ruggedized cryptographic network encryptors. Delivered to tier 1 OEMs and defence procurement programs.",
+        "trl": 9,
+        "kic": "KIC_CyberResilience"
+      }
+    ],
+    "products": [
+      {
+        "name": "Frontier Model-99 Subsystem",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Frontier Specialized Technical Consulting & Integration",
+        "type": "EngineeringService"
+      }
+    ]
+  },
+  {
+    "legal_name": "Chronos Structures Inc.",
+    "trade_name": "Chronos Structures",
+    "cage_code": "L0023",
+    "duns_number": "202571945",
+    "business_number": "334760738RC0001",
+    "country": "CAN",
+    "province": "QC",
+    "city": "Montreal",
+    "website": "https://www.chronos-structures.ca",
+    "tier": "SMESupplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "ISO9001",
+      "CGP_Canada"
+    ],
+    "domains": [
+      "DomainDefence",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "Platform_TacticalUAS"
+    ],
+    "kics": [
+      "KIC_AIAutonomousSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Autonomous Flight Control and Swarm Telemetry",
+        "description": "Edge-computed autonomous navigation algorithms, GPS-denied inertial tracking, and secure mesh telemetry. Delivered to tier 1 OEMs and defence procurement programs.",
+        "trl": 7,
+        "kic": "KIC_AIAutonomousSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Chronos Model-743 Subsystem",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Chronos Specialized Technical Consulting & Integration",
+        "type": "EngineeringService"
+      }
+    ]
+  },
+  {
+    "legal_name": "Archon Structures Inc.",
+    "trade_name": "Archon Structures",
+    "cage_code": "L0024",
+    "duns_number": "205667265",
+    "business_number": "969119330RC0001",
+    "country": "CAN",
+    "province": "QC",
+    "city": "Montreal",
+    "website": "https://www.archon-structures.ca",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CGP_Canada",
+      "NADCAP_NDT"
+    ],
+    "domains": [
+      "DomainDefence",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "AirPlatform"
+    ],
+    "kics": [
+      "KIC_AdvancedMaterials"
+    ],
+    "capabilities": [
+      {
+        "title": "Precision CNC 5-Axis Machining for Titanium and Inconel",
+        "description": "High-tolerance multi-axis milling and turning of flight-critical turbine components and structural ribs. Delivered to tier 1 OEMs and defence procurement programs.",
+        "trl": 8,
+        "kic": "KIC_AdvancedMaterials"
+      }
+    ],
+    "products": [
+      {
+        "name": "Archon Model-358 Subsystem",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Archon Specialized Technical Consulting & Integration",
+        "type": "EngineeringService"
+      }
+    ]
+  },
+  {
+    "legal_name": "Quantum Engineering Inc.",
+    "trade_name": "Quantum Engineering",
+    "cage_code": "L0025",
+    "duns_number": "206647119",
+    "business_number": "209747451RC0001",
+    "country": "CAN",
+    "province": "QC",
+    "city": "Montreal",
+    "website": "https://www.quantum-engineering.ca",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CGP_Canada"
+    ],
+    "domains": [
+      "DomainDefence",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "AirPlatform"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Aerospace Harness & Electrical Wiring Interconnection Systems (EWIS)",
+        "description": "Military-spec MIL-DTL-38999 wire harnesses, laser wire marking, and ruggedized environmental potting. Delivered to tier 1 OEMs and defence procurement programs.",
+        "trl": 8,
+        "kic": "KIC_AerospaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Quantum Model-628 Subsystem",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Quantum Specialized Technical Consulting & Integration",
+        "type": "EngineeringService"
+      }
+    ]
+  },
+  {
+    "legal_name": "Polaris Defence Systems Inc.",
+    "trade_name": "Polaris Defence Systems",
+    "cage_code": "L0026",
+    "duns_number": "209996414",
+    "business_number": "234031070RC0001",
+    "country": "CAN",
+    "province": "ON",
+    "city": "Cambridge",
+    "website": "https://www.polaris-defencesystems.ca",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "CGP_Canada",
+      "NATO_AQAP2110"
+    ],
+    "domains": [
+      "DomainDefence",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "Platform_TacticalUAS"
+    ],
+    "kics": [
+      "KIC_EOIRSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Airborne Electro-Optical / Infrared (EO/IR) Gimbal Systems",
+        "description": "Gyro-stabilized multi-spectral imaging turrets, laser target designators, and SWIR sensors. Delivered to tier 1 OEMs and defence procurement programs.",
+        "trl": 9,
+        "kic": "KIC_EOIRSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Polaris Model-643 Subsystem",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Polaris Specialized Technical Consulting & Integration",
+        "type": "EngineeringService"
+      }
+    ]
+  },
+  {
+    "legal_name": "Boreal Manufacturing Inc.",
+    "trade_name": "Boreal Manufacturing",
+    "cage_code": "L0027",
+    "duns_number": "201768805",
+    "business_number": "810026086RC0001",
+    "country": "CAN",
+    "province": "ON",
+    "city": "Toronto",
+    "website": "https://www.boreal-manufacturing.ca",
+    "tier": "SMESupplier",
+    "controlled_goods": true,
+    "itar_compliant": false,
+    "certifications": [
+      "ISO9001",
+      "CGP_Canada"
+    ],
+    "domains": [
+      "DomainDefence",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "Platform_TacticalUAS"
+    ],
+    "kics": [
+      "KIC_AIAutonomousSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Autonomous Flight Control and Swarm Telemetry",
+        "description": "Edge-computed autonomous navigation algorithms, GPS-denied inertial tracking, and secure mesh telemetry. Delivered to tier 1 OEMs and defence procurement programs.",
+        "trl": 7,
+        "kic": "KIC_AIAutonomousSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Boreal Model-897 Subsystem",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Boreal Specialized Technical Consulting & Integration",
+        "type": "EngineeringService"
+      }
+    ]
+  },
+  {
+    "legal_name": "Dominion Microsystems Inc.",
+    "trade_name": "Dominion Microsystems",
+    "cage_code": "L0028",
+    "duns_number": "207120868",
+    "business_number": "274648506RC0001",
+    "country": "CAN",
+    "province": "QC",
+    "city": "Saint-Laurent",
+    "website": "https://www.dominion-microsystems.ca",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": false,
+    "certifications": [
+      "AS9100D",
+      "NADCAP_Composites",
+      "CGP_Canada"
+    ],
+    "domains": [
+      "DomainDefence",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "AirPlatform"
+    ],
+    "kics": [
+      "KIC_AdvancedMaterials"
+    ],
+    "capabilities": [
+      {
+        "title": "Advanced Composite Autoclave Curing & Out-of-Autoclave RTM",
+        "description": "Carbon-fiber reinforced prepreg curing, resin transfer molding (RTM) for fairings and radomes. Delivered to tier 1 OEMs and defence procurement programs.",
+        "trl": 9,
+        "kic": "KIC_AdvancedMaterials"
+      }
+    ],
+    "products": [
+      {
+        "name": "Dominion Model-969 Subsystem",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Dominion Specialized Technical Consulting & Integration",
+        "type": "EngineeringService"
+      }
+    ]
+  },
+  {
+    "legal_name": "CanAm Solutions Inc.",
+    "trade_name": "CanAm Solutions",
+    "cage_code": "L0029",
+    "duns_number": "205107245",
+    "business_number": "275452091RC0001",
+    "country": "CAN",
+    "province": "ON",
+    "city": "Ottawa",
+    "website": "https://www.canam-solutions.ca",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": false,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CGP_Canada"
+    ],
+    "domains": [
+      "DomainDefence",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "AirPlatform"
+    ],
+    "kics": [
+      "KIC_InServiceSupport"
+    ],
+    "capabilities": [
+      {
+        "title": "Depot-Level Aircraft Structural Repair and Modifications",
+        "description": "Corrosion mitigation, skin panel replacement, structural wing spar reinforcement, and avionics upgrades. Delivered to tier 1 OEMs and defence procurement programs.",
+        "trl": 9,
+        "kic": "KIC_InServiceSupport"
+      }
+    ],
+    "products": [
+      {
+        "name": "CanAm Model-714 Subsystem",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "CanAm Specialized Technical Consulting & Integration",
+        "type": "EngineeringService"
+      }
+    ]
+  },
+  {
+    "legal_name": "Triton Advanced Composites Inc.",
+    "trade_name": "Triton Advanced Composites",
+    "cage_code": "L0030",
+    "duns_number": "201938483",
+    "business_number": "345938494RC0001",
+    "country": "CAN",
+    "province": "ON",
+    "city": "Toronto",
+    "website": "https://www.triton-advancedcomposites.ca",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CGP_Canada",
+      "NADCAP_NDT"
+    ],
+    "domains": [
+      "DomainDefence",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "AirPlatform"
+    ],
+    "kics": [
+      "KIC_AdvancedMaterials"
+    ],
+    "capabilities": [
+      {
+        "title": "Precision CNC 5-Axis Machining for Titanium and Inconel",
+        "description": "High-tolerance multi-axis milling and turning of flight-critical turbine components and structural ribs. Delivered to tier 1 OEMs and defence procurement programs.",
+        "trl": 7,
+        "kic": "KIC_AdvancedMaterials"
+      }
+    ],
+    "products": [
+      {
+        "name": "Triton Model-226 Subsystem",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Triton Specialized Technical Consulting & Integration",
+        "type": "EngineeringService"
+      }
+    ]
+  },
+  {
+    "legal_name": "Orion Avionics Inc.",
+    "trade_name": "Orion Avionics",
+    "cage_code": "L0031",
+    "duns_number": "209375710",
+    "business_number": "524806516RC0001",
+    "country": "CAN",
+    "province": "QC",
+    "city": "Montreal",
+    "website": "https://www.orion-avionics.ca",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CGP_Canada"
+    ],
+    "domains": [
+      "DomainDefence",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "Platform_TacticalUAS"
+    ],
+    "kics": [
+      "KIC_RemotelyPilotedSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Tactical Drone Electric Brushless Motors and Electronic Speed Controllers",
+        "description": "High-performance brushless DC drone motors, ESC motor drivers, and power distribution boards for mid-size tactical UAV platforms. Delivered to tier 1 OEMs and defence procurement programs.",
+        "trl": 7,
+        "kic": "KIC_RemotelyPilotedSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Orion Model-772 Subsystem",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Orion Specialized Technical Consulting & Integration",
+        "type": "EngineeringService"
+      }
+    ]
+  },
+  {
+    "legal_name": "Triton Sensors Inc.",
+    "trade_name": "Triton Sensors",
+    "cage_code": "L0032",
+    "duns_number": "208187926",
+    "business_number": "726563708RC0001",
+    "country": "CAN",
+    "province": "ON",
+    "city": "Cambridge",
+    "website": "https://www.triton-sensors.ca",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": false,
+    "certifications": [
+      "AS9100D",
+      "CGP_Canada",
+      "NATO_AQAP2110"
+    ],
+    "domains": [
+      "DomainDefence",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "Platform_TacticalUAS"
+    ],
+    "kics": [
+      "KIC_EOIRSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Airborne Electro-Optical / Infrared (EO/IR) Gimbal Systems",
+        "description": "Gyro-stabilized multi-spectral imaging turrets, laser target designators, and SWIR sensors. Delivered to tier 1 OEMs and defence procurement programs.",
+        "trl": 7,
+        "kic": "KIC_EOIRSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Triton Model-531 Subsystem",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Triton Specialized Technical Consulting & Integration",
+        "type": "EngineeringService"
+      }
+    ]
+  },
+  {
+    "legal_name": "AeroWave Technologies Inc.",
+    "trade_name": "AeroWave Technologies",
+    "cage_code": "L0033",
+    "duns_number": "202839607",
+    "business_number": "264112119RC0001",
+    "country": "CAN",
+    "province": "ON",
+    "city": "Cambridge",
+    "website": "https://www.aerowave-technologies.ca",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": false,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CGP_Canada"
+    ],
+    "domains": [
+      "DomainDefence",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "Platform_TacticalUAS"
+    ],
+    "kics": [
+      "KIC_RemotelyPilotedSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Tactical Drone Electric Brushless Motors and Electronic Speed Controllers",
+        "description": "High-performance brushless DC drone motors, ESC motor drivers, and power distribution boards for mid-size tactical UAV platforms. Delivered to tier 1 OEMs and defence procurement programs.",
+        "trl": 9,
+        "kic": "KIC_RemotelyPilotedSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "AeroWave Model-75 Subsystem",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "AeroWave Specialized Technical Consulting & Integration",
+        "type": "EngineeringService"
+      }
+    ]
+  },
+  {
+    "legal_name": "Centurion Microsystems Inc.",
+    "trade_name": "Centurion Microsystems",
+    "cage_code": "L0034",
+    "duns_number": "208852574",
+    "business_number": "668132202RC0001",
+    "country": "CAN",
+    "province": "ON",
+    "city": "Ottawa",
+    "website": "https://www.centurion-microsystems.ca",
+    "tier": "SMESupplier",
+    "controlled_goods": false,
+    "itar_compliant": false,
+    "certifications": [
+      "ISO9001",
+      "NADCAP_NDT",
+      "CGP_Canada"
+    ],
+    "domains": [
+      "DomainDefence",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "Platform_SurfaceCombatant"
+    ],
+    "kics": [
+      "KIC_NavalShipbuilding"
+    ],
+    "capabilities": [
+      {
+        "title": "Naval Hull Structural Non-Destructive Examination (NDE)",
+        "description": "Phased array ultrasonic testing and eddy current inspection for warship hulls and pressure vessels. Delivered to tier 1 OEMs and defence procurement programs.",
+        "trl": 7,
+        "kic": "KIC_NavalShipbuilding"
+      }
+    ],
+    "products": [
+      {
+        "name": "Centurion Model-706 Subsystem",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Centurion Specialized Technical Consulting & Integration",
+        "type": "EngineeringService"
+      }
+    ]
+  },
+  {
+    "legal_name": "Frontier Sensors Inc.",
+    "trade_name": "Frontier Sensors",
+    "cage_code": "L0035",
+    "duns_number": "206707197",
+    "business_number": "219778234RC0001",
+    "country": "CAN",
+    "province": "ON",
+    "city": "Kitchener",
+    "website": "https://www.frontier-sensors.ca",
+    "tier": "SMESupplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "ISO9001",
+      "NADCAP_NDT",
+      "CGP_Canada"
+    ],
+    "domains": [
+      "DomainDefence",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "Platform_SurfaceCombatant"
+    ],
+    "kics": [
+      "KIC_NavalShipbuilding"
+    ],
+    "capabilities": [
+      {
+        "title": "Naval Hull Structural Non-Destructive Examination (NDE)",
+        "description": "Phased array ultrasonic testing and eddy current inspection for warship hulls and pressure vessels. Delivered to tier 1 OEMs and defence procurement programs.",
+        "trl": 9,
+        "kic": "KIC_NavalShipbuilding"
+      }
+    ],
+    "products": [
+      {
+        "name": "Frontier Model-906 Subsystem",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Frontier Specialized Technical Consulting & Integration",
+        "type": "EngineeringService"
+      }
+    ]
+  },
+  {
+    "legal_name": "Polaris Propulsion Inc.",
+    "trade_name": "Polaris Propulsion",
+    "cage_code": "L0036",
+    "duns_number": "209517485",
+    "business_number": "214257751RC0001",
+    "country": "CAN",
+    "province": "ON",
+    "city": "Kitchener",
+    "website": "https://www.polaris-propulsion.ca",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CGP_Canada"
+    ],
+    "domains": [
+      "DomainDefence",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "Platform_TacticalUAS"
+    ],
+    "kics": [
+      "KIC_RemotelyPilotedSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Tactical Drone Electric Brushless Motors and Electronic Speed Controllers",
+        "description": "High-performance brushless DC drone motors, ESC motor drivers, and power distribution boards for mid-size tactical UAV platforms. Delivered to tier 1 OEMs and defence procurement programs.",
+        "trl": 9,
+        "kic": "KIC_RemotelyPilotedSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Polaris Model-213 Subsystem",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Polaris Specialized Technical Consulting & Integration",
+        "type": "EngineeringService"
+      }
+    ]
+  },
+  {
+    "legal_name": "Hyperion Robotics Inc.",
+    "trade_name": "Hyperion Robotics",
+    "cage_code": "L0037",
+    "duns_number": "209897858",
+    "business_number": "100614068RC0001",
+    "country": "CAN",
+    "province": "ON",
+    "city": "Kitchener",
+    "website": "https://www.hyperion-robotics.ca",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "ISO9001",
+      "CGP_Canada",
+      "NATO_AQAP2110"
+    ],
+    "domains": [
+      "DomainDefence",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "DomainDefence"
+    ],
+    "kics": [
+      "KIC_SoftwareDefinedRadio"
+    ],
+    "capabilities": [
+      {
+        "title": "Tactical Radio Waveform & SDR Engineering",
+        "description": "Cognitive radio frequencies, frequency-hopping algorithms, and wideband VHF/UHF tactical software-defined radios. Delivered to tier 1 OEMs and defence procurement programs.",
+        "trl": 8,
+        "kic": "KIC_SoftwareDefinedRadio"
+      }
+    ],
+    "products": [
+      {
+        "name": "Hyperion Model-909 Subsystem",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Hyperion Specialized Technical Consulting & Integration",
+        "type": "EngineeringService"
+      }
+    ]
+  },
+  {
+    "legal_name": "Stratos Advanced Composites Inc.",
+    "trade_name": "Stratos Advanced Composites",
+    "cage_code": "L0038",
+    "duns_number": "202321324",
+    "business_number": "191969690RC0001",
+    "country": "CAN",
+    "province": "QC",
+    "city": "Montreal",
+    "website": "https://www.stratos-advancedcomposites.ca",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CGP_Canada"
+    ],
+    "domains": [
+      "DomainDefence",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "Platform_FixedWingTransport"
+    ],
+    "kics": [
+      "KIC_InServiceSupport"
+    ],
+    "capabilities": [
+      {
+        "title": "Mid-Size Jet Maintenance and Fleet In-Service Support",
+        "description": "Depot-level structural inspection, landing gear overhaul, and avionics maintenance for mid-size business and military transport jets. Delivered to tier 1 OEMs and defence procurement programs.",
+        "trl": 9,
+        "kic": "KIC_InServiceSupport"
+      }
+    ],
+    "products": [
+      {
+        "name": "Stratos Model-794 Subsystem",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Stratos Specialized Technical Consulting & Integration",
+        "type": "EngineeringService"
+      }
+    ]
+  },
+  {
+    "legal_name": "Great Lakes Engineering Inc.",
+    "trade_name": "Great Lakes Engineering",
+    "cage_code": "L0039",
+    "duns_number": "203770370",
+    "business_number": "384602384RC0001",
+    "country": "CAN",
+    "province": "ON",
+    "city": "Mississauga",
+    "website": "https://www.greatlakes-engineering.ca",
+    "tier": "SMESupplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CGP_Canada"
+    ],
+    "domains": [
+      "DomainDefence",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "Platform_LEOSatellite"
+    ],
+    "kics": [
+      "KIC_SpaceSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "SmallSat Structural Bus and Solar Array Deployment Mechanisms",
+        "description": "Space-qualified small satellite honeycomb structures, thermal blankets, and micro-actuators. Delivered to tier 1 OEMs and defence procurement programs.",
+        "trl": 7,
+        "kic": "KIC_SpaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Great Lakes Model-961 Subsystem",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Great Lakes Specialized Technical Consulting & Integration",
+        "type": "EngineeringService"
+      }
+    ]
+  },
+  {
+    "legal_name": "Archon Manufacturing Inc.",
+    "trade_name": "Archon Manufacturing",
+    "cage_code": "L0040",
+    "duns_number": "207693979",
+    "business_number": "821218382RC0001",
+    "country": "CAN",
+    "province": "ON",
+    "city": "Toronto",
+    "website": "https://www.archon-manufacturing.ca",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": false,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CGP_Canada"
+    ],
+    "domains": [
+      "DomainDefence",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "Platform_TacticalUAS"
+    ],
+    "kics": [
+      "KIC_RemotelyPilotedSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Tactical Drone Electric Brushless Motors and Electronic Speed Controllers",
+        "description": "High-performance brushless DC drone motors, ESC motor drivers, and power distribution boards for mid-size tactical UAV platforms. Delivered to tier 1 OEMs and defence procurement programs.",
+        "trl": 8,
+        "kic": "KIC_RemotelyPilotedSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Archon Model-133 Subsystem",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Archon Specialized Technical Consulting & Integration",
+        "type": "EngineeringService"
+      }
+    ]
+  },
+  {
+    "legal_name": "Pacific Rim Advanced Composites Inc.",
+    "trade_name": "Pacific Rim Advanced Composites",
+    "cage_code": "L0041",
+    "duns_number": "201352896",
+    "business_number": "731691672RC0001",
+    "country": "CAN",
+    "province": "QC",
+    "city": "Montreal",
+    "website": "https://www.pacificrim-advancedcomposites.ca",
+    "tier": "SMESupplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CGP_Canada"
+    ],
+    "domains": [
+      "DomainDefence",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "Platform_LEOSatellite"
+    ],
+    "kics": [
+      "KIC_SpaceSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "SmallSat Structural Bus and Solar Array Deployment Mechanisms",
+        "description": "Space-qualified small satellite honeycomb structures, thermal blankets, and micro-actuators. Delivered to tier 1 OEMs and defence procurement programs.",
+        "trl": 7,
+        "kic": "KIC_SpaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Pacific Rim Model-734 Subsystem",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Pacific Rim Specialized Technical Consulting & Integration",
+        "type": "EngineeringService"
+      }
+    ]
+  },
+  {
+    "legal_name": "Canadian Precision Advanced Composites Inc.",
+    "trade_name": "Canadian Precision Advanced Composites",
+    "cage_code": "L0042",
+    "duns_number": "201527021",
+    "business_number": "454794895RC0001",
+    "country": "CAN",
+    "province": "QC",
+    "city": "Montreal",
+    "website": "https://www.canadianprecision-advancedcomposites.ca",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CGP_Canada"
+    ],
+    "domains": [
+      "DomainDefence",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "AirPlatform"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Aerospace Harness & Electrical Wiring Interconnection Systems (EWIS)",
+        "description": "Military-spec MIL-DTL-38999 wire harnesses, laser wire marking, and ruggedized environmental potting. Delivered to tier 1 OEMs and defence procurement programs.",
+        "trl": 8,
+        "kic": "KIC_AerospaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Canadian Precision Model-229 Subsystem",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Canadian Precision Specialized Technical Consulting & Integration",
+        "type": "EngineeringService"
+      }
+    ]
+  },
+  {
+    "legal_name": "Archon Engineering Inc.",
+    "trade_name": "Archon Engineering",
+    "cage_code": "L0043",
+    "duns_number": "208930103",
+    "business_number": "360916298RC0001",
+    "country": "CAN",
+    "province": "ON",
+    "city": "Toronto",
+    "website": "https://www.archon-engineering.ca",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CGP_Canada"
+    ],
+    "domains": [
+      "DomainDefence",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "AirPlatform"
+    ],
+    "kics": [
+      "KIC_InServiceSupport"
+    ],
+    "capabilities": [
+      {
+        "title": "Depot-Level Aircraft Structural Repair and Modifications",
+        "description": "Corrosion mitigation, skin panel replacement, structural wing spar reinforcement, and avionics upgrades. Delivered to tier 1 OEMs and defence procurement programs.",
+        "trl": 7,
+        "kic": "KIC_InServiceSupport"
+      }
+    ],
+    "products": [
+      {
+        "name": "Archon Model-684 Subsystem",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Archon Specialized Technical Consulting & Integration",
+        "type": "EngineeringService"
+      }
+    ]
+  },
+  {
+    "legal_name": "Northway Robotics Inc.",
+    "trade_name": "Northway Robotics",
+    "cage_code": "L0044",
+    "duns_number": "208835373",
+    "business_number": "882839238RC0001",
+    "country": "CAN",
+    "province": "QC",
+    "city": "Dorval",
+    "website": "https://www.northway-robotics.ca",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": false,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CGP_Canada",
+      "NADCAP_NDT"
+    ],
+    "domains": [
+      "DomainDefence",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "AirPlatform"
+    ],
+    "kics": [
+      "KIC_AdvancedMaterials"
+    ],
+    "capabilities": [
+      {
+        "title": "Precision CNC 5-Axis Machining for Titanium and Inconel",
+        "description": "High-tolerance multi-axis milling and turning of flight-critical turbine components and structural ribs. Delivered to tier 1 OEMs and defence procurement programs.",
+        "trl": 7,
+        "kic": "KIC_AdvancedMaterials"
+      }
+    ],
+    "products": [
+      {
+        "name": "Northway Model-72 Subsystem",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Northway Specialized Technical Consulting & Integration",
+        "type": "EngineeringService"
+      }
+    ]
+  },
+  {
+    "legal_name": "Elysium Avionics Inc.",
+    "trade_name": "Elysium Avionics",
+    "cage_code": "L0045",
+    "duns_number": "202833230",
+    "business_number": "366992705RC0001",
+    "country": "CAN",
+    "province": "ON",
+    "city": "London",
+    "website": "https://www.elysium-avionics.ca",
+    "tier": "SMESupplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "ISO9001",
+      "CGP_Canada"
+    ],
+    "domains": [
+      "DomainDefence",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "Platform_TacticalUAS"
+    ],
+    "kics": [
+      "KIC_AIAutonomousSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Autonomous Flight Control and Swarm Telemetry",
+        "description": "Edge-computed autonomous navigation algorithms, GPS-denied inertial tracking, and secure mesh telemetry. Delivered to tier 1 OEMs and defence procurement programs.",
+        "trl": 8,
+        "kic": "KIC_AIAutonomousSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Elysium Model-197 Subsystem",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Elysium Specialized Technical Consulting & Integration",
+        "type": "EngineeringService"
+      }
+    ]
+  },
+  {
+    "legal_name": "Quantum Industries Inc.",
+    "trade_name": "Quantum Industries",
+    "cage_code": "L0046",
+    "duns_number": "202264748",
+    "business_number": "575808013RC0001",
+    "country": "CAN",
+    "province": "QC",
+    "city": "Saint-Laurent",
+    "website": "https://www.quantum-industries.ca",
+    "tier": "SMESupplier",
+    "controlled_goods": true,
+    "itar_compliant": false,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CGP_Canada"
+    ],
+    "domains": [
+      "DomainDefence",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "Platform_LEOSatellite"
+    ],
+    "kics": [
+      "KIC_SpaceSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "SmallSat Structural Bus and Solar Array Deployment Mechanisms",
+        "description": "Space-qualified small satellite honeycomb structures, thermal blankets, and micro-actuators. Delivered to tier 1 OEMs and defence procurement programs.",
+        "trl": 9,
+        "kic": "KIC_SpaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Quantum Model-866 Subsystem",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Quantum Specialized Technical Consulting & Integration",
+        "type": "EngineeringService"
+      }
+    ]
+  },
+  {
+    "legal_name": "AeroTech Technologies Inc.",
+    "trade_name": "AeroTech Technologies",
+    "cage_code": "L0047",
+    "duns_number": "204965789",
+    "business_number": "278575192RC0001",
+    "country": "CAN",
+    "province": "BC",
+    "city": "Richmond",
+    "website": "https://www.aerotech-technologies.ca",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "CGP_Canada",
+      "NATO_AQAP2110"
+    ],
+    "domains": [
+      "DomainDefence",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "Platform_TacticalUAS"
+    ],
+    "kics": [
+      "KIC_EOIRSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Airborne Electro-Optical / Infrared (EO/IR) Gimbal Systems",
+        "description": "Gyro-stabilized multi-spectral imaging turrets, laser target designators, and SWIR sensors. Delivered to tier 1 OEMs and defence procurement programs.",
+        "trl": 8,
+        "kic": "KIC_EOIRSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "AeroTech Model-934 Subsystem",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "AeroTech Specialized Technical Consulting & Integration",
+        "type": "EngineeringService"
+      }
+    ]
+  },
+  {
+    "legal_name": "Canadian Precision Solutions Inc.",
+    "trade_name": "Canadian Precision Solutions",
+    "cage_code": "L0048",
+    "duns_number": "207550190",
+    "business_number": "384759615RC0001",
+    "country": "CAN",
+    "province": "QC",
+    "city": "Longueuil",
+    "website": "https://www.canadianprecision-solutions.ca",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": false,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CGP_Canada"
+    ],
+    "domains": [
+      "DomainDefence",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "AirPlatform"
+    ],
+    "kics": [
+      "KIC_InServiceSupport"
+    ],
+    "capabilities": [
+      {
+        "title": "Depot-Level Aircraft Structural Repair and Modifications",
+        "description": "Corrosion mitigation, skin panel replacement, structural wing spar reinforcement, and avionics upgrades. Delivered to tier 1 OEMs and defence procurement programs.",
+        "trl": 9,
+        "kic": "KIC_InServiceSupport"
+      }
+    ],
+    "products": [
+      {
+        "name": "Canadian Precision Model-812 Subsystem",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Canadian Precision Specialized Technical Consulting & Integration",
+        "type": "EngineeringService"
+      }
+    ]
+  },
+  {
+    "legal_name": "Triton Instruments Inc.",
+    "trade_name": "Triton Instruments",
+    "cage_code": "L0049",
+    "duns_number": "205977931",
+    "business_number": "333754555RC0001",
+    "country": "CAN",
+    "province": "QC",
+    "city": "Montreal",
+    "website": "https://www.triton-instruments.ca",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CGP_Canada",
+      "NADCAP_NDT"
+    ],
+    "domains": [
+      "DomainDefence",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "AirPlatform"
+    ],
+    "kics": [
+      "KIC_AdvancedMaterials"
+    ],
+    "capabilities": [
+      {
+        "title": "Precision CNC 5-Axis Machining for Titanium and Inconel",
+        "description": "High-tolerance multi-axis milling and turning of flight-critical turbine components and structural ribs. Delivered to tier 1 OEMs and defence procurement programs.",
+        "trl": 9,
+        "kic": "KIC_AdvancedMaterials"
+      }
+    ],
+    "products": [
+      {
+        "name": "Triton Model-331 Subsystem",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Triton Specialized Technical Consulting & Integration",
+        "type": "EngineeringService"
+      }
+    ]
+  },
+  {
+    "legal_name": "Canadian Precision Defence Systems Inc.",
+    "trade_name": "Canadian Precision Defence Systems",
+    "cage_code": "L0050",
+    "duns_number": "209436429",
+    "business_number": "670292350RC0001",
+    "country": "CAN",
+    "province": "ON",
+    "city": "Ottawa",
+    "website": "https://www.canadianprecision-defencesystems.ca",
+    "tier": "SMESupplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "ISO9001",
+      "CGP_Canada",
+      "FacilitySecurity_Secret",
+      "CMMC_Level2"
+    ],
+    "domains": [
+      "DomainDefence",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "DomainDefence"
+    ],
+    "kics": [
+      "KIC_CyberResilience"
+    ],
+    "capabilities": [
+      {
+        "title": "Tactical Cyber Resilience and Cryptographic Security",
+        "description": "Hardware security modules (HSM), cross-domain solutions, and ruggedized cryptographic network encryptors. Delivered to tier 1 OEMs and defence procurement programs.",
+        "trl": 7,
+        "kic": "KIC_CyberResilience"
+      }
+    ],
+    "products": [
+      {
+        "name": "Canadian Precision Model-80 Subsystem",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Canadian Precision Specialized Technical Consulting & Integration",
+        "type": "EngineeringService"
+      }
+    ]
+  }
+]

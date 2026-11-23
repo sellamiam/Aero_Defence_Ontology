@@ -1,0 +1,1257 @@
+[
+  {
+    "legal_name": "BAE Systems plc",
+    "trade_name": "BAE Systems",
+    "cage_code": "K0657",
+    "duns_number": "218491029",
+    "business_number": "GB147209182",
+    "country": "GBR",
+    "city": "Farnborough",
+    "website": "https://www.baesystems.com",
+    "tier": "Prime",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CyberEssentialsPlus",
+      "NATO_AQAP2110",
+      "FacilitySecurity_Secret"
+    ],
+    "domains": [
+      "AirPlatform",
+      "MaritimePlatform",
+      "LandPlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat",
+      "Platform_SurfaceCombatant",
+      "Platform_Submarine"
+    ],
+    "kics": [
+      "KIC_DefenceSystemsIntegration",
+      "KIC_CyberResilience",
+      "KIC_AIAutonomousSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Sixth-Generation Combat Air Systems (GCAP / Tempest)",
+        "description": "Next-generation air dominance platform development with cognitive cockpit, cooperative uncrewed teaming, and hypersonic integration.",
+        "trl": 7,
+        "kic": "KIC_DefenceSystemsIntegration"
+      },
+      {
+        "title": "Nuclear Submarine and Complex Surface Combatant Construction",
+        "description": "Design and build of Dreadnought / Astute class submarines and Type 26 City-class anti-submarine warfare frigates.",
+        "trl": 9,
+        "kic": "KIC_NavalShipbuilding"
+      }
+    ],
+    "products": [
+      {
+        "name": "Eurofighter Typhoon",
+        "type": "Product"
+      },
+      {
+        "name": "Type 26 Global Combat Ship",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Operational Fleet Readiness and Naval Systems In-Service Support",
+        "type": "MROService"
+      }
+    ]
+  },
+  {
+    "legal_name": "Rolls-Royce plc",
+    "trade_name": "Rolls-Royce Defence",
+    "cage_code": "K1432",
+    "duns_number": "210492817",
+    "business_number": "GB100482910",
+    "country": "GBR",
+    "city": "Derby",
+    "website": "https://www.rolls-royce.com/defence",
+    "tier": "Prime",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "NADCAP_Composites",
+      "CyberEssentialsPlus",
+      "NATO_AQAP2110"
+    ],
+    "domains": [
+      "AirPlatform",
+      "MaritimePlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat",
+      "Platform_FixedWingTransport",
+      "Platform_Submarine"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems",
+      "KIC_AdvancedMaterials",
+      "KIC_InServiceSupport"
+    ],
+    "capabilities": [
+      {
+        "title": "Military Gas Turbine and Nuclear Marine Propulsion",
+        "description": "EJ200 turbofan, Trent 7000/1000, MT30 marine gas turbines, and naval nuclear propulsion reactor plants.",
+        "trl": 9,
+        "kic": "KIC_AerospaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "EJ200 Military Turbofan Engine",
+        "type": "Product"
+      },
+      {
+        "name": "MT30 Marine Gas Turbine",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "MissionCare Defence Propulsion Lifecycle Support",
+        "type": "MROService"
+      }
+    ]
+  },
+  {
+    "legal_name": "Babcock International Group plc",
+    "trade_name": "Babcock",
+    "cage_code": "K2091",
+    "duns_number": "213948571",
+    "business_number": "GB204928174",
+    "country": "GBR",
+    "city": "London",
+    "website": "https://www.babcockinternational.com",
+    "tier": "Prime",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "ISO9001",
+      "CyberEssentialsPlus",
+      "FacilitySecurity_Secret",
+      "NATO_AQAP2110"
+    ],
+    "domains": [
+      "MaritimePlatform",
+      "AirPlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_SurfaceCombatant",
+      "Platform_Submarine"
+    ],
+    "kics": [
+      "KIC_NavalShipbuilding",
+      "KIC_InServiceSupport",
+      "KIC_DefenceSystemsIntegration"
+    ],
+    "capabilities": [
+      {
+        "title": "Complex Warship Design and Royal Navy Fleet In-Service Support",
+        "description": "Lead design and manufacture of Type 31 Inspiration-class general purpose frigates and strategic submarine deep maintenance.",
+        "trl": 9,
+        "kic": "KIC_NavalShipbuilding"
+      }
+    ],
+    "products": [
+      {
+        "name": "Type 31 Inspiration Class Frigate",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Naval Dockyard Deep Overhaul and Submarine Refit",
+        "type": "MROService"
+      }
+    ]
+  },
+  {
+    "legal_name": "QinetiQ Group plc",
+    "trade_name": "QinetiQ",
+    "cage_code": "K0819",
+    "duns_number": "219847291",
+    "business_number": "GB309482710",
+    "country": "GBR",
+    "city": "Farnborough",
+    "website": "https://www.qinetiq.com",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CyberEssentialsPlus",
+      "FacilitySecurity_Secret"
+    ],
+    "domains": [
+      "DomainDefence",
+      "AirPlatform",
+      "MaritimePlatform"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat",
+      "Platform_TacticalUAS"
+    ],
+    "kics": [
+      "KIC_TrainingSimulation",
+      "KIC_SensorsSonar",
+      "KIC_CyberResilience"
+    ],
+    "capabilities": [
+      {
+        "title": "Defence Test & Evaluation, Mission Data and Autonomy Assured",
+        "description": "Operating the UK Long Term Partnering Agreement (LTPA) test ranges, live-fire trials, acoustic signatures, and sensor evaluation.",
+        "trl": 9,
+        "kic": "KIC_TrainingSimulation"
+      }
+    ],
+    "products": [
+      {
+        "name": "Banshee Jet 80+ Target Drone",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Test & Evaluation Flight Clearance",
+        "type": "TestingQualificationService"
+      }
+    ]
+  },
+  {
+    "legal_name": "Martin-Baker Aircraft Company Ltd.",
+    "trade_name": "Martin-Baker",
+    "cage_code": "K0120",
+    "duns_number": "210394851",
+    "business_number": "GB102938475",
+    "country": "GBR",
+    "city": "Higher Denham",
+    "website": "https://martin-baker.com",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "NADCAP_NDT",
+      "NATO_AQAP2110"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems",
+      "KIC_InServiceSupport"
+    ],
+    "capabilities": [
+      {
+        "title": "Ejection Seat & Crashworthy Crew Escape Systems",
+        "description": "World-leading zero-zero ejection seats, dynamic rocket catapults, and crash-attenuating pilot seats (F-35, Typhoon, Rafale).",
+        "trl": 9,
+        "kic": "KIC_AerospaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "US16E Ejection Seat (F-35 Lightning II)",
+        "type": "Product"
+      },
+      {
+        "name": "Mk16 Ejection Seat (Eurofighter Typhoon)",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Ejection Seat Pyrotechnic Overhaul & Recertification",
+        "type": "MROService"
+      }
+    ]
+  },
+  {
+    "legal_name": "MBDA UK Ltd.",
+    "trade_name": "MBDA UK",
+    "cage_code": "K2409",
+    "duns_number": "219482910",
+    "business_number": "GB904829182",
+    "country": "GBR",
+    "city": "Stevenage",
+    "website": "https://www.mbda-systems.com",
+    "tier": "Prime",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CyberEssentialsPlus",
+      "NATO_AQAP2110",
+      "FacilitySecurity_Secret"
+    ],
+    "domains": [
+      "DomainDefence",
+      "AirPlatform",
+      "MaritimePlatform"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat",
+      "Platform_SurfaceCombatant"
+    ],
+    "kics": [
+      "KIC_Munitions",
+      "KIC_SensorsSonar",
+      "KIC_DefenceSystemsIntegration"
+    ],
+    "capabilities": [
+      {
+        "title": "Complex Guided Weapons & Hypersonic Interceptors",
+        "description": "Design and manufacture of beyond-visual-range air-to-air missiles (Meteor), cruise missiles (Storm Shadow), and naval air defence (Sea Ceptor).",
+        "trl": 9,
+        "kic": "KIC_Munitions"
+      }
+    ],
+    "products": [
+      {
+        "name": "Meteor BVR Air-to-Air Missile",
+        "type": "Product"
+      },
+      {
+        "name": "Brimstone Precision Strike Missile",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Guided Weapons In-Service Stockpile Management",
+        "type": "MROService"
+      }
+    ]
+  },
+  {
+    "legal_name": "British Naval Scotland Ltd.",
+    "trade_name": "Naval UK",
+    "cage_code": "K1006",
+    "duns_number": "217017563",
+    "business_number": "GB601586339",
+    "country": "GBR",
+    "city": "Glasgow",
+    "website": "https://www.britishnavalscotlandltd..co.uk",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CyberEssentialsPlus"
+    ],
+    "domains": [
+      "DomainDefence",
+      "AirPlatform"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat"
+    ],
+    "kics": [
+      "KIC_SensorsSonar"
+    ],
+    "capabilities": [
+      {
+        "title": "Naval Combat Sensor Processing & EW Suites",
+        "description": "Radar electronic support measures (ESM), ELINT receivers, and naval countermeasures.",
+        "trl": 8,
+        "kic": "KIC_SensorsSonar"
+      }
+    ],
+    "products": [
+      {
+        "name": "British Naval Scotland Ltd. Spec-Item",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "British Naval Scotland Ltd. Field Support",
+        "type": "Service"
+      }
+    ]
+  },
+  {
+    "legal_name": "British Naval South West Ltd.",
+    "trade_name": "Naval UK",
+    "cage_code": "K1007",
+    "duns_number": "214719445",
+    "business_number": "GB409798605",
+    "country": "GBR",
+    "city": "Filton",
+    "website": "https://www.britishnavalsouthwestltd..co.uk",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CyberEssentialsPlus"
+    ],
+    "domains": [
+      "DomainDefence",
+      "AirPlatform"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat"
+    ],
+    "kics": [
+      "KIC_SensorsSonar"
+    ],
+    "capabilities": [
+      {
+        "title": "Naval Combat Sensor Processing & EW Suites",
+        "description": "Radar electronic support measures (ESM), ELINT receivers, and naval countermeasures.",
+        "trl": 8,
+        "kic": "KIC_SensorsSonar"
+      }
+    ],
+    "products": [
+      {
+        "name": "British Naval South West Ltd. Spec-Item",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "British Naval South West Ltd. Field Support",
+        "type": "Service"
+      }
+    ]
+  },
+  {
+    "legal_name": "British Naval Northern Ireland Ltd.",
+    "trade_name": "Naval UK",
+    "cage_code": "K1008",
+    "duns_number": "216520333",
+    "business_number": "GB570279617",
+    "country": "GBR",
+    "city": "Belfast",
+    "website": "https://www.britishnavalnorthernirelandltd..co.uk",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CyberEssentialsPlus"
+    ],
+    "domains": [
+      "DomainDefence",
+      "AirPlatform"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat"
+    ],
+    "kics": [
+      "KIC_SensorsSonar"
+    ],
+    "capabilities": [
+      {
+        "title": "Naval Combat Sensor Processing & EW Suites",
+        "description": "Radar electronic support measures (ESM), ELINT receivers, and naval countermeasures.",
+        "trl": 8,
+        "kic": "KIC_SensorsSonar"
+      }
+    ],
+    "products": [
+      {
+        "name": "British Naval Northern Ireland Ltd. Spec-Item",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "British Naval Northern Ireland Ltd. Field Support",
+        "type": "Service"
+      }
+    ]
+  },
+  {
+    "legal_name": "British Ruggedized South West Ltd.",
+    "trade_name": "Ruggedized UK",
+    "cage_code": "K1009",
+    "duns_number": "214242811",
+    "business_number": "GB272943918",
+    "country": "GBR",
+    "city": "Bristol",
+    "website": "https://www.britishruggedizedsouthwestltd..co.uk",
+    "tier": "SMESupplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CyberEssentialsPlus"
+    ],
+    "domains": [
+      "DomainDefence",
+      "AirPlatform"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat"
+    ],
+    "kics": [
+      "KIC_CyberResilience"
+    ],
+    "capabilities": [
+      {
+        "title": "Ruggedized Defense Cyber Enclaves",
+        "description": "TEMPEST-compliant hardware enclaves and secure fieldable routers.",
+        "trl": 8,
+        "kic": "KIC_CyberResilience"
+      }
+    ],
+    "products": [
+      {
+        "name": "British Ruggedized South West Ltd. Spec-Item",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "British Ruggedized South West Ltd. Field Support",
+        "type": "Service"
+      }
+    ]
+  },
+  {
+    "legal_name": "British Precision South West Ltd.",
+    "trade_name": "Precision UK",
+    "cage_code": "K1010",
+    "duns_number": "217149100",
+    "business_number": "GB305741104",
+    "country": "GBR",
+    "city": "Bristol",
+    "website": "https://www.britishprecisionsouthwestltd..co.uk",
+    "tier": "SMESupplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CyberEssentialsPlus"
+    ],
+    "domains": [
+      "DomainDefence",
+      "AirPlatform"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat"
+    ],
+    "kics": [
+      "KIC_AdvancedMaterials"
+    ],
+    "capabilities": [
+      {
+        "title": "Precision Additive Layer Titanium Manufacturing",
+        "description": "Laser powder bed fusion for mission-critical aerospace brackets and heat exchangers.",
+        "trl": 8,
+        "kic": "KIC_AdvancedMaterials"
+      }
+    ],
+    "products": [
+      {
+        "name": "British Precision South West Ltd. Spec-Item",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "British Precision South West Ltd. Field Support",
+        "type": "Service"
+      }
+    ]
+  },
+  {
+    "legal_name": "British Ruggedized Northern Ireland Ltd.",
+    "trade_name": "Ruggedized UK",
+    "cage_code": "K1011",
+    "duns_number": "215006740",
+    "business_number": "GB784431938",
+    "country": "GBR",
+    "city": "Belfast",
+    "website": "https://www.britishruggedizednorthernirelandltd..co.uk",
+    "tier": "SMESupplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CyberEssentialsPlus"
+    ],
+    "domains": [
+      "DomainDefence",
+      "AirPlatform"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat"
+    ],
+    "kics": [
+      "KIC_CyberResilience"
+    ],
+    "capabilities": [
+      {
+        "title": "Ruggedized Defense Cyber Enclaves",
+        "description": "TEMPEST-compliant hardware enclaves and secure fieldable routers.",
+        "trl": 8,
+        "kic": "KIC_CyberResilience"
+      }
+    ],
+    "products": [
+      {
+        "name": "British Ruggedized Northern Ireland Ltd. Spec-Item",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "British Ruggedized Northern Ireland Ltd. Field Support",
+        "type": "Service"
+      }
+    ]
+  },
+  {
+    "legal_name": "British Precision North West Ltd.",
+    "trade_name": "Precision UK",
+    "cage_code": "K1012",
+    "duns_number": "214494152",
+    "business_number": "GB167537234",
+    "country": "GBR",
+    "city": "Preston",
+    "website": "https://www.britishprecisionnorthwestltd..co.uk",
+    "tier": "SMESupplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CyberEssentialsPlus"
+    ],
+    "domains": [
+      "DomainDefence",
+      "AirPlatform"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat"
+    ],
+    "kics": [
+      "KIC_AdvancedMaterials"
+    ],
+    "capabilities": [
+      {
+        "title": "Precision Additive Layer Titanium Manufacturing",
+        "description": "Laser powder bed fusion for mission-critical aerospace brackets and heat exchangers.",
+        "trl": 8,
+        "kic": "KIC_AdvancedMaterials"
+      }
+    ],
+    "products": [
+      {
+        "name": "British Precision North West Ltd. Spec-Item",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "British Precision North West Ltd. Field Support",
+        "type": "Service"
+      }
+    ]
+  },
+  {
+    "legal_name": "British Precision North West Ltd.",
+    "trade_name": "Precision UK",
+    "cage_code": "K1013",
+    "duns_number": "216105135",
+    "business_number": "GB327362417",
+    "country": "GBR",
+    "city": "Preston",
+    "website": "https://www.britishprecisionnorthwestltd..co.uk",
+    "tier": "SMESupplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CyberEssentialsPlus"
+    ],
+    "domains": [
+      "DomainDefence",
+      "AirPlatform"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat"
+    ],
+    "kics": [
+      "KIC_AdvancedMaterials"
+    ],
+    "capabilities": [
+      {
+        "title": "Precision Additive Layer Titanium Manufacturing",
+        "description": "Laser powder bed fusion for mission-critical aerospace brackets and heat exchangers.",
+        "trl": 8,
+        "kic": "KIC_AdvancedMaterials"
+      }
+    ],
+    "products": [
+      {
+        "name": "British Precision North West Ltd. Spec-Item",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "British Precision North West Ltd. Field Support",
+        "type": "Service"
+      }
+    ]
+  },
+  {
+    "legal_name": "British Ruggedized South West Ltd.",
+    "trade_name": "Ruggedized UK",
+    "cage_code": "K1014",
+    "duns_number": "215484861",
+    "business_number": "GB523744618",
+    "country": "GBR",
+    "city": "Bristol",
+    "website": "https://www.britishruggedizedsouthwestltd..co.uk",
+    "tier": "SMESupplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CyberEssentialsPlus"
+    ],
+    "domains": [
+      "DomainDefence",
+      "AirPlatform"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat"
+    ],
+    "kics": [
+      "KIC_CyberResilience"
+    ],
+    "capabilities": [
+      {
+        "title": "Ruggedized Defense Cyber Enclaves",
+        "description": "TEMPEST-compliant hardware enclaves and secure fieldable routers.",
+        "trl": 8,
+        "kic": "KIC_CyberResilience"
+      }
+    ],
+    "products": [
+      {
+        "name": "British Ruggedized South West Ltd. Spec-Item",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "British Ruggedized South West Ltd. Field Support",
+        "type": "Service"
+      }
+    ]
+  },
+  {
+    "legal_name": "British Naval North West Ltd.",
+    "trade_name": "Naval UK",
+    "cage_code": "K1015",
+    "duns_number": "218096209",
+    "business_number": "GB182505000",
+    "country": "GBR",
+    "city": "Preston",
+    "website": "https://www.britishnavalnorthwestltd..co.uk",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CyberEssentialsPlus"
+    ],
+    "domains": [
+      "DomainDefence",
+      "AirPlatform"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat"
+    ],
+    "kics": [
+      "KIC_SensorsSonar"
+    ],
+    "capabilities": [
+      {
+        "title": "Naval Combat Sensor Processing & EW Suites",
+        "description": "Radar electronic support measures (ESM), ELINT receivers, and naval countermeasures.",
+        "trl": 8,
+        "kic": "KIC_SensorsSonar"
+      }
+    ],
+    "products": [
+      {
+        "name": "British Naval North West Ltd. Spec-Item",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "British Naval North West Ltd. Field Support",
+        "type": "Service"
+      }
+    ]
+  },
+  {
+    "legal_name": "British Precision North West Ltd.",
+    "trade_name": "Precision UK",
+    "cage_code": "K1016",
+    "duns_number": "211109363",
+    "business_number": "GB598329387",
+    "country": "GBR",
+    "city": "Preston",
+    "website": "https://www.britishprecisionnorthwestltd..co.uk",
+    "tier": "SMESupplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CyberEssentialsPlus"
+    ],
+    "domains": [
+      "DomainDefence",
+      "AirPlatform"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat"
+    ],
+    "kics": [
+      "KIC_AdvancedMaterials"
+    ],
+    "capabilities": [
+      {
+        "title": "Precision Additive Layer Titanium Manufacturing",
+        "description": "Laser powder bed fusion for mission-critical aerospace brackets and heat exchangers.",
+        "trl": 8,
+        "kic": "KIC_AdvancedMaterials"
+      }
+    ],
+    "products": [
+      {
+        "name": "British Precision North West Ltd. Spec-Item",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "British Precision North West Ltd. Field Support",
+        "type": "Service"
+      }
+    ]
+  },
+  {
+    "legal_name": "British High-Integrity Midlands Ltd.",
+    "trade_name": "High-Integrity UK",
+    "cage_code": "K1017",
+    "duns_number": "216796766",
+    "business_number": "GB954274629",
+    "country": "GBR",
+    "city": "Derby",
+    "website": "https://www.britishhigh-integritymidlandsltd..co.uk",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CyberEssentialsPlus"
+    ],
+    "domains": [
+      "DomainDefence",
+      "AirPlatform"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "High-Integrity Flight Control Actuation",
+        "description": "Safety-critical electromechanical actuators for UAVs and military aircraft.",
+        "trl": 8,
+        "kic": "KIC_AerospaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "British High-Integrity Midlands Ltd. Spec-Item",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "British High-Integrity Midlands Ltd. Field Support",
+        "type": "Service"
+      }
+    ]
+  },
+  {
+    "legal_name": "British Ruggedized South West Ltd.",
+    "trade_name": "Ruggedized UK",
+    "cage_code": "K1018",
+    "duns_number": "217033296",
+    "business_number": "GB110140270",
+    "country": "GBR",
+    "city": "Filton",
+    "website": "https://www.britishruggedizedsouthwestltd..co.uk",
+    "tier": "SMESupplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CyberEssentialsPlus"
+    ],
+    "domains": [
+      "DomainDefence",
+      "AirPlatform"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat"
+    ],
+    "kics": [
+      "KIC_CyberResilience"
+    ],
+    "capabilities": [
+      {
+        "title": "Ruggedized Defense Cyber Enclaves",
+        "description": "TEMPEST-compliant hardware enclaves and secure fieldable routers.",
+        "trl": 8,
+        "kic": "KIC_CyberResilience"
+      }
+    ],
+    "products": [
+      {
+        "name": "British Ruggedized South West Ltd. Spec-Item",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "British Ruggedized South West Ltd. Field Support",
+        "type": "Service"
+      }
+    ]
+  },
+  {
+    "legal_name": "British Naval Midlands Ltd.",
+    "trade_name": "Naval UK",
+    "cage_code": "K1019",
+    "duns_number": "211580194",
+    "business_number": "GB563628928",
+    "country": "GBR",
+    "city": "Coventry",
+    "website": "https://www.britishnavalmidlandsltd..co.uk",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CyberEssentialsPlus"
+    ],
+    "domains": [
+      "DomainDefence",
+      "AirPlatform"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat"
+    ],
+    "kics": [
+      "KIC_SensorsSonar"
+    ],
+    "capabilities": [
+      {
+        "title": "Naval Combat Sensor Processing & EW Suites",
+        "description": "Radar electronic support measures (ESM), ELINT receivers, and naval countermeasures.",
+        "trl": 8,
+        "kic": "KIC_SensorsSonar"
+      }
+    ],
+    "products": [
+      {
+        "name": "British Naval Midlands Ltd. Spec-Item",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "British Naval Midlands Ltd. Field Support",
+        "type": "Service"
+      }
+    ]
+  },
+  {
+    "legal_name": "British Ruggedized South West Ltd.",
+    "trade_name": "Ruggedized UK",
+    "cage_code": "K1020",
+    "duns_number": "212102918",
+    "business_number": "GB919916932",
+    "country": "GBR",
+    "city": "Yeovil",
+    "website": "https://www.britishruggedizedsouthwestltd..co.uk",
+    "tier": "SMESupplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CyberEssentialsPlus"
+    ],
+    "domains": [
+      "DomainDefence",
+      "AirPlatform"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat"
+    ],
+    "kics": [
+      "KIC_CyberResilience"
+    ],
+    "capabilities": [
+      {
+        "title": "Ruggedized Defense Cyber Enclaves",
+        "description": "TEMPEST-compliant hardware enclaves and secure fieldable routers.",
+        "trl": 8,
+        "kic": "KIC_CyberResilience"
+      }
+    ],
+    "products": [
+      {
+        "name": "British Ruggedized South West Ltd. Spec-Item",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "British Ruggedized South West Ltd. Field Support",
+        "type": "Service"
+      }
+    ]
+  },
+  {
+    "legal_name": "British Precision South West Ltd.",
+    "trade_name": "Precision UK",
+    "cage_code": "K1021",
+    "duns_number": "217086511",
+    "business_number": "GB800497028",
+    "country": "GBR",
+    "city": "Yeovil",
+    "website": "https://www.britishprecisionsouthwestltd..co.uk",
+    "tier": "SMESupplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CyberEssentialsPlus"
+    ],
+    "domains": [
+      "DomainDefence",
+      "AirPlatform"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat"
+    ],
+    "kics": [
+      "KIC_AdvancedMaterials"
+    ],
+    "capabilities": [
+      {
+        "title": "Precision Additive Layer Titanium Manufacturing",
+        "description": "Laser powder bed fusion for mission-critical aerospace brackets and heat exchangers.",
+        "trl": 8,
+        "kic": "KIC_AdvancedMaterials"
+      }
+    ],
+    "products": [
+      {
+        "name": "British Precision South West Ltd. Spec-Item",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "British Precision South West Ltd. Field Support",
+        "type": "Service"
+      }
+    ]
+  },
+  {
+    "legal_name": "British Precision Scotland Ltd.",
+    "trade_name": "Precision UK",
+    "cage_code": "K1022",
+    "duns_number": "213790564",
+    "business_number": "GB635208448",
+    "country": "GBR",
+    "city": "Glasgow",
+    "website": "https://www.britishprecisionscotlandltd..co.uk",
+    "tier": "SMESupplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CyberEssentialsPlus"
+    ],
+    "domains": [
+      "DomainDefence",
+      "AirPlatform"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat"
+    ],
+    "kics": [
+      "KIC_AdvancedMaterials"
+    ],
+    "capabilities": [
+      {
+        "title": "Precision Additive Layer Titanium Manufacturing",
+        "description": "Laser powder bed fusion for mission-critical aerospace brackets and heat exchangers.",
+        "trl": 8,
+        "kic": "KIC_AdvancedMaterials"
+      }
+    ],
+    "products": [
+      {
+        "name": "British Precision Scotland Ltd. Spec-Item",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "British Precision Scotland Ltd. Field Support",
+        "type": "Service"
+      }
+    ]
+  },
+  {
+    "legal_name": "British Ruggedized Scotland Ltd.",
+    "trade_name": "Ruggedized UK",
+    "cage_code": "K1023",
+    "duns_number": "214039312",
+    "business_number": "GB842041806",
+    "country": "GBR",
+    "city": "Edinburgh",
+    "website": "https://www.britishruggedizedscotlandltd..co.uk",
+    "tier": "SMESupplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CyberEssentialsPlus"
+    ],
+    "domains": [
+      "DomainDefence",
+      "AirPlatform"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat"
+    ],
+    "kics": [
+      "KIC_CyberResilience"
+    ],
+    "capabilities": [
+      {
+        "title": "Ruggedized Defense Cyber Enclaves",
+        "description": "TEMPEST-compliant hardware enclaves and secure fieldable routers.",
+        "trl": 8,
+        "kic": "KIC_CyberResilience"
+      }
+    ],
+    "products": [
+      {
+        "name": "British Ruggedized Scotland Ltd. Spec-Item",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "British Ruggedized Scotland Ltd. Field Support",
+        "type": "Service"
+      }
+    ]
+  },
+  {
+    "legal_name": "British High-Integrity Scotland Ltd.",
+    "trade_name": "High-Integrity UK",
+    "cage_code": "K1024",
+    "duns_number": "212410315",
+    "business_number": "GB170811677",
+    "country": "GBR",
+    "city": "Edinburgh",
+    "website": "https://www.britishhigh-integrityscotlandltd..co.uk",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CyberEssentialsPlus"
+    ],
+    "domains": [
+      "DomainDefence",
+      "AirPlatform"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "High-Integrity Flight Control Actuation",
+        "description": "Safety-critical electromechanical actuators for UAVs and military aircraft.",
+        "trl": 8,
+        "kic": "KIC_AerospaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "British High-Integrity Scotland Ltd. Spec-Item",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "British High-Integrity Scotland Ltd. Field Support",
+        "type": "Service"
+      }
+    ]
+  }
+]

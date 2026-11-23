@@ -1,0 +1,44 @@
+@prefix aero: <https://w3id.org/aerospace-defence#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+### Quality Standards
+aero:Cert_AS9100D a aero:QualityStandard ;
+    rdfs:label "AS9100 Rev D (Quality Management Systems - Aerospace)"@en ;
+    skos:altLabel "EN 9100:2018" ;
+    rdfs:comment "Standardized quality management system for the aviation, space, and defense industry."@en .
+
+aero:Cert_ISO9001 a aero:QualityStandard ;
+    rdfs:label "ISO 9001:2015 Quality Management System"@en .
+
+aero:Cert_NADCAP_Composites a aero:QualityStandard ;
+    rdfs:label "NADCAP Accreditation - Composites"@en .
+
+aero:Cert_NADCAP_NDT a aero:QualityStandard ;
+    rdfs:label "NADCAP Accreditation - Non-Destructive Testing (NDT)"@en .
+
+aero:Cert_NADCAP_Chemical a aero:QualityStandard ;
+    rdfs:label "NADCAP Accreditation - Chemical Processing"@en .
+
+### Defence & Security Standards
+aero:Cert_CGP_Canada a aero:ExportComplianceStandard ;
+    rdfs:label "Controlled Goods Program (CGP) Certified (Canada)"@en ;
+    rdfs:comment "Mandatory Canadian industrial security program governing access to ITAR and controlled military items."@en .
+
+aero:Cert_ITAR_Compliant a aero:ExportComplianceStandard ;
+    rdfs:label "ITAR / EAR Export Control Compliant"@en ;
+    rdfs:comment "International Traffic in Arms Regulations compliance posture."@en .
+
+aero:Cert_NATO_AQAP2110 a aero:QualityStandard ;
+    rdfs:label "NATO AQAP 2110 (Design, Development and Production)"@en ;
+    rdfs:comment "Allied Quality Assurance Publications standard for NATO defence materiel."@en .
+
+aero:Cert_CyberEssentialsPlus a aero:SecurityClearanceStandard ;
+    rdfs:label "Cyber Essentials Plus (UK MOD Mandate)"@en ;
+    rdfs:comment "UK government-backed certification standard for cyber security."@en .
+
+aero:Cert_CMMC_Level2 a aero:SecurityClearanceStandard ;
+    rdfs:label "CMMC Level 2 (Cybersecurity Maturity Model Certification)"@en .
+
+aero:Cert_FacilitySecurity_Secret a aero:SecurityClearanceStandard ;
+    rdfs:label "Facility Security Clearance - NATO / National Secret Level"@en .

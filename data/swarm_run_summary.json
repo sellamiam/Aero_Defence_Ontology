@@ -1,0 +1,90 @@
+{
+  "status": "completed",
+  "total_duration_sec": 3.431,
+  "stages": [
+    {
+      "agent": "OntologyArchitect",
+      "timestamp": "2026-11-22T22:27:33Z",
+      "result": {
+        "status": "success",
+        "schema_stats": {
+          "is_valid": true,
+          "total_triples": 402,
+          "classes": 38,
+          "object_properties": 16,
+          "data_properties": 20
+        },
+        "duration_sec": 0.221
+      }
+    },
+    {
+      "agent": "CanadianHarvester",
+      "timestamp": "2026-11-22T22:27:33Z",
+      "result": {
+        "status": "success",
+        "records_harvested": 1000,
+        "region": "Canada",
+        "sample_names": [
+          "Bombardier Inc.",
+          "CAE Inc.",
+          "Pratt & Whitney Canada Corp.",
+          "MDA Space Ltd.",
+          "General Dynamics Land Systems-Canada"
+        ],
+        "duration_sec": 0.033
+      }
+    },
+    {
+      "agent": "EuUkHarvester",
+      "timestamp": "2026-11-22T22:27:33Z",
+      "result": {
+        "status": "success",
+        "uk_records": 150,
+        "eu_records": 200,
+        "total_harvested": 350,
+        "duration_sec": 0.009
+      }
+    },
+    {
+      "agent": "EntityResolutionSpecialist",
+      "timestamp": "2026-11-22T22:27:34Z",
+      "result": {
+        "status": "success",
+        "companies_resolved": 1106,
+        "subsidiaries_linked": 6,
+        "capabilities_extracted": 1119,
+        "total_triples": 32321,
+        "duration_sec": 0.826
+      }
+    },
+    {
+      "agent": "KnowledgeGraphStoreEngineer",
+      "timestamp": "2026-11-22T22:27:35Z",
+      "result": {
+        "status": "success",
+        "total_triples": 32723,
+        "total_entities": 1112,
+        "vectors_indexed": 1119,
+        "duration_sec": 1.897
+      }
+    },
+    {
+      "agent": "MatchingEngineDeveloper",
+      "timestamp": "2026-11-22T22:27:36Z",
+      "result": {
+        "status": "success",
+        "scenarios_evaluated": 4,
+        "all_passed": true,
+        "duration_sec": 0.444
+      }
+    }
+  ],
+  "summary_metrics": {
+    "canada_records": 1000,
+    "eu_uk_records": 350,
+    "companies_resolved": 1106,
+    "total_triples": 32723,
+    "vectors_indexed": 1119,
+    "benchmarks_passed": true
+  }
+}

@@ -1,0 +1,371 @@
+@prefix aero: <https://w3id.org/aerospace-defence#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix bfo: <http://purl.obolibrary.org/obo/BFO_> .
+
+<https://w3id.org/aerospace-defence> a owl:Ontology ;
+    dcterms:title "Aerospace and Defence (A&D) Enterprise, Capability & Supply Chain Ontology"@en ;
+    dcterms:description "A formal enterprise-grade W3C OWL 2 ontology representing aerospace and defence ecosystems, multi-tier supply chains, Canadian ITB offset policies, NATO codifications, and hybrid procurement matching across Canada, the EU, and the UK."@en ;
+    owl:versionInfo "2.0.0" ;
+    dcterms:creator "Antigravity Engineering Swarm" .
+
+#################################################################
+#    Upper Ontology Mapping (BFO 2020 & UAF)
+#################################################################
+
+aero:IndependentContinuant a owl:Class ;
+    rdfs:label "Independent Continuant (BFO:0000004)"@en .
+
+aero:SpecificallyDependentContinuant a owl:Class ;
+    rdfs:label "Specifically Dependent Continuant (BFO:0000020)"@en .
+
+aero:Process a owl:Class ;
+    rdfs:label "Occurrent / Process (BFO:0000015)"@en .
+
+#################################################################
+#    Core Classes
+#################################################################
+
+### Organizations & Companies
+aero:Organization a owl:Class ;
+    rdfs:subClassOf aero:IndependentContinuant, org:Organization ;
+    rdfs:label "Organization"@en .
+
+aero:Company a owl:Class ;
+    rdfs:subClassOf aero:Organization ;
+    rdfs:label "Aerospace & Defence Enterprise"@en .
+
+aero:PrimeContractor a owl:Class ;
+    rdfs:subClassOf aero:Company ;
+    rdfs:label "Tier-0 Prime System Integrator"@en .
+
+aero:Tier1Supplier a owl:Class ;
+    rdfs:subClassOf aero:Company ;
+    rdfs:label "Tier-1 Major Subsystem Supplier"@en .
+
+aero:Tier2Supplier a owl:Class ;
+    rdfs:subClassOf aero:Company ;
+    rdfs:label "Tier-2 Component & Precision Specialist"@en .
+
+aero:SMESupplier a owl:Class ;
+    rdfs:subClassOf aero:Company ;
+    rdfs:label "Small & Medium Enterprise (SME) Specialist"@en .
+
+### Critical Strategic Materials
+aero:CriticalMaterial a owl:Class ;
+    rdfs:subClassOf aero:IndependentContinuant ;
+    rdfs:label "Strategic & Critical Defence Material"@en ;
+    rdfs:comment "Critical minerals and advanced raw materials subject to strategic supply chain vulnerability."@en .
+
+### Offerings: Products & Services
+aero:Offering a owl:Class ;
+    rdfs:subClassOf aero:IndependentContinuant ;
+    rdfs:label "Offering"@en .
+
+aero:Product a owl:Class ;
+    rdfs:subClassOf aero:Offering ;
+    rdfs:label "Product"@en .
+
+aero:Service a owl:Class ;
+    rdfs:subClassOf aero:Process ;
+    rdfs:label "Operational Service"@en .
+
+aero:MROService a owl:Class ;
+    rdfs:subClassOf aero:Service ;
+    rdfs:label "Maintenance, Repair & Overhaul (MRO) Service"@en .
+
+aero:EngineeringService a owl:Class ;
+    rdfs:subClassOf aero:Service ;
+    rdfs:label "Systems & Design Engineering Service"@en .
+
+aero:TestingQualificationService a owl:Class ;
+    rdfs:subClassOf aero:Service ;
+    rdfs:label "Testing, Environmental & Flight Qualification Service"@en .
+
+aero:SimulationTrainingService a owl:Class ;
+    rdfs:subClassOf aero:Service ;
+    rdfs:label "Simulation, Synthetic Environment & Training Service"@en .
+
+### Capabilities & Technologies
+aero:Capability a owl:Class ;
+    rdfs:subClassOf aero:SpecificallyDependentContinuant ;
+    rdfs:label "Technical & Industrial Capability"@en .
+
+aero:ManufacturingCapability a owl:Class ;
+    rdfs:subClassOf aero:Capability ;
+    rdfs:label "Advanced Manufacturing Capability"@en .
+
+aero:MaterialsCapability a owl:Class ;
+    rdfs:subClassOf aero:Capability ;
+    rdfs:label "Materials & Processing Capability"@en .
+
+aero:AvionicsSensorCapability a owl:Class ;
+    rdfs:subClassOf aero:Capability ;
+    rdfs:label "Avionics, Radar & Sensor Capability"@en .
+
+aero:CyberC4ISRCapability a owl:Class ;
+    rdfs:subClassOf aero:Capability ;
+    rdfs:label "Cyber, C4ISR & Tactical Communications Capability"@en .
+
+aero:AutonomousSystemsCapability a owl:Class ;
+    rdfs:subClassOf aero:Capability ;
+    rdfs:label "Uncrewed & Autonomous Systems Capability"@en .
+
+aero:SpaceSystemsCapability a owl:Class ;
+    rdfs:subClassOf aero:Capability ;
+    rdfs:label "Space & Orbital Systems Capability"@en .
+
+### Operational Domains & Platforms
+aero:Domain a owl:Class ;
+    rdfs:label "Operational Domain"@en .
+
+aero:Platform a owl:Class ;
+    rdfs:subClassOf aero:IndependentContinuant ;
+    rdfs:label "Major Platform Architecture"@en .
+
+aero:AirPlatform a owl:Class ;
+    rdfs:subClassOf aero:Platform ;
+    rdfs:label "Air Platform (Fixed-Wing, Rotary, eVTOL)"@en .
+
+aero:UASPlatform a owl:Class ;
+    rdfs:subClassOf aero:Platform ;
+    rdfs:label "Unmanned Aerial System (UAS / Drone) Platform"@en .
+
+aero:SpacePlatform a owl:Class ;
+    rdfs:subClassOf aero:Platform ;
+    rdfs:label "Space Platform (Satellite, Launch Vehicle, Payload)"@en .
+
+aero:LandPlatform a owl:Class ;
+    rdfs:subClassOf aero:Platform ;
+    rdfs:label "Land Platform (Armored Combat Vehicle, Tactical)"@en .
+
+aero:MaritimePlatform a owl:Class ;
+    rdfs:subClassOf aero:Platform ;
+    rdfs:label "Maritime Platform (Surface Combatant, Submarine, USV)"@en .
+
+### Standards & Compliance
+aero:Certification a owl:Class ;
+    rdfs:subClassOf aero:SpecificallyDependentContinuant ;
+    rdfs:label "Certification & Compliance Standard"@en .
+
+aero:QualityStandard a owl:Class ;
+    rdfs:subClassOf aero:Certification ;
+    rdfs:label "Aerospace Quality Standard (e.g. AS9100D, ISO 9001)"@en .
+
+aero:SecurityClearanceStandard a owl:Class ;
+    rdfs:subClassOf aero:Certification ;
+    rdfs:label "Security & Facility Clearance Standard"@en .
+
+aero:ExportComplianceStandard a owl:Class ;
+    rdfs:subClassOf aero:Certification ;
+    rdfs:label "Export Control Standard (e.g. ITAR, EAR, Controlled Goods Program)"@en .
+
+### Readiness & Policy
+aero:TechnologyReadinessLevel a owl:Class ;
+    rdfs:label "Technology Readiness Level (TRL 1-9)"@en .
+
+aero:KeyIndustrialCapability a owl:Class ;
+    rdfs:subClassOf skos:Concept ;
+    rdfs:label "Canadian Key Industrial Capability (KIC)"@en .
+
+aero:NATOSupplyClassification a owl:Class ;
+    rdfs:subClassOf skos:Concept ;
+    rdfs:label "NATO FSC Code"@en .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+aero:manufacturesProduct a owl:ObjectProperty ;
+    rdfs:domain aero:Company ;
+    rdfs:range aero:Product ;
+    rdfs:label "manufactures product"@en .
+
+aero:providesService a owl:ObjectProperty ;
+    rdfs:domain aero:Company ;
+    rdfs:range aero:Service ;
+    rdfs:label "provides service"@en .
+
+aero:hasCapability a owl:ObjectProperty ;
+    rdfs:domain aero:Company ;
+    rdfs:range aero:Capability ;
+    rdfs:label "has capability"@en .
+
+aero:requiresCapability a owl:ObjectProperty ;
+    rdfs:domain aero:Product ;
+    rdfs:range aero:Capability ;
+    rdfs:label "requires capability"@en .
+
+aero:holdsCertification a owl:ObjectProperty ;
+    rdfs:domain aero:Company ;
+    rdfs:range aero:Certification ;
+    rdfs:label "holds certification"@en .
+
+aero:deployedOnPlatform a owl:ObjectProperty ;
+    rdfs:domain aero:Product ;
+    rdfs:range aero:Platform ;
+    rdfs:label "deployed on platform"@en .
+
+aero:supportsPlatform a owl:ObjectProperty ;
+    rdfs:domain aero:Service ;
+    rdfs:range aero:Platform ;
+    rdfs:label "supports platform"@en .
+
+aero:operatesInDomain a owl:ObjectProperty ;
+    rdfs:range aero:Domain ;
+    rdfs:label "operates in domain"@en .
+
+aero:alignedWithKIC a owl:ObjectProperty ;
+    rdfs:domain [ owl:unionOf ( aero:Capability aero:Product aero:Service ) ] ;
+    rdfs:range aero:KeyIndustrialCapability ;
+    rdfs:label "aligned with Key Industrial Capability"@en .
+
+### Multi-Tier Supply Chain & Industrial Offsets
+aero:suppliesTo a owl:ObjectProperty ;
+    rdfs:domain aero:Company ;
+    rdfs:range aero:Company ;
+    rdfs:label "supplies to (Supply Chain Link)"@en ;
+    rdfs:comment "Models direct upstream supplier to downstream prime/integrator relationship."@en .
+
+aero:hasDirectSupplier a owl:ObjectProperty ;
+    rdfs:domain aero:Company ;
+    rdfs:range aero:Company ;
+    owl:inverseOf aero:suppliesTo ;
+    rdfs:label "has direct supplier"@en .
+
+aero:dependsOnMaterial a owl:ObjectProperty ;
+    rdfs:domain [ owl:unionOf ( aero:Product aero:Capability ) ] ;
+    rdfs:range aero:CriticalMaterial ;
+    rdfs:label "depends on critical material"@en .
+
+aero:hasSubsidiary a owl:ObjectProperty ;
+    rdfs:domain aero:Company ;
+    rdfs:range aero:Company ;
+    owl:inverseOf aero:subsidiaryOf ;
+    rdfs:label "has subsidiary"@en .
+
+aero:subsidiaryOf a owl:ObjectProperty ;
+    rdfs:domain aero:Company ;
+    rdfs:range aero:Company ;
+    rdfs:label "subsidiary of"@en .
+
+aero:partnersWith a owl:ObjectProperty, owl:SymmetricProperty ;
+    rdfs:domain aero:Company ;
+    rdfs:range aero:Company ;
+    rdfs:label "partners with / teaming agreement"@en .
+
+aero:hasTRL a owl:ObjectProperty ;
+    rdfs:domain aero:Capability ;
+    rdfs:range aero:TechnologyReadinessLevel ;
+    rdfs:label "has TRL"@en .
+
+#################################################################
+#    Datatype Properties
+#################################################################
+
+aero:legalName a owl:DatatypeProperty ;
+    rdfs:domain aero:Organization ;
+    rdfs:range xsd:string ;
+    rdfs:label "legal name"@en .
+
+aero:tradeName a owl:DatatypeProperty ;
+    rdfs:domain aero:Organization ;
+    rdfs:range xsd:string ;
+    rdfs:label "trade name / DBA"@en .
+
+aero:cageCode a owl:DatatypeProperty ;
+    rdfs:domain aero:Company ;
+    rdfs:range xsd:string ;
+    rdfs:label "CAGE / NCAGE Code"@en .
+
+aero:dunsNumber a owl:DatatypeProperty ;
+    rdfs:domain aero:Company ;
+    rdfs:range xsd:string ;
+    rdfs:label "DUNS Number"@en .
+
+aero:businessNumber a owl:DatatypeProperty ;
+    rdfs:domain aero:Company ;
+    rdfs:range xsd:string ;
+    rdfs:label "Government Business Number"@en .
+
+aero:headquartersCountry a owl:DatatypeProperty ;
+    rdfs:domain aero:Company ;
+    rdfs:range xsd:string ;
+    rdfs:label "Headquarters Country (ISO-3)"@en .
+
+aero:headquartersProvince a owl:DatatypeProperty ;
+    rdfs:domain aero:Company ;
+    rdfs:range xsd:string ;
+    rdfs:label "Headquarters Province or State Code"@en .
+
+aero:headquartersCity a owl:DatatypeProperty ;
+    rdfs:domain aero:Company ;
+    rdfs:range xsd:string ;
+    rdfs:label "Headquarters City"@en .
+
+aero:website a owl:DatatypeProperty ;
+    rdfs:domain aero:Company ;
+    rdfs:range xsd:anyURI ;
+    rdfs:label "Official Website"@en .
+
+aero:controlledGoodsRegistered a owl:DatatypeProperty ;
+    rdfs:domain aero:Company ;
+    rdfs:range xsd:boolean ;
+    rdfs:label "Registered with Canadian Controlled Goods Program (CGP)"@en .
+
+aero:itarCompliant a owl:DatatypeProperty ;
+    rdfs:domain aero:Company ;
+    rdfs:range xsd:boolean ;
+    rdfs:label "ITAR / EAR Compliance Posture"@en .
+
+### Canadian Industrial & Technological Benefits (ITB) & Value Proposition
+aero:canadianContentPercentage a owl:DatatypeProperty ;
+    rdfs:domain aero:Company ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "Canadian Content Value (CCV) Percentage"@en .
+
+aero:itbMultiplier a owl:DatatypeProperty ;
+    rdfs:domain aero:Company ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "ITB Offset R&D Policy Multiplier (e.g. 1.0 - 5.0x)"@en .
+
+aero:facilitySecurityClearance a owl:DatatypeProperty ;
+    rdfs:domain aero:Company ;
+    rdfs:range xsd:string ;
+    rdfs:label "Security Clearance Level (e.g. NATO Secret, Top Secret)"@en .
+
+aero:capabilityDescription a owl:DatatypeProperty ;
+    rdfs:domain aero:Capability ;
+    rdfs:range xsd:string ;
+    rdfs:label "Capability Detailed Description"@en .
+
+aero:trlValue a owl:DatatypeProperty ;
+    rdfs:domain aero:Capability ;
+    rdfs:range xsd:integer ;
+    rdfs:label "TRL Integer Value (1-9)"@en .
+
+aero:mrlValue a owl:DatatypeProperty ;
+    rdfs:domain aero:Capability ;
+    rdfs:range xsd:integer ;
+    rdfs:label "MRL Integer Value (1-10)"@en .
+
+aero:nsnCode a owl:DatatypeProperty ;
+    rdfs:domain aero:Product ;
+    rdfs:range xsd:string ;
+    rdfs:label "NATO Stock Number (NSN)"@en .
+
+aero:fscCode a owl:DatatypeProperty ;
+    rdfs:domain aero:Product ;
+    rdfs:range xsd:string ;
+    rdfs:label "Federal Supply Classification (FSC) 4-digit code"@en .
+
+aero:partNumber a owl:DatatypeProperty ;
+    rdfs:domain aero:Product ;
+    rdfs:range xsd:string ;
+    rdfs:label "Manufacturer Part Number"@en .

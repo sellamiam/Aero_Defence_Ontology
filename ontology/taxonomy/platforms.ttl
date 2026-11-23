@@ -1,0 +1,27 @@
+@prefix aero: <https://w3id.org/aerospace-defence#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+aero:Platform_FixedWingCombat a aero:AirPlatform ;
+    rdfs:label "Combat Fixed-Wing Aircraft (Fighter / Strike)"@en .
+
+aero:Platform_FixedWingTransport a aero:AirPlatform ;
+    rdfs:label "Tactical Transport & Maritime Patrol Aircraft"@en .
+
+aero:Platform_RotaryWing a aero:AirPlatform ;
+    rdfs:label "Military & Civil Helicopter / Rotary-Wing Platform"@en .
+
+aero:Platform_TacticalUAS a aero:UASPlatform ;
+    rdfs:label "Tactical / MALE Unmanned Aerial System (UAS)"@en .
+
+aero:Platform_LEOSatellite a aero:SpacePlatform ;
+    rdfs:label "Low Earth Orbit (LEO) Constellation / SmallSat"@en .
+
+aero:Platform_ArmouredCombatVehicle a aero:LandPlatform ;
+    rdfs:label "Armoured Combat Vehicle (LAV / AFV / MBT)"@en .
+
+aero:Platform_SurfaceCombatant a aero:MaritimePlatform ;
+    rdfs:label "Naval Surface Combatant (Frigate / Destroyer / OPV)"@en .
+
+aero:Platform_Submarine a aero:MaritimePlatform ;
+    rdfs:label "Submarine / Submersible System"@en .

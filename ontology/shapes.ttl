@@ -1,0 +1,78 @@
+@prefix aero: <https://w3id.org/aerospace-defence#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+#################################################################
+#    SHACL Constraint Shapes
+#################################################################
+
+aero:CompanyShape a sh:NodeShape ;
+    sh:targetClass aero:Company ;
+    sh:property [
+        sh:path aero:legalName ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:name "Legal Name" ;
+        sh:description "A company must have exactly one legal name." ;
+    ] ;
+    sh:property [
+        sh:path aero:headquartersCountry ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:pattern "^[A-Z]{3}$" ;
+        sh:name "Country Code" ;
+        sh:description "Country must be an ISO 3166-1 alpha-3 code (e.g. CAN, GBR, FRA, DEU)." ;
+    ] ;
+    sh:property [
+        sh:path aero:hasCapability ;
+        sh:class aero:Capability ;
+        sh:name "Capabilities" ;
+        sh:description "Points to validated capability instances." ;
+    ] ;
+    sh:property [
+        sh:path aero:holdsCertification ;
+        sh:class aero:Certification ;
+        sh:name "Certifications" ;
+        sh:description "Points to verified certifications." ;
+    ] .
+
+aero:CapabilityShape a sh:NodeShape ;
+    sh:targetClass aero:Capability ;
+    sh:property [
+        sh:path rdfs:label ;
+        sh:minCount 1 ;
+        sh:name "Capability Title" ;
+    ] ;
+    sh:property [
+        sh:path aero:capabilityDescription ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+        sh:name "Capability Description" ;
+    ] ;
+    sh:property [
+        sh:path aero:trlValue ;
+        sh:datatype xsd:integer ;
+        sh:minInclusive 1 ;
+        sh:maxInclusive 9 ;
+        sh:name "TRL Range" ;
+        sh:description "TRL must be an integer between 1 and 9." ;
+    ] .
+
+aero:ProductShape a sh:NodeShape ;
+    sh:targetClass aero:Product ;
+    sh:property [
+        sh:path rdfs:label ;
+        sh:minCount 1 ;
+        sh:name "Product Name" ;
+    ] .
+
+aero:CertificationShape a sh:NodeShape ;
+    sh:targetClass aero:Certification ;
+    sh:property [
+        sh:path rdfs:label ;
+        sh:minCount 1 ;
+        sh:name "Certification Name" ;
+    ] .

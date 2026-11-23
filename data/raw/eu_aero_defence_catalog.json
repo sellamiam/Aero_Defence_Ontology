@@ -1,0 +1,1292 @@
+[
+  {
+    "legal_name": "Airbus SE",
+    "trade_name": "Airbus Defence and Space",
+    "cage_code": "F0259",
+    "duns_number": "402948172",
+    "business_number": "NL811928471B01",
+    "country": "FRA",
+    "city": "Toulouse",
+    "website": "https://www.airbus.com/en/defence",
+    "tier": "Prime",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "NATO_AQAP2110",
+      "FacilitySecurity_Secret"
+    ],
+    "domains": [
+      "AirPlatform",
+      "SpacePlatform",
+      "DomainDefence",
+      "DomainSpace"
+    ],
+    "platforms": [
+      "Platform_FixedWingTransport",
+      "Platform_FixedWingCombat",
+      "Platform_LEOSatellite"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems",
+      "KIC_SpaceSystems",
+      "KIC_DefenceSystemsIntegration"
+    ],
+    "capabilities": [
+      {
+        "title": "Tactical & Strategic Military Transport Aircraft (A400M)",
+        "description": "Heavy-lift tactical transport, aerial refuelling tanker, and multi-role transport aircraft architectures.",
+        "trl": 9,
+        "kic": "KIC_AerospaceSystems"
+      },
+      {
+        "title": "Earth Observation & Telecom Satellite Constellations",
+        "description": "Pléiades Neo high-resolution optical observation satellites and Eurostar satellite platforms.",
+        "trl": 9,
+        "kic": "KIC_SpaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "A400M Atlas Military Transport",
+        "type": "Product"
+      },
+      {
+        "name": "Eurostar Neo Telecommunications Satellite",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Military Aircraft Fleet In-Service Support and Maintenance",
+        "type": "MROService"
+      }
+    ]
+  },
+  {
+    "legal_name": "Dassault Aviation SA",
+    "trade_name": "Dassault Aviation",
+    "cage_code": "F1342",
+    "duns_number": "400192837",
+    "business_number": "FR847192847",
+    "country": "FRA",
+    "city": "Saint-Cloud",
+    "website": "https://www.dassault-aviation.com",
+    "tier": "Prime",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "NATO_AQAP2110",
+      "FacilitySecurity_Secret"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainDefence",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat"
+    ],
+    "kics": [
+      "KIC_DefenceSystemsIntegration",
+      "KIC_AerospaceSystems",
+      "KIC_AIAutonomousSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Omnirole Combat Aircraft Design and System Integration (Rafale)",
+        "description": "Advanced aerodynamic delta-canard fighter, carrier-capable naval aviation, and nuclear deterrence delivery systems.",
+        "trl": 9,
+        "kic": "KIC_DefenceSystemsIntegration"
+      },
+      {
+        "title": "Uncrewed Combat Aerial Vehicle (UCAV nEUROn)",
+        "description": "Stealth flying-wing autonomous combat drone technology demonstrator with autonomous weapon release.",
+        "trl": 7,
+        "kic": "KIC_AIAutonomousSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Rafale F4 Omnirole Combat Fighter",
+        "type": "Product"
+      },
+      {
+        "name": "Falcon 8X Archange Strategic Reconnaissance",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Combat Aircraft Maintenance & Fleet Readiness",
+        "type": "MROService"
+      }
+    ]
+  },
+  {
+    "legal_name": "Rheinmetall AG",
+    "trade_name": "Rheinmetall Defence",
+    "cage_code": "D1829",
+    "duns_number": "319482710",
+    "business_number": "DE129384751",
+    "country": "DEU",
+    "city": "Düsseldorf",
+    "website": "https://www.rheinmetall.com",
+    "tier": "Prime",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "NATO_AQAP2110",
+      "FacilitySecurity_Secret"
+    ],
+    "domains": [
+      "LandPlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_ArmouredCombatVehicle"
+    ],
+    "kics": [
+      "KIC_ArmouredVehicles",
+      "KIC_Munitions",
+      "KIC_DefenceSystemsIntegration"
+    ],
+    "capabilities": [
+      {
+        "title": "Heavy Armoured Combat Vehicles and Turret Integration",
+        "description": "Main Battle Tank Leopard 2 armament, Boxer wheeled tactical vehicle, and Lynx infantry fighting vehicle.",
+        "trl": 9,
+        "kic": "KIC_ArmouredVehicles"
+      },
+      {
+        "title": "Large Calibre Tank Gun & Artillery Ammunition",
+        "description": "120mm smoothbore tank ammunition and 155mm extended range artillery projectiles.",
+        "trl": 9,
+        "kic": "KIC_Munitions"
+      }
+    ],
+    "products": [
+      {
+        "name": "Lynx KF41 Infantry Fighting Vehicle",
+        "type": "Product"
+      },
+      {
+        "name": "Boxer 8x8 Multi-Role Armoured Vehicle",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Armoured Vehicle Mid-Life Upgrade and Repair",
+        "type": "MROService"
+      }
+    ]
+  },
+  {
+    "legal_name": "Leonardo S.p.A.",
+    "trade_name": "Leonardo",
+    "cage_code": "A1209",
+    "duns_number": "504928174",
+    "business_number": "IT004829104",
+    "country": "ITA",
+    "city": "Rome",
+    "website": "https://www.leonardo.com",
+    "tier": "Prime",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "NATO_AQAP2110",
+      "FacilitySecurity_Secret"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainDefence",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "Platform_RotaryWing",
+      "Platform_FixedWingCombat"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems",
+      "KIC_SensorsSonar",
+      "KIC_CyberResilience"
+    ],
+    "capabilities": [
+      {
+        "title": "Military & Commercial Rotorcraft Development (AW139, AW101)",
+        "description": "Design, manufacture, and mission equipment integration for medium and heavy tactical transport helicopters.",
+        "trl": 9,
+        "kic": "KIC_AerospaceSystems"
+      },
+      {
+        "title": "AESA Airborne Fire Control and Surveillance Radar",
+        "description": "Active Electronically Scanned Array (AESA) radar systems (Captor-E, Kronos) for multi-role fighters and naval vessels.",
+        "trl": 9,
+        "kic": "KIC_SensorsSonar"
+      }
+    ],
+    "products": [
+      {
+        "name": "AW101 Medium/Heavy Tactical Helicopter",
+        "type": "Product"
+      },
+      {
+        "name": "M-346 Advanced Jet Trainer",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Helicopter Fleet Life Support and Avionics Upgrade",
+        "type": "MROService"
+      }
+    ]
+  },
+  {
+    "legal_name": "Saab AB",
+    "trade_name": "Saab",
+    "cage_code": "S1492",
+    "duns_number": "602938471",
+    "business_number": "SE556036079301",
+    "country": "SWE",
+    "city": "Linköping",
+    "website": "https://www.saab.com",
+    "tier": "Prime",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "NATO_AQAP2110"
+    ],
+    "domains": [
+      "AirPlatform",
+      "MaritimePlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat",
+      "Platform_Submarine"
+    ],
+    "kics": [
+      "KIC_DefenceSystemsIntegration",
+      "KIC_SensorsSonar",
+      "KIC_NavalShipbuilding"
+    ],
+    "capabilities": [
+      {
+        "title": "Gripen E Smart Multirole Combat Fighter",
+        "description": "Dispersed road-base operational capability, electronic warfare integration, and GaN-based radar sensor fusion.",
+        "trl": 9,
+        "kic": "KIC_DefenceSystemsIntegration"
+      },
+      {
+        "title": "AIP Conventional Submarine Construction (Blekinge Class)",
+        "description": "Air-Independent Propulsion (AIP) Stirling technology for stealth littoral submarine operations.",
+        "trl": 8,
+        "kic": "KIC_NavalShipbuilding"
+      }
+    ],
+    "products": [
+      {
+        "name": "Gripen E/F Fighter",
+        "type": "Product"
+      },
+      {
+        "name": "GlobalEye Airborne Early Warning & Control (AEW&C)",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Airborne Sensor Integration and Fleet Support",
+        "type": "EngineeringService"
+      }
+    ]
+  },
+  {
+    "legal_name": "Thales SA",
+    "trade_name": "Thales Group",
+    "cage_code": "F0198",
+    "duns_number": "409281749",
+    "business_number": "FR552049281",
+    "country": "FRA",
+    "city": "Courbevoie",
+    "website": "https://www.thalesgroup.com",
+    "tier": "Prime",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "NATO_AQAP2110",
+      "FacilitySecurity_Secret"
+    ],
+    "domains": [
+      "DomainDefence",
+      "AirPlatform",
+      "MaritimePlatform",
+      "SpacePlatform"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat",
+      "Platform_SurfaceCombatant",
+      "Platform_LEOSatellite"
+    ],
+    "kics": [
+      "KIC_SensorsSonar",
+      "KIC_CyberResilience",
+      "KIC_DefenceSystemsIntegration"
+    ],
+    "capabilities": [
+      {
+        "title": "Undersea Warfare Acoustic Sonar Systems",
+        "description": "Hull-mounted active sonars, variable depth sonars (CAPTAS-4), and FLASH airborne dipping sonars for anti-submarine warfare.",
+        "trl": 9,
+        "kic": "KIC_SensorsSonar"
+      },
+      {
+        "title": "Civil and Military Flight Avionics & Fly-by-Wire Suites",
+        "description": "Cockpit head-up displays, integrated modular avionics (IMA), and mission computers.",
+        "trl": 9,
+        "kic": "KIC_AerospaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "CAPTAS-4 Variable Depth Sonar",
+        "type": "Product"
+      },
+      {
+        "name": "TopOwl Helmet-Mounted Sight & Display",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Mission Avionics Depot Maintenance",
+        "type": "MROService"
+      }
+    ]
+  },
+  {
+    "legal_name": "Euro-Electro-Optic Liège S.A.",
+    "trade_name": "Electro-Optic Europe",
+    "cage_code": "E2006",
+    "duns_number": "407869231",
+    "business_number": "BEL312694768",
+    "country": "BEL",
+    "city": "Liège",
+    "website": "https://www.euro-electro-opticliègesa.eu",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "NATO_AQAP2110"
+    ],
+    "domains": [
+      "DomainDefence",
+      "AirPlatform"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat"
+    ],
+    "kics": [
+      "KIC_EOIRSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Electro-Optic Missile Warning and DIRCM",
+        "description": "Directed Infrared Countermeasure systems for helicopter and transport aircraft protection.",
+        "trl": 8,
+        "kic": "KIC_EOIRSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Euro-Electro-Optic Liège S.A. Component-X",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Euro-Electro-Optic Liège S.A. Integration & Field Testing",
+        "type": "Service"
+      }
+    ]
+  },
+  {
+    "legal_name": "Euro-Aerospace Stuttgart S.A.",
+    "trade_name": "Aerospace Europe",
+    "cage_code": "E2007",
+    "duns_number": "408176405",
+    "business_number": "DEU575305390",
+    "country": "DEU",
+    "city": "Stuttgart",
+    "website": "https://www.euro-aerospacestuttgartsa.eu",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "NATO_AQAP2110"
+    ],
+    "domains": [
+      "DomainDefence",
+      "AirPlatform"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat"
+    ],
+    "kics": [
+      "KIC_AdvancedMaterials"
+    ],
+    "capabilities": [
+      {
+        "title": "Aerospace Grade Carbon Fiber Prepreg Autoclave Layup",
+        "description": "High-modulus carbon prepreg manufacturing for primary flight control structures.",
+        "trl": 8,
+        "kic": "KIC_AdvancedMaterials"
+      }
+    ],
+    "products": [
+      {
+        "name": "Euro-Aerospace Stuttgart S.A. Component-X",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Euro-Aerospace Stuttgart S.A. Integration & Field Testing",
+        "type": "Service"
+      }
+    ]
+  },
+  {
+    "legal_name": "Euro-Aerospace Liège S.A.",
+    "trade_name": "Aerospace Europe",
+    "cage_code": "E2008",
+    "duns_number": "409854780",
+    "business_number": "BEL450031499",
+    "country": "BEL",
+    "city": "Liège",
+    "website": "https://www.euro-aerospaceliègesa.eu",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "NATO_AQAP2110"
+    ],
+    "domains": [
+      "DomainDefence",
+      "AirPlatform"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat"
+    ],
+    "kics": [
+      "KIC_AdvancedMaterials"
+    ],
+    "capabilities": [
+      {
+        "title": "Aerospace Grade Carbon Fiber Prepreg Autoclave Layup",
+        "description": "High-modulus carbon prepreg manufacturing for primary flight control structures.",
+        "trl": 8,
+        "kic": "KIC_AdvancedMaterials"
+      }
+    ],
+    "products": [
+      {
+        "name": "Euro-Aerospace Liège S.A. Component-X",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Euro-Aerospace Liège S.A. Integration & Field Testing",
+        "type": "Service"
+      }
+    ]
+  },
+  {
+    "legal_name": "Euro-Electro-Optic Bremen S.A.",
+    "trade_name": "Electro-Optic Europe",
+    "cage_code": "E2009",
+    "duns_number": "409773910",
+    "business_number": "DEU306407063",
+    "country": "DEU",
+    "city": "Bremen",
+    "website": "https://www.euro-electro-opticbremensa.eu",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "NATO_AQAP2110"
+    ],
+    "domains": [
+      "DomainDefence",
+      "AirPlatform"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat"
+    ],
+    "kics": [
+      "KIC_EOIRSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Electro-Optic Missile Warning and DIRCM",
+        "description": "Directed Infrared Countermeasure systems for helicopter and transport aircraft protection.",
+        "trl": 8,
+        "kic": "KIC_EOIRSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Euro-Electro-Optic Bremen S.A. Component-X",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Euro-Electro-Optic Bremen S.A. Integration & Field Testing",
+        "type": "Service"
+      }
+    ]
+  },
+  {
+    "legal_name": "Euro-Naval Liège S.A.",
+    "trade_name": "Naval Europe",
+    "cage_code": "E2010",
+    "duns_number": "408987543",
+    "business_number": "BEL237879076",
+    "country": "BEL",
+    "city": "Liège",
+    "website": "https://www.euro-navalliègesa.eu",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "NATO_AQAP2110"
+    ],
+    "domains": [
+      "DomainDefence",
+      "AirPlatform"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat"
+    ],
+    "kics": [
+      "KIC_DefenceSystemsIntegration"
+    ],
+    "capabilities": [
+      {
+        "title": "Naval Combat Management System (CMS) Integration",
+        "description": "Multi-sensor tracking, threat evaluation, and weapons assignment tactical middleware.",
+        "trl": 8,
+        "kic": "KIC_DefenceSystemsIntegration"
+      }
+    ],
+    "products": [
+      {
+        "name": "Euro-Naval Liège S.A. Component-X",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Euro-Naval Liège S.A. Integration & Field Testing",
+        "type": "Service"
+      }
+    ]
+  },
+  {
+    "legal_name": "Euro-Aerospace Seville S.A.",
+    "trade_name": "Aerospace Europe",
+    "cage_code": "E2011",
+    "duns_number": "409763498",
+    "business_number": "ESP366901596",
+    "country": "ESP",
+    "city": "Seville",
+    "website": "https://www.euro-aerospacesevillesa.eu",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "NATO_AQAP2110"
+    ],
+    "domains": [
+      "DomainDefence",
+      "AirPlatform"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat"
+    ],
+    "kics": [
+      "KIC_AdvancedMaterials"
+    ],
+    "capabilities": [
+      {
+        "title": "Aerospace Grade Carbon Fiber Prepreg Autoclave Layup",
+        "description": "High-modulus carbon prepreg manufacturing for primary flight control structures.",
+        "trl": 8,
+        "kic": "KIC_AdvancedMaterials"
+      }
+    ],
+    "products": [
+      {
+        "name": "Euro-Aerospace Seville S.A. Component-X",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Euro-Aerospace Seville S.A. Integration & Field Testing",
+        "type": "Service"
+      }
+    ]
+  },
+  {
+    "legal_name": "Euro-Electro-Optic Liège S.A.",
+    "trade_name": "Electro-Optic Europe",
+    "cage_code": "E2012",
+    "duns_number": "408911794",
+    "business_number": "BEL628612704",
+    "country": "BEL",
+    "city": "Liège",
+    "website": "https://www.euro-electro-opticliègesa.eu",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "NATO_AQAP2110"
+    ],
+    "domains": [
+      "DomainDefence",
+      "AirPlatform"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat"
+    ],
+    "kics": [
+      "KIC_EOIRSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Electro-Optic Missile Warning and DIRCM",
+        "description": "Directed Infrared Countermeasure systems for helicopter and transport aircraft protection.",
+        "trl": 8,
+        "kic": "KIC_EOIRSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Euro-Electro-Optic Liège S.A. Component-X",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Euro-Electro-Optic Liège S.A. Integration & Field Testing",
+        "type": "Service"
+      }
+    ]
+  },
+  {
+    "legal_name": "Euro-AESA Turin S.A.",
+    "trade_name": "AESA Europe",
+    "cage_code": "E2013",
+    "duns_number": "402675334",
+    "business_number": "ITA141540705",
+    "country": "ITA",
+    "city": "Turin",
+    "website": "https://www.euro-aesaturinsa.eu",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "NATO_AQAP2110"
+    ],
+    "domains": [
+      "DomainDefence",
+      "AirPlatform"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat"
+    ],
+    "kics": [
+      "KIC_SensorsSonar"
+    ],
+    "capabilities": [
+      {
+        "title": "AESA GaN Transmit/Receive Modules",
+        "description": "Gallium Nitride high-frequency RF power amplifiers for multi-function radar apertures.",
+        "trl": 8,
+        "kic": "KIC_SensorsSonar"
+      }
+    ],
+    "products": [
+      {
+        "name": "Euro-AESA Turin S.A. Component-X",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Euro-AESA Turin S.A. Integration & Field Testing",
+        "type": "Service"
+      }
+    ]
+  },
+  {
+    "legal_name": "Euro-Aerospace Seville S.A.",
+    "trade_name": "Aerospace Europe",
+    "cage_code": "E2014",
+    "duns_number": "403966115",
+    "business_number": "ESP328697759",
+    "country": "ESP",
+    "city": "Seville",
+    "website": "https://www.euro-aerospacesevillesa.eu",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "NATO_AQAP2110"
+    ],
+    "domains": [
+      "DomainDefence",
+      "AirPlatform"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat"
+    ],
+    "kics": [
+      "KIC_AdvancedMaterials"
+    ],
+    "capabilities": [
+      {
+        "title": "Aerospace Grade Carbon Fiber Prepreg Autoclave Layup",
+        "description": "High-modulus carbon prepreg manufacturing for primary flight control structures.",
+        "trl": 8,
+        "kic": "KIC_AdvancedMaterials"
+      }
+    ],
+    "products": [
+      {
+        "name": "Euro-Aerospace Seville S.A. Component-X",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Euro-Aerospace Seville S.A. Integration & Field Testing",
+        "type": "Service"
+      }
+    ]
+  },
+  {
+    "legal_name": "Euro-Naval Munich S.A.",
+    "trade_name": "Naval Europe",
+    "cage_code": "E2015",
+    "duns_number": "403139016",
+    "business_number": "DEU336915612",
+    "country": "DEU",
+    "city": "Munich",
+    "website": "https://www.euro-navalmunichsa.eu",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "NATO_AQAP2110"
+    ],
+    "domains": [
+      "DomainDefence",
+      "AirPlatform"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat"
+    ],
+    "kics": [
+      "KIC_DefenceSystemsIntegration"
+    ],
+    "capabilities": [
+      {
+        "title": "Naval Combat Management System (CMS) Integration",
+        "description": "Multi-sensor tracking, threat evaluation, and weapons assignment tactical middleware.",
+        "trl": 8,
+        "kic": "KIC_DefenceSystemsIntegration"
+      }
+    ],
+    "products": [
+      {
+        "name": "Euro-Naval Munich S.A. Component-X",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Euro-Naval Munich S.A. Integration & Field Testing",
+        "type": "Service"
+      }
+    ]
+  },
+  {
+    "legal_name": "Euro-AESA Eindhoven S.A.",
+    "trade_name": "AESA Europe",
+    "cage_code": "E2016",
+    "duns_number": "408310196",
+    "business_number": "NLD355325122",
+    "country": "NLD",
+    "city": "Eindhoven",
+    "website": "https://www.euro-aesaeindhovensa.eu",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "NATO_AQAP2110"
+    ],
+    "domains": [
+      "DomainDefence",
+      "AirPlatform"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat"
+    ],
+    "kics": [
+      "KIC_SensorsSonar"
+    ],
+    "capabilities": [
+      {
+        "title": "AESA GaN Transmit/Receive Modules",
+        "description": "Gallium Nitride high-frequency RF power amplifiers for multi-function radar apertures.",
+        "trl": 8,
+        "kic": "KIC_SensorsSonar"
+      }
+    ],
+    "products": [
+      {
+        "name": "Euro-AESA Eindhoven S.A. Component-X",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Euro-AESA Eindhoven S.A. Integration & Field Testing",
+        "type": "Service"
+      }
+    ]
+  },
+  {
+    "legal_name": "Euro-AESA Genoa S.A.",
+    "trade_name": "AESA Europe",
+    "cage_code": "E2017",
+    "duns_number": "406011882",
+    "business_number": "ITA413592445",
+    "country": "ITA",
+    "city": "Genoa",
+    "website": "https://www.euro-aesagenoasa.eu",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "NATO_AQAP2110"
+    ],
+    "domains": [
+      "DomainDefence",
+      "AirPlatform"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat"
+    ],
+    "kics": [
+      "KIC_SensorsSonar"
+    ],
+    "capabilities": [
+      {
+        "title": "AESA GaN Transmit/Receive Modules",
+        "description": "Gallium Nitride high-frequency RF power amplifiers for multi-function radar apertures.",
+        "trl": 8,
+        "kic": "KIC_SensorsSonar"
+      }
+    ],
+    "products": [
+      {
+        "name": "Euro-AESA Genoa S.A. Component-X",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Euro-AESA Genoa S.A. Integration & Field Testing",
+        "type": "Service"
+      }
+    ]
+  },
+  {
+    "legal_name": "Euro-AESA Naples S.A.",
+    "trade_name": "AESA Europe",
+    "cage_code": "E2018",
+    "duns_number": "406863567",
+    "business_number": "ITA925703210",
+    "country": "ITA",
+    "city": "Naples",
+    "website": "https://www.euro-aesanaplessa.eu",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "NATO_AQAP2110"
+    ],
+    "domains": [
+      "DomainDefence",
+      "AirPlatform"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat"
+    ],
+    "kics": [
+      "KIC_SensorsSonar"
+    ],
+    "capabilities": [
+      {
+        "title": "AESA GaN Transmit/Receive Modules",
+        "description": "Gallium Nitride high-frequency RF power amplifiers for multi-function radar apertures.",
+        "trl": 8,
+        "kic": "KIC_SensorsSonar"
+      }
+    ],
+    "products": [
+      {
+        "name": "Euro-AESA Naples S.A. Component-X",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Euro-AESA Naples S.A. Integration & Field Testing",
+        "type": "Service"
+      }
+    ]
+  },
+  {
+    "legal_name": "Euro-Electro-Optic Toulouse S.A.",
+    "trade_name": "Electro-Optic Europe",
+    "cage_code": "E2019",
+    "duns_number": "407568805",
+    "business_number": "FRA659558678",
+    "country": "FRA",
+    "city": "Toulouse",
+    "website": "https://www.euro-electro-optictoulousesa.eu",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "NATO_AQAP2110"
+    ],
+    "domains": [
+      "DomainDefence",
+      "AirPlatform"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat"
+    ],
+    "kics": [
+      "KIC_EOIRSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Electro-Optic Missile Warning and DIRCM",
+        "description": "Directed Infrared Countermeasure systems for helicopter and transport aircraft protection.",
+        "trl": 8,
+        "kic": "KIC_EOIRSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Euro-Electro-Optic Toulouse S.A. Component-X",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Euro-Electro-Optic Toulouse S.A. Integration & Field Testing",
+        "type": "Service"
+      }
+    ]
+  },
+  {
+    "legal_name": "Euro-Naval Liège S.A.",
+    "trade_name": "Naval Europe",
+    "cage_code": "E2020",
+    "duns_number": "407868007",
+    "business_number": "BEL269702558",
+    "country": "BEL",
+    "city": "Liège",
+    "website": "https://www.euro-navalliègesa.eu",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "NATO_AQAP2110"
+    ],
+    "domains": [
+      "DomainDefence",
+      "AirPlatform"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat"
+    ],
+    "kics": [
+      "KIC_DefenceSystemsIntegration"
+    ],
+    "capabilities": [
+      {
+        "title": "Naval Combat Management System (CMS) Integration",
+        "description": "Multi-sensor tracking, threat evaluation, and weapons assignment tactical middleware.",
+        "trl": 8,
+        "kic": "KIC_DefenceSystemsIntegration"
+      }
+    ],
+    "products": [
+      {
+        "name": "Euro-Naval Liège S.A. Component-X",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Euro-Naval Liège S.A. Integration & Field Testing",
+        "type": "Service"
+      }
+    ]
+  },
+  {
+    "legal_name": "Euro-Naval Hamburg S.A.",
+    "trade_name": "Naval Europe",
+    "cage_code": "E2021",
+    "duns_number": "402863636",
+    "business_number": "DEU312755483",
+    "country": "DEU",
+    "city": "Hamburg",
+    "website": "https://www.euro-navalhamburgsa.eu",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "NATO_AQAP2110"
+    ],
+    "domains": [
+      "DomainDefence",
+      "AirPlatform"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat"
+    ],
+    "kics": [
+      "KIC_DefenceSystemsIntegration"
+    ],
+    "capabilities": [
+      {
+        "title": "Naval Combat Management System (CMS) Integration",
+        "description": "Multi-sensor tracking, threat evaluation, and weapons assignment tactical middleware.",
+        "trl": 8,
+        "kic": "KIC_DefenceSystemsIntegration"
+      }
+    ],
+    "products": [
+      {
+        "name": "Euro-Naval Hamburg S.A. Component-X",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Euro-Naval Hamburg S.A. Integration & Field Testing",
+        "type": "Service"
+      }
+    ]
+  },
+  {
+    "legal_name": "Euro-Aerospace Gothenburg S.A.",
+    "trade_name": "Aerospace Europe",
+    "cage_code": "E2022",
+    "duns_number": "402357421",
+    "business_number": "SWE815017806",
+    "country": "SWE",
+    "city": "Gothenburg",
+    "website": "https://www.euro-aerospacegothenburgsa.eu",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "NATO_AQAP2110"
+    ],
+    "domains": [
+      "DomainDefence",
+      "AirPlatform"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat"
+    ],
+    "kics": [
+      "KIC_AdvancedMaterials"
+    ],
+    "capabilities": [
+      {
+        "title": "Aerospace Grade Carbon Fiber Prepreg Autoclave Layup",
+        "description": "High-modulus carbon prepreg manufacturing for primary flight control structures.",
+        "trl": 8,
+        "kic": "KIC_AdvancedMaterials"
+      }
+    ],
+    "products": [
+      {
+        "name": "Euro-Aerospace Gothenburg S.A. Component-X",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Euro-Aerospace Gothenburg S.A. Integration & Field Testing",
+        "type": "Service"
+      }
+    ]
+  },
+  {
+    "legal_name": "Euro-Naval Gothenburg S.A.",
+    "trade_name": "Naval Europe",
+    "cage_code": "E2023",
+    "duns_number": "402762211",
+    "business_number": "SWE409148475",
+    "country": "SWE",
+    "city": "Gothenburg",
+    "website": "https://www.euro-navalgothenburgsa.eu",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "NATO_AQAP2110"
+    ],
+    "domains": [
+      "DomainDefence",
+      "AirPlatform"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat"
+    ],
+    "kics": [
+      "KIC_DefenceSystemsIntegration"
+    ],
+    "capabilities": [
+      {
+        "title": "Naval Combat Management System (CMS) Integration",
+        "description": "Multi-sensor tracking, threat evaluation, and weapons assignment tactical middleware.",
+        "trl": 8,
+        "kic": "KIC_DefenceSystemsIntegration"
+      }
+    ],
+    "products": [
+      {
+        "name": "Euro-Naval Gothenburg S.A. Component-X",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Euro-Naval Gothenburg S.A. Integration & Field Testing",
+        "type": "Service"
+      }
+    ]
+  },
+  {
+    "legal_name": "Euro-Naval Amsterdam S.A.",
+    "trade_name": "Naval Europe",
+    "cage_code": "E2024",
+    "duns_number": "409379233",
+    "business_number": "NLD863381343",
+    "country": "NLD",
+    "city": "Amsterdam",
+    "website": "https://www.euro-navalamsterdamsa.eu",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "NATO_AQAP2110"
+    ],
+    "domains": [
+      "DomainDefence",
+      "AirPlatform"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat"
+    ],
+    "kics": [
+      "KIC_DefenceSystemsIntegration"
+    ],
+    "capabilities": [
+      {
+        "title": "Naval Combat Management System (CMS) Integration",
+        "description": "Multi-sensor tracking, threat evaluation, and weapons assignment tactical middleware.",
+        "trl": 8,
+        "kic": "KIC_DefenceSystemsIntegration"
+      }
+    ],
+    "products": [
+      {
+        "name": "Euro-Naval Amsterdam S.A. Component-X",
+        "type": "Product"
+      }
+    ],
+    "services": [
+      {
+        "name": "Euro-Naval Amsterdam S.A. Integration & Field Testing",
+        "type": "Service"
+      }
+    ]
+  }
+]

@@ -1,0 +1,91 @@
+@prefix aero: <https://w3id.org/aerospace-defence#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+### Canadian Key Industrial Capabilities (KICs)
+# Defined by Innovation, Science and Economic Development Canada (ISED)
+
+aero:KICScheme a skos:ConceptScheme ;
+    rdfs:label "Canadian Key Industrial Capabilities (KIC) Classification Scheme"@en ;
+    rdfs:comment "Official taxonomy of Canada's Key Industrial Capabilities for defence procurement and industrial technological benefits."@en .
+
+aero:KIC_AdvancedMaterials a aero:KeyIndustrialCapability, skos:Concept ;
+    skos:inScheme aero:KICScheme ;
+    skos:prefLabel "Advanced Materials"@en ;
+    skos:definition "Lightweight composites, high-temperature alloys, metamaterials, and protective ballistic materials."@en .
+
+aero:KIC_AerospaceSystems a aero:KeyIndustrialCapability, skos:Concept ;
+    skos:inScheme aero:KICScheme ;
+    skos:prefLabel "Aerospace Systems and Components"@en ;
+    skos:definition "Aerostructures, landing gear, propulsion components, environmental systems, and flight controls."@en .
+
+aero:KIC_AIAutonomousSystems a aero:KeyIndustrialCapability, skos:Concept ;
+    skos:inScheme aero:KICScheme ;
+    skos:prefLabel "Artificial Intelligence and Autonomous Technologies"@en ;
+    skos:definition "Machine learning algorithms, autonomous navigation, mission management systems, and swarm coordination."@en .
+
+aero:KIC_ArmouredVehicles a aero:KeyIndustrialCapability, skos:Concept ;
+    skos:inScheme aero:KICScheme ;
+    skos:prefLabel "Armoured Vehicles and Combat Support Systems"@en ;
+    skos:definition "Wheeled and tracked light/medium armoured combat vehicles, survivability, and lethality integration."@en .
+
+aero:KIC_CBRNDefence a aero:KeyIndustrialCapability, skos:Concept ;
+    skos:inScheme aero:KICScheme ;
+    skos:prefLabel "CBRN Defence and Protection"@en ;
+    skos:definition "Chemical, Biological, Radiological, and Nuclear detection, decontamination, and protective equipment."@en .
+
+aero:KIC_CyberResilience a aero:KeyIndustrialCapability, skos:Concept ;
+    skos:inScheme aero:KICScheme ;
+    skos:prefLabel "Cyber Resilience and Cryptography"@en ;
+    skos:definition "Military-grade encryption, defensive cyber operations, tactical network hardening, and zero-trust architectures."@en .
+
+aero:KIC_DefenceSystemsIntegration a aero:KeyIndustrialCapability, skos:Concept ;
+    skos:inScheme aero:KICScheme ;
+    skos:prefLabel "Defence Systems Integration"@en ;
+    skos:definition "Prime architecture, mission system integration, multi-domain command and control (C2), and interoperability."@en .
+
+aero:KIC_EOIRSystems a aero:KeyIndustrialCapability, skos:Concept ;
+    skos:inScheme aero:KICScheme ;
+    skos:prefLabel "Electro-Optical and Infrared (EO/IR) Systems"@en ;
+    skos:definition "Targeting turrets, FLIR sensors, laser rangefinders, night vision, and hyperspectral imaging."@en .
+
+aero:KIC_InServiceSupport a aero:KeyIndustrialCapability, skos:Concept ;
+    skos:inScheme aero:KICScheme ;
+    skos:prefLabel "In-Service Support (ISS) and Fleet Life Extension"@en ;
+    skos:definition "Comprehensive lifecycle management, aircraft depot-level overhaul, structural integrity, and modernization."@en .
+
+aero:KIC_Munitions a aero:KeyIndustrialCapability, skos:Concept ;
+    skos:inScheme aero:KICScheme ;
+    skos:prefLabel "Munitions, Energetics and Pyrotechnics"@en ;
+    skos:definition "Small, medium, and large caliber ammunition, guided munitions, propellants, and warheads."@en .
+
+aero:KIC_NavalShipbuilding a aero:KeyIndustrialCapability, skos:Concept ;
+    skos:inScheme aero:KICScheme ;
+    skos:prefLabel "Naval Ship Construction, Modernization and Subsea Systems"@en ;
+    skos:definition "Surface combatant construction, submarine maintenance, propulsion integration, and sonars."@en .
+
+aero:KIC_RemotelyPilotedSystems a aero:KeyIndustrialCapability, skos:Concept ;
+    skos:inScheme aero:KICScheme ;
+    skos:prefLabel "Remotely Piloted Aircraft and Uncrewed Aerial Systems (UAS)"@en ;
+    skos:definition "Tactical, MALE, and micro UAS airframes, ground control stations, and datalinks."@en .
+
+aero:KIC_SensorsSonar a aero:KeyIndustrialCapability, skos:Concept ;
+    skos:inScheme aero:KICScheme ;
+    skos:prefLabel "Sensor, Radar, and Sonar Systems"@en ;
+    skos:definition "AESA radar, active/passive dipping sonars, sonobuoys, electronic surveillance measures, and acoustics."@en .
+
+aero:KIC_SoftwareDefinedRadio a aero:KeyIndustrialCapability, skos:Concept ;
+    skos:inScheme aero:KICScheme ;
+    skos:prefLabel "Software-Defined Radios and Tactical Communications"@en ;
+    skos:definition "Interoperable tactical communications, satellite communication terminals, Link 16, and secure waveform generation."@en .
+
+aero:KIC_SpaceSystems a aero:KeyIndustrialCapability, skos:Concept ;
+    skos:inScheme aero:KICScheme ;
+    skos:prefLabel "Space Systems and Space Exploration Technologies"@en ;
+    skos:definition "Synthetic Aperture Radar (SAR) satellites, space robotics, Earth observation payloads, and satellite bus subsystems."@en .
+
+aero:KIC_TrainingSimulation a aero:KeyIndustrialCapability, skos:Concept ;
+    skos:inScheme aero:KICScheme ;
+    skos:prefLabel "Training Systems and Synthetic Simulation"@en ;
+    skos:definition "Level D full flight simulators, distributed mission training, virtual reality cockpits, and live-virtual-constructive (LVC) environments."@en .
