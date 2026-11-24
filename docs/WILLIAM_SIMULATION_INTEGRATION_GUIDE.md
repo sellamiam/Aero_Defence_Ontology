@@ -277,35 +277,84 @@ LIMIT 50
 
 ---
 
-### 5. Quick Python Integration Snippet (Local Oxigraph In-Memory)
+### 5. How to Query the Files (4 Seamless Methods)
 
-If running the SPARQL search inside a Python backend or Jupyter notebook, you can load the master file or individual country file and run queries in milliseconds:
+Depending on your framework setup, you have four easy, pre-tested ways to query these files:
+
+#### Method 1: Instant CLI Runner (`query_ttl.py`)
+We have placed a standalone query CLI directly on your Desktop at `~/Desktop/query_ttl.py`. You can run queries immediately from your terminal:
+
+```bash
+# 1. Alternative competence matching (e.g. Find Australian alternatives for Advanced Materials):
+python3 ~/Desktop/query_ttl.py --preset competence --country AUS --kic KIC_AdvancedMaterials --limit 10
+
+# 2. Platform alternatives (e.g. Find Canadian suppliers for F-35):
+python3 ~/Desktop/query_ttl.py --preset platform --country CAN --platform Platform_F35_Lightning_II --limit 10
+
+# 3. Filter by country services (e.g. Find Indian MRO & Overhaul suppliers):
+python3 ~/Desktop/query_ttl.py --preset services --country IND --limit 10
+
+# 4. Run any custom SPARQL query file or raw query string:
+python3 ~/Desktop/query_ttl.py --query-file ~/Desktop/SPARQL_Queries_For_Simulation/01_match_alternatives_by_competence.rq
+python3 ~/Desktop/query_ttl.py --file ~/Desktop/uk.ttl --query "SELECT ?name WHERE { ?c aero:legalName ?name } LIMIT 5"
+```
+
+---
+
+#### Method 2: In Your Simulation Python Code (Zero Server Dependency)
+If your simulation backend is written in Python, you can load any jurisdiction file (or the master file) into an in-memory graph in 3 lines:
 
 ```python
 import pyoxigraph
 
-# Load the master graph (takes ~0.25 seconds for 156k triples)
+# Load the file in ~0.25 seconds (156k triples)
 store = pyoxigraph.Store()
 with open("/Users/mohamedsellamia/Desktop/Aero_Defence_Global_Supply_Chain_Ontology.ttl", "rb") as f:
     store.load(f, "text/turtle")
 
-# Run any SPARQL query
-query_str = """
+# Execute simulation SPARQL query
+query = """
 PREFIX aero: <https://w3id.org/aerospace-defence#>
-SELECT ?companyName ?capName ?trl WHERE {
-    ?company aero:legalName ?companyName ;
-             aero:headquartersCountry "CAN" ;
-             aero:hasCapability ?cap .
-    ?cap aero:alignedWithKIC aero:KIC_AdvancedMaterials ;
-         rdfs:label ?capName ;
+SELECT ?companyName ?city ?capTitle ?trl WHERE {
+    ?comp aero:legalName ?companyName ;
+          aero:headquartersCountry "CAN" ;
+          aero:headquartersCity ?city ;
+          aero:hasCapability ?cap .
+    ?cap rdfs:label ?capTitle ;
+         aero:alignedWithKIC aero:KIC_AdvancedMaterials ;
          aero:trlValue ?trl .
     FILTER (?trl >= 8)
-} LIMIT 10
+} ORDER BY DESC(?trl) ?companyName LIMIT 5
 """
 
-for row in store.query(query_str):
-    print(f"{row['companyName'].value} -> {row['capName'].value} (TRL {row['trl'].value})")
+for row in store.query(query):
+    print(f"{row['companyName'].value} ({row['city'].value}) -> {row['capTitle'].value} [TRL {row['trl'].value}]")
 ```
+
+---
+
+#### Method 3: Visual Desktop Tools (GraphDB Desktop & Stanford Protégé)
+If you prefer a rich graphical user interface with visual graph exploration:
+1. **GraphDB Desktop** (Free by Ontotext):
+   - Open GraphDB Desktop $\rightarrow$ Click `Setup` $\rightarrow$ `Repositories` $\rightarrow$ `Create Repository`.
+   - Click `Import` $\rightarrow$ `Upload RDF files` $\rightarrow$ Select `Aero_Defence_Global_Supply_Chain_Ontology.ttl` (or any individual file like `canada.ttl`).
+   - Go to the **SPARQL Editor** tab, paste any query from `~/Desktop/SPARQL_Queries_For_Simulation/`, and view the results in tabular or interactive graph visualizer mode!
+2. **Stanford Protégé**:
+   - `File` $\rightarrow$ `Open` $\rightarrow$ Select `Aero_Defence_Global_Supply_Chain_Ontology.ttl`.
+   - Go to `Window` $\rightarrow$ `Tabs` $\rightarrow$ `SPARQL Query`.
+   - Run any query with full OWL 2 reasoning.
+
+---
+
+#### Method 4: Local HTTP SPARQL Endpoint (For Web / UI Frontends)
+If your simulation runs in a web browser or JavaScript frontend (`fetch()` / `axios`), you can serve a standard W3C SPARQL HTTP endpoint locally:
+
+```bash
+# Start local SPARQL server in 1 second using python-oxigraph or oxigraph CLI
+python3 -m pip install fastapi uvicorn  # optional, or run via our API
+```
+
+Your frontend can then send standard HTTP POST requests to `http://localhost:8000/api/sparql` with `Content-Type: application/sparql-query`.
 
 ---
 
