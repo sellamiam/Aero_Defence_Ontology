@@ -8,11 +8,12 @@
 PREFIX aero: <https://w3id.org/aerospace-defence#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
-SELECT DISTINCT ?altCompany ?companyName ?cageCode ?tier ?city ?country ?capTitle ?trl ?mrl
+SELECT DISTINCT ?companyName ?cageCode ?tier ?city ?targetCountry ?capTitle ?trl
        (GROUP_CONCAT(DISTINCT ?certLabel; separator=", ") AS ?certifications)
 WHERE {
-    # 1. Target alternative country filter (bind from UI button: e.g. "AUS", "CAN", "GBR", "FRA", "NZL", "IND")
-    VALUES ?targetCountry { "AUS" }
+    # 1. Target alternative country filter (bind dynamically from UI button in simulation: e.g. "CAN", "AUS", "GBR", "FRA", "NZL", "IND")
+    # Defaults to all 6 jurisdictions so this query runs out-of-the-box on ANY .ttl file:
+    VALUES ?targetCountry { "CAN" "AUS" "GBR" "FRA" "NZL" "IND" }
     
     # 2. Competence alignment (bind from selected node's KIC)
     VALUES ?targetKIC { aero:KIC_AdvancedMaterials }
@@ -48,6 +49,6 @@ WHERE {
         BIND(STRAFTER(STR(?cert), "#") AS ?certLabel)
     }
 }
-GROUP BY ?altCompany ?companyName ?cageCode ?tier ?city ?country ?capTitle ?trl ?mrl
+GROUP BY ?companyName ?cageCode ?tier ?city ?targetCountry ?capTitle ?trl
 ORDER BY DESC(?trl) ?companyName
 LIMIT 50
