@@ -124,6 +124,8 @@ DASHBOARD_HTML = """<!DOCTYPE html>
             background: var(--bg-secondary);
             box-shadow: 0 10px 40px rgba(0,0,0,0.6);
             height: calc(100vh - 67px);
+            overflow: hidden;
+            min-height: 0;
         }
 
         .workspace {
@@ -131,6 +133,8 @@ DASHBOARD_HTML = """<!DOCTYPE html>
             grid-template-columns: 580px 1fr;
             width: 100%;
             height: 100%;
+            overflow: hidden;
+            min-height: 0;
         }
 
         /* Sidebar Panels */
@@ -435,16 +439,24 @@ DASHBOARD_HTML = """<!DOCTYPE html>
         .canvas-container {
             position: relative;
             background: radial-gradient(circle at center, #111a2d 0%, #080c14 100%);
+            width: 100%;
             height: 100%;
             overflow: hidden;
+            min-height: 0;
             display: flex;
             justify-content: center;
             align-items: center;
         }
 
         #graph-network {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
             width: 100%;
             height: 100%;
+            overflow: hidden;
         }
 
         /* High-Tech Knowledge Graph Visualizer Styling */
