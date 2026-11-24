@@ -447,48 +447,262 @@ DASHBOARD_HTML = """<!DOCTYPE html>
             height: 100%;
         }
 
-        .graph-overlay {
+        /* High-Tech Knowledge Graph Visualizer Styling */
+        .graph-toolbar {
             position: absolute;
-            top: 16px;
+            top: 14px;
+            left: 16px;
             right: 16px;
-            background: rgba(13, 19, 31, 0.92);
-            border: 1px solid var(--border-color);
-            border-radius: 6px;
-            padding: 12px 16px;
-            font-size: 11px;
-            backdrop-filter: blur(8px);
-            z-index: 10;
             display: flex;
-            flex-direction: column;
-            gap: 6px;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 25;
+            pointer-events: none;
         }
 
-        .legend-row {
+        .graph-modes {
+            display: flex;
+            gap: 4px;
+            background: rgba(13, 19, 31, 0.88);
+            backdrop-filter: blur(12px);
+            padding: 4px;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+            pointer-events: auto;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+        }
+
+        .graph-mode-btn {
+            padding: 6px 12px;
+            font-size: 11px;
+            font-weight: 700;
+            border: 1px solid transparent;
+            background: transparent;
+            color: var(--text-secondary);
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-family: inherit;
+        }
+
+        .graph-mode-btn:hover {
+            color: #ffffff;
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .graph-mode-btn.active {
+            color: var(--accent-cyan);
+            background: rgba(0, 242, 254, 0.12);
+            border-color: rgba(0, 242, 254, 0.4);
+            box-shadow: 0 0 10px rgba(0, 242, 254, 0.2);
+        }
+
+        .graph-actions {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            pointer-events: auto;
+        }
+
+        .graph-actions select {
+            background: rgba(13, 19, 31, 0.88);
+            backdrop-filter: blur(12px);
+            border: 1px solid var(--border-color);
+            color: #fff;
+            padding: 6px 10px;
+            border-radius: 6px;
+            font-size: 11.5px;
+            font-weight: 600;
+            cursor: pointer;
+            outline: none;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+        }
+
+        .btn-tool {
+            background: rgba(13, 19, 31, 0.88);
+            backdrop-filter: blur(12px);
+            border: 1px solid var(--border-color);
+            color: var(--text-secondary);
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 11px;
+            font-weight: 700;
+            cursor: pointer;
+            font-family: inherit;
+            transition: all 0.2s;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+        }
+
+        .btn-tool:hover {
+            color: var(--accent-cyan);
+            border-color: var(--accent-cyan);
+            background: rgba(0, 242, 254, 0.08);
+        }
+
+        .graph-status-badge {
+            position: absolute;
+            top: 60px;
+            left: 16px;
+            background: rgba(13, 19, 31, 0.85);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.08);
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 10.5px;
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--text-secondary);
             display: flex;
             align-items: center;
             gap: 8px;
+            z-index: 15;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+            pointer-events: none;
+        }
+
+        .live-dot {
+            width: 7px;
+            height: 7px;
+            background: var(--accent-emerald);
+            border-radius: 50%;
+            box-shadow: 0 0 8px var(--accent-emerald);
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.5; transform: scale(0.85); }
+        }
+
+        /* Floating Interactive Node HUD */
+        .node-hud-card {
+            position: absolute;
+            bottom: 56px;
+            left: 20px;
+            width: 320px;
+            background: rgba(13, 19, 31, 0.95);
+            backdrop-filter: blur(16px);
+            border: 1px solid rgba(0, 242, 254, 0.4);
+            box-shadow: 0 10px 35px rgba(0,0,0,0.8), 0 0 20px rgba(0, 242, 254, 0.15);
+            border-radius: 8px;
+            padding: 14px;
+            z-index: 30;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            animation: fadeIn 0.25s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .node-hud-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 8px;
+            border-bottom: 1px solid rgba(255,255,255,0.08);
+            padding-bottom: 8px;
+        }
+
+        .node-hud-title {
+            font-weight: 800;
+            font-size: 13px;
+            color: #ffffff;
+            line-height: 1.3;
+        }
+
+        .node-hud-close {
+            background: transparent;
+            border: none;
+            color: var(--text-secondary);
+            font-size: 14px;
+            cursor: pointer;
+            padding: 0 4px;
+        }
+
+        .node-hud-close:hover { color: #fff; }
+
+        .node-hud-meta {
+            font-size: 11px;
+            color: var(--text-secondary);
+            line-height: 1.5;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .node-hud-actions {
+            display: flex;
+            gap: 8px;
+            margin-top: 4px;
+        }
+
+        .btn-hud-primary {
+            flex: 1;
+            background: linear-gradient(135deg, #00f2fe 0%, #4facfe 100%);
+            color: #050b14;
+            font-weight: 800;
+            border: none;
+            padding: 8px;
+            border-radius: 4px;
+            font-size: 10.5px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            cursor: pointer;
+        }
+
+        .btn-hud-secondary {
+            flex: 1;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--border-color);
+            color: #fff;
+            font-weight: 700;
+            padding: 8px;
+            border-radius: 4px;
+            font-size: 10.5px;
+            cursor: pointer;
+        }
+
+        .btn-hud-secondary:hover {
+            border-color: var(--accent-cyan);
+            color: var(--accent-cyan);
+        }
+
+        /* Bottom Legend Bar */
+        .graph-legend-bar {
+            position: absolute;
+            bottom: 14px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(13, 19, 31, 0.88);
+            backdrop-filter: blur(12px);
+            border: 1px solid var(--border-color);
+            border-radius: 20px;
+            padding: 6px 18px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            font-size: 10.5px;
+            z-index: 15;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.6);
+            pointer-events: none;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            color: var(--text-secondary);
+            font-weight: 600;
         }
 
         .legend-dot {
-            width: 10px;
-            height: 10px;
+            width: 8px;
+            height: 8px;
             border-radius: 50%;
         }
-
-        .btn-center-graph {
-            margin-top: 6px;
-            background: rgba(255, 255, 255, 0.05);
-            border: 1px solid var(--border-color);
-            color: var(--accent-cyan);
-            padding: 6px 10px;
-            border-radius: 4px;
-            font-size: 11px;
-            cursor: pointer;
-            font-family: inherit;
-            font-weight: 600;
-            text-align: center;
-        }
-        .btn-center-graph:hover { background: rgba(0, 242, 254, 0.1); }
 
         pre {
             background: #090d14;
@@ -679,15 +893,58 @@ SELECT ?companyName ?city ?province ?cage ?capabilityTitle ?trl WHERE {
 
             <!-- Right Visual Knowledge Graph Canvas -->
             <div class="canvas-container">
-                <div class="graph-overlay">
-                    <div style="font-weight: 700; color: #fff; margin-bottom: 4px;">ONTOLOGY ENTITY MAP</div>
-                    <div class="legend-row"><div class="legend-dot" style="background:#00f2fe;"></div> Prime Contractor</div>
-                    <div class="legend-row"><div class="legend-dot" style="background:#10b981;"></div> Tier-1 Supplier</div>
-                    <div class="legend-row"><div class="legend-dot" style="background:#f59e0b;"></div> SME Specialist</div>
-                    <div class="legend-row"><div class="legend-dot" style="background:#ec4899;"></div> Technical Capability</div>
-                    <div class="legend-row"><div class="legend-dot" style="background:#a855f7;"></div> Platform / System</div>
-                    <button onclick="network && network.fit({animation:{duration:800}})" class="btn-center-graph">⌖ Center Knowledge Graph</button>
+                <!-- Top Command Bar for Graph Navigation & Filtering -->
+                <div class="graph-toolbar">
+                    <div class="graph-modes">
+                        <button class="graph-mode-btn active" data-mode="ecosystem" onclick="setGraphMode('ecosystem', this)">🌐 Allied Ecosystem</button>
+                        <button class="graph-mode-btn" data-mode="tier" onclick="setGraphMode('tier', this)">⚡ Supply Chain Tiers</button>
+                        <button class="graph-mode-btn" data-mode="platform" onclick="setGraphMode('platform', this)">✈️ Platforms</button>
+                        <button class="graph-mode-btn" data-mode="company" id="btn-mode-company" onclick="setGraphMode('company', this)">🎯 Contractor Focus</button>
+                    </div>
+                    <div class="graph-actions">
+                        <select id="graph-country-select" onchange="onGraphFilterChange()">
+                            <option value="ALL">All Jurisdictions</option>
+                            <option value="CAN">Canada (CAN)</option>
+                            <option value="GBR">United Kingdom (GBR)</option>
+                            <option value="EU">European Union (EU)</option>
+                        </select>
+                        <button class="btn-tool" onclick="togglePhysics()" id="btn-physics" title="Pause / Resume Physics">⏸ Freeze</button>
+                        <button class="btn-tool" onclick="fitGraph()" title="Center Graph">⌖ Fit</button>
+                        <button class="btn-tool" onclick="reloadGraph()" title="Reload Knowledge Graph">🔄</button>
+                    </div>
                 </div>
+
+                <!-- Live Status & Density Counter -->
+                <div class="graph-status-badge" id="graph-status-badge">
+                    <span class="live-dot"></span>
+                    <span id="graph-status-text">Live Triplestore Sync &bull; Initializing...</span>
+                </div>
+
+                <!-- Floating Interactive Node Inspection HUD (appears on click) -->
+                <div class="node-hud-card" id="node-hud-card" style="display:none;">
+                    <div class="node-hud-header">
+                        <div class="node-hud-title" id="hud-title">Entity Name</div>
+                        <button class="node-hud-close" onclick="closeNodeHud()">✕</button>
+                    </div>
+                    <div class="node-hud-meta" id="hud-meta">
+                        <!-- Populated dynamically on click -->
+                    </div>
+                    <div class="node-hud-actions">
+                        <button class="btn-hud-primary" id="hud-btn-profile" onclick="hudOpenProfile()">Inspect Profile</button>
+                        <button class="btn-hud-secondary" id="hud-btn-focus" onclick="hudFocusNode()">Focus Ego-Net</button>
+                    </div>
+                </div>
+
+                <!-- Bottom Entity Legend -->
+                <div class="graph-legend-bar">
+                    <div class="legend-item"><span class="legend-dot" style="background:#00f2fe; box-shadow:0 0 8px #00f2fe;"></span> Prime</div>
+                    <div class="legend-item"><span class="legend-dot" style="background:#10b981; box-shadow:0 0 8px #10b981;"></span> Tier-1</div>
+                    <div class="legend-item"><span class="legend-dot" style="background:#f59e0b; box-shadow:0 0 8px #f59e0b;"></span> Tier-2 / SME</div>
+                    <div class="legend-item"><span class="legend-dot" style="background:#ec4899; box-shadow:0 0 8px #ec4899;"></span> Capability</div>
+                    <div class="legend-item"><span class="legend-dot" style="background:#3b82f6; box-shadow:0 0 8px #3b82f6;"></span> Product</div>
+                    <div class="legend-item"><span class="legend-dot" style="background:#a855f7; box-shadow:0 0 8px #a855f7;"></span> Platform</div>
+                </div>
+
                 <div id="graph-network"></div>
             </div>
         </div>
@@ -703,55 +960,26 @@ SELECT ?companyName ?city ?province ?cage ?capabilityTitle ?trl WHERE {
             if (panel) panel.classList.add('active');
         }
 
-        // Initialize Vis.js Knowledge Graph Visualization
+        // Knowledge Graph Interactive Controller & Dynamic Sync
         let network = null;
+        let graphNodes = null;
+        let graphEdges = null;
+        let currentMode = 'ecosystem';
+        let currentCountry = 'ALL';
+        let currentCage = null;
+        let physicsEnabled = true;
+        let selectedNodeData = null;
+
         function initGraph() {
             const container = document.getElementById('graph-network');
-            const nodes = new vis.DataSet([
-                { id: 1, label: 'Bombardier Inc.', group: 'prime', shape: 'dot', size: 26, color: '#00f2fe' },
-                { id: 2, label: 'CAE Inc.', group: 'prime', shape: 'dot', size: 26, color: '#00f2fe' },
-                { id: 3, label: 'Magellan Aero', group: 'tier1', shape: 'dot', size: 22, color: '#10b981' },
-                { id: 4, label: 'MDA Space', group: 'prime', shape: 'dot', size: 26, color: '#00f2fe' },
-                { id: 5, label: 'SkyX Systems', group: 'sme', shape: 'dot', size: 18, color: '#f59e0b' },
-                { id: 6, label: 'Volatus Aero', group: 'tier1', shape: 'dot', size: 20, color: '#10b981' },
-                { id: 7, label: 'MicroPilot', group: 'tier2', shape: 'dot', size: 16, color: '#10b981' },
-                { id: 8, label: 'Draganfly', group: 'sme', shape: 'dot', size: 18, color: '#f59e0b' },
-                { id: 9, label: 'Flying Colours', group: 'tier1', shape: 'dot', size: 22, color: '#10b981' },
-                { id: 10, label: 'Tactical Drone Motors', group: 'cap', shape: 'diamond', size: 14, color: '#ec4899' },
-                { id: 11, label: 'UAS Autopilots', group: 'cap', shape: 'diamond', size: 14, color: '#ec4899' },
-                { id: 12, label: 'Flight Simulation D', group: 'cap', shape: 'diamond', size: 14, color: '#ec4899' },
-                { id: 13, label: 'Space SAR Radar', group: 'cap', shape: 'diamond', size: 14, color: '#ec4899' },
-                { id: 14, label: 'Composite Tail Assembly', group: 'cap', shape: 'diamond', size: 14, color: '#ec4899' },
-                { id: 15, label: 'Business Jet Depot MRO', group: 'cap', shape: 'diamond', size: 14, color: '#ec4899' },
-                { id: 20, label: 'Air Platform', group: 'platform', shape: 'hexagon', size: 18, color: '#a855f7' },
-                { id: 21, label: 'Space Platform', group: 'platform', shape: 'hexagon', size: 18, color: '#a855f7' },
-                { id: 22, label: 'Tactical UAS', group: 'platform', shape: 'hexagon', size: 18, color: '#a855f7' },
-            ]);
-
-            const edges = new vis.DataSet([
-                { from: 5, to: 10, label: 'possesses', color: '#64748b' },
-                { from: 6, to: 10, label: 'possesses', color: '#64748b' },
-                { from: 7, to: 11, label: 'possesses', color: '#64748b' },
-                { from: 8, to: 10, label: 'possesses', color: '#64748b' },
-                { from: 2, to: 12, label: 'possesses', color: '#64748b' },
-                { from: 4, to: 13, label: 'possesses', color: '#64748b' },
-                { from: 3, to: 14, label: 'possesses', color: '#64748b' },
-                { from: 9, to: 15, label: 'possesses', color: '#64748b' },
-                { from: 10, to: 22, label: 'deployedOn', color: '#475569' },
-                { from: 11, to: 22, label: 'deployedOn', color: '#475569' },
-                { from: 12, to: 20, label: 'deployedOn', color: '#475569' },
-                { from: 13, to: 21, label: 'deployedOn', color: '#475569' },
-                { from: 14, to: 20, label: 'deployedOn', color: '#475569' },
-                { from: 15, to: 20, label: 'deployedOn', color: '#475569' },
-                { from: 7, to: 6, label: 'suppliesTo', dashes: true, color: '#00f2fe' },
-                { from: 3, to: 1, label: 'suppliesTo', dashes: true, color: '#00f2fe' },
-                { from: 9, to: 1, label: 'suppliesTo', dashes: true, color: '#00f2fe' },
-            ]);
+            graphNodes = new vis.DataSet([]);
+            graphEdges = new vis.DataSet([]);
 
             const options = {
                 nodes: {
                     font: { color: '#ffffff', face: 'Inter', size: 12 },
                     borderWidth: 2,
+                    shadow: { enabled: true, color: 'rgba(0,0,0,0.6)', size: 10, x: 0, y: 4 }
                 },
                 edges: {
                     font: { color: '#94a3b8', size: 10, align: 'middle' },
@@ -759,15 +987,166 @@ SELECT ?companyName ?city ?province ?cage ?capabilityTitle ?trl WHERE {
                     smooth: { type: 'continuous' }
                 },
                 physics: {
-                    barnesHut: { gravitationalConstant: -3500, springLength: 110, centralGravity: 0.2 },
-                    stabilization: { iterations: 120 }
+                    barnesHut: { gravitationalConstant: -4000, springLength: 120, centralGravity: 0.15, damping: 0.09 },
+                    stabilization: { iterations: 100 }
+                },
+                interaction: {
+                    hover: true,
+                    tooltipDelay: 150,
+                    selectable: true,
+                    multiselect: false
                 }
             };
 
-            network = new vis.Network(container, { nodes, edges }, options);
-            network.once('stabilizationIterationsDone', function() {
-                network.fit({ animation: { duration: 800, easingFunction: 'easeInOutQuad' } });
+            network = new vis.Network(container, { nodes: graphNodes, edges: graphEdges }, options);
+
+            // Handle node selection for floating HUD
+            network.on('click', function(params) {
+                if (params.nodes.length > 0) {
+                    const nodeId = params.nodes[0];
+                    const nodeData = graphNodes.get(nodeId);
+                    if (nodeData) {
+                        showNodeHud(nodeData);
+                    }
+                } else {
+                    closeNodeHud();
+                }
             });
+
+            // Double click to focus or inspect profile
+            network.on('doubleClick', function(params) {
+                if (params.nodes.length > 0) {
+                    const nodeData = graphNodes.get(params.nodes[0]);
+                    if (nodeData && nodeData.cage) {
+                        loadProfile(nodeData.cage);
+                    }
+                }
+            });
+
+            // Initial load of ecosystem graph
+            loadGraphSubgraph({ mode: 'ecosystem', country: 'ALL' });
+        }
+
+        async function loadGraphSubgraph(params = {}) {
+            const mode = params.mode || currentMode || 'ecosystem';
+            const country = params.country || currentCountry || 'ALL';
+            const cage = params.cage || currentCage || '';
+
+            currentMode = mode;
+            currentCountry = country;
+            if (cage) currentCage = cage;
+
+            const badgeText = document.getElementById('graph-status-text');
+            if (badgeText) badgeText.innerHTML = 'Querying Oxigraph Triplestore...';
+
+            let url = `/api/v1/graph/subgraph?mode=${encodeURIComponent(mode)}&country=${encodeURIComponent(country)}&limit=60`;
+            if (cage && mode === 'company') {
+                url += `&cage=${encodeURIComponent(cage)}`;
+            }
+
+            try {
+                const res = await fetch(url);
+                if (!res.ok) throw new Error('Failed to load subgraph from server');
+                const data = await res.json();
+
+                graphNodes.clear();
+                graphEdges.clear();
+
+                graphNodes.add(data.nodes);
+                graphEdges.add(data.edges);
+
+                if (badgeText) {
+                    const modeLabel = mode === 'company' ? (data.stats.focused_name || 'Contractor Focus') : (mode === 'platform' ? 'Platform Clusters' : (mode === 'tier' ? 'Supply Tiers' : 'Allied Ecosystem'));
+                    badgeText.innerHTML = `Live Sync &bull; <b>${modeLabel}</b> &bull; ${data.stats.total_nodes} Entities | ${data.stats.total_edges} Edges`;
+                }
+
+                network.fit({ animation: { duration: 700, easingFunction: 'easeInOutQuad' } });
+            } catch (err) {
+                if (badgeText) badgeText.innerHTML = `<span style="color:var(--accent-red)">Sync Error: ${err.message}</span>`;
+            }
+        }
+
+        function showNodeHud(node) {
+            selectedNodeData = node;
+            const hud = document.getElementById('node-hud-card');
+            const title = document.getElementById('hud-title');
+            const meta = document.getElementById('hud-meta');
+            const btnProfile = document.getElementById('hud-btn-profile');
+            const btnFocus = document.getElementById('hud-btn-focus');
+
+            if (!hud) return;
+
+            title.innerText = node.label || 'Entity';
+            
+            let metaHtml = '';
+            if (node.cage) {
+                metaHtml += `<div>CAGE / NCAGE: <b style="color:var(--accent-cyan);">${node.cage}</b></div>`;
+                metaHtml += `<div>Tier: <b style="color:#fff;">${node.tier || 'Enterprise'}</b></div>`;
+                metaHtml += `<div>Country: <b style="color:#fff;">${node.country || 'CAN'}</b></div>`;
+                btnProfile.style.display = 'block';
+                btnFocus.style.display = 'block';
+            } else {
+                metaHtml += `<div>Classification: <b style="color:#fff;">${node.group || 'Resource'}</b></div>`;
+                if (node.title) metaHtml += `<div style="font-size:10px; color:var(--text-secondary); margin-top:2px;">${node.title}</div>`;
+                btnProfile.style.display = 'none';
+                btnFocus.style.display = 'none';
+            }
+
+            meta.innerHTML = metaHtml;
+            hud.style.display = 'flex';
+        }
+
+        function closeNodeHud() {
+            const hud = document.getElementById('node-hud-card');
+            if (hud) hud.style.display = 'none';
+            selectedNodeData = null;
+        }
+
+        function hudOpenProfile() {
+            if (selectedNodeData && selectedNodeData.cage) {
+                switchTab('profile');
+                loadProfile(selectedNodeData.cage);
+                closeNodeHud();
+            }
+        }
+
+        function hudFocusNode() {
+            if (selectedNodeData && selectedNodeData.cage) {
+                setGraphMode('company', document.getElementById('btn-mode-company'));
+                loadGraphSubgraph({ cage: selectedNodeData.cage, mode: 'company' });
+                closeNodeHud();
+            }
+        }
+
+        function setGraphMode(mode, btn) {
+            document.querySelectorAll('.graph-mode-btn').forEach(b => b.classList.remove('active'));
+            if (btn) btn.classList.add('active');
+            currentMode = mode;
+            loadGraphSubgraph({ mode: mode, country: currentCountry, cage: currentCage });
+        }
+
+        function onGraphFilterChange() {
+            const sel = document.getElementById('graph-country-select');
+            currentCountry = sel ? sel.value : 'ALL';
+            loadGraphSubgraph({ mode: currentMode, country: currentCountry, cage: currentCage });
+        }
+
+        function togglePhysics() {
+            physicsEnabled = !physicsEnabled;
+            network.setOptions({ physics: { enabled: physicsEnabled } });
+            const btn = document.getElementById('btn-physics');
+            if (btn) {
+                btn.innerHTML = physicsEnabled ? '⏸ Freeze' : '▶ Unfreeze';
+                btn.style.color = physicsEnabled ? 'var(--text-secondary)' : 'var(--accent-gold)';
+            }
+        }
+
+        function fitGraph() {
+            if (network) network.fit({ animation: { duration: 700, easingFunction: 'easeInOutQuad' } });
+        }
+
+        function reloadGraph() {
+            loadGraphSubgraph({ mode: currentMode, country: currentCountry, cage: currentCage });
         }
 
         // Search Auto-Suggestions
@@ -935,6 +1314,15 @@ SELECT ?companyName ?city ?province ?cage ?capabilityTitle ?trl WHERE {
                     </div>
                 `;
                 container.innerHTML = html;
+
+                // Automatically synchronize and focus the visual Knowledge Graph
+                currentCage = p.cage_code;
+                const compBtn = document.getElementById('btn-mode-company');
+                if (compBtn) {
+                    document.querySelectorAll('.graph-mode-btn').forEach(b => b.classList.remove('active'));
+                    compBtn.classList.add('active');
+                }
+                loadGraphSubgraph({ cage: p.cage_code, mode: 'company' });
             } catch (e) {
                 container.innerHTML = `<div style="color:var(--accent-red); font-size:12px; padding:12px;">Error: ${e.message}</div>`;
             }

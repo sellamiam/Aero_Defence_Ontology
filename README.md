@@ -1,9 +1,9 @@
 # Aerospace & Defence Global Supply Chain Knowledge Graph & Ontology
-### Enterprise Multi-Jurisdiction Sovereign Capability Datasets (W3C OWL 2 / RDF 1.1 / SPARQL 1.1)
+### Multi-Jurisdiction Sovereign Capability Datasets (W3C OWL 2 / RDF 1.1 / SPARQL 1.1)
 
-A formal, enterprise-grade **Knowledge Graph Ontology** and **Sovereign Capability Dataset** engineered for the Aerospace & Defence (A&D) industrial ecosystems across 6 allied and global jurisdictions: **Canada** (1,000 enterprises), the **United Kingdom** (160 enterprises), the **European Union** (220 enterprises across 9 nations), **India** (180 enterprises), **Australia** (120 enterprises), and **New Zealand** (60 enterprises) — totaling **1,740 verified defence contractors** and **156,768 formal RDF knowledge triples**.
+A multi-jurisdiction sovereign capability Knowledge Graph and formal ontology spanning 6 allied industrial ecosystems: **Canada** (1,000 contractors), the **United Kingdom** (160 contractors), the **European Union** (220 contractors across 9 nations), **India** (180 contractors), **Australia** (120 contractors), and **New Zealand** (60 contractors) — comprising **1,740 verified defence suppliers** and **156,768 formal RDF knowledge triples**.
 
-Engineered for sovereign resilience modeling, multi-tier supply chain traceability (`Tier-0 Prime -> Tier-1 Subsystem -> Tier-2 Specialist -> Raw Material`), strategic procurement matching, and agent-based discrete-event supply chain simulations.
+Engineered for sovereign resilience modeling, multi-tier supply chain traceability (`Tier-0 Prime -> Tier-1 Subsystem -> Tier-2 Specialist -> Raw Material`), neural-symbolic procurement matching, and agent-based discrete-event supply chain simulations.
 
 ---
 
@@ -22,6 +22,9 @@ The repository provides standalone, self-contained RDF Turtle (`.ttl`) knowledge
 | 🇳🇿 **New Zealand** | `data/exports/new_zealand.ttl` | **60** | **5,013** | **0.36 MB** | Advanced space, propulsion & niche aerospace (Rocket Lab, Dawn Aerospace, Tait Communications, Zenith) |
 
 *All datasets conform strictly to W3C Turtle 1.1 syntax and load into native triplestores (Oxigraph, GraphDB, Stardog, Virtuoso, Apache Jena) in < 0.25 seconds with 0 syntax errors.*
+
+> [!TIP]
+> **Data Distribution & Release Archives**: For local inspection and offline simulation development, pre-compiled standalone `.ttl` distribution files are tracked directly under `data/exports/`. Snapshot packages and release checksums are maintained under [GitHub Releases (v2.1.0)](https://github.com/sellamiam/Aero_Defence_Ontology/releases/tag/v2.1.0).
 
 ---
 
@@ -83,7 +86,8 @@ for solution in store.query(query):
     print(solution["companyName"].value, "->", solution["serviceName"].value)
 ```
 
-*For complete implementation documentation on connecting simulation UI buttons, passing dynamic parameters, and node-swapping algorithms, see [docs/WILLIAM_SIMULATION_INTEGRATION_GUIDE.md](docs/WILLIAM_SIMULATION_INTEGRATION_GUIDE.md).*
+For the complete technical guide on connecting simulation UI buttons, passing dynamic parameters, and node-swapping algorithms, see:
+👉 [docs/SIMULATION_INTEGRATION_GUIDE.md](docs/SIMULATION_INTEGRATION_GUIDE.md)
 
 ---
 
@@ -127,12 +131,13 @@ The ontology enforces rigorous semantic grounding and domain formalisms:
 
 ---
 
-## 4. Multi-Criteria Procurement Matching & Consortium Engine
+## 4. Neural-Symbolic Procurement Matching & Strategic Consortium Engine
 
-In addition to static graph exports, the platform includes a multi-criteria procurement matching engine:
-- **Zero-Leak Geographic Scoping**: Strict boundary enforcement eliminating foreign entity leakage when querying sovereign-restricted tenders.
-- **Dynamic Weight Normalization**: Multi-criteria utility scoring across Technology Readiness Level (TRL 1–9), security clearance status, facility accreditations (AS9100D, NADCAP, ISO 9001), and NATO qualification.
-- **Strategic Teaming & Consortium Assembler**: Heuristic solver that automatically composes compliant **Lead Prime + Tier-1 Integrator + SME Specialist** joint-venture bidding teams maximizing Canadian Content Value (CCV) and offset credits.
+The platform implements a hybrid neural-symbolic architecture combining deep semantic vector representations with deterministic Knowledge Graph constraints:
+
+- **Neural Semantic Vector Retrieval**: Employs sentence-transformer dense embeddings (`all-MiniLM-L6-v2`) to project unstructured defence procurement tenders and requirement statements into a 384-dimensional vector space, executing cosine similarity ranking against contractor capability profiles.
+- **Deterministic SPARQL & Policy Filtering**: Applies formal W3C SPARQL graph constraints to enforce zero-leak sovereign geographic boundaries (Canadian provinces, UK clusters, EU member states), Controlled Goods Program (CGP) compliance, ITAR postures, security clearances, and Technology Readiness Levels (TRL $\ge$ threshold).
+- **Strategic Teaming & Consortium Assembler**: A constraint-satisfaction heuristic solver that automatically composes compliant **Lead Prime + Tier-1 Subsystem Integrator + SME Specialist** joint-venture bidding teams, maximizing Canadian Content Value (CCV) and official Industrial and Technological Benefits (ITB) offset multipliers (up to 5x for Canadian SMEs).
 
 ### Command-Line Interface
 ```bash
