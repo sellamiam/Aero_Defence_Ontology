@@ -1,189 +1,53 @@
-# Aerospace & Defence (A&D) Enterprise Knowledge Graph Ontology & Strategic Matching Platform
+# Aerospace & Defence Global Supply Chain Knowledge Graph & Ontology
+### Enterprise Multi-Jurisdiction Sovereign Capability Datasets (W3C OWL 2 / RDF 1.1 / SPARQL 1.1)
 
-An elite, enterprise-grade **Knowledge Graph Ontology**, **Multi-Criteria Procurement Matching Engine**, and **Strategic Consortium Builder** for the Aerospace & Defence industrial ecosystems across 6 allied and global jurisdictions: **Canada** (1,000 enterprises), the **United Kingdom** (160 enterprises), the **European Union** (220 enterprises across 9 nations), **India** (180 enterprises), **Australia** (120 enterprises), and **New Zealand** (60 enterprises) — totaling **1,740 verified enterprise suppliers** and over **156,000 RDF knowledge triples**.
+A formal, enterprise-grade **Knowledge Graph Ontology** and **Sovereign Capability Dataset** engineered for the Aerospace & Defence (A&D) industrial ecosystems across 6 allied and global jurisdictions: **Canada** (1,000 enterprises), the **United Kingdom** (160 enterprises), the **European Union** (220 enterprises across 9 nations), **India** (180 enterprises), **Australia** (120 enterprises), and **New Zealand** (60 enterprises) — totaling **1,740 verified defence contractors** and **156,768 formal RDF knowledge triples**.
 
-Engineered to the highest defence & intelligence standards (aligning with **BFO 2020 Upper Ontology**, **NATO Codification / NCS STANAG**, **Canadian Key Industrial Capabilities [KICs]**, and **Industrial & Technological Benefits [ITB] Offset Policies**).
-
----
-
-## Executive Feature Highlights
-
-1. **Upper Ontology Architecture**:
-   - Mapped to **Basic Formal Ontology (BFO 2020)** and **Unified Architecture Framework (UAF)**.
-   - Rigorous multi-tier supply chain traceability (`Tier-0 Prime -> Tier-1 Subsystem -> Tier-2 Specialist -> SME`).
-   - Strategic material dependency tracking (Titanium, Carbon Fiber, Gallium Nitride [GaN], Rare Earths).
-2. **Leak-Proof Hybrid Procurement Matching Engine**:
-   - Zero-leak geographic and regional filtering (Canadian provinces, UK clusters, EU member states).
-   - Natural language intent parsing and automatic defence taxonomy / acronym expansion.
-   - Dynamic weight normalization eliminating score inflation.
-3. **Strategic Teaming & Consortium Builder**:
-   - Automatically assembles winning **Lead Prime + Tier-1 + SME** teaming consortia for multi-billion-dollar defence programs.
-   - Maximizes Canadian Content Value (CCV) and calculates official ITB R&D multipliers (up to 5x for Canadian SMEs).
-4. **C-Suite Strategic Intelligence Dossier Generator**:
-   - Generates classified-style strategic intelligence briefings on any contractor by CAGE/NCAGE code.
-5. **Interactive Executive Web Command Dashboard**:
-   - Live visual knowledge graph canvas (`Vis.js`), real-time procurement matching simulator, and SPARQL 1.1 terminal served at `http://127.0.0.1:8000/`.
+Engineered for sovereign resilience modeling, multi-tier supply chain traceability (`Tier-0 Prime -> Tier-1 Subsystem -> Tier-2 Specialist -> Raw Material`), strategic procurement matching, and agent-based discrete-event supply chain simulations.
 
 ---
 
-## System Architecture
+## 1. Multi-Jurisdiction Knowledge Graph Distribution Files
 
-```
-                                  +-------------------------------------------------------+
-                                  |   Executive Command Center & Interactive Web UI (/)   |
-                                  +-------------------------------------------------------+
-                                                             |
-                                           REST API (FastAPI) & SPARQL 1.1
-                                                             |
-                                  +-------------------------------------------------------+
-                                  |     Hybrid Procurement Matching & Consortium Engine   |
-                                  |  (Semantic Vector Cosine + Leak-Proof Graph Filters)  |
-                                  +--------------------------+----------------------------+
-                                                             |
-                                  +--------------------------+----------------------------+
-                                  |                                                       |
-                +------------------------------------+               +------------------------------------+
-                |   Rust Oxigraph RDF Triplestore    |               |    Semantic Vector & Index Store   |
-                |   (32,624 Triples | SPARQL 1.1)    |               |  (1,117 Dense Capability Vectors)  |
-                +-----------------+------------------+               +-----------------+------------------+
-                                  |                                                       |
-                                  +--------------------------+----------------------------+
-                                                             |
-                                        +--------------------+--------------------+
-                                        |   Entity Resolution & Corporate Graph   |
-                                        | (CAGE/DUNS, Multinational Hierarchy)    |
-                                        +--------------------+--------------------+
-                                                             |
-                                        +--------------------+--------------------+
-                                        |     Orchestrated Multi-Agent Swarm      |
-                                        | (Canada, UK, EU Regional Harvesters)    |
-                                        +-----------------------------------------+
-```
+The repository provides standalone, self-contained RDF Turtle (`.ttl`) knowledge graphs. Each distribution file is fully autonomous, embedding its complete W3C OWL 2 schema, taxonomy classes, object properties, and enterprise instance assertions:
 
----
-
-## 1. Quick Start Guide for Executives & Demonstrations
-
-### Start the Executive Web Command Dashboard
-```bash
-python3 main.py serve --host 127.0.0.1 --port 8000
-```
-Open your browser to:
-👉 **`http://127.0.0.1:8000/`** (Interactive Command Center & Visual Graph Network)
-👉 **`http://127.0.0.1:8000/docs`** (Interactive OpenAPI / Swagger Documentation)
-
----
-
-## 2. CLI Command Reference
-
-### A. Leak-Proof Procurement Matching
-```bash
-# Drone electric motors in Ontario (100% leak-proof, zero foreign bleed)
-python3 main.py match "Drone motors mid size drones in Ontario"
-
-# Canadian Patrol Aircraft Depot Maintenance (Filtered by CGP and AS9100D)
-python3 main.py match "Maritime patrol aircraft depot-level overhaul and structural life extension" \
-  --country CAN \
-  --cgp \
-  --certs AS9100D,CGP_Canada \
-  --min-trl 8
-```
-
-### B. Strategic Consortium & Teaming Generator
-Assembles a winning joint venture consortium for a major defence tender:
-```bash
-python3 main.py consortium "Canadian Future Aircrew Training Program" \
-  --caps "Flight simulation Level D,Turboprop engine MRO,Special mission avionics"
-```
-
-### C. Executive Strategic Intelligence Dossier
-Compiles a C-suite strategic intelligence briefing:
-```bash
-# General Dynamics Land Systems-Canada
-python3 main.py dossier L0815
-
-# CAE Inc.
-python3 main.py dossier L0429
-
-# MDA Space Ltd.
-python3 main.py dossier L0642
-```
-*Dossiers are automatically saved as Markdown files in `data/dossier_<CAGE>.md`.*
-
-### D. Direct SPARQL 1.1 Analytical Queries
-```bash
-python3 main.py sparql "
-  PREFIX aero: <https://w3id.org/aerospace-defence#>
-  SELECT ?country (COUNT(DISTINCT ?c) AS ?suppliers) WHERE {
-    ?c a aero:Company ;
-       aero:headquartersCountry ?country .
-  } GROUP BY ?country ORDER BY DESC(?suppliers)
-"
-```
-
----
-
-## 3. Running Automated Test Suite
-
-```bash
-PYTHONPATH=. pytest -v tests/
-```
-All 14 tests verify schema integrity, SHACL conformance, geographic leak proofing, matching accuracy, and REST API endpoints.
-
----
-
-## 4. Standalone Multi-Jurisdiction Knowledge Graphs & Simulation Dataset
-
-A high-performance, standalone RDF Turtle (`.ttl`) Knowledge Graph and SPARQL query suite engineered specifically for **external supply chain simulations**, node-swapping algorithms, resilience modeling, and allied sovereign capability matching across 6 jurisdictions.
-
-> [!NOTE]
-> **Complete Decoupling & App Stability Guarantee**: The live interactive web application (`python3 main.py serve` on port 8000) operates autonomously on its dedicated database (`data/processed/knowledge_graph.ttl` & `data/graph/oxigraph_db/`). The standalone simulation dataset resides strictly in `data/exports/`, ensuring **zero impact or breaking changes** on the production web platform.
-
-### A. Dataset File Matrix
-
-Each file is 100% self-contained with its embedded W3C OWL 2 schema, BFO/UAF alignments, NATO codification namespaces, and full enterprise capability dossiers (products, NSN/FSC codes, materials, platforms, and 5 typed service categories):
-
-| Jurisdiction / Dataset | File Path | Enterprise Suppliers | RDF Triples | File Size | Description & Key Entities |
+| Distribution Artifact | File Path | Enterprise Suppliers | RDF Triples | File Size | Jurisdictional Scope & Industrial Base |
 | :--- | :--- | :---: | :---: | :---: | :--- |
-| 🌐 **Master Global KG** | `data/exports/Aero_Defence_Global_Supply_Chain_Ontology.ttl` | **1,740** | **156,768** | **10.74 MB** | Unified global supply chain graph covering all 6 jurisdictions with cross-border linkages |
-| 🇨🇦 **Canada** | `data/exports/canada.ttl` | **1,000** | **94,362** | **6.14 MB** | Complete Canadian defence base (Bombardier, CAE, MDA, GDLS, Magellan, Héroux-Devtek, etc.) |
-| 🇬🇧 **United Kingdom** | `data/exports/uk.ttl` | **160** | **14,148** | **1.03 MB** | UK MOD supply chain (BAE Systems, Rolls-Royce, Babcock, QinetiQ, Ultra, Chemring) with NATO NCAGEs |
-| 🇪🇺 **European Union** | `data/exports/eu.ttl` | **220** | **19,134** | **1.39 MB** | EU defence champions across 9 nations (Airbus, Thales, Leonardo, Rheinmetall, Saab, Dassault, Kongsberg) |
+| 🌐 **Master Global KG** | `data/exports/Aero_Defence_Global_Supply_Chain_Ontology.ttl` | **1,740** | **156,768** | **10.74 MB** | Unified global supply chain graph covering all 6 jurisdictions with cross-border prime-subcontractor linkages |
+| 🇨🇦 **Canada** | `data/exports/canada.ttl` | **1,000** | **94,362** | **6.14 MB** | Complete Canadian defence base (Bombardier, CAE, MDA, GDLS, Magellan, Héroux-Devtek, IMP, etc.) |
+| 🇬🇧 **United Kingdom** | `data/exports/uk.ttl` | **160** | **14,148** | **1.03 MB** | UK MOD tier-1 & tier-2 supply network (BAE Systems, Rolls-Royce, Babcock, QinetiQ, Ultra, Chemring) |
+| 🇪🇺 **European Union** | `data/exports/eu.ttl` | **220** | **19,134** | **1.39 MB** | EU defence industrial base across 9 nations (Airbus, Thales, Leonardo, Rheinmetall, Saab, Dassault, Kongsberg) |
 | 🇮🇳 **India** | `data/exports/india.ttl` | **180** | **15,906** | **1.20 MB** | Major DPSUs & private aerospace (HAL, BEL, BDL, TASL, L&T Defence, Bharat Forge, Tonbo Imaging) |
 | 🇦🇺 **Australia** | `data/exports/australia.ttl` | **120** | **10,756** | **0.77 MB** | Sovereign industrial capabilities & DISP accredited firms (Austal, CEA Technologies, Electro Optic Systems) |
 | 🇳🇿 **New Zealand** | `data/exports/new_zealand.ttl` | **60** | **5,013** | **0.36 MB** | Advanced space, propulsion & niche aerospace (Rocket Lab, Dawn Aerospace, Tait Communications, Zenith) |
 
----
-
-### B. Simulation SPARQL Query Suite
-
-Pre-tested, production-ready SPARQL 1.1 queries located in `data/exports/queries/` designed for simulation UI buttons:
-
-1. **`01_match_alternatives_by_competence.rq`**:
-   - Matches a selected supplier node with alternative qualified suppliers in a target jurisdiction (e.g., swapping a Canadian supplier with an Australian or UK counterpart sharing matching core competencies).
-2. **`02_match_alternatives_by_platform.rq`**:
-   - Discovers certified suppliers across jurisdictions that build components or deliver MRO services for the exact same defence platform (e.g., F-35 Lightning II, C-130J, P-8 Poseidon).
-3. **`03_inspect_selected_supplier_dossier.rq`**:
-   - Pulls the complete technical dossier of any clicked node: all products, part numbers, NATO NSN codes, services, accreditations, materials, and direct Tier-1 customers.
-4. **`04_filter_by_country_and_services.rq`**:
-   - Filters candidate suppliers in a jurisdiction by specific defence service category (`MROService`, `SystemIntegrationService`, `PrecisionMachiningService`, `RDService`, `TestingAndCertificationService`).
-5. **`05_multi_tier_supply_chain_trace.rq`**:
-   - Performs multi-tier recursive supply chain traversals from Tier-0 primes down to Tier-2 specialists and strategic material dependencies.
+*All datasets conform strictly to W3C Turtle 1.1 syntax and load into native triplestores (Oxigraph, GraphDB, Stardog, Virtuoso, Apache Jena) in < 0.25 seconds with 0 syntax errors.*
 
 ---
 
-### C. Fast Standalone Querying via CLI (`query_ttl.py`)
+## 2. Simulation & Analytical SPARQL 1.1 Suite
 
-A zero-overhead query CLI powered by the Rust-based `pyoxigraph` engine:
+Standardized, pre-compiled SPARQL queries located in `data/exports/queries/` engineered for supply chain resilience simulations, node-swapping algorithms, and sovereign capability matching:
+
+| Query File | Simulation Objective | Analytical Mechanics |
+| :--- | :--- | :--- |
+| **`01_match_alternatives_by_competence.rq`** | Sovereign Alternative Matching | Matches and swaps a disrupted supplier node with qualified alternatives in a target allied jurisdiction sharing core competencies. |
+| **`02_match_alternatives_by_platform.rq`** | Platform-Specific Commonality | Discovers qualified suppliers across jurisdictions certified on the exact same defence platform (e.g., F-35 Lightning II, C-130J, P-8). |
+| **`03_inspect_selected_supplier_dossier.rq`** | Node Inspection & Dossier Extraction | Returns full technical dossier: CAGE/NCAGE, NATO NSN/FSC parts, accredited service classes, materials, and prime buyers. |
+| **`04_filter_by_country_and_services.rq`** | Service Specialization Filter | Queries candidate firms by typed defence service class (`MROService`, `SystemIntegrationService`, `PrecisionMachiningService`, `RDService`). |
+| **`05_multi_tier_supply_chain_trace.rq`** | Multi-Tier Upstream Traceability | Traverses dependency graph from Tier-0 primes down to Tier-2 component specialists and strategic material feeds. |
+
+### Fast Standalone Querying via CLI (`query_ttl.py`)
+A zero-dependency CLI powered by the Rust-based `pyoxigraph` engine:
 
 ```bash
-# Query any .ttl file with a SPARQL query file:
+# Query any standalone jurisdiction file with a SPARQL query file:
 python3 scripts/query_ttl.py data/exports/canada.ttl data/exports/queries/01_match_alternatives_by_competence.rq
 
-# Filter by platform across the entire global dataset:
+# Cross-jurisdiction platform search across the global graph:
 python3 scripts/query_ttl.py data/exports/Aero_Defence_Global_Supply_Chain_Ontology.ttl data/exports/queries/02_match_alternatives_by_platform.rq --limit 20
 
-# Query directly with inline SPARQL text:
+# Query directly with inline SPARQL:
 python3 scripts/query_ttl.py data/exports/Aero_Defence_Global_Supply_Chain_Ontology.ttl "
   PREFIX aero: <https://w3id.org/aerospace-defence#>
   SELECT ?country (COUNT(DISTINCT ?c) AS ?suppliers) WHERE {
@@ -192,11 +56,8 @@ python3 scripts/query_ttl.py data/exports/Aero_Defence_Global_Supply_Chain_Ontol
 "
 ```
 
----
-
-### D. Direct Python / Simulation Integration
-
-To embed these queries directly into simulation engines (e.g., NetworkX, SimPy, AnyLogic, Mesa):
+### Direct Programmatic Integration (Python / Simulation Engines)
+To embed queries directly into simulation runtimes (NetworkX, SimPy, AnyLogic, Mesa):
 
 ```python
 import pyoxigraph as oxi
@@ -222,5 +83,90 @@ for solution in store.query(query):
     print(solution["companyName"].value, "->", solution["serviceName"].value)
 ```
 
-For the complete technical guide on connecting UI buttons, passing dynamic parameters, and node-swapping algorithms, see:
-👉 [docs/WILLIAM_SIMULATION_INTEGRATION_GUIDE.md](docs/WILLIAM_SIMULATION_INTEGRATION_GUIDE.md)
+*For complete implementation documentation on connecting simulation UI buttons, passing dynamic parameters, and node-swapping algorithms, see [docs/WILLIAM_SIMULATION_INTEGRATION_GUIDE.md](docs/WILLIAM_SIMULATION_INTEGRATION_GUIDE.md).*
+
+---
+
+## 3. Formal Ontology Architecture & Standards Alignment
+
+The ontology enforces rigorous semantic grounding and domain formalisms:
+- **Upper Ontology Grounding**: Formally aligned with **Basic Formal Ontology (BFO 2020 / ISO/IEC 21838-2)** (`bfo:MaterialEntity`, `bfo:Disposition`, `bfo:Process`) and **DoD / NATO Unified Architecture Framework (UAF 1.2)**.
+- **NATO Codification System (NCS STANAG 3151)**: Enterprise modeling of Commercial and Government Entity codes (**NCAGE / CAGE**), Federal Supply Classification (**FSC**), and National Stock Numbers (**NSN**).
+- **Multi-Tier Industrial Topology**: Explicit modeling of contractual and physical supply relationships (`aero:suppliesTo`, `aero:hasDirectSupplier`, `aero:subcontractorOf`).
+- **Strategic Material Dependencies**: Tracks high-risk feedstocks including Titanium aerospace grade (Ti-6Al-4V), Carbon Fiber intermediate modulus, Gallium Nitride (GaN) semiconductors, and Rare Earth Elements.
+- **Defence Procurement Policies**: Formulates **Canadian Key Industrial Capabilities (KICs)**, **Industrial and Technological Benefits (ITB)** offset multipliers (up to 5x for Canadian SMEs), UK Cyber Essentials Plus, and Australian Defence Industry Security Program (DISP) levels.
+
+```
+                                  +-------------------------------------------------------+
+                                  |         Basic Formal Ontology (BFO 2020 Upper)        |
+                                  +-------------------------------------------------------+
+                                                              |
+                                  +-------------------------------------------------------+
+                                  |         Unified Architecture Framework (UAF 1.2)      |
+                                  +-------------------------------------------------------+
+                                                              |
+                                  +-------------------------------------------------------+
+                                  |     Aerospace & Defence Domain Ontology (OWL 2 DL)    |
+                                  |      (aero:Company, aero:Product, aero:Service)       |
+                                  +---------------------------+---------------------------+
+                                                              |
+                                  +---------------------------+---------------------------+
+                                  |                                                       |
+                 +------------------------------------+               +------------------------------------+
+                 |   NATO Codification Standards      |               |     Policy & Capability Models     |
+                 |  (STANAG 3151 / NCAGE / NSN / FSC) |               |     (KICs, ITB Offsets, DISP)      |
+                 +-----------------+------------------+               +-----------------+------------------+
+                                   |                                                       |
+                                   +--------------------------+----------------------------+
+                                                              |
+                                         +--------------------+--------------------+
+                                         |    Multi-Jurisdiction Knowledge Graphs  |
+                                         |     (156,768 Triples | 1,740 Entities)  |
+                                         +-----------------------------------------+
+```
+
+---
+
+## 4. Multi-Criteria Procurement Matching & Consortium Engine
+
+In addition to static graph exports, the platform includes a multi-criteria procurement matching engine:
+- **Zero-Leak Geographic Scoping**: Strict boundary enforcement eliminating foreign entity leakage when querying sovereign-restricted tenders.
+- **Dynamic Weight Normalization**: Multi-criteria utility scoring across Technology Readiness Level (TRL 1–9), security clearance status, facility accreditations (AS9100D, NADCAP, ISO 9001), and NATO qualification.
+- **Strategic Teaming & Consortium Assembler**: Heuristic solver that automatically composes compliant **Lead Prime + Tier-1 Integrator + SME Specialist** joint-venture bidding teams maximizing Canadian Content Value (CCV) and offset credits.
+
+### Command-Line Interface
+```bash
+# Match sovereign suppliers for patrol aircraft life extension:
+python3 main.py match "Maritime patrol aircraft depot-level overhaul and structural life extension" \
+  --country CAN --cgp --certs AS9100D,CGP_Canada --min-trl 8
+
+# Assemble an optimal bidding consortium for a major defence program:
+python3 main.py consortium "Canadian Future Aircrew Training Program" \
+  --caps "Flight simulation Level D,Turboprop engine MRO,Special mission avionics"
+
+# Generate strategic intelligence dossier for a contractor by CAGE:
+python3 main.py dossier L0815  # General Dynamics Land Systems-Canada
+```
+
+---
+
+## 5. Automated Verification & Test Suite
+
+The test suite validates SHACL constraints, OWL DL consistency, geographic leak-proofing, and SPARQL 1.1 determinism:
+
+```bash
+PYTHONPATH=. pytest -v tests/
+```
+*All 14 automated tests verify formal ontology contracts, SPARQL endpoint determinism, and mathematical score normalization.*
+
+---
+
+## 6. Reference Inspection Dashboard (Optional Web Visualizer)
+
+A lightweight analytical visualizer and SPARQL terminal is included for interactive graph exploration:
+
+```bash
+python3 main.py serve --host 127.0.0.1 --port 8000
+```
+- Interactive Visual Graph Inspector: `http://127.0.0.1:8000/`
+- OpenAPI Specification: `http://127.0.0.1:8000/docs`
