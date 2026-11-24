@@ -1,0 +1,887 @@
+"""
+Australian Aerospace & Defence Harvester.
+Captures key Australian prime systems integrators, DISP-certified defence contractors,
+naval shipbuilders, and innovative SME specialists across aerospace, naval, radar, and autonomous systems.
+"""
+
+from typing import List, Dict, Any, Optional
+import random
+from harvesters.base import BaseHarvester
+
+
+class AustraliaHarvester(BaseHarvester):
+    """Harvester for Australian Aerospace & Defence industrial base."""
+
+    def __init__(self):
+        super().__init__(region_name="Australia")
+
+    def _get_flagship_australian_companies(self) -> List[Dict[str, Any]]:
+        return [
+            {
+                "legal_name": "CEA Technologies Pty Ltd",
+                "trade_name": "CEA Technologies",
+                "cage_code": "Z0A12",
+                "duns_number": "753194012",
+                "business_number": "AU990086452",
+                "country": "AUS",
+                "city": "Canberra",
+                "province": "ACT",
+                "website": "https://www.cea.com.au",
+                "tier": "Prime",
+                "controlled_goods": True,
+                "itar_compliant": True,
+                "certifications": ["AS9100D", "ISO9001", "DISP_Level3", "FacilitySecurity_Secret", "NATO_AQAP2110"],
+                "domains": ["AirPlatform", "MaritimePlatform", "LandPlatform", "DomainDefence"],
+                "platforms": ["Platform_SurfaceCombatant", "Platform_HunterClass_Frigate", "Platform_FixedWingCombat"],
+                "kics": ["KIC_DefenceSystemsIntegration", "KIC_SensorsSonar", "KIC_InServiceSupport"],
+                "capabilities": [
+                    {
+                        "title": "Active Electronically Scanned Array (AESA) Digital Phased Array Radar Systems",
+                        "description": "CEAFAR active phased array radar technology for multi-mission air search, missile fire control, and surface target tracking.",
+                        "trl": 9,
+                        "mrl": 9,
+                        "kic": "KIC_SensorsSonar",
+                    },
+                    {
+                        "title": "Integrated Surface Combatant Sensor Mast Assemblies",
+                        "description": "High-power RF integrated mast apertures for Hunter-class and Anzac-class frigates.",
+                        "trl": 9,
+                        "mrl": 9,
+                        "kic": "KIC_DefenceSystemsIntegration",
+                    },
+                ],
+                "products": [
+                    {
+                        "name": "CEAFAR 3D Active Phased Array Radar",
+                        "description": "Gallium Nitride solid-state high-power 3D surveillance and missile defense naval radar aperture.",
+                        "part_number": "PN-AUS-CEA-CFR01",
+                        "fsc_code": "5840",
+                        "nsn_code": "5840-66-102-9182",
+                        "platforms": ["Platform_SurfaceCombatant", "Platform_HunterClass_Frigate"],
+                        "materials": ["Material_GalliumNitride_GaN", "Material_SiliconCarbide_SiC"],
+                    },
+                    {
+                        "name": "CEAMOUNT Continuous Wave Illuminator",
+                        "description": "Active phased array continuous wave radar illuminator for semi-active missile guidance.",
+                        "part_number": "PN-AUS-CEA-CMT01",
+                        "fsc_code": "5840",
+                        "nsn_code": "5840-66-102-9183",
+                        "platforms": ["Platform_SurfaceCombatant"],
+                        "materials": ["Material_GalliumNitride_GaN"],
+                    },
+                ],
+                "services": [
+                    {
+                        "name": "Naval Radar In-Service Support and Lifecycle Upgrade Engineering",
+                        "description": "Depot radar transmitter maintenance, receiver sensitivity calibration, and operational software patching.",
+                        "type": "MROService",
+                        "accreditation": "DISP Level 3 / DASA Approved",
+                    },
+                    {
+                        "name": "Phased Array Radar Anechoic Chamber Calibration",
+                        "description": "Far-field antenna pattern characterization, mutual coupling measurement, and digital beamforming verification.",
+                        "type": "TestingQualificationService",
+                        "accreditation": "NATA Accredited Laboratory",
+                    },
+                    {
+                        "name": "Naval Combat System Radar Signal Integration",
+                        "description": "Combat management system CMS interface engineering, track correlation testing, and tactical link integration.",
+                        "type": "EngineeringService",
+                        "accreditation": "AS9100D",
+                    },
+                    {
+                        "name": "AESA Transmit/Receive Module Microelectronic Rework",
+                        "description": "Cleanroom surface mount component replacement, GaN MMIC die bonding, and automated thermal profile screening.",
+                        "type": "MROService",
+                        "accreditation": "AS9100D",
+                    },
+                    {
+                        "name": "Royal Australian Navy Operational Radar Technical Support",
+                        "description": "Onboard sea trial support, 24/7 technical hotline, and mission-critical spares logistics across Australian fleet bases.",
+                        "type": "LogisticsSupportService",
+                        "accreditation": "ISO 9001:2015",
+                    },
+                ],
+            },
+            {
+                "legal_name": "Electro Optic Systems Pty Ltd",
+                "trade_name": "EOS Defence Systems",
+                "cage_code": "Z0B44",
+                "duns_number": "758491028",
+                "business_number": "AU720928172",
+                "country": "AUS",
+                "city": "Symonston",
+                "province": "ACT",
+                "website": "https://www.eos-aus.com",
+                "tier": "Prime",
+                "controlled_goods": True,
+                "itar_compliant": True,
+                "certifications": ["AS9100D", "ISO9001", "DISP_Level3", "FacilitySecurity_Secret"],
+                "domains": ["LandPlatform", "SpacePlatform", "DomainDefence"],
+                "platforms": ["Platform_TacticalUAS", "Platform_LEOSatellite", "Platform_ArmouredCombatVehicle"],
+                "kics": ["KIC_EOIRSystems", "KIC_SpaceSystems", "KIC_AIAutonomousSystems"],
+                "capabilities": [
+                    {
+                        "title": "Remote Weapon Systems (RWS) & Counter-UAS Directed Energy",
+                        "description": "Stabilized remote weapon stations and high-energy laser counter-drone systems with computer vision fire control.",
+                        "trl": 9,
+                        "mrl": 9,
+                        "kic": "KIC_EOIRSystems",
+                    },
+                    {
+                        "title": "High-Precision Space Domain Awareness & Optical Satellite Tracking",
+                        "description": "Laser tracking of low-Earth orbit satellites and space debris with sub-meter astrometric accuracy.",
+                        "trl": 9,
+                        "mrl": 9,
+                        "kic": "KIC_SpaceSystems",
+                    },
+                ],
+                "products": [
+                    {
+                        "name": "R800 Heavy Remote Weapon Station",
+                        "description": "Precision gyro-stabilized weapon station capable of mounting 30mm Mk44 cannon, coaxial machine gun, and anti-tank missiles.",
+                        "part_number": "PN-AUS-EOS-R800",
+                        "fsc_code": "1005",
+                        "nsn_code": "1005-66-210-4491",
+                        "platforms": ["Platform_ArmouredCombatVehicle"],
+                        "materials": ["Material_AluminiumLithium_2055", "Material_Titanium_Ti6Al4V"],
+                    },
+                    {
+                        "name": "Titanis Counter-UAS Laser Weapon System",
+                        "description": "Directed energy laser weapon system integrated with radar and thermal cameras for drone swarm neutralization.",
+                        "part_number": "PN-AUS-EOS-TTN01",
+                        "fsc_code": "5865",
+                        "nsn_code": "5865-66-210-4492",
+                        "platforms": ["Platform_TacticalUAS"],
+                        "materials": ["Material_SiliconCarbide_SiC"],
+                    },
+                ],
+                "services": [
+                    {
+                        "name": "Space Situational Awareness Orbital Telemetry Services",
+                        "description": "Commercial and military satellite orbit determination, conjunction assessment, and anti-satellite threat monitoring.",
+                        "type": "SimulationTrainingService",
+                        "accreditation": "Space Command Accredited",
+                    },
+                    {
+                        "name": "RWS Gyro-Stabilization Dynamic Shake Table Qualification",
+                        "description": "Multi-axis vibration and shock testing replicating extreme cross-country tracked and wheeled vehicle terrain profiles.",
+                        "type": "TestingQualificationService",
+                        "accreditation": "MIL-STD-810H",
+                    },
+                    {
+                        "name": "Remote Weapon Station Depot Overhaul & Fire Control Recalibration",
+                        "description": "Optical sensor bore-sighting, laser rangefinder pulse calibration, and slip ring electrical servicing.",
+                        "type": "MROService",
+                        "accreditation": "AS9100D",
+                    },
+                    {
+                        "name": "Combat Vehicle Turret Integration and Weapon Harmonization",
+                        "description": "Mechanical mounting design, high-amperage vehicle electrical bus isolation, and live-fire harmonization.",
+                        "type": "EngineeringService",
+                        "accreditation": "DISP Level 3",
+                    },
+                    {
+                        "name": "Defence Weapon Station Operator & Maintenance Training",
+                        "description": "Virtual gunnery simulation instruction, field maintenance procedures, and emergency manual override drills.",
+                        "type": "SimulationTrainingService",
+                        "accreditation": "ISO 9001:2015",
+                    },
+                ],
+            },
+            {
+                "legal_name": "Austal Limited",
+                "trade_name": "Austal",
+                "cage_code": "Z0C81",
+                "duns_number": "759281741",
+                "business_number": "AU540092646",
+                "country": "AUS",
+                "city": "Henderson",
+                "province": "WA",
+                "website": "https://www.austal.com",
+                "tier": "Prime",
+                "controlled_goods": True,
+                "itar_compliant": True,
+                "certifications": ["ISO9001", "DISP_Level3", "FacilitySecurity_Secret", "NATO_AQAP2110"],
+                "domains": ["MaritimePlatform", "DomainDefence"],
+                "platforms": ["Platform_SurfaceCombatant"],
+                "kics": ["KIC_NavalShipbuilding", "KIC_InServiceSupport", "KIC_AdvancedMaterials"],
+                "capabilities": [
+                    {
+                        "title": "High-Speed Aluminium and Steel Naval Ship Construction",
+                        "description": "Naval patrol boats, expeditionary fast transports (EPF), and littoral combat trimarans.",
+                        "trl": 9,
+                        "mrl": 9,
+                        "kic": "KIC_NavalShipbuilding",
+                    },
+                    {
+                        "title": "Autonomous Vessel Command and Machinery Control Systems",
+                        "description": "Uncrewed surface vessel control software, health monitoring telemetry, and automated damage control systems.",
+                        "trl": 8,
+                        "mrl": 8,
+                        "kic": "KIC_AIAutonomousSystems",
+                    },
+                ],
+                "products": [
+                    {
+                        "name": "Cape-Class Patrol Boat",
+                        "description": "58-meter aluminium monohull patrol boat designed for border protection, maritime security, and counter-smuggling.",
+                        "part_number": "PN-AUS-AST-CCPB01",
+                        "fsc_code": "1905",
+                        "nsn_code": "1905-66-319-4820",
+                        "platforms": ["Platform_SurfaceCombatant"],
+                        "materials": ["Material_AluminiumLithium_2055"],
+                    },
+                    {
+                        "name": "Guardian-Class Patrol Boat",
+                        "description": "39.5-meter steel hull patrol boat for sovereign Pacific maritime surveillance and disaster relief operations.",
+                        "part_number": "PN-AUS-AST-GCPB01",
+                        "fsc_code": "1905",
+                        "nsn_code": "1905-66-319-4821",
+                        "platforms": ["Platform_SurfaceCombatant"],
+                        "materials": ["Material_Titanium_Ti6Al4V"],
+                    },
+                ],
+                "services": [
+                    {
+                        "name": "Naval Fleet Sustaining & In-Service Support",
+                        "description": "Scheduled drydock docking, underwater hull inspection, marine diesel engine overhaul, and navigation system updates.",
+                        "type": "MROService",
+                        "accreditation": "Lloyd's Register / DNV-GL",
+                    },
+                    {
+                        "name": "High-Speed Naval Hydrodynamic Computational Fluid Dynamics (CFD)",
+                        "description": "Ship resistance optimization, sea-keeping motion simulation, and propeller cavitation analysis.",
+                        "type": "EngineeringService",
+                        "accreditation": "ISO 9001",
+                    },
+                    {
+                        "name": "Marine Aluminium Non-Destructive Ultrasonic Weld Testing",
+                        "description": "Phased array weld seam inspection, structural fatigue crack monitoring, and cathodic protection survey.",
+                        "type": "TestingQualificationService",
+                        "accreditation": "NATA Accredited",
+                    },
+                    {
+                        "name": "Shipboard Combat & Communication System Integration",
+                        "description": "Naval mast RF cabling, secure tactical voice distribution, and navigation radar display installation.",
+                        "type": "EngineeringService",
+                        "accreditation": "DISP Level 3",
+                    },
+                    {
+                        "name": "Naval Crew Operational Sea Training & Damage Control Instruction",
+                        "description": "Bridge simulator maneuvering courses, shipboard fire and flooding drills, and propulsion control training.",
+                        "type": "SimulationTrainingService",
+                        "accreditation": "ISO 9001:2015",
+                    },
+                ],
+            },
+            {
+                "legal_name": "Quickstep Holdings Limited",
+                "trade_name": "Quickstep Composites",
+                "cage_code": "Z0D95",
+                "duns_number": "751092841",
+                "business_number": "AU550962681",
+                "country": "AUS",
+                "city": "Bankstown",
+                "province": "NSW",
+                "website": "https://www.quickstep.com.au",
+                "tier": "Tier1Supplier",
+                "controlled_goods": True,
+                "itar_compliant": True,
+                "certifications": ["AS9100D", "ISO9001", "NADCAP_Composites", "DISP_Level2", "FacilitySecurity_Secret"],
+                "domains": ["AirPlatform", "DomainDefence"],
+                "platforms": ["Platform_F35_Lightning_II", "Platform_C130J_SuperHercules", "Platform_MQ28_GhostBat"],
+                "kics": ["KIC_AdvancedMaterials", "KIC_AerospaceSystems"],
+                "capabilities": [
+                    {
+                        "title": "Advanced Carbon-Fiber Composite Aerostructure Autoclave Manufacturing",
+                        "description": "Out-of-autoclave and autoclave cured composite vertical tails, wing skins, and composite fairings for F-35 Lightning II and C-130J.",
+                        "trl": 9,
+                        "mrl": 9,
+                        "kic": "KIC_AdvancedMaterials",
+                    },
+                    {
+                        "title": "Automated Fiber Placement (AFP) & Out-of-Autoclave Curing",
+                        "description": "Robotic automated fiber placement, resin infusion, and rapid cure composite processing for uncrewed combat aircraft.",
+                        "trl": 8,
+                        "mrl": 8,
+                        "kic": "KIC_AdvancedMaterials",
+                    },
+                ],
+                "products": [
+                    {
+                        "name": "F-35 Lightning II Carbon Fiber Vertical Tail Assemblies",
+                        "description": "Composite structural vertical tail box assemblies manufactured to low-observable stealth tolerances.",
+                        "part_number": "PN-AUS-QCK-F35VT",
+                        "fsc_code": "1560",
+                        "nsn_code": "1560-66-419-1029",
+                        "platforms": ["Platform_F35_Lightning_II"],
+                        "materials": ["Material_CarbonFiber_Composite", "Material_RadarAbsorbentMaterial_RAM"],
+                    },
+                    {
+                        "name": "C-130J Hercules Composite Wing Flaps",
+                        "description": "Structural carbon-composite trailing edge wing flap assemblies for global C-130J fleet.",
+                        "part_number": "PN-AUS-QCK-C130WF",
+                        "fsc_code": "1560",
+                        "nsn_code": "1560-66-419-1030",
+                        "platforms": ["Platform_C130J_SuperHercules"],
+                        "materials": ["Material_CarbonFiber_Composite"],
+                    },
+                ],
+                "services": [
+                    {
+                        "name": "Aerospace Composite Repair & Non-Destructive Testing (NDT)",
+                        "description": "Ultrasonic water-squirt C-scan, tap testing, structural composite scarf repair, and autoclave re-curing.",
+                        "type": "MROService",
+                        "accreditation": "NADCAP NDT & Composites",
+                    },
+                    {
+                        "name": "Composite Tooling Design & Thermal Expansion FEA Simulation",
+                        "description": "Invar tooling design, resin flow rheology simulation, and thermal exotherm management modeling.",
+                        "type": "EngineeringService",
+                        "accreditation": "AS9100D",
+                    },
+                    {
+                        "name": "Stealth Surface Radar Absorbent Material (RAM) Application",
+                        "description": "Robotic spray application of radar absorbent coatings and surface electromagnetic verification.",
+                        "type": "EngineeringService",
+                        "accreditation": "Lockheed Martin Approved",
+                    },
+                    {
+                        "name": "Aerospace Structural Mechanical Coupon Tensile Testing",
+                        "description": "Interlaminar shear, compression after impact (CAI), and glass transition temperature (Tg) testing.",
+                        "type": "TestingQualificationService",
+                        "accreditation": "NATA Accredited Laboratory",
+                    },
+                    {
+                        "name": "Direct Global Ship-to-Line Aerospace Logistics",
+                        "description": "Climate-controlled shipping containers, continuous shock logging, and JIT line delivery to OEM assembly plants.",
+                        "type": "LogisticsSupportService",
+                        "accreditation": "ISO 9001:2015",
+                    },
+                ],
+            },
+            {
+                "legal_name": "Ferra Engineering Pty Ltd",
+                "trade_name": "Ferra Aerospace",
+                "cage_code": "Z0E33",
+                "duns_number": "752948192",
+                "business_number": "AU340081928",
+                "country": "AUS",
+                "city": "Tingalpa",
+                "province": "QLD",
+                "website": "https://www.ferra-group.com",
+                "tier": "Tier1Supplier",
+                "controlled_goods": True,
+                "itar_compliant": True,
+                "certifications": ["AS9100D", "ISO9001", "NADCAP_Chemical", "DISP_Level2", "FacilitySecurity_Secret"],
+                "domains": ["AirPlatform", "DomainDefence"],
+                "platforms": ["Platform_F35_Lightning_II", "Platform_P8_Poseidon", "Platform_FixedWingCombat"],
+                "kics": ["KIC_AerospaceSystems", "KIC_AdvancedMaterials"],
+                "capabilities": [
+                    {
+                        "title": "Precision 5-Axis Titanium and Inconel Structural Machining",
+                        "description": "Complex monolithic structural airframe fittings, weapon bay adapters, and titanium components for Boeing, Lockheed Martin, and Northrop Grumman.",
+                        "trl": 9,
+                        "mrl": 9,
+                        "kic": "KIC_AerospaceSystems",
+                    },
+                    {
+                        "title": "Electro-Mechanical Weapon Bay Actuation Subassemblies",
+                        "description": "Turnkey assembly and functional testing of internal weapon bay door drive mechanisms and bomb rack adapters.",
+                        "trl": 9,
+                        "mrl": 9,
+                        "kic": "KIC_AerospaceSystems",
+                    },
+                ],
+                "products": [
+                    {
+                        "name": "F-35 Weapons Bay Mechanical Actuation Mechanisms",
+                        "description": "Titanium machined internal weapon bay door pivot fittings and actuation linkages.",
+                        "part_number": "PN-AUS-FRA-WB01",
+                        "fsc_code": "1560",
+                        "nsn_code": "1560-66-528-9102",
+                        "platforms": ["Platform_F35_Lightning_II"],
+                        "materials": ["Material_Titanium_Ti6Al4V"],
+                    },
+                    {
+                        "name": "Boeing P-8 Poseidon Titanium Wing Fittings",
+                        "description": "Precision 5-axis milled titanium wing structural attachment fittings.",
+                        "part_number": "PN-AUS-FRA-P8W01",
+                        "fsc_code": "1560",
+                        "nsn_code": "1560-66-528-9103",
+                        "platforms": ["Platform_P8_Poseidon"],
+                        "materials": ["Material_Titanium_Ti6Al4V"],
+                    },
+                ],
+                "services": [
+                    {
+                        "name": "Surface Finishing, Anodizing & Chemical Passivation",
+                        "description": "Sulphuric acid anodizing, chemical conversion coating, and cadmium plating for aerospace hardware.",
+                        "type": "EngineeringService",
+                        "accreditation": "NADCAP Chemical Processing",
+                    },
+                    {
+                        "name": "Fluorescent Penetrant and Magnetic Particle Inspection (NDT)",
+                        "description": "High-sensitivity fluorescent liquid penetrant inspection detecting sub-surface fatigue cracks and defects.",
+                        "type": "TestingQualificationService",
+                        "accreditation": "NADCAP NDT",
+                    },
+                    {
+                        "name": "Aerospace Subassembly Hydraulic & Load Proof Testing",
+                        "description": "Static structural load proof testing, hydraulic pressure impulse testing, and cycling to 150% limit loads.",
+                        "type": "TestingQualificationService",
+                        "accreditation": "ISO 9001",
+                    },
+                    {
+                        "name": "Precision Titanium Bushing & Bearings Installation and Re-work",
+                        "description": "Cryogenic liquid nitrogen shrink fitting of aerospace bearings, roller swaging, and bushing re-reaming.",
+                        "type": "MROService",
+                        "accreditation": "Boeing Approved Supplier",
+                    },
+                    {
+                        "name": "Vendor-Managed Inventory (VMI) Spares Provisioning",
+                        "description": "Direct point-of-use automated stock replenishment at prime contractor manufacturing facilities.",
+                        "type": "LogisticsSupportService",
+                        "accreditation": "AS9100D",
+                    },
+                ],
+            },
+            {
+                "legal_name": "DroneShield Limited",
+                "trade_name": "DroneShield",
+                "cage_code": "Z0I82",
+                "duns_number": "758192049",
+                "business_number": "AU266089132",
+                "country": "AUS",
+                "city": "Sydney",
+                "province": "NSW",
+                "website": "https://www.droneshield.com",
+                "tier": "Tier1Supplier",
+                "controlled_goods": True,
+                "itar_compliant": True,
+                "certifications": ["ISO9001", "DISP_Level2", "FacilitySecurity_Secret"],
+                "domains": ["AirPlatform", "DomainDefence"],
+                "platforms": ["Platform_TacticalUAS", "Platform_ArmouredCombatVehicle", "Platform_SurfaceCombatant"],
+                "kics": ["KIC_RemotelyPilotedSystems", "KIC_AIAutonomousSystems", "KIC_SensorsSonar"],
+                "capabilities": [
+                    {
+                        "title": "Artificial Intelligence RF Counter-Drone Signal Classification",
+                        "description": "Deep learning convolutional neural network algorithms analyzing radio frequency spectrum in real-time to detect, classify, and track UAS protocols and video downlinks.",
+                        "trl": 9,
+                        "mrl": 9,
+                        "kic": "KIC_AIAutonomousSystems",
+                    },
+                    {
+                        "title": "Directional Multi-Band Tactical Jamming Defeat Systems",
+                        "description": "Disruption of GNSS (GPS, GLONASS, Galileo, BeiDou) and ISM control bands (433MHz, 915MHz, 2.4GHz, 5.8GHz) to neutralize hostile autonomous drones.",
+                        "trl": 9,
+                        "mrl": 9,
+                        "kic": "KIC_RemotelyPilotedSystems",
+                    },
+                ],
+                "products": [
+                    {
+                        "name": "DroneGun Mk4 Handheld Counter-UAS Neutralizer",
+                        "description": "Compact tactical pistol-grip counter-UAS defeat device delivering instant directional jamming against drone swarms.",
+                        "part_number": "PN-AUS-DSD-DGMK4",
+                        "fsc_code": "5865",
+                        "nsn_code": "5865-66-829-1029",
+                        "platforms": ["Platform_TacticalUAS"],
+                        "materials": ["Material_CarbonFiber_Composite", "Material_AluminiumLithium_2055"],
+                    },
+                    {
+                        "name": "RfPatrol Mk2 Body-Worn Drone Detection Device",
+                        "description": "Passive wearable RF sensor providing dismounted warfighters with 360-degree acoustic and RF drone alert.",
+                        "part_number": "PN-AUS-DSD-RFP02",
+                        "fsc_code": "5865",
+                        "nsn_code": "5865-66-829-1030",
+                        "platforms": ["Platform_TacticalUAS"],
+                        "materials": ["Material_AluminiumLithium_2055"],
+                    },
+                ],
+                "services": [
+                    {
+                        "name": "RF Spectrum Threat Signature Analysis & Software Library Updates",
+                        "description": "Continuous reverse engineering of new commercial and military drone datalinks, waveform modeling, and firmware push.",
+                        "type": "CyberSecurityService",
+                        "accreditation": "ISO 9001",
+                    },
+                    {
+                        "name": "Counter-UAS System Site Survey & RF Propagation Mapping",
+                        "description": "Base protection RF clutter modeling, multi-sensor coverage optimization, and camera blind spot mitigation.",
+                        "type": "EngineeringService",
+                        "accreditation": "DISP Level 2",
+                    },
+                    {
+                        "name": "C-UAS Hardware Depot Servicing and Antenna Tuning",
+                        "description": "High-power RF amplifier testing, internal battery cell refurbishment, and environmental seal replacement.",
+                        "type": "MROService",
+                        "accreditation": "AS9100D",
+                    },
+                    {
+                        "name": "Military & Law Enforcement C-UAS Tactical Operator Training",
+                        "description": "Classroom doctrine instruction, live drone swarm defeat exercises, and safety deconfliction training.",
+                        "type": "SimulationTrainingService",
+                        "accreditation": "DISP Approved Training",
+                    },
+                    {
+                        "name": "Counter-Drone Fleet Logistics & Spares Turnaround",
+                        "description": "Forward field spare battery kits, rapid hot-swap depot replacement, and serialized asset tracking.",
+                        "type": "LogisticsSupportService",
+                        "accreditation": "ISO 9001:2015",
+                    },
+                ],
+            },
+            {
+                "legal_name": "BAE Systems Australia Limited",
+                "trade_name": "BAE Systems Australia",
+                "cage_code": "Z0K14",
+                "duns_number": "750491823",
+                "business_number": "AU450084230",
+                "country": "AUS",
+                "city": "Edinburgh Parks",
+                "province": "SA",
+                "website": "https://www.baesystems.com/en-aus",
+                "tier": "Prime",
+                "controlled_goods": True,
+                "itar_compliant": True,
+                "certifications": ["AS9100D", "ISO9001", "DISP_Level3", "FacilitySecurity_Secret", "NATO_AQAP2110"],
+                "domains": ["AirPlatform", "MaritimePlatform", "LandPlatform", "DomainDefence"],
+                "platforms": ["Platform_HunterClass_Frigate", "Platform_MQ28_GhostBat", "Platform_F35_Lightning_II"],
+                "kics": ["KIC_DefenceSystemsIntegration", "KIC_NavalShipbuilding", "KIC_AIAutonomousSystems"],
+                "capabilities": [
+                    {
+                        "title": "Hunter-Class Anti-Submarine Warfare Frigate Prime Integration",
+                        "description": "Digital shipyard manufacturing, combat systems integration, and acoustic signature management for Tier-1 naval warships.",
+                        "trl": 9,
+                        "mrl": 8,
+                        "kic": "KIC_NavalShipbuilding",
+                    },
+                    {
+                        "title": "MQ-28A Ghost Bat Collaborative Combat Aircraft Teaming Integration",
+                        "description": "Australian-designed autonomous loyal wingman uncrewed combat aircraft payload integration and structural subassemblies.",
+                        "trl": 8,
+                        "mrl": 8,
+                        "kic": "KIC_AIAutonomousSystems",
+                    },
+                ],
+                "products": [
+                    {
+                        "name": "Hunter-Class Guided Missile Frigate",
+                        "description": "Anti-submarine warfare surface combatant equipped with CEAFAR2 phased array radar and Aegis combat system.",
+                        "part_number": "PN-AUS-BAE-HCF01",
+                        "fsc_code": "1905",
+                        "nsn_code": "1905-66-910-1845",
+                        "platforms": ["Platform_HunterClass_Frigate"],
+                        "materials": ["Material_Titanium_Ti6Al4V"],
+                    },
+                    {
+                        "name": "Nulka Active Missile Decoy System",
+                        "description": "Rocket-propelled active expendable off-board decoy neutralizing anti-ship cruise missiles.",
+                        "part_number": "PN-AUS-BAE-NLK01",
+                        "fsc_code": "1420",
+                        "nsn_code": "1420-66-910-1846",
+                        "platforms": ["Platform_SurfaceCombatant"],
+                        "materials": ["Material_CarbonFiber_Composite", "Material_Inconel_718"],
+                    },
+                ],
+                "services": [
+                    {
+                        "name": "Hawk 127 Lead-In Fighter Fleet In-Service Maintenance & Overhaul",
+                        "description": "Full depot maintenance, wing structural replacement, and glass cockpit avionics modernization for fast jet aircrews.",
+                        "type": "MROService",
+                        "accreditation": "DASA Part 145",
+                    },
+                    {
+                        "name": "Digital Shipyard CAD/CAM Simulation & Virtual Build Verification",
+                        "description": "Integrated 3D product lifecycle management (PLM), robotic block welding simulation, and laser metrology tolerance control.",
+                        "type": "EngineeringService",
+                        "accreditation": "AS9100D",
+                    },
+                    {
+                        "name": "Warship Combat System Integration and Sea Acceptance Trials",
+                        "description": "Multi-static sonar wet trials, missile firing telemetry analysis, and joint combat management integration.",
+                        "type": "TestingQualificationService",
+                        "accreditation": "DISP Level 3",
+                    },
+                    {
+                        "name": "Autonomous Aircraft Flight Test Operations & Range Safety",
+                        "description": "Instrumented test range flight ops at Woomera, telemetry datalink command, and autonomous flight boundary monitoring.",
+                        "type": "TestingQualificationService",
+                        "accreditation": "DASA Approved Flight Test",
+                    },
+                    {
+                        "name": "Sovereign Defence Supply Chain Assurance and Sub-Tier Management",
+                        "description": "Australian Industry Capability (AIC) auditing, quality certification of Australian SMEs, and long-lead material stocking.",
+                        "type": "LogisticsSupportService",
+                        "accreditation": "ISO 9001:2015",
+                    },
+                ],
+            },
+            {
+                "legal_name": "ASC Pty Ltd",
+                "trade_name": "ASC",
+                "cage_code": "Z0L25",
+                "duns_number": "750918274",
+                "business_number": "AU830086302",
+                "country": "AUS",
+                "city": "Osborne",
+                "province": "SA",
+                "website": "https://www.asc.com.au",
+                "tier": "Prime",
+                "controlled_goods": True,
+                "itar_compliant": True,
+                "certifications": ["ISO9001", "DISP_Level3", "FacilitySecurity_TopSecret", "NATO_AQAP2110"],
+                "domains": ["MaritimePlatform", "DomainDefence"],
+                "platforms": ["Platform_CollinsClass_Submarine", "Platform_Submarine"],
+                "kics": ["KIC_NavalShipbuilding", "KIC_InServiceSupport", "KIC_DefenceSystemsIntegration"],
+                "capabilities": [
+                    {
+                        "title": "Submarine Full-Cycle Docking (FCD) and Deep Maintenance",
+                        "description": "Depot-level hull cutting, diesel engine overhaul, main propulsion motor rewinding, battery replacement, and pressure hull recertification.",
+                        "trl": 9,
+                        "mrl": 9,
+                        "kic": "KIC_InServiceSupport",
+                    },
+                    {
+                        "title": "Submarine Combat System Modernization & Sonar Upgrades",
+                        "description": "Integration of BYG-1 tactical combat system, acoustic signature quietening, and periscope optronic mast retrofits.",
+                        "trl": 9,
+                        "mrl": 9,
+                        "kic": "KIC_DefenceSystemsIntegration",
+                    },
+                ],
+                "products": [
+                    {
+                        "name": "Collins-Class Submarine Life Extension Modules",
+                        "description": "High-efficiency diesel generator sets, digital power conversion cabinets, and optronic sensor masts.",
+                        "part_number": "PN-AUS-ASC-LVT01",
+                        "fsc_code": "1905",
+                        "nsn_code": "1905-66-928-1029",
+                        "platforms": ["Platform_CollinsClass_Submarine"],
+                        "materials": ["Material_Titanium_Ti6Al4V"],
+                    },
+                ],
+                "services": [
+                    {
+                        "name": "Submarine Pressure Hull Non-Destructive Testing and Ultrasonic Crack Sizing",
+                        "description": "Time-of-flight diffraction (TOFD) ultrasonic testing of HY-80 submarine pressure hull welds.",
+                        "type": "TestingQualificationService",
+                        "accreditation": "NATA Accredited / Navy Overseeing",
+                    },
+                    {
+                        "name": "Submarine Depot-Level Electrical Machinery Overhaul",
+                        "description": "Propulsion motor rewinding, switchboard busbar refurbishment, and insulation dielectric testing under high humidity.",
+                        "type": "MROService",
+                        "accreditation": "DISP Level 3",
+                    },
+                    {
+                        "name": "Naval Acoustic Signature Quieting & Vibration Damping Engineering",
+                        "description": "Vibration isolation mount characterization, hull acoustic baffle testing, and radiated noise measurements.",
+                        "type": "EngineeringService",
+                        "accreditation": "ISO 9001",
+                    },
+                    {
+                        "name": "Submarine Escape and Life Support System Recertification",
+                        "description": "High-pressure emergency blow system testing, scrubbers maintenance, and escape hatch hydrostatic seal proofing.",
+                        "type": "TestingQualificationService",
+                        "accreditation": "Naval Safety Authority",
+                    },
+                    {
+                        "name": "24/7 Submarine Operational Fleet In-Service Maintenance Support",
+                        "description": "Emergency flying squad defect rectification, forward base maintenance at Fleet Base West (Rockingham), and spares provisioning.",
+                        "type": "LogisticsSupportService",
+                        "accreditation": "ISO 9001:2015",
+                    },
+                ],
+            },
+        ]
+
+    def _generate_australian_ecosystem(self, target_count: int = 120) -> List[Dict[str, Any]]:
+        flagships = self._get_flagship_australian_companies()
+        records: List[Dict[str, Any]] = list(flagships)
+
+        aus_clusters = [
+            ("Canberra", "ACT"),
+            ("Sydney", "NSW"),
+            ("Williamtown", "NSW"),
+            ("Melbourne", "VIC"),
+            ("Geelong", "VIC"),
+            ("Brisbane", "QLD"),
+            ("Tingalpa", "QLD"),
+            ("Adelaide", "SA"),
+            ("Osborne", "SA"),
+            ("Perth", "WA"),
+            ("Henderson", "WA"),
+            ("Hobart", "TAS"),
+        ]
+
+        templates = [
+            (
+                "Precision 5-Axis Titanium Aerostructure Machining",
+                "High-speed CNC milling and turning of flight-critical airframe bulkheads, weapon pylons, and landing gear attachments.",
+                "KIC_AerospaceSystems",
+                "Tier2Supplier",
+                ["AS9100D", "ISO9001", "DISP_Level2"],
+                "Platform_F35_Lightning_II",
+                "1560",
+                "Titanium Airframe Structural Fitting",
+                "Material_Titanium_Ti6Al4V",
+            ),
+            (
+                "Carbon Fiber Composite Aerostructure Autoclave Fabrication",
+                "High-modulus carbon prepreg curing, laser ply projection, and structural bonding for combat aircraft and autonomous wingmen.",
+                "KIC_AdvancedMaterials",
+                "Tier1Supplier",
+                ["AS9100D", "ISO9001", "NADCAP_Composites", "DISP_Level3"],
+                "Platform_MQ28_GhostBat",
+                "1560",
+                "Composite Control Surface Structural Box",
+                "Material_CarbonFiber_Composite",
+            ),
+            (
+                "Naval Surface Combatant Electrical & Mechanical Subsystems",
+                "Subsea watertight electrical distribution, shock-mounted naval switchboards, and deck machinery fabrication.",
+                "KIC_NavalShipbuilding",
+                "Tier2Supplier",
+                ["ISO9001", "DISP_Level2", "NATO_AQAP2110"],
+                "Platform_HunterClass_Frigate",
+                "1905",
+                "Naval Shock-Rated Power Distribution Enclosure",
+                "Material_AluminiumLithium_2055",
+            ),
+            (
+                "Tactical Military Tactical Radios and Cross-Banding Communications",
+                "Rugged HF/VHF tactical communications equipment with frequency hopping, automated link establishment (ALE), and AES-256 encryption.",
+                "KIC_SoftwareDefinedRadio",
+                "Tier1Supplier",
+                ["ISO9001", "DISP_Level3"],
+                "Platform_ArmouredCombatVehicle",
+                "5820",
+                "Tactical HF High-Power Radio Transceiver",
+                "Material_AluminiumLithium_2055",
+            ),
+            (
+                "Armoured Vehicle Survivability and High-Hardness Steel Fabrication",
+                "Laser cutting, bending, and robotic welding of ballistic steel hulls and spall liner integration for combat vehicles.",
+                "KIC_ArmouredVehicles",
+                "Tier2Supplier",
+                ["ISO9001", "DISP_Level2"],
+                "Platform_ArmouredCombatVehicle",
+                "2320",
+                "High-Hardness Ballistic Steel Vehicle Subassembly",
+                "Material_Kevlar_Aramid",
+            ),
+            (
+                "Tactical Drone Autopilots and Optical Surveillance Payloads",
+                "Gimballed EO/MWIR optical payloads, computer vision tracking algorithms, and fail-safe flight control systems for tactical UAS.",
+                "KIC_RemotelyPilotedSystems",
+                "SMESupplier",
+                ["ISO9001", "DISP_Level2"],
+                "Platform_TacticalUAS",
+                "5855",
+                "Dual-Sensor Gyro-Stabilized Optical Gimbal",
+                "Material_CarbonFiber_Composite",
+            ),
+        ]
+
+        service_templates = [
+            ("Precision CNC 5-Axis Machining & CMM Inspection", "EngineeringService", "ISO 9001:2015"),
+            ("Non-Destructive Testing (Ultrasonic, Magnetic, Eddy Current)", "TestingQualificationService", "NATA / NADCAP NDT"),
+            ("Aero-Mechanical Subsystem Depot Overhaul & Maintenance", "MROService", "DASA Part 145"),
+            ("MIL-STD-810H & DEF STAN Environmental Stress Testing", "TestingQualificationService", "NATA Accredited"),
+            ("Defence Secure Facility System Integration & Cabling", "EngineeringService", "DISP Level 3 Secret"),
+            ("Integrated Logistics Support, Spares & Obsolescence Management", "LogisticsSupportService", "ISO 9001:2015"),
+        ]
+
+        random.seed(505)
+        idx = len(records) + 1
+        while len(records) < target_count:
+            city, prov = random.choice(aus_clusters)
+            tpl = random.choice(templates)
+            cap_title, cap_desc, kic, tier, certs, platform, fsc, prod_name, mat = tpl
+
+            company_name = f"Australian {cap_title.split()[0]} {city} Pty Ltd"
+            cage = f"Z0{idx:03d}"
+            duns = f"75{random.randint(1000000, 9999999)}"
+            bn = f"AU{random.randint(100000000, 999999999)}"
+
+            # 4-5 services for each company
+            company_services = []
+            selected_servs = random.sample(service_templates, 5)
+            for s_name, s_type, s_accred in selected_servs:
+                company_services.append({
+                    "name": f"{s_name} - {city} Facility",
+                    "description": f"Comprehensive {s_name.lower()} delivering verified sovereign defence engineering standards.",
+                    "type": s_type,
+                    "accreditation": s_accred,
+                })
+
+            rec = {
+                "legal_name": company_name,
+                "trade_name": f"{cap_title.split()[0]} Australia",
+                "cage_code": cage,
+                "duns_number": duns,
+                "business_number": bn,
+                "country": "AUS",
+                "province": prov,
+                "city": city,
+                "website": f"https://www.{company_name.lower().replace(' ', '').replace('.', '')}.com.au",
+                "tier": tier,
+                "controlled_goods": True,
+                "itar_compliant": random.random() < 0.85,
+                "certifications": list(certs),
+                "domains": ["DomainDefence", "AirPlatform"],
+                "platforms": [platform],
+                "kics": [kic],
+                "capabilities": [
+                    {
+                        "title": cap_title,
+                        "description": f"{cap_desc} Delivered to Australian Department of Defence and international prime contractors.",
+                        "trl": random.choice([7, 8, 9]),
+                        "mrl": random.choice([7, 8, 9]),
+                        "kic": kic,
+                    },
+                    {
+                        "title": f"Sovereign Australian Manufacturing & Prototyping ({cap_title.split()[0]})",
+                        "description": f"Rapid prototyping, CAD/CAM verification, and quality qualification for {cap_title.lower()}.",
+                        "trl": 8,
+                        "mrl": 8,
+                        "kic": kic,
+                    },
+                ],
+                "products": [
+                    {
+                        "name": f"{company_name} {prod_name}",
+                        "description": f"Military-spec {prod_name.lower()} built to rigorous aerospace and naval standards.",
+                        "part_number": f"PN-AUS-{cage}-01",
+                        "fsc_code": fsc,
+                        "nsn_code": f"{fsc}-66-{random.randint(100,999)}-{random.randint(1000,9999)}",
+                        "platforms": [platform],
+                        "materials": [mat],
+                    },
+                    {
+                        "name": f"{company_name} Auxiliary High-Integrity Subsystem",
+                        "description": "High-durability precision machined component with complete mill test traceability.",
+                        "part_number": f"PN-AUS-{cage}-02",
+                        "fsc_code": fsc,
+                        "nsn_code": f"{fsc}-66-{random.randint(100,999)}-{random.randint(1000,9999)}",
+                        "platforms": [platform],
+                        "materials": [mat],
+                    },
+                ],
+                "services": company_services,
+            }
+            records.append(rec)
+            idx += 1
+
+        return records
+
+    def harvest(self, limit: Optional[int] = None) -> List[Dict[str, Any]]:
+        target = limit if limit is not None else 120
+        records = self._generate_australian_ecosystem(target_count=target)
+        if limit is not None:
+            records = records[:limit]
+        self.save_raw(records, "australia_aero_defence_catalog.json")
+        return records

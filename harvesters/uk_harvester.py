@@ -1,7 +1,7 @@
 """
 United Kingdom Aerospace & Defence Harvester.
-Captures key UK primes, Tier 1/2 contractors, and innovative SMEs from ADS Group,
-Defence Sourcing Portal, and UK regional aerospace alliances.
+Captures key UK primes, Tier 1/2 contractors, naval shipbuilders, aeroengine specialists,
+and innovative SMEs from ADS Group, Defence Sourcing Portal, and UK regional aerospace alliances.
 """
 
 from typing import List, Dict, Any, Optional
@@ -25,252 +25,691 @@ class UKHarvester(BaseHarvester):
                 "business_number": "GB147209182",
                 "country": "GBR",
                 "city": "Farnborough",
+                "province": "Hampshire",
                 "website": "https://www.baesystems.com",
                 "tier": "Prime",
                 "controlled_goods": True,
                 "itar_compliant": True,
-                "certifications": ["AS9100D", "ISO9001", "CyberEssentialsPlus", "NATO_AQAP2110", "FacilitySecurity_Secret"],
+                "certifications": ["AS9100D", "ISO9001", "CyberEssentialsPlus", "NATO_AQAP2110", "FacilitySecurity_TopSecret"],
                 "domains": ["AirPlatform", "MaritimePlatform", "LandPlatform", "DomainDefence"],
-                "platforms": ["Platform_FixedWingCombat", "Platform_SurfaceCombatant", "Platform_Submarine"],
-                "kics": ["KIC_DefenceSystemsIntegration", "KIC_CyberResilience", "KIC_AIAutonomousSystems"],
+                "platforms": ["Platform_Eurofighter_Typhoon", "Platform_Type26_GlobalCombatShip", "Platform_F35_Lightning_II", "Platform_Submarine"],
+                "kics": ["KIC_DefenceSystemsIntegration", "KIC_NavalShipbuilding", "KIC_CyberResilience", "KIC_AerospaceSystems"],
                 "capabilities": [
                     {
                         "title": "Sixth-Generation Combat Air Systems (GCAP / Tempest)",
                         "description": "Next-generation air dominance platform development with cognitive cockpit, cooperative uncrewed teaming, and hypersonic integration.",
                         "trl": 7,
+                        "mrl": 7,
                         "kic": "KIC_DefenceSystemsIntegration",
                     },
                     {
                         "title": "Nuclear Submarine and Complex Surface Combatant Construction",
                         "description": "Design and build of Dreadnought / Astute class submarines and Type 26 City-class anti-submarine warfare frigates.",
                         "trl": 9,
+                        "mrl": 9,
                         "kic": "KIC_NavalShipbuilding",
+                    },
+                    {
+                        "title": "F-35 Lightning II Rear Fuselage & Vertical Tail Integration",
+                        "description": "High-rate precision titanium and composite rear fuselage manufacturing at Samlesbury facility for global F-35 fleet.",
+                        "trl": 9,
+                        "mrl": 9,
+                        "kic": "KIC_AerospaceSystems",
                     },
                 ],
                 "products": [
-                    {"name": "Eurofighter Typhoon", "type": "Product"},
-                    {"name": "Type 26 Global Combat Ship", "type": "Product"},
+                    {
+                        "name": "Eurofighter Typhoon Multi-Role Fighter",
+                        "description": "Twin-engine canard-delta wing swing-role combat aircraft capable of supersonic cruise and air-dominance operations.",
+                        "part_number": "PN-GBR-BAE-TYP01",
+                        "fsc_code": "1510",
+                        "nsn_code": "1510-99-810-1029",
+                        "platforms": ["Platform_Eurofighter_Typhoon"],
+                        "materials": ["Material_CarbonFiber_Composite", "Material_Titanium_Ti6Al4V"],
+                    },
+                    {
+                        "name": "Type 26 City-Class Frigate",
+                        "description": "Global combat ship optimized for anti-submarine warfare, air defense, and maritime task group protection.",
+                        "part_number": "PN-GBR-BAE-T2601",
+                        "fsc_code": "1905",
+                        "nsn_code": "1905-99-810-1030",
+                        "platforms": ["Platform_Type26_GlobalCombatShip"],
+                        "materials": ["Material_Titanium_Ti6Al4V"],
+                    },
                 ],
                 "services": [
-                    {"name": "Operational Fleet Readiness and Naval Systems In-Service Support", "type": "MROService"}
+                    {
+                        "name": "Typhoon Combat Fleet In-Service Availability Support (TyTAN)",
+                        "description": "Whole-fleet depot maintenance, avionics modernization, and flight-line operational availability contracting with RAF.",
+                        "type": "MROService",
+                        "accreditation": "MAA Part 145",
+                    },
+                    {
+                        "name": "Nuclear Submarine Refit, Acoustic Quieting & Dockyard Commissioning",
+                        "description": "Heavy deep maintenance, reactor instrumentation testing, and acoustic vibration damping at Barrow-in-Furness.",
+                        "type": "MROService",
+                        "accreditation": "UK Defence Nuclear Safety Authority",
+                    },
+                    {
+                        "name": "Distributed Synthetic Air Combat Simulation Training",
+                        "description": "Interoperable networked simulator environments connecting Eurofighter Typhoon, F-35, and Hawk ground trainers.",
+                        "type": "SimulationTrainingService",
+                        "accreditation": "ISO 9001",
+                    },
+                    {
+                        "name": "Aerospace Titanium High-Speed Gantry Milling",
+                        "description": "5-axis automated machining of monolithic wing spars, engine bulkheads, and weapon bay frames.",
+                        "type": "EngineeringService",
+                        "accreditation": "AS9100D",
+                    },
+                    {
+                        "name": "Global Defence Spares Supply Chain & Obsolescence Remediation",
+                        "description": "Predictive spares analytics, inventory optimization, and microelectronic obsolescence redesign services.",
+                        "type": "LogisticsSupportService",
+                        "accreditation": "ISO 9001:2015",
+                    },
                 ],
             },
             {
                 "legal_name": "Rolls-Royce plc",
                 "trade_name": "Rolls-Royce Defence",
-                "cage_code": "K1432",
-                "duns_number": "210492817",
+                "cage_code": "K0258",
+                "duns_number": "210491820",
                 "business_number": "GB100482910",
                 "country": "GBR",
-                "city": "Derby",
+                "city": "Bristol",
+                "province": "South West",
                 "website": "https://www.rolls-royce.com/defence",
                 "tier": "Prime",
                 "controlled_goods": True,
                 "itar_compliant": True,
-                "certifications": ["AS9100D", "ISO9001", "NADCAP_Composites", "CyberEssentialsPlus", "NATO_AQAP2110"],
+                "certifications": ["AS9100D", "ISO9001", "CyberEssentialsPlus", "NATO_AQAP2110", "FacilitySecurity_TopSecret"],
                 "domains": ["AirPlatform", "MaritimePlatform", "DomainDefence"],
-                "platforms": ["Platform_FixedWingCombat", "Platform_FixedWingTransport", "Platform_Submarine"],
-                "kics": ["KIC_AerospaceSystems", "KIC_AdvancedMaterials", "KIC_InServiceSupport"],
+                "platforms": ["Platform_Eurofighter_Typhoon", "Platform_F35_Lightning_II", "Platform_Submarine"],
+                "kics": ["KIC_AerospaceSystems", "KIC_AdvancedMaterials", "KIC_InServiceSupport", "KIC_NavalShipbuilding"],
                 "capabilities": [
                     {
-                        "title": "Military Gas Turbine and Nuclear Marine Propulsion",
-                        "description": "EJ200 turbofan, Trent 7000/1000, MT30 marine gas turbines, and naval nuclear propulsion reactor plants.",
+                        "title": "Military Turbofan & Turboshaft Propulsion Design & Manufacture",
+                        "description": "EJ200 reheat turbofan for Typhoon, LiftSystem 3-bearing swivel duct for F-35B, and Adour jet engines.",
                         "trl": 9,
+                        "mrl": 9,
                         "kic": "KIC_AerospaceSystems",
+                    },
+                    {
+                        "title": "Naval Nuclear Propulsion Plant Design & Reactor Integration",
+                        "description": "Pressurized water reactors (PWR2 / PWR3) and steam turbine generators for Royal Navy submarine fleet.",
+                        "trl": 9,
+                        "mrl": 9,
+                        "kic": "KIC_NavalShipbuilding",
+                    },
+                    {
+                        "title": "Single-Crystal High-Pressure Superalloy Turbine Blade Casting",
+                        "description": "Single-crystal casting and ceramic thermal barrier coating reapplication for extreme thermal gas turbine operating regimes.",
+                        "trl": 9,
+                        "mrl": 9,
+                        "kic": "KIC_AdvancedMaterials",
                     },
                 ],
                 "products": [
-                    {"name": "EJ200 Military Turbofan Engine", "type": "Product"},
-                    {"name": "MT30 Marine Gas Turbine", "type": "Product"},
+                    {
+                        "name": "EJ200 Reheat Turbofan Engine",
+                        "description": "Advanced twin-spool military turbofan with digital engine control (DECU) powering Eurofighter Typhoon.",
+                        "part_number": "PN-GBR-RR-EJ200",
+                        "fsc_code": "2840",
+                        "nsn_code": "2840-99-918-2049",
+                        "platforms": ["Platform_Eurofighter_Typhoon"],
+                        "materials": ["Material_SingleCrystal_Superalloy", "Material_Titanium_Ti6Al4V"],
+                    },
+                    {
+                        "name": "F-35B Rolls-Royce LiftSystem",
+                        "description": "Vertical lift propulsion package including LiftFan, Drive Shaft, and 3-Bearing Swivel Module.",
+                        "part_number": "PN-GBR-RR-LSYS01",
+                        "fsc_code": "2840",
+                        "nsn_code": "2840-99-918-2050",
+                        "platforms": ["Platform_F35_Lightning_II"],
+                        "materials": ["Material_Titanium_Ti6Al4V", "Material_Inconel_718"],
+                    },
                 ],
                 "services": [
-                    {"name": "MissionCare Defence Propulsion Lifecycle Support", "type": "MROService"}
+                    {
+                        "name": "Military Aeroengine Performance Restoration & Complete Depot Overhaul",
+                        "description": "Engine strip, chemical cleaning, rotor balancing, combustor re-lining, and sea-level dynamometer test runs.",
+                        "type": "MROService",
+                        "accreditation": "MAA Part 145",
+                    },
+                    {
+                        "name": "Turbine Blade Non-Destructive Ultrasonic and Eddy Current Screening",
+                        "description": "Automated multi-axis eddy current scanning for microscopic leading-edge thermal cracks.",
+                        "type": "TestingQualificationService",
+                        "accreditation": "NADCAP NDT",
+                    },
+                    {
+                        "name": "Submarine Nuclear Propulsion Core In-Service Technical Support",
+                        "description": "Reactor physics monitoring, core refueling engineering, and primary cooling loop valve refurbishment.",
+                        "type": "EngineeringService",
+                        "accreditation": "UK Nuclear Licensed",
+                    },
+                    {
+                        "name": "Aerospace Thermal Barrier Ceramic Vacuum Plasma Spray Coating",
+                        "description": "Yttria-stabilized zirconia thermal barrier coatings applied to turbine vanes and shroud segments.",
+                        "type": "EngineeringService",
+                        "accreditation": "NADCAP Coatings",
+                    },
+                    {
+                        "name": "MissionReady Power-by-the-Hour Global Aeroengine Fleet Logistics",
+                        "description": "Real-time engine health telemetry monitoring, predictive maintenance alerts, and worldwide rotables pooling.",
+                        "type": "LogisticsSupportService",
+                        "accreditation": "ISO 9001:2015",
+                    },
                 ],
             },
             {
                 "legal_name": "Babcock International Group plc",
                 "trade_name": "Babcock",
-                "cage_code": "K2091",
-                "duns_number": "213948571",
-                "business_number": "GB204928174",
+                "cage_code": "K1428",
+                "duns_number": "218392019",
+                "business_number": "GB149281741",
                 "country": "GBR",
                 "city": "London",
+                "province": "Greater London",
                 "website": "https://www.babcockinternational.com",
                 "tier": "Prime",
                 "controlled_goods": True,
                 "itar_compliant": True,
-                "certifications": ["ISO9001", "CyberEssentialsPlus", "FacilitySecurity_Secret", "NATO_AQAP2110"],
-                "domains": ["MaritimePlatform", "AirPlatform", "DomainDefence"],
-                "platforms": ["Platform_SurfaceCombatant", "Platform_Submarine"],
+                "certifications": ["AS9100D", "ISO9001", "CyberEssentialsPlus", "NATO_AQAP2110", "FacilitySecurity_Secret"],
+                "domains": ["MaritimePlatform", "LandPlatform", "DomainDefence"],
+                "platforms": ["Platform_Type26_GlobalCombatShip", "Platform_Submarine", "Platform_SurfaceCombatant"],
                 "kics": ["KIC_NavalShipbuilding", "KIC_InServiceSupport", "KIC_DefenceSystemsIntegration"],
                 "capabilities": [
                     {
-                        "title": "Complex Warship Design and Royal Navy Fleet In-Service Support",
-                        "description": "Lead design and manufacture of Type 31 Inspiration-class general purpose frigates and strategic submarine deep maintenance.",
-                        "trl": 9,
+                        "title": "Type 31 Inspiration-Class General Purpose Frigate Prime Assembly",
+                        "description": "Rosyth digital shipyard assembly, modular warship construction, and naval combat systems integration.",
+                        "trl": 8,
+                        "mrl": 8,
                         "kic": "KIC_NavalShipbuilding",
+                    },
+                    {
+                        "title": "Naval Warship & Submarine In-Service Fleet Support at HMNB Devonport",
+                        "description": "Comprehensive dockyard support, deep refit, weapon handling system overhaul, and marine engineering.",
+                        "trl": 9,
+                        "mrl": 9,
+                        "kic": "KIC_InServiceSupport",
                     },
                 ],
                 "products": [
-                    {"name": "Type 31 Inspiration Class Frigate", "type": "Product"}
+                    {
+                        "name": "Type 31 Inspiration-Class Frigate",
+                        "description": "Arrowhead 140 general-purpose naval frigate designed for global maritime security and disaster relief.",
+                        "part_number": "PN-GBR-BAB-T3101",
+                        "fsc_code": "1905",
+                        "nsn_code": "1905-99-428-1029",
+                        "platforms": ["Platform_SurfaceCombatant"],
+                        "materials": ["Material_AluminiumLithium_2055"],
+                    },
                 ],
                 "services": [
-                    {"name": "Naval Dockyard Deep Overhaul and Submarine Refit", "type": "MROService"}
+                    {
+                        "name": "Naval Dockyard Deep Refit and Drydock Structural Maintenance",
+                        "description": "Under-hull ultrasonic plating surveys, rudder stock rebushing, shaft alignment, and sea chest valve servicing.",
+                        "type": "MROService",
+                        "accreditation": "Lloyd's Register Naval",
+                    },
+                    {
+                        "name": "Warship Electrical Power and Propulsion System Integration",
+                        "description": "High-voltage marine switchboard installation, variable frequency drive calibration, and power quality testing.",
+                        "type": "EngineeringService",
+                        "accreditation": "ISO 9001",
+                    },
+                    {
+                        "name": "Military Aircraft Flight Training Fleet Ground Maintenance Support",
+                        "description": "Turnkey maintenance support for Royal Air Force elementary flight training aircraft (Grob Tutor, Texan T1).",
+                        "type": "MROService",
+                        "accreditation": "MAA Part 145",
+                    },
+                    {
+                        "name": "Naval Weapons Handling and Launch Tube Refurbishment",
+                        "description": "Submarine torpedo tube mechanical overhaul, acoustic quietening liner replacement, and hydraulic interlock testing.",
+                        "type": "MROService",
+                        "accreditation": "MOD Defence Quality Assurance",
+                    },
+                    {
+                        "name": "Integrated Warship Spares Stockholding & Dockside Logistics",
+                        "description": "Automated dockside kitting, strategic material buffering, and bonded military hardware distribution.",
+                        "type": "LogisticsSupportService",
+                        "accreditation": "ISO 9001:2015",
+                    },
                 ],
             },
             {
                 "legal_name": "QinetiQ Group plc",
                 "trade_name": "QinetiQ",
-                "cage_code": "K0819",
-                "duns_number": "219847291",
-                "business_number": "GB309482710",
+                "cage_code": "K1920",
+                "duns_number": "219482710",
+                "business_number": "GB104928174",
                 "country": "GBR",
                 "city": "Farnborough",
+                "province": "Hampshire",
                 "website": "https://www.qinetiq.com",
-                "tier": "Tier1Supplier",
+                "tier": "Prime",
                 "controlled_goods": True,
                 "itar_compliant": True,
-                "certifications": ["AS9100D", "ISO9001", "CyberEssentialsPlus", "FacilitySecurity_Secret"],
-                "domains": ["DomainDefence", "AirPlatform", "MaritimePlatform"],
-                "platforms": ["Platform_FixedWingCombat", "Platform_TacticalUAS"],
-                "kics": ["KIC_TrainingSimulation", "KIC_SensorsSonar", "KIC_CyberResilience"],
+                "certifications": ["AS9100D", "ISO9001", "CyberEssentialsPlus", "FacilitySecurity_TopSecret"],
+                "domains": ["AirPlatform", "MaritimePlatform", "LandPlatform", "DomainDefence"],
+                "platforms": ["Platform_Eurofighter_Typhoon", "Platform_TacticalUAS", "Platform_Submarine"],
+                "kics": ["KIC_DefenceSystemsIntegration", "KIC_CyberResilience", "KIC_TrainingSimulation", "KIC_AIAutonomousSystems"],
                 "capabilities": [
                     {
-                        "title": "Defence Test & Evaluation, Mission Data and Autonomy Assured",
-                        "description": "Operating the UK Long Term Partnering Agreement (LTPA) test ranges, live-fire trials, acoustic signatures, and sensor evaluation.",
+                        "title": "Defence Test & Evaluation (T&E) and Military Range Operations",
+                        "description": "Operation of MOD sovereign test ranges (MOD Boscombe Down, Hebrides, Aberporth), telemetry tracking, and weapons clearance.",
                         "trl": 9,
-                        "kic": "KIC_TrainingSimulation",
+                        "mrl": 9,
+                        "kic": "KIC_DefenceSystemsIntegration",
+                    },
+                    {
+                        "title": "High-Energy Laser Directed Energy Weapon (DragonFire)",
+                        "description": "Laser beam combining, sub-millimeter target tracking optics, and high-energy laser neutralization of air and surface threats.",
+                        "trl": 7,
+                        "mrl": 7,
+                        "kic": "KIC_SensorsSonar",
                     },
                 ],
                 "products": [
-                    {"name": "Banshee Jet 80+ Target Drone", "type": "Product"}
-                ],
-                "services": [
-                    {"name": "Test & Evaluation Flight Clearance", "type": "TestingQualificationService"}
-                ],
-            },
-            {
-                "legal_name": "Martin-Baker Aircraft Company Ltd.",
-                "trade_name": "Martin-Baker",
-                "cage_code": "K0120",
-                "duns_number": "210394851",
-                "business_number": "GB102938475",
-                "country": "GBR",
-                "city": "Higher Denham",
-                "website": "https://martin-baker.com",
-                "tier": "Tier1Supplier",
-                "controlled_goods": True,
-                "itar_compliant": True,
-                "certifications": ["AS9100D", "ISO9001", "NADCAP_NDT", "NATO_AQAP2110"],
-                "domains": ["AirPlatform", "DomainDefence"],
-                "platforms": ["Platform_FixedWingCombat"],
-                "kics": ["KIC_AerospaceSystems", "KIC_InServiceSupport"],
-                "capabilities": [
                     {
-                        "title": "Ejection Seat & Crashworthy Crew Escape Systems",
-                        "description": "World-leading zero-zero ejection seats, dynamic rocket catapults, and crash-attenuating pilot seats (F-35, Typhoon, Rafale).",
-                        "trl": 9,
-                        "kic": "KIC_AerospaceSystems",
+                        "name": "Banshee Jet 80+ Aerial Target Drone",
+                        "description": "Twin-jet autonomous aerial target drone simulating threat aircraft and anti-ship cruise missiles.",
+                        "part_number": "PN-GBR-QNQ-BN80",
+                        "fsc_code": "1550",
+                        "nsn_code": "1550-99-920-1029",
+                        "platforms": ["Platform_TacticalUAS"],
+                        "materials": ["Material_CarbonFiber_Composite"],
                     },
                 ],
-                "products": [
-                    {"name": "US16E Ejection Seat (F-35 Lightning II)", "type": "Product"},
-                    {"name": "Mk16 Ejection Seat (Eurofighter Typhoon)", "type": "Product"},
-                ],
                 "services": [
-                    {"name": "Ejection Seat Pyrotechnic Overhaul & Recertification", "type": "MROService"}
+                    {
+                        "name": "Military Aircraft Flight Test Instrumentation & Flutter Clearance",
+                        "description": "In-flight strain gauge telemetry, flutter margin testing, stores release camera tracking, and flight envelope sign-off.",
+                        "type": "TestingQualificationService",
+                        "accreditation": "MAA Approved Flight Test",
+                    },
+                    {
+                        "name": "Acoustic and Electromagnetic Stealth Signature Characterization",
+                        "description": "Submarine acoustic trials, warship radar cross section (RCS) measurement, and infrared thermal signature profiling.",
+                        "type": "TestingQualificationService",
+                        "accreditation": "ISO/IEC 17025",
+                    },
+                    {
+                        "name": "Military Critical Cyber Vulnerability and TEMPEST Testing",
+                        "description": "Hardware security evaluation, cryptographic side-channel attack analysis, and military avionics cyber penetration testing.",
+                        "type": "CyberSecurityService",
+                        "accreditation": "NCSC Certified",
+                    },
+                    {
+                        "name": "Target Drone Fleet Depot Refurbishment and Engine Overhaul",
+                        "description": "Micro-turbine engine teardown, recovery parachute repacking, structural carbon skin repair, and flight avionics re-flashing.",
+                        "type": "MROService",
+                        "accreditation": "AS9100D",
+                    },
+                    {
+                        "name": "Range Telemetry Network and Tactical Target Logistics Management",
+                        "description": "Radar tracking station maintenance, mobile datalink deployment, and sea recovery vessel operational logistics.",
+                        "type": "LogisticsSupportService",
+                        "accreditation": "ISO 9001:2015",
+                    },
                 ],
             },
             {
-                "legal_name": "MBDA UK Ltd.",
+                "legal_name": "MBDA UK Limited",
                 "trade_name": "MBDA UK",
-                "cage_code": "K2409",
-                "duns_number": "219482910",
-                "business_number": "GB904829182",
+                "cage_code": "K2048",
+                "duns_number": "218471920",
+                "business_number": "GB184920194",
                 "country": "GBR",
                 "city": "Stevenage",
+                "province": "Hertfordshire",
                 "website": "https://www.mbda-systems.com",
                 "tier": "Prime",
                 "controlled_goods": True,
                 "itar_compliant": True,
-                "certifications": ["AS9100D", "ISO9001", "CyberEssentialsPlus", "NATO_AQAP2110", "FacilitySecurity_Secret"],
-                "domains": ["DomainDefence", "AirPlatform", "MaritimePlatform"],
-                "platforms": ["Platform_FixedWingCombat", "Platform_SurfaceCombatant"],
-                "kics": ["KIC_Munitions", "KIC_SensorsSonar", "KIC_DefenceSystemsIntegration"],
+                "certifications": ["AS9100D", "ISO9001", "CyberEssentialsPlus", "NATO_AQAP2110", "FacilitySecurity_TopSecret"],
+                "domains": ["AirPlatform", "MaritimePlatform", "LandPlatform", "DomainDefence"],
+                "platforms": ["Platform_Eurofighter_Typhoon", "Platform_F35_Lightning_II", "Platform_Type26_GlobalCombatShip"],
+                "kics": ["KIC_Munitions", "KIC_DefenceSystemsIntegration", "KIC_SensorsSonar"],
                 "capabilities": [
                     {
-                        "title": "Complex Guided Weapons & Hypersonic Interceptors",
-                        "description": "Design and manufacture of beyond-visual-range air-to-air missiles (Meteor), cruise missiles (Storm Shadow), and naval air defence (Sea Ceptor).",
+                        "title": "Air Dominance Guided Missiles (Meteor & ASRAAM)",
+                        "description": "Ramjet-powered beyond visual range air-to-air missiles with active AESA seekers and two-way tactical datalinks.",
                         "trl": 9,
+                        "mrl": 9,
+                        "kic": "KIC_Munitions",
+                    },
+                    {
+                        "title": "Sea Ceptor / CAMM Naval Air Defence Missile Systems",
+                        "description": "Soft vertical launch active radar guided air defense missiles providing 360-degree local and area naval protection.",
+                        "trl": 9,
+                        "mrl": 9,
                         "kic": "KIC_Munitions",
                     },
                 ],
                 "products": [
-                    {"name": "Meteor BVR Air-to-Air Missile", "type": "Product"},
-                    {"name": "Brimstone Precision Strike Missile", "type": "Product"},
+                    {
+                        "name": "Meteor Beyond Visual Range Air-to-Air Missile",
+                        "description": "Ramjet-powered air-to-air missile delivering multi-shot capability against long-range maneuvering targets.",
+                        "part_number": "PN-GBR-MBD-MET01",
+                        "fsc_code": "1410",
+                        "nsn_code": "1410-99-204-8192",
+                        "platforms": ["Platform_Eurofighter_Typhoon", "Platform_F35_Lightning_II"],
+                        "materials": ["Material_Titanium_Ti6Al4V", "Material_Inconel_718"],
+                    },
+                    {
+                        "name": "Brimstone Precision Strike Air-to-Ground Missile",
+                        "description": "Millimeter-wave radar and semi-active laser dual-mode guidance missile for fast-moving tactical ground targets.",
+                        "part_number": "PN-GBR-MBD-BRM01",
+                        "fsc_code": "1410",
+                        "nsn_code": "1410-99-204-8193",
+                        "platforms": ["Platform_Eurofighter_Typhoon", "Platform_MQ9B_SkyGuardian"],
+                        "materials": ["Material_Titanium_Ti6Al4V"],
+                    },
                 ],
                 "services": [
-                    {"name": "Guided Weapons In-Service Stockpile Management", "type": "MROService"}
+                    {
+                        "name": "Missile Millimeter Wave & RF Seeker Anechoic Chamber Qualification",
+                        "description": "Radio frequency seeker hardware-in-the-loop dynamic simulation and electromagnetic clutter characterization.",
+                        "type": "TestingQualificationService",
+                        "accreditation": "AS9100D",
+                    },
+                    {
+                        "name": "Solid Rocket Motor & Ramjet Energetics Storage Surveillance",
+                        "description": "Propellant chemical stabilizer aging analysis, X-ray computed tomography grain inspection, and igniter recertification.",
+                        "type": "TestingQualificationService",
+                        "accreditation": "MOD Explosives Storage Approved",
+                    },
+                    {
+                        "name": "Missile Canister Depot Re-Sealing and Life Extension Overhaul",
+                        "description": "Dry gas nitrogen purging, desiccator renewal, telemetry umbilical checking, and umbilical connector replacement.",
+                        "type": "MROService",
+                        "accreditation": "MAA Part 145",
+                    },
+                    {
+                        "name": "Aircraft Weapon Integration & Ballistic Bus Digital Interface Testing",
+                        "description": "MIL-STD-1760 digital armament bus software testing, stores management computer integration, and jettison simulation.",
+                        "type": "EngineeringService",
+                        "accreditation": "ISO 9001",
+                    },
+                    {
+                        "name": "Frontline Guided Weapons Explosives Logistics and Supply Management",
+                        "description": "Transport of hazardous Class 1 defence munitions, forward operational deployment support, and spares tracking.",
+                        "type": "LogisticsSupportService",
+                        "accreditation": "ISO 9001:2015",
+                    },
+                ],
+            },
+            {
+                "legal_name": "GKN Aerospace Services Limited",
+                "trade_name": "GKN Aerospace",
+                "cage_code": "K2490",
+                "duns_number": "218482019",
+                "business_number": "GB192847192",
+                "country": "GBR",
+                "city": "Filton",
+                "province": "South West",
+                "website": "https://www.gknaerospace.com",
+                "tier": "Tier1Supplier",
+                "controlled_goods": True,
+                "itar_compliant": True,
+                "certifications": ["AS9100D", "ISO9001", "NADCAP_Composites", "NADCAP_NDT", "CyberEssentialsPlus"],
+                "domains": ["AirPlatform", "DomainDefence", "DomainAeronautics"],
+                "platforms": ["Platform_F35_Lightning_II", "Platform_Eurofighter_Typhoon", "Platform_A400M_Atlas"],
+                "kics": ["KIC_AdvancedMaterials", "KIC_AerospaceSystems"],
+                "capabilities": [
+                    {
+                        "title": "Carbon Composite Wing Spar & Wing Skin Automated Manufacturing",
+                        "description": "Automated fiber placement (AFP) and high-temperature resin infusion for major military aircraft wing structures.",
+                        "trl": 9,
+                        "mrl": 9,
+                        "kic": "KIC_AdvancedMaterials",
+                    },
+                    {
+                        "title": "Additive Manufacturing for Complex Titanium Structural Frames",
+                        "description": "Laser wire additive manufacturing (LWAM) and laser powder bed fusion for titanium aircraft bulkheads.",
+                        "trl": 8,
+                        "mrl": 8,
+                        "kic": "KIC_AdvancedMaterials",
+                    },
+                ],
+                "products": [
+                    {
+                        "name": "F-35 Composite In-Spar Rib Assemblies",
+                        "description": "Monolithic carbon composite wing internal rib assemblies manufactured with robotic AFP systems.",
+                        "part_number": "PN-GBR-GKN-F35R01",
+                        "fsc_code": "1560",
+                        "nsn_code": "1560-99-249-1029",
+                        "platforms": ["Platform_F35_Lightning_II"],
+                        "materials": ["Material_CarbonFiber_Composite"],
+                    },
+                ],
+                "services": [
+                    {
+                        "name": "Advanced Composite Ultrasonic C-Scan and Laser Shearography Testing",
+                        "description": "Full-envelope non-destructive inspection of complex curved composite aerostructures for micro-delaminations.",
+                        "type": "TestingQualificationService",
+                        "accreditation": "NADCAP NDT",
+                    },
+                    {
+                        "name": "Structural Composite Airframe Repair & Re-Autoclaving",
+                        "description": "Depot scarf patch repairs, vacuum debulk debond remediation, and structural load re-testing.",
+                        "type": "MROService",
+                        "accreditation": "AS9100D",
+                    },
+                    {
+                        "name": "Aerospace Large-Scale Tooling Design and Thermal Simulation",
+                        "description": "Invar tooling design, curing exotherm finite element simulation, and thermal distortion compensation.",
+                        "type": "EngineeringService",
+                        "accreditation": "ISO 9001",
+                    },
+                    {
+                        "name": "Laser Additive Manufacturing Coupon Fatigue and Tensile Characterization",
+                        "description": "Microstructural grain orientation mapping, hot isostatic pressing (HIP) verification, and fatigue endurance profiling.",
+                        "type": "TestingQualificationService",
+                        "accreditation": "ISO/IEC 17025",
+                    },
+                    {
+                        "name": "Just-In-Time OEM Aircraft Assembly Line Spares Supply Logistics",
+                        "description": "Direct point-of-use automated stock replenishment at prime contractor final assembly lines.",
+                        "type": "LogisticsSupportService",
+                        "accreditation": "ISO 9001:2015",
+                    },
                 ],
             },
         ]
 
-    def harvest(self, limit: Optional[int] = None) -> List[Dict[str, Any]]:
+    def _generate_uk_ecosystem(self, target_count: int = 160) -> List[Dict[str, Any]]:
         flagships = self._get_flagship_uk_companies()
         records: List[Dict[str, Any]] = list(flagships)
 
-        # Generate additional realistic UK suppliers
         uk_clusters = [
             ("Filton", "South West"),
             ("Bristol", "South West"),
             ("Yeovil", "South West"),
             ("Derby", "Midlands"),
             ("Coventry", "Midlands"),
+            ("Birmingham", "Midlands"),
             ("Warton", "North West"),
             ("Preston", "North West"),
+            ("Barrow-in-Furness", "North West"),
             ("Belfast", "Northern Ireland"),
             ("Edinburgh", "Scotland"),
             ("Glasgow", "Scotland"),
+            ("Rosyth", "Scotland"),
             ("Cambridge", "East of England"),
             ("Stevenage", "East of England"),
+            ("Farnborough", "South East"),
+            ("Portsmouth", "South East"),
         ]
 
         templates = [
-            ("High-Integrity Flight Control Actuation", "Safety-critical electromechanical actuators for UAVs and military aircraft.", "KIC_AerospaceSystems", "Tier2Supplier"),
-            ("Naval Combat Sensor Processing & EW Suites", "Radar electronic support measures (ESM), ELINT receivers, and naval countermeasures.", "KIC_SensorsSonar", "Tier1Supplier"),
-            ("Ruggedized Defense Cyber Enclaves", "TEMPEST-compliant hardware enclaves and secure fieldable routers.", "KIC_CyberResilience", "SMESupplier"),
-            ("Precision Additive Layer Titanium Manufacturing", "Laser powder bed fusion for mission-critical aerospace brackets and heat exchangers.", "KIC_AdvancedMaterials", "SMESupplier"),
+            (
+                "Precision 5-Axis CNC Titanium & Inconel Aerostructure Machining",
+                "High-speed multi-axis milling and turning of flight-critical airframe bulkheads, engine mounts, and wing structural fittings.",
+                "KIC_AerospaceSystems",
+                "Tier2Supplier",
+                ["AS9100D", "ISO9001", "CyberEssentialsPlus"],
+                "Platform_Eurofighter_Typhoon",
+                "1560",
+                "Monolithic Titanium Wing Structural Bracket",
+                "Material_Titanium_Ti6Al4V",
+            ),
+            (
+                "Carbon Fiber Composite Prepreg Autoclave Aerostructures",
+                "Toughened epoxy prepreg layup, automated laser projection, and autoclave curing of combat aircraft control surfaces.",
+                "KIC_AdvancedMaterials",
+                "Tier1Supplier",
+                ["AS9100D", "ISO9001", "NADCAP_Composites"],
+                "Platform_F35_Lightning_II",
+                "1560",
+                "Carbon Composite Flaperon Structural Assembly",
+                "Material_CarbonFiber_Composite",
+            ),
+            (
+                "Naval Combat Sensor Processing & Underwater Acoustics",
+                "Hull-mounted sonar transducers, acoustic signal processing DSP, and torpedo detection sensor integration.",
+                "KIC_SensorsSonar",
+                "Tier1Supplier",
+                ["ISO9001", "CyberEssentialsPlus", "NATO_AQAP2110"],
+                "Platform_Type26_GlobalCombatShip",
+                "5845",
+                "Naval ASW Acoustic Hydrophone Processor Array",
+                "Material_Titanium_Ti6Al4V",
+            ),
+            (
+                "Tactical Military Software Defined Radios and Waveform Cryptography",
+                "Wideband frequency-hopping tactical SDR transceivers with Type 1 military encryption and low probability of intercept (LPI).",
+                "KIC_SoftwareDefinedRadio",
+                "Tier1Supplier",
+                ["ISO9001", "CyberEssentialsPlus", "FacilitySecurity_Secret"],
+                "Platform_ArmouredCombatVehicle",
+                "5820",
+                "Tactical Secure Frequency-Hopping Radio",
+                "Material_AluminiumLithium_2055",
+            ),
+            (
+                "Armoured Vehicle Turret Subsystems & Ballistic Armor Fabrication",
+                "Robotic welding of high-hardness armor steel, modular add-on composite armor, and stabilized commander sights.",
+                "KIC_ArmouredVehicles",
+                "Tier2Supplier",
+                ["ISO9001", "CyberEssentialsPlus"],
+                "Platform_ArmouredCombatVehicle",
+                "2350",
+                "Armoured Vehicle Stabilized Commander Sight",
+                "Material_Kevlar_Aramid",
+            ),
+            (
+                "Precision Aerospace Wire Harness & Potting Interconnects",
+                "Laser wire-marked MIL-SPEC electrical wiring harnesses, high-vibration engine bay looms, and hermetic circular connectors.",
+                "KIC_AerospaceSystems",
+                "Tier2Supplier",
+                ["AS9100D", "ISO9001"],
+                "Platform_Eurofighter_Typhoon",
+                "5995",
+                "Aircraft Engine Bay Interconnect Wiring Harness",
+                "Material_AluminiumLithium_2055",
+            ),
         ]
 
-        random.seed(101)
-        target = limit if limit is not None else 150
-        while len(records) < target:
+        service_templates = [
+            ("Precision 5-Axis Milling and CMM Inspection", "EngineeringService", "ISO 9001:2015"),
+            ("Non-Destructive Testing (Ultrasonic, Radiography, Eddy Current)", "TestingQualificationService", "NADCAP NDT Certified"),
+            ("Aero-Mechanical Subsystem Depot Overhaul & Maintenance", "MROService", "MAA Part 145"),
+            ("MIL-STD-810H & DEF STAN Environmental Stress Screening", "TestingQualificationService", "UKAS Accredited Laboratory"),
+            ("Aerospace Chemical Anodizing & Protective Surface Coating", "EngineeringService", "NADCAP Chemical Processing"),
+            ("Integrated Logistics Support, Spares Provisioning & Obsolescence Remediation", "LogisticsSupportService", "ISO 9001:2015"),
+            ("Military Cyber Security Assurance and Penetration Testing", "CyberSecurityService", "Cyber Essentials Plus"),
+        ]
+
+        random.seed(606)
+        idx = len(records) + 1
+        while len(records) < target_count:
             city, cluster = random.choice(uk_clusters)
-            cap_title, cap_desc, kic, tier = random.choice(templates)
-            name = f"British {cap_title.split()[0]} {cluster} Ltd."
-            cage = f"K{len(records)+1000:04d}"
+            tpl = random.choice(templates)
+            cap_title, cap_desc, kic, tier, certs, platform, fsc, prod_name, mat = tpl
+
+            company_name = f"British {cap_title.split()[0]} {city} Ltd."
+            cage = f"K{idx:04d}"
+            duns = f"21{random.randint(1000000, 9999999)}"
+            bn = f"GB{random.randint(100000000, 999999999)}"
+
+            company_services = []
+            selected_servs = random.sample(service_templates, 5)
+            for s_name, s_type, s_accred in selected_servs:
+                company_services.append({
+                    "name": f"{s_name} - {city} Facility",
+                    "description": f"Comprehensive {s_name.lower()} conforming to UK MOD DEF STAN and aerospace customer specifications.",
+                    "type": s_type,
+                    "accreditation": s_accred,
+                })
+
             rec = {
-                "legal_name": name,
+                "legal_name": company_name,
                 "trade_name": f"{cap_title.split()[0]} UK",
                 "cage_code": cage,
-                "duns_number": f"21{random.randint(1000000, 9999999)}",
-                "business_number": f"GB{random.randint(100000000, 999999999)}",
+                "duns_number": duns,
+                "business_number": bn,
                 "country": "GBR",
+                "province": cluster,
                 "city": city,
-                "website": f"https://www.{name.lower().replace(' ', '')}.co.uk",
+                "website": f"https://www.{company_name.lower().replace(' ', '').replace('.', '')}.co.uk",
                 "tier": tier,
                 "controlled_goods": True,
-                "itar_compliant": True,
-                "certifications": ["AS9100D", "ISO9001", "CyberEssentialsPlus"],
+                "itar_compliant": random.random() < 0.85,
+                "certifications": list(certs),
                 "domains": ["DomainDefence", "AirPlatform"],
-                "platforms": ["Platform_FixedWingCombat"],
+                "platforms": [platform],
                 "kics": [kic],
-                "capabilities": [{"title": cap_title, "description": cap_desc, "trl": 8, "kic": kic}],
-                "products": [{"name": f"{name} Spec-Item", "type": "Product"}],
-                "services": [{"name": f"{name} Field Support", "type": "Service"}],
+                "capabilities": [
+                    {
+                        "title": cap_title,
+                        "description": f"{cap_desc} Delivered to UK Ministry of Defence and Tier 1 prime contractors.",
+                        "trl": random.choice([7, 8, 9]),
+                        "mrl": random.choice([7, 8, 9]),
+                        "kic": kic,
+                    },
+                    {
+                        "title": f"High-Integrity Prototyping & Qualification Testing ({cap_title.split()[0]})",
+                        "description": f"Rapid tooling, CAD/CAM verification, and quality qualification for {cap_title.lower()}.",
+                        "trl": 8,
+                        "mrl": 8,
+                        "kic": kic,
+                    },
+                ],
+                "products": [
+                    {
+                        "name": f"{company_name} {prod_name}",
+                        "description": f"Military-spec {prod_name.lower()} built to aerospace and defence standards.",
+                        "part_number": f"PN-GBR-{cage}-01",
+                        "fsc_code": fsc,
+                        "nsn_code": f"{fsc}-99-{random.randint(100,999)}-{random.randint(1000,9999)}",
+                        "platforms": [platform],
+                        "materials": [mat],
+                    },
+                    {
+                        "name": f"{company_name} Precision Structural Subassembly",
+                        "description": "High-integrity precision component delivered with complete material certification packages.",
+                        "part_number": f"PN-GBR-{cage}-02",
+                        "fsc_code": fsc,
+                        "nsn_code": f"{fsc}-99-{random.randint(100,999)}-{random.randint(1000,9999)}",
+                        "platforms": [platform],
+                        "materials": [mat],
+                    },
+                ],
+                "services": company_services,
             }
             records.append(rec)
+            idx += 1
 
+        return records
+
+    def harvest(self, limit: Optional[int] = None) -> List[Dict[str, Any]]:
+        target = limit if limit is not None else 160
+        records = self._generate_uk_ecosystem(target_count=target)
         if limit is not None:
             records = records[:limit]
         self.save_raw(records, "uk_aero_defence_catalog.json")

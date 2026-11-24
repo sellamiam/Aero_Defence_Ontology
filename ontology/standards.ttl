@@ -42,3 +42,57 @@ aero:Cert_CMMC_Level2 a aero:SecurityClearanceStandard ;
 
 aero:Cert_FacilitySecurity_Secret a aero:SecurityClearanceStandard ;
     rdfs:label "Facility Security Clearance - NATO / National Secret Level"@en .
+
+aero:Cert_FacilitySecurity_TopSecret a aero:SecurityClearanceStandard ;
+    rdfs:label "Facility Security Clearance - Top Secret / Special Access Program"@en .
+
+aero:Cert_DISP_Level3 a aero:SecurityClearanceStandard ;
+    rdfs:label "Defence Industry Security Program (DISP) Level 3 - Secret (Australia)"@en .
+
+aero:Cert_DISP_Level2 a aero:SecurityClearanceStandard ;
+    rdfs:label "Defence Industry Security Program (DISP) Level 2 - Protected (Australia)"@en .
+
+aero:Cert_SCOMET_Compliant a aero:ExportComplianceStandard ;
+    rdfs:label "Special Chemicals, Organisms, Materials, Equipment & Technologies (SCOMET) Export License (India)"@en .
+
+aero:Cert_NADCAP_HeatTreating a aero:QualityStandard ;
+    rdfs:label "NADCAP Accreditation - Heat Treating"@en .
+
+aero:Cert_NADCAP_Welding a aero:QualityStandard ;
+    rdfs:label "NADCAP Accreditation - Welding & Additive Manufacturing"@en .
+
+aero:Cert_ISO14001 a aero:QualityStandard ;
+    rdfs:label "ISO 14001:2015 Environmental Management Standard"@en .
+
+aero:Cert_ISO27001 a aero:SecurityClearanceStandard ;
+    rdfs:label "ISO/IEC 27001 Information Security Management"@en .
+
+### Strategic & Critical Defence Materials
+aero:Material_Titanium_Ti6Al4V a aero:CriticalMaterial ;
+    rdfs:label "Titanium Alloy Ti-6Al-4V (Grade 5 Aerospace)"@en ;
+    skos:definition "High strength-to-weight ratio titanium alloy used in primary airframe structures, landing gears, and turbine compressors."@en .
+
+aero:Material_Inconel_718 a aero:CriticalMaterial ;
+    rdfs:label "Inconel 718 Nickel-Chromium Superalloy"@en ;
+    skos:definition "Precipitation-hardenable nickel-chromium superalloy for high-temperature turbine disks, rocket engine combustors, and fasteners."@en .
+
+aero:Material_CarbonFiber_Composite a aero:CriticalMaterial ;
+    rdfs:label "Intermediate Modulus Carbon Fiber / Toughened Epoxy Composite"@en ;
+    skos:definition "High-tensile carbon fiber reinforcement with toughened epoxy matrix for stealth airframes and supersonic wing skins."@en .
+
+aero:Material_GalliumNitride_GaN a aero:CriticalMaterial ;
+    rdfs:label "Gallium Nitride on Silicon Carbide (GaN-on-SiC) Semiconductor"@en ;
+    skos:definition "Wide-bandgap semiconductor enabling high-power, high-frequency AESA radar transmit/receive modules and EW jamming apertures."@en .
+
+aero:Material_SiliconCarbide_SiC a aero:CriticalMaterial ;
+    rdfs:label "Silicon Carbide (SiC) Ceramic Matrix Composite"@en ;
+    skos:definition "Ceramic matrix composite for ultra-high temperature engine hot sections, hypersonic thermal protection, and space optics."@en .
+
+aero:Material_SingleCrystal_Superalloy a aero:CriticalMaterial ;
+    rdfs:label "Single-Crystal High-Pressure Turbine Nickel Superalloy"@en ;
+    skos:definition "Second and third generation single-crystal superalloy with Rhenium/Ruthenium additions for extreme thermal operating margins."@en .
+
+aero:Material_Kevlar_Aramid a aero:CriticalMaterial ;
+    rdfs:label "Kevlar / Para-Aramid Ballistic Fiber"@en ;
+    skos:definition "Synthetic aromatic polyamide fiber delivering superior energy absorption for spall liners, body armour, and rotor containment."@en .
+

@@ -1,0 +1,53 @@
+# ==============================================================================
+# SPARQL Query 1: Cross-Jurisdiction Competence Matching (Simulation Button Trigger)
+# Usage in Framework:
+#   When a user clicks a country button (e.g., 'CAN', 'GBR', 'FRA', 'AUS', 'NZL', 'IND'),
+#   bind ?targetCountry to the button's country code, and ?selectedKIC to the current node's KIC.
+# ==============================================================================
+
+PREFIX aero: <https://w3id.org/aerospace-defence#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?altCompany ?companyName ?cageCode ?tier ?city ?country ?capTitle ?trl ?mrl
+       (GROUP_CONCAT(DISTINCT ?certLabel; separator=", ") AS ?certifications)
+WHERE {
+    # 1. Target alternative country filter (bind from UI button: e.g. "AUS", "CAN", "GBR", "FRA", "NZL", "IND")
+    VALUES ?targetCountry { "AUS" }
+    
+    # 2. Competence alignment (bind from selected node's KIC)
+    VALUES ?targetKIC { aero:KIC_AdvancedMaterials }
+
+    # 3. Match candidate alternative suppliers
+    ?altCompany aero:legalName ?companyName ;
+                aero:headquartersCountry ?targetCountry ;
+                aero:hasCapability ?cap .
+
+    OPTIONAL { ?altCompany aero:cageCode ?cageCode . }
+    OPTIONAL { ?altCompany aero:headquartersCity ?city . }
+    OPTIONAL { ?altCompany aero:headquartersProvince ?province . }
+
+    # Check Tier classification
+    OPTIONAL {
+        ?altCompany a ?tierType .
+        FILTER (?tierType IN (aero:PrimeContractor, aero:Tier1Supplier, aero:Tier2Supplier, aero:SMESupplier))
+        BIND(STRAFTER(STR(?tierType), "#") AS ?tier)
+    }
+
+    # Match capability title, TRL and MRL
+    ?cap rdfs:label ?capTitle ;
+         aero:alignedWithKIC ?targetKIC ;
+         aero:trlValue ?trl .
+    OPTIONAL { ?cap aero:mrlValue ?mrl . }
+
+    # Readiness threshold (e.g. flight-ready or high-readiness alternatives)
+    FILTER (?trl >= 8)
+
+    # Certifications
+    OPTIONAL {
+        ?altCompany aero:holdsCertification ?cert .
+        BIND(STRAFTER(STR(?cert), "#") AS ?certLabel)
+    }
+}
+GROUP BY ?altCompany ?companyName ?cageCode ?tier ?city ?country ?capTitle ?trl ?mrl
+ORDER BY DESC(?trl) ?companyName
+LIMIT 50

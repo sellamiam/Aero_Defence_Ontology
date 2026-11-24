@@ -92,6 +92,14 @@ aero:SimulationTrainingService a owl:Class ;
     rdfs:subClassOf aero:Service ;
     rdfs:label "Simulation, Synthetic Environment & Training Service"@en .
 
+aero:LogisticsSupportService a owl:Class ;
+    rdfs:subClassOf aero:Service ;
+    rdfs:label "Integrated Logistics & In-Service Fleet Support Service"@en .
+
+aero:CyberSecurityService a owl:Class ;
+    rdfs:subClassOf aero:Service ;
+    rdfs:label "Defence Cyber Security & Penetration Testing Service"@en .
+
 ### Capabilities & Technologies
 aero:Capability a owl:Class ;
     rdfs:subClassOf aero:SpecificallyDependentContinuant ;
@@ -369,3 +377,39 @@ aero:partNumber a owl:DatatypeProperty ;
     rdfs:domain aero:Product ;
     rdfs:range xsd:string ;
     rdfs:label "Manufacturer Part Number"@en .
+
+aero:productDescription a owl:DatatypeProperty ;
+    rdfs:domain aero:Product ;
+    rdfs:range xsd:string ;
+    rdfs:label "Product Technical Specification & Description"@en .
+
+aero:serviceDescription a owl:DatatypeProperty ;
+    rdfs:domain aero:Service ;
+    rdfs:range xsd:string ;
+    rdfs:label "Detailed Service Scope and Operating Capability"@en .
+
+aero:serviceAccreditation a owl:DatatypeProperty ;
+    rdfs:domain aero:Service ;
+    rdfs:range xsd:string ;
+    rdfs:label "Regulatory or Defence Service Accreditation Standard"@en .
+
+aero:headquartersAddress a owl:DatatypeProperty ;
+    rdfs:domain aero:Company ;
+    rdfs:range xsd:string ;
+    rdfs:label "Physical Facility Headquarters Address"@en .
+
+aero:postalCode a owl:DatatypeProperty ;
+    rdfs:domain aero:Company ;
+    rdfs:range xsd:string ;
+    rdfs:label "Postal or Zip Code"@en .
+
+aero:employeeCount a owl:DatatypeProperty ;
+    rdfs:domain aero:Company ;
+    rdfs:range xsd:integer ;
+    rdfs:label "Enterprise Workforce Headcount"@en .
+
+aero:establishedYear a owl:DatatypeProperty ;
+    rdfs:domain aero:Company ;
+    rdfs:range xsd:integer ;
+    rdfs:label "Company Founding Year"@en .
+

@@ -1,0 +1,51 @@
+# ==============================================================================
+# SPARQL Query 3: Complete Supplier Profile & Operational Dossier
+# Usage in Framework:
+#   Returns the exhaustive profile for any selected company node:
+#   legal identifiers, clearances, all services, all products, and capabilities.
+# ==============================================================================
+
+PREFIX aero: <https://w3id.org/aerospace-defence#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?companyName ?cageCode ?country ?city ?website ?clearance
+       (GROUP_CONCAT(DISTINCT ?serviceDetail; separator=" | ") AS ?allServices)
+       (GROUP_CONCAT(DISTINCT ?productDetail; separator=" | ") AS ?allProducts)
+       (GROUP_CONCAT(DISTINCT ?capDetail; separator=" | ") AS ?allCapabilities)
+WHERE {
+    # Bind CAGE or Legal Name of the selected node
+    VALUES ?cageCode { "Z0D95" }  # Example: Quickstep Holdings (AUS)
+
+    ?company aero:cageCode ?cageCode ;
+             aero:legalName ?companyName ;
+             aero:headquartersCountry ?country .
+
+    OPTIONAL { ?company aero:headquartersCity ?city . }
+    OPTIONAL { ?company aero:website ?website . }
+    OPTIONAL { ?company aero:facilitySecurityClearance ?clearance . }
+
+    # 1. Services with accreditation
+    OPTIONAL {
+        ?company aero:providesService ?service .
+        ?service rdfs:label ?servName .
+        OPTIONAL { ?service aero:serviceAccreditation ?accred . }
+        BIND(CONCAT(?servName, " (Accreditation: ", COALESCE(?accred, "Standard"), ")") AS ?serviceDetail)
+    }
+
+    # 2. Products with Part Number
+    OPTIONAL {
+        ?company aero:manufacturesProduct ?product .
+        ?product rdfs:label ?prodName .
+        OPTIONAL { ?product aero:partNumber ?pn . }
+        BIND(CONCAT(?prodName, " [P/N: ", COALESCE(?pn, "N/A"), "]") AS ?productDetail)
+    }
+
+    # 3. Capabilities with TRL
+    OPTIONAL {
+        ?company aero:hasCapability ?cap .
+        ?cap rdfs:label ?capName .
+        OPTIONAL { ?cap aero:trlValue ?trl . }
+        BIND(CONCAT(?capName, " [TRL ", STR(COALESCE(?trl, "N/A")), "]") AS ?capDetail)
+    }
+}
+GROUP BY ?companyName ?cageCode ?country ?city ?website ?clearance

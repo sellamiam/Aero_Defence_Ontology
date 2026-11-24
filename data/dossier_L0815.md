@@ -22,7 +22,6 @@
 - **Facility Security Clearance**: NATO / National Secret Level (Audited)
 - **Quality & Defence Standards**:
   - ISO 9001:2015 Quality Management System
-  - NADCAP Accreditation - Composites
   - AS9100 Rev D (Quality Management Systems - Aerospace)
   - NATO AQAP 2110 (Design, Development and Production)
   - Controlled Goods Program (CGP) Certified (Canada)

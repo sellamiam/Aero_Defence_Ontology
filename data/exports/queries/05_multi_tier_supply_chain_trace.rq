@@ -1,0 +1,27 @@
+# ==============================================================================
+# SPARQL Query 5: Multi-Tier Supply Chain & Prime-Subcontractor Dependency Trace
+# Usage in Framework:
+#   Traces relationships between prime contractors and direct/sub-tier suppliers,
+#   revealing cross-border dependencies and single-point-of-failure vulnerabilities.
+# ==============================================================================
+
+PREFIX aero: <https://w3id.org/aerospace-defence#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?supplierName ?supplierCountry ?supplierTier ?primeName ?primeCountry
+WHERE {
+    ?supplier aero:suppliesTo ?prime ;
+              aero:legalName ?supplierName ;
+              aero:headquartersCountry ?supplierCountry .
+
+    ?prime aero:legalName ?primeName ;
+           aero:headquartersCountry ?primeCountry .
+
+    OPTIONAL {
+        ?supplier a ?tierType .
+        FILTER (?tierType IN (aero:PrimeContractor, aero:Tier1Supplier, aero:Tier2Supplier, aero:SMESupplier))
+        BIND(STRAFTER(STR(?tierType), "#") AS ?supplierTier)
+    }
+}
+ORDER BY ?primeName ?supplierName
+LIMIT 50

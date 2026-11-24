@@ -25,3 +25,60 @@ aero:Platform_SurfaceCombatant a aero:MaritimePlatform ;
 
 aero:Platform_Submarine a aero:MaritimePlatform ;
     rdfs:label "Submarine / Submersible System"@en .
+
+### Specific Multi-Jurisdiction Defence Platforms
+aero:Platform_F35_Lightning_II a aero:AirPlatform ;
+    rdfs:label "F-35 Lightning II 5th Generation Multi-Role Stealth Fighter"@en ;
+    skos:altLabel "JSF", "Joint Strike Fighter" .
+
+aero:Platform_Type26_GlobalCombatShip a aero:MaritimePlatform ;
+    rdfs:label "Type 26 City-Class Anti-Submarine Warfare Frigate (CSC / Hunter Class)"@en ;
+    skos:altLabel "Canadian Surface Combatant", "Hunter-Class Frigate" .
+
+aero:Platform_P8_Poseidon a aero:AirPlatform ;
+    rdfs:label "Boeing P-8A Poseidon Maritime Patrol & Reconnaissance Aircraft (CMMA)"@en ;
+    skos:altLabel "P-8A", "Canadian Multi-Mission Aircraft" .
+
+aero:Platform_MQ9B_SkyGuardian a aero:UASPlatform ;
+    rdfs:label "MQ-9B SkyGuardian / SeaGuardian RPAS (Remotely Piloted Aircraft System)"@en ;
+    skos:altLabel "MQ-9B", "SkyGuardian" .
+
+aero:Platform_Eurofighter_Typhoon a aero:AirPlatform ;
+    rdfs:label "Eurofighter Typhoon Multi-Role Combat Aircraft"@en .
+
+aero:Platform_Dassault_Rafale a aero:AirPlatform ;
+    rdfs:label "Dassault Rafale Omnirole Combat Fighter"@en .
+
+aero:Platform_Saab_Gripen_E a aero:AirPlatform ;
+    rdfs:label "Saab JAS 39 Gripen E/F Multi-Role Combat Fighter"@en .
+
+aero:Platform_Leopard2_MainBattleTank a aero:LandPlatform ;
+    rdfs:label "Leopard 2 Main Battle Tank (2A4 / 2A6 / 2A7+)"@en .
+
+aero:Platform_CollinsClass_Submarine a aero:MaritimePlatform ;
+    rdfs:label "Collins-Class Guided Missile Submarine / SSN-AUKUS Transition"@en .
+
+aero:Platform_HunterClass_Frigate a aero:MaritimePlatform ;
+    rdfs:label "Hunter-Class Guided Missile Anti-Submarine Frigate (SEA 5000)"@en .
+
+aero:Platform_MQ28_GhostBat a aero:UASPlatform ;
+    rdfs:label "MQ-28A Ghost Bat Collaborative Combat Aircraft (CCA Loyal Wingman)"@en .
+
+aero:Platform_HAL_Tejas_LCA a aero:AirPlatform ;
+    rdfs:label "HAL Tejas Light Combat Aircraft (LCA Mk-1A / Mk-2)"@en .
+
+aero:Platform_Su30MKI_Flanker a aero:AirPlatform ;
+    rdfs:label "Sukhoi Su-30MKI Air Dominance Fighter (HAL Licensed)"@en .
+
+aero:Platform_A400M_Atlas a aero:AirPlatform ;
+    rdfs:label "Airbus A400M Atlas Military Transport & Tactical Tanker"@en .
+
+aero:Platform_C130J_SuperHercules a aero:AirPlatform ;
+    rdfs:label "Lockheed Martin C-130J Super Hercules Tactical Airlifter"@en .
+
+aero:Platform_LAV_6_0_CombatSupport a aero:LandPlatform ;
+    rdfs:label "LAV 6.0 Light Armoured Vehicle / Armoured Combat Support Vehicle (ACSV)"@en .
+
+aero:Platform_SpaceLaunchVehicle a aero:SpacePlatform ;
+    rdfs:label "Orbital Space Launch Vehicle (Electron, Eris, SSLV)"@en .
+

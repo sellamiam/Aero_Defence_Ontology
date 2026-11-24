@@ -1,0 +1,32 @@
+# ==============================================================================
+# SPARQL Query 4: Specialized Service Search across Alternative Jurisdictions
+# Usage in Framework:
+#   Finds all alternative suppliers in a target country providing specific operational
+#   services (e.g. MRO, Non-Destructive Testing, Environmental Testing, Systems Engineering).
+# ==============================================================================
+
+PREFIX aero: <https://w3id.org/aerospace-defence#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?companyName ?country ?city ?serviceType ?serviceName ?accreditation
+WHERE {
+    # Target Country (bind from button: e.g. "CAN", "GBR", "FRA", "AUS", "NZL", "IND")
+    VALUES ?country { "IND" }
+
+    # Target Service Type (aero:MROService, aero:TestingQualificationService, aero:EngineeringService, etc.)
+    VALUES ?serviceClass { aero:MROService }
+
+    ?company aero:legalName ?companyName ;
+             aero:headquartersCountry ?country ;
+             aero:providesService ?service .
+
+    OPTIONAL { ?company aero:headquartersCity ?city . }
+
+    ?service a ?serviceClass ;
+             rdfs:label ?serviceName .
+
+    BIND(STRAFTER(STR(?serviceClass), "#") AS ?serviceType)
+    OPTIONAL { ?service aero:serviceAccreditation ?accreditation . }
+}
+ORDER BY ?companyName ?serviceName
+LIMIT 50

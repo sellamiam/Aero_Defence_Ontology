@@ -1,0 +1,41 @@
+# ==============================================================================
+# SPARQL Query 2: Platform-Specific Component & Subsystem Supplier Alternatives
+# Usage in Framework:
+#   Finds all alternative qualified suppliers in a given country that manufacture
+#   products or subsystems deployed on a chosen military or aerospace platform.
+# ==============================================================================
+
+PREFIX aero: <https://w3id.org/aerospace-defence#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?companyName ?cageCode ?country ?city ?productName ?partNumber ?fscCode ?nsnCode
+       (GROUP_CONCAT(DISTINCT ?materialLabel; separator=", ") AS ?criticalMaterials)
+WHERE {
+    # 1. Target platform (bind from current simulation node or scenario platform)
+    VALUES ?platform { aero:Platform_F35_Lightning_II }
+
+    # 2. Target jurisdiction option (bind from button: e.g. "CAN", "GBR", "FRA", "AUS", "IND")
+    VALUES ?country { "CAN" }
+
+    ?company aero:legalName ?companyName ;
+             aero:headquartersCountry ?country ;
+             aero:manufacturesProduct ?product .
+
+    OPTIONAL { ?company aero:cageCode ?cageCode . }
+    OPTIONAL { ?company aero:headquartersCity ?city . }
+
+    ?product rdfs:label ?productName ;
+             aero:deployedOnPlatform ?platform .
+
+    OPTIONAL { ?product aero:partNumber ?partNumber . }
+    OPTIONAL { ?product aero:fscCode ?fscCode . }
+    OPTIONAL { ?product aero:nsnCode ?nsnCode . }
+
+    # Critical material dependencies
+    OPTIONAL {
+        ?product aero:dependsOnMaterial ?material .
+        BIND(STRAFTER(STR(?material), "#Material_") AS ?materialLabel)
+    }
+}
+GROUP BY ?companyName ?cageCode ?country ?city ?productName ?partNumber ?fscCode ?nsnCode
+ORDER BY ?companyName ?productName
