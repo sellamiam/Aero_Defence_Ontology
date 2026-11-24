@@ -24,7 +24,7 @@ def load_graph(ttl_path: Path) -> pyoxigraph.Store:
     print(f"Loading '{ttl_path.name}' into Oxigraph engine...", file=sys.stderr)
     store = pyoxigraph.Store()
     with open(ttl_path, "rb") as f:
-        store.load(f, "text/turtle")
+        store.load(f, format=pyoxigraph.RdfFormat.TURTLE)
     print(f"Loaded {len(store):,} triples successfully.", file=sys.stderr)
     return store
 
@@ -66,6 +66,7 @@ def format_table(results: list, headers: list) -> str:
 
 def main():
     parser = argparse.ArgumentParser(description="Query Standalone .ttl Aerospace & Defence Knowledge Graph")
+    parser.add_argument("positional_args", nargs="*", help="Optional positional: <file.ttl> [<query.rq> or <SPARQL text>]")
     parser.add_argument("--file", "-f", type=str, default=str(Path.home() / "Desktop" / "Aero_Defence_Global_Supply_Chain_Ontology.ttl"),
                         help="Path to Turtle (.ttl) file (defaults to Desktop master)")
     parser.add_argument("--query", "-q", type=str, help="Custom SPARQL query string")
@@ -79,6 +80,17 @@ def main():
     parser.add_argument("--limit", "-l", type=int, default=15, help="Result limit")
 
     args = parser.parse_args()
+
+    # Handle positional arguments gracefully
+    if args.positional_args:
+        if len(args.positional_args) >= 1 and (args.positional_args[0].endswith(".ttl") or Path(args.positional_args[0]).exists()):
+            args.file = args.positional_args[0]
+        if len(args.positional_args) >= 2:
+            second = args.positional_args[1]
+            if second.endswith(".rq") or Path(second).is_file():
+                args.query_file = second
+            else:
+                args.query = second
     ttl_file = Path(args.file).resolve()
     if not ttl_file.exists():
         print(f"Error: Cannot find file {ttl_file}", file=sys.stderr)
@@ -196,16 +208,12 @@ def main():
         return
 
     if headers is None:
-        # Infer headers from keys in first solution
-        # pyoxigraph solution doesn't have keys directly; let's inspect the solution
-        sample = results[0]
-        # QuerySolution can be mapped to variables by running a regex on query or accessing binding names
+        # Infer headers from SELECT clause in query
         import re
-        var_match = re.search(r"SELECT\s+(DISTINCT\s+)?([^\sWHERE\{]+)", q, re.IGNORECASE)
+        var_match = re.search(r"SELECT\s+(?:DISTINCT\s+)?(.*?)\s+WHERE", q, re.IGNORECASE | re.DOTALL)
         if var_match:
-            vars_raw = var_match.group(2).strip().split()
-            headers = [v.replace("?", "") for v in vars_raw if v.startswith("?")]
-        else:
+            headers = re.findall(r"\?([a-zA-Z0-9_]+)", var_match.group(1))
+        if not headers:
             headers = ["Result"]
 
     print(f"\nReturned {len(results)} rows:\n")
