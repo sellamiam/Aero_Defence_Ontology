@@ -55,17 +55,26 @@ class GraphStore:
                 except Exception as e:
                     logger.warning(f"Could not load {sf.name} into Oxigraph: {e}")
 
-        # Load Processed Instance Graph
-        nt_file = processed_dir / "knowledge_graph.nt"
-        if not nt_file.exists():
-            from pipeline.extractor import RDFTripleExtractor
-            extractor = RDFTripleExtractor(data_dir=self.data_dir)
-            g = extractor.build_rdf_graph()
-            extractor.export_graph(g)
+        # Load Processed Instance Graph / Global Master Ontology
+        master_ttl = self.data_dir / "exports" / "Aero_Defence_Global_Supply_Chain_Ontology.ttl"
+        if master_ttl.exists():
+            try:
+                with open(master_ttl, "rb") as f:
+                    self.store.load(f, RdfFormat.TURTLE)
+                logger.info(f"Loaded master ontology from {master_ttl.name}")
+            except Exception as e:
+                logger.warning(f"Could not load master TTL: {e}")
+        else:
+            nt_file = processed_dir / "knowledge_graph.nt"
+            if not nt_file.exists():
+                from pipeline.extractor import RDFTripleExtractor
+                extractor = RDFTripleExtractor(data_dir=self.data_dir)
+                g = extractor.build_rdf_graph()
+                extractor.export_graph(g)
 
-        if nt_file.exists():
-            with open(nt_file, "rb") as f:
-                self.store.load(f, RdfFormat.N_TRIPLES)
+            if nt_file.exists():
+                with open(nt_file, "rb") as f:
+                    self.store.load(f, RdfFormat.N_TRIPLES)
 
         total_triples = len(self.store)
 
