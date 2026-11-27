@@ -2,13 +2,12 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-aero:Company_Dassault_Aviation_SA a aero:Company,
+aero:Company_Dassault_Aviation a aero:Company,
         aero:PrimeContractor ;
     aero:businessNumber "FR89392817401"^^xsd:string ;
-    aero:cageCode "F0243"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:hasCapability aero:Cap_Dassault_Aviation_SA_1,
-        aero:Cap_Dassault_Aviation_SA_2 ;
+    aero:hasCapability aero:Cap_Dassault_Aviation_1,
+        aero:Cap_Dassault_Aviation_2 ;
     aero:headquartersCity "Saint-Cloud"^^xsd:string ;
     aero:headquartersCountry "FRA"^^xsd:string ;
     aero:headquartersProvince "Île-de-France"^^xsd:string ;
@@ -18,24 +17,23 @@ aero:Company_Dassault_Aviation_SA a aero:Company,
         aero:Cert_NATO_AQAP2110 ;
     aero:itarCompliant true ;
     aero:legalName "Dassault Aviation SA"^^xsd:string ;
-    aero:manufacturesProduct aero:Product_Dassault_Aviation_SA_Rafale_F4_Omnirole_Fighter ;
+    aero:manufacturesProduct aero:Product_Dassault_Aviation_Rafale_F4_Omnirole_Fighter ;
     aero:operatesInDomain aero:AirPlatform,
         aero:DomainAeronautics,
         aero:DomainDefence ;
-    aero:providesService aero:Service_Dassault_Aviation_SA_Fighter_Fleet_Depot_Maintenance_Modernization,
-        aero:Service_Dassault_Aviation_SA_Full_Flight_Simulator_Level_D_Synthetic_Training_Support,
-        aero:Service_Dassault_Aviation_SA_Global_Combat_Fleet_Logistics_Rotable_Spare_Support,
-        aero:Service_Dassault_Aviation_SA_Precision_Titanium_Aerostructure_5_Axis_Machining,
-        aero:Service_Dassault_Aviation_SA_Supersonic_Flight_Test_Engineering_Weapon_Integration ;
+    aero:providesService aero:Service_Dassault_Aviation_Fighter_Fleet_Depot_Maintenance_Modernization,
+        aero:Service_Dassault_Aviation_Full_Flight_Simulator_Level_D_Synthetic_Training_Support,
+        aero:Service_Dassault_Aviation_Global_Combat_Fleet_Logistics_Rotable_Spare_Support,
+        aero:Service_Dassault_Aviation_Precision_Titanium_Aerostructure_5_Axis_Machining,
+        aero:Service_Dassault_Aviation_Supersonic_Flight_Test_Engineering_Weapon_Integration ;
     aero:tradeName "Dassault Aviation"^^xsd:string ;
     aero:website "https://www.dassault-aviation.com"^^xsd:anyURI .
 
-aero:Company_Fincantieri_SpA a aero:Company,
+aero:Company_Fincantieri a aero:Company,
         aero:Tier1Supplier ;
     aero:businessNumber "IT00629480322"^^xsd:string ;
-    aero:cageCode "A0198"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:hasCapability aero:Cap_Fincantieri_SpA_1 ;
+    aero:hasCapability aero:Cap_Fincantieri_1 ;
     aero:headquartersCity "Trieste"^^xsd:string ;
     aero:headquartersCountry "ITA"^^xsd:string ;
     aero:headquartersProvince "Friuli-Venezia Giulia"^^xsd:string ;
@@ -44,17 +42,16 @@ aero:Company_Fincantieri_SpA a aero:Company,
         aero:Cert_NATO_AQAP2110 ;
     aero:itarCompliant true ;
     aero:legalName "Fincantieri S.p.A."^^xsd:string ;
-    aero:manufacturesProduct aero:Product_Fincantieri_SpA_FREMM_European_Multi_Mission_Frigate_ASW_Combat_Hull_Section ;
+    aero:manufacturesProduct aero:Product_Fincantieri_FREMM_European_Multi_Mission_Frigate_ASW_Combat_Hull_Section ;
     aero:operatesInDomain aero:DomainDefence,
         aero:MaritimePlatform ;
-    aero:providesService aero:Service_Fincantieri_SpA_Drydock_Warship_Modernization_Combat_System_Installation_Sea_Trials ;
+    aero:providesService aero:Service_Fincantieri_Drydock_Warship_Modernization_Combat_System_Installation_Sea_Trials ;
     aero:tradeName "Fincantieri"^^xsd:string ;
     aero:website "https://www.fincantieri.com"^^xsd:anyURI .
 
 aero:Company_Hensoldt_AG a aero:Company,
         aero:Tier1Supplier ;
     aero:businessNumber "DE313849102"^^xsd:string ;
-    aero:cageCode "C2630"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
     aero:hasCapability aero:Cap_Hensoldt_AG_1 ;
     aero:headquartersCity "Taufkirchen"^^xsd:string ;
@@ -78,7 +75,6 @@ aero:Company_Hensoldt_AG a aero:Company,
 aero:Company_Kongsberg_Gruppen_ASA a aero:Company,
         aero:Tier1Supplier ;
     aero:businessNumber "NO943752019"^^xsd:string ;
-    aero:cageCode "N0012"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
     aero:hasCapability aero:Cap_Kongsberg_Gruppen_ASA_1 ;
     aero:headquartersCity "Kongsberg"^^xsd:string ;
@@ -98,13 +94,13 @@ aero:Company_Kongsberg_Gruppen_ASA a aero:Company,
     aero:tradeName "Kongsberg Defence & Aerospace"^^xsd:string ;
     aero:website "https://www.kongsberg.com"^^xsd:anyURI .
 
-aero:Company_Leonardo_SpA a aero:Company,
+aero:Company_Leonardo a aero:Company,
         aero:PrimeContractor ;
     aero:businessNumber "IT004829104"^^xsd:string ;
     aero:cageCode "A0194"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:hasCapability aero:Cap_Leonardo_SpA_1,
-        aero:Cap_Leonardo_SpA_2 ;
+    aero:hasCapability aero:Cap_Leonardo_1,
+        aero:Cap_Leonardo_2 ;
     aero:headquartersCity "Rome"^^xsd:string ;
     aero:headquartersCountry "ITA"^^xsd:string ;
     aero:headquartersProvince "Lazio"^^xsd:string ;
@@ -114,25 +110,24 @@ aero:Company_Leonardo_SpA a aero:Company,
         aero:Cert_NATO_AQAP2110 ;
     aero:itarCompliant true ;
     aero:legalName "Leonardo S.p.A."^^xsd:string ;
-    aero:manufacturesProduct aero:Product_Leonardo_SpA_AW101_Multi_Role_Military_Helicopter ;
+    aero:manufacturesProduct aero:Product_Leonardo_AW101_Multi_Role_Military_Helicopter ;
     aero:operatesInDomain aero:AirPlatform,
         aero:DomainDefence,
         aero:LandPlatform,
         aero:MaritimePlatform ;
-    aero:providesService aero:Service_Leonardo_SpA_AESA_Radar_RF_Beam_Steering_and_Performance_Calibration,
-        aero:Service_Leonardo_SpA_Full_Flight_Level_D_Simulator_Maintenance_Visual_System_Upgrades,
-        aero:Service_Leonardo_SpA_Helicopter_Fleet_Depot_Maintenance_and_Transmission_Overhaul,
-        aero:Service_Leonardo_SpA_Naval_Combat_Management_System_Software_Integration,
-        aero:Service_Leonardo_SpA_Worldwide_Helicopter_Rotable_Exchange_Logistic_Support ;
+    aero:providesService aero:Service_Leonardo_AESA_Radar_RF_Beam_Steering_and_Performance_Calibration,
+        aero:Service_Leonardo_Full_Flight_Level_D_Simulator_Maintenance_Visual_System_Upgrades,
+        aero:Service_Leonardo_Helicopter_Fleet_Depot_Maintenance_and_Transmission_Overhaul,
+        aero:Service_Leonardo_Naval_Combat_Management_System_Software_Integration,
+        aero:Service_Leonardo_Worldwide_Helicopter_Rotable_Exchange_Logistic_Support ;
     aero:tradeName "Leonardo"^^xsd:string ;
     aero:website "https://www.leonardo.com"^^xsd:anyURI .
 
-aero:Company_Naval_Group_SA a aero:Company,
+aero:Company_Naval_Group a aero:Company,
         aero:Tier1Supplier ;
     aero:businessNumber "FR44441133804"^^xsd:string ;
-    aero:cageCode "F0228"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:hasCapability aero:Cap_Naval_Group_SA_1 ;
+    aero:hasCapability aero:Cap_Naval_Group_1 ;
     aero:headquartersCity "Paris"^^xsd:string ;
     aero:headquartersCountry "FRA"^^xsd:string ;
     aero:headquartersProvince "Île-de-France"^^xsd:string ;
@@ -141,19 +136,18 @@ aero:Company_Naval_Group_SA a aero:Company,
         aero:Cert_NATO_AQAP2110 ;
     aero:itarCompliant true ;
     aero:legalName "Naval Group SA"^^xsd:string ;
-    aero:manufacturesProduct aero:Product_Naval_Group_SA_Scorpne_Class_Diesel_Electric_Submarine_Hull_Combat_Module ;
+    aero:manufacturesProduct aero:Product_Naval_Group_Scorpne_Class_Diesel_Electric_Submarine_Hull_Combat_Module ;
     aero:operatesInDomain aero:DomainDefence,
         aero:MaritimePlatform ;
-    aero:providesService aero:Service_Naval_Group_SA_Full_Lifecycle_In_Service_Naval_Submarine_Maintenance_Reactor_Support ;
+    aero:providesService aero:Service_Naval_Group_Full_Lifecycle_In_Service_Naval_Submarine_Maintenance_Reactor_Support ;
     aero:tradeName "Naval Group"^^xsd:string ;
     aero:website "https://www.naval-group.com"^^xsd:anyURI .
 
-aero:Company_Navantia_SA_SME a aero:Company,
+aero:Company_Navantia_SME a aero:Company,
         aero:Tier1Supplier ;
     aero:businessNumber "ESB84076397"^^xsd:string ;
-    aero:cageCode "E0198"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:hasCapability aero:Cap_Navantia_SA_SME_1 ;
+    aero:hasCapability aero:Cap_Navantia_SME_1 ;
     aero:headquartersCity "Madrid"^^xsd:string ;
     aero:headquartersCountry "ESP"^^xsd:string ;
     aero:headquartersProvince "Madrid"^^xsd:string ;
@@ -162,17 +156,16 @@ aero:Company_Navantia_SA_SME a aero:Company,
         aero:Cert_PECAL2110 ;
     aero:itarCompliant true ;
     aero:legalName "Navantia S.A., S.M.E."^^xsd:string ;
-    aero:manufacturesProduct aero:Product_Navantia_SA_SME_S_80_Plus_Class_AIP_Submarine_Module_and_Structural_Bulkhead ;
+    aero:manufacturesProduct aero:Product_Navantia_SME_S_80_Plus_Class_AIP_Submarine_Module_and_Structural_Bulkhead ;
     aero:operatesInDomain aero:DomainDefence,
         aero:MaritimePlatform ;
-    aero:providesService aero:Service_Navantia_SA_SME_Integrated_Naval_Platform_Management_System_IPMS_Software_Assurance_Fleet_MRO ;
+    aero:providesService aero:Service_Navantia_SME_Integrated_Naval_Platform_Management_System_IPMS_Software_Assurance_Fleet_MRO ;
     aero:tradeName "Navantia"^^xsd:string ;
     aero:website "https://www.navantia.es"^^xsd:anyURI .
 
 aero:Company_Patria_Oyj a aero:Company,
         aero:Tier1Supplier ;
     aero:businessNumber "FI10775982"^^xsd:string ;
-    aero:cageCode "A069G"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
     aero:hasCapability aero:Cap_Patria_Oyj_1 ;
     aero:headquartersCity "Helsinki"^^xsd:string ;
@@ -191,13 +184,13 @@ aero:Company_Patria_Oyj a aero:Company,
     aero:tradeName "Patria"^^xsd:string ;
     aero:website "https://www.patriagroup.com"^^xsd:anyURI .
 
-aero:Company_Rheinmetall_AG a aero:Company,
+aero:Company_Rheinmetall a aero:Company,
         aero:PrimeContractor ;
     aero:businessNumber "DE119284710"^^xsd:string ;
     aero:cageCode "D0812"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:hasCapability aero:Cap_Rheinmetall_AG_1,
-        aero:Cap_Rheinmetall_AG_2 ;
+    aero:hasCapability aero:Cap_Rheinmetall_1,
+        aero:Cap_Rheinmetall_2 ;
     aero:headquartersCity "Düsseldorf"^^xsd:string ;
     aero:headquartersCountry "DEU"^^xsd:string ;
     aero:headquartersProvince "North Rhine-Westphalia"^^xsd:string ;
@@ -207,26 +200,26 @@ aero:Company_Rheinmetall_AG a aero:Company,
         aero:Cert_NATO_AQAP2110 ;
     aero:itarCompliant true ;
     aero:legalName "Rheinmetall AG"^^xsd:string ;
-    aero:manufacturesProduct aero:Product_Rheinmetall_AG_120mm_Smoothbore_L55A1_Tank_Gun,
-        aero:Product_Rheinmetall_AG_Boxer_8x8_Armoured_Multi_Role_Vehicle ;
+    aero:manufacturesProduct aero:Product_Rheinmetall_120mm_Smoothbore_L55A1_Tank_Gun,
+        aero:Product_Rheinmetall_Boxer_8x8_Armoured_Multi_Role_Vehicle ;
     aero:operatesInDomain aero:DomainDefence,
         aero:LandPlatform ;
-    aero:providesService aero:Service_Rheinmetall_AG_Combat_Vehicle_Fleet_Depot_Overhaul_Armor_Upgrades,
-        aero:Service_Rheinmetall_AG_Combat_Vehicle_Spares_Warehousing_and_Field_Deployment_Logistics,
-        aero:Service_Rheinmetall_AG_High_Hardness_Ballistic_Armor_Plate_Robotic_Welding,
-        aero:Service_Rheinmetall_AG_Large_Calibre_Gun_Barrel_Laser_Profiling_and_Ballistic_Testing,
-        aero:Service_Rheinmetall_AG_Synthetic_Tank_Gunnery_Simulation_Environment_Training ;
+    aero:providesService aero:Service_Rheinmetall_Combat_Vehicle_Fleet_Depot_Overhaul_Armor_Upgrades,
+        aero:Service_Rheinmetall_Combat_Vehicle_Spares_Warehousing_and_Field_Deployment_Logistics,
+        aero:Service_Rheinmetall_High_Hardness_Ballistic_Armor_Plate_Robotic_Welding,
+        aero:Service_Rheinmetall_Large_Calibre_Gun_Barrel_Laser_Profiling_and_Ballistic_Testing,
+        aero:Service_Rheinmetall_Synthetic_Tank_Gunnery_Simulation_Environment_Training ;
     aero:tradeName "Rheinmetall"^^xsd:string ;
     aero:website "https://www.rheinmetall.com"^^xsd:anyURI .
 
-aero:Company_Saab_AB a aero:Company,
+aero:Company_Saab a aero:Company,
         aero:PrimeContractor ;
     aero:businessNumber "SE556036079301"^^xsd:string ;
     aero:cageCode "S0319"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:hasCapability aero:Cap_Saab_AB_1,
-        aero:Cap_Saab_AB_2,
-        aero:Cap_Saab_AB_3 ;
+    aero:hasCapability aero:Cap_Saab_1,
+        aero:Cap_Saab_2,
+        aero:Cap_Saab_3 ;
     aero:headquartersCity "Linköping"^^xsd:string ;
     aero:headquartersCountry "SWE"^^xsd:string ;
     aero:headquartersProvince "Östergötland"^^xsd:string ;
@@ -236,26 +229,25 @@ aero:Company_Saab_AB a aero:Company,
         aero:Cert_NATO_AQAP2110 ;
     aero:itarCompliant true ;
     aero:legalName "Saab AB"^^xsd:string ;
-    aero:manufacturesProduct aero:Product_Saab_AB_Carl_Gustaf_M4_Multi_Role_Man_Portable_Weapon,
-        aero:Product_Saab_AB_Gripen_E_Multi_Role_Fighter ;
+    aero:manufacturesProduct aero:Product_Saab_Carl_Gustaf_M4_Multi_Role_Man_Portable_Weapon,
+        aero:Product_Saab_Gripen_E_Multi_Role_Fighter ;
     aero:operatesInDomain aero:AirPlatform,
         aero:DomainDefence,
         aero:MaritimePlatform ;
-    aero:providesService aero:Service_Saab_AB_GaN_AESA_Radar_and_Electronic_Warfare_Electromagnetic_Evaluation,
-        aero:Service_Saab_AB_Global_Air_Defence_Spares_Logistics_Operational_Fleet_Support,
-        aero:Service_Saab_AB_Gripen_Fighter_In_Service_Availability_and_Turnaround_Maintenance,
-        aero:Service_Saab_AB_Modular_Open_System_Architecture_MOSA_Software_Modernization,
-        aero:Service_Saab_AB_Submarine_Stirling_Engine_Overhaul_Hydrostatic_Pressure_Testing ;
+    aero:providesService aero:Service_Saab_GaN_AESA_Radar_and_Electronic_Warfare_Electromagnetic_Evaluation,
+        aero:Service_Saab_Global_Air_Defence_Spares_Logistics_Operational_Fleet_Support,
+        aero:Service_Saab_Gripen_Fighter_In_Service_Availability_and_Turnaround_Maintenance,
+        aero:Service_Saab_Modular_Open_System_Architecture_MOSA_Software_Modernization,
+        aero:Service_Saab_Submarine_Stirling_Engine_Overhaul_Hydrostatic_Pressure_Testing ;
     aero:tradeName "Saab"^^xsd:string ;
     aero:website "https://www.saab.com"^^xsd:anyURI .
 
-aero:Company_Safran_SA a aero:Company,
+aero:Company_Safran a aero:Company,
         aero:Tier1Supplier ;
     aero:businessNumber "FR49583920194"^^xsd:string ;
-    aero:cageCode "F0389"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:hasCapability aero:Cap_Safran_SA_1,
-        aero:Cap_Safran_SA_2 ;
+    aero:hasCapability aero:Cap_Safran_1,
+        aero:Cap_Safran_2 ;
     aero:headquartersCity "Paris"^^xsd:string ;
     aero:headquartersCountry "FRA"^^xsd:string ;
     aero:headquartersProvince "Île-de-France"^^xsd:string ;
@@ -265,25 +257,24 @@ aero:Company_Safran_SA a aero:Company,
         aero:Cert_NATO_AQAP2110 ;
     aero:itarCompliant true ;
     aero:legalName "Safran SA"^^xsd:string ;
-    aero:manufacturesProduct aero:Product_Safran_SA_M88_Reheat_Turbofan_Aeroengine,
-        aero:Product_Safran_SA_Sigma_40_Ring_Laser_Gyroscope_Navigation_System ;
+    aero:manufacturesProduct aero:Product_Safran_M88_Reheat_Turbofan_Aeroengine,
+        aero:Product_Safran_Sigma_40_Ring_Laser_Gyroscope_Navigation_System ;
     aero:operatesInDomain aero:AirPlatform,
         aero:DomainAeronautics,
         aero:DomainDefence ;
-    aero:providesService aero:Service_Safran_SA_Critical_Aeroengine_Spares_Provisioning_and_Worldwide_Rotable_Management,
-        aero:Service_Safran_SA_High_Pressure_Turbine_Blisk_Multi_Axis_Milling,
-        aero:Service_Safran_SA_Inertial_Sensor_Laser_Calibration_and_Boresight_Alignment,
-        aero:Service_Safran_SA_Military_Aeroengine_Depot_Overhaul_Test_Cell_Certification,
-        aero:Service_Safran_SA_Non_Destructive_Testing_Fluorescent_Penetrant_Eddy_Current ;
+    aero:providesService aero:Service_Safran_Critical_Aeroengine_Spares_Provisioning_and_Worldwide_Rotable_Management,
+        aero:Service_Safran_High_Pressure_Turbine_Blisk_Multi_Axis_Milling,
+        aero:Service_Safran_Inertial_Sensor_Laser_Calibration_and_Boresight_Alignment,
+        aero:Service_Safran_Military_Aeroengine_Depot_Overhaul_Test_Cell_Certification,
+        aero:Service_Safran_Non_Destructive_Testing_Fluorescent_Penetrant_Eddy_Current ;
     aero:tradeName "Safran"^^xsd:string ;
     aero:website "https://www.safran-group.com"^^xsd:anyURI .
 
-aero:Company_Thales_SA a aero:Company,
+aero:Company_Thales a aero:Company,
         aero:Tier1Supplier ;
     aero:businessNumber "FR55552059024"^^xsd:string ;
-    aero:cageCode "F0211"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:hasCapability aero:Cap_Thales_SA_1 ;
+    aero:hasCapability aero:Cap_Thales_1 ;
     aero:headquartersCity "Meudon"^^xsd:string ;
     aero:headquartersCountry "FRA"^^xsd:string ;
     aero:headquartersProvince "Île-de-France"^^xsd:string ;
@@ -293,14 +284,14 @@ aero:Company_Thales_SA a aero:Company,
         aero:Cert_NATO_AQAP2110 ;
     aero:itarCompliant true ;
     aero:legalName "Thales SA"^^xsd:string ;
-    aero:manufacturesProduct aero:Product_Thales_SA_SMART_L_Multi_Mission_Naval_Early_Warning_Radar ;
+    aero:manufacturesProduct aero:Product_Thales_SMART_L_Multi_Mission_Naval_Early_Warning_Radar ;
     aero:operatesInDomain aero:AirPlatform,
         aero:DomainC4ISR,
         aero:DomainDefence,
         aero:DomainSpace,
         aero:LandPlatform,
         aero:MaritimePlatform ;
-    aero:providesService aero:Service_Thales_SA_Naval_Radar_System_Lifecycle_Support_Mission_System_Integration ;
+    aero:providesService aero:Service_Thales_Naval_Radar_System_Lifecycle_Support_Mission_System_Integration ;
     aero:tradeName "Thales"^^xsd:string ;
     aero:website "https://www.thalesgroup.com"^^xsd:anyURI .
 
@@ -318,28 +309,28 @@ aero:Cap_Airbus_SE_2 a aero:Capability ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_Dassault_Aviation_SA_1 a aero:Capability ;
+aero:Cap_Dassault_Aviation_1 a aero:Capability ;
     rdfs:label "Rafale Omnirole Combat Aircraft Design & Production"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_DefenceSystemsIntegration ;
     aero:capabilityDescription "Twin-engine omnirole multi-mission fighter aircraft with delta wing, close-coupled canards, and integrated electronic warfare (SPECTRA)."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_Dassault_Aviation_SA_2 a aero:Capability ;
+aero:Cap_Dassault_Aviation_2 a aero:Capability ;
     rdfs:label "Stealth Unmanned Combat Aerial Vehicle (nEUROn)"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_AIAutonomousSystems ;
     aero:capabilityDescription "Flying wing low-observable uncrewed combat aerial vehicle demonstrator for autonomous deep strike and air combat missions."^^xsd:string ;
     aero:mrlValue 7 ;
     aero:trlValue 8 .
 
-aero:Cap_Diehl_Defence_GmbH_Co_KG_1 a aero:Capability ;
+aero:Cap_Diehl_Defence_KG_1 a aero:Capability ;
     rdfs:label "Imaging Infrared (IIR) Precision Guided Missile Seeker & Air-Defence Integration"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_MissilesAmmunition ;
     aero:capabilityDescription "Development of solid-propellant guided interceptor missiles, dual-mode RF/IIR seekers, and multi-canister air-defense launchers."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_Fincantieri_SpA_1 a aero:Capability ;
+aero:Cap_Fincantieri_1 a aero:Capability ;
     rdfs:label "High-Survivability Naval Warship Engineering, Acoustic Masking & Propulsion Integration"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_NavalArchitectureMarineSystems ;
     aero:capabilityDescription "Naval architecture, whole-ship modular assembly, stealth superstructure design, and integrated electric propulsion engineering for frigates and submarines."^^xsd:string ;
@@ -360,28 +351,28 @@ aero:Cap_Kongsberg_Gruppen_ASA_1 a aero:Capability ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_Leonardo_SpA_1 a aero:Capability ;
+aero:Cap_Leonardo_1 a aero:Capability ;
     rdfs:label "Airborne Fire Control & Surveillance AESA Radars"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_SensorsSonar ;
     aero:capabilityDescription "Captor-E AESA radar for Eurofighter Typhoon, Seaspray maritime surveillance AESA, and Kronos naval radars."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_Leonardo_SpA_2 a aero:Capability ;
+aero:Cap_Leonardo_2 a aero:Capability ;
     rdfs:label "Military & Commercial Utility Helicopters (AW101 / AW149)"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_AerospaceSystems ;
     aero:capabilityDescription "Multi-role medium and heavy military helicopters, composite rotor blade manufacturing, and dynamic drive systems."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_Naval_Group_SA_1 a aero:Capability ;
+aero:Cap_Naval_Group_1 a aero:Capability ;
     rdfs:label "Nuclear and Conventional Submarine Hull Integration and Acoustic Stealth Engineering"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_NavalArchitectureMarineSystems ;
     aero:capabilityDescription "Turnkey warship architecture, submerged shock qualification, acoustic quieting, and submarine combat management system integration."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_Navantia_SA_SME_1 a aero:Capability ;
+aero:Cap_Navantia_SME_1 a aero:Capability ;
     rdfs:label "Bio-Ethanol Stealth Air-Independent Propulsion & Warship Combat System Integration"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_NavalArchitectureMarineSystems ;
     aero:capabilityDescription "Engineering of high-endurance submarine air-independent propulsion systems, Aegis combat system shipboard integration, and naval hull fabrication."^^xsd:string ;
@@ -395,56 +386,56 @@ aero:Cap_Patria_Oyj_1 a aero:Capability ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_Rheinmetall_AG_1 a aero:Capability ;
+aero:Cap_Rheinmetall_1 a aero:Capability ;
     rdfs:label "Armoured Combat Vehicles and Turret Weapon Systems"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_ArmouredVehicles ;
     aero:capabilityDescription "Boxer 8x8 wheeled armoured vehicles, Lynx KF41 tracked infantry fighting vehicles, and Lance 30mm turrets."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_Rheinmetall_AG_2 a aero:Capability ;
+aero:Cap_Rheinmetall_2 a aero:Capability ;
     rdfs:label "Large Calibre Tank Guns and Precision Artillery Ammunition"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_Munitions ;
     aero:capabilityDescription "120mm smoothbore tank guns (L44 / L55A1) for Leopard 2 and 155mm Assegai long-range artillery munitions."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_Saab_AB_1 a aero:Capability ;
+aero:Cap_Saab_1 a aero:Capability ;
     rdfs:label "Gripen E/F Multi-Role Smart Fighter Systems Integration"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_DefenceSystemsIntegration ;
     aero:capabilityDescription "Advanced network-centric 4.5+ generation fighter with Gallium Nitride EW suite, Raven ES-05 AESA radar, and modular avionics."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_Saab_AB_2 a aero:Capability ;
+aero:Cap_Saab_2 a aero:Capability ;
     rdfs:label "Airborne Early Warning and Control Systems (GlobalEye)"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_SensorsSonar ;
     aero:capabilityDescription "Erieye ER multi-role radar integrated onto Bombardier Global 6000/6500 platforms for multi-domain surveillance."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_Saab_AB_3 a aero:Capability ;
+aero:Cap_Saab_3 a aero:Capability ;
     rdfs:label "A26 Blekinge-Class AIP Submarine Construction"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_NavalShipbuilding ;
     aero:capabilityDescription "Air-independent propulsion (Stirling AIP) submarines with extreme acoustic stealth and special forces modular portals."^^xsd:string ;
     aero:mrlValue 8 ;
     aero:trlValue 8 .
 
-aero:Cap_Safran_SA_1 a aero:Capability ;
+aero:Cap_Safran_1 a aero:Capability ;
     rdfs:label "Military Turbofan & Turboshaft Aeroengine Manufacturing"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_AerospaceSystems ;
     aero:capabilityDescription "M88 reheat turbofan for Rafale and Arrano / Ardiden turboshaft engines for military helicopters."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_Safran_SA_2 a aero:Capability ;
+aero:Cap_Safran_2 a aero:Capability ;
     rdfs:label "High-Precision Ring Laser & Fiber Optic Gyroscopes (RLG / FOG)"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_SensorsSonar ;
     aero:capabilityDescription "Inertial navigation systems providing GPS-denied navigation for submarines, combat aircraft, and precision guided munitions."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_Thales_SA_1 a aero:Capability ;
+aero:Cap_Thales_1 a aero:Capability ;
     rdfs:label "Naval Multi-Function AESA Surveillance and Anti-Air Radar Systems"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_SensorsSonar ;
     aero:capabilityDescription "Design, manufacture, and combat system integration of long-range 3D active electronically scanned array radars and naval fire control suites."^^xsd:string ;
@@ -454,11 +445,10 @@ aero:Cap_Thales_SA_1 a aero:Capability ;
 aero:Company_Airbus_SE a aero:Company,
         aero:PrimeContractor ;
     aero:businessNumber "NL811928471B01"^^xsd:string ;
-    aero:cageCode "F0259"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
     aero:hasCapability aero:Cap_Airbus_SE_1,
         aero:Cap_Airbus_SE_2 ;
-    aero:hasDirectSupplier aero:Company_Diehl_Defence_GmbH_Co_KG ;
+    aero:hasDirectSupplier aero:Company_Diehl_Defence_KG ;
     aero:headquartersCity "Toulouse"^^xsd:string ;
     aero:headquartersCountry "FRA"^^xsd:string ;
     aero:headquartersProvince "Occitanie"^^xsd:string ;
@@ -482,12 +472,11 @@ aero:Company_Airbus_SE a aero:Company,
     aero:tradeName "Airbus Defence and Space"^^xsd:string ;
     aero:website "https://www.airbus.com/en/defence"^^xsd:anyURI .
 
-aero:Company_Diehl_Defence_GmbH_Co_KG a aero:Company,
+aero:Company_Diehl_Defence_KG a aero:Company,
         aero:Tier1Supplier ;
     aero:businessNumber "DE146781928"^^xsd:string ;
-    aero:cageCode "C1864"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:hasCapability aero:Cap_Diehl_Defence_GmbH_Co_KG_1 ;
+    aero:hasCapability aero:Cap_Diehl_Defence_KG_1 ;
     aero:headquartersCity "Überlingen"^^xsd:string ;
     aero:headquartersCountry "DEU"^^xsd:string ;
     aero:headquartersProvince "Baden-Württemberg"^^xsd:string ;
@@ -496,11 +485,11 @@ aero:Company_Diehl_Defence_GmbH_Co_KG a aero:Company,
         aero:Cert_NATO_AQAP2110 ;
     aero:itarCompliant true ;
     aero:legalName "Diehl Defence GmbH & Co. KG"^^xsd:string ;
-    aero:manufacturesProduct aero:Product_Diehl_Defence_GmbH_Co_KG_IRIS_T_SLM_Medium_Range_Surface_to_Air_Missile_Interceptor ;
+    aero:manufacturesProduct aero:Product_Diehl_Defence_KG_IRIS_T_SLM_Medium_Range_Surface_to_Air_Missile_Interceptor ;
     aero:operatesInDomain aero:AirPlatform,
         aero:DomainDefence,
         aero:LandPlatform ;
-    aero:providesService aero:Service_Diehl_Defence_GmbH_Co_KG_Ground_Based_Air_Defence_Tactical_Interoperability_Test_Qualification ;
+    aero:providesService aero:Service_Diehl_Defence_KG_Ground_Based_Air_Defence_Tactical_Interoperability_Test_Qualification ;
     aero:suppliesTo aero:Company_Airbus_SE ;
     aero:tradeName "Diehl Defence"^^xsd:string ;
     aero:website "https://www.diehl.com/defence"^^xsd:anyURI .
@@ -525,7 +514,7 @@ aero:Product_Airbus_SE_Eurostar_Neo_Telecommunications_Satellite a aero:Product 
     aero:partNumber "PN-FRA-AIR-ESNEO"^^xsd:string ;
     aero:productDescription "High-power geostationary communications satellite bus with all-electric xenon ion propulsion."^^xsd:string .
 
-aero:Product_Dassault_Aviation_SA_Rafale_F4_Omnirole_Fighter a aero:Product ;
+aero:Product_Dassault_Aviation_Rafale_F4_Omnirole_Fighter a aero:Product ;
     rdfs:label "Rafale F4 Omnirole Fighter"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_CarbonFiber_Composite,
         aero:Material_Titanium_Ti6Al4V ;
@@ -535,7 +524,7 @@ aero:Product_Dassault_Aviation_SA_Rafale_F4_Omnirole_Fighter a aero:Product ;
     aero:partNumber "PN-FRA-DAS-RAF04"^^xsd:string ;
     aero:productDescription "Multi-role combat fighter equipped with RBE2 AESA radar, Talios targeting pod, and Meteor missile integration."^^xsd:string .
 
-aero:Product_Diehl_Defence_GmbH_Co_KG_IRIS_T_SLM_Medium_Range_Surface_to_Air_Missile_Interceptor a aero:Product ;
+aero:Product_Diehl_Defence_KG_IRIS_T_SLM_Medium_Range_Surface_to_Air_Missile_Interceptor a aero:Product ;
     rdfs:label "IRIS-T SLM Medium-Range Surface-to-Air Missile Interceptor"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_Titanium_Ti6Al4V ;
     aero:deployedOnPlatform aero:Platform_AirDefenceSystem ;
@@ -544,7 +533,7 @@ aero:Product_Diehl_Defence_GmbH_Co_KG_IRIS_T_SLM_Medium_Range_Surface_to_Air_Mis
     aero:partNumber "PN-DEU-DHL-IRIST"^^xsd:string ;
     aero:productDescription "High-agility air-defense missile featuring thrust-vector control and imaging infrared homing with extreme resistance to electronic countermeasures."^^xsd:string .
 
-aero:Product_Fincantieri_SpA_FREMM_European_Multi_Mission_Frigate_ASW_Combat_Hull_Section a aero:Product ;
+aero:Product_Fincantieri_FREMM_European_Multi_Mission_Frigate_ASW_Combat_Hull_Section a aero:Product ;
     rdfs:label "FREMM European Multi-Mission Frigate ASW Combat Hull Section"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_HY80_HY100_HighStrengthSteel ;
     aero:deployedOnPlatform aero:Platform_SurfaceCombatant ;
@@ -573,7 +562,7 @@ aero:Product_Kongsberg_Gruppen_ASA_Naval_Strike_Missile_NSM_Fifth_Generation_Pre
     aero:partNumber "PN-NOR-KNG-NSM1"^^xsd:string ;
     aero:productDescription "Long-range stealth anti-ship and precision land-attack missile with autonomous target recognition and high-g endgame maneuvers."^^xsd:string .
 
-aero:Product_Leonardo_SpA_AW101_Multi_Role_Military_Helicopter a aero:Product ;
+aero:Product_Leonardo_AW101_Multi_Role_Military_Helicopter a aero:Product ;
     rdfs:label "AW101 Multi-Role Military Helicopter"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_CarbonFiber_Composite,
         aero:Material_Titanium_Ti6Al4V ;
@@ -583,7 +572,7 @@ aero:Product_Leonardo_SpA_AW101_Multi_Role_Military_Helicopter a aero:Product ;
     aero:partNumber "PN-ITA-LEO-AW101"^^xsd:string ;
     aero:productDescription "Three-engine naval and utility transport helicopter with active vibration reduction and anti-submarine warfare suite."^^xsd:string .
 
-aero:Product_Naval_Group_SA_Scorpne_Class_Diesel_Electric_Submarine_Hull_Combat_Module a aero:Product ;
+aero:Product_Naval_Group_Scorpne_Class_Diesel_Electric_Submarine_Hull_Combat_Module a aero:Product ;
     rdfs:label "Scorpène-Class Diesel-Electric Submarine Hull & Combat Module"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_HY80_HY100_HighStrengthSteel ;
     aero:deployedOnPlatform aero:Platform_Submarine ;
@@ -592,7 +581,7 @@ aero:Product_Naval_Group_SA_Scorpne_Class_Diesel_Electric_Submarine_Hull_Combat_
     aero:partNumber "PN-FRA-NVG-SCP20"^^xsd:string ;
     aero:productDescription "Ocean-going multi-role stealth submarine featuring integrated tactical combat system, acoustic tile masking, and heavy torpedo launch tubes."^^xsd:string .
 
-aero:Product_Navantia_SA_SME_S_80_Plus_Class_AIP_Submarine_Module_and_Structural_Bulkhead a aero:Product ;
+aero:Product_Navantia_SME_S_80_Plus_Class_AIP_Submarine_Module_and_Structural_Bulkhead a aero:Product ;
     rdfs:label "S-80 Plus Class AIP Submarine Module and Structural Bulkhead"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_HY80_HY100_HighStrengthSteel ;
     aero:deployedOnPlatform aero:Platform_Submarine ;
@@ -610,7 +599,7 @@ aero:Product_Patria_Oyj_Patria_AMV_XP_8x8_Armoured_Modular_Combat_Vehicle_Platfo
     aero:partNumber "PN-FIN-PAT-AMVXP"^^xsd:string ;
     aero:productDescription "Battle-tested 8x8 armored combat vehicle featuring high payload capacity, superior amphibious mobility, and STANAG Level 4+ mine/ballistic protection."^^xsd:string .
 
-aero:Product_Rheinmetall_AG_120mm_Smoothbore_L55A1_Tank_Gun a aero:Product ;
+aero:Product_Rheinmetall_120mm_Smoothbore_L55A1_Tank_Gun a aero:Product ;
     rdfs:label "120mm Smoothbore L55A1 Tank Gun"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_Titanium_Ti6Al4V ;
     aero:deployedOnPlatform aero:Platform_Leopard2_MainBattleTank ;
@@ -619,7 +608,7 @@ aero:Product_Rheinmetall_AG_120mm_Smoothbore_L55A1_Tank_Gun a aero:Product ;
     aero:partNumber "PN-DEU-RHM-L55A1"^^xsd:string ;
     aero:productDescription "High-pressure smoothbore main armament for Leopard 2A7+ capable of firing programmable kinetic energy munitions."^^xsd:string .
 
-aero:Product_Rheinmetall_AG_Boxer_8x8_Armoured_Multi_Role_Vehicle a aero:Product ;
+aero:Product_Rheinmetall_Boxer_8x8_Armoured_Multi_Role_Vehicle a aero:Product ;
     rdfs:label "Boxer 8x8 Armoured Multi-Role Vehicle"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_Kevlar_Aramid,
         aero:Material_Titanium_Ti6Al4V ;
@@ -629,7 +618,7 @@ aero:Product_Rheinmetall_AG_Boxer_8x8_Armoured_Multi_Role_Vehicle a aero:Product
     aero:partNumber "PN-DEU-RHM-BXR01"^^xsd:string ;
     aero:productDescription "Modular wheeled armoured combat vehicle with interchangeable mission modules."^^xsd:string .
 
-aero:Product_Saab_AB_Carl_Gustaf_M4_Multi_Role_Man_Portable_Weapon a aero:Product ;
+aero:Product_Saab_Carl_Gustaf_M4_Multi_Role_Man_Portable_Weapon a aero:Product ;
     rdfs:label "Carl-Gustaf M4 Multi-Role Man-Portable Weapon"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_CarbonFiber_Composite,
         aero:Material_Titanium_Ti6Al4V ;
@@ -639,7 +628,7 @@ aero:Product_Saab_AB_Carl_Gustaf_M4_Multi_Role_Man_Portable_Weapon a aero:Produc
     aero:partNumber "PN-SWE-SAB-CGM4"^^xsd:string ;
     aero:productDescription "Lightweight 84mm recoilless rifle firing programmable multi-purpose anti-armour and anti-structure rounds."^^xsd:string .
 
-aero:Product_Saab_AB_Gripen_E_Multi_Role_Fighter a aero:Product ;
+aero:Product_Saab_Gripen_E_Multi_Role_Fighter a aero:Product ;
     rdfs:label "Gripen E Multi-Role Fighter"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_CarbonFiber_Composite,
         aero:Material_Titanium_Ti6Al4V ;
@@ -649,7 +638,7 @@ aero:Product_Saab_AB_Gripen_E_Multi_Role_Fighter a aero:Product ;
     aero:partNumber "PN-SWE-SAB-GRP-E"^^xsd:string ;
     aero:productDescription "Next-generation multi-role combat aircraft featuring open avionics architecture and supercruise performance."^^xsd:string .
 
-aero:Product_Safran_SA_M88_Reheat_Turbofan_Aeroengine a aero:Product ;
+aero:Product_Safran_M88_Reheat_Turbofan_Aeroengine a aero:Product ;
     rdfs:label "M88 Reheat Turbofan Aeroengine"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_SingleCrystal_Superalloy,
         aero:Material_Titanium_Ti6Al4V ;
@@ -659,7 +648,7 @@ aero:Product_Safran_SA_M88_Reheat_Turbofan_Aeroengine a aero:Product ;
     aero:partNumber "PN-FRA-SAF-M88-2"^^xsd:string ;
     aero:productDescription "Twin-spool military turbofan engine delivering 75kN reheat thrust with single-crystal turbine blades."^^xsd:string .
 
-aero:Product_Safran_SA_Sigma_40_Ring_Laser_Gyroscope_Navigation_System a aero:Product ;
+aero:Product_Safran_Sigma_40_Ring_Laser_Gyroscope_Navigation_System a aero:Product ;
     rdfs:label "Sigma 40 Ring Laser Gyroscope Navigation System"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_HighPurity_Beryllium ;
     aero:deployedOnPlatform aero:Platform_Submarine,
@@ -669,7 +658,7 @@ aero:Product_Safran_SA_Sigma_40_Ring_Laser_Gyroscope_Navigation_System a aero:Pr
     aero:partNumber "PN-FRA-SAF-SG40"^^xsd:string ;
     aero:productDescription "High-precision inertial navigation system for naval surface combatants and submarines."^^xsd:string .
 
-aero:Product_Thales_SA_SMART_L_Multi_Mission_Naval_Early_Warning_Radar a aero:Product ;
+aero:Product_Thales_SMART_L_Multi_Mission_Naval_Early_Warning_Radar a aero:Product ;
     rdfs:label "SMART-L Multi-Mission Naval Early Warning Radar"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_SingleCrystal_Superalloy,
         aero:Material_Titanium_Ti6Al4V ;
@@ -724,42 +713,42 @@ aero:Service_Airbus_SE_Worldwide_Military_Airlifter_Spares_Pooling_Logistics a a
         aero:Platform_Eurofighter_Typhoon,
         aero:Platform_LEOSatellite .
 
-aero:Service_Dassault_Aviation_SA_Fighter_Fleet_Depot_Maintenance_Modernization a aero:MROService,
+aero:Service_Dassault_Aviation_Fighter_Fleet_Depot_Maintenance_Modernization a aero:MROService,
         aero:Service ;
     rdfs:label "Fighter Fleet Depot Maintenance & Modernization"^^xsd:string ;
     aero:serviceAccreditation "EMAR 145 / DGA"^^xsd:string ;
     aero:serviceDescription "Structural fatigue inspections, radar radome recalibration, SPECTRA EW suite updates, and flight software upgrades."^^xsd:string ;
     aero:supportsPlatform aero:Platform_Dassault_Rafale .
 
-aero:Service_Dassault_Aviation_SA_Full_Flight_Simulator_Level_D_Synthetic_Training_Support a aero:Service,
+aero:Service_Dassault_Aviation_Full_Flight_Simulator_Level_D_Synthetic_Training_Support a aero:Service,
         aero:SimulationTrainingService ;
     rdfs:label "Full Flight Simulator Level D Synthetic Training Support"^^xsd:string ;
     aero:serviceAccreditation "ISO 9001"^^xsd:string ;
     aero:serviceDescription "High-fidelity synthetic mission environment integration and tactical combat pilot simulation systems."^^xsd:string ;
     aero:supportsPlatform aero:Platform_Dassault_Rafale .
 
-aero:Service_Dassault_Aviation_SA_Global_Combat_Fleet_Logistics_Rotable_Spare_Support a aero:LogisticsSupportService,
+aero:Service_Dassault_Aviation_Global_Combat_Fleet_Logistics_Rotable_Spare_Support a aero:LogisticsSupportService,
         aero:Service ;
     rdfs:label "Global Combat Fleet Logistics & Rotable Spare Support"^^xsd:string ;
     aero:serviceAccreditation "ISO 9001:2015"^^xsd:string ;
     aero:serviceDescription "Turnkey spare parts support, repair turnaround tracking, and operational readiness guarantee."^^xsd:string ;
     aero:supportsPlatform aero:Platform_Dassault_Rafale .
 
-aero:Service_Dassault_Aviation_SA_Precision_Titanium_Aerostructure_5_Axis_Machining a aero:EngineeringService,
+aero:Service_Dassault_Aviation_Precision_Titanium_Aerostructure_5_Axis_Machining a aero:EngineeringService,
         aero:Service ;
     rdfs:label "Precision Titanium Aerostructure 5-Axis Machining"^^xsd:string ;
     aero:serviceAccreditation "AS9100D"^^xsd:string ;
     aero:serviceDescription "5-axis milling of monolithic fuselage frames and landing gear bay attachment bulkheads."^^xsd:string ;
     aero:supportsPlatform aero:Platform_Dassault_Rafale .
 
-aero:Service_Dassault_Aviation_SA_Supersonic_Flight_Test_Engineering_Weapon_Integration a aero:Service,
+aero:Service_Dassault_Aviation_Supersonic_Flight_Test_Engineering_Weapon_Integration a aero:Service,
         aero:TestingQualificationService ;
     rdfs:label "Supersonic Flight Test Engineering & Weapon Integration"^^xsd:string ;
     aero:serviceAccreditation "DGA Essais en Vol"^^xsd:string ;
     aero:serviceDescription "Stores separation testing, flight envelope expansion, and electromagnetic compatibility flight characterization."^^xsd:string ;
     aero:supportsPlatform aero:Platform_Dassault_Rafale .
 
-aero:Service_Diehl_Defence_GmbH_Co_KG_Ground_Based_Air_Defence_Tactical_Interoperability_Test_Qualification a aero:Service,
+aero:Service_Diehl_Defence_KG_Ground_Based_Air_Defence_Tactical_Interoperability_Test_Qualification a aero:Service,
         aero:TestingQualificationService ;
     rdfs:label "Ground-Based Air Defence Tactical Interoperability & Test Qualification"^^xsd:string ;
     aero:serviceAccreditation "NATO AQAP 2110"^^xsd:string ;
@@ -767,7 +756,7 @@ aero:Service_Diehl_Defence_GmbH_Co_KG_Ground_Based_Air_Defence_Tactical_Interope
     aero:supportsPlatform aero:Platform_AirDefenceSystem,
         aero:Platform_GroundCombatVehicle .
 
-aero:Service_Fincantieri_SpA_Drydock_Warship_Modernization_Combat_System_Installation_Sea_Trials a aero:EngineeringService,
+aero:Service_Fincantieri_Drydock_Warship_Modernization_Combat_System_Installation_Sea_Trials a aero:EngineeringService,
         aero:Service ;
     rdfs:label "Drydock Warship Modernization, Combat System Installation & Sea Trials"^^xsd:string ;
     aero:serviceAccreditation "NATO AQAP 2110"^^xsd:string ;
@@ -792,7 +781,7 @@ aero:Service_Kongsberg_Gruppen_ASA_Remote_Weapon_Station_Overhaul_Naval_Missile_
     aero:supportsPlatform aero:Platform_F35_Lightning_II,
         aero:Platform_SurfaceCombatant .
 
-aero:Service_Leonardo_SpA_AESA_Radar_RF_Beam_Steering_and_Performance_Calibration a aero:Service,
+aero:Service_Leonardo_AESA_Radar_RF_Beam_Steering_and_Performance_Calibration a aero:Service,
         aero:TestingQualificationService ;
     rdfs:label "AESA Radar RF Beam Steering and Performance Calibration"^^xsd:string ;
     aero:serviceAccreditation "ISO/IEC 17025"^^xsd:string ;
@@ -801,7 +790,7 @@ aero:Service_Leonardo_SpA_AESA_Radar_RF_Beam_Steering_and_Performance_Calibratio
         aero:Platform_FixedWingCombat,
         aero:Platform_RotaryWing .
 
-aero:Service_Leonardo_SpA_Full_Flight_Level_D_Simulator_Maintenance_Visual_System_Upgrades a aero:Service,
+aero:Service_Leonardo_Full_Flight_Level_D_Simulator_Maintenance_Visual_System_Upgrades a aero:Service,
         aero:SimulationTrainingService ;
     rdfs:label "Full Flight Level D Simulator Maintenance & Visual System Upgrades"^^xsd:string ;
     aero:serviceAccreditation "ENAC / EASA Certified"^^xsd:string ;
@@ -810,7 +799,7 @@ aero:Service_Leonardo_SpA_Full_Flight_Level_D_Simulator_Maintenance_Visual_Syste
         aero:Platform_FixedWingCombat,
         aero:Platform_RotaryWing .
 
-aero:Service_Leonardo_SpA_Helicopter_Fleet_Depot_Maintenance_and_Transmission_Overhaul a aero:MROService,
+aero:Service_Leonardo_Helicopter_Fleet_Depot_Maintenance_and_Transmission_Overhaul a aero:MROService,
         aero:Service ;
     rdfs:label "Helicopter Fleet Depot Maintenance and Transmission Overhaul"^^xsd:string ;
     aero:serviceAccreditation "EMAR 145"^^xsd:string ;
@@ -819,7 +808,7 @@ aero:Service_Leonardo_SpA_Helicopter_Fleet_Depot_Maintenance_and_Transmission_Ov
         aero:Platform_FixedWingCombat,
         aero:Platform_RotaryWing .
 
-aero:Service_Leonardo_SpA_Naval_Combat_Management_System_Software_Integration a aero:EngineeringService,
+aero:Service_Leonardo_Naval_Combat_Management_System_Software_Integration a aero:EngineeringService,
         aero:Service ;
     rdfs:label "Naval Combat Management System Software Integration"^^xsd:string ;
     aero:serviceAccreditation "AS9100D"^^xsd:string ;
@@ -828,7 +817,7 @@ aero:Service_Leonardo_SpA_Naval_Combat_Management_System_Software_Integration a 
         aero:Platform_FixedWingCombat,
         aero:Platform_RotaryWing .
 
-aero:Service_Leonardo_SpA_Worldwide_Helicopter_Rotable_Exchange_Logistic_Support a aero:LogisticsSupportService,
+aero:Service_Leonardo_Worldwide_Helicopter_Rotable_Exchange_Logistic_Support a aero:LogisticsSupportService,
         aero:Service ;
     rdfs:label "Worldwide Helicopter Rotable Exchange & Logistic Support"^^xsd:string ;
     aero:serviceAccreditation "ISO 9001:2015"^^xsd:string ;
@@ -837,7 +826,7 @@ aero:Service_Leonardo_SpA_Worldwide_Helicopter_Rotable_Exchange_Logistic_Support
         aero:Platform_FixedWingCombat,
         aero:Platform_RotaryWing .
 
-aero:Service_Naval_Group_SA_Full_Lifecycle_In_Service_Naval_Submarine_Maintenance_Reactor_Support a aero:MROService,
+aero:Service_Naval_Group_Full_Lifecycle_In_Service_Naval_Submarine_Maintenance_Reactor_Support a aero:MROService,
         aero:Service ;
     rdfs:label "Full Lifecycle In-Service Naval Submarine Maintenance & Reactor Support"^^xsd:string ;
     aero:serviceAccreditation "DGA Approved"^^xsd:string ;
@@ -845,7 +834,7 @@ aero:Service_Naval_Group_SA_Full_Lifecycle_In_Service_Naval_Submarine_Maintenanc
     aero:supportsPlatform aero:Platform_Submarine,
         aero:Platform_SurfaceCombatant .
 
-aero:Service_Navantia_SA_SME_Integrated_Naval_Platform_Management_System_IPMS_Software_Assurance_Fleet_MRO a aero:EngineeringService,
+aero:Service_Navantia_SME_Integrated_Naval_Platform_Management_System_IPMS_Software_Assurance_Fleet_MRO a aero:EngineeringService,
         aero:Service ;
     rdfs:label "Integrated Naval Platform Management System (IPMS) Software Assurance & Fleet MRO"^^xsd:string ;
     aero:serviceAccreditation "PECAL 2110"^^xsd:string ;
@@ -861,7 +850,7 @@ aero:Service_Patria_Oyj_Military_Armoured_Vehicle_Depot_Fleet_Life_Extension_Arm
     aero:supportsPlatform aero:Platform_F35_Lightning_II,
         aero:Platform_GroundCombatVehicle .
 
-aero:Service_Rheinmetall_AG_Combat_Vehicle_Fleet_Depot_Overhaul_Armor_Upgrades a aero:MROService,
+aero:Service_Rheinmetall_Combat_Vehicle_Fleet_Depot_Overhaul_Armor_Upgrades a aero:MROService,
         aero:Service ;
     rdfs:label "Combat Vehicle Fleet Depot Overhaul & Armor Upgrades"^^xsd:string ;
     aero:serviceAccreditation "NATO AQAP 2110"^^xsd:string ;
@@ -869,7 +858,7 @@ aero:Service_Rheinmetall_AG_Combat_Vehicle_Fleet_Depot_Overhaul_Armor_Upgrades a
     aero:supportsPlatform aero:Platform_ArmouredCombatVehicle,
         aero:Platform_Leopard2_MainBattleTank .
 
-aero:Service_Rheinmetall_AG_Combat_Vehicle_Spares_Warehousing_and_Field_Deployment_Logistics a aero:LogisticsSupportService,
+aero:Service_Rheinmetall_Combat_Vehicle_Spares_Warehousing_and_Field_Deployment_Logistics a aero:LogisticsSupportService,
         aero:Service ;
     rdfs:label "Combat Vehicle Spares Warehousing and Field Deployment Logistics"^^xsd:string ;
     aero:serviceAccreditation "ISO 9001:2015"^^xsd:string ;
@@ -877,7 +866,7 @@ aero:Service_Rheinmetall_AG_Combat_Vehicle_Spares_Warehousing_and_Field_Deployme
     aero:supportsPlatform aero:Platform_ArmouredCombatVehicle,
         aero:Platform_Leopard2_MainBattleTank .
 
-aero:Service_Rheinmetall_AG_High_Hardness_Ballistic_Armor_Plate_Robotic_Welding a aero:EngineeringService,
+aero:Service_Rheinmetall_High_Hardness_Ballistic_Armor_Plate_Robotic_Welding a aero:EngineeringService,
         aero:Service ;
     rdfs:label "High-Hardness Ballistic Armor Plate Robotic Welding"^^xsd:string ;
     aero:serviceAccreditation "DIN 2303 Naval/Armour"^^xsd:string ;
@@ -885,7 +874,7 @@ aero:Service_Rheinmetall_AG_High_Hardness_Ballistic_Armor_Plate_Robotic_Welding 
     aero:supportsPlatform aero:Platform_ArmouredCombatVehicle,
         aero:Platform_Leopard2_MainBattleTank .
 
-aero:Service_Rheinmetall_AG_Large_Calibre_Gun_Barrel_Laser_Profiling_and_Ballistic_Testing a aero:Service,
+aero:Service_Rheinmetall_Large_Calibre_Gun_Barrel_Laser_Profiling_and_Ballistic_Testing a aero:Service,
         aero:TestingQualificationService ;
     rdfs:label "Large-Calibre Gun Barrel Laser Profiling and Ballistic Testing"^^xsd:string ;
     aero:serviceAccreditation "BWB Certified"^^xsd:string ;
@@ -893,7 +882,7 @@ aero:Service_Rheinmetall_AG_Large_Calibre_Gun_Barrel_Laser_Profiling_and_Ballist
     aero:supportsPlatform aero:Platform_ArmouredCombatVehicle,
         aero:Platform_Leopard2_MainBattleTank .
 
-aero:Service_Rheinmetall_AG_Synthetic_Tank_Gunnery_Simulation_Environment_Training a aero:Service,
+aero:Service_Rheinmetall_Synthetic_Tank_Gunnery_Simulation_Environment_Training a aero:Service,
         aero:SimulationTrainingService ;
     rdfs:label "Synthetic Tank Gunnery Simulation Environment Training"^^xsd:string ;
     aero:serviceAccreditation "ISO 9001"^^xsd:string ;
@@ -901,7 +890,7 @@ aero:Service_Rheinmetall_AG_Synthetic_Tank_Gunnery_Simulation_Environment_Traini
     aero:supportsPlatform aero:Platform_ArmouredCombatVehicle,
         aero:Platform_Leopard2_MainBattleTank .
 
-aero:Service_Saab_AB_GaN_AESA_Radar_and_Electronic_Warfare_Electromagnetic_Evaluation a aero:Service,
+aero:Service_Saab_GaN_AESA_Radar_and_Electronic_Warfare_Electromagnetic_Evaluation a aero:Service,
         aero:TestingQualificationService ;
     rdfs:label "GaN AESA Radar and Electronic Warfare Electromagnetic Evaluation"^^xsd:string ;
     aero:serviceAccreditation "ISO/IEC 17025"^^xsd:string ;
@@ -910,7 +899,7 @@ aero:Service_Saab_AB_GaN_AESA_Radar_and_Electronic_Warfare_Electromagnetic_Evalu
         aero:Platform_Submarine,
         aero:Platform_SurfaceCombatant .
 
-aero:Service_Saab_AB_Global_Air_Defence_Spares_Logistics_Operational_Fleet_Support a aero:LogisticsSupportService,
+aero:Service_Saab_Global_Air_Defence_Spares_Logistics_Operational_Fleet_Support a aero:LogisticsSupportService,
         aero:Service ;
     rdfs:label "Global Air Defence Spares Logistics & Operational Fleet Support"^^xsd:string ;
     aero:serviceAccreditation "ISO 9001:2015"^^xsd:string ;
@@ -919,7 +908,7 @@ aero:Service_Saab_AB_Global_Air_Defence_Spares_Logistics_Operational_Fleet_Suppo
         aero:Platform_Submarine,
         aero:Platform_SurfaceCombatant .
 
-aero:Service_Saab_AB_Gripen_Fighter_In_Service_Availability_and_Turnaround_Maintenance a aero:MROService,
+aero:Service_Saab_Gripen_Fighter_In_Service_Availability_and_Turnaround_Maintenance a aero:MROService,
         aero:Service ;
     rdfs:label "Gripen Fighter In-Service Availability and Turnaround Maintenance"^^xsd:string ;
     aero:serviceAccreditation "Swedish Armed Forces Approved"^^xsd:string ;
@@ -928,7 +917,7 @@ aero:Service_Saab_AB_Gripen_Fighter_In_Service_Availability_and_Turnaround_Maint
         aero:Platform_Submarine,
         aero:Platform_SurfaceCombatant .
 
-aero:Service_Saab_AB_Modular_Open_System_Architecture_MOSA_Software_Modernization a aero:EngineeringService,
+aero:Service_Saab_Modular_Open_System_Architecture_MOSA_Software_Modernization a aero:EngineeringService,
         aero:Service ;
     rdfs:label "Modular Open System Architecture (MOSA) Software Modernization"^^xsd:string ;
     aero:serviceAccreditation "AS9100D"^^xsd:string ;
@@ -937,7 +926,7 @@ aero:Service_Saab_AB_Modular_Open_System_Architecture_MOSA_Software_Modernizatio
         aero:Platform_Submarine,
         aero:Platform_SurfaceCombatant .
 
-aero:Service_Saab_AB_Submarine_Stirling_Engine_Overhaul_Hydrostatic_Pressure_Testing a aero:MROService,
+aero:Service_Saab_Submarine_Stirling_Engine_Overhaul_Hydrostatic_Pressure_Testing a aero:MROService,
         aero:Service ;
     rdfs:label "Submarine Stirling Engine Overhaul & Hydrostatic Pressure Testing"^^xsd:string ;
     aero:serviceAccreditation "FMV Approved"^^xsd:string ;
@@ -946,7 +935,7 @@ aero:Service_Saab_AB_Submarine_Stirling_Engine_Overhaul_Hydrostatic_Pressure_Tes
         aero:Platform_Submarine,
         aero:Platform_SurfaceCombatant .
 
-aero:Service_Safran_SA_Critical_Aeroengine_Spares_Provisioning_and_Worldwide_Rotable_Management a aero:LogisticsSupportService,
+aero:Service_Safran_Critical_Aeroengine_Spares_Provisioning_and_Worldwide_Rotable_Management a aero:LogisticsSupportService,
         aero:Service ;
     rdfs:label "Critical Aeroengine Spares Provisioning and Worldwide Rotable Management"^^xsd:string ;
     aero:serviceAccreditation "ISO 9001:2015"^^xsd:string ;
@@ -955,7 +944,7 @@ aero:Service_Safran_SA_Critical_Aeroengine_Spares_Provisioning_and_Worldwide_Rot
         aero:Platform_RotaryWing,
         aero:Platform_TacticalUAS .
 
-aero:Service_Safran_SA_High_Pressure_Turbine_Blisk_Multi_Axis_Milling a aero:EngineeringService,
+aero:Service_Safran_High_Pressure_Turbine_Blisk_Multi_Axis_Milling a aero:EngineeringService,
         aero:Service ;
     rdfs:label "High-Pressure Turbine Blisk Multi-Axis Milling"^^xsd:string ;
     aero:serviceAccreditation "AS9100D"^^xsd:string ;
@@ -964,7 +953,7 @@ aero:Service_Safran_SA_High_Pressure_Turbine_Blisk_Multi_Axis_Milling a aero:Eng
         aero:Platform_RotaryWing,
         aero:Platform_TacticalUAS .
 
-aero:Service_Safran_SA_Inertial_Sensor_Laser_Calibration_and_Boresight_Alignment a aero:Service,
+aero:Service_Safran_Inertial_Sensor_Laser_Calibration_and_Boresight_Alignment a aero:Service,
         aero:TestingQualificationService ;
     rdfs:label "Inertial Sensor Laser Calibration and Boresight Alignment"^^xsd:string ;
     aero:serviceAccreditation "ISO/IEC 17025"^^xsd:string ;
@@ -973,7 +962,7 @@ aero:Service_Safran_SA_Inertial_Sensor_Laser_Calibration_and_Boresight_Alignment
         aero:Platform_RotaryWing,
         aero:Platform_TacticalUAS .
 
-aero:Service_Safran_SA_Military_Aeroengine_Depot_Overhaul_Test_Cell_Certification a aero:MROService,
+aero:Service_Safran_Military_Aeroengine_Depot_Overhaul_Test_Cell_Certification a aero:MROService,
         aero:Service ;
     rdfs:label "Military Aeroengine Depot Overhaul & Test Cell Certification"^^xsd:string ;
     aero:serviceAccreditation "EMAR 145"^^xsd:string ;
@@ -982,7 +971,7 @@ aero:Service_Safran_SA_Military_Aeroengine_Depot_Overhaul_Test_Cell_Certificatio
         aero:Platform_RotaryWing,
         aero:Platform_TacticalUAS .
 
-aero:Service_Safran_SA_Non_Destructive_Testing_Fluorescent_Penetrant_Eddy_Current a aero:Service,
+aero:Service_Safran_Non_Destructive_Testing_Fluorescent_Penetrant_Eddy_Current a aero:Service,
         aero:TestingQualificationService ;
     rdfs:label "Non-Destructive Testing (Fluorescent Penetrant & Eddy Current)"^^xsd:string ;
     aero:serviceAccreditation "NADCAP NDT"^^xsd:string ;
@@ -991,7 +980,7 @@ aero:Service_Safran_SA_Non_Destructive_Testing_Fluorescent_Penetrant_Eddy_Curren
         aero:Platform_RotaryWing,
         aero:Platform_TacticalUAS .
 
-aero:Service_Thales_SA_Naval_Radar_System_Lifecycle_Support_Mission_System_Integration a aero:EngineeringService,
+aero:Service_Thales_Naval_Radar_System_Lifecycle_Support_Mission_System_Integration a aero:EngineeringService,
         aero:Service ;
     rdfs:label "Naval Radar System Lifecycle Support & Mission System Integration"^^xsd:string ;
     aero:serviceAccreditation "NATO AQAP 2110"^^xsd:string ;

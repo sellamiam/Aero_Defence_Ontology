@@ -20,6 +20,10 @@ aero:Platform_LEOSatellite a aero:SpacePlatform ;
 aero:Platform_ArmouredCombatVehicle a aero:LandPlatform ;
     rdfs:label "Armoured Combat Vehicle (LAV / AFV / MBT)"@en .
 
+aero:Platform_GroundCombatVehicle a aero:LandPlatform ;
+    rdfs:label "Ground Combat Vehicle (Infantry Fighting Vehicle / Armoured Personnel Carrier / MBT)"@en ;
+    skos:altLabel "Armoured Combat Vehicle", "LAV", "Combat Vehicle" .
+
 aero:Platform_SurfaceCombatant a aero:MaritimePlatform ;
     rdfs:label "Naval Surface Combatant (Frigate / Destroyer / OPV)"@en .
 

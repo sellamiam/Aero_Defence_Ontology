@@ -80,7 +80,7 @@ def inject_cross_border_supply_chain_links(all_companies: List[Dict[str, Any]]) 
         ("Diehl Defence GmbH & Co. KG", ["Airbus SE"]),
 
         # Space Launch & Satellite Constellations
-        ("MDA Space Ltd.", ["Canadian Space Agency"]),
+        ("MDA Space Ltd.", ["Lockheed Martin Corporation"]),
         ("Spire Global UK Ltd", ["Spire Global, Inc."]),
         ("Rocket Lab Australia Pty Ltd", ["Rocket Lab USA, Inc."]),
     ]

@@ -2,7 +2,7 @@
   {
     "legal_name": "Bombardier Inc.",
     "trade_name": "Bombardier",
-    "cage_code": "L3842",
+    "cage_code": "3AB48",
     "country": "CAN",
     "city": "Dorval",
     "province": "QC",
@@ -181,7 +181,7 @@
   {
     "legal_name": "Pratt & Whitney Canada Corp.",
     "trade_name": "Pratt & Whitney Canada",
-    "cage_code": "L1108",
+    "cage_code": "00198",
     "country": "CAN",
     "city": "Longueuil",
     "province": "QC",
@@ -262,7 +262,7 @@
   {
     "legal_name": "Airbus Canada Limited Partnership",
     "trade_name": "Airbus Canada",
-    "cage_code": "LCBD2",
+    "cage_code": null,
     "country": "CAN",
     "city": "Mirabel",
     "province": "QC",
@@ -332,7 +332,7 @@
   {
     "legal_name": "Bell Textron Canada Limited",
     "trade_name": "Bell Textron Canada",
-    "cage_code": "LCFD1",
+    "cage_code": null,
     "country": "CAN",
     "city": "Mirabel",
     "province": "QC",
@@ -403,7 +403,7 @@
   {
     "legal_name": "MDA Space Ltd.",
     "trade_name": "MDA Space",
-    "cage_code": "L0642",
+    "cage_code": null,
     "country": "CAN",
     "city": "Sainte-Anne-de-Bellevue",
     "province": "QC",
@@ -478,7 +478,7 @@
   {
     "legal_name": "Chantier Davie Canada Inc.",
     "trade_name": "Davie Shipbuilding",
-    "cage_code": "LAAC5",
+    "cage_code": null,
     "country": "CAN",
     "city": "Lévis",
     "province": "QC",
@@ -547,7 +547,7 @@
   {
     "legal_name": "Rheinmetall Canada Inc.",
     "trade_name": "Rheinmetall Canada",
-    "cage_code": "L0927",
+    "cage_code": null,
     "country": "CAN",
     "city": "Saint-Jean-sur-Richelieu",
     "province": "QC",
@@ -654,7 +654,7 @@
   {
     "legal_name": "General Dynamics Ordnance and Tactical Systems - Canada Inc.",
     "trade_name": "GD-OTS Canada",
-    "cage_code": "LE4F1",
+    "cage_code": null,
     "country": "CAN",
     "city": "Repentigny",
     "province": "QC",
@@ -725,7 +725,7 @@
   {
     "legal_name": "L3Harris MAS Inc.",
     "trade_name": "L3Harris MAS",
-    "cage_code": "L0385",
+    "cage_code": null,
     "country": "CAN",
     "city": "Mirabel",
     "province": "QC",
@@ -801,7 +801,7 @@
   {
     "legal_name": "Héroux-Devtek Inc.",
     "trade_name": "Héroux-Devtek",
-    "cage_code": "L1428",
+    "cage_code": "36164",
     "country": "CAN",
     "city": "Longueuil",
     "province": "QC",
@@ -882,7 +882,7 @@
   {
     "legal_name": "CMC Electronics Inc.",
     "trade_name": "CMC Electronics",
-    "cage_code": "LAC52",
+    "cage_code": null,
     "country": "CAN",
     "city": "Saint-Laurent",
     "province": "QC",
@@ -960,7 +960,7 @@
   {
     "legal_name": "Safran Landing Systems Canada Inc.",
     "trade_name": "Safran Landing Systems",
-    "cage_code": "LA7B3",
+    "cage_code": null,
     "country": "CAN",
     "city": "Mirabel",
     "province": "QC",
@@ -1030,7 +1030,7 @@
   {
     "legal_name": "Safran Cabin Canada Inc.",
     "trade_name": "Safran Cabin",
-    "cage_code": "LDAF8",
+    "cage_code": null,
     "country": "CAN",
     "city": "Kirkland",
     "province": "QC",
@@ -1097,7 +1097,7 @@
   {
     "legal_name": "Airbus Atlantic Canada Inc.",
     "trade_name": "Airbus Atlantic Canada",
-    "cage_code": "L7778",
+    "cage_code": null,
     "country": "CAN",
     "city": "Mirabel",
     "province": "QC",
@@ -1166,7 +1166,7 @@
   {
     "legal_name": "MHI RJ Aviation Inc.",
     "trade_name": "MHIRJ",
-    "cage_code": "L9BA3",
+    "cage_code": null,
     "country": "CAN",
     "city": "Mirabel",
     "province": "QC",
@@ -1236,7 +1236,7 @@
   {
     "legal_name": "GE Aerospace Bromont",
     "trade_name": "GE Aerospace",
-    "cage_code": "L9D38",
+    "cage_code": null,
     "country": "CAN",
     "city": "Bromont",
     "province": "QC",
@@ -1309,7 +1309,7 @@
   {
     "legal_name": "Howmet Aerospace Laval",
     "trade_name": "Howmet Aerospace",
-    "cage_code": "L350A",
+    "cage_code": null,
     "country": "CAN",
     "city": "Laval",
     "province": "QC",
@@ -1387,7 +1387,7 @@
   {
     "legal_name": "Mecachrome Canada Inc.",
     "trade_name": "Mecachrome Canada",
-    "cage_code": "L1667",
+    "cage_code": null,
     "country": "CAN",
     "city": "Mirabel",
     "province": "QC",
@@ -1458,7 +1458,7 @@
   {
     "legal_name": "Sonaca Montréal Inc.",
     "trade_name": "Sonaca Montréal",
-    "cage_code": "L6C66",
+    "cage_code": null,
     "country": "CAN",
     "city": "Mirabel",
     "province": "QC",
@@ -1526,7 +1526,7 @@
   {
     "legal_name": "Liebherr-Aerospace Canada",
     "trade_name": "Liebherr-Aerospace",
-    "cage_code": "L28D2",
+    "cage_code": null,
     "country": "CAN",
     "city": "Laval",
     "province": "QC",
@@ -1597,7 +1597,7 @@
   {
     "legal_name": "Thales Canada Inc.",
     "trade_name": "Thales Canada",
-    "cage_code": "L5039",
+    "cage_code": null,
     "country": "CAN",
     "city": "Saint-Laurent",
     "province": "QC",
@@ -1702,7 +1702,7 @@
   {
     "legal_name": "DART Aerospace Ltd.",
     "trade_name": "DART Aerospace",
-    "cage_code": "L872C",
+    "cage_code": null,
     "country": "CAN",
     "city": "Hawkesbury / Montreal",
     "province": "QC",
@@ -1773,7 +1773,7 @@
   {
     "legal_name": "Avior Integrated Products Inc.",
     "trade_name": "Avior",
-    "cage_code": "L9082",
+    "cage_code": null,
     "country": "CAN",
     "city": "Laval",
     "province": "QC",
@@ -1849,7 +1849,7 @@
   {
     "legal_name": "Avianor Inc.",
     "trade_name": "Avianor",
-    "cage_code": "L7E7A",
+    "cage_code": null,
     "country": "CAN",
     "city": "Mirabel",
     "province": "QC",
@@ -1919,7 +1919,7 @@
   {
     "legal_name": "AAR Aircraft Services Trois-Rivières",
     "trade_name": "AAR Corp",
-    "cage_code": "LADA1",
+    "cage_code": null,
     "country": "CAN",
     "city": "Trois-Rivières",
     "province": "QC",
@@ -1989,7 +1989,7 @@
   {
     "legal_name": "Top Aces Inc.",
     "trade_name": "Top Aces",
-    "cage_code": "L1D82",
+    "cage_code": null,
     "country": "CAN",
     "city": "Dorval",
     "province": "QC",
@@ -2060,7 +2060,7 @@
   {
     "legal_name": "AtkinsRéalis Inc.",
     "trade_name": "AtkinsRéalis",
-    "cage_code": "LADC2",
+    "cage_code": null,
     "country": "CAN",
     "city": "Montréal",
     "province": "QC",
@@ -2096,28 +2096,19 @@
         "kic": "KIC_DefenceSystemsIntegration"
       }
     ],
-    "products": [
-      {
-        "name": "Naval & Defence Engineering Consulting",
-        "description": "Systems engineering and integrated logistics support.",
-        "part_number": null,
-        "fsc_code": "8710",
-        "nsn_code": null,
-        "platforms": [
-          "Platform_SurfaceCombatant",
-          "Platform_Type26_GlobalCombatShip"
-        ],
-        "materials": [
-          "Material_Tungsten_HeavyAlloy"
-        ]
-      }
-    ],
+    "products": [],
     "services": [
       {
         "name": "Defence Engineering & ILS",
         "description": "Program management, ILS, and facility security engineering.",
         "type": "EngineeringService",
         "accreditation": "ISO9001"
+      },
+      {
+        "name": "Naval & Defence Engineering Consulting",
+        "description": "Systems engineering and integrated logistics support.",
+        "type": "EngineeringService",
+        "accreditation": "ISO 9001"
       }
     ],
     "parent_company": null,
@@ -2132,7 +2123,7 @@
   {
     "legal_name": "Groupe Meloche Inc.",
     "trade_name": "Groupe Meloche",
-    "cage_code": "L3AE7",
+    "cage_code": null,
     "country": "CAN",
     "city": "Salaberry-de-Valleyfield",
     "province": "QC",
@@ -2208,7 +2199,7 @@
   {
     "legal_name": "Abipa Canada Inc.",
     "trade_name": "Abipa Canada",
-    "cage_code": "LA1D8",
+    "cage_code": null,
     "country": "CAN",
     "city": "Boisbriand",
     "province": "QC",
@@ -2279,7 +2270,7 @@
   {
     "legal_name": "A.T.L.A.S. Aéronautik Inc.",
     "trade_name": "Atlas Aeronautik",
-    "cage_code": "L5CFC",
+    "cage_code": null,
     "country": "CAN",
     "city": "Granby",
     "province": "QC",
@@ -2349,7 +2340,7 @@
   {
     "legal_name": "A7 Intégration Inc.",
     "trade_name": "A7 Integration",
-    "cage_code": "L9B97",
+    "cage_code": null,
     "country": "CAN",
     "city": "Granby",
     "province": "QC",
@@ -2418,7 +2409,7 @@
   {
     "legal_name": "M1 Composites Technology Inc.",
     "trade_name": "M1 Composites",
-    "cage_code": "L2BA4",
+    "cage_code": null,
     "country": "CAN",
     "city": "Laval",
     "province": "QC",
@@ -2491,7 +2482,7 @@
   {
     "legal_name": "Mecaer America Inc.",
     "trade_name": "Mecaer America",
-    "cage_code": "L0012",
+    "cage_code": null,
     "country": "CAN",
     "city": "Laval",
     "province": "QC",
@@ -2562,7 +2553,7 @@
   {
     "legal_name": "Lev-Fab Inc.",
     "trade_name": "Lev-Fab",
-    "cage_code": "LB306",
+    "cage_code": null,
     "country": "CAN",
     "city": "Saint-Laurent",
     "province": "QC",
@@ -2633,7 +2624,7 @@
   {
     "legal_name": "Mitacor Industries Inc.",
     "trade_name": "Mitacor",
-    "cage_code": "LD196",
+    "cage_code": null,
     "country": "CAN",
     "city": "Saint-Laurent",
     "province": "QC",
@@ -2706,7 +2697,7 @@
   {
     "legal_name": "Mesotec Inc.",
     "trade_name": "Mesotec",
-    "cage_code": "L970B",
+    "cage_code": null,
     "country": "CAN",
     "city": "Sherbrooke",
     "province": "QC",
@@ -2776,7 +2767,7 @@
   {
     "legal_name": "Marmen Inc.",
     "trade_name": "Marmen",
-    "cage_code": "LFCD9",
+    "cage_code": null,
     "country": "CAN",
     "city": "Trois-Rivières",
     "province": "QC",
@@ -2846,7 +2837,7 @@
   {
     "legal_name": "G.M. Précision Inc.",
     "trade_name": "G.M. Précision",
-    "cage_code": "LDE50",
+    "cage_code": null,
     "country": "CAN",
     "city": "Saint-Jean-sur-Richelieu",
     "province": "QC",
@@ -2918,7 +2909,7 @@
   {
     "legal_name": "GHGSat Inc.",
     "trade_name": "GHGSat",
-    "cage_code": "L7B1E",
+    "cage_code": null,
     "country": "CAN",
     "city": "Montréal",
     "province": "QC",
@@ -2988,7 +2979,7 @@
   {
     "legal_name": "Reaction Dynamics Labs Inc.",
     "trade_name": "Reaction Dynamics",
-    "cage_code": "LD4CD",
+    "cage_code": null,
     "country": "CAN",
     "city": "Longueuil",
     "province": "QC",
@@ -3056,7 +3047,7 @@
   {
     "legal_name": "Telops Inc.",
     "trade_name": "Telops",
-    "cage_code": "L326E",
+    "cage_code": null,
     "country": "CAN",
     "city": "Québec",
     "province": "QC",
@@ -3130,7 +3121,7 @@
   {
     "legal_name": "Creaform Inc.",
     "trade_name": "Creaform",
-    "cage_code": "LFC6C",
+    "cage_code": null,
     "country": "CAN",
     "city": "Lévis",
     "province": "QC",
@@ -3200,7 +3191,7 @@
   {
     "legal_name": "Polyrix Inc.",
     "trade_name": "Polyrix",
-    "cage_code": "L1877",
+    "cage_code": null,
     "country": "CAN",
     "city": "Saint-Augustin-de-Desmaures",
     "province": "QC",
@@ -3267,7 +3258,7 @@
   {
     "legal_name": "EXFO Inc.",
     "trade_name": "EXFO",
-    "cage_code": "L2F24",
+    "cage_code": null,
     "country": "CAN",
     "city": "Québec",
     "province": "QC",
@@ -3335,7 +3326,7 @@
   {
     "legal_name": "ABB Inc. Measurement & Analytics",
     "trade_name": "ABB",
-    "cage_code": "LBA32",
+    "cage_code": null,
     "country": "CAN",
     "city": "Québec",
     "province": "QC",
@@ -3407,7 +3398,7 @@
   {
     "legal_name": "INO (Institut national d'optique)",
     "trade_name": "INO",
-    "cage_code": "L79BC",
+    "cage_code": null,
     "country": "CAN",
     "city": "Québec",
     "province": "QC",
@@ -3480,7 +3471,7 @@
   {
     "legal_name": "MPB Communications Inc.",
     "trade_name": "MPB Communications",
-    "cage_code": "LCD89",
+    "cage_code": null,
     "country": "CAN",
     "city": "Pointe-Claire",
     "province": "QC",
@@ -3548,7 +3539,7 @@
   {
     "legal_name": "Photon etc. Inc.",
     "trade_name": "Photon etc.",
-    "cage_code": "LC318",
+    "cage_code": null,
     "country": "CAN",
     "city": "Montréal",
     "province": "QC",
@@ -3614,7 +3605,7 @@
   {
     "legal_name": "Gentec-EO Inc.",
     "trade_name": "Gentec-EO",
-    "cage_code": "L628D",
+    "cage_code": null,
     "country": "CAN",
     "city": "Québec",
     "province": "QC",
@@ -3681,7 +3672,7 @@
   {
     "legal_name": "AirBoss Defense Group",
     "trade_name": "AirBoss Defense",
-    "cage_code": "L289B",
+    "cage_code": null,
     "country": "CAN",
     "city": "Acton Vale",
     "province": "QC",
@@ -3751,7 +3742,7 @@
   {
     "legal_name": "Logistik Unicorp Inc.",
     "trade_name": "Logistik Unicorp",
-    "cage_code": "L9B80",
+    "cage_code": null,
     "country": "CAN",
     "city": "Saint-Jean-sur-Richelieu",
     "province": "QC",
@@ -3819,7 +3810,7 @@
   {
     "legal_name": "CMP Advanced Mechanical Solutions Ltd.",
     "trade_name": "CMP",
-    "cage_code": "LB608",
+    "cage_code": null,
     "country": "CAN",
     "city": "Châteauguay",
     "province": "QC",
@@ -3892,7 +3883,7 @@
   {
     "legal_name": "Groupe Ocean Inc.",
     "trade_name": "Groupe Ocean",
-    "cage_code": "LE6AF",
+    "cage_code": null,
     "country": "CAN",
     "city": "Québec",
     "province": "QC",
@@ -3960,7 +3951,7 @@
   {
     "legal_name": "ARA Robotics Inc.",
     "trade_name": "ARA Robotics",
-    "cage_code": "L242E",
+    "cage_code": null,
     "country": "CAN",
     "city": "Montréal",
     "province": "QC",
@@ -4029,7 +4020,7 @@
   {
     "legal_name": "Volatus Aerospace Corp.",
     "trade_name": "Volatus Aerospace",
-    "cage_code": "L3190",
+    "cage_code": null,
     "country": "CAN",
     "city": "Mirabel",
     "province": "QC",
@@ -4097,7 +4088,7 @@
   {
     "legal_name": "Laflamme Aero Inc.",
     "trade_name": "Laflamme Aero",
-    "cage_code": "LD60A",
+    "cage_code": null,
     "country": "CAN",
     "city": "Saint-Anselme",
     "province": "QC",
@@ -4167,7 +4158,7 @@
   {
     "legal_name": "CS Canada Inc.",
     "trade_name": "CS Canada",
-    "cage_code": "LE36B",
+    "cage_code": null,
     "country": "CAN",
     "city": "Montréal",
     "province": "QC",
@@ -4237,7 +4228,7 @@
   {
     "legal_name": "StreamScan Inc.",
     "trade_name": "StreamScan",
-    "cage_code": "L45F9",
+    "cage_code": null,
     "country": "CAN",
     "city": "Montréal",
     "province": "QC",
@@ -4302,7 +4293,7 @@
   {
     "legal_name": "AAA Canada Inc.",
     "trade_name": "AAA Canada",
-    "cage_code": "L3B25",
+    "cage_code": null,
     "country": "CAN",
     "city": "Montréal",
     "province": "QC",
@@ -4335,27 +4326,19 @@
         "kic": "KIC_AerospaceSystems"
       }
     ],
-    "products": [
-      {
-        "name": "Aerospace Assembly & Quality Services",
-        "description": "Turnkey manufacturing and flight-line technical support.",
-        "part_number": null,
-        "fsc_code": "1510",
-        "nsn_code": null,
-        "platforms": [
-          "Platform_FixedWingTransport"
-        ],
-        "materials": [
-          "Material_AluminiumLithium_2055"
-        ]
-      }
-    ],
+    "products": [],
     "services": [
       {
         "name": "Industrial Engineering & Quality",
         "description": "On-site FAL and MRO technical assistance.",
         "type": "EngineeringService",
         "accreditation": "AS9100D"
+      },
+      {
+        "name": "Aerospace Assembly & Quality Services",
+        "description": "Turnkey manufacturing and flight-line technical support.",
+        "type": "EngineeringService",
+        "accreditation": "ISO 9001"
       }
     ],
     "parent_company": "AAA Group",
@@ -4371,7 +4354,7 @@
   {
     "legal_name": "ALTEN Canada Inc.",
     "trade_name": "ALTEN Canada",
-    "cage_code": "LA395",
+    "cage_code": null,
     "country": "CAN",
     "city": "Montréal",
     "province": "QC",
@@ -4405,27 +4388,19 @@
         "kic": "KIC_AerospaceSystems"
       }
     ],
-    "products": [
-      {
-        "name": "Aerospace Engineering Consulting",
-        "description": "Systems, mechanical, and certification engineering.",
-        "part_number": null,
-        "fsc_code": "8710",
-        "nsn_code": null,
-        "platforms": [
-          "Platform_FixedWingTransport"
-        ],
-        "materials": [
-          "Material_CarbonFiber_Composite"
-        ]
-      }
-    ],
+    "products": [],
     "services": [
       {
         "name": "Aerospace Engineering Consulting",
         "description": "Structural analysis, DO-178C, and QMS.",
         "type": "EngineeringService",
         "accreditation": "AS9100D"
+      },
+      {
+        "name": "Aerospace Engineering Consulting",
+        "description": "Systems, mechanical, and certification engineering.",
+        "type": "EngineeringService",
+        "accreditation": "ISO 9001"
       }
     ],
     "parent_company": "ALTEN Group",
@@ -4441,7 +4416,7 @@
   {
     "legal_name": "Akkodis Canada Inc.",
     "trade_name": "Akkodis",
-    "cage_code": "LC320",
+    "cage_code": null,
     "country": "CAN",
     "city": "Montréal",
     "province": "QC",
@@ -4511,7 +4486,7 @@
   {
     "legal_name": "FusiA Impression 3D Métal Inc.",
     "trade_name": "FusiA",
-    "cage_code": "LE0BE",
+    "cage_code": null,
     "country": "CAN",
     "city": "Saint-Eustache",
     "province": "QC",
@@ -4585,7 +4560,7 @@
   {
     "legal_name": "AV&R Inc.",
     "trade_name": "AV&R",
-    "cage_code": "LA6D3",
+    "cage_code": null,
     "country": "CAN",
     "city": "Saint-Bruno-de-Montarville",
     "province": "QC",
@@ -4653,7 +4628,7 @@
   {
     "legal_name": "International Surface Technologies Inc.",
     "trade_name": "IST",
-    "cage_code": "L0192",
+    "cage_code": null,
     "country": "CAN",
     "city": "Laval",
     "province": "QC",
@@ -4720,7 +4695,7 @@
   {
     "legal_name": "NSE Automatech Inc.",
     "trade_name": "NSE Automatech",
-    "cage_code": "LCC15",
+    "cage_code": null,
     "country": "CAN",
     "city": "Granby",
     "province": "QC",
@@ -4790,7 +4765,7 @@
   {
     "legal_name": "MF2 Aero Inc.",
     "trade_name": "MF2 Aero",
-    "cage_code": "L1C12",
+    "cage_code": null,
     "country": "CAN",
     "city": "Trois-Rivières",
     "province": "QC",
@@ -4857,7 +4832,7 @@
   {
     "legal_name": "Innotech-Execaire Aviation Group",
     "trade_name": "Execaire Aviation",
-    "cage_code": "LFC23",
+    "cage_code": null,
     "country": "CAN",
     "city": "Dorval",
     "province": "QC",
@@ -4926,7 +4901,7 @@
   {
     "legal_name": "Skyservice Business Aviation Inc.",
     "trade_name": "Skyservice",
-    "cage_code": "L1872",
+    "cage_code": null,
     "country": "CAN",
     "city": "Dorval",
     "province": "QC",
@@ -4995,7 +4970,7 @@
   {
     "legal_name": "Nolinor Aviation Inc.",
     "trade_name": "Nolinor Aviation",
-    "cage_code": "L27A8",
+    "cage_code": null,
     "country": "CAN",
     "city": "Mirabel",
     "province": "QC",
@@ -5060,7 +5035,7 @@
   {
     "legal_name": "Air Inuit Ltd.",
     "trade_name": "Air Inuit",
-    "cage_code": "LF818",
+    "cage_code": null,
     "country": "CAN",
     "city": "Dorval",
     "province": "QC",
@@ -5125,7 +5100,7 @@
   {
     "legal_name": "Chrono Aviation Inc.",
     "trade_name": "Chrono Aviation",
-    "cage_code": "L2795",
+    "cage_code": null,
     "country": "CAN",
     "city": "Québec",
     "province": "QC",
@@ -5190,7 +5165,7 @@
   {
     "legal_name": "Averna Technologies Inc.",
     "trade_name": "Averna",
-    "cage_code": "L3451",
+    "cage_code": null,
     "country": "CAN",
     "city": "Montréal",
     "province": "QC",
@@ -5260,7 +5235,7 @@
   {
     "legal_name": "Optel Group Inc.",
     "trade_name": "OPTEL",
-    "cage_code": "L4204",
+    "cage_code": null,
     "country": "CAN",
     "city": "Québec",
     "province": "QC",
@@ -5325,7 +5300,7 @@
   {
     "legal_name": "Olympus NDT Canada (Evident)",
     "trade_name": "Evident / Olympus NDT",
-    "cage_code": "L6A03",
+    "cage_code": null,
     "country": "CAN",
     "city": "Québec",
     "province": "QC",
@@ -5398,7 +5373,7 @@
   {
     "legal_name": "Tyto Robotics Inc.",
     "trade_name": "Tyto Robotics",
-    "cage_code": "LE2C6",
+    "cage_code": null,
     "country": "CAN",
     "city": "Gatineau",
     "province": "QC",
@@ -5465,7 +5440,7 @@
   {
     "legal_name": "Ki3 Photonics Technologies Inc.",
     "trade_name": "Ki3 Photonics",
-    "cage_code": "L7003",
+    "cage_code": null,
     "country": "CAN",
     "city": "Montréal",
     "province": "QC",
@@ -5533,7 +5508,7 @@
   {
     "legal_name": "CM Aerospace Inc.",
     "trade_name": "CM Aerospace",
-    "cage_code": "L2E46",
+    "cage_code": null,
     "country": "CAN",
     "city": "Laval",
     "province": "QC",
@@ -5600,7 +5575,7 @@
   {
     "legal_name": "MAD Aerospace Inc.",
     "trade_name": "MAD Aerospace",
-    "cage_code": "LD8AE",
+    "cage_code": null,
     "country": "CAN",
     "city": "Bromont",
     "province": "QC",
@@ -5666,7 +5641,7 @@
   {
     "legal_name": "Elimetal Inc.",
     "trade_name": "Elimetal",
-    "cage_code": "L4BE0",
+    "cage_code": null,
     "country": "CAN",
     "city": "Saint-Laurent",
     "province": "QC",
@@ -5735,7 +5710,7 @@
   {
     "legal_name": "Usinage Villeneuve Inc.",
     "trade_name": "Usinage Villeneuve",
-    "cage_code": "L0D4D",
+    "cage_code": null,
     "country": "CAN",
     "city": "Longueuil",
     "province": "QC",
@@ -5802,7 +5777,7 @@
   {
     "legal_name": "Creation Technologies Canada",
     "trade_name": "Creation Technologies",
-    "cage_code": "L8F39",
+    "cage_code": null,
     "country": "CAN",
     "city": "Montréal",
     "province": "QC",
@@ -5872,7 +5847,7 @@
   {
     "legal_name": "Shearwater Aerospace Inc.",
     "trade_name": "Shearwater Aerospace",
-    "cage_code": "L5FE4",
+    "cage_code": null,
     "country": "CAN",
     "city": "Montréal",
     "province": "QC",
@@ -5938,7 +5913,7 @@
   {
     "legal_name": "Notos Technologies Inc.",
     "trade_name": "Notos Technologies",
-    "cage_code": "L97E3",
+    "cage_code": null,
     "country": "CAN",
     "city": "Montréal",
     "province": "QC",
@@ -6004,7 +5979,7 @@
   {
     "legal_name": "DefendX Technologies Inc.",
     "trade_name": "DefendX",
-    "cage_code": "L1375",
+    "cage_code": null,
     "country": "CAN",
     "city": "Montréal",
     "province": "QC",
@@ -6072,7 +6047,7 @@
   {
     "legal_name": "CC3rios Systems Inc.",
     "trade_name": "CC3rios",
-    "cage_code": "L700E",
+    "cage_code": null,
     "country": "CAN",
     "city": "Montréal",
     "province": "QC",
@@ -6137,7 +6112,7 @@
   {
     "legal_name": "Aéroports de Montréal",
     "trade_name": "ADM",
-    "cage_code": "L339D",
+    "cage_code": null,
     "country": "CAN",
     "city": "Dorval",
     "province": "QC",
@@ -6205,7 +6180,7 @@
   {
     "legal_name": "Centre technologique en aérospatiale (CTA)",
     "trade_name": "CTA",
-    "cage_code": "L5115",
+    "cage_code": null,
     "country": "CAN",
     "city": "Saint-Hubert",
     "province": "QC",
@@ -6276,7 +6251,7 @@
   {
     "legal_name": "CRIAQ (Consortium de recherche et d'innovation en aérospatiale au Québec)",
     "trade_name": "CRIAQ",
-    "cage_code": "L2440",
+    "cage_code": null,
     "country": "CAN",
     "city": "Montréal",
     "province": "QC",
@@ -6346,7 +6321,7 @@
   {
     "legal_name": "C2MI (MiQro Innovation Collaborative Centre)",
     "trade_name": "C2MI",
-    "cage_code": "L03D2",
+    "cage_code": null,
     "country": "CAN",
     "city": "Bromont",
     "province": "QC",
@@ -6416,7 +6391,7 @@
   {
     "legal_name": "Teledyne DALSA Semiconductor Inc.",
     "trade_name": "Teledyne DALSA",
-    "cage_code": "L783D",
+    "cage_code": null,
     "country": "CAN",
     "city": "Bromont",
     "province": "QC",
@@ -6489,7 +6464,7 @@
   {
     "legal_name": "Précision Aéro-Mécanique Inc.",
     "trade_name": "PAM",
-    "cage_code": "L12C8",
+    "cage_code": null,
     "country": "CAN",
     "city": "Saint-Hubert",
     "province": "QC",
@@ -6556,7 +6531,7 @@
   {
     "legal_name": "Mecanic-Valirex Inc.",
     "trade_name": "Valirex",
-    "cage_code": "L60DB",
+    "cage_code": null,
     "country": "CAN",
     "city": "Saint-Laurent",
     "province": "QC",
@@ -6623,7 +6598,7 @@
   {
     "legal_name": "Aéro-Structures Longueuil Inc.",
     "trade_name": "Aéro-Structures Longueuil",
-    "cage_code": "L199F",
+    "cage_code": null,
     "country": "CAN",
     "city": "Longueuil",
     "province": "QC",
@@ -6690,7 +6665,7 @@
   {
     "legal_name": "Groupe DCM Inc.",
     "trade_name": "DCM Group",
-    "cage_code": "L0DB1",
+    "cage_code": null,
     "country": "CAN",
     "city": "Blainville",
     "province": "QC",
@@ -6761,7 +6736,7 @@
   {
     "legal_name": "Mecfor Inc.",
     "trade_name": "Mecfor",
-    "cage_code": "L1DE8",
+    "cage_code": null,
     "country": "CAN",
     "city": "Saguenay",
     "province": "QC",
@@ -6827,7 +6802,7 @@
   {
     "legal_name": "Rio Tinto Aluminium (Aerospace)",
     "trade_name": "Rio Tinto",
-    "cage_code": "L1FC8",
+    "cage_code": null,
     "country": "CAN",
     "city": "Saguenay",
     "province": "QC",
@@ -6895,7 +6870,7 @@
   {
     "legal_name": "PyroGenesis Canada Inc.",
     "trade_name": "PyroGenesis",
-    "cage_code": "L3BD9",
+    "cage_code": null,
     "country": "CAN",
     "city": "Montréal",
     "province": "QC",
@@ -6968,7 +6943,7 @@
   {
     "legal_name": "5N Plus Inc.",
     "trade_name": "5N Plus",
-    "cage_code": "LF309",
+    "cage_code": null,
     "country": "CAN",
     "city": "Saint-Laurent",
     "province": "QC",
@@ -7039,7 +7014,7 @@
   {
     "legal_name": "Rayonier A.M. / Tembec",
     "trade_name": "RYAM",
-    "cage_code": "LAD19",
+    "cage_code": null,
     "country": "CAN",
     "city": "Témiscaming",
     "province": "QC",
@@ -7107,7 +7082,7 @@
   {
     "legal_name": "Sanimarc (Wood) / Aéro-Services",
     "trade_name": "Sanimarc",
-    "cage_code": "L2C4D",
+    "cage_code": null,
     "country": "CAN",
     "city": "Québec",
     "province": "QC",
@@ -7171,7 +7146,7 @@
   {
     "legal_name": "Optonique",
     "trade_name": "Optonique",
-    "cage_code": "LCAB2",
+    "cage_code": null,
     "country": "CAN",
     "city": "Québec",
     "province": "QC",
@@ -7238,7 +7213,7 @@
   {
     "legal_name": "STIQ (Sous-traitance industrielle Québec)",
     "trade_name": "STIQ",
-    "cage_code": "L17FF",
+    "cage_code": null,
     "country": "CAN",
     "city": "Montréal",
     "province": "QC",
@@ -7305,7 +7280,7 @@
   {
     "legal_name": "Aéro Montréal",
     "trade_name": "Aéro Montréal",
-    "cage_code": "LE24D",
+    "cage_code": null,
     "country": "CAN",
     "city": "Montréal",
     "province": "QC",
@@ -7374,7 +7349,7 @@
   {
     "legal_name": "Immersive Design Studios Inc.",
     "trade_name": "Immersive Design",
-    "cage_code": "L11FE",
+    "cage_code": null,
     "country": "CAN",
     "city": "Montréal",
     "province": "QC",
@@ -7440,7 +7415,7 @@
   {
     "legal_name": "Presagis Canada Inc.",
     "trade_name": "Presagis",
-    "cage_code": "LE7F6",
+    "cage_code": null,
     "country": "CAN",
     "city": "Saint-Laurent",
     "province": "QC",
@@ -7513,7 +7488,7 @@
   {
     "legal_name": "Vortex Solution Inc.",
     "trade_name": "Vortex Solution",
-    "cage_code": "L5993",
+    "cage_code": null,
     "country": "CAN",
     "city": "Montréal",
     "province": "QC",
@@ -7578,7 +7553,7 @@
   {
     "legal_name": "Beneq / Kemira / Solmax",
     "trade_name": "Solmax",
-    "cage_code": "L1CF8",
+    "cage_code": null,
     "country": "CAN",
     "city": "Varennes",
     "province": "QC",
@@ -7645,7 +7620,7 @@
   {
     "legal_name": "Aéro-Mag 2000 Inc.",
     "trade_name": "Aero-Mag",
-    "cage_code": "L4509",
+    "cage_code": null,
     "country": "CAN",
     "city": "Dorval",
     "province": "QC",
@@ -7677,27 +7652,19 @@
         "kic": "KIC_InServiceSupport"
       }
     ],
-    "products": [
-      {
-        "name": "Aircraft Deicing Services",
-        "description": "Cold-weather flight-line ground support.",
-        "part_number": null,
-        "fsc_code": "1730",
-        "nsn_code": null,
-        "platforms": [
-          "Platform_FixedWingTransport"
-        ],
-        "materials": [
-          "Material_AluminiumLithium_2055"
-        ]
-      }
-    ],
+    "products": [],
     "services": [
       {
         "name": "Flight-Line Deicing",
         "description": "Centralized deicing pad operations.",
         "type": "LogisticsSupportService",
         "accreditation": "ISO9001"
+      },
+      {
+        "name": "Aircraft Deicing Services",
+        "description": "Cold-weather flight-line ground support.",
+        "type": "LogisticsSupportService",
+        "accreditation": "ISO 9001"
       }
     ],
     "parent_company": null,
@@ -7713,7 +7680,7 @@
   {
     "legal_name": "Orenda / Magellan Aerospace (Quebec)",
     "trade_name": "Magellan Aerospace",
-    "cage_code": "L9ACF",
+    "cage_code": null,
     "country": "CAN",
     "city": "Montréal",
     "province": "QC",
@@ -7788,7 +7755,7 @@
   {
     "legal_name": "Safran Helicopter Engines Canada",
     "trade_name": "Safran Helicopter Engines",
-    "cage_code": "LB962",
+    "cage_code": null,
     "country": "CAN",
     "city": "Mirabel",
     "province": "QC",
@@ -7858,7 +7825,7 @@
   {
     "legal_name": "Collins Aerospace (Montreal)",
     "trade_name": "Collins Aerospace",
-    "cage_code": "LDA1B",
+    "cage_code": null,
     "country": "CAN",
     "city": "Saint-Laurent",
     "province": "QC",
@@ -7930,7 +7897,7 @@
   {
     "legal_name": "Honeywell Aerospace (Montreal)",
     "trade_name": "Honeywell Aerospace",
-    "cage_code": "LF205",
+    "cage_code": null,
     "country": "CAN",
     "city": "Saint-Laurent",
     "province": "QC",
@@ -8002,7 +7969,7 @@
   {
     "legal_name": "Parker Aerospace (Montreal)",
     "trade_name": "Parker Aerospace",
-    "cage_code": "LA839",
+    "cage_code": null,
     "country": "CAN",
     "city": "Saint-Laurent",
     "province": "QC",
@@ -8071,7 +8038,7 @@
   {
     "legal_name": "Eaton Aerospace (Montreal)",
     "trade_name": "Eaton Aerospace",
-    "cage_code": "LBF88",
+    "cage_code": null,
     "country": "CAN",
     "city": "Saint-Laurent",
     "province": "QC",
@@ -8139,7 +8106,7 @@
   {
     "legal_name": "Moog Inc. (Montreal)",
     "trade_name": "Moog",
-    "cage_code": "L0751",
+    "cage_code": null,
     "country": "CAN",
     "city": "Saint-Laurent",
     "province": "QC",
@@ -8211,7 +8178,7 @@
   {
     "legal_name": "Cjet Aviation Inc.",
     "trade_name": "Cjet Aviation",
-    "cage_code": "LBCA3",
+    "cage_code": null,
     "country": "CAN",
     "city": "Trois-Rivières",
     "province": "QC",
@@ -8242,27 +8209,19 @@
         "kic": "KIC_InServiceSupport"
       }
     ],
-    "products": [
-      {
-        "name": "FBO & Ground Handling",
-        "description": "Airport fueling and hangarage.",
-        "part_number": null,
-        "fsc_code": "1730",
-        "nsn_code": null,
-        "platforms": [
-          "Platform_FixedWingTransport"
-        ],
-        "materials": [
-          "Material_AluminiumLithium_2055"
-        ]
-      }
-    ],
+    "products": [],
     "services": [
       {
         "name": "FBO & Ground Support",
         "description": "Aviation ground handling.",
         "type": "LogisticsSupportService",
         "accreditation": "ISO9001"
+      },
+      {
+        "name": "FBO & Ground Handling",
+        "description": "Airport fueling and hangarage.",
+        "type": "LogisticsSupportService",
+        "accreditation": "ISO 9001"
       }
     ],
     "parent_company": null,
@@ -8277,7 +8236,7 @@
   {
     "legal_name": "M.I. Integration (Plastech)",
     "trade_name": "M.I. Integration",
-    "cage_code": "L00C5",
+    "cage_code": null,
     "country": "CAN",
     "city": "Sherbrooke",
     "province": "QC",
@@ -8344,7 +8303,7 @@
   {
     "legal_name": "Camoplast / Michelin (Magog)",
     "trade_name": "Michelin / Camso",
-    "cage_code": "L2D78",
+    "cage_code": null,
     "country": "CAN",
     "city": "Magog",
     "province": "QC",
@@ -8410,7 +8369,7 @@
   {
     "legal_name": "Soucy International Inc.",
     "trade_name": "Soucy",
-    "cage_code": "L3B91",
+    "cage_code": null,
     "country": "CAN",
     "city": "Drummondville",
     "province": "QC",
@@ -8484,7 +8443,7 @@
   {
     "legal_name": "Cascades / Sonoco (Quebec)",
     "trade_name": "Cascades",
-    "cage_code": "LD5DD",
+    "cage_code": null,
     "country": "CAN",
     "city": "Kingsey Falls",
     "province": "QC",
@@ -8549,7 +8508,7 @@
   {
     "legal_name": "Prévost / Volvo Group (Sainte-Claire)",
     "trade_name": "Prevost",
-    "cage_code": "L098A",
+    "cage_code": null,
     "country": "CAN",
     "city": "Sainte-Claire",
     "province": "QC",
@@ -8615,7 +8574,7 @@
   {
     "legal_name": "Demers Ambulances Inc.",
     "trade_name": "Demers",
-    "cage_code": "L443B",
+    "cage_code": null,
     "country": "CAN",
     "city": "Beloeil",
     "province": "QC",
@@ -8681,7 +8640,7 @@
   {
     "legal_name": "Lion Electric (Saint-Jérôme)",
     "trade_name": "Lion Electric",
-    "cage_code": "L1553",
+    "cage_code": null,
     "country": "CAN",
     "city": "Saint-Jérôme",
     "province": "QC",
@@ -8745,7 +8704,7 @@
   {
     "legal_name": "BRP Inc. (Valcourt)",
     "trade_name": "BRP",
-    "cage_code": "L1108",
+    "cage_code": null,
     "country": "CAN",
     "city": "Valcourt",
     "province": "QC",
@@ -8813,7 +8772,7 @@
   {
     "legal_name": "Pomerleau Inc. (Defence Infrastructure)",
     "trade_name": "Pomerleau",
-    "cage_code": "LDA95",
+    "cage_code": null,
     "country": "CAN",
     "city": "Saint-Georges",
     "province": "QC",
@@ -8880,7 +8839,7 @@
   {
     "legal_name": "EBC Inc.",
     "trade_name": "EBC",
-    "cage_code": "L7F61",
+    "cage_code": null,
     "country": "CAN",
     "city": "L'Ancienne-Lorette",
     "province": "QC",
@@ -8946,7 +8905,7 @@
   {
     "legal_name": "WSP Canada Inc. (Montreal)",
     "trade_name": "WSP",
-    "cage_code": "L96D8",
+    "cage_code": null,
     "country": "CAN",
     "city": "Montréal",
     "province": "QC",
@@ -9015,7 +8974,7 @@
   {
     "legal_name": "CGI Inc. (Defence & Intelligence)",
     "trade_name": "CGI",
-    "cage_code": "LFEFA",
+    "cage_code": null,
     "country": "CAN",
     "city": "Montréal",
     "province": "QC",
@@ -9089,7 +9048,7 @@
   {
     "legal_name": "Commissionnaires du Québec",
     "trade_name": "Commissionnaires",
-    "cage_code": "LA8FC",
+    "cage_code": null,
     "country": "CAN",
     "city": "Montréal",
     "province": "QC",
@@ -9156,7 +9115,7 @@
   {
     "legal_name": "Aéro-Club de Montréal / ÉNA",
     "trade_name": "ÉNA",
-    "cage_code": "LEFDC",
+    "cage_code": null,
     "country": "CAN",
     "city": "Longueuil",
     "province": "QC",
@@ -9188,27 +9147,19 @@
         "kic": "KIC_TrainingSimulation"
       }
     ],
-    "products": [
-      {
-        "name": "Aerospace Maintenance Training",
-        "description": "Certified AME and avionics training programs.",
-        "part_number": null,
-        "fsc_code": "6910",
-        "nsn_code": null,
-        "platforms": [
-          "Platform_FixedWingTransport"
-        ],
-        "materials": [
-          "Material_AluminiumLithium_2055"
-        ]
-      }
-    ],
+    "products": [],
     "services": [
       {
         "name": "Aerospace Technical Training",
         "description": "Workforce qualification and training.",
         "type": "SimulationTrainingService",
         "accreditation": "ISO9001"
+      },
+      {
+        "name": "Aerospace Maintenance Training",
+        "description": "Certified AME and avionics training programs.",
+        "type": "EngineeringService",
+        "accreditation": "ISO 9001"
       }
     ],
     "parent_company": "Cégep Édouard-Montpetit",
@@ -9224,7 +9175,7 @@
   {
     "legal_name": "NRC Aerospace (Montreal)",
     "trade_name": "NRC Aerospace",
-    "cage_code": "LDE43",
+    "cage_code": null,
     "country": "CAN",
     "city": "Montréal",
     "province": "QC",
@@ -9298,7 +9249,7 @@
   {
     "legal_name": "DRDC Valcartier",
     "trade_name": "DRDC Valcartier",
-    "cage_code": "L61ED",
+    "cage_code": null,
     "country": "CAN",
     "city": "Courcelette",
     "province": "QC",
@@ -9370,7 +9321,7 @@
   {
     "legal_name": "Optech / Teledyne Optech (Quebec)",
     "trade_name": "Optech",
-    "cage_code": "LE01A",
+    "cage_code": null,
     "country": "CAN",
     "city": "Québec",
     "province": "QC",
@@ -9440,7 +9391,7 @@
   {
     "legal_name": "Kongsberg Geospatial (Montreal)",
     "trade_name": "Kongsberg",
-    "cage_code": "LED5D",
+    "cage_code": null,
     "country": "CAN",
     "city": "Montréal",
     "province": "QC",
@@ -9512,7 +9463,7 @@
   {
     "legal_name": "Serco Canada Marine",
     "trade_name": "Serco Canada",
-    "cage_code": "LF0B0",
+    "cage_code": null,
     "country": "CAN",
     "city": "Québec",
     "province": "QC",
@@ -9544,27 +9495,19 @@
         "kic": "KIC_InServiceSupport"
       }
     ],
-    "products": [
-      {
-        "name": "Marine & Base Logistics",
-        "description": "Harbour towing and naval support.",
-        "part_number": null,
-        "fsc_code": "1925",
-        "nsn_code": null,
-        "platforms": [
-          "Platform_SurfaceCombatant"
-        ],
-        "materials": [
-          "Material_Tungsten_HeavyAlloy"
-        ]
-      }
-    ],
+    "products": [],
     "services": [
       {
         "name": "Marine Logistics",
         "description": "Harbour and fleet support.",
         "type": "LogisticsSupportService",
         "accreditation": "ISO9001"
+      },
+      {
+        "name": "Marine & Base Logistics",
+        "description": "Harbour towing and naval support.",
+        "type": "LogisticsSupportService",
+        "accreditation": "ISO 9001"
       }
     ],
     "parent_company": "Serco Group",
@@ -9578,7 +9521,7 @@
   {
     "legal_name": "Leonardo Canada (Montreal)",
     "trade_name": "Leonardo",
-    "cage_code": "LCCBD",
+    "cage_code": null,
     "country": "CAN",
     "city": "Montréal",
     "province": "QC",
@@ -9650,7 +9593,7 @@
   {
     "legal_name": "Sagemcom / Safran Electronics & Defense Canada",
     "trade_name": "Safran Electronics",
-    "cage_code": "L4B6A",
+    "cage_code": null,
     "country": "CAN",
     "city": "Montréal",
     "province": "QC",
@@ -9722,7 +9665,7 @@
   {
     "legal_name": "Esterline / Korry (Montreal)",
     "trade_name": "Korry Electronics",
-    "cage_code": "L94AA",
+    "cage_code": null,
     "country": "CAN",
     "city": "Saint-Laurent",
     "province": "QC",
@@ -9793,7 +9736,7 @@
   {
     "legal_name": "Aéronautique 2000 Inc.",
     "trade_name": "Aéronautique 2000",
-    "cage_code": "L97B1",
+    "cage_code": null,
     "country": "CAN",
     "city": "Saint-Hubert",
     "province": "QC",
@@ -9859,7 +9802,7 @@
   {
     "legal_name": "Pascan Aviation Inc.",
     "trade_name": "Pascan Aviation",
-    "cage_code": "L1362",
+    "cage_code": null,
     "country": "CAN",
     "city": "Saint-Hubert",
     "province": "QC",
@@ -9924,7 +9867,7 @@
   {
     "legal_name": "Propair Inc.",
     "trade_name": "Propair",
-    "cage_code": "L473D",
+    "cage_code": null,
     "country": "CAN",
     "city": "Rouyn-Noranda",
     "province": "QC",
@@ -9989,7 +9932,7 @@
   {
     "legal_name": "Air Creebec Inc.",
     "trade_name": "Air Creebec",
-    "cage_code": "L3A03",
+    "cage_code": null,
     "country": "CAN",
     "city": "Val-d'Or",
     "province": "QC",
@@ -10054,7 +9997,7 @@
   {
     "legal_name": "ExactAir Inc.",
     "trade_name": "ExactAir",
-    "cage_code": "LBFC8",
+    "cage_code": null,
     "country": "CAN",
     "city": "Saint-Honoré",
     "province": "QC",
@@ -10085,27 +10028,19 @@
         "kic": "KIC_InServiceSupport"
       }
     ],
-    "products": [
-      {
-        "name": "Aerial Surveillance & Flight Training",
-        "description": "Special-mission aerial patrol.",
-        "part_number": null,
-        "fsc_code": "1510",
-        "nsn_code": null,
-        "platforms": [
-          "Platform_FixedWingTransport"
-        ],
-        "materials": [
-          "Material_AluminiumLithium_2055"
-        ]
-      }
-    ],
+    "products": [],
     "services": [
       {
         "name": "Aerial Patrol & Training",
         "description": "Special-mission flight operations.",
         "type": "SimulationTrainingService",
         "accreditation": "ISO9001"
+      },
+      {
+        "name": "Aerial Surveillance & Flight Training",
+        "description": "Special-mission aerial patrol.",
+        "type": "EngineeringService",
+        "accreditation": "ISO 9001"
       }
     ],
     "parent_company": null,
@@ -10120,7 +10055,7 @@
   {
     "legal_name": "Heli-Excel Inc.",
     "trade_name": "Heli-Excel",
-    "cage_code": "LBCDA",
+    "cage_code": null,
     "country": "CAN",
     "city": "Sept-Îles",
     "province": "QC",
@@ -10186,7 +10121,7 @@
   {
     "legal_name": "Passport Hélico Inc.",
     "trade_name": "Passport Hélico",
-    "cage_code": "LCA04",
+    "cage_code": null,
     "country": "CAN",
     "city": "Mascouche",
     "province": "QC",
@@ -10251,7 +10186,7 @@
   {
     "legal_name": "Aéro-Photo (1961) Inc.",
     "trade_name": "Aéro-Photo",
-    "cage_code": "LA5F0",
+    "cage_code": null,
     "country": "CAN",
     "city": "Québec",
     "province": "QC",
@@ -10316,7 +10251,7 @@
   {
     "legal_name": "Effenco / Oshkosh (Montreal)",
     "trade_name": "Oshkosh AeroTech",
-    "cage_code": "LE164",
+    "cage_code": null,
     "country": "CAN",
     "city": "Montréal",
     "province": "QC",
@@ -10381,7 +10316,7 @@
   {
     "legal_name": "Groupe Nduom / NordSpace (Quebec Ops)",
     "trade_name": "NordSpace",
-    "cage_code": "LC740",
+    "cage_code": null,
     "country": "CAN",
     "city": "Montréal",
     "province": "QC",
@@ -10449,7 +10384,7 @@
   {
     "legal_name": "Sovereign / Spire Global (Montreal)",
     "trade_name": "Spire Global",
-    "cage_code": "L1AD1",
+    "cage_code": null,
     "country": "CAN",
     "city": "Montréal",
     "province": "QC",
@@ -10517,7 +10452,7 @@
   {
     "legal_name": "Ciena Canada (Montreal)",
     "trade_name": "Ciena",
-    "cage_code": "LEE69",
+    "cage_code": null,
     "country": "CAN",
     "city": "Montréal",
     "province": "QC",
@@ -10585,7 +10520,7 @@
   {
     "legal_name": "Ericsson Canada (Montreal)",
     "trade_name": "Ericsson",
-    "cage_code": "LC1EC",
+    "cage_code": null,
     "country": "CAN",
     "city": "Montréal",
     "province": "QC",
@@ -10651,7 +10586,7 @@
   {
     "legal_name": "Matrox Electronic Systems Ltd.",
     "trade_name": "Matrox",
-    "cage_code": "LDE28",
+    "cage_code": null,
     "country": "CAN",
     "city": "Dorval",
     "province": "QC",
@@ -10719,7 +10654,7 @@
   {
     "legal_name": "Genetec Inc.",
     "trade_name": "Genetec",
-    "cage_code": "LB7AF",
+    "cage_code": null,
     "country": "CAN",
     "city": "Saint-Laurent",
     "province": "QC",
@@ -10788,7 +10723,7 @@
   {
     "legal_name": "Korem Inc.",
     "trade_name": "Korem",
-    "cage_code": "L1F5C",
+    "cage_code": null,
     "country": "CAN",
     "city": "Québec",
     "province": "QC",
@@ -10852,7 +10787,7 @@
   {
     "legal_name": "LeddarTech Inc.",
     "trade_name": "LeddarTech",
-    "cage_code": "LCDE4",
+    "cage_code": null,
     "country": "CAN",
     "city": "Québec",
     "province": "QC",
@@ -10921,7 +10856,7 @@
   {
     "legal_name": "Vention Inc.",
     "trade_name": "Vention",
-    "cage_code": "L2A33",
+    "cage_code": null,
     "country": "CAN",
     "city": "Montréal",
     "province": "QC",
@@ -10986,7 +10921,7 @@
   {
     "legal_name": "Kinova Inc.",
     "trade_name": "Kinova",
-    "cage_code": "L8B87",
+    "cage_code": null,
     "country": "CAN",
     "city": "Boisbriand",
     "province": "QC",
@@ -11053,7 +10988,7 @@
   {
     "legal_name": "Robotiq Inc.",
     "trade_name": "Robotiq",
-    "cage_code": "L7918",
+    "cage_code": null,
     "country": "CAN",
     "city": "Lévis",
     "province": "QC",
@@ -11118,7 +11053,7 @@
   {
     "legal_name": "Eddyfi Technologies",
     "trade_name": "Eddyfi",
-    "cage_code": "L3C10",
+    "cage_code": null,
     "country": "CAN",
     "city": "Québec",
     "province": "QC",
@@ -11191,7 +11126,7 @@
   {
     "legal_name": "Novakem / Sika (Quebec)",
     "trade_name": "Sika Canada",
-    "cage_code": "L643B",
+    "cage_code": null,
     "country": "CAN",
     "city": "Pointe-Claire",
     "province": "QC",
@@ -11261,7 +11196,7 @@
   {
     "legal_name": "h2o Innovation Inc.",
     "trade_name": "H2O Innovation",
-    "cage_code": "L4EE0",
+    "cage_code": null,
     "country": "CAN",
     "city": "Québec",
     "province": "QC",
@@ -11327,7 +11262,7 @@
   {
     "legal_name": "Xebec / Ivys Adsorption",
     "trade_name": "Ivys Adsorption",
-    "cage_code": "L0A5C",
+    "cage_code": null,
     "country": "CAN",
     "city": "Blainville",
     "province": "QC",
@@ -11392,7 +11327,7 @@
   {
     "legal_name": "OPAL-RT Technologies Inc.",
     "trade_name": "OPAL-RT",
-    "cage_code": "L5100",
+    "cage_code": null,
     "country": "CAN",
     "city": "Montréal",
     "province": "QC",
@@ -11465,7 +11400,7 @@
   {
     "legal_name": "OSF Digital / Alithya Group Inc.",
     "trade_name": "Alithya",
-    "cage_code": "LFE9A",
+    "cage_code": null,
     "country": "CAN",
     "city": "Québec",
     "province": "QC",
@@ -11534,7 +11469,7 @@
   {
     "legal_name": "Aéro-Design / Sogeclair Aerospace Canada",
     "trade_name": "Sogeclair",
-    "cage_code": "LC3F2",
+    "cage_code": null,
     "country": "CAN",
     "city": "Montréal",
     "province": "QC",
@@ -11602,7 +11537,7 @@
   {
     "legal_name": "Exonetik Inc.",
     "trade_name": "Exonetik",
-    "cage_code": "LDBCE",
+    "cage_code": null,
     "country": "CAN",
     "city": "Sherbrooke",
     "province": "QC",
@@ -11671,7 +11606,7 @@
   {
     "legal_name": "Boreal Laser / Boson Photonics",
     "trade_name": "Boson Photonics",
-    "cage_code": "LEBFB",
+    "cage_code": null,
     "country": "CAN",
     "city": "Québec",
     "province": "QC",
@@ -11737,7 +11672,7 @@
   {
     "legal_name": "General Dynamics Mission Systems–Canada",
     "trade_name": "GDMS-Canada",
-    "cage_code": "L2922",
+    "cage_code": null,
     "country": "CAN",
     "city": "Ottawa",
     "province": "ON",
@@ -11844,7 +11779,7 @@
   {
     "legal_name": "Lockheed Martin Canada Inc.",
     "trade_name": "Lockheed Martin Canada",
-    "cage_code": "L058E",
+    "cage_code": null,
     "country": "CAN",
     "city": "Ottawa",
     "province": "ON",
@@ -11936,7 +11871,7 @@
   {
     "legal_name": "Calian Group Ltd.",
     "trade_name": "Calian",
-    "cage_code": "L1982",
+    "cage_code": null,
     "country": "CAN",
     "city": "Ottawa",
     "province": "ON",
@@ -12009,7 +11944,7 @@
   {
     "legal_name": "ADGA Group Consultants Inc.",
     "trade_name": "ADGA Group",
-    "cage_code": "LE765",
+    "cage_code": null,
     "country": "CAN",
     "city": "Ottawa",
     "province": "ON",
@@ -12080,7 +12015,7 @@
   {
     "legal_name": "DRS Technologies Canada Ltd.",
     "trade_name": "Leonardo DRS Canada",
-    "cage_code": "LA1BB",
+    "cage_code": null,
     "country": "CAN",
     "city": "Kanata",
     "province": "ON",
@@ -12156,7 +12091,7 @@
   {
     "legal_name": "Allen-Vanguard Corporation",
     "trade_name": "Allen-Vanguard",
-    "cage_code": "L8608",
+    "cage_code": null,
     "country": "CAN",
     "city": "Ottawa",
     "province": "ON",
@@ -12228,7 +12163,7 @@
   {
     "legal_name": "49North",
     "trade_name": "49North",
-    "cage_code": "L6C6E",
+    "cage_code": null,
     "country": "CAN",
     "city": "Ottawa",
     "province": "ON",
@@ -12298,7 +12233,7 @@
   {
     "legal_name": "QinetiQ Canada Ltd.",
     "trade_name": "QinetiQ Canada",
-    "cage_code": "L8F28",
+    "cage_code": null,
     "country": "CAN",
     "city": "Ottawa",
     "province": "ON",
@@ -12369,7 +12304,7 @@
   {
     "legal_name": "IBM Canada Defence and Intelligence Centre",
     "trade_name": "IBM Canada Defence",
-    "cage_code": "LDC40",
+    "cage_code": null,
     "country": "CAN",
     "city": "Ottawa",
     "province": "ON",
@@ -12436,7 +12371,7 @@
   {
     "legal_name": "Sphyrna Security Inc.",
     "trade_name": "Sphyrna Security",
-    "cage_code": "L82E7",
+    "cage_code": null,
     "country": "CAN",
     "city": "Ottawa",
     "province": "ON",
@@ -12503,7 +12438,7 @@
   {
     "legal_name": "Crypto4A Technologies Inc.",
     "trade_name": "Crypto4A",
-    "cage_code": "L9B7F",
+    "cage_code": null,
     "country": "CAN",
     "city": "Ottawa",
     "province": "ON",
@@ -12570,7 +12505,7 @@
   {
     "legal_name": "CCX Technologies Inc.",
     "trade_name": "CCX Technologies",
-    "cage_code": "LD130",
+    "cage_code": null,
     "country": "CAN",
     "city": "Ottawa",
     "province": "ON",
@@ -12642,7 +12577,7 @@
   {
     "legal_name": "Vectors Defence Inc.",
     "trade_name": "Vectors Defence",
-    "cage_code": "LA61C",
+    "cage_code": null,
     "country": "CAN",
     "city": "Ottawa",
     "province": "ON",
@@ -12709,7 +12644,7 @@
   {
     "legal_name": "Arnprior Aerospace Inc.",
     "trade_name": "Arnprior Aerospace",
-    "cage_code": "LF946",
+    "cage_code": null,
     "country": "CAN",
     "city": "Arnprior",
     "province": "ON",
@@ -12782,7 +12717,7 @@
   {
     "legal_name": "Telesat Canada",
     "trade_name": "Telesat",
-    "cage_code": "L91BF",
+    "cage_code": null,
     "country": "CAN",
     "city": "Ottawa",
     "province": "ON",
@@ -12851,7 +12786,7 @@
   {
     "legal_name": "C-COM Satellite Systems Inc.",
     "trade_name": "C-COM Satellite",
-    "cage_code": "LC29E",
+    "cage_code": null,
     "country": "CAN",
     "city": "Ottawa",
     "province": "ON",
@@ -12921,7 +12856,7 @@
   {
     "legal_name": "Mission Control Space Services Inc.",
     "trade_name": "Mission Control",
-    "cage_code": "L0B05",
+    "cage_code": null,
     "country": "CAN",
     "city": "Ottawa",
     "province": "ON",
@@ -12988,7 +12923,7 @@
   {
     "legal_name": "Robotics Centre Inc.",
     "trade_name": "Robotics Centre",
-    "cage_code": "LF462",
+    "cage_code": null,
     "country": "CAN",
     "city": "Kanata",
     "province": "ON",
@@ -13056,7 +12991,7 @@
   {
     "legal_name": "Dominion Dynamics Inc.",
     "trade_name": "Dominion Dynamics",
-    "cage_code": "LF5E4",
+    "cage_code": null,
     "country": "CAN",
     "city": "Ottawa",
     "province": "ON",
@@ -13123,7 +13058,7 @@
   {
     "legal_name": "AirShare Inc.",
     "trade_name": "AirShare",
-    "cage_code": "L5B17",
+    "cage_code": null,
     "country": "CAN",
     "city": "Ottawa",
     "province": "ON",
@@ -13190,7 +13125,7 @@
   {
     "legal_name": "Tron Motors Inc.",
     "trade_name": "Tron Motors",
-    "cage_code": "L5E11",
+    "cage_code": null,
     "country": "CAN",
     "city": "Ottawa",
     "province": "ON",
@@ -13257,7 +13192,7 @@
   {
     "legal_name": "MHI Canada Aerospace, Inc.",
     "trade_name": "MHICA",
-    "cage_code": "L00DF",
+    "cage_code": null,
     "country": "CAN",
     "city": "Mississauga",
     "province": "ON",
@@ -13325,7 +13260,7 @@
   {
     "legal_name": "Magellan Aerospace Corporation",
     "trade_name": "Magellan Aerospace",
-    "cage_code": "L2391",
+    "cage_code": null,
     "country": "CAN",
     "city": "Mississauga",
     "province": "ON",
@@ -13405,7 +13340,7 @@
   {
     "legal_name": "Collins Aerospace (Goodrich Aerospace Canada)",
     "trade_name": "Collins Aerospace",
-    "cage_code": "LA2C8",
+    "cage_code": null,
     "country": "CAN",
     "city": "Oakville",
     "province": "ON",
@@ -13480,7 +13415,7 @@
   {
     "legal_name": "Pratt & Whitney Canada Corp. (Mississauga Operations)",
     "trade_name": "Pratt & Whitney Canada",
-    "cage_code": "L3B67",
+    "cage_code": null,
     "country": "CAN",
     "city": "Mississauga",
     "province": "ON",
@@ -13552,7 +13487,7 @@
   {
     "legal_name": "Honeywell Aerospace Canada",
     "trade_name": "Honeywell Aerospace",
-    "cage_code": "L25F4",
+    "cage_code": null,
     "country": "CAN",
     "city": "Mississauga",
     "province": "ON",
@@ -13629,7 +13564,7 @@
   {
     "legal_name": "Firan Technology Group Corporation",
     "trade_name": "FTG",
-    "cage_code": "LB659",
+    "cage_code": null,
     "country": "CAN",
     "city": "Toronto",
     "province": "ON",
@@ -13705,7 +13640,7 @@
   {
     "legal_name": "De Havilland Aircraft of Canada Limited",
     "trade_name": "De Havilland Canada",
-    "cage_code": "L87A4",
+    "cage_code": null,
     "country": "CAN",
     "city": "Toronto",
     "province": "ON",
@@ -13774,7 +13709,7 @@
   {
     "legal_name": "Mubea Cyclone Manufacturing",
     "trade_name": "Mubea Cyclone",
-    "cage_code": "L76E0",
+    "cage_code": null,
     "country": "CAN",
     "city": "Mississauga",
     "province": "ON",
@@ -13847,7 +13782,7 @@
   {
     "legal_name": "Aviya Aerospace Systems Inc.",
     "trade_name": "Aviya Aerospace",
-    "cage_code": "L1A6A",
+    "cage_code": null,
     "country": "CAN",
     "city": "Mississauga",
     "province": "ON",
@@ -13918,7 +13853,7 @@
   {
     "legal_name": "Aversan Inc.",
     "trade_name": "Aversan",
-    "cage_code": "L31F4",
+    "cage_code": null,
     "country": "CAN",
     "city": "Mississauga",
     "province": "ON",
@@ -13989,7 +13924,7 @@
   {
     "legal_name": "Exactatherm Ltd.",
     "trade_name": "Exactatherm",
-    "cage_code": "LB800",
+    "cage_code": null,
     "country": "CAN",
     "city": "Mississauga",
     "province": "ON",
@@ -14059,7 +13994,7 @@
   {
     "legal_name": "Avocet Aerospace Inc.",
     "trade_name": "Avocet Aerospace",
-    "cage_code": "L34F3",
+    "cage_code": null,
     "country": "CAN",
     "city": "Brampton",
     "province": "ON",
@@ -14125,7 +14060,7 @@
   {
     "legal_name": "Roshel Inc.",
     "trade_name": "Roshel Smart Armored Vehicles",
-    "cage_code": "L2C8D",
+    "cage_code": null,
     "country": "CAN",
     "city": "Brampton",
     "province": "ON",
@@ -14193,7 +14128,7 @@
   {
     "legal_name": "Burloak Technologies",
     "trade_name": "Burloak Technologies",
-    "cage_code": "L2949",
+    "cage_code": null,
     "country": "CAN",
     "city": "Oakville",
     "province": "ON",
@@ -14267,7 +14202,7 @@
   {
     "legal_name": "PV Labs Inc.",
     "trade_name": "PV Labs",
-    "cage_code": "LEB48",
+    "cage_code": null,
     "country": "CAN",
     "city": "Burlington",
     "province": "ON",
@@ -14339,7 +14274,7 @@
   {
     "legal_name": "L3Harris Technologies (WESCAM)",
     "trade_name": "L3Harris WESCAM",
-    "cage_code": "L59F7",
+    "cage_code": null,
     "country": "CAN",
     "city": "Waterdown",
     "province": "ON",
@@ -14418,7 +14353,7 @@
   {
     "legal_name": "Kepler Communications Inc.",
     "trade_name": "Kepler Communications",
-    "cage_code": "L60A3",
+    "cage_code": null,
     "country": "CAN",
     "city": "Toronto",
     "province": "ON",
@@ -14486,7 +14421,7 @@
   {
     "legal_name": "Canadensys Aerospace Corporation",
     "trade_name": "Canadensys Aerospace",
-    "cage_code": "L30A4",
+    "cage_code": null,
     "country": "CAN",
     "city": "Bolton",
     "province": "ON",
@@ -14554,7 +14489,7 @@
   {
     "legal_name": "Matrix Technology Ltd.",
     "trade_name": "Matrix Technology",
-    "cage_code": "L313E",
+    "cage_code": null,
     "country": "CAN",
     "city": "Markham",
     "province": "ON",
@@ -14623,7 +14558,7 @@
   {
     "legal_name": "Aerocom Inspection Service Ltd.",
     "trade_name": "Aerocom Inspection",
-    "cage_code": "L5E2E",
+    "cage_code": null,
     "country": "CAN",
     "city": "Mississauga",
     "province": "ON",
@@ -14695,7 +14630,7 @@
   {
     "legal_name": "Airbus Helicopters Canada Limited",
     "trade_name": "Airbus Helicopters Canada",
-    "cage_code": "L6900",
+    "cage_code": null,
     "country": "CAN",
     "city": "Fort Erie",
     "province": "ON",
@@ -14766,7 +14701,7 @@
   {
     "legal_name": "General Dynamics Land Systems–Canada",
     "trade_name": "GDLS-Canada",
-    "cage_code": "L3925",
+    "cage_code": null,
     "country": "CAN",
     "city": "London",
     "province": "ON",
@@ -14840,7 +14775,7 @@
   {
     "legal_name": "Diamond Aircraft Industries Inc.",
     "trade_name": "Diamond Aircraft",
-    "cage_code": "LB738",
+    "cage_code": null,
     "country": "CAN",
     "city": "London",
     "province": "ON",
@@ -14909,7 +14844,7 @@
   {
     "legal_name": "Armatec Survivability",
     "trade_name": "Armatec Survivability",
-    "cage_code": "LE739",
+    "cage_code": null,
     "country": "CAN",
     "city": "London",
     "province": "ON",
@@ -14977,7 +14912,7 @@
   {
     "legal_name": "NP Aerospace (Canada) Ltd.",
     "trade_name": "NP Aerospace",
-    "cage_code": "LDF78",
+    "cage_code": null,
     "country": "CAN",
     "city": "London",
     "province": "ON",
@@ -15045,7 +14980,7 @@
   {
     "legal_name": "Militex Coatings Inc.",
     "trade_name": "Militex Coatings",
-    "cage_code": "L2269",
+    "cage_code": null,
     "country": "CAN",
     "city": "London",
     "province": "ON",
@@ -15113,7 +15048,7 @@
   {
     "legal_name": "Teledyne FLIR Defence (Waterloo)",
     "trade_name": "Teledyne FLIR",
-    "cage_code": "L06BA",
+    "cage_code": null,
     "country": "CAN",
     "city": "Waterloo",
     "province": "ON",
@@ -15185,7 +15120,7 @@
   {
     "legal_name": "Schaeffler Aerospace Canada Inc.",
     "trade_name": "Schaeffler Aerospace",
-    "cage_code": "LF200",
+    "cage_code": null,
     "country": "CAN",
     "city": "Stratford",
     "province": "ON",
@@ -15258,7 +15193,7 @@
   {
     "legal_name": "Spire Global Canada (exactEarth)",
     "trade_name": "Spire Global / exactEarth",
-    "cage_code": "L514D",
+    "cage_code": null,
     "country": "CAN",
     "city": "Cambridge",
     "province": "ON",
@@ -15327,7 +15262,7 @@
   {
     "legal_name": "Uncrewed Systems Inc.",
     "trade_name": "Uncrewed Systems Inc.",
-    "cage_code": "L0B95",
+    "cage_code": null,
     "country": "CAN",
     "city": "Kitchener",
     "province": "ON",
@@ -15394,7 +15329,7 @@
   {
     "legal_name": "Voyageur Aviation Corp.",
     "trade_name": "Voyageur Aviation",
-    "cage_code": "L7496",
+    "cage_code": null,
     "country": "CAN",
     "city": "North Bay",
     "province": "ON",
@@ -15464,7 +15399,7 @@
   {
     "legal_name": "International Test Pilots School (ITPS) Canada",
     "trade_name": "ITPS Canada",
-    "cage_code": "L789A",
+    "cage_code": null,
     "country": "CAN",
     "city": "London",
     "province": "ON",
@@ -15498,28 +15433,19 @@
         "kic": "KIC_TrainingSimulation"
       }
     ],
-    "products": [
-      {
-        "name": "Flight Test & Tactical Training Curriculum",
-        "description": "Live-fly test pilot and aggressor tactical training programs.",
-        "part_number": "ITPS-TRN-01",
-        "fsc_code": "6910",
-        "nsn_code": null,
-        "platforms": [
-          "Platform_FixedWingCombat",
-          "Platform_RotaryWing"
-        ],
-        "materials": [
-          "Material_Titanium_Ti6Al4V"
-        ]
-      }
-    ],
+    "products": [],
     "services": [
       {
         "name": "Flight Test & Tactical Pilot Training",
         "description": "Military flight test instruction and international fighter pilot training.",
         "type": "SimulationTrainingService",
         "accreditation": "AS9100D"
+      },
+      {
+        "name": "Flight Test & Tactical Training Curriculum",
+        "description": "Live-fly test pilot and aggressor tactical training programs.",
+        "type": "EngineeringService",
+        "accreditation": "ISO 9001"
       }
     ],
     "parent_company": null,
@@ -15534,7 +15460,7 @@
   {
     "legal_name": "Ontario Shipyards Inc.",
     "trade_name": "Ontario Shipyards",
-    "cage_code": "LE25A",
+    "cage_code": null,
     "country": "CAN",
     "city": "St. Catharines",
     "province": "ON",
@@ -15602,7 +15528,7 @@
   {
     "legal_name": "Springer Aerospace",
     "trade_name": "Springer Aerospace",
-    "cage_code": "LA60B",
+    "cage_code": null,
     "country": "CAN",
     "city": "Bar River",
     "province": "ON",
@@ -15668,7 +15594,7 @@
   {
     "legal_name": "Fairbanks Morse Defense Canada",
     "trade_name": "Fairbanks Morse Defense",
-    "cage_code": "L365C",
+    "cage_code": null,
     "country": "CAN",
     "city": "Peterborough",
     "province": "ON",
@@ -15738,7 +15664,7 @@
   {
     "legal_name": "ACF Associates Inc.",
     "trade_name": "ACF Associates",
-    "cage_code": "L6E05",
+    "cage_code": null,
     "country": "CAN",
     "city": "Peterborough",
     "province": "ON",
@@ -15807,7 +15733,7 @@
   {
     "legal_name": "Brotech Precision CNC",
     "trade_name": "Brotech Precision",
-    "cage_code": "L7664",
+    "cage_code": null,
     "country": "CAN",
     "city": "Barrie",
     "province": "ON",
@@ -15877,7 +15803,7 @@
   {
     "legal_name": "Héroux-Devtek Inc. (Cambridge/Kitchener)",
     "trade_name": "Héroux-Devtek",
-    "cage_code": "L9D6A",
+    "cage_code": null,
     "country": "CAN",
     "city": "Cambridge",
     "province": "ON",
@@ -15946,7 +15872,7 @@
   {
     "legal_name": "Centra Industries Inc.",
     "trade_name": "Centra Industries",
-    "cage_code": "L03AE",
+    "cage_code": null,
     "country": "CAN",
     "city": "Cambridge",
     "province": "ON",
@@ -16014,7 +15940,7 @@
   {
     "legal_name": "Northstar Aerospace (Canada) Inc.",
     "trade_name": "Northstar Aerospace",
-    "cage_code": "LB3CF",
+    "cage_code": null,
     "country": "CAN",
     "city": "Milton",
     "province": "ON",
@@ -16084,7 +16010,7 @@
   {
     "legal_name": "IMP Aerospace & Defence (Trenton)",
     "trade_name": "IMP Aerospace & Defence",
-    "cage_code": "LAE10",
+    "cage_code": null,
     "country": "CAN",
     "city": "Trenton",
     "province": "ON",
@@ -16151,7 +16077,7 @@
   {
     "legal_name": "Cascade Aerospace Inc. (Trenton)",
     "trade_name": "Cascade Aerospace",
-    "cage_code": "LFBAE",
+    "cage_code": null,
     "country": "CAN",
     "city": "Trenton",
     "province": "ON",
@@ -16218,7 +16144,7 @@
   {
     "legal_name": "BAE Systems Canada",
     "trade_name": "BAE Systems",
-    "cage_code": "L1136",
+    "cage_code": null,
     "country": "CAN",
     "city": "Ottawa",
     "province": "ON",
@@ -16286,7 +16212,7 @@
   {
     "legal_name": "Northrop Grumman Canada",
     "trade_name": "Northrop Grumman",
-    "cage_code": "L7892",
+    "cage_code": null,
     "country": "CAN",
     "city": "Ottawa",
     "province": "ON",
@@ -16355,7 +16281,7 @@
   {
     "legal_name": "Saab Canada Inc.",
     "trade_name": "Saab Canada",
-    "cage_code": "LF124",
+    "cage_code": null,
     "country": "CAN",
     "city": "Ottawa",
     "province": "ON",
@@ -16457,7 +16383,7 @@
   {
     "legal_name": "Kongsberg Defence Canada",
     "trade_name": "Kongsberg Defence",
-    "cage_code": "L579D",
+    "cage_code": null,
     "country": "CAN",
     "city": "Ottawa",
     "province": "ON",
@@ -16525,7 +16451,7 @@
   {
     "legal_name": "MBDA Canada",
     "trade_name": "MBDA",
-    "cage_code": "LCEF7",
+    "cage_code": null,
     "country": "CAN",
     "city": "Ottawa",
     "province": "ON",
@@ -16592,7 +16518,7 @@
   {
     "legal_name": "Raytheon Canada Limited (Ottawa)",
     "trade_name": "Raytheon Canada",
-    "cage_code": "LC3B4",
+    "cage_code": null,
     "country": "CAN",
     "city": "Ottawa",
     "province": "ON",
@@ -16727,7 +16653,7 @@
   {
     "legal_name": "Curtiss-Wright Defense Solutions (Ottawa)",
     "trade_name": "Curtiss-Wright",
-    "cage_code": "LD10F",
+    "cage_code": null,
     "country": "CAN",
     "city": "Ottawa",
     "province": "ON",
@@ -16797,7 +16723,7 @@
   {
     "legal_name": "Gastops Ltd.",
     "trade_name": "Gastops",
-    "cage_code": "LEC84",
+    "cage_code": null,
     "country": "CAN",
     "city": "Ottawa",
     "province": "ON",
@@ -16867,7 +16793,7 @@
   {
     "legal_name": "Babcock Canada Inc.",
     "trade_name": "Babcock Canada",
-    "cage_code": "LEB61",
+    "cage_code": null,
     "country": "CAN",
     "city": "Ottawa",
     "province": "ON",
@@ -16968,7 +16894,7 @@
   {
     "legal_name": "Serco Canada Inc.",
     "trade_name": "Serco Canada",
-    "cage_code": "LA9D2",
+    "cage_code": null,
     "country": "CAN",
     "city": "Ottawa",
     "province": "ON",
@@ -17035,7 +16961,7 @@
   {
     "legal_name": "Dew Engineering and Development ULC",
     "trade_name": "Dew Engineering",
-    "cage_code": "L7BA8",
+    "cage_code": null,
     "country": "CAN",
     "city": "Ottawa",
     "province": "ON",
@@ -17103,7 +17029,7 @@
   {
     "legal_name": "Inkas Armored Vehicle Manufacturing",
     "trade_name": "INKAS",
-    "cage_code": "LA599",
+    "cage_code": null,
     "country": "CAN",
     "city": "Toronto",
     "province": "ON",
@@ -17171,7 +17097,7 @@
   {
     "legal_name": "Terradyne Armored Vehicles Inc.",
     "trade_name": "Terradyne",
-    "cage_code": "LC421",
+    "cage_code": null,
     "country": "CAN",
     "city": "Newmarket",
     "province": "ON",
@@ -17238,7 +17164,7 @@
   {
     "legal_name": "Shimco",
     "trade_name": "Shimco",
-    "cage_code": "L6AB7",
+    "cage_code": null,
     "country": "CAN",
     "city": "Markham",
     "province": "ON",
@@ -17307,7 +17233,7 @@
   {
     "legal_name": "Kamatics Canada (Kaman)",
     "trade_name": "Kamatics",
-    "cage_code": "LE7D5",
+    "cage_code": null,
     "country": "CAN",
     "city": "Mississauga",
     "province": "ON",
@@ -17375,7 +17301,7 @@
   {
     "legal_name": "Eaton Aerospace (Mississauga)",
     "trade_name": "Eaton Aerospace",
-    "cage_code": "LE1E0",
+    "cage_code": null,
     "country": "CAN",
     "city": "Mississauga",
     "province": "ON",
@@ -17442,7 +17368,7 @@
   {
     "legal_name": "Parker Hannifin Canada (Milton)",
     "trade_name": "Parker Aerospace",
-    "cage_code": "L2AD0",
+    "cage_code": null,
     "country": "CAN",
     "city": "Milton",
     "province": "ON",
@@ -17510,7 +17436,7 @@
   {
     "legal_name": "Meggitt (Canada) Inc. / Parker Meggitt",
     "trade_name": "Parker Meggitt",
-    "cage_code": "LB590",
+    "cage_code": null,
     "country": "CAN",
     "city": "Rockland",
     "province": "ON",
@@ -17577,7 +17503,7 @@
   {
     "legal_name": "Precision Castparts Corp. (PCC) Canada",
     "trade_name": "PCC Aerostructures",
-    "cage_code": "LF185",
+    "cage_code": null,
     "country": "CAN",
     "city": "Cambridge",
     "province": "ON",
@@ -17645,7 +17571,7 @@
   {
     "legal_name": "Liburdi Turbine Services",
     "trade_name": "Liburdi",
-    "cage_code": "LA564",
+    "cage_code": null,
     "country": "CAN",
     "city": "Dundas",
     "province": "ON",
@@ -17713,7 +17639,7 @@
   {
     "legal_name": "B&W Precision Manufacturing",
     "trade_name": "B&W Precision",
-    "cage_code": "LFC6E",
+    "cage_code": null,
     "country": "CAN",
     "city": "Mississauga",
     "province": "ON",
@@ -17780,7 +17706,7 @@
   {
     "legal_name": "Apex Aerospace Inc.",
     "trade_name": "Apex Aerospace",
-    "cage_code": "LDA45",
+    "cage_code": null,
     "country": "CAN",
     "city": "Mississauga",
     "province": "ON",
@@ -17846,7 +17772,7 @@
   {
     "legal_name": "Cadorath Aerospace",
     "trade_name": "Cadorath",
-    "cage_code": "LF435",
+    "cage_code": null,
     "country": "CAN",
     "city": "Mississauga",
     "province": "ON",
@@ -17914,7 +17840,7 @@
   {
     "legal_name": "K-Tork / Rotork Canada",
     "trade_name": "Rotork",
-    "cage_code": "L9C22",
+    "cage_code": null,
     "country": "CAN",
     "city": "Mississauga",
     "province": "ON",
@@ -17982,7 +17908,7 @@
   {
     "legal_name": "Pegasus Industrial Specialties",
     "trade_name": "Pegasus Industrial",
-    "cage_code": "LD302",
+    "cage_code": null,
     "country": "CAN",
     "city": "Cambridge",
     "province": "ON",
@@ -18049,7 +17975,7 @@
   {
     "legal_name": "ABRO Manufacturing Inc.",
     "trade_name": "ABRO Manufacturing",
-    "cage_code": "L4A99",
+    "cage_code": null,
     "country": "CAN",
     "city": "Kitchener",
     "province": "ON",
@@ -18116,7 +18042,7 @@
   {
     "legal_name": "Macfab Manufacturing Inc.",
     "trade_name": "Macfab",
-    "cage_code": "L4EFD",
+    "cage_code": null,
     "country": "CAN",
     "city": "Toronto",
     "province": "ON",
@@ -18185,7 +18111,7 @@
   {
     "legal_name": "Iso-Lux Manufacturing Co. Ltd.",
     "trade_name": "Iso-Lux",
-    "cage_code": "L7822",
+    "cage_code": null,
     "country": "CAN",
     "city": "Markham",
     "province": "ON",
@@ -18252,7 +18178,7 @@
   {
     "legal_name": "Promark Tool & Manufacturing",
     "trade_name": "Promark",
-    "cage_code": "L0028",
+    "cage_code": null,
     "country": "CAN",
     "city": "Mississauga",
     "province": "ON",
@@ -18320,7 +18246,7 @@
   {
     "legal_name": "Leancore Manufacturing",
     "trade_name": "Leancore",
-    "cage_code": "LC7D9",
+    "cage_code": null,
     "country": "CAN",
     "city": "Oakville",
     "province": "ON",
@@ -18387,7 +18313,7 @@
   {
     "legal_name": "Kongsberg Geospatial",
     "trade_name": "Kongsberg Geospatial",
-    "cage_code": "LB9C8",
+    "cage_code": null,
     "country": "CAN",
     "city": "Ottawa",
     "province": "ON",
@@ -18457,7 +18383,7 @@
   {
     "legal_name": "Bluedrop Training & Simulation (Ottawa)",
     "trade_name": "Bluedrop",
-    "cage_code": "L491A",
+    "cage_code": null,
     "country": "CAN",
     "city": "Ottawa",
     "province": "ON",
@@ -18524,7 +18450,7 @@
   {
     "legal_name": "CAE Inc. (Ottawa Defence & Security)",
     "trade_name": "CAE",
-    "cage_code": "L6637",
+    "cage_code": null,
     "country": "CAN",
     "city": "Ottawa",
     "province": "ON",
@@ -18591,7 +18517,7 @@
   {
     "legal_name": "Top Aces Inc. (Ottawa)",
     "trade_name": "Top Aces",
-    "cage_code": "L3DDE",
+    "cage_code": null,
     "country": "CAN",
     "city": "Ottawa",
     "province": "ON",
@@ -18659,7 +18585,7 @@
   {
     "legal_name": "Discovery Air Defence Services",
     "trade_name": "Discovery Air",
-    "cage_code": "L053D",
+    "cage_code": null,
     "country": "CAN",
     "city": "Ottawa",
     "province": "ON",
@@ -18691,28 +18617,19 @@
         "kic": "KIC_TrainingSimulation"
       }
     ],
-    "products": [
-      {
-        "name": "Adversary Air JTAC Close Air Support Airborne Training Package",
-        "description": "Turnkey tactical adversary aircraft sorties supporting joint terminal attack controller (JTAC) training and radar intercept.",
-        "part_number": "PN-DAD-JTAC-SRV",
-        "fsc_code": "6930",
-        "nsn_code": "6930-20-044-6632",
-        "platforms": [
-          "Platform_FixedWingCombat",
-          "Platform_SimulationTrainingSystem"
-        ],
-        "materials": [
-          "Material_CarbonFiber_Composite"
-        ]
-      }
-    ],
+    "products": [],
     "services": [
       {
         "name": "Discovery Air Engineering & Support",
         "description": "Technical engineering, manufacturing, or sustainment services in Ottawa, ON.",
         "type": "EngineeringService",
         "accreditation": "AS9100D"
+      },
+      {
+        "name": "Adversary Air JTAC Close Air Support Airborne Training Package",
+        "description": "Turnkey tactical adversary aircraft sorties supporting joint terminal attack controller (JTAC) training and radar intercept.",
+        "type": "EngineeringService",
+        "accreditation": "ISO 9001"
       }
     ],
     "parent_company": null,
@@ -18726,7 +18643,7 @@
   {
     "legal_name": "Field Aviation Company Inc.",
     "trade_name": "Field Aviation",
-    "cage_code": "LDD43",
+    "cage_code": null,
     "country": "CAN",
     "city": "Mississauga",
     "province": "ON",
@@ -18796,7 +18713,7 @@
   {
     "legal_name": "Flying Colours Corp.",
     "trade_name": "Flying Colours",
-    "cage_code": "L2108",
+    "cage_code": null,
     "country": "CAN",
     "city": "Peterborough",
     "province": "ON",
@@ -18863,7 +18780,7 @@
   {
     "legal_name": "The Loomex Group",
     "trade_name": "Loomex",
-    "cage_code": "LF7E3",
+    "cage_code": null,
     "country": "CAN",
     "city": "Peterborough",
     "province": "ON",
@@ -18929,7 +18846,7 @@
   {
     "legal_name": "SKADI Cyber Defense Corporation",
     "trade_name": "SKADI Cyber",
-    "cage_code": "LF524",
+    "cage_code": null,
     "country": "CAN",
     "city": "North Bay",
     "province": "ON",
@@ -18995,7 +18912,7 @@
   {
     "legal_name": "Ucore Rare Metals Inc.",
     "trade_name": "Ucore",
-    "cage_code": "LE768",
+    "cage_code": null,
     "country": "CAN",
     "city": "Kingston",
     "province": "ON",
@@ -19061,7 +18978,7 @@
   {
     "legal_name": "Parsons Corporation (Kingston)",
     "trade_name": "Parsons",
-    "cage_code": "LD37C",
+    "cage_code": null,
     "country": "CAN",
     "city": "Kingston",
     "province": "ON",
@@ -19129,7 +19046,7 @@
   {
     "legal_name": "AOG Heliservices Inc.",
     "trade_name": "AOG Heliservices",
-    "cage_code": "LB956",
+    "cage_code": null,
     "country": "CAN",
     "city": "Kingston",
     "province": "ON",
@@ -19195,7 +19112,7 @@
   {
     "legal_name": "Algoma Steel Inc.",
     "trade_name": "Algoma Steel",
-    "cage_code": "L691E",
+    "cage_code": null,
     "country": "CAN",
     "city": "Sault Ste. Marie",
     "province": "ON",
@@ -19264,7 +19181,7 @@
   {
     "legal_name": "Humphrey Aircraft Services",
     "trade_name": "Humphrey Aircraft",
-    "cage_code": "L80A8",
+    "cage_code": null,
     "country": "CAN",
     "city": "Sault Ste. Marie",
     "province": "ON",
@@ -19330,7 +19247,7 @@
   {
     "legal_name": "Canada Rocket Company",
     "trade_name": "Canada Rocket Co",
-    "cage_code": "LEEEA",
+    "cage_code": null,
     "country": "CAN",
     "city": "Toronto",
     "province": "ON",
@@ -19398,7 +19315,7 @@
   {
     "legal_name": "Canadian Space Mining Corporation",
     "trade_name": "CSMC",
-    "cage_code": "L5F20",
+    "cage_code": null,
     "country": "CAN",
     "city": "Toronto",
     "province": "ON",
@@ -19466,7 +19383,7 @@
   {
     "legal_name": "Orbuta Space Solutions",
     "trade_name": "Orbuta",
-    "cage_code": "L4145",
+    "cage_code": null,
     "country": "CAN",
     "city": "Ottawa",
     "province": "ON",
@@ -19535,7 +19452,7 @@
   {
     "legal_name": "Microsat Systems Canada Inc. (MSCI)",
     "trade_name": "MSCI",
-    "cage_code": "L1809",
+    "cage_code": null,
     "country": "CAN",
     "city": "Mississauga",
     "province": "ON",
@@ -19603,7 +19520,7 @@
   {
     "legal_name": "Defence Intelligence",
     "trade_name": "Defence Intelligence",
-    "cage_code": "LACAC",
+    "cage_code": null,
     "country": "CAN",
     "city": "Ottawa",
     "province": "ON",
@@ -19669,7 +19586,7 @@
   {
     "legal_name": "AML Crating Inc.",
     "trade_name": "AML Crating",
-    "cage_code": "L7952",
+    "cage_code": null,
     "country": "CAN",
     "city": "Ottawa",
     "province": "ON",
@@ -19735,7 +19652,7 @@
   {
     "legal_name": "MCC Inc.",
     "trade_name": "MCC Inc.",
-    "cage_code": "L5436",
+    "cage_code": null,
     "country": "CAN",
     "city": "Mississauga",
     "province": "ON",
@@ -19801,7 +19718,7 @@
   {
     "legal_name": "BSC Solutions Group",
     "trade_name": "BSC Solutions",
-    "cage_code": "L28E3",
+    "cage_code": null,
     "country": "CAN",
     "city": "Toronto",
     "province": "ON",
@@ -19866,7 +19783,7 @@
   {
     "legal_name": "F12.net Inc.",
     "trade_name": "F12.net",
-    "cage_code": "L4C84",
+    "cage_code": null,
     "country": "CAN",
     "city": "Toronto",
     "province": "ON",
@@ -19931,7 +19848,7 @@
   {
     "legal_name": "The Sky Guys Inc.",
     "trade_name": "The Sky Guys",
-    "cage_code": "LC98F",
+    "cage_code": null,
     "country": "CAN",
     "city": "Oakville",
     "province": "ON",
@@ -19998,7 +19915,7 @@
   {
     "legal_name": "Aeryon Labs Inc.",
     "trade_name": "Aeryon Labs",
-    "cage_code": "L2F0E",
+    "cage_code": null,
     "country": "CAN",
     "city": "Waterloo",
     "province": "ON",
@@ -20064,7 +19981,7 @@
   {
     "legal_name": "Altivion Technologies",
     "trade_name": "Altivion",
-    "cage_code": "LB97B",
+    "cage_code": null,
     "country": "CAN",
     "city": "Toronto",
     "province": "ON",
@@ -20131,7 +20048,7 @@
   {
     "legal_name": "Avcorp Industries Inc.",
     "trade_name": "Avcorp Industries",
-    "cage_code": "37798",
+    "cage_code": null,
     "country": "CAN",
     "city": "Delta",
     "province": "BC",
@@ -20207,7 +20124,7 @@
   {
     "legal_name": "Cascade Aerospace Inc.",
     "trade_name": "Cascade Aerospace",
-    "cage_code": "38224",
+    "cage_code": null,
     "country": "CAN",
     "city": "Abbotsford",
     "province": "BC",
@@ -20278,7 +20195,7 @@
   {
     "legal_name": "KF Aerospace",
     "trade_name": "KF Aerospace",
-    "cage_code": "39922",
+    "cage_code": null,
     "country": "CAN",
     "city": "Kelowna",
     "province": "BC",
@@ -20349,7 +20266,7 @@
   {
     "legal_name": "SEASPAN Shipyards (Vancouver Shipyards Co. Ltd.)",
     "trade_name": "Seaspan Shipyards",
-    "cage_code": "38481",
+    "cage_code": null,
     "country": "CAN",
     "city": "North Vancouver",
     "province": "BC",
@@ -20418,7 +20335,7 @@
   {
     "legal_name": "UrtheCast Corp.",
     "trade_name": "UrtheCast",
-    "cage_code": "L0DF9",
+    "cage_code": null,
     "country": "CAN",
     "city": "Vancouver",
     "province": "BC",
@@ -20486,7 +20403,7 @@
   {
     "legal_name": "Viking Air Limited",
     "trade_name": "De Havilland Canada (Viking Air)",
-    "cage_code": "38847",
+    "cage_code": null,
     "country": "CAN",
     "city": "North Saanich",
     "province": "BC",
@@ -20557,7 +20474,7 @@
   {
     "legal_name": "Ascent Systems Technologies Inc.",
     "trade_name": "Ascent Systems Technologies",
-    "cage_code": "L0CY8",
+    "cage_code": null,
     "country": "CAN",
     "city": "Vancouver",
     "province": "BC",
@@ -20626,7 +20543,7 @@
   {
     "legal_name": "Pacific Safety Products Inc.",
     "trade_name": "Med-Eng (PSP Division)",
-    "cage_code": "3AC52",
+    "cage_code": null,
     "country": "CAN",
     "city": "Kelowna",
     "province": "BC",
@@ -20695,7 +20612,7 @@
   {
     "legal_name": "Barnett-Marsden Inc.",
     "trade_name": "BMI Aerospace",
-    "cage_code": "L0BL2",
+    "cage_code": null,
     "country": "CAN",
     "city": "Richmond",
     "province": "BC",
@@ -20766,7 +20683,7 @@
   {
     "legal_name": "Cellula Robotics Ltd.",
     "trade_name": "Cellula Robotics",
-    "cage_code": "L04E8",
+    "cage_code": null,
     "country": "CAN",
     "city": "Burnaby",
     "province": "BC",
@@ -20837,7 +20754,7 @@
   {
     "legal_name": "Analytical Systems Wear Technologies Inc.",
     "trade_name": "Analytic Systems",
-    "cage_code": "3BA85",
+    "cage_code": null,
     "country": "CAN",
     "city": "Delta",
     "province": "BC",
@@ -20910,7 +20827,7 @@
   {
     "legal_name": "Kobelt Manufacturing Co. Ltd.",
     "trade_name": "Kobelt Manufacturing",
-    "cage_code": "37713",
+    "cage_code": null,
     "country": "CAN",
     "city": "Surrey",
     "province": "BC",
@@ -20976,7 +20893,7 @@
   {
     "legal_name": "NovAtel Inc.",
     "trade_name": "Hexagon Autonomy & Positioning (NovAtel)",
-    "cage_code": "L0484",
+    "cage_code": null,
     "country": "CAN",
     "city": "Calgary",
     "province": "AB",
@@ -21052,7 +20969,7 @@
   {
     "legal_name": "Canadian Commercial Corporation (Field Aviation / AVMAX)",
     "trade_name": "Avmax Group Inc.",
-    "cage_code": "L0342",
+    "cage_code": null,
     "country": "CAN",
     "city": "Calgary",
     "province": "AB",
@@ -21122,7 +21039,7 @@
   {
     "legal_name": "Blackline Safety Corp.",
     "trade_name": "Blackline Safety",
-    "cage_code": "L0B74",
+    "cage_code": null,
     "country": "CAN",
     "city": "Calgary",
     "province": "AB",
@@ -21190,7 +21107,7 @@
   {
     "legal_name": "Gemini Machine Works Ltd.",
     "trade_name": "Gemini Machine Works",
-    "cage_code": "3BC81",
+    "cage_code": null,
     "country": "CAN",
     "city": "Edmonton",
     "province": "AB",
@@ -21258,7 +21175,7 @@
   {
     "legal_name": "AltaML Inc.",
     "trade_name": "AltaML",
-    "cage_code": "L0E18",
+    "cage_code": null,
     "country": "CAN",
     "city": "Edmonton",
     "province": "AB",
@@ -21327,7 +21244,7 @@
   {
     "legal_name": "Boeing Canada Operations Ltd. (Winnipeg Division)",
     "trade_name": "Boeing Canada Winnipeg",
-    "cage_code": "37785",
+    "cage_code": null,
     "country": "CAN",
     "city": "Winnipeg",
     "province": "MB",
@@ -21431,7 +21348,7 @@
   {
     "legal_name": "Magellan Aerospace, Winnipeg",
     "trade_name": "Magellan Aerospace",
-    "cage_code": "37781",
+    "cage_code": null,
     "country": "CAN",
     "city": "Winnipeg",
     "province": "MB",
@@ -21509,7 +21426,7 @@
   {
     "legal_name": "Cormer Aerospace",
     "trade_name": "Cormer Aerospace",
-    "cage_code": "L0219",
+    "cage_code": null,
     "country": "CAN",
     "city": "Winnipeg",
     "province": "MB",
@@ -21583,7 +21500,7 @@
   {
     "legal_name": "Precision ADM Inc.",
     "trade_name": "Precision ADM",
-    "cage_code": "L0E45",
+    "cage_code": null,
     "country": "CAN",
     "city": "Winnipeg",
     "province": "MB",
@@ -21655,7 +21572,7 @@
   {
     "legal_name": "Brandt Industries Canada Ltd. (Engineered Products)",
     "trade_name": "Brandt Group of Companies",
-    "cage_code": "3AC21",
+    "cage_code": null,
     "country": "CAN",
     "city": "Regina",
     "province": "SK",
@@ -21722,7 +21639,7 @@
   {
     "legal_name": "SED Systems (Calian Advanced Technologies)",
     "trade_name": "Calian Advanced Technologies",
-    "cage_code": "37731",
+    "cage_code": null,
     "country": "CAN",
     "city": "Saskatoon",
     "province": "SK",
@@ -21795,7 +21712,7 @@
   {
     "legal_name": "Draganfly Innovations Inc.",
     "trade_name": "Draganfly",
-    "cage_code": "L09C1",
+    "cage_code": null,
     "country": "CAN",
     "city": "Saskatoon",
     "province": "SK",
@@ -21864,7 +21781,7 @@
   {
     "legal_name": "Irving Shipbuilding Inc.",
     "trade_name": "Irving Shipbuilding",
-    "cage_code": "L349A",
+    "cage_code": null,
     "country": "CAN",
     "city": "Halifax",
     "province": "NS",
@@ -21933,7 +21850,7 @@
   {
     "legal_name": "IMP Group International Inc.",
     "trade_name": "IMP Aerospace & Defence",
-    "cage_code": "L71F0",
+    "cage_code": null,
     "country": "CAN",
     "city": "Halifax",
     "province": "NS",
@@ -22006,7 +21923,7 @@
   {
     "legal_name": "Ultra Electronics Maritime Systems Inc.",
     "trade_name": "Ultra Maritime (Dartmouth)",
-    "cage_code": "L635D",
+    "cage_code": null,
     "country": "CAN",
     "city": "Dartmouth",
     "province": "NS",
@@ -22077,7 +21994,7 @@
   {
     "legal_name": "L3Harris Technologies Canada",
     "trade_name": "L3Harris (Halifax)",
-    "cage_code": "L58E2",
+    "cage_code": null,
     "country": "CAN",
     "city": "Halifax",
     "province": "NS",
@@ -22215,7 +22132,7 @@
   {
     "legal_name": "Airbus Atlantic Composites",
     "trade_name": "Airbus Atlantic (Lunenburg)",
-    "cage_code": "L6CF2",
+    "cage_code": null,
     "country": "CAN",
     "city": "Lunenburg",
     "province": "NS",
@@ -22287,7 +22204,7 @@
   {
     "legal_name": "Fleetway Inc.",
     "trade_name": "Fleetway",
-    "cage_code": "LEF3A",
+    "cage_code": null,
     "country": "CAN",
     "city": "Dartmouth",
     "province": "NS",
@@ -22354,7 +22271,7 @@
   {
     "legal_name": "GeoSpectrum Technologies Inc.",
     "trade_name": "GeoSpectrum Technologies",
-    "cage_code": "L6659",
+    "cage_code": null,
     "country": "CAN",
     "city": "Dartmouth",
     "province": "NS",
@@ -22420,7 +22337,7 @@
   {
     "legal_name": "MetOcean Telematics Ltd.",
     "trade_name": "MetOcean Telematics",
-    "cage_code": "LBAB8",
+    "cage_code": null,
     "country": "CAN",
     "city": "Dartmouth",
     "province": "NS",
@@ -22488,7 +22405,7 @@
   {
     "legal_name": "JASCO Applied Sciences Ltd.",
     "trade_name": "JASCO Applied Sciences",
-    "cage_code": "L7EDD",
+    "cage_code": null,
     "country": "CAN",
     "city": "Dartmouth",
     "province": "NS",
@@ -22552,7 +22469,7 @@
   {
     "legal_name": "Nautel Limited",
     "trade_name": "Nautel",
-    "cage_code": "L6775",
+    "cage_code": null,
     "country": "CAN",
     "city": "Hackett's Cove",
     "province": "NS",
@@ -22618,7 +22535,7 @@
   {
     "legal_name": "Bluedrop Training & Simulation Inc.",
     "trade_name": "Bluedrop Training & Simulation",
-    "cage_code": "L449B",
+    "cage_code": null,
     "country": "CAN",
     "city": "Halifax",
     "province": "NS",
@@ -22688,7 +22605,7 @@
   {
     "legal_name": "Rosborough Boats",
     "trade_name": "Rosborough Boats",
-    "cage_code": "L9C7E",
+    "cage_code": null,
     "country": "CAN",
     "city": "Halifax",
     "province": "NS",
@@ -22754,7 +22671,7 @@
   {
     "legal_name": "A.F. Theriault & Son Ltd.",
     "trade_name": "A.F. Theriault & Son",
-    "cage_code": "L7E05",
+    "cage_code": null,
     "country": "CAN",
     "city": "Meteghan River",
     "province": "NS",
@@ -22819,7 +22736,7 @@
   {
     "legal_name": "Hawboldt Industries (1989) Ltd.",
     "trade_name": "Hawboldt Industries",
-    "cage_code": "LB864",
+    "cage_code": null,
     "country": "CAN",
     "city": "Chester",
     "province": "NS",
@@ -22883,7 +22800,7 @@
   {
     "legal_name": "Lunenburg Foundry & Engineering Ltd.",
     "trade_name": "Lunenburg Foundry",
-    "cage_code": "L0381",
+    "cage_code": null,
     "country": "CAN",
     "city": "Lunenburg",
     "province": "NS",
@@ -22947,7 +22864,7 @@
   {
     "legal_name": "Survival Systems Limited",
     "trade_name": "Survival Systems",
-    "cage_code": "L1C7A",
+    "cage_code": null,
     "country": "CAN",
     "city": "Dartmouth",
     "province": "NS",
@@ -23013,7 +22930,7 @@
   {
     "legal_name": "Enginuity Inc.",
     "trade_name": "Enginuity",
-    "cage_code": "L0861",
+    "cage_code": null,
     "country": "CAN",
     "city": "Halifax",
     "province": "NS",
@@ -23079,7 +22996,7 @@
   {
     "legal_name": "Modest Tree Media Inc.",
     "trade_name": "Modest Tree",
-    "cage_code": "LD12E",
+    "cage_code": null,
     "country": "CAN",
     "city": "Halifax",
     "province": "NS",
@@ -23145,7 +23062,7 @@
   {
     "legal_name": "Avalon Holographics Inc.",
     "trade_name": "Avalon Holographics",
-    "cage_code": "LD22F",
+    "cage_code": null,
     "country": "CAN",
     "city": "Dartmouth",
     "province": "NS",
@@ -23211,7 +23128,7 @@
   {
     "legal_name": "Maritime Launch Services Ltd.",
     "trade_name": "Maritime Launch",
-    "cage_code": "LA9E4",
+    "cage_code": null,
     "country": "CAN",
     "city": "Halifax",
     "province": "NS",
@@ -23243,25 +23160,19 @@
         "kic": "KIC_SpaceSystems"
       }
     ],
-    "products": [
-      {
-        "name": "Spaceport Nova Scotia Launch Services",
-        "description": "Dedicated orbital launch complex and payload integration facilities.",
-        "part_number": "MLS-SPNS",
-        "fsc_code": "1810",
-        "nsn_code": null,
-        "platforms": [
-          "Platform_SpaceLaunchVehicle"
-        ],
-        "materials": []
-      }
-    ],
+    "products": [],
     "services": [
       {
         "name": "Launch Site & Payload Integration",
         "description": "Orbital launch campaign management and range safety.",
         "type": "LogisticsSupportService",
         "accreditation": "ISO9001"
+      },
+      {
+        "name": "Spaceport Nova Scotia Launch Services",
+        "description": "Dedicated orbital launch complex and payload integration facilities.",
+        "type": "LogisticsSupportService",
+        "accreditation": "ISO 9001"
       }
     ],
     "parent_company": null,
@@ -23275,7 +23186,7 @@
   {
     "legal_name": "Marswell Metal Industries Ltd.",
     "trade_name": "Marswell Metal Industries",
-    "cage_code": "L9125",
+    "cage_code": null,
     "country": "CAN",
     "city": "Halifax",
     "province": "NS",
@@ -23340,7 +23251,7 @@
   {
     "legal_name": "Marecomms Inc.",
     "trade_name": "Marecomms",
-    "cage_code": "L6251",
+    "cage_code": null,
     "country": "CAN",
     "city": "Dartmouth",
     "province": "NS",
@@ -23406,7 +23317,7 @@
   {
     "legal_name": "Glas Ocean Electric Inc.",
     "trade_name": "Glas Ocean Electric",
-    "cage_code": "L6B9D",
+    "cage_code": null,
     "country": "CAN",
     "city": "Dartmouth",
     "province": "NS",
@@ -23468,7 +23379,7 @@
   {
     "legal_name": "Dartmouth Ocean Technologies Inc.",
     "trade_name": "Dartmouth Ocean Technologies",
-    "cage_code": "LE65F",
+    "cage_code": null,
     "country": "CAN",
     "city": "Dartmouth",
     "province": "NS",
@@ -23532,7 +23443,7 @@
   {
     "legal_name": "Ocean Sonics Ltd.",
     "trade_name": "Ocean Sonics",
-    "cage_code": "L0593",
+    "cage_code": null,
     "country": "CAN",
     "city": "Truro Heights",
     "province": "NS",
@@ -23597,7 +23508,7 @@
   {
     "legal_name": "Cherubini Metal Works Ltd.",
     "trade_name": "Cherubini Metal Works",
-    "cage_code": "LF108",
+    "cage_code": null,
     "country": "CAN",
     "city": "Dartmouth",
     "province": "NS",
@@ -23662,7 +23573,7 @@
   {
     "legal_name": "Tri-Star Industries Ltd.",
     "trade_name": "Tri-Star Industries",
-    "cage_code": "L4C4E",
+    "cage_code": null,
     "country": "CAN",
     "city": "Yarmouth",
     "province": "NS",
@@ -23726,7 +23637,7 @@
   {
     "legal_name": "PAL Aerospace Ltd.",
     "trade_name": "PAL Aerospace",
-    "cage_code": "L1203",
+    "cage_code": null,
     "country": "CAN",
     "city": "St. John's",
     "province": "NL",
@@ -23798,7 +23709,7 @@
   {
     "legal_name": "Kraken Robotics Inc.",
     "trade_name": "Kraken Robotics",
-    "cage_code": "L2BB9",
+    "cage_code": null,
     "country": "CAN",
     "city": "Mount Pearl",
     "province": "NL",
@@ -23866,7 +23777,7 @@
   {
     "legal_name": "C-CORE",
     "trade_name": "C-CORE",
-    "cage_code": "L39BD",
+    "cage_code": null,
     "country": "CAN",
     "city": "St. John's",
     "province": "NL",
@@ -23935,7 +23846,7 @@
   {
     "legal_name": "Rutter Inc.",
     "trade_name": "Rutter",
-    "cage_code": "LDB1E",
+    "cage_code": null,
     "country": "CAN",
     "city": "St. John's",
     "province": "NL",
@@ -24000,7 +23911,7 @@
   {
     "legal_name": "SubC Imaging",
     "trade_name": "SubC Imaging",
-    "cage_code": "L9955",
+    "cage_code": null,
     "country": "CAN",
     "city": "Clarenville",
     "province": "NL",
@@ -24067,7 +23978,7 @@
   {
     "legal_name": "Kongsberg Discovery Canada Ltd.",
     "trade_name": "Kongsberg Discovery (St. John's)",
-    "cage_code": "L6EA0",
+    "cage_code": null,
     "country": "CAN",
     "city": "St. John's",
     "province": "NL",
@@ -24133,7 +24044,7 @@
   {
     "legal_name": "Genoa Design International Ltd.",
     "trade_name": "Genoa Design International",
-    "cage_code": "L879E",
+    "cage_code": null,
     "country": "CAN",
     "city": "Mount Pearl",
     "province": "NL",
@@ -24198,7 +24109,7 @@
   {
     "legal_name": "Virtual Marine Technology Inc.",
     "trade_name": "Virtual Marine",
-    "cage_code": "LCC59",
+    "cage_code": null,
     "country": "CAN",
     "city": "Paradise",
     "province": "NL",
@@ -24262,7 +24173,7 @@
   {
     "legal_name": "Compusult Limited",
     "trade_name": "Compusult",
-    "cage_code": "LDCE4",
+    "cage_code": null,
     "country": "CAN",
     "city": "Mount Pearl",
     "province": "NL",
@@ -24331,7 +24242,7 @@
   {
     "legal_name": "Apex Industries Inc.",
     "trade_name": "Apex Industries",
-    "cage_code": "L75F6",
+    "cage_code": null,
     "country": "CAN",
     "city": "Moncton",
     "province": "NB",
@@ -24402,7 +24313,7 @@
   {
     "legal_name": "Aerial Vehicle Safety Solutions Inc.",
     "trade_name": "AVSS",
-    "cage_code": "LABA0",
+    "cage_code": null,
     "country": "CAN",
     "city": "Fredericton",
     "province": "NB",
@@ -24469,7 +24380,7 @@
   {
     "legal_name": "Kognitiv Spark Inc.",
     "trade_name": "Kognitiv Spark",
-    "cage_code": "L3A12",
+    "cage_code": null,
     "country": "CAN",
     "city": "Fredericton",
     "province": "NB",
@@ -24536,7 +24447,7 @@
   {
     "legal_name": "Bulletproof Solutions Inc.",
     "trade_name": "Bulletproof",
-    "cage_code": "LA20C",
+    "cage_code": null,
     "country": "CAN",
     "city": "Fredericton",
     "province": "NB",
@@ -24600,7 +24511,7 @@
   {
     "legal_name": "Black Arcs Inc.",
     "trade_name": "Black Arcs",
-    "cage_code": "L3551",
+    "cage_code": null,
     "country": "CAN",
     "city": "Fredericton",
     "province": "NB",
@@ -24664,7 +24575,7 @@
   {
     "legal_name": "Measurand Inc.",
     "trade_name": "Measurand",
-    "cage_code": "L9EE5",
+    "cage_code": null,
     "country": "CAN",
     "city": "Fredericton",
     "province": "NB",
@@ -24728,7 +24639,7 @@
   {
     "legal_name": "Moncton Flight College",
     "trade_name": "MFC Training",
-    "cage_code": "L2021",
+    "cage_code": null,
     "country": "CAN",
     "city": "Moncton",
     "province": "NB",
@@ -24759,25 +24670,19 @@
         "kic": "KIC_TrainingSimulation"
       }
     ],
-    "products": [
-      {
-        "name": "Integrated Pilot Training Curriculum",
-        "description": "Transport Canada-approved flight and simulator training.",
-        "part_number": "MFC-PILOT-01",
-        "fsc_code": "6930",
-        "nsn_code": null,
-        "platforms": [
-          "Platform_FixedWingTransport"
-        ],
-        "materials": []
-      }
-    ],
+    "products": [],
     "services": [
       {
         "name": "Pilot & Simulator Flight Training",
         "description": "Ab-initio and advanced multi-engine flight instruction.",
         "type": "SimulationTrainingService",
         "accreditation": "ISO9001"
+      },
+      {
+        "name": "Integrated Pilot Training Curriculum",
+        "description": "Transport Canada-approved flight and simulator training.",
+        "type": "EngineeringService",
+        "accreditation": "ISO 9001"
       }
     ],
     "parent_company": null,
@@ -24792,7 +24697,7 @@
   {
     "legal_name": "J.D. Irving, Limited",
     "trade_name": "J.D. Irving",
-    "cage_code": "LC42A",
+    "cage_code": null,
     "country": "CAN",
     "city": "Saint John",
     "province": "NB",
@@ -24827,25 +24732,19 @@
         "kic": "KIC_NavalShipbuilding"
       }
     ],
-    "products": [
-      {
-        "name": "Naval & Marine Logistics Services",
-        "description": "Integrated marine towing, heavy lift, and shipbuilding.",
-        "part_number": "JDI-MAR-01",
-        "fsc_code": "1905",
-        "nsn_code": null,
-        "platforms": [
-          "Platform_SurfaceCombatant"
-        ],
-        "materials": []
-      }
-    ],
+    "products": [],
     "services": [
       {
         "name": "Marine Towing & Defence Logistics",
         "description": "Heavy marine logistics and port operations.",
         "type": "LogisticsSupportService",
         "accreditation": "ISO9001"
+      },
+      {
+        "name": "Naval & Marine Logistics Services",
+        "description": "Integrated marine towing, heavy lift, and shipbuilding.",
+        "type": "LogisticsSupportService",
+        "accreditation": "ISO 9001"
       }
     ],
     "parent_company": null,
@@ -24860,7 +24759,7 @@
   {
     "legal_name": "StandardAero",
     "trade_name": "StandardAero (Slemon Park)",
-    "cage_code": "L01CC",
+    "cage_code": null,
     "country": "CAN",
     "city": "Summerside",
     "province": "PE",
@@ -24995,7 +24894,7 @@
   {
     "legal_name": "Honeywell Engine Systems and Services",
     "trade_name": "Honeywell (Slemon Park)",
-    "cage_code": "L14F3",
+    "cage_code": null,
     "country": "CAN",
     "city": "Summerside",
     "province": "PE",
@@ -25063,7 +24962,7 @@
   {
     "legal_name": "MDS Coating Technologies Corp.",
     "trade_name": "MDS Coating Technologies",
-    "cage_code": "LAD8F",
+    "cage_code": null,
     "country": "CAN",
     "city": "Summerside",
     "province": "PE",
@@ -25136,7 +25035,7 @@
   {
     "legal_name": "Action Aero Inc.",
     "trade_name": "Action Aero",
-    "cage_code": "LE086",
+    "cage_code": null,
     "country": "CAN",
     "city": "Charlottetown",
     "province": "PE",
@@ -25205,7 +25104,7 @@
   {
     "legal_name": "Tronosjet Maintenance Inc.",
     "trade_name": "Tronosjet Maintenance",
-    "cage_code": "L18EF",
+    "cage_code": null,
     "country": "CAN",
     "city": "Charlottetown",
     "province": "PE",
@@ -25268,7 +25167,7 @@
   {
     "legal_name": "Testori Americas Corp.",
     "trade_name": "Testori Americas",
-    "cage_code": "L7E68",
+    "cage_code": null,
     "country": "CAN",
     "city": "Summerside",
     "province": "PE",
@@ -25334,7 +25233,7 @@
   {
     "legal_name": "Tube Fab Ltd.",
     "trade_name": "Tube Fab",
-    "cage_code": "L1A6C",
+    "cage_code": null,
     "country": "CAN",
     "city": "Summerside",
     "province": "PE",
@@ -25402,7 +25301,7 @@
   {
     "legal_name": "Calian Technologies Ltd.",
     "trade_name": "Calian (Halifax)",
-    "cage_code": "L7013",
+    "cage_code": null,
     "country": "CAN",
     "city": "Halifax",
     "province": "NS",
@@ -25471,7 +25370,7 @@
   {
     "legal_name": "Woodside Industries Ltd.",
     "trade_name": "Woodside Industries",
-    "cage_code": "L3FFE",
+    "cage_code": null,
     "country": "CAN",
     "city": "Dartmouth",
     "province": "NS",
@@ -25535,7 +25434,7 @@
   {
     "legal_name": "Clearwater Seafoods Defence Supply",
     "trade_name": "Marine Fabricators Ltd.",
-    "cage_code": "LC16F",
+    "cage_code": null,
     "country": "CAN",
     "city": "Dartmouth",
     "province": "NS",
@@ -25598,7 +25497,7 @@
   {
     "legal_name": "LamSar Inc.",
     "trade_name": "LamSar",
-    "cage_code": "L2B4C",
+    "cage_code": null,
     "country": "CAN",
     "city": "Halifax",
     "province": "NS",
@@ -25665,7 +25564,7 @@
   {
     "legal_name": "Lunar Robotics Inc.",
     "trade_name": "Lunar Robotics",
-    "cage_code": "LE428",
+    "cage_code": null,
     "country": "CAN",
     "city": "Halifax",
     "province": "NS",
@@ -25732,7 +25631,7 @@
   {
     "legal_name": "BioMimetic UX Inc.",
     "trade_name": "BioMimetic UX",
-    "cage_code": "LA85C",
+    "cage_code": null,
     "country": "CAN",
     "city": "Dartmouth",
     "province": "NS",
@@ -25797,7 +25696,7 @@
   {
     "legal_name": "EXO Technologies Inc.",
     "trade_name": "EXO Technologies",
-    "cage_code": "LB841",
+    "cage_code": null,
     "country": "CAN",
     "city": "St. John's",
     "province": "NL",
@@ -25862,7 +25761,7 @@
   {
     "legal_name": "Envysion Medical Technologies Inc.",
     "trade_name": "ENVYSION Medical",
-    "cage_code": "L28A8",
+    "cage_code": null,
     "country": "CAN",
     "city": "Moncton",
     "province": "NB",
@@ -25925,7 +25824,7 @@
   {
     "legal_name": "Rosborough Boats Inc.",
     "trade_name": "Rosborough Boats",
-    "cage_code": "L6305",
+    "cage_code": null,
     "duns_number": null,
     "business_number": "104629471RC0001",
     "country": "CAN",
@@ -25994,7 +25893,7 @@
   {
     "legal_name": "Hawboldt Industries Limited",
     "trade_name": "Hawboldt Industries",
-    "cage_code": "L0668",
+    "cage_code": null,
     "duns_number": null,
     "business_number": "102837461RC0001",
     "country": "CAN",
@@ -26067,7 +25966,7 @@
   {
     "legal_name": "CarteNav Solutions Inc.",
     "trade_name": "CarteNav",
-    "cage_code": "L6639",
+    "cage_code": null,
     "duns_number": null,
     "business_number": "864920184RC0001",
     "country": "CAN",
@@ -26139,7 +26038,7 @@
   {
     "legal_name": "Conair Group Inc.",
     "trade_name": "Conair Aviation",
-    "cage_code": "L3791",
+    "cage_code": null,
     "duns_number": null,
     "business_number": "101928471RC0001",
     "country": "CAN",
@@ -26209,7 +26108,7 @@
   {
     "legal_name": "DEW Engineering and Development ULC",
     "trade_name": "DEW Engineering",
-    "cage_code": "L0429",
+    "cage_code": null,
     "duns_number": null,
     "business_number": "101938201RC0001",
     "country": "CAN",
@@ -26280,7 +26179,7 @@
   {
     "legal_name": "Vancouver Shipyards Co. Ltd.",
     "trade_name": "Seaspan Shipyards",
-    "cage_code": "L4192",
+    "cage_code": null,
     "duns_number": null,
     "business_number": "104928172RC0001",
     "country": "CAN",

@@ -20,7 +20,7 @@ class NewZealandHarvester(BaseHarvester):
             {
                 "legal_name": "Rocket Lab Limited",
                 "trade_name": "Rocket Lab",
-                "cage_code": "E0A12",
+                "cage_code": None,
                 "duns_number": None,
                 "business_number": "NZ9429031827461",
                 "country": "NZL",
@@ -116,7 +116,7 @@ class NewZealandHarvester(BaseHarvester):
             {
                 "legal_name": "Dawn Aerospace Limited",
                 "trade_name": "Dawn Aerospace",
-                "cage_code": "E0B24",
+                "cage_code": None,
                 "duns_number": None,
                 "business_number": "NZ9429046829102",
                 "country": "NZL",
@@ -196,7 +196,7 @@ class NewZealandHarvester(BaseHarvester):
             {
                 "legal_name": "Tait International Limited",
                 "trade_name": "Tait Communications",
-                "cage_code": "E0C36",
+                "cage_code": None,
                 "duns_number": None,
                 "business_number": "NZ9429037482910",
                 "country": "NZL",
@@ -276,7 +276,7 @@ class NewZealandHarvester(BaseHarvester):
             {
                 "legal_name": "Rakon Limited",
                 "trade_name": "Rakon",
-                "cage_code": "E0D48",
+                "cage_code": None,
                 "duns_number": None,
                 "business_number": "NZ9429038291047",
                 "country": "NZL",
@@ -356,7 +356,7 @@ class NewZealandHarvester(BaseHarvester):
             {
                 "legal_name": "Zenith Tecnica Limited",
                 "trade_name": "Zenith Tecnica",
-                "cage_code": "E0E60",
+                "cage_code": None,
                 "duns_number": None,
                 "business_number": "NZ9429041928471",
                 "country": "NZL",
@@ -436,7 +436,7 @@ class NewZealandHarvester(BaseHarvester):
             {
                 "legal_name": "Marops Limited",
                 "trade_name": "Marops Defence & Marine",
-                "cage_code": "E0F72",
+                "cage_code": None,
                 "duns_number": None,
                 "business_number": "NZ9429034819284",
                 "country": "NZL",
@@ -500,7 +500,7 @@ class NewZealandHarvester(BaseHarvester):
             {
                 "legal_name": "Dotterel Technologies Limited",
                 "trade_name": "Dotterel",
-                "cage_code": "E0G84",
+                "cage_code": None,
                 "duns_number": None,
                 "business_number": "NZ9429045918274",
                 "country": "NZL",
@@ -564,7 +564,7 @@ class NewZealandHarvester(BaseHarvester):
             {
                 "legal_name": "Flightcell International Limited",
                 "trade_name": "Flightcell",
-                "cage_code": "E0H96",
+                "cage_code": None,
                 "duns_number": None,
                 "business_number": "NZ9429039182741",
                 "country": "NZL",

@@ -20,7 +20,7 @@ class UKHarvester(BaseHarvester):
             {
                 "legal_name": "BAE Systems plc",
                 "trade_name": "BAE Systems",
-                "cage_code": "K0657",
+                "cage_code": None,
                 "duns_number": None,
                 "business_number": "GB147209182",
                 "country": "GBR",
@@ -113,7 +113,7 @@ class UKHarvester(BaseHarvester):
             {
                 "legal_name": "Rolls-Royce plc",
                 "trade_name": "Rolls-Royce Defence",
-                "cage_code": "K0258",
+                "cage_code": None,
                 "duns_number": None,
                 "business_number": "GB100482910",
                 "country": "GBR",
@@ -523,7 +523,7 @@ class UKHarvester(BaseHarvester):
             {
                 "legal_name": "Ultra Electronics Holdings Limited",
                 "trade_name": "Ultra Electronics",
-                "cage_code": "K0720",
+                "cage_code": None,
                 "duns_number": None,
                 "business_number": "02830397",
                 "country": "GBR",
@@ -592,7 +592,7 @@ class UKHarvester(BaseHarvester):
             {
                 "legal_name": "Cobham Limited",
                 "trade_name": "Cobham",
-                "cage_code": "K0689",
+                "cage_code": None,
                 "duns_number": None,
                 "business_number": "00030470",
                 "country": "GBR",
@@ -657,7 +657,7 @@ class UKHarvester(BaseHarvester):
             {
                 "legal_name": "Martin-Baker Aircraft Co Ltd",
                 "trade_name": "Martin-Baker",
-                "cage_code": "K0581",
+                "cage_code": None,
                 "duns_number": None,
                 "business_number": "00288673",
                 "country": "GBR",
@@ -722,7 +722,7 @@ class UKHarvester(BaseHarvester):
             {
                 "legal_name": "Chemring Group plc",
                 "trade_name": "Chemring",
-                "cage_code": "K0829",
+                "cage_code": None,
                 "duns_number": None,
                 "business_number": "00086653",
                 "country": "GBR",
@@ -789,7 +789,7 @@ class UKHarvester(BaseHarvester):
             {
                 "legal_name": "Marshall Aerospace and Defence Group",
                 "trade_name": "Marshall Aerospace",
-                "cage_code": "K0481",
+                "cage_code": None,
                 "duns_number": None,
                 "business_number": "00145782",
                 "country": "GBR",
@@ -920,7 +920,7 @@ class UKHarvester(BaseHarvester):
             {
                 "legal_name": "Leonardo UK Ltd",
                 "trade_name": "Leonardo UK",
-                "cage_code": "K0119",
+                "cage_code": None,
                 "duns_number": None,
                 "business_number": "02426132",
                 "country": "GBR",
@@ -986,7 +986,7 @@ class UKHarvester(BaseHarvester):
             {
                 "legal_name": "Thales UK Limited",
                 "trade_name": "Thales UK",
-                "cage_code": "K0321",
+                "cage_code": None,
                 "duns_number": None,
                 "business_number": "00868273",
                 "country": "GBR",

@@ -89,3 +89,18 @@ aero:KIC_TrainingSimulation a aero:KeyIndustrialCapability, skos:Concept ;
     skos:inScheme aero:KICScheme ;
     skos:prefLabel "Training Systems and Synthetic Simulation"@en ;
     skos:definition "Level D full flight simulators, distributed mission training, virtual reality cockpits, and live-virtual-constructive (LVC) environments."@en .
+
+aero:KIC_C4ISRSystems a aero:KeyIndustrialCapability, skos:Concept ;
+    skos:inScheme aero:KICScheme ;
+    skos:prefLabel "C4ISR and Battlespace Systems"@en ;
+    skos:definition "Command, control, communications, computers, intelligence, surveillance, and reconnaissance systems."@en .
+
+aero:KIC_GroundCombatVehicles a aero:KeyIndustrialCapability, skos:Concept ;
+    skos:inScheme aero:KICScheme ;
+    skos:prefLabel "Ground Combat Vehicles and Armoured Platforms"@en ;
+    skos:definition "Wheeled and tracked combat vehicles, turrets, ballistic protection, and mobile weapon mounts."@en .
+
+aero:KIC_NavalArchitectureMarineSystems a aero:KeyIndustrialCapability, skos:Concept ;
+    skos:inScheme aero:KICScheme ;
+    skos:prefLabel "Naval Architecture and Marine Systems"@en ;
+    skos:definition "Warship hull design, marine propulsion, launch and recovery systems, and combat naval integration."@en .

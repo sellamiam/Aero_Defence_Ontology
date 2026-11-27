@@ -159,3 +159,47 @@ aero:Material_RadarAbsorbentMaterial_RAM a aero:CriticalMaterial ;
     rdfs:label "Radar Absorbent Material (RAM) & Low-Observable Coatings"@en ;
     skos:definition "Electromagnetic wave-attenuating stealth coatings and structural radar-absorbing composites for 5th/6th-generation combat aircraft."@en .
 
+aero:Material_ArmourSteel_MIL_A_46100 a aero:CriticalMaterial ;
+    rdfs:label "High-Hardness Military Rolled Homogeneous Armour (RHA) Steel (MIL-A-46100 / MIL-DTL-12560)"@en ;
+    skos:definition "Quenched and tempered ultra-high hardness armour plate providing defeat capability against kinetic penetrators and IED blast fragments."@en .
+
+aero:Material_Aluminium_7075_T6 a aero:CriticalMaterial ;
+    rdfs:label "Aluminium Alloy 7075-T6 (High-Strength Aerospace Zinc Alloy)"@en ;
+    skos:definition "Cold-worked and artificially aged zinc-alloyed aluminium delivering high static strength for structural bulkheads and wing ribs."@en .
+
+aero:Material_HY80_HY100_HighStrengthSteel a aero:CriticalMaterial ;
+    rdfs:label "HY-80 / HY-100 High-Yield Naval Submarine Pressure Hull Steel"@en ;
+    skos:definition "Low-carbon, nickel-chromium-molybdenum alloy steel plate with minimum yield strength of 80,000–100,000 psi for submarine pressure hulls."@en .
+
+### Additional Standard Certifications
+aero:Cert_AQAP2110 a aero:QualityStandard ;
+    rdfs:label "NATO AQAP 2110 Quality Assurance Standard"@en .
+
+aero:Cert_PECAL2110 a aero:QualityStandard ;
+    rdfs:label "PECAL 2110 NATO Quality Assurance Standard"@en .
+
+aero:Cert_EN9100 a aero:QualityStandard ;
+    rdfs:label "EN 9100 European Aerospace Quality Standard"@en .
+
+aero:Cert_ISO17025 a aero:QualityStandard ;
+    rdfs:label "ISO/IEC 17025 Testing and Calibration Laboratories"@en .
+
+aero:Cert_CGP_Certified a aero:ExportComplianceStandard ;
+    rdfs:label "Controlled Goods Program (CGP) Certified"@en .
+
+aero:Cert_CWB_Certified a aero:QualityStandard ;
+    rdfs:label "Canadian Welding Bureau (CWB) Certified"@en .
+
+aero:Cert_DNVGLCertified a aero:QualityStandard ;
+    rdfs:label "DNV GL Marine & Offshore Certified"@en .
+
+aero:Cert_LloydsRegisterApproved a aero:QualityStandard ;
+    rdfs:label "Lloyd's Register Approved"@en .
+
+aero:Cert_TransportCanadaAMO a aero:QualityStandard ;
+    rdfs:label "Transport Canada Approved Maintenance Organization (AMO)"@en .
+
+aero:Cert_TransportCanadaApproved a aero:QualityStandard ;
+    rdfs:label "Transport Canada Approved Manufacturer/Distributor"@en .
+
+

@@ -20,7 +20,7 @@ class AustraliaHarvester(BaseHarvester):
             {
                 "legal_name": "CEA Technologies Pty Ltd",
                 "trade_name": "CEA Technologies",
-                "cage_code": "Z0A12",
+                "cage_code": None,
                 "duns_number": None,
                 "business_number": "AU990086452",
                 "country": "AUS",
@@ -106,7 +106,7 @@ class AustraliaHarvester(BaseHarvester):
             {
                 "legal_name": "Electro Optic Systems Pty Ltd",
                 "trade_name": "EOS Defence Systems",
-                "cage_code": "Z0B44",
+                "cage_code": None,
                 "duns_number": None,
                 "business_number": "AU720928172",
                 "country": "AUS",
@@ -192,7 +192,7 @@ class AustraliaHarvester(BaseHarvester):
             {
                 "legal_name": "Austal Limited",
                 "trade_name": "Austal",
-                "cage_code": "Z0C81",
+                "cage_code": None,
                 "duns_number": None,
                 "business_number": "AU540092646",
                 "country": "AUS",
@@ -278,7 +278,7 @@ class AustraliaHarvester(BaseHarvester):
             {
                 "legal_name": "Quickstep Holdings Limited",
                 "trade_name": "Quickstep Composites",
-                "cage_code": "Z0D95",
+                "cage_code": None,
                 "duns_number": None,
                 "business_number": "AU550962681",
                 "country": "AUS",
@@ -364,7 +364,7 @@ class AustraliaHarvester(BaseHarvester):
             {
                 "legal_name": "Ferra Engineering Pty Ltd",
                 "trade_name": "Ferra Aerospace",
-                "cage_code": "Z0E33",
+                "cage_code": None,
                 "duns_number": None,
                 "business_number": "AU340081928",
                 "country": "AUS",
@@ -450,7 +450,7 @@ class AustraliaHarvester(BaseHarvester):
             {
                 "legal_name": "DroneShield Limited",
                 "trade_name": "DroneShield",
-                "cage_code": "Z0I82",
+                "cage_code": None,
                 "duns_number": None,
                 "business_number": "AU266089132",
                 "country": "AUS",
@@ -536,7 +536,7 @@ class AustraliaHarvester(BaseHarvester):
             {
                 "legal_name": "BAE Systems Australia Limited",
                 "trade_name": "BAE Systems Australia",
-                "cage_code": "Z0K14",
+                "cage_code": None,
                 "duns_number": None,
                 "business_number": "AU450084230",
                 "country": "AUS",
@@ -622,7 +622,7 @@ class AustraliaHarvester(BaseHarvester):
             {
                 "legal_name": "ASC Pty Ltd",
                 "trade_name": "ASC",
-                "cage_code": "Z0L25",
+                "cage_code": None,
                 "duns_number": None,
                 "business_number": "AU830086302",
                 "country": "AUS",
@@ -697,7 +697,7 @@ class AustraliaHarvester(BaseHarvester):
                 ],
             },
 {           'business_number': 'AU380928412',
-                        'cage_code': 'Z0N10',
+                        'cage_code': None,
                         'capabilities': [           {           'description': 'Deep-draw forging, machining, '
                                                                                'explosive filling, and ballistic '
                                                                                'proofing of 155mm artillery shells and '
@@ -741,7 +741,7 @@ class AustraliaHarvester(BaseHarvester):
                         'trade_name': 'NIOA',
                         'website': 'https://www.nioa.com.au'},
             {           'business_number': 'AU290046128',
-                        'cage_code': 'Z0M22',
+                        'cage_code': None,
                         'capabilities': [           {           'description': 'High-tolerance titanium and '
                                                                                'high-tensile steel aerostructure '
                                                                                'machining, automated assembly tooling '
@@ -787,7 +787,7 @@ class AustraliaHarvester(BaseHarvester):
                         'trade_name': 'Marand',
                         'website': 'https://www.marand.com.au'},
             {           'business_number': 'AU220982341',
-                        'cage_code': 'Z0B33',
+                        'cage_code': None,
                         'capabilities': [           {           'description': 'Continuous quench-and-temper heat '
                                                                                'treatment of ultra-high hardness '
                                                                                'military ballistic protection steel '
@@ -834,7 +834,7 @@ class AustraliaHarvester(BaseHarvester):
                         'trade_name': 'Bisalloy',
                         'website': 'https://www.bisalloy.com.au'},
             {           'business_number': 'AU620038912',
-                        'cage_code': 'Z0T11',
+                        'cage_code': None,
                         'capabilities': [           {           'description': 'Engineering and manufacture of '
                                                                                'plug-and-play digital AMLCD cockpit '
                                                                                'flight displays, vehicle crew '

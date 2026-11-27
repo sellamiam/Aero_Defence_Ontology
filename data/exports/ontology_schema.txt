@@ -21,6 +21,9 @@ aero:AvionicsSensorCapability a owl:Class ;
     rdfs:label "Avionics, Radar & Sensor Capability"@en ;
     rdfs:subClassOf aero:Capability .
 
+aero:Cert_AQAP2110 a aero:QualityStandard ;
+    rdfs:label "NATO AQAP 2110 Quality Assurance Standard"@en .
+
 aero:Cert_AS9100D a aero:QualityStandard ;
     rdfs:label "AS9100 Rev D (Quality Management Systems - Aerospace)"@en ;
     rdfs:comment "Standardized quality management system for the aviation, space, and defense industry."@en ;
@@ -40,6 +43,9 @@ aero:Cert_CGP_Canada a aero:ExportComplianceStandard ;
     rdfs:label "Controlled Goods Program (CGP) Certified (Canada)"@en ;
     rdfs:comment "Mandatory Canadian industrial security program governing access to ITAR and controlled military items."@en .
 
+aero:Cert_CGP_Certified a aero:ExportComplianceStandard ;
+    rdfs:label "Controlled Goods Program (CGP) Certified"@en .
+
 aero:Cert_CMMC_Level2 a aero:SecurityClearanceStandard ;
     rdfs:label "CMMC Level 2 (Cybersecurity Maturity Model Certification)"@en .
 
@@ -47,6 +53,9 @@ aero:Cert_CMMC_Level3 a aero:SecurityClearanceStandard ;
     rdfs:label "CMMC Level 3 (Cybersecurity Maturity Model Certification - Expert / Enhanced)"@en ;
     rdfs:comment "DoD Cybersecurity Maturity Model Certification Level 3 aligned with NIST SP 800-172 for critical defence programs and APT resilience."@en ;
     skos:altLabel "CMMC L3" .
+
+aero:Cert_CWB_Certified a aero:QualityStandard ;
+    rdfs:label "Canadian Welding Bureau (CWB) Certified"@en .
 
 aero:Cert_CyberEssentialsPlus a aero:SecurityClearanceStandard ;
     rdfs:label "Cyber Essentials Plus (UK MOD Mandate)"@en ;
@@ -63,6 +72,12 @@ aero:Cert_DISP_Level2 a aero:SecurityClearanceStandard ;
 
 aero:Cert_DISP_Level3 a aero:SecurityClearanceStandard ;
     rdfs:label "Defence Industry Security Program (DISP) Level 3 - Secret (Australia)"@en .
+
+aero:Cert_DNVGLCertified a aero:QualityStandard ;
+    rdfs:label "DNV GL Marine & Offshore Certified"@en .
+
+aero:Cert_EN9100 a aero:QualityStandard ;
+    rdfs:label "EN 9100 European Aerospace Quality Standard"@en .
 
 aero:Cert_ESA_Qualified a aero:QualityStandard ;
     rdfs:label "European Space Agency (ESA) Flight Hardware Qualified"@en .
@@ -84,6 +99,9 @@ aero:Cert_FacilitySecurity_TopSecret a aero:SecurityClearanceStandard ;
 aero:Cert_ISO14001 a aero:QualityStandard ;
     rdfs:label "ISO 14001:2015 Environmental Management Standard"@en .
 
+aero:Cert_ISO17025 a aero:QualityStandard ;
+    rdfs:label "ISO/IEC 17025 Testing and Calibration Laboratories"@en .
+
 aero:Cert_ISO27001 a aero:SecurityClearanceStandard ;
     rdfs:label "ISO/IEC 27001 Information Security Management"@en .
 
@@ -93,6 +111,9 @@ aero:Cert_ISO9001 a aero:QualityStandard ;
 aero:Cert_ITAR_Compliant a aero:ExportComplianceStandard ;
     rdfs:label "ITAR / EAR Export Control Compliant"@en ;
     rdfs:comment "International Traffic in Arms Regulations compliance posture."@en .
+
+aero:Cert_LloydsRegisterApproved a aero:QualityStandard ;
+    rdfs:label "Lloyd's Register Approved"@en .
 
 aero:Cert_NADCAP_Chemical a aero:QualityStandard ;
     rdfs:label "NADCAP Accreditation - Chemical Processing"@en .
@@ -116,8 +137,17 @@ aero:Cert_NATO_AQAP2110 a aero:QualityStandard ;
     rdfs:label "NATO AQAP 2110 (Design, Development and Production)"@en ;
     rdfs:comment "Allied Quality Assurance Publications standard for NATO defence materiel."@en .
 
+aero:Cert_PECAL2110 a aero:QualityStandard ;
+    rdfs:label "PECAL 2110 NATO Quality Assurance Standard"@en .
+
 aero:Cert_SCOMET_Compliant a aero:ExportComplianceStandard ;
     rdfs:label "Special Chemicals, Organisms, Materials, Equipment & Technologies (SCOMET) Export License (India)"@en .
+
+aero:Cert_TransportCanadaAMO a aero:QualityStandard ;
+    rdfs:label "Transport Canada Approved Maintenance Organization (AMO)"@en .
+
+aero:Cert_TransportCanadaApproved a aero:QualityStandard ;
+    rdfs:label "Transport Canada Approved Manufacturer/Distributor"@en .
 
 aero:CyberC4ISRCapability a owl:Class ;
     rdfs:label "Cyber, C4ISR & Tactical Communications Capability"@en ;
@@ -155,6 +185,12 @@ aero:KIC_ArmouredVehicles a skos:Concept,
     skos:inScheme aero:KICScheme ;
     skos:prefLabel "Armoured Vehicles and Combat Support Systems"@en .
 
+aero:KIC_C4ISRSystems a skos:Concept,
+        aero:KeyIndustrialCapability ;
+    skos:definition "Command, control, communications, computers, intelligence, surveillance, and reconnaissance systems."@en ;
+    skos:inScheme aero:KICScheme ;
+    skos:prefLabel "C4ISR and Battlespace Systems"@en .
+
 aero:KIC_CBRNDefence a skos:Concept,
         aero:KeyIndustrialCapability ;
     skos:definition "Chemical, Biological, Radiological, and Nuclear detection, decontamination, and protective equipment."@en ;
@@ -179,6 +215,12 @@ aero:KIC_EOIRSystems a skos:Concept,
     skos:inScheme aero:KICScheme ;
     skos:prefLabel "Electro-Optical and Infrared (EO/IR) Systems"@en .
 
+aero:KIC_GroundCombatVehicles a skos:Concept,
+        aero:KeyIndustrialCapability ;
+    skos:definition "Wheeled and tracked combat vehicles, turrets, ballistic protection, and mobile weapon mounts."@en ;
+    skos:inScheme aero:KICScheme ;
+    skos:prefLabel "Ground Combat Vehicles and Armoured Platforms"@en .
+
 aero:KIC_InServiceSupport a skos:Concept,
         aero:KeyIndustrialCapability ;
     skos:definition "Comprehensive lifecycle management, aircraft depot-level overhaul, structural integrity, and modernization."@en ;
@@ -190,6 +232,12 @@ aero:KIC_Munitions a skos:Concept,
     skos:definition "Small, medium, and large caliber ammunition, guided munitions, propellants, and warheads."@en ;
     skos:inScheme aero:KICScheme ;
     skos:prefLabel "Munitions, Energetics and Pyrotechnics"@en .
+
+aero:KIC_NavalArchitectureMarineSystems a skos:Concept,
+        aero:KeyIndustrialCapability ;
+    skos:definition "Warship hull design, marine propulsion, launch and recovery systems, and combat naval integration."@en ;
+    skos:inScheme aero:KICScheme ;
+    skos:prefLabel "Naval Architecture and Marine Systems"@en .
 
 aero:KIC_NavalShipbuilding a skos:Concept,
         aero:KeyIndustrialCapability ;
@@ -243,6 +291,14 @@ aero:Material_AluminiumLithium_2055 a aero:CriticalMaterial ;
     rdfs:label "Aluminium-Lithium Alloy 2055 / 2195 (Aerospace & Cryogenic Tankage)"@en ;
     skos:definition "Low-density, high-stiffness aluminium-lithium structural alloy used in fighter fuselages, cryogenic rocket propellant tanks, and naval hulls."@en .
 
+aero:Material_Aluminium_7075_T6 a aero:CriticalMaterial ;
+    rdfs:label "Aluminium Alloy 7075-T6 (High-Strength Aerospace Zinc Alloy)"@en ;
+    skos:definition "Cold-worked and artificially aged zinc-alloyed aluminium delivering high static strength for structural bulkheads and wing ribs."@en .
+
+aero:Material_ArmourSteel_MIL_A_46100 a aero:CriticalMaterial ;
+    rdfs:label "High-Hardness Military Rolled Homogeneous Armour (RHA) Steel (MIL-A-46100 / MIL-DTL-12560)"@en ;
+    skos:definition "Quenched and tempered ultra-high hardness armour plate providing defeat capability against kinetic penetrators and IED blast fragments."@en .
+
 aero:Material_Beryllium_Optical a aero:CriticalMaterial ;
     rdfs:label "Optical & Aerospace Grade Beryllium (O-30 / I-220H)"@en ;
     skos:definition "Ultra-stiff, lightweight metal for space telescope mirrors, EO/IR gimbal housings, inertial guidance gyros, and nuclear/missile structures."@en .
@@ -254,6 +310,10 @@ aero:Material_CarbonFiber_Composite a aero:CriticalMaterial ;
 aero:Material_GalliumNitride_GaN a aero:CriticalMaterial ;
     rdfs:label "Gallium Nitride on Silicon Carbide (GaN-on-SiC) Semiconductor"@en ;
     skos:definition "Wide-bandgap semiconductor enabling high-power, high-frequency AESA radar transmit/receive modules and EW jamming apertures."@en .
+
+aero:Material_HY80_HY100_HighStrengthSteel a aero:CriticalMaterial ;
+    rdfs:label "HY-80 / HY-100 High-Yield Naval Submarine Pressure Hull Steel"@en ;
+    skos:definition "Low-carbon, nickel-chromium-molybdenum alloy steel plate with minimum yield strength of 80,000–100,000 psi for submarine pressure hulls."@en .
 
 aero:Material_HighPurity_Beryllium a aero:CriticalMaterial ;
     rdfs:label "High-Purity Beryllium Aerospace Grade"@en ;
@@ -379,6 +439,12 @@ aero:Platform_FixedWingTransport a aero:AirPlatform ;
 aero:Platform_FordClass_Carrier a aero:MaritimePlatform ;
     rdfs:label "Gerald R. Ford-Class (CVN-78) Nuclear Aircraft Carrier"@en ;
     skos:altLabel "CVN-78" .
+
+aero:Platform_GroundCombatVehicle a aero:LandPlatform ;
+    rdfs:label "Ground Combat Vehicle (Infantry Fighting Vehicle / Armoured Personnel Carrier / MBT)"@en ;
+    skos:altLabel "Armoured Combat Vehicle",
+        "Combat Vehicle",
+        "LAV" .
 
 aero:Platform_HAL_Tejas_LCA a aero:AirPlatform ;
     rdfs:label "HAL Tejas Light Combat Aircraft (LCA Mk-1A / Mk-2)"@en .
@@ -741,10 +807,6 @@ aero:suppliesTo a owl:ObjectProperty ;
 aero:SpecificallyDependentContinuant a owl:Class ;
     rdfs:label "Specifically Dependent Continuant (BFO:0000020)"@en .
 
-aero:ExportComplianceStandard a owl:Class ;
-    rdfs:label "Export Control Standard (e.g. ITAR, EAR, Controlled Goods Program)"@en ;
-    rdfs:subClassOf aero:Certification .
-
 aero:Organization a owl:Class ;
     rdfs:label "Organization"@en ;
     rdfs:subClassOf org:Organization,
@@ -762,12 +824,12 @@ aero:Certification a owl:Class ;
     rdfs:label "Certification & Compliance Standard"@en ;
     rdfs:subClassOf aero:SpecificallyDependentContinuant .
 
+aero:ExportComplianceStandard a owl:Class ;
+    rdfs:label "Export Control Standard (e.g. ITAR, EAR, Controlled Goods Program)"@en ;
+    rdfs:subClassOf aero:Certification .
+
 aero:IndependentContinuant a owl:Class ;
     rdfs:label "Independent Continuant (BFO:0000004)"@en .
-
-aero:LandPlatform a owl:Class ;
-    rdfs:label "Land Platform (Armored Combat Vehicle, Tactical)"@en ;
-    rdfs:subClassOf aero:Platform .
 
 aero:MaritimePlatform a owl:Class ;
     rdfs:label "Maritime Platform (Surface Combatant, Submarine, USV)"@en ;
@@ -785,6 +847,10 @@ aero:SecurityClearanceStandard a owl:Class ;
     rdfs:label "Security & Facility Clearance Standard"@en ;
     rdfs:subClassOf aero:Certification .
 
+aero:LandPlatform a owl:Class ;
+    rdfs:label "Land Platform (Armored Combat Vehicle, Tactical)"@en ;
+    rdfs:subClassOf aero:Platform .
+
 aero:Service a owl:Class ;
     rdfs:label "Operational Service"@en ;
     rdfs:subClassOf aero:Process .
@@ -798,10 +864,6 @@ aero:CriticalMaterial a owl:Class ;
     rdfs:comment "Critical minerals and advanced raw materials subject to strategic supply chain vulnerability."@en ;
     rdfs:subClassOf aero:IndependentContinuant .
 
-aero:QualityStandard a owl:Class ;
-    rdfs:label "Aerospace Quality Standard (e.g. AS9100D, ISO 9001)"@en ;
-    rdfs:subClassOf aero:Certification .
-
 aero:KICScheme a skos:ConceptScheme ;
     rdfs:label "Canadian Key Industrial Capabilities (KIC) Classification Scheme"@en ;
     rdfs:comment "Official taxonomy of Canada's Key Industrial Capabilities for defence procurement and industrial technological benefits."@en .
@@ -813,6 +875,10 @@ aero:KeyIndustrialCapability a owl:Class ;
 aero:AirPlatform a owl:Class ;
     rdfs:label "Air Platform (Fixed-Wing, Rotary, eVTOL)"@en ;
     rdfs:subClassOf aero:Platform .
+
+aero:QualityStandard a owl:Class ;
+    rdfs:label "Aerospace Quality Standard (e.g. AS9100D, ISO 9001)"@en ;
+    rdfs:subClassOf aero:Certification .
 
 aero:Company a owl:Class ;
     rdfs:label "Aerospace & Defence Enterprise"@en ;

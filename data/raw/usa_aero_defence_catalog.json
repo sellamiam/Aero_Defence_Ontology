@@ -60071,21 +60071,6 @@
     ],
     "products": [
       {
-        "name": "WorldView Legion 30-cm EO Constellation Service",
-        "description": "Six-satellite sun-synchronous and mid-inclination 30-cm class electro-optical Earth-observation system.",
-        "part_number": "WV-LEGION",
-        "fsc_code": "1810",
-        "nsn_code": null,
-        "platforms": [
-          "Platform_LEOSatellite"
-        ],
-        "materials": [
-          "Material_Beryllium_Optical",
-          "Material_SiliconCarbide_SiC",
-          "Material_CarbonFiber_Composite"
-        ]
-      },
-      {
         "name": "Precision3D / Raptor Vision-Based Navigation Suite",
         "description": "Global 3D geospatial foundation data enabling autonomous GPS-denied navigation for UAVs and tactical vehicles.",
         "part_number": "VANTOR-P3D",
@@ -60106,6 +60091,12 @@
         "description": "High-assurance classified tasking, direct downlink via Remote Ground Terminals, and geospatial analytics.",
         "type": "EngineeringService",
         "accreditation": "ISO27001 / Top Secret"
+      },
+      {
+        "name": "WorldView Legion 30-cm EO Constellation Service",
+        "description": "Six-satellite sun-synchronous and mid-inclination 30-cm class electro-optical Earth-observation system.",
+        "type": "EngineeringService",
+        "accreditation": "ISO 9001"
       }
     ],
     "parent_company": null,
@@ -60383,27 +60374,19 @@
         "kic": "KIC_SoftwareDefinedRadio"
       }
     ],
-    "products": [
-      {
-        "name": "O3b mPOWER MEO Defense Managed SATCOM Service",
-        "description": "Software-defined dynamically steerable MEO spot-beam communications delivering fiber-like latency to forward tactical forces.",
-        "part_number": "SES-MPOWER-GOV",
-        "fsc_code": "5895",
-        "nsn_code": null,
-        "platforms": [
-          "Platform_LEOSatellite"
-        ],
-        "materials": [
-          "Material_GalliumNitride_GaN"
-        ]
-      }
-    ],
+    "products": [],
     "services": [
       {
         "name": "Managed Hybrid Multi-Orbit Government SATCOM & Hosted Payloads",
         "description": "FOCI-mitigated US government SATCOM operations, teleport routing, and hosted payload integration.",
         "type": "EngineeringService",
         "accreditation": "ISO27001 / Top Secret"
+      },
+      {
+        "name": "O3b mPOWER MEO Defense Managed SATCOM Service",
+        "description": "Software-defined dynamically steerable MEO spot-beam communications delivering fiber-like latency to forward tactical forces.",
+        "type": "LogisticsSupportService",
+        "accreditation": "ISO 9001"
       }
     ],
     "parent_company": null,
@@ -60457,28 +60440,19 @@
         "kic": "KIC_SoftwareDefinedRadio"
       }
     ],
-    "products": [
-      {
-        "name": "FlexAir / FlexMove Managed Military SATCOM Terminal Service",
-        "description": "End-to-end encrypted multi-orbit SATCOM service for ISR aircraft, unmanned platforms, and expeditionary C2.",
-        "part_number": "IGC-FLEXMOVE",
-        "fsc_code": "5895",
-        "nsn_code": null,
-        "platforms": [
-          "Platform_LEOSatellite",
-          "Platform_TacticalUAS"
-        ],
-        "materials": [
-          "Material_GalliumNitride_GaN"
-        ]
-      }
-    ],
+    "products": [],
     "services": [
       {
         "name": "DoD Commercial SATCOM Capacity & Hosted Payload Mission Management",
         "description": "24/7 Network Operations Center monitoring, interference mitigation, and PLEO/GEO managed services.",
         "type": "LogisticsSupportService",
         "accreditation": "ISO27001 / Top Secret"
+      },
+      {
+        "name": "FlexAir / FlexMove Managed Military SATCOM Terminal Service",
+        "description": "End-to-end encrypted multi-orbit SATCOM service for ISR aircraft, unmanned platforms, and expeditionary C2.",
+        "type": "LogisticsSupportService",
+        "accreditation": "ISO 9001"
       }
     ],
     "parent_company": null,
@@ -60741,28 +60715,19 @@
         "kic": "KIC_SoftwareDefinedRadio"
       }
     ],
-    "products": [
-      {
-        "name": "XTAR-EUR / XTAR-LANT Commercial X-Band Payload Service",
-        "description": "7.25–8.4 GHz government/military X-band GEO transponder capacity supporting tactical UAVs and maritime vessels.",
-        "part_number": "XTAR-XBAND",
-        "fsc_code": "5895",
-        "nsn_code": null,
-        "platforms": [
-          "Platform_LEOSatellite",
-          "Platform_TacticalUAS"
-        ],
-        "materials": [
-          "Material_GalliumNitride_GaN"
-        ]
-      }
-    ],
+    "products": [],
     "services": [
       {
         "name": "Contested X-Band Defense SATCOM Bandwidth Provisioning",
         "description": "24/7 X-band spot-beam leasing and anti-jam bandwidth allocation for US DoD and allied coalition partners.",
         "type": "LogisticsSupportService",
         "accreditation": "Top Secret / DISA"
+      },
+      {
+        "name": "XTAR-EUR / XTAR-LANT Commercial X-Band Payload Service",
+        "description": "7.25–8.4 GHz government/military X-band GEO transponder capacity supporting tactical UAVs and maritime vessels.",
+        "type": "LogisticsSupportService",
+        "accreditation": "ISO 9001"
       }
     ],
     "parent_company": null,
@@ -64718,19 +64683,6 @@
     ],
     "products": [
       {
-        "name": "Unicorn Delivery Service (UDS) Space Software Factory",
-        "description": "Air-gapped zero-trust Kubernetes platform enabling rapid continuous-ATO software updates on classified space ground/edge hardware.",
-        "part_number": "DU-UDS-SPACE",
-        "fsc_code": "7030",
-        "nsn_code": null,
-        "platforms": [
-          "Platform_LEOSatellite"
-        ],
-        "materials": [
-          "Material_SiliconCarbide_SiC"
-        ]
-      },
-      {
         "name": "Unicorn Delivery Service (UDS) Air-Gapped Software Factory",
         "description": "Zero-trust Kubernetes and Zarf packaging platform enabling continuous delivery of CJADC2 and AI apps to disconnected tactical ships and aircraft.",
         "part_number": "DU-UDS-CORE",
@@ -64755,6 +64707,12 @@
         "description": "Turnkey deployment of accredited Kubernetes pipelines across classified Space Force, USAF, and US Navy tactical environments.",
         "type": "CyberSecurityService",
         "accreditation": "ISO/IEC 27001"
+      },
+      {
+        "name": "Unicorn Delivery Service (UDS) Space Software Factory",
+        "description": "Air-gapped zero-trust Kubernetes platform enabling rapid continuous-ATO software updates on classified space ground/edge hardware.",
+        "type": "EngineeringService",
+        "accreditation": "ISO 9001"
       }
     ],
     "parent_company": null,
@@ -65721,27 +65679,19 @@
         "kic": "KIC_InServiceSupport"
       }
     ],
-    "products": [
-      {
-        "name": "RBC Signals Federated Ground Antenna & Spectrum Service",
-        "description": "Turnkey hybrid owned-and-partnered multi-band ground station network with automated pass brokerage.",
-        "part_number": "RBC-GSAAS",
-        "fsc_code": "5820",
-        "nsn_code": null,
-        "platforms": [
-          "Platform_LEOSatellite"
-        ],
-        "materials": [
-          "Material_GalliumNitride_GaN"
-        ]
-      }
-    ],
+    "products": [],
     "services": [
       {
         "name": "Resilient Multi-Continent Satellite Ground Downlink & TT&C Services",
         "description": "On-demand RF/optical ground passes, FCC/NTIA licensing support, and SpaceWERX resilient comms demos.",
         "type": "LogisticsSupportService",
         "accreditation": "ITAR / Secret"
+      },
+      {
+        "name": "RBC Signals Federated Ground Antenna & Spectrum Service",
+        "description": "Turnkey hybrid owned-and-partnered multi-band ground station network with automated pass brokerage.",
+        "type": "LogisticsSupportService",
+        "accreditation": "ISO 9001"
       }
     ],
     "parent_company": null,
@@ -75084,25 +75034,19 @@
         "kic": "KIC_SensorsSonar"
       }
     ],
-    "products": [
-      {
-        "name": "Airspace Monitoring Service (AMS)",
-        "description": "Distributed passive/active RF and radar sensor network.",
-        "part_number": "HL-AMS",
-        "fsc_code": "5841",
-        "nsn_code": null,
-        "platforms": [
-          "Platform_TacticalUAS"
-        ],
-        "materials": []
-      }
-    ],
+    "products": [],
     "services": [
       {
         "name": "Airspace Monitoring-as-a-Service",
         "description": "Continuous low-altitude drone tracking feed.",
         "type": "EngineeringService",
         "accreditation": "ISO27001"
+      },
+      {
+        "name": "Airspace Monitoring Service (AMS)",
+        "description": "Distributed passive/active RF and radar sensor network.",
+        "type": "EngineeringService",
+        "accreditation": "ISO 9001"
       }
     ],
     "parent_company": null,
@@ -82697,7 +82641,7 @@
           "Platform_DDG51_ArleighBurke"
         ],
         "materials": [
-          "Material_Titanium_Ti6Al4V"
+          "Material_HY80_HY100_HighStrengthSteel"
         ]
       },
       {
@@ -82711,7 +82655,7 @@
           "Platform_ArmouredCombatVehicle"
         ],
         "materials": [
-          "Material_Titanium_Ti6Al4V"
+          "Material_ArmourSteel_MIL_A_46100"
         ]
       }
     ],

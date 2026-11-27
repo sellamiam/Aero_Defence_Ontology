@@ -20,7 +20,7 @@ class EUHarvester(BaseHarvester):
             {
                 "legal_name": "Airbus SE",
                 "trade_name": "Airbus Defence and Space",
-                "cage_code": "F0259",
+                "cage_code": None,
                 "duns_number": None,
                 "business_number": "NL811928471B01",
                 "country": "FRA",
@@ -106,7 +106,7 @@ class EUHarvester(BaseHarvester):
             {
                 "legal_name": "Dassault Aviation SA",
                 "trade_name": "Dassault Aviation",
-                "cage_code": "F0243",
+                "cage_code": None,
                 "duns_number": None,
                 "business_number": "FR89392817401",
                 "country": "FRA",
@@ -183,7 +183,7 @@ class EUHarvester(BaseHarvester):
             {
                 "legal_name": "Safran SA",
                 "trade_name": "Safran",
-                "cage_code": "F0389",
+                "cage_code": None,
                 "duns_number": None,
                 "business_number": "FR49583920194",
                 "country": "FRA",
@@ -523,7 +523,7 @@ class EUHarvester(BaseHarvester):
                 ],
             },
 {           'business_number': 'FR55552059024',
-                        'cage_code': 'F0211',
+                        'cage_code': None,
                         'capabilities': [           {           'description': 'Design, manufacture, and combat system '
                                                                                'integration of long-range 3D active '
                                                                                'electronically scanned array radars '
@@ -571,7 +571,7 @@ class EUHarvester(BaseHarvester):
                         'trade_name': 'Thales',
                         'website': 'https://www.thalesgroup.com'},
             {           'business_number': 'FR44441133804',
-                        'cage_code': 'F0228',
+                        'cage_code': None,
                         'capabilities': [           {           'description': 'Turnkey warship architecture, '
                                                                                'submerged shock qualification, '
                                                                                'acoustic quieting, and submarine '
@@ -614,7 +614,7 @@ class EUHarvester(BaseHarvester):
                         'trade_name': 'Naval Group',
                         'website': 'https://www.naval-group.com'},
             {           'business_number': 'DE146781928',
-                        'cage_code': 'C1864',
+                        'cage_code': None,
                         'capabilities': [           {           'description': 'Development of solid-propellant guided '
                                                                                'interceptor missiles, dual-mode RF/IIR '
                                                                                'seekers, and multi-canister '
@@ -658,7 +658,7 @@ class EUHarvester(BaseHarvester):
                         'trade_name': 'Diehl Defence',
                         'website': 'https://www.diehl.com/defence'},
             {           'business_number': 'DE313849102',
-                        'cage_code': 'C2630',
+                        'cage_code': None,
                         'capabilities': [           {           'description': 'Gallium nitride (GaN) active antenna '
                                                                                'arrays, high-speed multi-target '
                                                                                'tracking, and airborne self-protection '
@@ -704,7 +704,7 @@ class EUHarvester(BaseHarvester):
                         'trade_name': 'Hensoldt',
                         'website': 'https://www.hensoldt.net'},
             {           'business_number': 'NO943752019',
-                        'cage_code': 'N0012',
+                        'cage_code': None,
                         'capabilities': [           {           'description': 'Engineering of sea-skimming '
                                                                                'low-observable strike missiles, remote '
                                                                                'weapon stations, and unified '
@@ -748,7 +748,7 @@ class EUHarvester(BaseHarvester):
                         'trade_name': 'Kongsberg Defence & Aerospace',
                         'website': 'https://www.kongsberg.com'},
             {           'business_number': 'FI10775982',
-                        'cage_code': 'A069G',
+                        'cage_code': None,
                         'capabilities': [           {           'description': 'Design and manufacture of 8x8 armoured '
                                                                                'combat vehicles, ballistic mine '
                                                                                'protection integration, and aerospace '
@@ -792,7 +792,7 @@ class EUHarvester(BaseHarvester):
                         'trade_name': 'Patria',
                         'website': 'https://www.patriagroup.com'},
             {           'business_number': 'IT00629480322',
-                        'cage_code': 'A0198',
+                        'cage_code': None,
                         'capabilities': [           {           'description': 'Naval architecture, whole-ship modular '
                                                                                'assembly, stealth superstructure '
                                                                                'design, and integrated electric '
@@ -837,7 +837,7 @@ class EUHarvester(BaseHarvester):
                         'trade_name': 'Fincantieri',
                         'website': 'https://www.fincantieri.com'},
             {           'business_number': 'ESB84076397',
-                        'cage_code': 'E0198',
+                        'cage_code': None,
                         'capabilities': [           {           'description': 'Engineering of high-endurance '
                                                                                'submarine air-independent propulsion '
                                                                                'systems, Aegis combat system shipboard '

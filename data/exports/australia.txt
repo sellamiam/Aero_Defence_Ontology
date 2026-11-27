@@ -2,13 +2,12 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-aero:Company_ASC_Pty_Ltd a aero:Company,
+aero:Company_ASC a aero:Company,
         aero:PrimeContractor ;
     aero:businessNumber "AU830086302"^^xsd:string ;
-    aero:cageCode "Z0L25"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:hasCapability aero:Cap_ASC_Pty_Ltd_1,
-        aero:Cap_ASC_Pty_Ltd_2 ;
+    aero:hasCapability aero:Cap_ASC_1,
+        aero:Cap_ASC_2 ;
     aero:headquartersCity "Osborne"^^xsd:string ;
     aero:headquartersCountry "AUS"^^xsd:string ;
     aero:headquartersProvince "SA"^^xsd:string ;
@@ -18,24 +17,23 @@ aero:Company_ASC_Pty_Ltd a aero:Company,
         aero:Cert_NATO_AQAP2110 ;
     aero:itarCompliant true ;
     aero:legalName "ASC Pty Ltd"^^xsd:string ;
-    aero:manufacturesProduct aero:Product_ASC_Pty_Ltd_Collins_Class_Submarine_Life_Extension_Modules ;
+    aero:manufacturesProduct aero:Product_ASC_Collins_Class_Submarine_Life_Extension_Modules ;
     aero:operatesInDomain aero:DomainDefence,
         aero:MaritimePlatform ;
-    aero:providesService aero:Service_ASC_Pty_Ltd_247_Submarine_Operational_Fleet_In_Service_Maintenance_Support,
-        aero:Service_ASC_Pty_Ltd_Naval_Acoustic_Signature_Quieting_Vibration_Damping_Engineering,
-        aero:Service_ASC_Pty_Ltd_Submarine_Depot_Level_Electrical_Machinery_Overhaul,
-        aero:Service_ASC_Pty_Ltd_Submarine_Escape_and_Life_Support_System_Recertification,
-        aero:Service_ASC_Pty_Ltd_Submarine_Pressure_Hull_Non_Destructive_Testing_and_Ultrasonic_Crack_Sizing ;
+    aero:providesService aero:Service_ASC_247_Submarine_Operational_Fleet_In_Service_Maintenance_Support,
+        aero:Service_ASC_Naval_Acoustic_Signature_Quieting_Vibration_Damping_Engineering,
+        aero:Service_ASC_Submarine_Depot_Level_Electrical_Machinery_Overhaul,
+        aero:Service_ASC_Submarine_Escape_and_Life_Support_System_Recertification,
+        aero:Service_ASC_Submarine_Pressure_Hull_Non_Destructive_Testing_and_Ultrasonic_Crack_Sizing ;
     aero:tradeName "ASC"^^xsd:string ;
     aero:website "https://www.asc.com.au"^^xsd:anyURI .
 
-aero:Company_Austal_Limited a aero:Company,
+aero:Company_Austal a aero:Company,
         aero:PrimeContractor ;
     aero:businessNumber "AU540092646"^^xsd:string ;
-    aero:cageCode "Z0C81"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:hasCapability aero:Cap_Austal_Limited_1,
-        aero:Cap_Austal_Limited_2 ;
+    aero:hasCapability aero:Cap_Austal_1,
+        aero:Cap_Austal_2 ;
     aero:headquartersCity "Henderson"^^xsd:string ;
     aero:headquartersCountry "AUS"^^xsd:string ;
     aero:headquartersProvince "WA"^^xsd:string ;
@@ -45,24 +43,23 @@ aero:Company_Austal_Limited a aero:Company,
         aero:Cert_NATO_AQAP2110 ;
     aero:itarCompliant true ;
     aero:legalName "Austal Limited"^^xsd:string ;
-    aero:manufacturesProduct aero:Product_Austal_Limited_Cape_Class_Patrol_Boat,
-        aero:Product_Austal_Limited_Guardian_Class_Patrol_Boat ;
+    aero:manufacturesProduct aero:Product_Austal_Cape_Class_Patrol_Boat,
+        aero:Product_Austal_Guardian_Class_Patrol_Boat ;
     aero:operatesInDomain aero:DomainDefence,
         aero:MaritimePlatform ;
-    aero:providesService aero:Service_Austal_Limited_High_Speed_Naval_Hydrodynamic_Computational_Fluid_Dynamics_CFD,
-        aero:Service_Austal_Limited_Marine_Aluminium_Non_Destructive_Ultrasonic_Weld_Testing,
-        aero:Service_Austal_Limited_Naval_Crew_Operational_Sea_Training_Damage_Control_Instruction,
-        aero:Service_Austal_Limited_Naval_Fleet_Sustaining_In_Service_Support,
-        aero:Service_Austal_Limited_Shipboard_Combat_Communication_System_Integration ;
+    aero:providesService aero:Service_Austal_High_Speed_Naval_Hydrodynamic_Computational_Fluid_Dynamics_CFD,
+        aero:Service_Austal_Marine_Aluminium_Non_Destructive_Ultrasonic_Weld_Testing,
+        aero:Service_Austal_Naval_Crew_Operational_Sea_Training_Damage_Control_Instruction,
+        aero:Service_Austal_Naval_Fleet_Sustaining_In_Service_Support,
+        aero:Service_Austal_Shipboard_Combat_Communication_System_Integration ;
     aero:tradeName "Austal"^^xsd:string ;
     aero:website "https://www.austal.com"^^xsd:anyURI .
 
-aero:Company_Bisalloy_Steels_Pty_Ltd a aero:Company,
+aero:Company_Bisalloy_Steels a aero:Company,
         aero:Tier2Supplier ;
     aero:businessNumber "AU220982341"^^xsd:string ;
-    aero:cageCode "Z0B33"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:hasCapability aero:Cap_Bisalloy_Steels_Pty_Ltd_1 ;
+    aero:hasCapability aero:Cap_Bisalloy_Steels_1 ;
     aero:headquartersCity "Unanderra"^^xsd:string ;
     aero:headquartersCountry "AUS"^^xsd:string ;
     aero:headquartersProvince "NSW"^^xsd:string ;
@@ -71,21 +68,20 @@ aero:Company_Bisalloy_Steels_Pty_Ltd a aero:Company,
         aero:Cert_ISO9001 ;
     aero:itarCompliant true ;
     aero:legalName "Bisalloy Steels Pty Ltd"^^xsd:string ;
-    aero:manufacturesProduct aero:Product_Bisalloy_Steels_Pty_Ltd_BISALLOY_Armour_High_Hardness_Ballistic_Protection_Plate ;
+    aero:manufacturesProduct aero:Product_Bisalloy_Steels_BISALLOY_Armour_High_Hardness_Ballistic_Protection_Plate ;
     aero:operatesInDomain aero:DomainDefence,
         aero:LandPlatform,
         aero:MaritimePlatform ;
-    aero:providesService aero:Service_Bisalloy_Steels_Pty_Ltd_Ballistic_V50_Armor_Perforation_Testing_Metallurgical_Failure_Analysis ;
+    aero:providesService aero:Service_Bisalloy_Steels_Ballistic_V50_Armor_Perforation_Testing_Metallurgical_Failure_Analysis ;
     aero:tradeName "Bisalloy"^^xsd:string ;
     aero:website "https://www.bisalloy.com.au"^^xsd:anyURI .
 
-aero:Company_DroneShield_Limited a aero:Company,
+aero:Company_DroneShield a aero:Company,
         aero:Tier1Supplier ;
     aero:businessNumber "AU266089132"^^xsd:string ;
-    aero:cageCode "Z0I82"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:hasCapability aero:Cap_DroneShield_Limited_1,
-        aero:Cap_DroneShield_Limited_2 ;
+    aero:hasCapability aero:Cap_DroneShield_1,
+        aero:Cap_DroneShield_2 ;
     aero:headquartersCity "Sydney"^^xsd:string ;
     aero:headquartersCountry "AUS"^^xsd:string ;
     aero:headquartersProvince "NSW"^^xsd:string ;
@@ -94,25 +90,24 @@ aero:Company_DroneShield_Limited a aero:Company,
         aero:Cert_ISO9001 ;
     aero:itarCompliant true ;
     aero:legalName "DroneShield Limited"^^xsd:string ;
-    aero:manufacturesProduct aero:Product_DroneShield_Limited_DroneGun_Mk4_Handheld_Counter_UAS_Neutralizer,
-        aero:Product_DroneShield_Limited_RfPatrol_Mk2_Body_Worn_Drone_Detection_Device ;
+    aero:manufacturesProduct aero:Product_DroneShield_DroneGun_Mk4_Handheld_Counter_UAS_Neutralizer,
+        aero:Product_DroneShield_RfPatrol_Mk2_Body_Worn_Drone_Detection_Device ;
     aero:operatesInDomain aero:AirPlatform,
         aero:DomainDefence ;
-    aero:providesService aero:Service_DroneShield_Limited_C_UAS_Hardware_Depot_Servicing_and_Antenna_Tuning,
-        aero:Service_DroneShield_Limited_Counter_Drone_Fleet_Logistics_Spares_Turnaround,
-        aero:Service_DroneShield_Limited_Counter_UAS_System_Site_Survey_RF_Propagation_Mapping,
-        aero:Service_DroneShield_Limited_Military_Law_Enforcement_C_UAS_Tactical_Operator_Training,
-        aero:Service_DroneShield_Limited_RF_Spectrum_Threat_Signature_Analysis_Software_Library_Updates ;
+    aero:providesService aero:Service_DroneShield_C_UAS_Hardware_Depot_Servicing_and_Antenna_Tuning,
+        aero:Service_DroneShield_Counter_Drone_Fleet_Logistics_Spares_Turnaround,
+        aero:Service_DroneShield_Counter_UAS_System_Site_Survey_RF_Propagation_Mapping,
+        aero:Service_DroneShield_Military_Law_Enforcement_C_UAS_Tactical_Operator_Training,
+        aero:Service_DroneShield_RF_Spectrum_Threat_Signature_Analysis_Software_Library_Updates ;
     aero:tradeName "DroneShield"^^xsd:string ;
     aero:website "https://www.droneshield.com"^^xsd:anyURI .
 
-aero:Company_Electro_Optic_Systems_Pty_Ltd a aero:Company,
+aero:Company_Electro_Optic_Systems a aero:Company,
         aero:PrimeContractor ;
     aero:businessNumber "AU720928172"^^xsd:string ;
-    aero:cageCode "Z0B44"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:hasCapability aero:Cap_Electro_Optic_Systems_Pty_Ltd_1,
-        aero:Cap_Electro_Optic_Systems_Pty_Ltd_2 ;
+    aero:hasCapability aero:Cap_Electro_Optic_Systems_1,
+        aero:Cap_Electro_Optic_Systems_2 ;
     aero:headquartersCity "Symonston"^^xsd:string ;
     aero:headquartersCountry "AUS"^^xsd:string ;
     aero:headquartersProvince "ACT"^^xsd:string ;
@@ -122,25 +117,24 @@ aero:Company_Electro_Optic_Systems_Pty_Ltd a aero:Company,
         aero:Cert_ISO9001 ;
     aero:itarCompliant true ;
     aero:legalName "Electro Optic Systems Pty Ltd"^^xsd:string ;
-    aero:manufacturesProduct aero:Product_Electro_Optic_Systems_Pty_Ltd_R800_Heavy_Remote_Weapon_Station,
-        aero:Product_Electro_Optic_Systems_Pty_Ltd_Titanis_Counter_UAS_Laser_Weapon_System ;
+    aero:manufacturesProduct aero:Product_Electro_Optic_Systems_R800_Heavy_Remote_Weapon_Station,
+        aero:Product_Electro_Optic_Systems_Titanis_Counter_UAS_Laser_Weapon_System ;
     aero:operatesInDomain aero:DomainDefence,
         aero:LandPlatform,
         aero:SpacePlatform ;
-    aero:providesService aero:Service_Electro_Optic_Systems_Pty_Ltd_Combat_Vehicle_Turret_Integration_and_Weapon_Harmonization,
-        aero:Service_Electro_Optic_Systems_Pty_Ltd_Defence_Weapon_Station_Operator_Maintenance_Training,
-        aero:Service_Electro_Optic_Systems_Pty_Ltd_RWS_Gyro_Stabilization_Dynamic_Shake_Table_Qualification,
-        aero:Service_Electro_Optic_Systems_Pty_Ltd_Remote_Weapon_Station_Depot_Overhaul_Fire_Control_Recalibration,
-        aero:Service_Electro_Optic_Systems_Pty_Ltd_Space_Situational_Awareness_Orbital_Telemetry_Services ;
+    aero:providesService aero:Service_Electro_Optic_Systems_Combat_Vehicle_Turret_Integration_and_Weapon_Harmonization,
+        aero:Service_Electro_Optic_Systems_Defence_Weapon_Station_Operator_Maintenance_Training,
+        aero:Service_Electro_Optic_Systems_RWS_Gyro_Stabilization_Dynamic_Shake_Table_Qualification,
+        aero:Service_Electro_Optic_Systems_Remote_Weapon_Station_Depot_Overhaul_Fire_Control_Recalibration,
+        aero:Service_Electro_Optic_Systems_Space_Situational_Awareness_Orbital_Telemetry_Services ;
     aero:tradeName "EOS Defence Systems"^^xsd:string ;
     aero:website "https://www.eos-aus.com"^^xsd:anyURI .
 
-aero:Company_Marand_Precision_Engineering_Pty_Ltd a aero:Company,
+aero:Company_Marand_Precision_Engineering a aero:Company,
         aero:Tier2Supplier ;
     aero:businessNumber "AU290046128"^^xsd:string ;
-    aero:cageCode "Z0M22"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:hasCapability aero:Cap_Marand_Precision_Engineering_Pty_Ltd_1 ;
+    aero:hasCapability aero:Cap_Marand_Precision_Engineering_1 ;
     aero:headquartersCity "Moorabbin"^^xsd:string ;
     aero:headquartersCountry "AUS"^^xsd:string ;
     aero:headquartersProvince "VIC"^^xsd:string ;
@@ -149,20 +143,19 @@ aero:Company_Marand_Precision_Engineering_Pty_Ltd a aero:Company,
         aero:Cert_ISO9001 ;
     aero:itarCompliant true ;
     aero:legalName "Marand Precision Engineering Pty Ltd"^^xsd:string ;
-    aero:manufacturesProduct aero:Product_Marand_Precision_Engineering_Pty_Ltd_F_35_Lightning_II_Engine_Removal_and_Installation_Trailer_ERIT ;
+    aero:manufacturesProduct aero:Product_Marand_Precision_Engineering_F_35_Lightning_II_Engine_Removal_and_Installation_Trailer_ERIT ;
     aero:operatesInDomain aero:AirPlatform,
         aero:DomainDefence,
         aero:LandPlatform ;
-    aero:providesService aero:Service_Marand_Precision_Engineering_Pty_Ltd_Aerospace_Tooling_Design_Calibration_Precision_Mechanical_CMM_Inspection ;
+    aero:providesService aero:Service_Marand_Precision_Engineering_Aerospace_Tooling_Design_Calibration_Precision_Mechanical_CMM_Inspection ;
     aero:tradeName "Marand"^^xsd:string ;
     aero:website "https://www.marand.com.au"^^xsd:anyURI .
 
-aero:Company_NIOA_Group_Pty_Ltd a aero:Company,
+aero:Company_NIOA_Group a aero:Company,
         aero:Tier1Supplier ;
     aero:businessNumber "AU380928412"^^xsd:string ;
-    aero:cageCode "Z0N10"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:hasCapability aero:Cap_NIOA_Group_Pty_Ltd_1 ;
+    aero:hasCapability aero:Cap_NIOA_Group_1 ;
     aero:headquartersCity "Brisbane"^^xsd:string ;
     aero:headquartersCountry "AUS"^^xsd:string ;
     aero:headquartersProvince "QLD"^^xsd:string ;
@@ -171,19 +164,18 @@ aero:Company_NIOA_Group_Pty_Ltd a aero:Company,
         aero:Cert_NATO_AQAP2110 ;
     aero:itarCompliant true ;
     aero:legalName "NIOA Group Pty Ltd"^^xsd:string ;
-    aero:manufacturesProduct aero:Product_NIOA_Group_Pty_Ltd_155mm_Assegai_Artillery_Projectiles_and_High_Explosive_Forgings ;
+    aero:manufacturesProduct aero:Product_NIOA_Group_155mm_Assegai_Artillery_Projectiles_and_High_Explosive_Forgings ;
     aero:operatesInDomain aero:DomainDefence,
         aero:LandPlatform ;
-    aero:providesService aero:Service_NIOA_Group_Pty_Ltd_Munitions_Proofing_Ballistic_Range_Testing_Demilitarization_Services ;
+    aero:providesService aero:Service_NIOA_Group_Munitions_Proofing_Ballistic_Range_Testing_Demilitarization_Services ;
     aero:tradeName "NIOA"^^xsd:string ;
     aero:website "https://www.nioa.com.au"^^xsd:anyURI .
 
-aero:Company_Thomas_Global_Systems_Pty_Ltd a aero:Company,
+aero:Company_Thomas_Global_Systems a aero:Company,
         aero:Tier1Supplier ;
     aero:businessNumber "AU620038912"^^xsd:string ;
-    aero:cageCode "Z0T11"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:hasCapability aero:Cap_Thomas_Global_Systems_Pty_Ltd_1 ;
+    aero:hasCapability aero:Cap_Thomas_Global_Systems_1 ;
     aero:headquartersCity "Silverwater"^^xsd:string ;
     aero:headquartersCountry "AUS"^^xsd:string ;
     aero:headquartersProvince "NSW"^^xsd:string ;
@@ -192,148 +184,148 @@ aero:Company_Thomas_Global_Systems_Pty_Ltd a aero:Company,
         aero:Cert_ISO9001 ;
     aero:itarCompliant true ;
     aero:legalName "Thomas Global Systems Pty Ltd"^^xsd:string ;
-    aero:manufacturesProduct aero:Product_Thomas_Global_Systems_Pty_Ltd_TFD_7000_High_Reliability_AMLCD_Flight_Display_Unit ;
+    aero:manufacturesProduct aero:Product_Thomas_Global_Systems_TFD_7000_High_Reliability_AMLCD_Flight_Display_Unit ;
     aero:operatesInDomain aero:AirPlatform,
         aero:DomainDefence,
         aero:LandPlatform ;
-    aero:providesService aero:Service_Thomas_Global_Systems_Pty_Ltd_Avionics_Depot_Level_Repair_Obsolescence_Management_DO_254_Hardware_Engineering ;
+    aero:providesService aero:Service_Thomas_Global_Systems_Avionics_Depot_Level_Repair_Obsolescence_Management_DO_254_Hardware_Engineering ;
     aero:tradeName "Thomas Global Systems"^^xsd:string ;
     aero:website "https://www.thomas-global.com"^^xsd:anyURI .
 
-aero:Cap_ASC_Pty_Ltd_1 a aero:Capability ;
+aero:Cap_ASC_1 a aero:Capability ;
     rdfs:label "Submarine Full-Cycle Docking (FCD) and Deep Maintenance"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_InServiceSupport ;
     aero:capabilityDescription "Depot-level hull cutting, diesel engine overhaul, main propulsion motor rewinding, battery replacement, and pressure hull recertification."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_ASC_Pty_Ltd_2 a aero:Capability ;
+aero:Cap_ASC_2 a aero:Capability ;
     rdfs:label "Submarine Combat System Modernization & Sonar Upgrades"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_DefenceSystemsIntegration ;
     aero:capabilityDescription "Integration of BYG-1 tactical combat system, acoustic signature quietening, and periscope optronic mast retrofits."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_Austal_Limited_1 a aero:Capability ;
+aero:Cap_Austal_1 a aero:Capability ;
     rdfs:label "High-Speed Aluminium and Steel Naval Ship Construction"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_NavalShipbuilding ;
     aero:capabilityDescription "Naval patrol boats, expeditionary fast transports (EPF), and littoral combat trimarans."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_Austal_Limited_2 a aero:Capability ;
+aero:Cap_Austal_2 a aero:Capability ;
     rdfs:label "Autonomous Vessel Command and Machinery Control Systems"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_AIAutonomousSystems ;
     aero:capabilityDescription "Uncrewed surface vessel control software, health monitoring telemetry, and automated damage control systems."^^xsd:string ;
     aero:mrlValue 8 ;
     aero:trlValue 8 .
 
-aero:Cap_BAE_Systems_Australia_Limited_1 a aero:Capability ;
+aero:Cap_BAE_Systems_Australia_1 a aero:Capability ;
     rdfs:label "Hunter-Class Anti-Submarine Warfare Frigate Prime Integration"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_NavalShipbuilding ;
     aero:capabilityDescription "Digital shipyard manufacturing, combat systems integration, and acoustic signature management for Tier-1 naval warships."^^xsd:string ;
     aero:mrlValue 8 ;
     aero:trlValue 9 .
 
-aero:Cap_BAE_Systems_Australia_Limited_2 a aero:Capability ;
+aero:Cap_BAE_Systems_Australia_2 a aero:Capability ;
     rdfs:label "MQ-28A Ghost Bat Collaborative Combat Aircraft Teaming Integration"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_AIAutonomousSystems ;
     aero:capabilityDescription "Australian-designed autonomous loyal wingman uncrewed combat aircraft payload integration and structural subassemblies."^^xsd:string ;
     aero:mrlValue 8 ;
     aero:trlValue 8 .
 
-aero:Cap_Bisalloy_Steels_Pty_Ltd_1 a aero:Capability ;
+aero:Cap_Bisalloy_Steels_1 a aero:Capability ;
     rdfs:label "Quenched and Tempered High-Hardness Structural Armour Steel Plate Rolling and Testing"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_AdvancedMaterials ;
     aero:capabilityDescription "Continuous quench-and-temper heat treatment of ultra-high hardness military ballistic protection steel plates for combat vehicles and submarines."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_CEA_Technologies_Pty_Ltd_1 a aero:Capability ;
+aero:Cap_CEA_Technologies_1 a aero:Capability ;
     rdfs:label "Active Electronically Scanned Array (AESA) Digital Phased Array Radar Systems"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_SensorsSonar ;
     aero:capabilityDescription "CEAFAR active phased array radar technology for multi-mission air search, missile fire control, and surface target tracking."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_CEA_Technologies_Pty_Ltd_2 a aero:Capability ;
+aero:Cap_CEA_Technologies_2 a aero:Capability ;
     rdfs:label "Integrated Surface Combatant Sensor Mast Assemblies"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_DefenceSystemsIntegration ;
     aero:capabilityDescription "High-power RF integrated mast apertures for Hunter-class and Anzac-class frigates."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_DroneShield_Limited_1 a aero:Capability ;
+aero:Cap_DroneShield_1 a aero:Capability ;
     rdfs:label "Artificial Intelligence RF Counter-Drone Signal Classification"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_AIAutonomousSystems ;
     aero:capabilityDescription "Deep learning convolutional neural network algorithms analyzing radio frequency spectrum in real-time to detect, classify, and track UAS protocols and video downlinks."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_DroneShield_Limited_2 a aero:Capability ;
+aero:Cap_DroneShield_2 a aero:Capability ;
     rdfs:label "Directional Multi-Band Tactical Jamming Defeat Systems"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_RemotelyPilotedSystems ;
     aero:capabilityDescription "Disruption of GNSS (GPS, GLONASS, Galileo, BeiDou) and ISM control bands (433MHz, 915MHz, 2.4GHz, 5.8GHz) to neutralize hostile autonomous drones."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_Electro_Optic_Systems_Pty_Ltd_1 a aero:Capability ;
+aero:Cap_Electro_Optic_Systems_1 a aero:Capability ;
     rdfs:label "Remote Weapon Systems (RWS) & Counter-UAS Directed Energy"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_EOIRSystems ;
     aero:capabilityDescription "Stabilized remote weapon stations and high-energy laser counter-drone systems with computer vision fire control."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_Electro_Optic_Systems_Pty_Ltd_2 a aero:Capability ;
+aero:Cap_Electro_Optic_Systems_2 a aero:Capability ;
     rdfs:label "High-Precision Space Domain Awareness & Optical Satellite Tracking"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_SpaceSystems ;
     aero:capabilityDescription "Laser tracking of low-Earth orbit satellites and space debris with sub-meter astrometric accuracy."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_Ferra_Engineering_Pty_Ltd_1 a aero:Capability ;
+aero:Cap_Ferra_Engineering_1 a aero:Capability ;
     rdfs:label "Precision 5-Axis Titanium and Inconel Structural Machining"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_AerospaceSystems ;
     aero:capabilityDescription "Complex monolithic structural airframe fittings, weapon bay adapters, and titanium components for Boeing, Lockheed Martin, and Northrop Grumman."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_Ferra_Engineering_Pty_Ltd_2 a aero:Capability ;
+aero:Cap_Ferra_Engineering_2 a aero:Capability ;
     rdfs:label "Electro-Mechanical Weapon Bay Actuation Subassemblies"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_AerospaceSystems ;
     aero:capabilityDescription "Turnkey assembly and functional testing of internal weapon bay door drive mechanisms and bomb rack adapters."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_Marand_Precision_Engineering_Pty_Ltd_1 a aero:Capability ;
+aero:Cap_Marand_Precision_Engineering_1 a aero:Capability ;
     rdfs:label "Flight-Critical 5-Axis Precision Aerospace Tooling and Structural Ground Support Equipment"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_AerospaceSystems ;
     aero:capabilityDescription "High-tolerance titanium and high-tensile steel aerostructure machining, automated assembly tooling jigs, and global F-35 engine handling equipment."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_NIOA_Group_Pty_Ltd_1 a aero:Capability ;
+aero:Cap_NIOA_Group_1 a aero:Capability ;
     rdfs:label "Sovereign Medium- and Large-Calibre Guided Munitions Manufacturing & Lethality Systems"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_MissilesAmmunition ;
     aero:capabilityDescription "Deep-draw forging, machining, explosive filling, and ballistic proofing of 155mm artillery shells and precision cannon ammunition."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_Quickstep_Holdings_Limited_1 a aero:Capability ;
+aero:Cap_Quickstep_1 a aero:Capability ;
     rdfs:label "Advanced Carbon-Fiber Composite Aerostructure Autoclave Manufacturing"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_AdvancedMaterials ;
     aero:capabilityDescription "Out-of-autoclave and autoclave cured composite vertical tails, wing skins, and composite fairings for F-35 Lightning II and C-130J."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_Quickstep_Holdings_Limited_2 a aero:Capability ;
+aero:Cap_Quickstep_2 a aero:Capability ;
     rdfs:label "Automated Fiber Placement (AFP) & Out-of-Autoclave Curing"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_AdvancedMaterials ;
     aero:capabilityDescription "Robotic automated fiber placement, resin infusion, and rapid cure composite processing for uncrewed combat aircraft."^^xsd:string ;
     aero:mrlValue 8 ;
     aero:trlValue 8 .
 
-aero:Cap_Thomas_Global_Systems_Pty_Ltd_1 a aero:Capability ;
+aero:Cap_Thomas_Global_Systems_1 a aero:Capability ;
     rdfs:label "Cathode Ray Tube to Active Matrix LCD Military Avionics Retrofit and Targeting Sight Displays"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_AvionicsOptronics ;
     aero:capabilityDescription "Engineering and manufacture of plug-and-play digital AMLCD cockpit flight displays, vehicle crew commander targeting monitors, and mission system processors."^^xsd:string ;
@@ -341,17 +333,16 @@ aero:Cap_Thomas_Global_Systems_Pty_Ltd_1 a aero:Capability ;
     aero:trlValue 9 .
 
 aero:Company_BAE_Systems_plc a aero:Company ;
-    aero:hasDirectSupplier aero:Company_Quickstep_Holdings_Limited ;
+    aero:hasDirectSupplier aero:Company_Quickstep ;
     aero:headquartersCountry "GBR"^^xsd:string ;
     aero:legalName "BAE Systems plc"^^xsd:string .
 
-aero:Company_CEA_Technologies_Pty_Ltd a aero:Company,
+aero:Company_CEA_Technologies a aero:Company,
         aero:PrimeContractor ;
     aero:businessNumber "AU990086452"^^xsd:string ;
-    aero:cageCode "Z0A12"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:hasCapability aero:Cap_CEA_Technologies_Pty_Ltd_1,
-        aero:Cap_CEA_Technologies_Pty_Ltd_2 ;
+    aero:hasCapability aero:Cap_CEA_Technologies_1,
+        aero:Cap_CEA_Technologies_2 ;
     aero:headquartersCity "Canberra"^^xsd:string ;
     aero:headquartersCountry "AUS"^^xsd:string ;
     aero:headquartersProvince "ACT"^^xsd:string ;
@@ -362,28 +353,27 @@ aero:Company_CEA_Technologies_Pty_Ltd a aero:Company,
         aero:Cert_NATO_AQAP2110 ;
     aero:itarCompliant true ;
     aero:legalName "CEA Technologies Pty Ltd"^^xsd:string ;
-    aero:manufacturesProduct aero:Product_CEA_Technologies_Pty_Ltd_CEAFAR_3D_Active_Phased_Array_Radar,
-        aero:Product_CEA_Technologies_Pty_Ltd_CEAMOUNT_Continuous_Wave_Illuminator ;
+    aero:manufacturesProduct aero:Product_CEA_Technologies_CEAFAR_3D_Active_Phased_Array_Radar,
+        aero:Product_CEA_Technologies_CEAMOUNT_Continuous_Wave_Illuminator ;
     aero:operatesInDomain aero:AirPlatform,
         aero:DomainDefence,
         aero:LandPlatform,
         aero:MaritimePlatform ;
-    aero:providesService aero:Service_CEA_Technologies_Pty_Ltd_AESA_TransmitReceive_Module_Microelectronic_Rework,
-        aero:Service_CEA_Technologies_Pty_Ltd_Naval_Combat_System_Radar_Signal_Integration,
-        aero:Service_CEA_Technologies_Pty_Ltd_Naval_Radar_In_Service_Support_and_Lifecycle_Upgrade_Engineering,
-        aero:Service_CEA_Technologies_Pty_Ltd_Phased_Array_Radar_Anechoic_Chamber_Calibration,
-        aero:Service_CEA_Technologies_Pty_Ltd_Royal_Australian_Navy_Operational_Radar_Technical_Support ;
-    aero:suppliesTo aero:Company_BAE_Systems_Australia_Limited ;
+    aero:providesService aero:Service_CEA_Technologies_AESA_TransmitReceive_Module_Microelectronic_Rework,
+        aero:Service_CEA_Technologies_Naval_Combat_System_Radar_Signal_Integration,
+        aero:Service_CEA_Technologies_Naval_Radar_In_Service_Support_and_Lifecycle_Upgrade_Engineering,
+        aero:Service_CEA_Technologies_Phased_Array_Radar_Anechoic_Chamber_Calibration,
+        aero:Service_CEA_Technologies_Royal_Australian_Navy_Operational_Radar_Technical_Support ;
+    aero:suppliesTo aero:Company_BAE_Systems_Australia ;
     aero:tradeName "CEA Technologies"^^xsd:string ;
     aero:website "https://www.cea.com.au"^^xsd:anyURI .
 
-aero:Company_Ferra_Engineering_Pty_Ltd a aero:Company,
+aero:Company_Ferra_Engineering a aero:Company,
         aero:Tier1Supplier ;
     aero:businessNumber "AU340081928"^^xsd:string ;
-    aero:cageCode "Z0E33"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:hasCapability aero:Cap_Ferra_Engineering_Pty_Ltd_1,
-        aero:Cap_Ferra_Engineering_Pty_Ltd_2 ;
+    aero:hasCapability aero:Cap_Ferra_Engineering_1,
+        aero:Cap_Ferra_Engineering_2 ;
     aero:headquartersCity "Tingalpa"^^xsd:string ;
     aero:headquartersCountry "AUS"^^xsd:string ;
     aero:headquartersProvince "QLD"^^xsd:string ;
@@ -394,20 +384,20 @@ aero:Company_Ferra_Engineering_Pty_Ltd a aero:Company,
         aero:Cert_NADCAP_Chemical ;
     aero:itarCompliant true ;
     aero:legalName "Ferra Engineering Pty Ltd"^^xsd:string ;
-    aero:manufacturesProduct aero:Product_Ferra_Engineering_Pty_Ltd_Boeing_P_8_Poseidon_Titanium_Wing_Fittings,
-        aero:Product_Ferra_Engineering_Pty_Ltd_F_35_Weapons_Bay_Mechanical_Actuation_Mechanisms ;
+    aero:manufacturesProduct aero:Product_Ferra_Engineering_Boeing_P_8_Poseidon_Titanium_Wing_Fittings,
+        aero:Product_Ferra_Engineering_F_35_Weapons_Bay_Mechanical_Actuation_Mechanisms ;
     aero:operatesInDomain aero:AirPlatform,
         aero:DomainDefence ;
-    aero:providesService aero:Service_Ferra_Engineering_Pty_Ltd_Aerospace_Subassembly_Hydraulic_Load_Proof_Testing,
-        aero:Service_Ferra_Engineering_Pty_Ltd_Fluorescent_Penetrant_and_Magnetic_Particle_Inspection_NDT,
-        aero:Service_Ferra_Engineering_Pty_Ltd_Precision_Titanium_Bushing_Bearings_Installation_and_Re_work,
-        aero:Service_Ferra_Engineering_Pty_Ltd_Surface_Finishing_Anodizing_Chemical_Passivation,
-        aero:Service_Ferra_Engineering_Pty_Ltd_Vendor_Managed_Inventory_VMI_Spares_Provisioning ;
-    aero:suppliesTo aero:Company_BAE_Systems_Australia_Limited ;
+    aero:providesService aero:Service_Ferra_Engineering_Aerospace_Subassembly_Hydraulic_Load_Proof_Testing,
+        aero:Service_Ferra_Engineering_Fluorescent_Penetrant_and_Magnetic_Particle_Inspection_NDT,
+        aero:Service_Ferra_Engineering_Precision_Titanium_Bushing_Bearings_Installation_and_Re_work,
+        aero:Service_Ferra_Engineering_Surface_Finishing_Anodizing_Chemical_Passivation,
+        aero:Service_Ferra_Engineering_Vendor_Managed_Inventory_VMI_Spares_Provisioning ;
+    aero:suppliesTo aero:Company_BAE_Systems_Australia ;
     aero:tradeName "Ferra Aerospace"^^xsd:string ;
     aero:website "https://www.ferra-group.com"^^xsd:anyURI .
 
-aero:Product_ASC_Pty_Ltd_Collins_Class_Submarine_Life_Extension_Modules a aero:Product ;
+aero:Product_ASC_Collins_Class_Submarine_Life_Extension_Modules a aero:Product ;
     rdfs:label "Collins-Class Submarine Life Extension Modules"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_Titanium_Ti6Al4V ;
     aero:deployedOnPlatform aero:Platform_CollinsClass_Submarine ;
@@ -416,7 +406,7 @@ aero:Product_ASC_Pty_Ltd_Collins_Class_Submarine_Life_Extension_Modules a aero:P
     aero:partNumber "PN-AUS-ASC-LVT01"^^xsd:string ;
     aero:productDescription "High-efficiency diesel generator sets, digital power conversion cabinets, and optronic sensor masts."^^xsd:string .
 
-aero:Product_Austal_Limited_Cape_Class_Patrol_Boat a aero:Product ;
+aero:Product_Austal_Cape_Class_Patrol_Boat a aero:Product ;
     rdfs:label "Cape-Class Patrol Boat"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_AluminiumLithium_2055 ;
     aero:deployedOnPlatform aero:Platform_SurfaceCombatant ;
@@ -425,7 +415,7 @@ aero:Product_Austal_Limited_Cape_Class_Patrol_Boat a aero:Product ;
     aero:partNumber "PN-AUS-AST-CCPB01"^^xsd:string ;
     aero:productDescription "58-meter aluminium monohull patrol boat designed for border protection, maritime security, and counter-smuggling."^^xsd:string .
 
-aero:Product_Austal_Limited_Guardian_Class_Patrol_Boat a aero:Product ;
+aero:Product_Austal_Guardian_Class_Patrol_Boat a aero:Product ;
     rdfs:label "Guardian-Class Patrol Boat"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_Titanium_Ti6Al4V ;
     aero:deployedOnPlatform aero:Platform_SurfaceCombatant ;
@@ -434,7 +424,7 @@ aero:Product_Austal_Limited_Guardian_Class_Patrol_Boat a aero:Product ;
     aero:partNumber "PN-AUS-AST-GCPB01"^^xsd:string ;
     aero:productDescription "39.5-meter steel hull patrol boat for sovereign Pacific maritime surveillance and disaster relief operations."^^xsd:string .
 
-aero:Product_BAE_Systems_Australia_Limited_Hunter_Class_Guided_Missile_Frigate a aero:Product ;
+aero:Product_BAE_Systems_Australia_Hunter_Class_Guided_Missile_Frigate a aero:Product ;
     rdfs:label "Hunter-Class Guided Missile Frigate"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_Titanium_Ti6Al4V ;
     aero:deployedOnPlatform aero:Platform_HunterClass_Frigate ;
@@ -443,7 +433,7 @@ aero:Product_BAE_Systems_Australia_Limited_Hunter_Class_Guided_Missile_Frigate a
     aero:partNumber "PN-AUS-BAE-HCF01"^^xsd:string ;
     aero:productDescription "Anti-submarine warfare surface combatant equipped with CEAFAR2 phased array radar and Aegis combat system."^^xsd:string .
 
-aero:Product_BAE_Systems_Australia_Limited_Nulka_Active_Missile_Decoy_System a aero:Product ;
+aero:Product_BAE_Systems_Australia_Nulka_Active_Missile_Decoy_System a aero:Product ;
     rdfs:label "Nulka Active Missile Decoy System"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_CarbonFiber_Composite,
         aero:Material_Inconel_718 ;
@@ -453,7 +443,7 @@ aero:Product_BAE_Systems_Australia_Limited_Nulka_Active_Missile_Decoy_System a a
     aero:partNumber "PN-AUS-BAE-NLK01"^^xsd:string ;
     aero:productDescription "Rocket-propelled active expendable off-board decoy neutralizing anti-ship cruise missiles."^^xsd:string .
 
-aero:Product_Bisalloy_Steels_Pty_Ltd_BISALLOY_Armour_High_Hardness_Ballistic_Protection_Plate a aero:Product ;
+aero:Product_Bisalloy_Steels_BISALLOY_Armour_High_Hardness_Ballistic_Protection_Plate a aero:Product ;
     rdfs:label "BISALLOY Armour High-Hardness Ballistic Protection Plate"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_ArmourSteel_MIL_A_46100 ;
     aero:deployedOnPlatform aero:Platform_GroundCombatVehicle,
@@ -463,7 +453,7 @@ aero:Product_Bisalloy_Steels_Pty_Ltd_BISALLOY_Armour_High_Hardness_Ballistic_Pro
     aero:partNumber "PN-AUS-BIS-ARM500"^^xsd:string ;
     aero:productDescription "MIL-A-46100 and STANAG 4569 certified quench-and-tempered armor steel plate providing maximum blast and ballistic penetration resistance."^^xsd:string .
 
-aero:Product_CEA_Technologies_Pty_Ltd_CEAFAR_3D_Active_Phased_Array_Radar a aero:Product ;
+aero:Product_CEA_Technologies_CEAFAR_3D_Active_Phased_Array_Radar a aero:Product ;
     rdfs:label "CEAFAR 3D Active Phased Array Radar"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_GalliumNitride_GaN,
         aero:Material_SiliconCarbide_SiC ;
@@ -474,7 +464,7 @@ aero:Product_CEA_Technologies_Pty_Ltd_CEAFAR_3D_Active_Phased_Array_Radar a aero
     aero:partNumber "PN-AUS-CEA-CFR01"^^xsd:string ;
     aero:productDescription "Gallium Nitride solid-state high-power 3D surveillance and missile defense naval radar aperture."^^xsd:string .
 
-aero:Product_CEA_Technologies_Pty_Ltd_CEAMOUNT_Continuous_Wave_Illuminator a aero:Product ;
+aero:Product_CEA_Technologies_CEAMOUNT_Continuous_Wave_Illuminator a aero:Product ;
     rdfs:label "CEAMOUNT Continuous Wave Illuminator"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_GalliumNitride_GaN ;
     aero:deployedOnPlatform aero:Platform_SurfaceCombatant ;
@@ -483,7 +473,7 @@ aero:Product_CEA_Technologies_Pty_Ltd_CEAMOUNT_Continuous_Wave_Illuminator a aer
     aero:partNumber "PN-AUS-CEA-CMT01"^^xsd:string ;
     aero:productDescription "Active phased array continuous wave radar illuminator for semi-active missile guidance."^^xsd:string .
 
-aero:Product_DroneShield_Limited_DroneGun_Mk4_Handheld_Counter_UAS_Neutralizer a aero:Product ;
+aero:Product_DroneShield_DroneGun_Mk4_Handheld_Counter_UAS_Neutralizer a aero:Product ;
     rdfs:label "DroneGun Mk4 Handheld Counter-UAS Neutralizer"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_AluminiumLithium_2055,
         aero:Material_CarbonFiber_Composite ;
@@ -493,7 +483,7 @@ aero:Product_DroneShield_Limited_DroneGun_Mk4_Handheld_Counter_UAS_Neutralizer a
     aero:partNumber "PN-AUS-DSD-DGMK4"^^xsd:string ;
     aero:productDescription "Compact tactical pistol-grip counter-UAS defeat device delivering instant directional jamming against drone swarms."^^xsd:string .
 
-aero:Product_DroneShield_Limited_RfPatrol_Mk2_Body_Worn_Drone_Detection_Device a aero:Product ;
+aero:Product_DroneShield_RfPatrol_Mk2_Body_Worn_Drone_Detection_Device a aero:Product ;
     rdfs:label "RfPatrol Mk2 Body-Worn Drone Detection Device"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_AluminiumLithium_2055 ;
     aero:deployedOnPlatform aero:Platform_TacticalUAS ;
@@ -502,7 +492,7 @@ aero:Product_DroneShield_Limited_RfPatrol_Mk2_Body_Worn_Drone_Detection_Device a
     aero:partNumber "PN-AUS-DSD-RFP02"^^xsd:string ;
     aero:productDescription "Passive wearable RF sensor providing dismounted warfighters with 360-degree acoustic and RF drone alert."^^xsd:string .
 
-aero:Product_Electro_Optic_Systems_Pty_Ltd_R800_Heavy_Remote_Weapon_Station a aero:Product ;
+aero:Product_Electro_Optic_Systems_R800_Heavy_Remote_Weapon_Station a aero:Product ;
     rdfs:label "R800 Heavy Remote Weapon Station"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_AluminiumLithium_2055,
         aero:Material_Titanium_Ti6Al4V ;
@@ -512,7 +502,7 @@ aero:Product_Electro_Optic_Systems_Pty_Ltd_R800_Heavy_Remote_Weapon_Station a ae
     aero:partNumber "PN-AUS-EOS-R800"^^xsd:string ;
     aero:productDescription "Precision gyro-stabilized weapon station capable of mounting 30mm Mk44 cannon, coaxial machine gun, and anti-tank missiles."^^xsd:string .
 
-aero:Product_Electro_Optic_Systems_Pty_Ltd_Titanis_Counter_UAS_Laser_Weapon_System a aero:Product ;
+aero:Product_Electro_Optic_Systems_Titanis_Counter_UAS_Laser_Weapon_System a aero:Product ;
     rdfs:label "Titanis Counter-UAS Laser Weapon System"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_SiliconCarbide_SiC ;
     aero:deployedOnPlatform aero:Platform_TacticalUAS ;
@@ -521,7 +511,7 @@ aero:Product_Electro_Optic_Systems_Pty_Ltd_Titanis_Counter_UAS_Laser_Weapon_Syst
     aero:partNumber "PN-AUS-EOS-TTN01"^^xsd:string ;
     aero:productDescription "Directed energy laser weapon system integrated with radar and thermal cameras for drone swarm neutralization."^^xsd:string .
 
-aero:Product_Ferra_Engineering_Pty_Ltd_Boeing_P_8_Poseidon_Titanium_Wing_Fittings a aero:Product ;
+aero:Product_Ferra_Engineering_Boeing_P_8_Poseidon_Titanium_Wing_Fittings a aero:Product ;
     rdfs:label "Boeing P-8 Poseidon Titanium Wing Fittings"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_Titanium_Ti6Al4V ;
     aero:deployedOnPlatform aero:Platform_P8_Poseidon ;
@@ -530,7 +520,7 @@ aero:Product_Ferra_Engineering_Pty_Ltd_Boeing_P_8_Poseidon_Titanium_Wing_Fitting
     aero:partNumber "PN-AUS-FRA-P8W01"^^xsd:string ;
     aero:productDescription "Precision 5-axis milled titanium wing structural attachment fittings."^^xsd:string .
 
-aero:Product_Ferra_Engineering_Pty_Ltd_F_35_Weapons_Bay_Mechanical_Actuation_Mechanisms a aero:Product ;
+aero:Product_Ferra_Engineering_F_35_Weapons_Bay_Mechanical_Actuation_Mechanisms a aero:Product ;
     rdfs:label "F-35 Weapons Bay Mechanical Actuation Mechanisms"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_Titanium_Ti6Al4V ;
     aero:deployedOnPlatform aero:Platform_F35_Lightning_II ;
@@ -539,7 +529,7 @@ aero:Product_Ferra_Engineering_Pty_Ltd_F_35_Weapons_Bay_Mechanical_Actuation_Mec
     aero:partNumber "PN-AUS-FRA-WB01"^^xsd:string ;
     aero:productDescription "Titanium machined internal weapon bay door pivot fittings and actuation linkages."^^xsd:string .
 
-aero:Product_Marand_Precision_Engineering_Pty_Ltd_F_35_Lightning_II_Engine_Removal_and_Installation_Trailer_ERIT a aero:Product ;
+aero:Product_Marand_Precision_Engineering_F_35_Lightning_II_Engine_Removal_and_Installation_Trailer_ERIT a aero:Product ;
     rdfs:label "F-35 Lightning II Engine Removal and Installation Trailer (ER&IT)"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_Aluminium_7075_T6,
         aero:Material_Titanium_Ti6Al4V ;
@@ -549,7 +539,7 @@ aero:Product_Marand_Precision_Engineering_Pty_Ltd_F_35_Lightning_II_Engine_Remov
     aero:partNumber "PN-AUS-MRD-ERIT35"^^xsd:string ;
     aero:productDescription "Precision mechanical ground support trailer standard worldwide for removing and installing Pratt & Whitney F135 engines on F-35 fighters."^^xsd:string .
 
-aero:Product_NIOA_Group_Pty_Ltd_155mm_Assegai_Artillery_Projectiles_and_High_Explosive_Forgings a aero:Product ;
+aero:Product_NIOA_Group_155mm_Assegai_Artillery_Projectiles_and_High_Explosive_Forgings a aero:Product ;
     rdfs:label "155mm Assegai Artillery Projectiles and High-Explosive Forgings"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_ArmourSteel_MIL_A_46100 ;
     aero:deployedOnPlatform aero:Platform_GroundCombatVehicle ;
@@ -558,7 +548,7 @@ aero:Product_NIOA_Group_Pty_Ltd_155mm_Assegai_Artillery_Projectiles_and_High_Exp
     aero:partNumber "PN-AUS-NIO-155MM"^^xsd:string ;
     aero:productDescription "Long-range base-bleed and rocket-assisted 155mm artillery ammunition meeting NATO Joint Ballistics Memorandum of Understanding standards."^^xsd:string .
 
-aero:Product_Quickstep_Holdings_Limited_C_130J_Hercules_Composite_Wing_Flaps a aero:Product ;
+aero:Product_Quickstep_C_130J_Hercules_Composite_Wing_Flaps a aero:Product ;
     rdfs:label "C-130J Hercules Composite Wing Flaps"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_CarbonFiber_Composite ;
     aero:deployedOnPlatform aero:Platform_C130J_SuperHercules ;
@@ -567,7 +557,7 @@ aero:Product_Quickstep_Holdings_Limited_C_130J_Hercules_Composite_Wing_Flaps a a
     aero:partNumber "PN-AUS-QCK-C130WF"^^xsd:string ;
     aero:productDescription "Structural carbon-composite trailing edge wing flap assemblies for global C-130J fleet."^^xsd:string .
 
-aero:Product_Quickstep_Holdings_Limited_F_35_Lightning_II_Carbon_Fiber_Vertical_Tail_Assemblies a aero:Product ;
+aero:Product_Quickstep_F_35_Lightning_II_Carbon_Fiber_Vertical_Tail_Assemblies a aero:Product ;
     rdfs:label "F-35 Lightning II Carbon Fiber Vertical Tail Assemblies"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_CarbonFiber_Composite,
         aero:Material_RadarAbsorbentMaterial_RAM ;
@@ -577,7 +567,7 @@ aero:Product_Quickstep_Holdings_Limited_F_35_Lightning_II_Carbon_Fiber_Vertical_
     aero:partNumber "PN-AUS-QCK-F35VT"^^xsd:string ;
     aero:productDescription "Composite structural vertical tail box assemblies manufactured to low-observable stealth tolerances."^^xsd:string .
 
-aero:Product_Thomas_Global_Systems_Pty_Ltd_TFD_7000_High_Reliability_AMLCD_Flight_Display_Unit a aero:Product ;
+aero:Product_Thomas_Global_Systems_TFD_7000_High_Reliability_AMLCD_Flight_Display_Unit a aero:Product ;
     rdfs:label "TFD-7000 High-Reliability AMLCD Flight Display Unit"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_Aluminium_7075_T6 ;
     aero:deployedOnPlatform aero:Platform_FixedWingTransport,
@@ -587,7 +577,7 @@ aero:Product_Thomas_Global_Systems_Pty_Ltd_TFD_7000_High_Reliability_AMLCD_Fligh
     aero:partNumber "PN-AUS-TGS-TFD7000"^^xsd:string ;
     aero:productDescription "Direct drop-in replacement LCD display upgrading legacy military transport cockpits without costly wiring or software changes."^^xsd:string .
 
-aero:Service_ASC_Pty_Ltd_247_Submarine_Operational_Fleet_In_Service_Maintenance_Support a aero:LogisticsSupportService,
+aero:Service_ASC_247_Submarine_Operational_Fleet_In_Service_Maintenance_Support a aero:LogisticsSupportService,
         aero:Service ;
     rdfs:label "24/7 Submarine Operational Fleet In-Service Maintenance Support"^^xsd:string ;
     aero:serviceAccreditation "ISO 9001:2015"^^xsd:string ;
@@ -595,7 +585,7 @@ aero:Service_ASC_Pty_Ltd_247_Submarine_Operational_Fleet_In_Service_Maintenance_
     aero:supportsPlatform aero:Platform_CollinsClass_Submarine,
         aero:Platform_Submarine .
 
-aero:Service_ASC_Pty_Ltd_Naval_Acoustic_Signature_Quieting_Vibration_Damping_Engineering a aero:EngineeringService,
+aero:Service_ASC_Naval_Acoustic_Signature_Quieting_Vibration_Damping_Engineering a aero:EngineeringService,
         aero:Service ;
     rdfs:label "Naval Acoustic Signature Quieting & Vibration Damping Engineering"^^xsd:string ;
     aero:serviceAccreditation "ISO 9001"^^xsd:string ;
@@ -603,7 +593,7 @@ aero:Service_ASC_Pty_Ltd_Naval_Acoustic_Signature_Quieting_Vibration_Damping_Eng
     aero:supportsPlatform aero:Platform_CollinsClass_Submarine,
         aero:Platform_Submarine .
 
-aero:Service_ASC_Pty_Ltd_Submarine_Depot_Level_Electrical_Machinery_Overhaul a aero:MROService,
+aero:Service_ASC_Submarine_Depot_Level_Electrical_Machinery_Overhaul a aero:MROService,
         aero:Service ;
     rdfs:label "Submarine Depot-Level Electrical Machinery Overhaul"^^xsd:string ;
     aero:serviceAccreditation "DISP Level 3"^^xsd:string ;
@@ -611,7 +601,7 @@ aero:Service_ASC_Pty_Ltd_Submarine_Depot_Level_Electrical_Machinery_Overhaul a a
     aero:supportsPlatform aero:Platform_CollinsClass_Submarine,
         aero:Platform_Submarine .
 
-aero:Service_ASC_Pty_Ltd_Submarine_Escape_and_Life_Support_System_Recertification a aero:Service,
+aero:Service_ASC_Submarine_Escape_and_Life_Support_System_Recertification a aero:Service,
         aero:TestingQualificationService ;
     rdfs:label "Submarine Escape and Life Support System Recertification"^^xsd:string ;
     aero:serviceAccreditation "Naval Safety Authority"^^xsd:string ;
@@ -619,7 +609,7 @@ aero:Service_ASC_Pty_Ltd_Submarine_Escape_and_Life_Support_System_Recertificatio
     aero:supportsPlatform aero:Platform_CollinsClass_Submarine,
         aero:Platform_Submarine .
 
-aero:Service_ASC_Pty_Ltd_Submarine_Pressure_Hull_Non_Destructive_Testing_and_Ultrasonic_Crack_Sizing a aero:Service,
+aero:Service_ASC_Submarine_Pressure_Hull_Non_Destructive_Testing_and_Ultrasonic_Crack_Sizing a aero:Service,
         aero:TestingQualificationService ;
     rdfs:label "Submarine Pressure Hull Non-Destructive Testing and Ultrasonic Crack Sizing"^^xsd:string ;
     aero:serviceAccreditation "NATA Accredited / Navy Overseeing"^^xsd:string ;
@@ -627,42 +617,42 @@ aero:Service_ASC_Pty_Ltd_Submarine_Pressure_Hull_Non_Destructive_Testing_and_Ult
     aero:supportsPlatform aero:Platform_CollinsClass_Submarine,
         aero:Platform_Submarine .
 
-aero:Service_Austal_Limited_High_Speed_Naval_Hydrodynamic_Computational_Fluid_Dynamics_CFD a aero:EngineeringService,
+aero:Service_Austal_High_Speed_Naval_Hydrodynamic_Computational_Fluid_Dynamics_CFD a aero:EngineeringService,
         aero:Service ;
     rdfs:label "High-Speed Naval Hydrodynamic Computational Fluid Dynamics (CFD)"^^xsd:string ;
     aero:serviceAccreditation "ISO 9001"^^xsd:string ;
     aero:serviceDescription "Ship resistance optimization, sea-keeping motion simulation, and propeller cavitation analysis."^^xsd:string ;
     aero:supportsPlatform aero:Platform_SurfaceCombatant .
 
-aero:Service_Austal_Limited_Marine_Aluminium_Non_Destructive_Ultrasonic_Weld_Testing a aero:Service,
+aero:Service_Austal_Marine_Aluminium_Non_Destructive_Ultrasonic_Weld_Testing a aero:Service,
         aero:TestingQualificationService ;
     rdfs:label "Marine Aluminium Non-Destructive Ultrasonic Weld Testing"^^xsd:string ;
     aero:serviceAccreditation "NATA Accredited"^^xsd:string ;
     aero:serviceDescription "Phased array weld seam inspection, structural fatigue crack monitoring, and cathodic protection survey."^^xsd:string ;
     aero:supportsPlatform aero:Platform_SurfaceCombatant .
 
-aero:Service_Austal_Limited_Naval_Crew_Operational_Sea_Training_Damage_Control_Instruction a aero:Service,
+aero:Service_Austal_Naval_Crew_Operational_Sea_Training_Damage_Control_Instruction a aero:Service,
         aero:SimulationTrainingService ;
     rdfs:label "Naval Crew Operational Sea Training & Damage Control Instruction"^^xsd:string ;
     aero:serviceAccreditation "ISO 9001:2015"^^xsd:string ;
     aero:serviceDescription "Bridge simulator maneuvering courses, shipboard fire and flooding drills, and propulsion control training."^^xsd:string ;
     aero:supportsPlatform aero:Platform_SurfaceCombatant .
 
-aero:Service_Austal_Limited_Naval_Fleet_Sustaining_In_Service_Support a aero:MROService,
+aero:Service_Austal_Naval_Fleet_Sustaining_In_Service_Support a aero:MROService,
         aero:Service ;
     rdfs:label "Naval Fleet Sustaining & In-Service Support"^^xsd:string ;
     aero:serviceAccreditation "Lloyd's Register / DNV-GL"^^xsd:string ;
     aero:serviceDescription "Scheduled drydock docking, underwater hull inspection, marine diesel engine overhaul, and navigation system updates."^^xsd:string ;
     aero:supportsPlatform aero:Platform_SurfaceCombatant .
 
-aero:Service_Austal_Limited_Shipboard_Combat_Communication_System_Integration a aero:EngineeringService,
+aero:Service_Austal_Shipboard_Combat_Communication_System_Integration a aero:EngineeringService,
         aero:Service ;
     rdfs:label "Shipboard Combat & Communication System Integration"^^xsd:string ;
     aero:serviceAccreditation "DISP Level 3"^^xsd:string ;
     aero:serviceDescription "Naval mast RF cabling, secure tactical voice distribution, and navigation radar display installation."^^xsd:string ;
     aero:supportsPlatform aero:Platform_SurfaceCombatant .
 
-aero:Service_BAE_Systems_Australia_Limited_Autonomous_Aircraft_Flight_Test_Operations_Range_Safety a aero:Service,
+aero:Service_BAE_Systems_Australia_Autonomous_Aircraft_Flight_Test_Operations_Range_Safety a aero:Service,
         aero:TestingQualificationService ;
     rdfs:label "Autonomous Aircraft Flight Test Operations & Range Safety"^^xsd:string ;
     aero:serviceAccreditation "DASA Approved Flight Test"^^xsd:string ;
@@ -671,7 +661,7 @@ aero:Service_BAE_Systems_Australia_Limited_Autonomous_Aircraft_Flight_Test_Opera
         aero:Platform_HunterClass_Frigate,
         aero:Platform_MQ28_GhostBat .
 
-aero:Service_BAE_Systems_Australia_Limited_Digital_Shipyard_CADCAM_Simulation_Virtual_Build_Verification a aero:EngineeringService,
+aero:Service_BAE_Systems_Australia_Digital_Shipyard_CADCAM_Simulation_Virtual_Build_Verification a aero:EngineeringService,
         aero:Service ;
     rdfs:label "Digital Shipyard CAD/CAM Simulation & Virtual Build Verification"^^xsd:string ;
     aero:serviceAccreditation "AS9100D"^^xsd:string ;
@@ -680,7 +670,7 @@ aero:Service_BAE_Systems_Australia_Limited_Digital_Shipyard_CADCAM_Simulation_Vi
         aero:Platform_HunterClass_Frigate,
         aero:Platform_MQ28_GhostBat .
 
-aero:Service_BAE_Systems_Australia_Limited_Hawk_127_Lead_In_Fighter_Fleet_In_Service_Maintenance_Overhaul a aero:MROService,
+aero:Service_BAE_Systems_Australia_Hawk_127_Lead_In_Fighter_Fleet_In_Service_Maintenance_Overhaul a aero:MROService,
         aero:Service ;
     rdfs:label "Hawk 127 Lead-In Fighter Fleet In-Service Maintenance & Overhaul"^^xsd:string ;
     aero:serviceAccreditation "DASA Part 145"^^xsd:string ;
@@ -689,7 +679,7 @@ aero:Service_BAE_Systems_Australia_Limited_Hawk_127_Lead_In_Fighter_Fleet_In_Ser
         aero:Platform_HunterClass_Frigate,
         aero:Platform_MQ28_GhostBat .
 
-aero:Service_BAE_Systems_Australia_Limited_Sovereign_Defence_Supply_Chain_Assurance_and_Sub_Tier_Management a aero:LogisticsSupportService,
+aero:Service_BAE_Systems_Australia_Sovereign_Defence_Supply_Chain_Assurance_and_Sub_Tier_Management a aero:LogisticsSupportService,
         aero:Service ;
     rdfs:label "Sovereign Defence Supply Chain Assurance and Sub-Tier Management"^^xsd:string ;
     aero:serviceAccreditation "ISO 9001:2015"^^xsd:string ;
@@ -698,7 +688,7 @@ aero:Service_BAE_Systems_Australia_Limited_Sovereign_Defence_Supply_Chain_Assura
         aero:Platform_HunterClass_Frigate,
         aero:Platform_MQ28_GhostBat .
 
-aero:Service_BAE_Systems_Australia_Limited_Warship_Combat_System_Integration_and_Sea_Acceptance_Trials a aero:Service,
+aero:Service_BAE_Systems_Australia_Warship_Combat_System_Integration_and_Sea_Acceptance_Trials a aero:Service,
         aero:TestingQualificationService ;
     rdfs:label "Warship Combat System Integration and Sea Acceptance Trials"^^xsd:string ;
     aero:serviceAccreditation "DISP Level 3"^^xsd:string ;
@@ -707,7 +697,7 @@ aero:Service_BAE_Systems_Australia_Limited_Warship_Combat_System_Integration_and
         aero:Platform_HunterClass_Frigate,
         aero:Platform_MQ28_GhostBat .
 
-aero:Service_Bisalloy_Steels_Pty_Ltd_Ballistic_V50_Armor_Perforation_Testing_Metallurgical_Failure_Analysis a aero:Service,
+aero:Service_Bisalloy_Steels_Ballistic_V50_Armor_Perforation_Testing_Metallurgical_Failure_Analysis a aero:Service,
         aero:TestingQualificationService ;
     rdfs:label "Ballistic V50 Armor Perforation Testing & Metallurgical Failure Analysis"^^xsd:string ;
     aero:serviceAccreditation "NATA Accredited / ISO/IEC 17025"^^xsd:string ;
@@ -715,7 +705,7 @@ aero:Service_Bisalloy_Steels_Pty_Ltd_Ballistic_V50_Armor_Perforation_Testing_Met
     aero:supportsPlatform aero:Platform_GroundCombatVehicle,
         aero:Platform_SurfaceCombatant .
 
-aero:Service_CEA_Technologies_Pty_Ltd_AESA_TransmitReceive_Module_Microelectronic_Rework a aero:MROService,
+aero:Service_CEA_Technologies_AESA_TransmitReceive_Module_Microelectronic_Rework a aero:MROService,
         aero:Service ;
     rdfs:label "AESA Transmit/Receive Module Microelectronic Rework"^^xsd:string ;
     aero:serviceAccreditation "AS9100D"^^xsd:string ;
@@ -724,7 +714,7 @@ aero:Service_CEA_Technologies_Pty_Ltd_AESA_TransmitReceive_Module_Microelectroni
         aero:Platform_HunterClass_Frigate,
         aero:Platform_SurfaceCombatant .
 
-aero:Service_CEA_Technologies_Pty_Ltd_Naval_Combat_System_Radar_Signal_Integration a aero:EngineeringService,
+aero:Service_CEA_Technologies_Naval_Combat_System_Radar_Signal_Integration a aero:EngineeringService,
         aero:Service ;
     rdfs:label "Naval Combat System Radar Signal Integration"^^xsd:string ;
     aero:serviceAccreditation "AS9100D"^^xsd:string ;
@@ -733,7 +723,7 @@ aero:Service_CEA_Technologies_Pty_Ltd_Naval_Combat_System_Radar_Signal_Integrati
         aero:Platform_HunterClass_Frigate,
         aero:Platform_SurfaceCombatant .
 
-aero:Service_CEA_Technologies_Pty_Ltd_Naval_Radar_In_Service_Support_and_Lifecycle_Upgrade_Engineering a aero:MROService,
+aero:Service_CEA_Technologies_Naval_Radar_In_Service_Support_and_Lifecycle_Upgrade_Engineering a aero:MROService,
         aero:Service ;
     rdfs:label "Naval Radar In-Service Support and Lifecycle Upgrade Engineering"^^xsd:string ;
     aero:serviceAccreditation "DISP Level 3 / DASA Approved"^^xsd:string ;
@@ -742,7 +732,7 @@ aero:Service_CEA_Technologies_Pty_Ltd_Naval_Radar_In_Service_Support_and_Lifecyc
         aero:Platform_HunterClass_Frigate,
         aero:Platform_SurfaceCombatant .
 
-aero:Service_CEA_Technologies_Pty_Ltd_Phased_Array_Radar_Anechoic_Chamber_Calibration a aero:Service,
+aero:Service_CEA_Technologies_Phased_Array_Radar_Anechoic_Chamber_Calibration a aero:Service,
         aero:TestingQualificationService ;
     rdfs:label "Phased Array Radar Anechoic Chamber Calibration"^^xsd:string ;
     aero:serviceAccreditation "NATA Accredited Laboratory"^^xsd:string ;
@@ -751,7 +741,7 @@ aero:Service_CEA_Technologies_Pty_Ltd_Phased_Array_Radar_Anechoic_Chamber_Calibr
         aero:Platform_HunterClass_Frigate,
         aero:Platform_SurfaceCombatant .
 
-aero:Service_CEA_Technologies_Pty_Ltd_Royal_Australian_Navy_Operational_Radar_Technical_Support a aero:LogisticsSupportService,
+aero:Service_CEA_Technologies_Royal_Australian_Navy_Operational_Radar_Technical_Support a aero:LogisticsSupportService,
         aero:Service ;
     rdfs:label "Royal Australian Navy Operational Radar Technical Support"^^xsd:string ;
     aero:serviceAccreditation "ISO 9001:2015"^^xsd:string ;
@@ -760,7 +750,7 @@ aero:Service_CEA_Technologies_Pty_Ltd_Royal_Australian_Navy_Operational_Radar_Te
         aero:Platform_HunterClass_Frigate,
         aero:Platform_SurfaceCombatant .
 
-aero:Service_DroneShield_Limited_C_UAS_Hardware_Depot_Servicing_and_Antenna_Tuning a aero:MROService,
+aero:Service_DroneShield_C_UAS_Hardware_Depot_Servicing_and_Antenna_Tuning a aero:MROService,
         aero:Service ;
     rdfs:label "C-UAS Hardware Depot Servicing and Antenna Tuning"^^xsd:string ;
     aero:serviceAccreditation "AS9100D"^^xsd:string ;
@@ -769,7 +759,7 @@ aero:Service_DroneShield_Limited_C_UAS_Hardware_Depot_Servicing_and_Antenna_Tuni
         aero:Platform_SurfaceCombatant,
         aero:Platform_TacticalUAS .
 
-aero:Service_DroneShield_Limited_Counter_Drone_Fleet_Logistics_Spares_Turnaround a aero:LogisticsSupportService,
+aero:Service_DroneShield_Counter_Drone_Fleet_Logistics_Spares_Turnaround a aero:LogisticsSupportService,
         aero:Service ;
     rdfs:label "Counter-Drone Fleet Logistics & Spares Turnaround"^^xsd:string ;
     aero:serviceAccreditation "ISO 9001:2015"^^xsd:string ;
@@ -778,7 +768,7 @@ aero:Service_DroneShield_Limited_Counter_Drone_Fleet_Logistics_Spares_Turnaround
         aero:Platform_SurfaceCombatant,
         aero:Platform_TacticalUAS .
 
-aero:Service_DroneShield_Limited_Counter_UAS_System_Site_Survey_RF_Propagation_Mapping a aero:EngineeringService,
+aero:Service_DroneShield_Counter_UAS_System_Site_Survey_RF_Propagation_Mapping a aero:EngineeringService,
         aero:Service ;
     rdfs:label "Counter-UAS System Site Survey & RF Propagation Mapping"^^xsd:string ;
     aero:serviceAccreditation "DISP Level 2"^^xsd:string ;
@@ -787,7 +777,7 @@ aero:Service_DroneShield_Limited_Counter_UAS_System_Site_Survey_RF_Propagation_M
         aero:Platform_SurfaceCombatant,
         aero:Platform_TacticalUAS .
 
-aero:Service_DroneShield_Limited_Military_Law_Enforcement_C_UAS_Tactical_Operator_Training a aero:Service,
+aero:Service_DroneShield_Military_Law_Enforcement_C_UAS_Tactical_Operator_Training a aero:Service,
         aero:SimulationTrainingService ;
     rdfs:label "Military & Law Enforcement C-UAS Tactical Operator Training"^^xsd:string ;
     aero:serviceAccreditation "DISP Approved Training"^^xsd:string ;
@@ -796,7 +786,7 @@ aero:Service_DroneShield_Limited_Military_Law_Enforcement_C_UAS_Tactical_Operato
         aero:Platform_SurfaceCombatant,
         aero:Platform_TacticalUAS .
 
-aero:Service_DroneShield_Limited_RF_Spectrum_Threat_Signature_Analysis_Software_Library_Updates a aero:CyberSecurityService,
+aero:Service_DroneShield_RF_Spectrum_Threat_Signature_Analysis_Software_Library_Updates a aero:CyberSecurityService,
         aero:Service ;
     rdfs:label "RF Spectrum Threat Signature Analysis & Software Library Updates"^^xsd:string ;
     aero:serviceAccreditation "ISO 9001"^^xsd:string ;
@@ -805,7 +795,7 @@ aero:Service_DroneShield_Limited_RF_Spectrum_Threat_Signature_Analysis_Software_
         aero:Platform_SurfaceCombatant,
         aero:Platform_TacticalUAS .
 
-aero:Service_Electro_Optic_Systems_Pty_Ltd_Combat_Vehicle_Turret_Integration_and_Weapon_Harmonization a aero:EngineeringService,
+aero:Service_Electro_Optic_Systems_Combat_Vehicle_Turret_Integration_and_Weapon_Harmonization a aero:EngineeringService,
         aero:Service ;
     rdfs:label "Combat Vehicle Turret Integration and Weapon Harmonization"^^xsd:string ;
     aero:serviceAccreditation "DISP Level 3"^^xsd:string ;
@@ -814,7 +804,7 @@ aero:Service_Electro_Optic_Systems_Pty_Ltd_Combat_Vehicle_Turret_Integration_and
         aero:Platform_LEOSatellite,
         aero:Platform_TacticalUAS .
 
-aero:Service_Electro_Optic_Systems_Pty_Ltd_Defence_Weapon_Station_Operator_Maintenance_Training a aero:Service,
+aero:Service_Electro_Optic_Systems_Defence_Weapon_Station_Operator_Maintenance_Training a aero:Service,
         aero:SimulationTrainingService ;
     rdfs:label "Defence Weapon Station Operator & Maintenance Training"^^xsd:string ;
     aero:serviceAccreditation "ISO 9001:2015"^^xsd:string ;
@@ -823,7 +813,7 @@ aero:Service_Electro_Optic_Systems_Pty_Ltd_Defence_Weapon_Station_Operator_Maint
         aero:Platform_LEOSatellite,
         aero:Platform_TacticalUAS .
 
-aero:Service_Electro_Optic_Systems_Pty_Ltd_RWS_Gyro_Stabilization_Dynamic_Shake_Table_Qualification a aero:Service,
+aero:Service_Electro_Optic_Systems_RWS_Gyro_Stabilization_Dynamic_Shake_Table_Qualification a aero:Service,
         aero:TestingQualificationService ;
     rdfs:label "RWS Gyro-Stabilization Dynamic Shake Table Qualification"^^xsd:string ;
     aero:serviceAccreditation "MIL-STD-810H"^^xsd:string ;
@@ -832,7 +822,7 @@ aero:Service_Electro_Optic_Systems_Pty_Ltd_RWS_Gyro_Stabilization_Dynamic_Shake_
         aero:Platform_LEOSatellite,
         aero:Platform_TacticalUAS .
 
-aero:Service_Electro_Optic_Systems_Pty_Ltd_Remote_Weapon_Station_Depot_Overhaul_Fire_Control_Recalibration a aero:MROService,
+aero:Service_Electro_Optic_Systems_Remote_Weapon_Station_Depot_Overhaul_Fire_Control_Recalibration a aero:MROService,
         aero:Service ;
     rdfs:label "Remote Weapon Station Depot Overhaul & Fire Control Recalibration"^^xsd:string ;
     aero:serviceAccreditation "AS9100D"^^xsd:string ;
@@ -841,7 +831,7 @@ aero:Service_Electro_Optic_Systems_Pty_Ltd_Remote_Weapon_Station_Depot_Overhaul_
         aero:Platform_LEOSatellite,
         aero:Platform_TacticalUAS .
 
-aero:Service_Electro_Optic_Systems_Pty_Ltd_Space_Situational_Awareness_Orbital_Telemetry_Services a aero:Service,
+aero:Service_Electro_Optic_Systems_Space_Situational_Awareness_Orbital_Telemetry_Services a aero:Service,
         aero:SimulationTrainingService ;
     rdfs:label "Space Situational Awareness Orbital Telemetry Services"^^xsd:string ;
     aero:serviceAccreditation "Space Command Accredited"^^xsd:string ;
@@ -850,7 +840,7 @@ aero:Service_Electro_Optic_Systems_Pty_Ltd_Space_Situational_Awareness_Orbital_T
         aero:Platform_LEOSatellite,
         aero:Platform_TacticalUAS .
 
-aero:Service_Ferra_Engineering_Pty_Ltd_Aerospace_Subassembly_Hydraulic_Load_Proof_Testing a aero:Service,
+aero:Service_Ferra_Engineering_Aerospace_Subassembly_Hydraulic_Load_Proof_Testing a aero:Service,
         aero:TestingQualificationService ;
     rdfs:label "Aerospace Subassembly Hydraulic & Load Proof Testing"^^xsd:string ;
     aero:serviceAccreditation "ISO 9001"^^xsd:string ;
@@ -859,7 +849,7 @@ aero:Service_Ferra_Engineering_Pty_Ltd_Aerospace_Subassembly_Hydraulic_Load_Proo
         aero:Platform_FixedWingCombat,
         aero:Platform_P8_Poseidon .
 
-aero:Service_Ferra_Engineering_Pty_Ltd_Fluorescent_Penetrant_and_Magnetic_Particle_Inspection_NDT a aero:Service,
+aero:Service_Ferra_Engineering_Fluorescent_Penetrant_and_Magnetic_Particle_Inspection_NDT a aero:Service,
         aero:TestingQualificationService ;
     rdfs:label "Fluorescent Penetrant and Magnetic Particle Inspection (NDT)"^^xsd:string ;
     aero:serviceAccreditation "NADCAP NDT"^^xsd:string ;
@@ -868,7 +858,7 @@ aero:Service_Ferra_Engineering_Pty_Ltd_Fluorescent_Penetrant_and_Magnetic_Partic
         aero:Platform_FixedWingCombat,
         aero:Platform_P8_Poseidon .
 
-aero:Service_Ferra_Engineering_Pty_Ltd_Precision_Titanium_Bushing_Bearings_Installation_and_Re_work a aero:MROService,
+aero:Service_Ferra_Engineering_Precision_Titanium_Bushing_Bearings_Installation_and_Re_work a aero:MROService,
         aero:Service ;
     rdfs:label "Precision Titanium Bushing & Bearings Installation and Re-work"^^xsd:string ;
     aero:serviceAccreditation "Boeing Approved Supplier"^^xsd:string ;
@@ -877,7 +867,7 @@ aero:Service_Ferra_Engineering_Pty_Ltd_Precision_Titanium_Bushing_Bearings_Insta
         aero:Platform_FixedWingCombat,
         aero:Platform_P8_Poseidon .
 
-aero:Service_Ferra_Engineering_Pty_Ltd_Surface_Finishing_Anodizing_Chemical_Passivation a aero:EngineeringService,
+aero:Service_Ferra_Engineering_Surface_Finishing_Anodizing_Chemical_Passivation a aero:EngineeringService,
         aero:Service ;
     rdfs:label "Surface Finishing, Anodizing & Chemical Passivation"^^xsd:string ;
     aero:serviceAccreditation "NADCAP Chemical Processing"^^xsd:string ;
@@ -886,7 +876,7 @@ aero:Service_Ferra_Engineering_Pty_Ltd_Surface_Finishing_Anodizing_Chemical_Pass
         aero:Platform_FixedWingCombat,
         aero:Platform_P8_Poseidon .
 
-aero:Service_Ferra_Engineering_Pty_Ltd_Vendor_Managed_Inventory_VMI_Spares_Provisioning a aero:LogisticsSupportService,
+aero:Service_Ferra_Engineering_Vendor_Managed_Inventory_VMI_Spares_Provisioning a aero:LogisticsSupportService,
         aero:Service ;
     rdfs:label "Vendor-Managed Inventory (VMI) Spares Provisioning"^^xsd:string ;
     aero:serviceAccreditation "AS9100D"^^xsd:string ;
@@ -895,21 +885,21 @@ aero:Service_Ferra_Engineering_Pty_Ltd_Vendor_Managed_Inventory_VMI_Spares_Provi
         aero:Platform_FixedWingCombat,
         aero:Platform_P8_Poseidon .
 
-aero:Service_Marand_Precision_Engineering_Pty_Ltd_Aerospace_Tooling_Design_Calibration_Precision_Mechanical_CMM_Inspection a aero:EngineeringService,
+aero:Service_Marand_Precision_Engineering_Aerospace_Tooling_Design_Calibration_Precision_Mechanical_CMM_Inspection a aero:EngineeringService,
         aero:Service ;
     rdfs:label "Aerospace Tooling Design, Calibration & Precision Mechanical CMM Inspection"^^xsd:string ;
     aero:serviceAccreditation "AS9100D"^^xsd:string ;
     aero:serviceDescription "Laser tracker volumetric verification, finite element stress analysis for ground support rigs, and periodic proof loading."^^xsd:string ;
     aero:supportsPlatform aero:Platform_F35_Lightning_II .
 
-aero:Service_NIOA_Group_Pty_Ltd_Munitions_Proofing_Ballistic_Range_Testing_Demilitarization_Services a aero:Service,
+aero:Service_NIOA_Group_Munitions_Proofing_Ballistic_Range_Testing_Demilitarization_Services a aero:Service,
         aero:TestingQualificationService ;
     rdfs:label "Munitions Proofing, Ballistic Range Testing & Demilitarization Services"^^xsd:string ;
     aero:serviceAccreditation "DISP Entry Level 3"^^xsd:string ;
     aero:serviceDescription "Live-fire pressure velocity measurement, high-speed radiographic projectile tracking, and propellant chemical stability testing."^^xsd:string ;
     aero:supportsPlatform aero:Platform_GroundCombatVehicle .
 
-aero:Service_Quickstep_Holdings_Limited_Aerospace_Composite_Repair_Non_Destructive_Testing_NDT a aero:MROService,
+aero:Service_Quickstep_Aerospace_Composite_Repair_Non_Destructive_Testing_NDT a aero:MROService,
         aero:Service ;
     rdfs:label "Aerospace Composite Repair & Non-Destructive Testing (NDT)"^^xsd:string ;
     aero:serviceAccreditation "NADCAP NDT & Composites"^^xsd:string ;
@@ -918,7 +908,7 @@ aero:Service_Quickstep_Holdings_Limited_Aerospace_Composite_Repair_Non_Destructi
         aero:Platform_F35_Lightning_II,
         aero:Platform_MQ28_GhostBat .
 
-aero:Service_Quickstep_Holdings_Limited_Aerospace_Structural_Mechanical_Coupon_Tensile_Testing a aero:Service,
+aero:Service_Quickstep_Aerospace_Structural_Mechanical_Coupon_Tensile_Testing a aero:Service,
         aero:TestingQualificationService ;
     rdfs:label "Aerospace Structural Mechanical Coupon Tensile Testing"^^xsd:string ;
     aero:serviceAccreditation "NATA Accredited Laboratory"^^xsd:string ;
@@ -927,7 +917,7 @@ aero:Service_Quickstep_Holdings_Limited_Aerospace_Structural_Mechanical_Coupon_T
         aero:Platform_F35_Lightning_II,
         aero:Platform_MQ28_GhostBat .
 
-aero:Service_Quickstep_Holdings_Limited_Composite_Tooling_Design_Thermal_Expansion_FEA_Simulation a aero:EngineeringService,
+aero:Service_Quickstep_Composite_Tooling_Design_Thermal_Expansion_FEA_Simulation a aero:EngineeringService,
         aero:Service ;
     rdfs:label "Composite Tooling Design & Thermal Expansion FEA Simulation"^^xsd:string ;
     aero:serviceAccreditation "AS9100D"^^xsd:string ;
@@ -936,7 +926,7 @@ aero:Service_Quickstep_Holdings_Limited_Composite_Tooling_Design_Thermal_Expansi
         aero:Platform_F35_Lightning_II,
         aero:Platform_MQ28_GhostBat .
 
-aero:Service_Quickstep_Holdings_Limited_Direct_Global_Ship_to_Line_Aerospace_Logistics a aero:LogisticsSupportService,
+aero:Service_Quickstep_Direct_Global_Ship_to_Line_Aerospace_Logistics a aero:LogisticsSupportService,
         aero:Service ;
     rdfs:label "Direct Global Ship-to-Line Aerospace Logistics"^^xsd:string ;
     aero:serviceAccreditation "ISO 9001:2015"^^xsd:string ;
@@ -945,7 +935,7 @@ aero:Service_Quickstep_Holdings_Limited_Direct_Global_Ship_to_Line_Aerospace_Log
         aero:Platform_F35_Lightning_II,
         aero:Platform_MQ28_GhostBat .
 
-aero:Service_Quickstep_Holdings_Limited_Stealth_Surface_Radar_Absorbent_Material_RAM_Application a aero:EngineeringService,
+aero:Service_Quickstep_Stealth_Surface_Radar_Absorbent_Material_RAM_Application a aero:EngineeringService,
         aero:Service ;
     rdfs:label "Stealth Surface Radar Absorbent Material (RAM) Application"^^xsd:string ;
     aero:serviceAccreditation "Lockheed Martin Approved"^^xsd:string ;
@@ -954,7 +944,7 @@ aero:Service_Quickstep_Holdings_Limited_Stealth_Surface_Radar_Absorbent_Material
         aero:Platform_F35_Lightning_II,
         aero:Platform_MQ28_GhostBat .
 
-aero:Service_Thomas_Global_Systems_Pty_Ltd_Avionics_Depot_Level_Repair_Obsolescence_Management_DO_254_Hardware_Engineering a aero:MROService,
+aero:Service_Thomas_Global_Systems_Avionics_Depot_Level_Repair_Obsolescence_Management_DO_254_Hardware_Engineering a aero:MROService,
         aero:Service ;
     rdfs:label "Avionics Depot-Level Repair, Obsolescence Management & DO-254 Hardware Engineering"^^xsd:string ;
     aero:serviceAccreditation "AS9100D"^^xsd:string ;
@@ -962,13 +952,12 @@ aero:Service_Thomas_Global_Systems_Pty_Ltd_Avionics_Depot_Level_Repair_Obsolesce
     aero:supportsPlatform aero:Platform_FixedWingTransport,
         aero:Platform_GroundCombatVehicle .
 
-aero:Company_Quickstep_Holdings_Limited a aero:Company,
+aero:Company_Quickstep a aero:Company,
         aero:Tier1Supplier ;
     aero:businessNumber "AU550962681"^^xsd:string ;
-    aero:cageCode "Z0D95"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:hasCapability aero:Cap_Quickstep_Holdings_Limited_1,
-        aero:Cap_Quickstep_Holdings_Limited_2 ;
+    aero:hasCapability aero:Cap_Quickstep_1,
+        aero:Cap_Quickstep_2 ;
     aero:headquartersCity "Bankstown"^^xsd:string ;
     aero:headquartersCountry "AUS"^^xsd:string ;
     aero:headquartersProvince "NSW"^^xsd:string ;
@@ -979,30 +968,29 @@ aero:Company_Quickstep_Holdings_Limited a aero:Company,
         aero:Cert_NADCAP_Composites ;
     aero:itarCompliant true ;
     aero:legalName "Quickstep Holdings Limited"^^xsd:string ;
-    aero:manufacturesProduct aero:Product_Quickstep_Holdings_Limited_C_130J_Hercules_Composite_Wing_Flaps,
-        aero:Product_Quickstep_Holdings_Limited_F_35_Lightning_II_Carbon_Fiber_Vertical_Tail_Assemblies ;
+    aero:manufacturesProduct aero:Product_Quickstep_C_130J_Hercules_Composite_Wing_Flaps,
+        aero:Product_Quickstep_F_35_Lightning_II_Carbon_Fiber_Vertical_Tail_Assemblies ;
     aero:operatesInDomain aero:AirPlatform,
         aero:DomainDefence ;
-    aero:providesService aero:Service_Quickstep_Holdings_Limited_Aerospace_Composite_Repair_Non_Destructive_Testing_NDT,
-        aero:Service_Quickstep_Holdings_Limited_Aerospace_Structural_Mechanical_Coupon_Tensile_Testing,
-        aero:Service_Quickstep_Holdings_Limited_Composite_Tooling_Design_Thermal_Expansion_FEA_Simulation,
-        aero:Service_Quickstep_Holdings_Limited_Direct_Global_Ship_to_Line_Aerospace_Logistics,
-        aero:Service_Quickstep_Holdings_Limited_Stealth_Surface_Radar_Absorbent_Material_RAM_Application ;
-    aero:suppliesTo aero:Company_BAE_Systems_Australia_Limited,
+    aero:providesService aero:Service_Quickstep_Aerospace_Composite_Repair_Non_Destructive_Testing_NDT,
+        aero:Service_Quickstep_Aerospace_Structural_Mechanical_Coupon_Tensile_Testing,
+        aero:Service_Quickstep_Composite_Tooling_Design_Thermal_Expansion_FEA_Simulation,
+        aero:Service_Quickstep_Direct_Global_Ship_to_Line_Aerospace_Logistics,
+        aero:Service_Quickstep_Stealth_Surface_Radar_Absorbent_Material_RAM_Application ;
+    aero:suppliesTo aero:Company_BAE_Systems_Australia,
         aero:Company_BAE_Systems_plc ;
     aero:tradeName "Quickstep Composites"^^xsd:string ;
     aero:website "https://www.quickstep.com.au"^^xsd:anyURI .
 
-aero:Company_BAE_Systems_Australia_Limited a aero:Company,
+aero:Company_BAE_Systems_Australia a aero:Company,
         aero:PrimeContractor ;
     aero:businessNumber "AU450084230"^^xsd:string ;
-    aero:cageCode "Z0K14"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:hasCapability aero:Cap_BAE_Systems_Australia_Limited_1,
-        aero:Cap_BAE_Systems_Australia_Limited_2 ;
-    aero:hasDirectSupplier aero:Company_CEA_Technologies_Pty_Ltd,
-        aero:Company_Ferra_Engineering_Pty_Ltd,
-        aero:Company_Quickstep_Holdings_Limited ;
+    aero:hasCapability aero:Cap_BAE_Systems_Australia_1,
+        aero:Cap_BAE_Systems_Australia_2 ;
+    aero:hasDirectSupplier aero:Company_CEA_Technologies,
+        aero:Company_Ferra_Engineering,
+        aero:Company_Quickstep ;
     aero:headquartersCity "Edinburgh Parks"^^xsd:string ;
     aero:headquartersCountry "AUS"^^xsd:string ;
     aero:headquartersProvince "SA"^^xsd:string ;
@@ -1013,17 +1001,17 @@ aero:Company_BAE_Systems_Australia_Limited a aero:Company,
         aero:Cert_NATO_AQAP2110 ;
     aero:itarCompliant true ;
     aero:legalName "BAE Systems Australia Limited"^^xsd:string ;
-    aero:manufacturesProduct aero:Product_BAE_Systems_Australia_Limited_Hunter_Class_Guided_Missile_Frigate,
-        aero:Product_BAE_Systems_Australia_Limited_Nulka_Active_Missile_Decoy_System ;
+    aero:manufacturesProduct aero:Product_BAE_Systems_Australia_Hunter_Class_Guided_Missile_Frigate,
+        aero:Product_BAE_Systems_Australia_Nulka_Active_Missile_Decoy_System ;
     aero:operatesInDomain aero:AirPlatform,
         aero:DomainDefence,
         aero:LandPlatform,
         aero:MaritimePlatform ;
-    aero:providesService aero:Service_BAE_Systems_Australia_Limited_Autonomous_Aircraft_Flight_Test_Operations_Range_Safety,
-        aero:Service_BAE_Systems_Australia_Limited_Digital_Shipyard_CADCAM_Simulation_Virtual_Build_Verification,
-        aero:Service_BAE_Systems_Australia_Limited_Hawk_127_Lead_In_Fighter_Fleet_In_Service_Maintenance_Overhaul,
-        aero:Service_BAE_Systems_Australia_Limited_Sovereign_Defence_Supply_Chain_Assurance_and_Sub_Tier_Management,
-        aero:Service_BAE_Systems_Australia_Limited_Warship_Combat_System_Integration_and_Sea_Acceptance_Trials ;
+    aero:providesService aero:Service_BAE_Systems_Australia_Autonomous_Aircraft_Flight_Test_Operations_Range_Safety,
+        aero:Service_BAE_Systems_Australia_Digital_Shipyard_CADCAM_Simulation_Virtual_Build_Verification,
+        aero:Service_BAE_Systems_Australia_Hawk_127_Lead_In_Fighter_Fleet_In_Service_Maintenance_Overhaul,
+        aero:Service_BAE_Systems_Australia_Sovereign_Defence_Supply_Chain_Assurance_and_Sub_Tier_Management,
+        aero:Service_BAE_Systems_Australia_Warship_Combat_System_Integration_and_Sea_Acceptance_Trials ;
     aero:tradeName "BAE Systems Australia"^^xsd:string ;
     aero:website "https://www.baesystems.com/en-aus"^^xsd:anyURI .
 

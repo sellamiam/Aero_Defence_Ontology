@@ -2,13 +2,13 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-aero:Company_Bharat_Dynamics_Limited a aero:Company,
+aero:Company_Bharat_Dynamics a aero:Company,
         aero:PrimeContractor ;
     aero:businessNumber "IN36AAACB0001Z5"^^xsd:string ;
     aero:cageCode "1824A"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:hasCapability aero:Cap_Bharat_Dynamics_Limited_1,
-        aero:Cap_Bharat_Dynamics_Limited_2 ;
+    aero:hasCapability aero:Cap_Bharat_Dynamics_1,
+        aero:Cap_Bharat_Dynamics_2 ;
     aero:headquartersCity "Hyderabad"^^xsd:string ;
     aero:headquartersCountry "IND"^^xsd:string ;
     aero:headquartersProvince "Telangana"^^xsd:string ;
@@ -18,28 +18,28 @@ aero:Company_Bharat_Dynamics_Limited a aero:Company,
         aero:Cert_SCOMET_Compliant ;
     aero:itarCompliant true ;
     aero:legalName "Bharat Dynamics Limited"^^xsd:string ;
-    aero:manufacturesProduct aero:Product_Bharat_Dynamics_Limited_Astra_Beyond_Visual_Range_BVR_Air_to_Air_Missile,
-        aero:Product_Bharat_Dynamics_Limited_Varunastra_Heavyweight_Anti_Submarine_Torpedo ;
+    aero:manufacturesProduct aero:Product_Bharat_Dynamics_Astra_Beyond_Visual_Range_BVR_Air_to_Air_Missile,
+        aero:Product_Bharat_Dynamics_Varunastra_Heavyweight_Anti_Submarine_Torpedo ;
     aero:operatesInDomain aero:AirPlatform,
         aero:DomainDefence,
         aero:LandPlatform,
         aero:MaritimePlatform ;
-    aero:providesService aero:Service_Bharat_Dynamics_Limited_Missile_In_Canister_Depot_Inspection_and_Life_Extension_SLEP,
-        aero:Service_Bharat_Dynamics_Limited_Missile_Seeker_RF_and_Optical_Hardware_in_the_Loop_Simulation,
-        aero:Service_Bharat_Dynamics_Limited_Precision_Missile_Gyro_and_Actuator_Cleanroom_Assembly,
-        aero:Service_Bharat_Dynamics_Limited_Solid_Propellant_Grain_Radiography_and_Bond_Line_Ultrasonic_Testing,
-        aero:Service_Bharat_Dynamics_Limited_Strategic_Munitions_Storage_Safety_and_Spares_Logistics ;
+    aero:providesService aero:Service_Bharat_Dynamics_Missile_In_Canister_Depot_Inspection_and_Life_Extension_SLEP,
+        aero:Service_Bharat_Dynamics_Missile_Seeker_RF_and_Optical_Hardware_in_the_Loop_Simulation,
+        aero:Service_Bharat_Dynamics_Precision_Missile_Gyro_and_Actuator_Cleanroom_Assembly,
+        aero:Service_Bharat_Dynamics_Solid_Propellant_Grain_Radiography_and_Bond_Line_Ultrasonic_Testing,
+        aero:Service_Bharat_Dynamics_Strategic_Munitions_Storage_Safety_and_Spares_Logistics ;
     aero:tradeName "BDL"^^xsd:string ;
     aero:website "https://bdl-india.in"^^xsd:anyURI .
 
-aero:Company_Bharat_Electronics_Limited a aero:Company,
+aero:Company_Bharat_Electronics a aero:Company,
         aero:PrimeContractor ;
     aero:businessNumber "IN29AAACB0001Z2"^^xsd:string ;
     aero:cageCode "1812A"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:hasCapability aero:Cap_Bharat_Electronics_Limited_1,
-        aero:Cap_Bharat_Electronics_Limited_2,
-        aero:Cap_Bharat_Electronics_Limited_3 ;
+    aero:hasCapability aero:Cap_Bharat_Electronics_1,
+        aero:Cap_Bharat_Electronics_2,
+        aero:Cap_Bharat_Electronics_3 ;
     aero:headquartersCity "Bengaluru"^^xsd:string ;
     aero:headquartersCountry "IND"^^xsd:string ;
     aero:headquartersProvince "Karnataka"^^xsd:string ;
@@ -50,30 +50,30 @@ aero:Company_Bharat_Electronics_Limited a aero:Company,
         aero:Cert_SCOMET_Compliant ;
     aero:itarCompliant true ;
     aero:legalName "Bharat Electronics Limited"^^xsd:string ;
-    aero:manufacturesProduct aero:Product_Bharat_Electronics_Limited_HUMSA_NG_Advanced_Naval_ActivePassive_Sonar,
-        aero:Product_Bharat_Electronics_Limited_STARS_V_Software_Defined_Radio_SDR,
-        aero:Product_Bharat_Electronics_Limited_Uttam_AESA_Fire_Control_Radar ;
+    aero:manufacturesProduct aero:Product_Bharat_Electronics_HUMSA_NG_Advanced_Naval_ActivePassive_Sonar,
+        aero:Product_Bharat_Electronics_STARS_V_Software_Defined_Radio_SDR,
+        aero:Product_Bharat_Electronics_Uttam_AESA_Fire_Control_Radar ;
     aero:operatesInDomain aero:AirPlatform,
         aero:DomainC4ISR,
         aero:DomainDefence,
         aero:LandPlatform,
         aero:MaritimePlatform ;
-    aero:providesService aero:Service_Bharat_Electronics_Limited_Defence_Microelectronics_Packaging_and_PCB_SMT_Overhaul,
-        aero:Service_Bharat_Electronics_Limited_Depot_Level_Maintenance_and_Field_Spares_Support,
-        aero:Service_Bharat_Electronics_Limited_Naval_Combat_System_Shipboard_Integration_and_Harbour_Trials,
-        aero:Service_Bharat_Electronics_Limited_Radar_and_EW_Anechoic_Chamber_RF_Qualification_Testing,
-        aero:Service_Bharat_Electronics_Limited_Tactical_C4ISR_Cyber_Hardening_and_Vulnerability_Assessment ;
+    aero:providesService aero:Service_Bharat_Electronics_Defence_Microelectronics_Packaging_and_PCB_SMT_Overhaul,
+        aero:Service_Bharat_Electronics_Depot_Level_Maintenance_and_Field_Spares_Support,
+        aero:Service_Bharat_Electronics_Naval_Combat_System_Shipboard_Integration_and_Harbour_Trials,
+        aero:Service_Bharat_Electronics_Radar_and_EW_Anechoic_Chamber_RF_Qualification_Testing,
+        aero:Service_Bharat_Electronics_Tactical_C4ISR_Cyber_Hardening_and_Vulnerability_Assessment ;
     aero:tradeName "BEL"^^xsd:string ;
     aero:website "https://bel-india.in"^^xsd:anyURI .
 
-aero:Company_Larsen_Toubro_Limited_Defence a aero:Company,
+aero:Company_Larsen_Toubro_Defence a aero:Company,
         aero:PrimeContractor ;
     aero:businessNumber "IN27AAACL0001Z4"^^xsd:string ;
     aero:cageCode "1876A"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:hasCapability aero:Cap_Larsen_Toubro_Limited_Defence_1,
-        aero:Cap_Larsen_Toubro_Limited_Defence_2,
-        aero:Cap_Larsen_Toubro_Limited_Defence_3 ;
+    aero:hasCapability aero:Cap_Larsen_Toubro_Defence_1,
+        aero:Cap_Larsen_Toubro_Defence_2,
+        aero:Cap_Larsen_Toubro_Defence_3 ;
     aero:headquartersCity "Mumbai"^^xsd:string ;
     aero:headquartersCountry "IND"^^xsd:string ;
     aero:headquartersProvince "Maharashtra"^^xsd:string ;
@@ -84,26 +84,26 @@ aero:Company_Larsen_Toubro_Limited_Defence a aero:Company,
         aero:Cert_SCOMET_Compliant ;
     aero:itarCompliant true ;
     aero:legalName "Larsen & Toubro Limited - Defence"^^xsd:string ;
-    aero:manufacturesProduct aero:Product_Larsen_Toubro_Limited_Defence_K9_Vajra_T_155mm52_Calibre_Tracked_Self_Propelled_Howitzer,
-        aero:Product_Larsen_Toubro_Limited_Defence_Submarine_Modular_Pressure_Hull_Section ;
+    aero:manufacturesProduct aero:Product_Larsen_Toubro_Defence_K9_Vajra_T_155mm52_Calibre_Tracked_Self_Propelled_Howitzer,
+        aero:Product_Larsen_Toubro_Defence_Submarine_Modular_Pressure_Hull_Section ;
     aero:operatesInDomain aero:DomainDefence,
         aero:LandPlatform,
         aero:MaritimePlatform ;
-    aero:providesService aero:Service_Larsen_Toubro_Limited_Defence_Artillery_Fire_Control_Ballistic_Calibration_and_Range_Testing,
-        aero:Service_Larsen_Toubro_Limited_Defence_Heavy_Marine_Hydraulic_and_Weapon_Launcher_Depot_Maintenance,
-        aero:Service_Larsen_Toubro_Limited_Defence_Precision_Heavy_7_Axis_Floor_Borer_Machining,
-        aero:Service_Larsen_Toubro_Limited_Defence_Submarine_Pressure_Hull_Non_Destructive_Radiography_and_Ultrasonic_NDT,
-        aero:Service_Larsen_Toubro_Limited_Defence_Warship_In_Service_Fleet_Support_and_Dockyard_Modernization ;
+    aero:providesService aero:Service_Larsen_Toubro_Defence_Artillery_Fire_Control_Ballistic_Calibration_and_Range_Testing,
+        aero:Service_Larsen_Toubro_Defence_Heavy_Marine_Hydraulic_and_Weapon_Launcher_Depot_Maintenance,
+        aero:Service_Larsen_Toubro_Defence_Precision_Heavy_7_Axis_Floor_Borer_Machining,
+        aero:Service_Larsen_Toubro_Defence_Submarine_Pressure_Hull_Non_Destructive_Radiography_and_Ultrasonic_NDT,
+        aero:Service_Larsen_Toubro_Defence_Warship_In_Service_Fleet_Support_and_Dockyard_Modernization ;
     aero:tradeName "L&T Defence"^^xsd:string ;
     aero:website "https://www.larsentoubro.com/defence"^^xsd:anyURI .
 
-aero:Company_Paras_Defence_and_Space_Technologies_Limited a aero:Company,
+aero:Company_Paras_Defence_And_Space_Technologies a aero:Company,
         aero:Tier1Supplier ;
     aero:businessNumber "IN27AAACP0003Z8"^^xsd:string ;
     aero:cageCode "1938A"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:hasCapability aero:Cap_Paras_Defence_and_Space_Technologies_Limited_1,
-        aero:Cap_Paras_Defence_and_Space_Technologies_Limited_2 ;
+    aero:hasCapability aero:Cap_Paras_Defence_And_Space_Technologies_1,
+        aero:Cap_Paras_Defence_And_Space_Technologies_2 ;
     aero:headquartersCity "Navi Mumbai"^^xsd:string ;
     aero:headquartersCountry "IND"^^xsd:string ;
     aero:headquartersProvince "Maharashtra"^^xsd:string ;
@@ -112,27 +112,27 @@ aero:Company_Paras_Defence_and_Space_Technologies_Limited a aero:Company,
         aero:Cert_SCOMET_Compliant ;
     aero:itarCompliant true ;
     aero:legalName "Paras Defence and Space Technologies Limited"^^xsd:string ;
-    aero:manufacturesProduct aero:Product_Paras_Defence_and_Space_Technologies_Limited_HEMP_Hardened_Strategic_Control_Rack,
-        aero:Product_Paras_Defence_and_Space_Technologies_Limited_Hyperspectral_Space_Satellite_Telescope_Payload ;
+    aero:manufacturesProduct aero:Product_Paras_Defence_And_Space_Technologies_HEMP_Hardened_Strategic_Control_Rack,
+        aero:Product_Paras_Defence_And_Space_Technologies_Hyperspectral_Space_Satellite_Telescope_Payload ;
     aero:operatesInDomain aero:DomainDefence,
         aero:LandPlatform,
         aero:MaritimePlatform,
         aero:SpacePlatform ;
-    aero:providesService aero:Service_Paras_Defence_and_Space_Technologies_Limited_EMP_Attenuation_Shielding_Effectiveness_Verification_Testing,
-        aero:Service_Paras_Defence_and_Space_Technologies_Limited_Interferometric_Optical_Wavefront_Testing_Space_Qualification,
-        aero:Service_Paras_Defence_and_Space_Technologies_Limited_Spacecraft_Optical_Mechanical_Engineering_Consulting,
-        aero:Service_Paras_Defence_and_Space_Technologies_Limited_Strategic_Shielding_In_Service_Inspection_Gasket_Maintenance,
-        aero:Service_Paras_Defence_and_Space_Technologies_Limited_Submarine_Optronic_Mast_Optical_Overhaul_and_Recoating ;
+    aero:providesService aero:Service_Paras_Defence_And_Space_Technologies_EMP_Attenuation_Shielding_Effectiveness_Verification_Testing,
+        aero:Service_Paras_Defence_And_Space_Technologies_Interferometric_Optical_Wavefront_Testing_Space_Qualification,
+        aero:Service_Paras_Defence_And_Space_Technologies_Spacecraft_Optical_Mechanical_Engineering_Consulting,
+        aero:Service_Paras_Defence_And_Space_Technologies_Strategic_Shielding_In_Service_Inspection_Gasket_Maintenance,
+        aero:Service_Paras_Defence_And_Space_Technologies_Submarine_Optronic_Mast_Optical_Overhaul_and_Recoating ;
     aero:tradeName "Paras Defence"^^xsd:string ;
     aero:website "https://www.parasdefence.com"^^xsd:anyURI .
 
-aero:Company_Tonbo_Imaging_India_Private_Limited a aero:Company,
+aero:Company_Tonbo_Imaging_India_Private a aero:Company,
         aero:Tier1Supplier ;
     aero:businessNumber "IN29AAACT0002Z7"^^xsd:string ;
     aero:cageCode "1925A"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:hasCapability aero:Cap_Tonbo_Imaging_India_Private_Limited_1,
-        aero:Cap_Tonbo_Imaging_India_Private_Limited_2 ;
+    aero:hasCapability aero:Cap_Tonbo_Imaging_India_Private_1,
+        aero:Cap_Tonbo_Imaging_India_Private_2 ;
     aero:headquartersCity "Bengaluru"^^xsd:string ;
     aero:headquartersCountry "IND"^^xsd:string ;
     aero:headquartersProvince "Karnataka"^^xsd:string ;
@@ -141,26 +141,26 @@ aero:Company_Tonbo_Imaging_India_Private_Limited a aero:Company,
         aero:Cert_SCOMET_Compliant ;
     aero:itarCompliant true ;
     aero:legalName "Tonbo Imaging India Private Limited"^^xsd:string ;
-    aero:manufacturesProduct aero:Product_Tonbo_Imaging_India_Private_Limited_Spartan_Multi_Sensor_EOIR_Gimbal_for_Tactical_Drones,
-        aero:Product_Tonbo_Imaging_India_Private_Limited_T_Rex_Thermal_Weapon_Sight_Fire_Control_System ;
+    aero:manufacturesProduct aero:Product_Tonbo_Imaging_India_Private_Spartan_Multi_Sensor_EOIR_Gimbal_for_Tactical_Drones,
+        aero:Product_Tonbo_Imaging_India_Private_T_Rex_Thermal_Weapon_Sight_Fire_Control_System ;
     aero:operatesInDomain aero:AirPlatform,
         aero:DomainDefence,
         aero:LandPlatform ;
-    aero:providesService aero:Service_Tonbo_Imaging_India_Private_Limited_Combat_Vehicle_Turret_Optical_Sight_Integration,
-        aero:Service_Tonbo_Imaging_India_Private_Limited_Custom_Germanium_and_Chalcogenide_Lens_Design_and_Coating,
-        aero:Service_Tonbo_Imaging_India_Private_Limited_Field_Thermal_Imaging_Maintenance_Support,
-        aero:Service_Tonbo_Imaging_India_Private_Limited_Infrared_Optical_Calibration_Thermal_MTF_Testing,
-        aero:Service_Tonbo_Imaging_India_Private_Limited_Thermal_Imaging_Sights_Depot_Overhaul_and_Sensor_Alignment ;
+    aero:providesService aero:Service_Tonbo_Imaging_India_Private_Combat_Vehicle_Turret_Optical_Sight_Integration,
+        aero:Service_Tonbo_Imaging_India_Private_Custom_Germanium_and_Chalcogenide_Lens_Design_and_Coating,
+        aero:Service_Tonbo_Imaging_India_Private_Field_Thermal_Imaging_Maintenance_Support,
+        aero:Service_Tonbo_Imaging_India_Private_Infrared_Optical_Calibration_Thermal_MTF_Testing,
+        aero:Service_Tonbo_Imaging_India_Private_Thermal_Imaging_Sights_Depot_Overhaul_and_Sensor_Alignment ;
     aero:tradeName "Tonbo Imaging"^^xsd:string ;
     aero:website "https://tonboimaging.com"^^xsd:anyURI .
 
-aero:Company_Zen_Technologies_Limited a aero:Company,
+aero:Company_Zen_Technologies a aero:Company,
         aero:Tier1Supplier ;
     aero:businessNumber "IN36AAACZ0004Z9"^^xsd:string ;
     aero:cageCode "1947A"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:hasCapability aero:Cap_Zen_Technologies_Limited_1,
-        aero:Cap_Zen_Technologies_Limited_2 ;
+    aero:hasCapability aero:Cap_Zen_Technologies_1,
+        aero:Cap_Zen_Technologies_2 ;
     aero:headquartersCity "Hyderabad"^^xsd:string ;
     aero:headquartersCountry "IND"^^xsd:string ;
     aero:headquartersProvince "Telangana"^^xsd:string ;
@@ -169,26 +169,26 @@ aero:Company_Zen_Technologies_Limited a aero:Company,
         aero:Cert_SCOMET_Compliant ;
     aero:itarCompliant true ;
     aero:legalName "Zen Technologies Limited"^^xsd:string ;
-    aero:manufacturesProduct aero:Product_Zen_Technologies_Limited_Tank_Gunnery_Crew_Synthetic_Simulator,
-        aero:Product_Zen_Technologies_Limited_Zen_Anti_Drone_System_ZADS ;
+    aero:manufacturesProduct aero:Product_Zen_Technologies_Tank_Gunnery_Crew_Synthetic_Simulator,
+        aero:Product_Zen_Technologies_Zen_Anti_Drone_System_ZADS ;
     aero:operatesInDomain aero:AirPlatform,
         aero:DomainDefence,
         aero:LandPlatform ;
-    aero:providesService aero:Service_Zen_Technologies_Limited_Combat_Simulation_Software_Maintenance_Scenario_Creation,
-        aero:Service_Zen_Technologies_Limited_Military_Instructor_Tactical_Training_Delivery,
-        aero:Service_Zen_Technologies_Limited_Motion_Platform_Simulator_Hydraulic_Electric_Actuator_Overhaul,
-        aero:Service_Zen_Technologies_Limited_RF_Jammer_Radiated_Emissions_and_Counter_Drone_Field_Trials,
-        aero:Service_Zen_Technologies_Limited_Simulation_Hardware_Life_Cycle_Spares_Support ;
+    aero:providesService aero:Service_Zen_Technologies_Combat_Simulation_Software_Maintenance_Scenario_Creation,
+        aero:Service_Zen_Technologies_Military_Instructor_Tactical_Training_Delivery,
+        aero:Service_Zen_Technologies_Motion_Platform_Simulator_Hydraulic_Electric_Actuator_Overhaul,
+        aero:Service_Zen_Technologies_RF_Jammer_Radiated_Emissions_and_Counter_Drone_Field_Trials,
+        aero:Service_Zen_Technologies_Simulation_Hardware_Life_Cycle_Spares_Support ;
     aero:tradeName "Zen Technologies"^^xsd:string ;
     aero:website "https://www.zentechnologies.com"^^xsd:anyURI .
 
-aero:Company_ideaForge_Technology_Limited a aero:Company,
+aero:Company_ideaForge_Technology a aero:Company,
         aero:Tier1Supplier ;
     aero:businessNumber "IN27AAACI0005Z0"^^xsd:string ;
     aero:cageCode "1955A"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:hasCapability aero:Cap_ideaForge_Technology_Limited_1,
-        aero:Cap_ideaForge_Technology_Limited_2 ;
+    aero:hasCapability aero:Cap_ideaForge_Technology_1,
+        aero:Cap_ideaForge_Technology_2 ;
     aero:headquartersCity "Navi Mumbai"^^xsd:string ;
     aero:headquartersCountry "IND"^^xsd:string ;
     aero:headquartersProvince "Maharashtra"^^xsd:string ;
@@ -197,193 +197,193 @@ aero:Company_ideaForge_Technology_Limited a aero:Company,
         aero:Cert_SCOMET_Compliant ;
     aero:itarCompliant true ;
     aero:legalName "ideaForge Technology Limited"^^xsd:string ;
-    aero:manufacturesProduct aero:Product_ideaForge_Technology_Limited_NETRA_V4_Rugged_Tactical_Quadcopter,
-        aero:Product_ideaForge_Technology_Limited_SWITCH_UAV_Tactical_Fixed_Wing_VTOL_Drone ;
+    aero:manufacturesProduct aero:Product_ideaForge_Technology_NETRA_V4_Rugged_Tactical_Quadcopter,
+        aero:Product_ideaForge_Technology_SWITCH_UAV_Tactical_Fixed_Wing_VTOL_Drone ;
     aero:operatesInDomain aero:AirPlatform,
         aero:DomainDefence ;
-    aero:providesService aero:Service_ideaForge_Technology_Limited_Custom_Payload_Avionics_and_Sensor_Gimbal_Integration,
-        aero:Service_ideaForge_Technology_Limited_Drone_Carbon_Composite_Airframe_Repair_Rotor_Re_Balancing,
-        aero:Service_ideaForge_Technology_Limited_Forward_Deployed_Drone_Fleet_Spares_and_Battery_Lifecycle_Service,
-        aero:Service_ideaForge_Technology_Limited_High_Altitude_UAV_Flight_Envelope_Testing_and_Winterization,
-        aero:Service_ideaForge_Technology_Limited_Military_UAV_Remote_Pilot_Training_and_Mission_Planning ;
+    aero:providesService aero:Service_ideaForge_Technology_Custom_Payload_Avionics_and_Sensor_Gimbal_Integration,
+        aero:Service_ideaForge_Technology_Drone_Carbon_Composite_Airframe_Repair_Rotor_Re_Balancing,
+        aero:Service_ideaForge_Technology_Forward_Deployed_Drone_Fleet_Spares_and_Battery_Lifecycle_Service,
+        aero:Service_ideaForge_Technology_High_Altitude_UAV_Flight_Envelope_Testing_and_Winterization,
+        aero:Service_ideaForge_Technology_Military_UAV_Remote_Pilot_Training_and_Mission_Planning ;
     aero:tradeName "ideaForge"^^xsd:string ;
     aero:website "https://ideaforgetech.com"^^xsd:anyURI .
 
-aero:Cap_Bharat_Dynamics_Limited_1 a aero:Capability ;
+aero:Cap_Bharat_Dynamics_1 a aero:Capability ;
     rdfs:label "Guided Missile System Manufacturing & Final Integration"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_Munitions ;
     aero:capabilityDescription "Series production, seeker integration, propellant grain loading, and hardware-in-the-loop testing for air-to-air, surface-to-air, and anti-tank guided missiles."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_Bharat_Dynamics_Limited_2 a aero:Capability ;
+aero:Cap_Bharat_Dynamics_2 a aero:Capability ;
     rdfs:label "Underwater Heavyweight and Lightweight Torpedoes"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_Munitions ;
     aero:capabilityDescription "Thermal propulsion, battery electric drive, acoustic homing seeker integration, and deep-submergence torpedo manufacturing."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_Bharat_Electronics_Limited_1 a aero:Capability ;
+aero:Cap_Bharat_Electronics_1 a aero:Capability ;
     rdfs:label "Active Electronically Scanned Array (AESA) Radar Systems"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_SensorsSonar ;
     aero:capabilityDescription "Development and series manufacturing of solid-state active phased array airborne fire control radars (Uttam), ground air defence radars, and weapon locating radars."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_Bharat_Electronics_Limited_2 a aero:Capability ;
+aero:Cap_Bharat_Electronics_2 a aero:Capability ;
     rdfs:label "Naval Integrated Sonar Suites and Acoustic Processing"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_SensorsSonar ;
     aero:capabilityDescription "Hull-mounted, towed array, and active/passive variable depth sonar systems (HUMSA-NG, USHUS-2) with advanced acoustic classification DSP architectures."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_Bharat_Electronics_Limited_3 a aero:Capability ;
+aero:Cap_Bharat_Electronics_3 a aero:Capability ;
     rdfs:label "Tactical Electronic Warfare (EW) and ECM/ESM Suites"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_SensorsSonar ;
     aero:capabilityDescription "Wideband digital receivers, DRFM-based radar jammers, missile approach warning systems, and integrated defensive aids suites."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_Dynamatic_Technologies_Limited_1 a aero:Capability ;
+aero:Cap_Dynamatic_Technologies_1 a aero:Capability ;
     rdfs:label "Global Commercial & Military Aircraft Control Surface Assemblies"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_AerospaceSystems ;
     aero:capabilityDescription "Single-source manufacturing of empennage structures, aft pylon assemblies for Boeing P-8 Poseidon, and flap track fairings for Airbus."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_Dynamatic_Technologies_Limited_2 a aero:Capability ;
+aero:Cap_Dynamatic_Technologies_2 a aero:Capability ;
     rdfs:label "High-Precision Thin-Wall Titanium & Aluminium Aerostructure Machining"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_AdvancedMaterials ;
     aero:capabilityDescription "Complex high-speed 5-axis machining of aircraft bulkheads, titanium fittings, and structural beams with tolerances below 10 microns."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_Hindustan_Aeronautics_Limited_1 a aero:Capability ;
+aero:Cap_Hindustan_Aeronautics_1 a aero:Capability ;
     rdfs:label "Light Combat Aircraft (LCA Tejas) Prime Systems Integration"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_DefenceSystemsIntegration ;
     aero:capabilityDescription "Full lifecycle design, structural assembly, carbon-composite wing integration, fly-by-wire flight control integration, and flight testing of 4.5 generation supersonic fighter aircraft."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_Hindustan_Aeronautics_Limited_2 a aero:Capability ;
+aero:Cap_Hindustan_Aeronautics_2 a aero:Capability ;
     rdfs:label "Military Gas Turbine Aeroengine Manufacturing & Licensed Overhaul"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_AerospaceSystems ;
     aero:capabilityDescription "Indigenous engine co-development and licensed overhaul of AL-31FP turbofans, RD-33 engines, and Shakti helicopter turboshafts with single-crystal turbine blades."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_Hindustan_Aeronautics_Limited_3 a aero:Capability ;
+aero:Cap_Hindustan_Aeronautics_3 a aero:Capability ;
     rdfs:label "Combat Helicopter Design & Production (LCH Prachand / ALH Dhruv)"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_AerospaceSystems ;
     aero:capabilityDescription "High-altitude multi-role combat and utility helicopter engineering with composite airframes, integrated dynamic components, and glass cockpits."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_Larsen_Toubro_Limited_Defence_1 a aero:Capability ;
+aero:Cap_Larsen_Toubro_Defence_1 a aero:Capability ;
     rdfs:label "Submarine Pressure Hull Construction and Heavy Mechanical Systems"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_NavalShipbuilding ;
     aero:capabilityDescription "High-strength HSLA steel precision forming, narrow-gap robotic welding, acoustic vibration isolation, and submarine modular build."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_Larsen_Toubro_Limited_Defence_2 a aero:Capability ;
+aero:Cap_Larsen_Toubro_Defence_2 a aero:Capability ;
     rdfs:label "Tracked Self-Propelled Artillery Systems (K9 Vajra-T)"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_ArmouredVehicles ;
     aero:capabilityDescription "Full indigenous manufacturing, chassis welding, 155mm/52 caliber gun turret integration, and fire control ballistic computer engineering."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_Larsen_Toubro_Limited_Defence_3 a aero:Capability ;
+aero:Cap_Larsen_Toubro_Defence_3 a aero:Capability ;
     rdfs:label "Naval Missile Launchers and Weapon Handling Systems"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_NavalShipbuilding ;
     aero:capabilityDescription "Universal vertical launch system (UVLS) modules, torpedo tube launchers, and automated anti-submarine rocket decoy launchers."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_Paras_Defence_and_Space_Technologies_Limited_1 a aero:Capability ;
+aero:Cap_Paras_Defence_And_Space_Technologies_1 a aero:Capability ;
     rdfs:label "Space-Grade Large Aperture Optics & Beryllium Mirrors"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_SpaceSystems ;
     aero:capabilityDescription "Precision ultra-lightweight beryllium mirror fabrication, zero-expansion glass ceramics optical polishing, and space camera payload telescopes."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_Paras_Defence_and_Space_Technologies_Limited_2 a aero:Capability ;
+aero:Cap_Paras_Defence_And_Space_Technologies_2 a aero:Capability ;
     rdfs:label "Electromagnetic Pulse (EMP) Shielding and High-Power Microwave Protection"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_CyberResilience ;
     aero:capabilityDescription "Full EMP / HEMP MIL-STD-188-125 shielded enclosures, power and signal line surge suppression filters, and TEMPEST server racks."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_Tata_Advanced_Systems_Limited_1 a aero:Capability ;
+aero:Cap_Tata_Advanced_Systems_1 a aero:Capability ;
     rdfs:label "Aerostructures and Primary Fuselage Subassembly Manufacturing"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_AerospaceSystems ;
     aero:capabilityDescription "Manufacturing of complete composite and metallic fuselages for Boeing AH-64 Apache, empennages for C-130J, and primary structures for international military aircraft."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_Tata_Advanced_Systems_Limited_2 a aero:Capability ;
+aero:Cap_Tata_Advanced_Systems_2 a aero:Capability ;
     rdfs:label "Tactical Military Transport Aircraft Final Assembly Line (C-295)"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_AerospaceSystems ;
     aero:capabilityDescription "Establishment of India's first private sector final assembly line for full aircraft manufacturing, structural integration, and flight testing."^^xsd:string ;
     aero:mrlValue 8 ;
     aero:trlValue 8 .
 
-aero:Cap_Tata_Advanced_Systems_Limited_3 a aero:Capability ;
+aero:Cap_Tata_Advanced_Systems_3 a aero:Capability ;
     rdfs:label "Wheeled Armoured Combat Vehicles and Remote Weapon Stations"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_ArmouredVehicles ;
     aero:capabilityDescription "8x8 wheeled amphibious combat vehicle engineering, high-hardness ballistic steel monocoque hull fabrication, and stabilized weapon station integration."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_Tonbo_Imaging_India_Private_Limited_1 a aero:Capability ;
+aero:Cap_Tonbo_Imaging_India_Private_1 a aero:Capability ;
     rdfs:label "Multi-Spectral Electro-Optical and Thermal Night Vision Systems"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_EOIRSystems ;
     aero:capabilityDescription "Cooled and uncooled long-wave (LWIR) and mid-wave infrared (MWIR) imaging engines, optical computational cameras, and panoramic vehicle driver sights."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_Tonbo_Imaging_India_Private_Limited_2 a aero:Capability ;
+aero:Cap_Tonbo_Imaging_India_Private_2 a aero:Capability ;
     rdfs:label "AI Target Detection, Tracking and Video Fire Control"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_AIAutonomousSystems ;
     aero:capabilityDescription "Edge-computed real-time computer vision algorithms for automated target classification, moving target indication (MTI), and ballistic fire solutions."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_Zen_Technologies_Limited_1 a aero:Capability ;
+aero:Cap_Zen_Technologies_1 a aero:Capability ;
     rdfs:label "Synthetic Warfighter Combat Simulation and Virtual Live-Fire Ranges"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_TrainingSimulation ;
     aero:capabilityDescription "Distributed virtual reality combat training simulators, tank crew gunnery simulators, smart indoor live-fire target systems, and air defence combat training systems."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_Zen_Technologies_Limited_2 a aero:Capability ;
+aero:Cap_Zen_Technologies_2 a aero:Capability ;
     rdfs:label "Counter-Unmanned Aerial Systems (C-UAS) and Drone Hard/Soft Kill"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_RemotelyPilotedSystems ;
     aero:capabilityDescription "Multi-sensor drone detection (RF detector, 3D radar, EO/IR camera tracking) and multi-band RF/GNSS jamming and hard-kill drone neutralization."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_ideaForge_Technology_Limited_1 a aero:Capability ;
+aero:Cap_ideaForge_Technology_1 a aero:Capability ;
     rdfs:label "Tactical Vertical Take-Off & Landing (VTOL) Military Surveillance Drones"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_RemotelyPilotedSystems ;
     aero:capabilityDescription "High-altitude long-endurance tactical UAV engineering capable of operating at 6,000m altitudes in extreme cold and high wind shear environments."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_ideaForge_Technology_Limited_2 a aero:Capability ;
+aero:Cap_ideaForge_Technology_2 a aero:Capability ;
     rdfs:label "Encrypted Tactical Datalinks and Autonomous Swarm Coordination"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_AIAutonomousSystems ;
     aero:capabilityDescription "Long-range secure FHSS datalinks with AES-256 encryption, obstacle avoidance LIDAR integration, and autonomous return-to-home algorithms."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Company_Dynamatic_Technologies_Limited a aero:Company,
+aero:Company_Dynamatic_Technologies a aero:Company,
         aero:Tier1Supplier ;
     aero:businessNumber "IN29AAACD0001Z6"^^xsd:string ;
     aero:cageCode "1910A"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:hasCapability aero:Cap_Dynamatic_Technologies_Limited_1,
-        aero:Cap_Dynamatic_Technologies_Limited_2 ;
+    aero:hasCapability aero:Cap_Dynamatic_Technologies_1,
+        aero:Cap_Dynamatic_Technologies_2 ;
     aero:headquartersCity "Bengaluru"^^xsd:string ;
     aero:headquartersCountry "IND"^^xsd:string ;
     aero:headquartersProvince "Karnataka"^^xsd:string ;
@@ -394,28 +394,28 @@ aero:Company_Dynamatic_Technologies_Limited a aero:Company,
         aero:Cert_NADCAP_Welding ;
     aero:itarCompliant true ;
     aero:legalName "Dynamatic Technologies Limited"^^xsd:string ;
-    aero:manufacturesProduct aero:Product_Dynamatic_Technologies_Limited_P_8_Poseidon_Aft_Pylon_and_Cargo_Door_Assembly,
-        aero:Product_Dynamatic_Technologies_Limited_Tejas_LCA_Front_Fuselage_Major_Subassembly ;
+    aero:manufacturesProduct aero:Product_Dynamatic_Technologies_P_8_Poseidon_Aft_Pylon_and_Cargo_Door_Assembly,
+        aero:Product_Dynamatic_Technologies_Tejas_LCA_Front_Fuselage_Major_Subassembly ;
     aero:operatesInDomain aero:AirPlatform,
         aero:DomainAeronautics,
         aero:DomainDefence ;
-    aero:providesService aero:Service_Dynamatic_Technologies_Limited_Aerospace_Coordinate_Metrology_and_Laser_Tracker_Verification,
-        aero:Service_Dynamatic_Technologies_Limited_Aerospace_Surface_Treatment_Anodizing_Chemical_Conversion,
-        aero:Service_Dynamatic_Technologies_Limited_Complex_Major_Assembly_Jigs_Tooling_Design,
-        aero:Service_Dynamatic_Technologies_Limited_JIT_Aerospace_Global_Supply_Logistics_Management,
-        aero:Service_Dynamatic_Technologies_Limited_Structural_Subassembly_Depot_Repair_and_Modification ;
-    aero:suppliesTo aero:Company_Hindustan_Aeronautics_Limited ;
+    aero:providesService aero:Service_Dynamatic_Technologies_Aerospace_Coordinate_Metrology_and_Laser_Tracker_Verification,
+        aero:Service_Dynamatic_Technologies_Aerospace_Surface_Treatment_Anodizing_Chemical_Conversion,
+        aero:Service_Dynamatic_Technologies_Complex_Major_Assembly_Jigs_Tooling_Design,
+        aero:Service_Dynamatic_Technologies_JIT_Aerospace_Global_Supply_Logistics_Management,
+        aero:Service_Dynamatic_Technologies_Structural_Subassembly_Depot_Repair_and_Modification ;
+    aero:suppliesTo aero:Company_Hindustan_Aeronautics ;
     aero:tradeName "Dynamatic Aerospace"^^xsd:string ;
     aero:website "https://www.dynamatics.com"^^xsd:anyURI .
 
-aero:Company_Tata_Advanced_Systems_Limited a aero:Company,
+aero:Company_Tata_Advanced_Systems a aero:Company,
         aero:PrimeContractor ;
     aero:businessNumber "IN36AAACT0001Z3"^^xsd:string ;
     aero:cageCode "1850A"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:hasCapability aero:Cap_Tata_Advanced_Systems_Limited_1,
-        aero:Cap_Tata_Advanced_Systems_Limited_2,
-        aero:Cap_Tata_Advanced_Systems_Limited_3 ;
+    aero:hasCapability aero:Cap_Tata_Advanced_Systems_1,
+        aero:Cap_Tata_Advanced_Systems_2,
+        aero:Cap_Tata_Advanced_Systems_3 ;
     aero:headquartersCity "Hyderabad"^^xsd:string ;
     aero:headquartersCountry "IND"^^xsd:string ;
     aero:headquartersProvince "Telangana"^^xsd:string ;
@@ -425,22 +425,22 @@ aero:Company_Tata_Advanced_Systems_Limited a aero:Company,
         aero:Cert_SCOMET_Compliant ;
     aero:itarCompliant true ;
     aero:legalName "Tata Advanced Systems Limited"^^xsd:string ;
-    aero:manufacturesProduct aero:Product_Tata_Advanced_Systems_Limited_AH_64_Apache_Primary_Fuselage_Assembly,
-        aero:Product_Tata_Advanced_Systems_Limited_Wheeled_Armoured_Platform_WhAP_8x8 ;
+    aero:manufacturesProduct aero:Product_Tata_Advanced_Systems_AH_64_Apache_Primary_Fuselage_Assembly,
+        aero:Product_Tata_Advanced_Systems_Wheeled_Armoured_Platform_WhAP_8x8 ;
     aero:operatesInDomain aero:AirPlatform,
         aero:DomainAeronautics,
         aero:DomainDefence,
         aero:LandPlatform ;
-    aero:providesService aero:Service_Tata_Advanced_Systems_Limited_Aerostructures_5_Axis_Milling_and_Autoclave_Processing,
-        aero:Service_Tata_Advanced_Systems_Limited_Aircraft_Subassembly_Non_Destructive_Ultrasonic_C_Scan_Inspection,
-        aero:Service_Tata_Advanced_Systems_Limited_Armoured_Vehicle_Hull_Ballistic_and_Blast_Qualification,
-        aero:Service_Tata_Advanced_Systems_Limited_Military_Aircraft_Flight_Line_Preparation_and_Delivery_Acceptance,
-        aero:Service_Tata_Advanced_Systems_Limited_Turnkey_Defence_Program_Supply_Chain_and_Global_Logistics ;
-    aero:suppliesTo aero:Company_Hindustan_Aeronautics_Limited ;
+    aero:providesService aero:Service_Tata_Advanced_Systems_Aerostructures_5_Axis_Milling_and_Autoclave_Processing,
+        aero:Service_Tata_Advanced_Systems_Aircraft_Subassembly_Non_Destructive_Ultrasonic_C_Scan_Inspection,
+        aero:Service_Tata_Advanced_Systems_Armoured_Vehicle_Hull_Ballistic_and_Blast_Qualification,
+        aero:Service_Tata_Advanced_Systems_Military_Aircraft_Flight_Line_Preparation_and_Delivery_Acceptance,
+        aero:Service_Tata_Advanced_Systems_Turnkey_Defence_Program_Supply_Chain_and_Global_Logistics ;
+    aero:suppliesTo aero:Company_Hindustan_Aeronautics ;
     aero:tradeName "TASL"^^xsd:string ;
     aero:website "https://www.tataadvancedsystems.com"^^xsd:anyURI .
 
-aero:Product_Bharat_Dynamics_Limited_Astra_Beyond_Visual_Range_BVR_Air_to_Air_Missile a aero:Product ;
+aero:Product_Bharat_Dynamics_Astra_Beyond_Visual_Range_BVR_Air_to_Air_Missile a aero:Product ;
     rdfs:label "Astra Beyond-Visual-Range (BVR) Air-to-Air Missile"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_Inconel_718,
         aero:Material_Titanium_Ti6Al4V ;
@@ -451,7 +451,7 @@ aero:Product_Bharat_Dynamics_Limited_Astra_Beyond_Visual_Range_BVR_Air_to_Air_Mi
     aero:partNumber "PN-IND-BDL-AST01"^^xsd:string ;
     aero:productDescription "All-weather supersonic air-to-air missile with active radar seeker, smokeless solid propellant motor, and electronic counter-countermeasures."^^xsd:string .
 
-aero:Product_Bharat_Dynamics_Limited_Varunastra_Heavyweight_Anti_Submarine_Torpedo a aero:Product ;
+aero:Product_Bharat_Dynamics_Varunastra_Heavyweight_Anti_Submarine_Torpedo a aero:Product ;
     rdfs:label "Varunastra Heavyweight Anti-Submarine Torpedo"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_Titanium_Ti6Al4V ;
     aero:deployedOnPlatform aero:Platform_Submarine,
@@ -461,7 +461,7 @@ aero:Product_Bharat_Dynamics_Limited_Varunastra_Heavyweight_Anti_Submarine_Torpe
     aero:partNumber "PN-IND-BDL-VRN01"^^xsd:string ;
     aero:productDescription "Ship-launched electrically propelled heavyweight torpedo capable of striking quiet submarines in shallow and deep waters."^^xsd:string .
 
-aero:Product_Bharat_Electronics_Limited_HUMSA_NG_Advanced_Naval_ActivePassive_Sonar a aero:Product ;
+aero:Product_Bharat_Electronics_HUMSA_NG_Advanced_Naval_ActivePassive_Sonar a aero:Product ;
     rdfs:label "HUMSA-NG Advanced Naval Active/Passive Sonar"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_Titanium_Ti6Al4V ;
     aero:deployedOnPlatform aero:Platform_SurfaceCombatant ;
@@ -470,7 +470,7 @@ aero:Product_Bharat_Electronics_Limited_HUMSA_NG_Advanced_Naval_ActivePassive_So
     aero:partNumber "PN-IND-BEL-HMS01"^^xsd:string ;
     aero:productDescription "Third-generation panoramic active/passive cylindrical hull-mounted sonar system for anti-submarine warfare frigates and destroyers."^^xsd:string .
 
-aero:Product_Bharat_Electronics_Limited_STARS_V_Software_Defined_Radio_SDR a aero:Product ;
+aero:Product_Bharat_Electronics_STARS_V_Software_Defined_Radio_SDR a aero:Product ;
     rdfs:label "STARS-V Software Defined Radio (SDR)"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_AluminiumLithium_2055 ;
     aero:deployedOnPlatform aero:Platform_ArmouredCombatVehicle,
@@ -480,7 +480,7 @@ aero:Product_Bharat_Electronics_Limited_STARS_V_Software_Defined_Radio_SDR a aer
     aero:partNumber "PN-IND-BEL-SDR01"^^xsd:string ;
     aero:productDescription "Multi-band, multi-waveform software-defined tactical radio providing secure frequency-hopping voice and high-throughput data."^^xsd:string .
 
-aero:Product_Bharat_Electronics_Limited_Uttam_AESA_Fire_Control_Radar a aero:Product ;
+aero:Product_Bharat_Electronics_Uttam_AESA_Fire_Control_Radar a aero:Product ;
     rdfs:label "Uttam AESA Fire Control Radar"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_GalliumNitride_GaN,
         aero:Material_SiliconCarbide_SiC ;
@@ -490,7 +490,7 @@ aero:Product_Bharat_Electronics_Limited_Uttam_AESA_Fire_Control_Radar a aero:Pro
     aero:partNumber "PN-IND-BEL-UTM01"^^xsd:string ;
     aero:productDescription "Multi-mode solid-state Gallium Arsenide/Gallium Nitride AESA airborne radar providing long-range air-to-air tracking and high-resolution SAR ground imaging."^^xsd:string .
 
-aero:Product_Dynamatic_Technologies_Limited_P_8_Poseidon_Aft_Pylon_and_Cargo_Door_Assembly a aero:Product ;
+aero:Product_Dynamatic_Technologies_P_8_Poseidon_Aft_Pylon_and_Cargo_Door_Assembly a aero:Product ;
     rdfs:label "P-8 Poseidon Aft Pylon and Cargo Door Assembly"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_AluminiumLithium_2055,
         aero:Material_Titanium_Ti6Al4V ;
@@ -500,7 +500,7 @@ aero:Product_Dynamatic_Technologies_Limited_P_8_Poseidon_Aft_Pylon_and_Cargo_Doo
     aero:partNumber "PN-IND-DYN-P8A01"^^xsd:string ;
     aero:productDescription "Flight-critical primary aerostructure assembly delivered directly to Boeing final assembly line."^^xsd:string .
 
-aero:Product_Dynamatic_Technologies_Limited_Tejas_LCA_Front_Fuselage_Major_Subassembly a aero:Product ;
+aero:Product_Dynamatic_Technologies_Tejas_LCA_Front_Fuselage_Major_Subassembly a aero:Product ;
     rdfs:label "Tejas LCA Front Fuselage Major Subassembly"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_CarbonFiber_Composite,
         aero:Material_Titanium_Ti6Al4V ;
@@ -510,7 +510,7 @@ aero:Product_Dynamatic_Technologies_Limited_Tejas_LCA_Front_Fuselage_Major_Subas
     aero:partNumber "PN-IND-DYN-LCA01"^^xsd:string ;
     aero:productDescription "Complex structural carbon-composite and metallic forward fuselage assembly housing avionics bay and cockpit bulkhead."^^xsd:string .
 
-aero:Product_Hindustan_Aeronautics_Limited_Prachand_Light_Combat_Helicopter_LCH a aero:Product ;
+aero:Product_Hindustan_Aeronautics_Prachand_Light_Combat_Helicopter_LCH a aero:Product ;
     rdfs:label "Prachand Light Combat Helicopter (LCH)"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_CarbonFiber_Composite,
         aero:Material_Kevlar_Aramid ;
@@ -520,7 +520,7 @@ aero:Product_Hindustan_Aeronautics_Limited_Prachand_Light_Combat_Helicopter_LCH 
     aero:partNumber "PN-IND-HAL-LCH01"^^xsd:string ;
     aero:productDescription "Dedicated twin-engine attack helicopter optimized for high-altitude operations in extreme desert and mountain terrains."^^xsd:string .
 
-aero:Product_Hindustan_Aeronautics_Limited_Shakti_Safran_Ardiden_1H1_Turboshaft_Engine a aero:Product ;
+aero:Product_Hindustan_Aeronautics_Shakti_Safran_Ardiden_1H1_Turboshaft_Engine a aero:Product ;
     rdfs:label "Shakti (Safran Ardiden 1H1) Turboshaft Engine"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_Inconel_718,
         aero:Material_SingleCrystal_Superalloy ;
@@ -530,7 +530,7 @@ aero:Product_Hindustan_Aeronautics_Limited_Shakti_Safran_Ardiden_1H1_Turboshaft_
     aero:partNumber "PN-IND-HAL-SHK01"^^xsd:string ;
     aero:productDescription "Co-developed high-power turboshaft engine with dual-channel FADEC powering indigenous multi-role military helicopters."^^xsd:string .
 
-aero:Product_Hindustan_Aeronautics_Limited_Tejas_Light_Combat_Aircraft_LCA_Mk_1A a aero:Product ;
+aero:Product_Hindustan_Aeronautics_Tejas_Light_Combat_Aircraft_LCA_Mk_1A a aero:Product ;
     rdfs:label "Tejas Light Combat Aircraft (LCA Mk-1A)"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_CarbonFiber_Composite,
         aero:Material_Titanium_Ti6Al4V ;
@@ -540,7 +540,7 @@ aero:Product_Hindustan_Aeronautics_Limited_Tejas_Light_Combat_Aircraft_LCA_Mk_1A
     aero:partNumber "PN-IND-HAL-LCA1A"^^xsd:string ;
     aero:productDescription "Supersonic multi-role tactical fighter featuring AESA radar, electronic warfare suite, air-to-air refueling, and precision strike integration."^^xsd:string .
 
-aero:Product_Larsen_Toubro_Limited_Defence_K9_Vajra_T_155mm52_Calibre_Tracked_Self_Propelled_Howitzer a aero:Product ;
+aero:Product_Larsen_Toubro_Defence_K9_Vajra_T_155mm52_Calibre_Tracked_Self_Propelled_Howitzer a aero:Product ;
     rdfs:label "K9 Vajra-T 155mm/52 Calibre Tracked Self-Propelled Howitzer"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_Titanium_Ti6Al4V ;
     aero:deployedOnPlatform aero:Platform_ArmouredCombatVehicle ;
@@ -549,7 +549,7 @@ aero:Product_Larsen_Toubro_Limited_Defence_K9_Vajra_T_155mm52_Calibre_Tracked_Se
     aero:partNumber "PN-IND-LNT-K9V01"^^xsd:string ;
     aero:productDescription "Armoured self-propelled artillery vehicle with automated ammunition handling, direct fire sighting, and all-welded steel hull."^^xsd:string .
 
-aero:Product_Larsen_Toubro_Limited_Defence_Submarine_Modular_Pressure_Hull_Section a aero:Product ;
+aero:Product_Larsen_Toubro_Defence_Submarine_Modular_Pressure_Hull_Section a aero:Product ;
     rdfs:label "Submarine Modular Pressure Hull Section"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_Titanium_Ti6Al4V ;
     aero:deployedOnPlatform aero:Platform_Submarine ;
@@ -558,7 +558,7 @@ aero:Product_Larsen_Toubro_Limited_Defence_Submarine_Modular_Pressure_Hull_Secti
     aero:partNumber "PN-IND-LNT-SUB01"^^xsd:string ;
     aero:productDescription "Nuclear and conventional submarine pressure hull structural cylinder manufactured from high-yield submarine-grade alloy steel."^^xsd:string .
 
-aero:Product_Paras_Defence_and_Space_Technologies_Limited_HEMP_Hardened_Strategic_Control_Rack a aero:Product ;
+aero:Product_Paras_Defence_And_Space_Technologies_HEMP_Hardened_Strategic_Control_Rack a aero:Product ;
     rdfs:label "HEMP Hardened Strategic Control Rack"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_AluminiumLithium_2055 ;
     aero:deployedOnPlatform aero:Platform_Submarine ;
@@ -567,7 +567,7 @@ aero:Product_Paras_Defence_and_Space_Technologies_Limited_HEMP_Hardened_Strategi
     aero:partNumber "PN-IND-PRS-EMP01"^^xsd:string ;
     aero:productDescription "High-altitude electromagnetic pulse shielded 19-inch electronics cabinet delivering over 100dB attenuation from 10kHz to 10GHz."^^xsd:string .
 
-aero:Product_Paras_Defence_and_Space_Technologies_Limited_Hyperspectral_Space_Satellite_Telescope_Payload a aero:Product ;
+aero:Product_Paras_Defence_And_Space_Technologies_Hyperspectral_Space_Satellite_Telescope_Payload a aero:Product ;
     rdfs:label "Hyperspectral Space Satellite Telescope Payload"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_HighPurity_Beryllium,
         aero:Material_SiliconCarbide_SiC ;
@@ -577,7 +577,7 @@ aero:Product_Paras_Defence_and_Space_Technologies_Limited_Hyperspectral_Space_Sa
     aero:partNumber "PN-IND-PRS-OPT01"^^xsd:string ;
     aero:productDescription "Diffraction-limited optical telescope payload for Earth observation nanosatellite constellations."^^xsd:string .
 
-aero:Product_Tata_Advanced_Systems_Limited_AH_64_Apache_Primary_Fuselage_Assembly a aero:Product ;
+aero:Product_Tata_Advanced_Systems_AH_64_Apache_Primary_Fuselage_Assembly a aero:Product ;
     rdfs:label "AH-64 Apache Primary Fuselage Assembly"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_CarbonFiber_Composite,
         aero:Material_Titanium_Ti6Al4V ;
@@ -587,7 +587,7 @@ aero:Product_Tata_Advanced_Systems_Limited_AH_64_Apache_Primary_Fuselage_Assembl
     aero:partNumber "PN-IND-TASL-FUS01"^^xsd:string ;
     aero:productDescription "Complete secondary and primary structure fuselage for global Apache attack helicopter fleet."^^xsd:string .
 
-aero:Product_Tata_Advanced_Systems_Limited_Wheeled_Armoured_Platform_WhAP_8x8 a aero:Product ;
+aero:Product_Tata_Advanced_Systems_Wheeled_Armoured_Platform_WhAP_8x8 a aero:Product ;
     rdfs:label "Wheeled Armoured Platform (WhAP 8x8)"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_AluminiumLithium_2055,
         aero:Material_Kevlar_Aramid ;
@@ -597,7 +597,7 @@ aero:Product_Tata_Advanced_Systems_Limited_Wheeled_Armoured_Platform_WhAP_8x8 a 
     aero:partNumber "PN-IND-TASL-WAP01"^^xsd:string ;
     aero:productDescription "Amphibious wheeled armoured vehicle with modular blast protection, CBRN filtration, and automated fire suppression."^^xsd:string .
 
-aero:Product_Tonbo_Imaging_India_Private_Limited_Spartan_Multi_Sensor_EOIR_Gimbal_for_Tactical_Drones a aero:Product ;
+aero:Product_Tonbo_Imaging_India_Private_Spartan_Multi_Sensor_EOIR_Gimbal_for_Tactical_Drones a aero:Product ;
     rdfs:label "Spartan Multi-Sensor EO/IR Gimbal for Tactical Drones"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_AluminiumLithium_2055,
         aero:Material_CarbonFiber_Composite ;
@@ -607,7 +607,7 @@ aero:Product_Tonbo_Imaging_India_Private_Limited_Spartan_Multi_Sensor_EOIR_Gimba
     aero:partNumber "PN-IND-TNB-SPT01"^^xsd:string ;
     aero:productDescription "Dual-sensor gyro-stabilized gimbal featuring HD continuous zoom daylight camera, cooled MWIR thermal imager, and laser target designator."^^xsd:string .
 
-aero:Product_Tonbo_Imaging_India_Private_Limited_T_Rex_Thermal_Weapon_Sight_Fire_Control_System a aero:Product ;
+aero:Product_Tonbo_Imaging_India_Private_T_Rex_Thermal_Weapon_Sight_Fire_Control_System a aero:Product ;
     rdfs:label "T-Rex Thermal Weapon Sight & Fire Control System"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_SiliconCarbide_SiC ;
     aero:deployedOnPlatform aero:Platform_ArmouredCombatVehicle ;
@@ -616,7 +616,7 @@ aero:Product_Tonbo_Imaging_India_Private_Limited_T_Rex_Thermal_Weapon_Sight_Fire
     aero:partNumber "PN-IND-TNB-TRX01"^^xsd:string ;
     aero:productDescription "Ultra-compact clip-on thermal weapon sight with integrated laser rangefinder, ballistic solver, and digital compass."^^xsd:string .
 
-aero:Product_Zen_Technologies_Limited_Tank_Gunnery_Crew_Synthetic_Simulator a aero:Product ;
+aero:Product_Zen_Technologies_Tank_Gunnery_Crew_Synthetic_Simulator a aero:Product ;
     rdfs:label "Tank Gunnery & Crew Synthetic Simulator"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_AluminiumLithium_2055 ;
     aero:deployedOnPlatform aero:Platform_ArmouredCombatVehicle ;
@@ -625,7 +625,7 @@ aero:Product_Zen_Technologies_Limited_Tank_Gunnery_Crew_Synthetic_Simulator a ae
     aero:partNumber "PN-IND-ZEN-SIM01"^^xsd:string ;
     aero:productDescription "Full-mission 6-DOF motion platform simulator replicating T-90 and BMP interior controls, ballistics, and tactical battle scenarios."^^xsd:string .
 
-aero:Product_Zen_Technologies_Limited_Zen_Anti_Drone_System_ZADS a aero:Product ;
+aero:Product_Zen_Technologies_Zen_Anti_Drone_System_ZADS a aero:Product ;
     rdfs:label "Zen Anti-Drone System (ZADS)"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_AluminiumLithium_2055 ;
     aero:deployedOnPlatform aero:Platform_TacticalUAS ;
@@ -634,7 +634,7 @@ aero:Product_Zen_Technologies_Limited_Zen_Anti_Drone_System_ZADS a aero:Product 
     aero:partNumber "PN-IND-ZEN-ADS01"^^xsd:string ;
     aero:productDescription "Comprehensive counter-drone defense system providing 360-degree detection, classification, and directional RF jamming up to 5km range."^^xsd:string .
 
-aero:Product_ideaForge_Technology_Limited_NETRA_V4_Rugged_Tactical_Quadcopter a aero:Product ;
+aero:Product_ideaForge_Technology_NETRA_V4_Rugged_Tactical_Quadcopter a aero:Product ;
     rdfs:label "NETRA V4+ Rugged Tactical Quadcopter"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_CarbonFiber_Composite ;
     aero:deployedOnPlatform aero:Platform_TacticalUAS ;
@@ -643,7 +643,7 @@ aero:Product_ideaForge_Technology_Limited_NETRA_V4_Rugged_Tactical_Quadcopter a 
     aero:partNumber "PN-IND-IDF-NTR01"^^xsd:string ;
     aero:productDescription "Lightweight rapid-deployment tactical micro-UAV for urban counter-terror and perimeter security operations."^^xsd:string .
 
-aero:Product_ideaForge_Technology_Limited_SWITCH_UAV_Tactical_Fixed_Wing_VTOL_Drone a aero:Product ;
+aero:Product_ideaForge_Technology_SWITCH_UAV_Tactical_Fixed_Wing_VTOL_Drone a aero:Product ;
     rdfs:label "SWITCH UAV Tactical Fixed-Wing VTOL Drone"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_CarbonFiber_Composite ;
     aero:deployedOnPlatform aero:Platform_TacticalUAS ;
@@ -652,7 +652,7 @@ aero:Product_ideaForge_Technology_Limited_SWITCH_UAV_Tactical_Fixed_Wing_VTOL_Dr
     aero:partNumber "PN-IND-IDF-SWT01"^^xsd:string ;
     aero:productDescription "Hybrid VTOL tactical surveillance drone with over 2 hours endurance, 15km operational range, and daylight/thermal dual payloads."^^xsd:string .
 
-aero:Service_Bharat_Dynamics_Limited_Missile_In_Canister_Depot_Inspection_and_Life_Extension_SLEP a aero:MROService,
+aero:Service_Bharat_Dynamics_Missile_In_Canister_Depot_Inspection_and_Life_Extension_SLEP a aero:MROService,
         aero:Service ;
     rdfs:label "Missile In-Canister Depot Inspection and Life Extension (SLEP)"^^xsd:string ;
     aero:serviceAccreditation "CEMILAC Approved"^^xsd:string ;
@@ -662,7 +662,7 @@ aero:Service_Bharat_Dynamics_Limited_Missile_In_Canister_Depot_Inspection_and_Li
         aero:Platform_Submarine,
         aero:Platform_SurfaceCombatant .
 
-aero:Service_Bharat_Dynamics_Limited_Missile_Seeker_RF_and_Optical_Hardware_in_the_Loop_Simulation a aero:Service,
+aero:Service_Bharat_Dynamics_Missile_Seeker_RF_and_Optical_Hardware_in_the_Loop_Simulation a aero:Service,
         aero:SimulationTrainingService ;
     rdfs:label "Missile Seeker RF and Optical Hardware-in-the-Loop Simulation"^^xsd:string ;
     aero:serviceAccreditation "DRDO Certified"^^xsd:string ;
@@ -672,7 +672,7 @@ aero:Service_Bharat_Dynamics_Limited_Missile_Seeker_RF_and_Optical_Hardware_in_t
         aero:Platform_Submarine,
         aero:Platform_SurfaceCombatant .
 
-aero:Service_Bharat_Dynamics_Limited_Precision_Missile_Gyro_and_Actuator_Cleanroom_Assembly a aero:EngineeringService,
+aero:Service_Bharat_Dynamics_Precision_Missile_Gyro_and_Actuator_Cleanroom_Assembly a aero:EngineeringService,
         aero:Service ;
     rdfs:label "Precision Missile Gyro and Actuator Cleanroom Assembly"^^xsd:string ;
     aero:serviceAccreditation "ISO 9001:2015"^^xsd:string ;
@@ -682,7 +682,7 @@ aero:Service_Bharat_Dynamics_Limited_Precision_Missile_Gyro_and_Actuator_Cleanro
         aero:Platform_Submarine,
         aero:Platform_SurfaceCombatant .
 
-aero:Service_Bharat_Dynamics_Limited_Solid_Propellant_Grain_Radiography_and_Bond_Line_Ultrasonic_Testing a aero:Service,
+aero:Service_Bharat_Dynamics_Solid_Propellant_Grain_Radiography_and_Bond_Line_Ultrasonic_Testing a aero:Service,
         aero:TestingQualificationService ;
     rdfs:label "Solid Propellant Grain Radiography and Bond Line Ultrasonic Testing"^^xsd:string ;
     aero:serviceAccreditation "AS9100D"^^xsd:string ;
@@ -692,7 +692,7 @@ aero:Service_Bharat_Dynamics_Limited_Solid_Propellant_Grain_Radiography_and_Bond
         aero:Platform_Submarine,
         aero:Platform_SurfaceCombatant .
 
-aero:Service_Bharat_Dynamics_Limited_Strategic_Munitions_Storage_Safety_and_Spares_Logistics a aero:LogisticsSupportService,
+aero:Service_Bharat_Dynamics_Strategic_Munitions_Storage_Safety_and_Spares_Logistics a aero:LogisticsSupportService,
         aero:Service ;
     rdfs:label "Strategic Munitions Storage Safety and Spares Logistics"^^xsd:string ;
     aero:serviceAccreditation "PESO Licensed"^^xsd:string ;
@@ -702,7 +702,7 @@ aero:Service_Bharat_Dynamics_Limited_Strategic_Munitions_Storage_Safety_and_Spar
         aero:Platform_Submarine,
         aero:Platform_SurfaceCombatant .
 
-aero:Service_Bharat_Electronics_Limited_Defence_Microelectronics_Packaging_and_PCB_SMT_Overhaul a aero:MROService,
+aero:Service_Bharat_Electronics_Defence_Microelectronics_Packaging_and_PCB_SMT_Overhaul a aero:MROService,
         aero:Service ;
     rdfs:label "Defence Microelectronics Packaging and PCB SMT Overhaul"^^xsd:string ;
     aero:serviceAccreditation "AS9100D"^^xsd:string ;
@@ -712,7 +712,7 @@ aero:Service_Bharat_Electronics_Limited_Defence_Microelectronics_Packaging_and_P
         aero:Platform_Submarine,
         aero:Platform_SurfaceCombatant .
 
-aero:Service_Bharat_Electronics_Limited_Depot_Level_Maintenance_and_Field_Spares_Support a aero:LogisticsSupportService,
+aero:Service_Bharat_Electronics_Depot_Level_Maintenance_and_Field_Spares_Support a aero:LogisticsSupportService,
         aero:Service ;
     rdfs:label "Depot Level Maintenance and Field Spares Support"^^xsd:string ;
     aero:serviceAccreditation "ISO 9001:2015"^^xsd:string ;
@@ -722,7 +722,7 @@ aero:Service_Bharat_Electronics_Limited_Depot_Level_Maintenance_and_Field_Spares
         aero:Platform_Submarine,
         aero:Platform_SurfaceCombatant .
 
-aero:Service_Bharat_Electronics_Limited_Naval_Combat_System_Shipboard_Integration_and_Harbour_Trials a aero:EngineeringService,
+aero:Service_Bharat_Electronics_Naval_Combat_System_Shipboard_Integration_and_Harbour_Trials a aero:EngineeringService,
         aero:Service ;
     rdfs:label "Naval Combat System Shipboard Integration and Harbour Trials"^^xsd:string ;
     aero:serviceAccreditation "Indian Navy Directorate of Naval Design"^^xsd:string ;
@@ -732,7 +732,7 @@ aero:Service_Bharat_Electronics_Limited_Naval_Combat_System_Shipboard_Integratio
         aero:Platform_Submarine,
         aero:Platform_SurfaceCombatant .
 
-aero:Service_Bharat_Electronics_Limited_Radar_and_EW_Anechoic_Chamber_RF_Qualification_Testing a aero:Service,
+aero:Service_Bharat_Electronics_Radar_and_EW_Anechoic_Chamber_RF_Qualification_Testing a aero:Service,
         aero:TestingQualificationService ;
     rdfs:label "Radar and EW Anechoic Chamber RF Qualification Testing"^^xsd:string ;
     aero:serviceAccreditation "NABL Accredited Laboratory"^^xsd:string ;
@@ -742,7 +742,7 @@ aero:Service_Bharat_Electronics_Limited_Radar_and_EW_Anechoic_Chamber_RF_Qualifi
         aero:Platform_Submarine,
         aero:Platform_SurfaceCombatant .
 
-aero:Service_Bharat_Electronics_Limited_Tactical_C4ISR_Cyber_Hardening_and_Vulnerability_Assessment a aero:CyberSecurityService,
+aero:Service_Bharat_Electronics_Tactical_C4ISR_Cyber_Hardening_and_Vulnerability_Assessment a aero:CyberSecurityService,
         aero:Service ;
     rdfs:label "Tactical C4ISR Cyber Hardening and Vulnerability Assessment"^^xsd:string ;
     aero:serviceAccreditation "CERT-In Empaneled"^^xsd:string ;
@@ -752,7 +752,7 @@ aero:Service_Bharat_Electronics_Limited_Tactical_C4ISR_Cyber_Hardening_and_Vulne
         aero:Platform_Submarine,
         aero:Platform_SurfaceCombatant .
 
-aero:Service_Dynamatic_Technologies_Limited_Aerospace_Coordinate_Metrology_and_Laser_Tracker_Verification a aero:Service,
+aero:Service_Dynamatic_Technologies_Aerospace_Coordinate_Metrology_and_Laser_Tracker_Verification a aero:Service,
         aero:TestingQualificationService ;
     rdfs:label "Aerospace Coordinate Metrology and Laser Tracker Verification"^^xsd:string ;
     aero:serviceAccreditation "ISO/IEC 17025"^^xsd:string ;
@@ -761,7 +761,7 @@ aero:Service_Dynamatic_Technologies_Limited_Aerospace_Coordinate_Metrology_and_L
         aero:Platform_P8_Poseidon,
         aero:Platform_RotaryWing .
 
-aero:Service_Dynamatic_Technologies_Limited_Aerospace_Surface_Treatment_Anodizing_Chemical_Conversion a aero:EngineeringService,
+aero:Service_Dynamatic_Technologies_Aerospace_Surface_Treatment_Anodizing_Chemical_Conversion a aero:EngineeringService,
         aero:Service ;
     rdfs:label "Aerospace Surface Treatment, Anodizing & Chemical Conversion"^^xsd:string ;
     aero:serviceAccreditation "NADCAP Chemical Processing"^^xsd:string ;
@@ -770,7 +770,7 @@ aero:Service_Dynamatic_Technologies_Limited_Aerospace_Surface_Treatment_Anodizin
         aero:Platform_P8_Poseidon,
         aero:Platform_RotaryWing .
 
-aero:Service_Dynamatic_Technologies_Limited_Complex_Major_Assembly_Jigs_Tooling_Design a aero:EngineeringService,
+aero:Service_Dynamatic_Technologies_Complex_Major_Assembly_Jigs_Tooling_Design a aero:EngineeringService,
         aero:Service ;
     rdfs:label "Complex Major Assembly Jigs & Tooling Design"^^xsd:string ;
     aero:serviceAccreditation "AS9100D"^^xsd:string ;
@@ -779,7 +779,7 @@ aero:Service_Dynamatic_Technologies_Limited_Complex_Major_Assembly_Jigs_Tooling_
         aero:Platform_P8_Poseidon,
         aero:Platform_RotaryWing .
 
-aero:Service_Dynamatic_Technologies_Limited_JIT_Aerospace_Global_Supply_Logistics_Management a aero:LogisticsSupportService,
+aero:Service_Dynamatic_Technologies_JIT_Aerospace_Global_Supply_Logistics_Management a aero:LogisticsSupportService,
         aero:Service ;
     rdfs:label "JIT Aerospace Global Supply Logistics Management"^^xsd:string ;
     aero:serviceAccreditation "AS9100D"^^xsd:string ;
@@ -788,7 +788,7 @@ aero:Service_Dynamatic_Technologies_Limited_JIT_Aerospace_Global_Supply_Logistic
         aero:Platform_P8_Poseidon,
         aero:Platform_RotaryWing .
 
-aero:Service_Dynamatic_Technologies_Limited_Structural_Subassembly_Depot_Repair_and_Modification a aero:MROService,
+aero:Service_Dynamatic_Technologies_Structural_Subassembly_Depot_Repair_and_Modification a aero:MROService,
         aero:Service ;
     rdfs:label "Structural Subassembly Depot Repair and Modification"^^xsd:string ;
     aero:serviceAccreditation "Boeing D1-4426 Approved"^^xsd:string ;
@@ -797,7 +797,7 @@ aero:Service_Dynamatic_Technologies_Limited_Structural_Subassembly_Depot_Repair_
         aero:Platform_P8_Poseidon,
         aero:Platform_RotaryWing .
 
-aero:Service_Hindustan_Aeronautics_Limited_Combat_Aircraft_Flight_Test_Engineering_Weapon_Integration a aero:Service,
+aero:Service_Hindustan_Aeronautics_Combat_Aircraft_Flight_Test_Engineering_Weapon_Integration a aero:Service,
         aero:TestingQualificationService ;
     rdfs:label "Combat Aircraft Flight Test Engineering & Weapon Integration"^^xsd:string ;
     aero:serviceAccreditation "National Flight Test Center (NFTC)"^^xsd:string ;
@@ -806,7 +806,7 @@ aero:Service_Hindustan_Aeronautics_Limited_Combat_Aircraft_Flight_Test_Engineeri
         aero:Platform_RotaryWing,
         aero:Platform_Su30MKI_Flanker .
 
-aero:Service_Hindustan_Aeronautics_Limited_DO_178C_DO_254_Flight_Control_Software_Safety_Certification a aero:EngineeringService,
+aero:Service_Hindustan_Aeronautics_DO_178C_DO_254_Flight_Control_Software_Safety_Certification a aero:EngineeringService,
         aero:Service ;
     rdfs:label "DO-178C / DO-254 Flight Control Software Safety Certification"^^xsd:string ;
     aero:serviceAccreditation "CEMILAC Standard"^^xsd:string ;
@@ -815,7 +815,7 @@ aero:Service_Hindustan_Aeronautics_Limited_DO_178C_DO_254_Flight_Control_Softwar
         aero:Platform_RotaryWing,
         aero:Platform_Su30MKI_Flanker .
 
-aero:Service_Hindustan_Aeronautics_Limited_Fighter_Aircraft_Depot_Level_Heavy_Maintenance_Overhaul a aero:MROService,
+aero:Service_Hindustan_Aeronautics_Fighter_Aircraft_Depot_Level_Heavy_Maintenance_Overhaul a aero:MROService,
         aero:Service ;
     rdfs:label "Fighter Aircraft Depot-Level Heavy Maintenance & Overhaul"^^xsd:string ;
     aero:serviceAccreditation "DGAQA / CEMILAC Approved"^^xsd:string ;
@@ -824,7 +824,7 @@ aero:Service_Hindustan_Aeronautics_Limited_Fighter_Aircraft_Depot_Level_Heavy_Ma
         aero:Platform_RotaryWing,
         aero:Platform_Su30MKI_Flanker .
 
-aero:Service_Hindustan_Aeronautics_Limited_Integrated_Fleet_Lifecycle_Logistics_Spares_Management a aero:LogisticsSupportService,
+aero:Service_Hindustan_Aeronautics_Integrated_Fleet_Lifecycle_Logistics_Spares_Management a aero:LogisticsSupportService,
         aero:Service ;
     rdfs:label "Integrated Fleet Lifecycle Logistics & Spares Management"^^xsd:string ;
     aero:serviceAccreditation "ISO 9001:2015"^^xsd:string ;
@@ -833,7 +833,7 @@ aero:Service_Hindustan_Aeronautics_Limited_Integrated_Fleet_Lifecycle_Logistics_
         aero:Platform_RotaryWing,
         aero:Platform_Su30MKI_Flanker .
 
-aero:Service_Hindustan_Aeronautics_Limited_Military_Aeroengine_Performance_Testing_and_Hot_Section_Overhaul a aero:MROService,
+aero:Service_Hindustan_Aeronautics_Military_Aeroengine_Performance_Testing_and_Hot_Section_Overhaul a aero:MROService,
         aero:Service ;
     rdfs:label "Military Aeroengine Performance Testing and Hot-Section Overhaul"^^xsd:string ;
     aero:serviceAccreditation "AS9100D"^^xsd:string ;
@@ -842,7 +842,7 @@ aero:Service_Hindustan_Aeronautics_Limited_Military_Aeroengine_Performance_Testi
         aero:Platform_RotaryWing,
         aero:Platform_Su30MKI_Flanker .
 
-aero:Service_Larsen_Toubro_Limited_Defence_Artillery_Fire_Control_Ballistic_Calibration_and_Range_Testing a aero:Service,
+aero:Service_Larsen_Toubro_Defence_Artillery_Fire_Control_Ballistic_Calibration_and_Range_Testing a aero:Service,
         aero:TestingQualificationService ;
     rdfs:label "Artillery Fire Control Ballistic Calibration and Range Testing"^^xsd:string ;
     aero:serviceAccreditation "ARDE Certified"^^xsd:string ;
@@ -851,7 +851,7 @@ aero:Service_Larsen_Toubro_Limited_Defence_Artillery_Fire_Control_Ballistic_Cali
         aero:Platform_Submarine,
         aero:Platform_SurfaceCombatant .
 
-aero:Service_Larsen_Toubro_Limited_Defence_Heavy_Marine_Hydraulic_and_Weapon_Launcher_Depot_Maintenance a aero:MROService,
+aero:Service_Larsen_Toubro_Defence_Heavy_Marine_Hydraulic_and_Weapon_Launcher_Depot_Maintenance a aero:MROService,
         aero:Service ;
     rdfs:label "Heavy Marine Hydraulic and Weapon Launcher Depot Maintenance"^^xsd:string ;
     aero:serviceAccreditation "Indian Navy Warship Overseeing Team"^^xsd:string ;
@@ -860,7 +860,7 @@ aero:Service_Larsen_Toubro_Limited_Defence_Heavy_Marine_Hydraulic_and_Weapon_Lau
         aero:Platform_Submarine,
         aero:Platform_SurfaceCombatant .
 
-aero:Service_Larsen_Toubro_Limited_Defence_Precision_Heavy_7_Axis_Floor_Borer_Machining a aero:EngineeringService,
+aero:Service_Larsen_Toubro_Defence_Precision_Heavy_7_Axis_Floor_Borer_Machining a aero:EngineeringService,
         aero:Service ;
     rdfs:label "Precision Heavy 7-Axis Floor Borer Machining"^^xsd:string ;
     aero:serviceAccreditation "AS9100D"^^xsd:string ;
@@ -869,7 +869,7 @@ aero:Service_Larsen_Toubro_Limited_Defence_Precision_Heavy_7_Axis_Floor_Borer_Ma
         aero:Platform_Submarine,
         aero:Platform_SurfaceCombatant .
 
-aero:Service_Larsen_Toubro_Limited_Defence_Submarine_Pressure_Hull_Non_Destructive_Radiography_and_Ultrasonic_NDT a aero:Service,
+aero:Service_Larsen_Toubro_Defence_Submarine_Pressure_Hull_Non_Destructive_Radiography_and_Ultrasonic_NDT a aero:Service,
         aero:TestingQualificationService ;
     rdfs:label "Submarine Pressure Hull Non-Destructive Radiography and Ultrasonic NDT"^^xsd:string ;
     aero:serviceAccreditation "NADCAP NDT / DNV-GL Naval"^^xsd:string ;
@@ -878,7 +878,7 @@ aero:Service_Larsen_Toubro_Limited_Defence_Submarine_Pressure_Hull_Non_Destructi
         aero:Platform_Submarine,
         aero:Platform_SurfaceCombatant .
 
-aero:Service_Larsen_Toubro_Limited_Defence_Warship_In_Service_Fleet_Support_and_Dockyard_Modernization a aero:LogisticsSupportService,
+aero:Service_Larsen_Toubro_Defence_Warship_In_Service_Fleet_Support_and_Dockyard_Modernization a aero:LogisticsSupportService,
         aero:Service ;
     rdfs:label "Warship In-Service Fleet Support and Dockyard Modernization"^^xsd:string ;
     aero:serviceAccreditation "ISO 9001:2015"^^xsd:string ;
@@ -887,7 +887,7 @@ aero:Service_Larsen_Toubro_Limited_Defence_Warship_In_Service_Fleet_Support_and_
         aero:Platform_Submarine,
         aero:Platform_SurfaceCombatant .
 
-aero:Service_Paras_Defence_and_Space_Technologies_Limited_EMP_Attenuation_Shielding_Effectiveness_Verification_Testing a aero:Service,
+aero:Service_Paras_Defence_And_Space_Technologies_EMP_Attenuation_Shielding_Effectiveness_Verification_Testing a aero:Service,
         aero:TestingQualificationService ;
     rdfs:label "EMP Attenuation Shielding Effectiveness Verification Testing"^^xsd:string ;
     aero:serviceAccreditation "NABL Accredited"^^xsd:string ;
@@ -896,7 +896,7 @@ aero:Service_Paras_Defence_and_Space_Technologies_Limited_EMP_Attenuation_Shield
         aero:Platform_LEOSatellite,
         aero:Platform_Submarine .
 
-aero:Service_Paras_Defence_and_Space_Technologies_Limited_Interferometric_Optical_Wavefront_Testing_Space_Qualification a aero:Service,
+aero:Service_Paras_Defence_And_Space_Technologies_Interferometric_Optical_Wavefront_Testing_Space_Qualification a aero:Service,
         aero:TestingQualificationService ;
     rdfs:label "Interferometric Optical Wavefront Testing & Space Qualification"^^xsd:string ;
     aero:serviceAccreditation "ISRO Qualified"^^xsd:string ;
@@ -905,7 +905,7 @@ aero:Service_Paras_Defence_and_Space_Technologies_Limited_Interferometric_Optica
         aero:Platform_LEOSatellite,
         aero:Platform_Submarine .
 
-aero:Service_Paras_Defence_and_Space_Technologies_Limited_Spacecraft_Optical_Mechanical_Engineering_Consulting a aero:EngineeringService,
+aero:Service_Paras_Defence_And_Space_Technologies_Spacecraft_Optical_Mechanical_Engineering_Consulting a aero:EngineeringService,
         aero:Service ;
     rdfs:label "Spacecraft Optical Mechanical Engineering Consulting"^^xsd:string ;
     aero:serviceAccreditation "ISO 9001:2015"^^xsd:string ;
@@ -914,7 +914,7 @@ aero:Service_Paras_Defence_and_Space_Technologies_Limited_Spacecraft_Optical_Mec
         aero:Platform_LEOSatellite,
         aero:Platform_Submarine .
 
-aero:Service_Paras_Defence_and_Space_Technologies_Limited_Strategic_Shielding_In_Service_Inspection_Gasket_Maintenance a aero:LogisticsSupportService,
+aero:Service_Paras_Defence_And_Space_Technologies_Strategic_Shielding_In_Service_Inspection_Gasket_Maintenance a aero:LogisticsSupportService,
         aero:Service ;
     rdfs:label "Strategic Shielding In-Service Inspection & Gasket Maintenance"^^xsd:string ;
     aero:serviceAccreditation "ISO 9001"^^xsd:string ;
@@ -923,7 +923,7 @@ aero:Service_Paras_Defence_and_Space_Technologies_Limited_Strategic_Shielding_In
         aero:Platform_LEOSatellite,
         aero:Platform_Submarine .
 
-aero:Service_Paras_Defence_and_Space_Technologies_Limited_Submarine_Optronic_Mast_Optical_Overhaul_and_Recoating a aero:MROService,
+aero:Service_Paras_Defence_And_Space_Technologies_Submarine_Optronic_Mast_Optical_Overhaul_and_Recoating a aero:MROService,
         aero:Service ;
     rdfs:label "Submarine Optronic Mast Optical Overhaul and Recoating"^^xsd:string ;
     aero:serviceAccreditation "AS9100D"^^xsd:string ;
@@ -932,7 +932,7 @@ aero:Service_Paras_Defence_and_Space_Technologies_Limited_Submarine_Optronic_Mas
         aero:Platform_LEOSatellite,
         aero:Platform_Submarine .
 
-aero:Service_Tata_Advanced_Systems_Limited_Aerostructures_5_Axis_Milling_and_Autoclave_Processing a aero:EngineeringService,
+aero:Service_Tata_Advanced_Systems_Aerostructures_5_Axis_Milling_and_Autoclave_Processing a aero:EngineeringService,
         aero:Service ;
     rdfs:label "Aerostructures 5-Axis Milling and Autoclave Processing"^^xsd:string ;
     aero:serviceAccreditation "NADCAP Composites & Machining"^^xsd:string ;
@@ -941,7 +941,7 @@ aero:Service_Tata_Advanced_Systems_Limited_Aerostructures_5_Axis_Milling_and_Aut
         aero:Platform_FixedWingTransport,
         aero:Platform_RotaryWing .
 
-aero:Service_Tata_Advanced_Systems_Limited_Aircraft_Subassembly_Non_Destructive_Ultrasonic_C_Scan_Inspection a aero:Service,
+aero:Service_Tata_Advanced_Systems_Aircraft_Subassembly_Non_Destructive_Ultrasonic_C_Scan_Inspection a aero:Service,
         aero:TestingQualificationService ;
     rdfs:label "Aircraft Subassembly Non-Destructive Ultrasonic C-Scan Inspection"^^xsd:string ;
     aero:serviceAccreditation "NADCAP NDT Certified"^^xsd:string ;
@@ -950,7 +950,7 @@ aero:Service_Tata_Advanced_Systems_Limited_Aircraft_Subassembly_Non_Destructive_
         aero:Platform_FixedWingTransport,
         aero:Platform_RotaryWing .
 
-aero:Service_Tata_Advanced_Systems_Limited_Armoured_Vehicle_Hull_Ballistic_and_Blast_Qualification a aero:Service,
+aero:Service_Tata_Advanced_Systems_Armoured_Vehicle_Hull_Ballistic_and_Blast_Qualification a aero:Service,
         aero:TestingQualificationService ;
     rdfs:label "Armoured Vehicle Hull Ballistic and Blast Qualification"^^xsd:string ;
     aero:serviceAccreditation "ARDE / DRDO Certified"^^xsd:string ;
@@ -959,7 +959,7 @@ aero:Service_Tata_Advanced_Systems_Limited_Armoured_Vehicle_Hull_Ballistic_and_B
         aero:Platform_FixedWingTransport,
         aero:Platform_RotaryWing .
 
-aero:Service_Tata_Advanced_Systems_Limited_Military_Aircraft_Flight_Line_Preparation_and_Delivery_Acceptance a aero:Service,
+aero:Service_Tata_Advanced_Systems_Military_Aircraft_Flight_Line_Preparation_and_Delivery_Acceptance a aero:Service,
         aero:TestingQualificationService ;
     rdfs:label "Military Aircraft Flight Line Preparation and Delivery Acceptance"^^xsd:string ;
     aero:serviceAccreditation "DGCA / DGAQA Approved"^^xsd:string ;
@@ -968,7 +968,7 @@ aero:Service_Tata_Advanced_Systems_Limited_Military_Aircraft_Flight_Line_Prepara
         aero:Platform_FixedWingTransport,
         aero:Platform_RotaryWing .
 
-aero:Service_Tata_Advanced_Systems_Limited_Turnkey_Defence_Program_Supply_Chain_and_Global_Logistics a aero:LogisticsSupportService,
+aero:Service_Tata_Advanced_Systems_Turnkey_Defence_Program_Supply_Chain_and_Global_Logistics a aero:LogisticsSupportService,
         aero:Service ;
     rdfs:label "Turnkey Defence Program Supply Chain and Global Logistics"^^xsd:string ;
     aero:serviceAccreditation "ISO 9001:2015"^^xsd:string ;
@@ -977,7 +977,7 @@ aero:Service_Tata_Advanced_Systems_Limited_Turnkey_Defence_Program_Supply_Chain_
         aero:Platform_FixedWingTransport,
         aero:Platform_RotaryWing .
 
-aero:Service_Tonbo_Imaging_India_Private_Limited_Combat_Vehicle_Turret_Optical_Sight_Integration a aero:EngineeringService,
+aero:Service_Tonbo_Imaging_India_Private_Combat_Vehicle_Turret_Optical_Sight_Integration a aero:EngineeringService,
         aero:Service ;
     rdfs:label "Combat Vehicle Turret Optical Sight Integration"^^xsd:string ;
     aero:serviceAccreditation "ISO 9001"^^xsd:string ;
@@ -986,7 +986,7 @@ aero:Service_Tonbo_Imaging_India_Private_Limited_Combat_Vehicle_Turret_Optical_S
         aero:Platform_HAL_Tejas_LCA,
         aero:Platform_TacticalUAS .
 
-aero:Service_Tonbo_Imaging_India_Private_Limited_Custom_Germanium_and_Chalcogenide_Lens_Design_and_Coating a aero:EngineeringService,
+aero:Service_Tonbo_Imaging_India_Private_Custom_Germanium_and_Chalcogenide_Lens_Design_and_Coating a aero:EngineeringService,
         aero:Service ;
     rdfs:label "Custom Germanium and Chalcogenide Lens Design and Coating"^^xsd:string ;
     aero:serviceAccreditation "AS9100D"^^xsd:string ;
@@ -995,7 +995,7 @@ aero:Service_Tonbo_Imaging_India_Private_Limited_Custom_Germanium_and_Chalcogeni
         aero:Platform_HAL_Tejas_LCA,
         aero:Platform_TacticalUAS .
 
-aero:Service_Tonbo_Imaging_India_Private_Limited_Field_Thermal_Imaging_Maintenance_Support a aero:LogisticsSupportService,
+aero:Service_Tonbo_Imaging_India_Private_Field_Thermal_Imaging_Maintenance_Support a aero:LogisticsSupportService,
         aero:Service ;
     rdfs:label "Field Thermal Imaging Maintenance Support"^^xsd:string ;
     aero:serviceAccreditation "AS9100D"^^xsd:string ;
@@ -1004,7 +1004,7 @@ aero:Service_Tonbo_Imaging_India_Private_Limited_Field_Thermal_Imaging_Maintenan
         aero:Platform_HAL_Tejas_LCA,
         aero:Platform_TacticalUAS .
 
-aero:Service_Tonbo_Imaging_India_Private_Limited_Infrared_Optical_Calibration_Thermal_MTF_Testing a aero:Service,
+aero:Service_Tonbo_Imaging_India_Private_Infrared_Optical_Calibration_Thermal_MTF_Testing a aero:Service,
         aero:TestingQualificationService ;
     rdfs:label "Infrared Optical Calibration & Thermal MTF Testing"^^xsd:string ;
     aero:serviceAccreditation "ISO 9001:2015"^^xsd:string ;
@@ -1013,7 +1013,7 @@ aero:Service_Tonbo_Imaging_India_Private_Limited_Infrared_Optical_Calibration_Th
         aero:Platform_HAL_Tejas_LCA,
         aero:Platform_TacticalUAS .
 
-aero:Service_Tonbo_Imaging_India_Private_Limited_Thermal_Imaging_Sights_Depot_Overhaul_and_Sensor_Alignment a aero:MROService,
+aero:Service_Tonbo_Imaging_India_Private_Thermal_Imaging_Sights_Depot_Overhaul_and_Sensor_Alignment a aero:MROService,
         aero:Service ;
     rdfs:label "Thermal Imaging Sights Depot Overhaul and Sensor Alignment"^^xsd:string ;
     aero:serviceAccreditation "MIL-STD-810H"^^xsd:string ;
@@ -1022,7 +1022,7 @@ aero:Service_Tonbo_Imaging_India_Private_Limited_Thermal_Imaging_Sights_Depot_Ov
         aero:Platform_HAL_Tejas_LCA,
         aero:Platform_TacticalUAS .
 
-aero:Service_Zen_Technologies_Limited_Combat_Simulation_Software_Maintenance_Scenario_Creation a aero:Service,
+aero:Service_Zen_Technologies_Combat_Simulation_Software_Maintenance_Scenario_Creation a aero:Service,
         aero:SimulationTrainingService ;
     rdfs:label "Combat Simulation Software Maintenance & Scenario Creation"^^xsd:string ;
     aero:serviceAccreditation "ISO 9001"^^xsd:string ;
@@ -1030,7 +1030,7 @@ aero:Service_Zen_Technologies_Limited_Combat_Simulation_Software_Maintenance_Sce
     aero:supportsPlatform aero:Platform_ArmouredCombatVehicle,
         aero:Platform_TacticalUAS .
 
-aero:Service_Zen_Technologies_Limited_Military_Instructor_Tactical_Training_Delivery a aero:Service,
+aero:Service_Zen_Technologies_Military_Instructor_Tactical_Training_Delivery a aero:Service,
         aero:SimulationTrainingService ;
     rdfs:label "Military Instructor Tactical Training Delivery"^^xsd:string ;
     aero:serviceAccreditation "MoD Approved Training"^^xsd:string ;
@@ -1038,7 +1038,7 @@ aero:Service_Zen_Technologies_Limited_Military_Instructor_Tactical_Training_Deli
     aero:supportsPlatform aero:Platform_ArmouredCombatVehicle,
         aero:Platform_TacticalUAS .
 
-aero:Service_Zen_Technologies_Limited_Motion_Platform_Simulator_Hydraulic_Electric_Actuator_Overhaul a aero:MROService,
+aero:Service_Zen_Technologies_Motion_Platform_Simulator_Hydraulic_Electric_Actuator_Overhaul a aero:MROService,
         aero:Service ;
     rdfs:label "Motion Platform Simulator Hydraulic & Electric Actuator Overhaul"^^xsd:string ;
     aero:serviceAccreditation "AS9100D"^^xsd:string ;
@@ -1046,7 +1046,7 @@ aero:Service_Zen_Technologies_Limited_Motion_Platform_Simulator_Hydraulic_Electr
     aero:supportsPlatform aero:Platform_ArmouredCombatVehicle,
         aero:Platform_TacticalUAS .
 
-aero:Service_Zen_Technologies_Limited_RF_Jammer_Radiated_Emissions_and_Counter_Drone_Field_Trials a aero:Service,
+aero:Service_Zen_Technologies_RF_Jammer_Radiated_Emissions_and_Counter_Drone_Field_Trials a aero:Service,
         aero:TestingQualificationService ;
     rdfs:label "RF Jammer Radiated Emissions and Counter-Drone Field Trials"^^xsd:string ;
     aero:serviceAccreditation "WPC / MoD Approved"^^xsd:string ;
@@ -1054,7 +1054,7 @@ aero:Service_Zen_Technologies_Limited_RF_Jammer_Radiated_Emissions_and_Counter_D
     aero:supportsPlatform aero:Platform_ArmouredCombatVehicle,
         aero:Platform_TacticalUAS .
 
-aero:Service_Zen_Technologies_Limited_Simulation_Hardware_Life_Cycle_Spares_Support a aero:LogisticsSupportService,
+aero:Service_Zen_Technologies_Simulation_Hardware_Life_Cycle_Spares_Support a aero:LogisticsSupportService,
         aero:Service ;
     rdfs:label "Simulation Hardware Life-Cycle Spares Support"^^xsd:string ;
     aero:serviceAccreditation "ISO 9001:2015"^^xsd:string ;
@@ -1062,51 +1062,51 @@ aero:Service_Zen_Technologies_Limited_Simulation_Hardware_Life_Cycle_Spares_Supp
     aero:supportsPlatform aero:Platform_ArmouredCombatVehicle,
         aero:Platform_TacticalUAS .
 
-aero:Service_ideaForge_Technology_Limited_Custom_Payload_Avionics_and_Sensor_Gimbal_Integration a aero:EngineeringService,
+aero:Service_ideaForge_Technology_Custom_Payload_Avionics_and_Sensor_Gimbal_Integration a aero:EngineeringService,
         aero:Service ;
     rdfs:label "Custom Payload Avionics and Sensor Gimbal Integration"^^xsd:string ;
     aero:serviceAccreditation "ISO 9001:2015"^^xsd:string ;
     aero:serviceDescription "Custom sensor mechanical CAD mounting, serial communication protocol bridging, and airborne power distribution optimization."^^xsd:string ;
     aero:supportsPlatform aero:Platform_TacticalUAS .
 
-aero:Service_ideaForge_Technology_Limited_Drone_Carbon_Composite_Airframe_Repair_Rotor_Re_Balancing a aero:MROService,
+aero:Service_ideaForge_Technology_Drone_Carbon_Composite_Airframe_Repair_Rotor_Re_Balancing a aero:MROService,
         aero:Service ;
     rdfs:label "Drone Carbon Composite Airframe Repair & Rotor Re-Balancing"^^xsd:string ;
     aero:serviceAccreditation "AS9100D"^^xsd:string ;
     aero:serviceDescription "Depot airframe crack patching, high-RPM carbon rotor dynamic balancing, and waterproof seal recertification."^^xsd:string ;
     aero:supportsPlatform aero:Platform_TacticalUAS .
 
-aero:Service_ideaForge_Technology_Limited_Forward_Deployed_Drone_Fleet_Spares_and_Battery_Lifecycle_Service a aero:LogisticsSupportService,
+aero:Service_ideaForge_Technology_Forward_Deployed_Drone_Fleet_Spares_and_Battery_Lifecycle_Service a aero:LogisticsSupportService,
         aero:Service ;
     rdfs:label "Forward-Deployed Drone Fleet Spares and Battery Lifecycle Service"^^xsd:string ;
     aero:serviceAccreditation "ISO 9001"^^xsd:string ;
     aero:serviceDescription "Rapid battery pack re-cell conditioning, telemetry ground control station maintenance, and field swap spares logistics."^^xsd:string ;
     aero:supportsPlatform aero:Platform_TacticalUAS .
 
-aero:Service_ideaForge_Technology_Limited_High_Altitude_UAV_Flight_Envelope_Testing_and_Winterization a aero:Service,
+aero:Service_ideaForge_Technology_High_Altitude_UAV_Flight_Envelope_Testing_and_Winterization a aero:Service,
         aero:TestingQualificationService ;
     rdfs:label "High-Altitude UAV Flight Envelope Testing and Winterization"^^xsd:string ;
     aero:serviceAccreditation "DGCA / DGAQA Qualified"^^xsd:string ;
     aero:serviceDescription "Sub-zero -30°C thermal battery discharge characterization, propeller de-icing tests, and thin-air motor load testing."^^xsd:string ;
     aero:supportsPlatform aero:Platform_TacticalUAS .
 
-aero:Service_ideaForge_Technology_Limited_Military_UAV_Remote_Pilot_Training_and_Mission_Planning a aero:Service,
+aero:Service_ideaForge_Technology_Military_UAV_Remote_Pilot_Training_and_Mission_Planning a aero:Service,
         aero:SimulationTrainingService ;
     rdfs:label "Military UAV Remote Pilot Training and Mission Planning"^^xsd:string ;
     aero:serviceAccreditation "DGCA Authorized Remote Pilot Training"^^xsd:string ;
     aero:serviceDescription "DGCA-certified drone pilot training, night-vision thermal sensor reconnaissance tactics, and tactical emergency recovery protocols."^^xsd:string ;
     aero:supportsPlatform aero:Platform_TacticalUAS .
 
-aero:Company_Hindustan_Aeronautics_Limited a aero:Company,
+aero:Company_Hindustan_Aeronautics a aero:Company,
         aero:PrimeContractor ;
     aero:businessNumber "IN29AAACH0001Z1"^^xsd:string ;
     aero:cageCode "1845A"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:hasCapability aero:Cap_Hindustan_Aeronautics_Limited_1,
-        aero:Cap_Hindustan_Aeronautics_Limited_2,
-        aero:Cap_Hindustan_Aeronautics_Limited_3 ;
-    aero:hasDirectSupplier aero:Company_Dynamatic_Technologies_Limited,
-        aero:Company_Tata_Advanced_Systems_Limited ;
+    aero:hasCapability aero:Cap_Hindustan_Aeronautics_1,
+        aero:Cap_Hindustan_Aeronautics_2,
+        aero:Cap_Hindustan_Aeronautics_3 ;
+    aero:hasDirectSupplier aero:Company_Dynamatic_Technologies,
+        aero:Company_Tata_Advanced_Systems ;
     aero:headquartersCity "Bengaluru"^^xsd:string ;
     aero:headquartersCountry "IND"^^xsd:string ;
     aero:headquartersProvince "Karnataka"^^xsd:string ;
@@ -1117,17 +1117,17 @@ aero:Company_Hindustan_Aeronautics_Limited a aero:Company,
         aero:Cert_SCOMET_Compliant ;
     aero:itarCompliant true ;
     aero:legalName "Hindustan Aeronautics Limited"^^xsd:string ;
-    aero:manufacturesProduct aero:Product_Hindustan_Aeronautics_Limited_Prachand_Light_Combat_Helicopter_LCH,
-        aero:Product_Hindustan_Aeronautics_Limited_Shakti_Safran_Ardiden_1H1_Turboshaft_Engine,
-        aero:Product_Hindustan_Aeronautics_Limited_Tejas_Light_Combat_Aircraft_LCA_Mk_1A ;
+    aero:manufacturesProduct aero:Product_Hindustan_Aeronautics_Prachand_Light_Combat_Helicopter_LCH,
+        aero:Product_Hindustan_Aeronautics_Shakti_Safran_Ardiden_1H1_Turboshaft_Engine,
+        aero:Product_Hindustan_Aeronautics_Tejas_Light_Combat_Aircraft_LCA_Mk_1A ;
     aero:operatesInDomain aero:AirPlatform,
         aero:DomainAeronautics,
         aero:DomainDefence ;
-    aero:providesService aero:Service_Hindustan_Aeronautics_Limited_Combat_Aircraft_Flight_Test_Engineering_Weapon_Integration,
-        aero:Service_Hindustan_Aeronautics_Limited_DO_178C_DO_254_Flight_Control_Software_Safety_Certification,
-        aero:Service_Hindustan_Aeronautics_Limited_Fighter_Aircraft_Depot_Level_Heavy_Maintenance_Overhaul,
-        aero:Service_Hindustan_Aeronautics_Limited_Integrated_Fleet_Lifecycle_Logistics_Spares_Management,
-        aero:Service_Hindustan_Aeronautics_Limited_Military_Aeroengine_Performance_Testing_and_Hot_Section_Overhaul ;
+    aero:providesService aero:Service_Hindustan_Aeronautics_Combat_Aircraft_Flight_Test_Engineering_Weapon_Integration,
+        aero:Service_Hindustan_Aeronautics_DO_178C_DO_254_Flight_Control_Software_Safety_Certification,
+        aero:Service_Hindustan_Aeronautics_Fighter_Aircraft_Depot_Level_Heavy_Maintenance_Overhaul,
+        aero:Service_Hindustan_Aeronautics_Integrated_Fleet_Lifecycle_Logistics_Spares_Management,
+        aero:Service_Hindustan_Aeronautics_Military_Aeroengine_Performance_Testing_and_Hot_Section_Overhaul ;
     aero:tradeName "HAL"^^xsd:string ;
     aero:website "https://hal-india.co.in"^^xsd:anyURI .
 

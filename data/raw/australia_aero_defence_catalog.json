@@ -2,7 +2,7 @@
   {
     "legal_name": "CEA Technologies Pty Ltd",
     "trade_name": "CEA Technologies",
-    "cage_code": "Z0A12",
+    "cage_code": null,
     "duns_number": null,
     "business_number": "AU990086452",
     "country": "AUS",
@@ -117,7 +117,7 @@
   {
     "legal_name": "Electro Optic Systems Pty Ltd",
     "trade_name": "EOS Defence Systems",
-    "cage_code": "Z0B44",
+    "cage_code": null,
     "duns_number": null,
     "business_number": "AU720928172",
     "country": "AUS",
@@ -229,7 +229,7 @@
   {
     "legal_name": "Austal Limited",
     "trade_name": "Austal",
-    "cage_code": "Z0C81",
+    "cage_code": null,
     "duns_number": null,
     "business_number": "AU540092646",
     "country": "AUS",
@@ -337,7 +337,7 @@
   {
     "legal_name": "Quickstep Holdings Limited",
     "trade_name": "Quickstep Composites",
-    "cage_code": "Z0D95",
+    "cage_code": null,
     "duns_number": null,
     "business_number": "AU550962681",
     "country": "AUS",
@@ -448,7 +448,7 @@
   {
     "legal_name": "Ferra Engineering Pty Ltd",
     "trade_name": "Ferra Aerospace",
-    "cage_code": "Z0E33",
+    "cage_code": null,
     "duns_number": null,
     "business_number": "AU340081928",
     "country": "AUS",
@@ -558,7 +558,7 @@
   {
     "legal_name": "DroneShield Limited",
     "trade_name": "DroneShield",
-    "cage_code": "Z0I82",
+    "cage_code": null,
     "duns_number": null,
     "business_number": "AU266089132",
     "country": "AUS",
@@ -668,7 +668,7 @@
   {
     "legal_name": "BAE Systems Australia Limited",
     "trade_name": "BAE Systems Australia",
-    "cage_code": "Z0K14",
+    "cage_code": null,
     "duns_number": null,
     "business_number": "AU450084230",
     "country": "AUS",
@@ -782,7 +782,7 @@
   {
     "legal_name": "ASC Pty Ltd",
     "trade_name": "ASC",
-    "cage_code": "Z0L25",
+    "cage_code": null,
     "duns_number": null,
     "business_number": "AU830086302",
     "country": "AUS",
@@ -877,7 +877,7 @@
   },
   {
     "business_number": "AU380928412",
-    "cage_code": "Z0N10",
+    "cage_code": null,
     "capabilities": [
       {
         "description": "Deep-draw forging, machining, explosive filling, and ballistic proofing of 155mm artillery shells and precision cannon ammunition.",
@@ -939,7 +939,7 @@
   },
   {
     "business_number": "AU290046128",
-    "cage_code": "Z0M22",
+    "cage_code": null,
     "capabilities": [
       {
         "description": "High-tolerance titanium and high-tensile steel aerostructure machining, automated assembly tooling jigs, and global F-35 engine handling equipment.",
@@ -1003,7 +1003,7 @@
   },
   {
     "business_number": "AU220982341",
-    "cage_code": "Z0B33",
+    "cage_code": null,
     "capabilities": [
       {
         "description": "Continuous quench-and-temper heat treatment of ultra-high hardness military ballistic protection steel plates for combat vehicles and submarines.",
@@ -1067,7 +1067,7 @@
   },
   {
     "business_number": "AU620038912",
-    "cage_code": "Z0T11",
+    "cage_code": null,
     "capabilities": [
       {
         "description": "Engineering and manufacture of plug-and-play digital AMLCD cockpit flight displays, vehicle crew commander targeting monitors, and mission system processors.",

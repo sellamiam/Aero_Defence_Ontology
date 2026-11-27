@@ -1,40 +1,40 @@
 {
-  "build_timestamp": "2026-11-27T04:55:17Z",
+  "build_timestamp": "2026-11-27T05:28:48Z",
   "total_companies": 2038,
-  "total_triples": 111192,
+  "total_triples": 107752,
   "schema_file": {
     "name": "ontology_schema.ttl",
     "path": "/Users/mohamedsellamia/projects/Aero_Defence_Ontology/data/exports/ontology_schema.ttl",
-    "size_mb": 0.03
+    "size_mb": 0.04
   },
   "master_file": {
     "name": "Aero_Defence_Global_Supply_Chain_Ontology.ttl",
     "path": "/Users/mohamedsellamia/projects/Aero_Defence_Ontology/data/exports/Aero_Defence_Global_Supply_Chain_Ontology.ttl",
-    "size_mb": 6.34,
-    "triples": 111192
+    "size_mb": 6.07,
+    "triples": 107752
   },
   "jurisdiction_files": [
     {
       "jurisdiction": "Canada",
       "filename": "canada.ttl",
       "companies": 376,
-      "triples": 17779,
-      "size_mb": 0.98,
+      "triples": 15391,
+      "size_mb": 0.86,
       "path": "/Users/mohamedsellamia/projects/Aero_Defence_Ontology/data/exports/canada.ttl"
     },
     {
       "jurisdiction": "USA",
       "filename": "usa.ttl",
       "companies": 1604,
-      "triples": 88535,
-      "size_mb": 5.05,
+      "triples": 87142,
+      "size_mb": 4.89,
       "path": "/Users/mohamedsellamia/projects/Aero_Defence_Ontology/data/exports/usa.ttl"
     },
     {
       "jurisdiction": "UK",
       "filename": "uk.ttl",
       "companies": 14,
-      "triples": 955,
+      "triples": 946,
       "size_mb": 0.06,
       "path": "/Users/mohamedsellamia/projects/Aero_Defence_Ontology/data/exports/uk.ttl"
     },
@@ -42,7 +42,7 @@
       "jurisdiction": "EU",
       "filename": "eu.ttl",
       "companies": 14,
-      "triples": 907,
+      "triples": 896,
       "size_mb": 0.06,
       "path": "/Users/mohamedsellamia/projects/Aero_Defence_Ontology/data/exports/eu.ttl"
     },
@@ -50,7 +50,7 @@
       "jurisdiction": "Australia",
       "filename": "australia.ttl",
       "companies": 12,
-      "triples": 929,
+      "triples": 917,
       "size_mb": 0.06,
       "path": "/Users/mohamedsellamia/projects/Aero_Defence_Ontology/data/exports/australia.ttl"
     },
@@ -58,7 +58,7 @@
       "jurisdiction": "NewZealand",
       "filename": "new_zealand.ttl",
       "companies": 8,
-      "triples": 637,
+      "triples": 629,
       "size_mb": 0.04,
       "path": "/Users/mohamedsellamia/projects/Aero_Defence_Ontology/data/exports/new_zealand.ttl"
     },
@@ -71,5 +71,5 @@
       "path": "/Users/mohamedsellamia/projects/Aero_Defence_Ontology/data/exports/india.ttl"
     }
   ],
-  "elapsed_seconds": 5.47
+  "elapsed_seconds": 5.07
 }

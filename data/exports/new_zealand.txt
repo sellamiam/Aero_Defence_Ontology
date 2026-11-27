@@ -2,13 +2,12 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-aero:Company_Dawn_Aerospace_Limited a aero:Company,
+aero:Company_Dawn_Aerospace a aero:Company,
         aero:Tier1Supplier ;
     aero:businessNumber "NZ9429046829102"^^xsd:string ;
-    aero:cageCode "E0B24"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:hasCapability aero:Cap_Dawn_Aerospace_Limited_1,
-        aero:Cap_Dawn_Aerospace_Limited_2 ;
+    aero:hasCapability aero:Cap_Dawn_Aerospace_1,
+        aero:Cap_Dawn_Aerospace_2 ;
     aero:headquartersCity "Christchurch"^^xsd:string ;
     aero:headquartersCountry "NZL"^^xsd:string ;
     aero:headquartersProvince "Canterbury"^^xsd:string ;
@@ -17,24 +16,23 @@ aero:Company_Dawn_Aerospace_Limited a aero:Company,
         aero:Cert_ITAR_Compliant ;
     aero:itarCompliant true ;
     aero:legalName "Dawn Aerospace Limited"^^xsd:string ;
-    aero:manufacturesProduct aero:Product_Dawn_Aerospace_Limited_B20_Green_Bi_propellant_Satellite_Thruster,
-        aero:Product_Dawn_Aerospace_Limited_Mk_II_Aurora_Suborbital_Rocketplane ;
+    aero:manufacturesProduct aero:Product_Dawn_Aerospace_B20_Green_Bi_propellant_Satellite_Thruster,
+        aero:Product_Dawn_Aerospace_Mk_II_Aurora_Suborbital_Rocketplane ;
     aero:operatesInDomain aero:DomainDefence,
         aero:DomainSpace,
         aero:SpacePlatform ;
-    aero:providesService aero:Service_Dawn_Aerospace_Limited_High_Pressure_Gas_Cryogenic_Propulsion_Flow_Testing,
-        aero:Service_Dawn_Aerospace_Limited_In_Orbit_Thruster_Calibration_Lifecycle_Health_Assessment,
-        aero:Service_Dawn_Aerospace_Limited_Rocket_Propulsion_Overhaul_and_Thruster_Requalification,
-        aero:Service_Dawn_Aerospace_Limited_Spacecraft_Chemical_Propulsion_Custom_Engineering ;
+    aero:providesService aero:Service_Dawn_Aerospace_High_Pressure_Gas_Cryogenic_Propulsion_Flow_Testing,
+        aero:Service_Dawn_Aerospace_In_Orbit_Thruster_Calibration_Lifecycle_Health_Assessment,
+        aero:Service_Dawn_Aerospace_Rocket_Propulsion_Overhaul_and_Thruster_Requalification,
+        aero:Service_Dawn_Aerospace_Spacecraft_Chemical_Propulsion_Custom_Engineering ;
     aero:tradeName "Dawn Aerospace"^^xsd:string ;
     aero:website "https://www.dawnaerospace.com"^^xsd:anyURI .
 
-aero:Company_Dotterel_Technologies_Limited a aero:Company,
+aero:Company_Dotterel_Technologies a aero:Company,
         aero:SMESupplier ;
     aero:businessNumber "NZ9429045918274"^^xsd:string ;
-    aero:cageCode "E0G84"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:hasCapability aero:Cap_Dotterel_Technologies_Limited_1 ;
+    aero:hasCapability aero:Cap_Dotterel_Technologies_1 ;
     aero:headquartersCity "Auckland"^^xsd:string ;
     aero:headquartersCountry "NZL"^^xsd:string ;
     aero:headquartersProvince "Auckland"^^xsd:string ;
@@ -42,22 +40,21 @@ aero:Company_Dotterel_Technologies_Limited a aero:Company,
         aero:Cert_ITAR_Compliant ;
     aero:itarCompliant true ;
     aero:legalName "Dotterel Technologies Limited"^^xsd:string ;
-    aero:manufacturesProduct aero:Product_Dotterel_Technologies_Limited_Acoustic_Surveillance_Microphone_Array_for_Drones ;
+    aero:manufacturesProduct aero:Product_Dotterel_Technologies_Acoustic_Surveillance_Microphone_Array_for_Drones ;
     aero:operatesInDomain aero:AirPlatform,
         aero:DomainDefence ;
-    aero:providesService aero:Service_Dotterel_Technologies_Limited_Acoustic_Sensor_Field_Overhaul_Calibration,
-        aero:Service_Dotterel_Technologies_Limited_DSP_Airborne_Audio_Algorithm_Integration,
-        aero:Service_Dotterel_Technologies_Limited_Tactical_Acoustic_Sensor_Deployment_Training,
-        aero:Service_Dotterel_Technologies_Limited_UAS_Acoustic_Signature_Modeling_Noise_Attenuation_Testing ;
+    aero:providesService aero:Service_Dotterel_Technologies_Acoustic_Sensor_Field_Overhaul_Calibration,
+        aero:Service_Dotterel_Technologies_DSP_Airborne_Audio_Algorithm_Integration,
+        aero:Service_Dotterel_Technologies_Tactical_Acoustic_Sensor_Deployment_Training,
+        aero:Service_Dotterel_Technologies_UAS_Acoustic_Signature_Modeling_Noise_Attenuation_Testing ;
     aero:tradeName "Dotterel"^^xsd:string ;
     aero:website "https://www.dotterel.com"^^xsd:anyURI .
 
-aero:Company_Flightcell_International_Limited a aero:Company,
+aero:Company_Flightcell_International a aero:Company,
         aero:Tier2Supplier ;
     aero:businessNumber "NZ9429039182741"^^xsd:string ;
-    aero:cageCode "E0H96"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:hasCapability aero:Cap_Flightcell_International_Limited_1 ;
+    aero:hasCapability aero:Cap_Flightcell_International_1 ;
     aero:headquartersCity "Nelson"^^xsd:string ;
     aero:headquartersCountry "NZL"^^xsd:string ;
     aero:headquartersProvince "Nelson"^^xsd:string ;
@@ -66,22 +63,21 @@ aero:Company_Flightcell_International_Limited a aero:Company,
         aero:Cert_ISO9001 ;
     aero:itarCompliant true ;
     aero:legalName "Flightcell International Limited"^^xsd:string ;
-    aero:manufacturesProduct aero:Product_Flightcell_International_Limited_Flightcell_DZMx_All_In_One_Airborne_CellularSatcom_System ;
+    aero:manufacturesProduct aero:Product_Flightcell_International_Flightcell_DZMx_All_In_One_Airborne_CellularSatcom_System ;
     aero:operatesInDomain aero:AirPlatform,
         aero:DomainDefence ;
-    aero:providesService aero:Service_Flightcell_International_Limited_Aircraft_DO_160G_Environmental_EMI_Qualification_Testing,
-        aero:Service_Flightcell_International_Limited_Avionics_STC_Design_Cockpit_Integration_Engineering,
-        aero:Service_Flightcell_International_Limited_DZMx_Depot_Repair_Firmware_Security_Updates,
-        aero:Service_Flightcell_International_Limited_Global_Aircraft_Tracking_Server_Fleet_Management ;
+    aero:providesService aero:Service_Flightcell_International_Aircraft_DO_160G_Environmental_EMI_Qualification_Testing,
+        aero:Service_Flightcell_International_Avionics_STC_Design_Cockpit_Integration_Engineering,
+        aero:Service_Flightcell_International_DZMx_Depot_Repair_Firmware_Security_Updates,
+        aero:Service_Flightcell_International_Global_Aircraft_Tracking_Server_Fleet_Management ;
     aero:tradeName "Flightcell"^^xsd:string ;
     aero:website "https://www.flightcell.com"^^xsd:anyURI .
 
-aero:Company_Marops_Limited a aero:Company,
+aero:Company_Marops a aero:Company,
         aero:SMESupplier ;
     aero:businessNumber "NZ9429034819284"^^xsd:string ;
-    aero:cageCode "E0F72"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:hasCapability aero:Cap_Marops_Limited_1 ;
+    aero:hasCapability aero:Cap_Marops_1 ;
     aero:headquartersCity "Auckland"^^xsd:string ;
     aero:headquartersCountry "NZL"^^xsd:string ;
     aero:headquartersProvince "Auckland"^^xsd:string ;
@@ -89,23 +85,22 @@ aero:Company_Marops_Limited a aero:Company,
         aero:Cert_ISO9001 ;
     aero:itarCompliant true ;
     aero:legalName "Marops Limited"^^xsd:string ;
-    aero:manufacturesProduct aero:Product_Marops_Limited_Naval_Tactical_Scenario_Simulator_Suite ;
+    aero:manufacturesProduct aero:Product_Marops_Naval_Tactical_Scenario_Simulator_Suite ;
     aero:operatesInDomain aero:DomainDefence,
         aero:MaritimePlatform ;
-    aero:providesService aero:Service_Marops_Limited_Combat_Management_System_Operator_Training_Delivery,
-        aero:Service_Marops_Limited_Naval_Bridge_Simulator_Maintenance_Software_In_Service_Support,
-        aero:Service_Marops_Limited_Naval_Sensor_Interface_Hardware_Integration,
-        aero:Service_Marops_Limited_Simulator_Visual_Display_Engine_Calibration_Alignment ;
+    aero:providesService aero:Service_Marops_Combat_Management_System_Operator_Training_Delivery,
+        aero:Service_Marops_Naval_Bridge_Simulator_Maintenance_Software_In_Service_Support,
+        aero:Service_Marops_Naval_Sensor_Interface_Hardware_Integration,
+        aero:Service_Marops_Simulator_Visual_Display_Engine_Calibration_Alignment ;
     aero:tradeName "Marops Defence & Marine"^^xsd:string ;
     aero:website "https://www.marops.co.nz"^^xsd:anyURI .
 
-aero:Company_Rakon_Limited a aero:Company,
+aero:Company_Rakon a aero:Company,
         aero:Tier1Supplier ;
     aero:businessNumber "NZ9429038291047"^^xsd:string ;
-    aero:cageCode "E0D48"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:hasCapability aero:Cap_Rakon_Limited_1,
-        aero:Cap_Rakon_Limited_2 ;
+    aero:hasCapability aero:Cap_Rakon_1,
+        aero:Cap_Rakon_2 ;
     aero:headquartersCity "Auckland"^^xsd:string ;
     aero:headquartersCountry "NZL"^^xsd:string ;
     aero:headquartersProvince "Auckland"^^xsd:string ;
@@ -115,26 +110,25 @@ aero:Company_Rakon_Limited a aero:Company,
         aero:Cert_NASA_Approved ;
     aero:itarCompliant true ;
     aero:legalName "Rakon Limited"^^xsd:string ;
-    aero:manufacturesProduct aero:Product_Rakon_Limited_High_Shock_Military_TCXO_for_Guided_Munitions,
-        aero:Product_Rakon_Limited_ROX020_Ultra_Low_Phase_Noise_Space_OCXO ;
+    aero:manufacturesProduct aero:Product_Rakon_High_Shock_Military_TCXO_for_Guided_Munitions,
+        aero:Product_Rakon_ROX020_Ultra_Low_Phase_Noise_Space_OCXO ;
     aero:operatesInDomain aero:AirPlatform,
         aero:DomainDefence,
         aero:SpacePlatform ;
-    aero:providesService aero:Service_Rakon_Limited_Custom_Frequency_Synthesis_Microelectronic_Design,
-        aero:Service_Rakon_Limited_Defense_Supply_Chain_Crystal_Screening_Burn_In,
-        aero:Service_Rakon_Limited_Precision_Oscillator_Re_calibration_and_Refurbishment,
-        aero:Service_Rakon_Limited_Space_Radiation_Characterization_TID_Testing ;
+    aero:providesService aero:Service_Rakon_Custom_Frequency_Synthesis_Microelectronic_Design,
+        aero:Service_Rakon_Defense_Supply_Chain_Crystal_Screening_Burn_In,
+        aero:Service_Rakon_Precision_Oscillator_Re_calibration_and_Refurbishment,
+        aero:Service_Rakon_Space_Radiation_Characterization_TID_Testing ;
     aero:tradeName "Rakon"^^xsd:string ;
     aero:website "https://www.rakon.com"^^xsd:anyURI .
 
-aero:Company_Rocket_Lab_Limited a aero:Company,
+aero:Company_Rocket_Lab a aero:Company,
         aero:PrimeContractor ;
     aero:businessNumber "NZ9429031827461"^^xsd:string ;
-    aero:cageCode "E0A12"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:hasCapability aero:Cap_Rocket_Lab_Limited_1,
-        aero:Cap_Rocket_Lab_Limited_2,
-        aero:Cap_Rocket_Lab_Limited_3 ;
+    aero:hasCapability aero:Cap_Rocket_Lab_1,
+        aero:Cap_Rocket_Lab_2,
+        aero:Cap_Rocket_Lab_3 ;
     aero:headquartersCity "Auckland"^^xsd:string ;
     aero:headquartersCountry "NZL"^^xsd:string ;
     aero:headquartersProvince "Auckland"^^xsd:string ;
@@ -144,26 +138,25 @@ aero:Company_Rocket_Lab_Limited a aero:Company,
         aero:Cert_ITAR_Compliant ;
     aero:itarCompliant true ;
     aero:legalName "Rocket Lab Limited"^^xsd:string ;
-    aero:manufacturesProduct aero:Product_Rocket_Lab_Limited_Electron_Orbital_Launch_Vehicle,
-        aero:Product_Rocket_Lab_Limited_Photon_Spacecraft_Bus,
-        aero:Product_Rocket_Lab_Limited_Rutherford_Electric_Pump_Rocket_Engine ;
+    aero:manufacturesProduct aero:Product_Rocket_Lab_Electron_Orbital_Launch_Vehicle,
+        aero:Product_Rocket_Lab_Photon_Spacecraft_Bus,
+        aero:Product_Rocket_Lab_Rutherford_Electric_Pump_Rocket_Engine ;
     aero:operatesInDomain aero:DomainDefence,
         aero:DomainSpace,
         aero:SpacePlatform ;
-    aero:providesService aero:Service_Rocket_Lab_Limited_Dedicated_Orbital_Space_Launch_Operations,
-        aero:Service_Rocket_Lab_Limited_Payload_Cleanroom_Integration_and_Environmental_Testing,
-        aero:Service_Rocket_Lab_Limited_Rocket_Engine_Hot_Fire_Qualification_Rapid_Refurbishment,
-        aero:Service_Rocket_Lab_Limited_Satellite_Constellation_Telemetry_Tracking_Mission_Operations ;
+    aero:providesService aero:Service_Rocket_Lab_Dedicated_Orbital_Space_Launch_Operations,
+        aero:Service_Rocket_Lab_Payload_Cleanroom_Integration_and_Environmental_Testing,
+        aero:Service_Rocket_Lab_Rocket_Engine_Hot_Fire_Qualification_Rapid_Refurbishment,
+        aero:Service_Rocket_Lab_Satellite_Constellation_Telemetry_Tracking_Mission_Operations ;
     aero:tradeName "Rocket Lab"^^xsd:string ;
     aero:website "https://www.rocketlabusa.com"^^xsd:anyURI .
 
-aero:Company_Tait_International_Limited a aero:Company,
+aero:Company_Tait_International a aero:Company,
         aero:Tier1Supplier ;
     aero:businessNumber "NZ9429037482910"^^xsd:string ;
-    aero:cageCode "E0C36"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:hasCapability aero:Cap_Tait_International_Limited_1,
-        aero:Cap_Tait_International_Limited_2 ;
+    aero:hasCapability aero:Cap_Tait_International_1,
+        aero:Cap_Tait_International_2 ;
     aero:headquartersCity "Christchurch"^^xsd:string ;
     aero:headquartersCountry "NZL"^^xsd:string ;
     aero:headquartersProvince "Canterbury"^^xsd:string ;
@@ -173,24 +166,23 @@ aero:Company_Tait_International_Limited a aero:Company,
         aero:Cert_ISO9001 ;
     aero:itarCompliant true ;
     aero:legalName "Tait International Limited"^^xsd:string ;
-    aero:manufacturesProduct aero:Product_Tait_International_Limited_TB9400_P25_Phase_2_Base_Station_Repeater,
-        aero:Product_Tait_International_Limited_TP9600_P25_Phase_2_Tactical_Portable_Radio ;
+    aero:manufacturesProduct aero:Product_Tait_International_TB9400_P25_Phase_2_Base_Station_Repeater,
+        aero:Product_Tait_International_TP9600_P25_Phase_2_Tactical_Portable_Radio ;
     aero:operatesInDomain aero:DomainC4ISR,
         aero:DomainDefence ;
-    aero:providesService aero:Service_Tait_International_Limited_247_Tactical_Network_Operations_Center_NOC_Managed_Support,
-        aero:Service_Tait_International_Limited_MIL_STD_810H_Ruggedization_Cryptographic_Security_Auditing,
-        aero:Service_Tait_International_Limited_Radio_Fleet_In_Service_Support_and_Depot_Board_Repair,
-        aero:Service_Tait_International_Limited_Tactical_Network_Architecture_Design_RF_Propagation_Modeling ;
+    aero:providesService aero:Service_Tait_International_247_Tactical_Network_Operations_Center_NOC_Managed_Support,
+        aero:Service_Tait_International_MIL_STD_810H_Ruggedization_Cryptographic_Security_Auditing,
+        aero:Service_Tait_International_Radio_Fleet_In_Service_Support_and_Depot_Board_Repair,
+        aero:Service_Tait_International_Tactical_Network_Architecture_Design_RF_Propagation_Modeling ;
     aero:tradeName "Tait Communications"^^xsd:string ;
     aero:website "https://www.taitcommunications.com"^^xsd:anyURI .
 
-aero:Company_Zenith_Tecnica_Limited a aero:Company,
+aero:Company_Zenith_Tecnica a aero:Company,
         aero:Tier2Supplier ;
     aero:businessNumber "NZ9429041928471"^^xsd:string ;
-    aero:cageCode "E0E60"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:hasCapability aero:Cap_Zenith_Tecnica_Limited_1,
-        aero:Cap_Zenith_Tecnica_Limited_2 ;
+    aero:hasCapability aero:Cap_Zenith_Tecnica_1,
+        aero:Cap_Zenith_Tecnica_2 ;
     aero:headquartersCity "Auckland"^^xsd:string ;
     aero:headquartersCountry "NZL"^^xsd:string ;
     aero:headquartersProvince "Auckland"^^xsd:string ;
@@ -199,117 +191,117 @@ aero:Company_Zenith_Tecnica_Limited a aero:Company,
         aero:Cert_NADCAP_Welding ;
     aero:itarCompliant true ;
     aero:legalName "Zenith Tecnica Limited"^^xsd:string ;
-    aero:manufacturesProduct aero:Product_Zenith_Tecnica_Limited_Rocket_Engine_Regenerative_Cooling_Bracket,
-        aero:Product_Zenith_Tecnica_Limited_Satellite_Structural_Titanium_Bus_Node ;
+    aero:manufacturesProduct aero:Product_Zenith_Tecnica_Rocket_Engine_Regenerative_Cooling_Bracket,
+        aero:Product_Zenith_Tecnica_Satellite_Structural_Titanium_Bus_Node ;
     aero:operatesInDomain aero:AirPlatform,
         aero:DomainDefence,
         aero:SpacePlatform ;
-    aero:providesService aero:Service_Zenith_Tecnica_Limited_Aerospace_Additive_Manufacturing_Process_Certification,
-        aero:Service_Zenith_Tecnica_Limited_Design_for_Additive_Manufacturing_DfAM_Consulting,
-        aero:Service_Zenith_Tecnica_Limited_Hot_Isostatic_Pressing_HIP_and_Vacuum_Heat_Treatment_Support,
-        aero:Service_Zenith_Tecnica_Limited_Precision_CNC_5_Axis_Post_Machining_and_CMM_Inspection ;
+    aero:providesService aero:Service_Zenith_Tecnica_Aerospace_Additive_Manufacturing_Process_Certification,
+        aero:Service_Zenith_Tecnica_Design_for_Additive_Manufacturing_DfAM_Consulting,
+        aero:Service_Zenith_Tecnica_Hot_Isostatic_Pressing_HIP_and_Vacuum_Heat_Treatment_Support,
+        aero:Service_Zenith_Tecnica_Precision_CNC_5_Axis_Post_Machining_and_CMM_Inspection ;
     aero:tradeName "Zenith Tecnica"^^xsd:string ;
     aero:website "https://www.zenithtecnica.com"^^xsd:anyURI .
 
-aero:Cap_Dawn_Aerospace_Limited_1 a aero:Capability ;
+aero:Cap_Dawn_Aerospace_1 a aero:Capability ;
     rdfs:label "Non-Toxic Green Satellite Propulsion Systems"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_SpaceSystems ;
     aero:capabilityDescription "High-performance nitrous oxide and propylene non-toxic bipropellant satellite thrusters replacing hazardous hydrazine."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_Dawn_Aerospace_Limited_2 a aero:Capability ;
+aero:Cap_Dawn_Aerospace_2 a aero:Capability ;
     rdfs:label "Suborbital Rocketplane Aerodynamics & Fast Turnaround Flight"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_SpaceSystems ;
     aero:capabilityDescription "Rocket-powered autonomous aircraft capable of multiple daily flights to the edge of space for hypersonic research and suborbital science."^^xsd:string ;
     aero:mrlValue 7 ;
     aero:trlValue 7 .
 
-aero:Cap_Dotterel_Technologies_Limited_1 a aero:Capability ;
+aero:Cap_Dotterel_Technologies_1 a aero:Capability ;
     rdfs:label "Acoustic Noise Reduction and Drone Audio Surveillance Payloads"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_SensorsSonar ;
     aero:capabilityDescription "Proprietary microphone arrays and real-time DSP algorithms filtering out rotor acoustic noise to capture long-range directional ground intelligence."^^xsd:string ;
     aero:mrlValue 8 ;
     aero:trlValue 8 .
 
-aero:Cap_Flightcell_International_Limited_1 a aero:Capability ;
+aero:Cap_Flightcell_International_1 a aero:Capability ;
     rdfs:label "Airborne Satellite and Cellular Hybrid Tactical Datalinks"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_SoftwareDefinedRadio ;
     aero:capabilityDescription "Integrated military aircraft transceivers combining Iridium Certus satcom and 4G/5G cellular broadband for real-time telemetry, cockpit voice, and encrypted data."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_Marops_Limited_1 a aero:Capability ;
+aero:Cap_Marops_1 a aero:Capability ;
     rdfs:label "Naval Combat System Simulation & Tactical Mission Trainers"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_TrainingSimulation ;
     aero:capabilityDescription "Synthetic naval warfare environments, frigate operations room bridge simulators, and radar/sonar track injection trainers for naval forces."^^xsd:string ;
     aero:mrlValue 8 ;
     aero:trlValue 8 .
 
-aero:Cap_Rakon_Limited_1 a aero:Capability ;
+aero:Cap_Rakon_1 a aero:Capability ;
     rdfs:label "Ultra-High Stability Space and Defence Oscillators (OCXO / TCXO)"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_SpaceSystems ;
     aero:capabilityDescription "Radiation-hardened oven-controlled crystal oscillators and surface acoustic wave (SAW) filters with sub-ppb stability for military GNSS, radar, and satellite payloads."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_Rakon_Limited_2 a aero:Capability ;
+aero:Cap_Rakon_2 a aero:Capability ;
     rdfs:label "Low-Phase-Noise RF Frequency Generation for AESA Radars"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_SensorsSonar ;
     aero:capabilityDescription "Extreme low-phase-noise master reference oscillators for fighter jet AESA radar beam steering and EW receivers."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_Rocket_Lab_Limited_1 a aero:Capability ;
+aero:Cap_Rocket_Lab_1 a aero:Capability ;
     rdfs:label "Dedicated Orbital Small Satellite Launch Vehicle (Electron)"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_SpaceSystems ;
     aero:capabilityDescription "Carbon-composite orbital rocket manufacturing, Rutherford electric-pump-fed 3D printed engines, and rapid responsive space launch."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_Rocket_Lab_Limited_2 a aero:Capability ;
+aero:Cap_Rocket_Lab_2 a aero:Capability ;
     rdfs:label "Configurable Satellite Bus & Orbital Servicing (Photon)"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_SpaceSystems ;
     aero:capabilityDescription "End-to-end satellite bus design, integrated avionics, star trackers, reaction wheels, and deep space exploration payload platforms."^^xsd:string ;
     aero:mrlValue 8 ;
     aero:trlValue 8 .
 
-aero:Cap_Rocket_Lab_Limited_3 a aero:Capability ;
+aero:Cap_Rocket_Lab_3 a aero:Capability ;
     rdfs:label "Advanced Carbon Composite High-Pressure Cryogenic Tanks"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_AdvancedMaterials ;
     aero:capabilityDescription "Autoclave-cured carbon-composite tanks for liquid oxygen and RP-1 kerosene propellant storage in space launch vehicles."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_Tait_International_Limited_1 a aero:Capability ;
+aero:Cap_Tait_International_1 a aero:Capability ;
     rdfs:label "Tactical Mission-Critical Encrypted Radio Communications"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_SoftwareDefinedRadio ;
     aero:capabilityDescription "P25, DMR Tier 3, and LTE hybrid tactical communications systems with AES-256 military-grade encryption and secure talkgroups."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_Tait_International_Limited_2 a aero:Capability ;
+aero:Cap_Tait_International_2 a aero:Capability ;
     rdfs:label "Resilient Tactical Mesh Radio Architectures"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_CyberResilience ;
     aero:capabilityDescription "Self-healing ad-hoc tactical wireless mesh networks for border patrol, emergency defence response, and dismounted troops."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_Zenith_Tecnica_Limited_1 a aero:Capability ;
+aero:Cap_Zenith_Tecnica_1 a aero:Capability ;
     rdfs:label "Electron Beam Melting (EBM) Titanium 3D Additive Manufacturing"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_AdvancedMaterials ;
     aero:capabilityDescription "Industrial metal 3D printing in Ti-6Al-4V Grade 5 and Grade 23 for flight-critical structural brackets, satellite antenna arrays, and rocket propellant manifolds."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Cap_Zenith_Tecnica_Limited_2 a aero:Capability ;
+aero:Cap_Zenith_Tecnica_2 a aero:Capability ;
     rdfs:label "Topology Optimization for Lightweight Aerostructures"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_AerospaceSystems ;
     aero:capabilityDescription "Generative structural design reducing mass by up to 60% while maintaining ultimate load margins under severe fatigue profiles."^^xsd:string ;
     aero:mrlValue 8 ;
     aero:trlValue 9 .
 
-aero:Product_Dawn_Aerospace_Limited_B20_Green_Bi_propellant_Satellite_Thruster a aero:Product ;
+aero:Product_Dawn_Aerospace_B20_Green_Bi_propellant_Satellite_Thruster a aero:Product ;
     rdfs:label "B20 Green Bi-propellant Satellite Thruster"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_Inconel_718,
         aero:Material_Titanium_Ti6Al4V ;
@@ -319,7 +311,7 @@ aero:Product_Dawn_Aerospace_Limited_B20_Green_Bi_propellant_Satellite_Thruster a
     aero:partNumber "PN-NZL-DWN-B20"^^xsd:string ;
     aero:productDescription "Flight-proven 20N nitrous oxide/propene chemical thruster for CubeSats and SmallSats requiring high ISP orbital maneuvering."^^xsd:string .
 
-aero:Product_Dawn_Aerospace_Limited_Mk_II_Aurora_Suborbital_Rocketplane a aero:Product ;
+aero:Product_Dawn_Aerospace_Mk_II_Aurora_Suborbital_Rocketplane a aero:Product ;
     rdfs:label "Mk-II Aurora Suborbital Rocketplane"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_CarbonFiber_Composite,
         aero:Material_Titanium_Ti6Al4V ;
@@ -329,7 +321,7 @@ aero:Product_Dawn_Aerospace_Limited_Mk_II_Aurora_Suborbital_Rocketplane a aero:P
     aero:partNumber "PN-NZL-DWN-AUR2"^^xsd:string ;
     aero:productDescription "Reusable rocket-powered autonomous aircraft for atmospheric testing and microgravity payloads up to 100km altitude."^^xsd:string .
 
-aero:Product_Dotterel_Technologies_Limited_Acoustic_Surveillance_Microphone_Array_for_Drones a aero:Product ;
+aero:Product_Dotterel_Technologies_Acoustic_Surveillance_Microphone_Array_for_Drones a aero:Product ;
     rdfs:label "Acoustic Surveillance Microphone Array for Drones"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_CarbonFiber_Composite ;
     aero:deployedOnPlatform aero:Platform_TacticalUAS ;
@@ -338,7 +330,7 @@ aero:Product_Dotterel_Technologies_Limited_Acoustic_Surveillance_Microphone_Arra
     aero:partNumber "PN-NZL-DT-MIC01"^^xsd:string ;
     aero:productDescription "Lightweight directional audio intelligence sensor payload capable of standoff human speech and vehicle sound localization."^^xsd:string .
 
-aero:Product_Flightcell_International_Limited_Flightcell_DZMx_All_In_One_Airborne_CellularSatcom_System a aero:Product ;
+aero:Product_Flightcell_International_Flightcell_DZMx_All_In_One_Airborne_CellularSatcom_System a aero:Product ;
     rdfs:label "Flightcell DZMx All-In-One Airborne Cellular/Satcom System"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_AluminiumLithium_2055 ;
     aero:deployedOnPlatform aero:Platform_FixedWingTransport,
@@ -348,7 +340,7 @@ aero:Product_Flightcell_International_Limited_Flightcell_DZMx_All_In_One_Airborn
     aero:partNumber "PN-NZL-FC-DZMX"^^xsd:string ;
     aero:productDescription "DO-160G certified flight tracking, satellite voice, cellular broadband data, and automated flight following system for military and rescue aircraft."^^xsd:string .
 
-aero:Product_Marops_Limited_Naval_Tactical_Scenario_Simulator_Suite a aero:Product ;
+aero:Product_Marops_Naval_Tactical_Scenario_Simulator_Suite a aero:Product ;
     rdfs:label "Naval Tactical Scenario Simulator Suite"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_AluminiumLithium_2055 ;
     aero:deployedOnPlatform aero:Platform_SurfaceCombatant ;
@@ -357,7 +349,7 @@ aero:Product_Marops_Limited_Naval_Tactical_Scenario_Simulator_Suite a aero:Produ
     aero:partNumber "PN-NZL-MR-SIM01"^^xsd:string ;
     aero:productDescription "Interactive synthetic combat simulation software for naval warfare officers and surface combatant crews."^^xsd:string .
 
-aero:Product_Rakon_Limited_High_Shock_Military_TCXO_for_Guided_Munitions a aero:Product ;
+aero:Product_Rakon_High_Shock_Military_TCXO_for_Guided_Munitions a aero:Product ;
     rdfs:label "High-Shock Military TCXO for Guided Munitions"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_SiliconCarbide_SiC ;
     aero:deployedOnPlatform aero:Platform_FixedWingCombat ;
@@ -366,7 +358,7 @@ aero:Product_Rakon_Limited_High_Shock_Military_TCXO_for_Guided_Munitions a aero:
     aero:partNumber "PN-NZL-RK-HS50"^^xsd:string ;
     aero:productDescription "Crystal oscillator hardened to survive 20,000g gun-launch shock loads in precision guided artillery and missiles."^^xsd:string .
 
-aero:Product_Rakon_Limited_ROX020_Ultra_Low_Phase_Noise_Space_OCXO a aero:Product ;
+aero:Product_Rakon_ROX020_Ultra_Low_Phase_Noise_Space_OCXO a aero:Product ;
     rdfs:label "ROX020 Ultra-Low Phase Noise Space OCXO"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_HighPurity_Beryllium,
         aero:Material_Titanium_Ti6Al4V ;
@@ -377,7 +369,7 @@ aero:Product_Rakon_Limited_ROX020_Ultra_Low_Phase_Noise_Space_OCXO a aero:Produc
     aero:partNumber "PN-NZL-RK-ROX02"^^xsd:string ;
     aero:productDescription "Radiation-tolerant master clock oscillator for deep-space science, Earth observation radar, and military communications satellites."^^xsd:string .
 
-aero:Product_Rocket_Lab_Limited_Electron_Orbital_Launch_Vehicle a aero:Product ;
+aero:Product_Rocket_Lab_Electron_Orbital_Launch_Vehicle a aero:Product ;
     rdfs:label "Electron Orbital Launch Vehicle"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_CarbonFiber_Composite,
         aero:Material_Inconel_718 ;
@@ -387,7 +379,7 @@ aero:Product_Rocket_Lab_Limited_Electron_Orbital_Launch_Vehicle a aero:Product ;
     aero:partNumber "PN-NZL-ELC-001"^^xsd:string ;
     aero:productDescription "Two-stage orbital rocket capable of deploying 300kg payloads to low Earth orbit with dedicated kick stage."^^xsd:string .
 
-aero:Product_Rocket_Lab_Limited_Photon_Spacecraft_Bus a aero:Product ;
+aero:Product_Rocket_Lab_Photon_Spacecraft_Bus a aero:Product ;
     rdfs:label "Photon Spacecraft Bus"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_CarbonFiber_Composite,
         aero:Material_GalliumNitride_GaN ;
@@ -397,7 +389,7 @@ aero:Product_Rocket_Lab_Limited_Photon_Spacecraft_Bus a aero:Product ;
     aero:partNumber "PN-NZL-PHT-002"^^xsd:string ;
     aero:productDescription "High-delta-V operational satellite platform for LEO constellations and lunar transfer orbits."^^xsd:string .
 
-aero:Product_Rocket_Lab_Limited_Rutherford_Electric_Pump_Rocket_Engine a aero:Product ;
+aero:Product_Rocket_Lab_Rutherford_Electric_Pump_Rocket_Engine a aero:Product ;
     rdfs:label "Rutherford Electric-Pump Rocket Engine"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_Inconel_718,
         aero:Material_Titanium_Ti6Al4V ;
@@ -407,7 +399,7 @@ aero:Product_Rocket_Lab_Limited_Rutherford_Electric_Pump_Rocket_Engine a aero:Pr
     aero:partNumber "PN-NZL-RTH-003"^^xsd:string ;
     aero:productDescription "3D printed cycle rocket engine powered by brushless DC electric motors and lithium polymer batteries delivering 25 kN thrust."^^xsd:string .
 
-aero:Product_Tait_International_Limited_TB9400_P25_Phase_2_Base_Station_Repeater a aero:Product ;
+aero:Product_Tait_International_TB9400_P25_Phase_2_Base_Station_Repeater a aero:Product ;
     rdfs:label "TB9400 P25 Phase 2 Base Station / Repeater"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_GalliumNitride_GaN ;
     aero:deployedOnPlatform aero:Platform_SurfaceCombatant ;
@@ -416,7 +408,7 @@ aero:Product_Tait_International_Limited_TB9400_P25_Phase_2_Base_Station_Repeater
     aero:partNumber "PN-NZL-TT-TB94"^^xsd:string ;
     aero:productDescription "Continuous duty digital base station for tactical theatre multi-channel coverage and emergency dispatch networks."^^xsd:string .
 
-aero:Product_Tait_International_Limited_TP9600_P25_Phase_2_Tactical_Portable_Radio a aero:Product ;
+aero:Product_Tait_International_TP9600_P25_Phase_2_Tactical_Portable_Radio a aero:Product ;
     rdfs:label "TP9600 P25 Phase 2 Tactical Portable Radio"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_AluminiumLithium_2055 ;
     aero:deployedOnPlatform aero:Platform_ArmouredCombatVehicle ;
@@ -425,7 +417,7 @@ aero:Product_Tait_International_Limited_TP9600_P25_Phase_2_Tactical_Portable_Rad
     aero:partNumber "PN-NZL-TT-TP96"^^xsd:string ;
     aero:productDescription "Ruggedized submersible IP68 tactical handheld radio with dual-band VHF/UHF, GPS location services, and OTAR encryption."^^xsd:string .
 
-aero:Product_Zenith_Tecnica_Limited_Rocket_Engine_Regenerative_Cooling_Bracket a aero:Product ;
+aero:Product_Zenith_Tecnica_Rocket_Engine_Regenerative_Cooling_Bracket a aero:Product ;
     rdfs:label "Rocket Engine Regenerative Cooling Bracket"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_Titanium_Ti6Al4V ;
     aero:deployedOnPlatform aero:Platform_SpaceLaunchVehicle ;
@@ -434,7 +426,7 @@ aero:Product_Zenith_Tecnica_Limited_Rocket_Engine_Regenerative_Cooling_Bracket a
     aero:partNumber "PN-NZL-ZT-ENGMNT"^^xsd:string ;
     aero:productDescription "Complex internal fluid channel titanium assembly built via additive manufacturing with integrated heat sinking."^^xsd:string .
 
-aero:Product_Zenith_Tecnica_Limited_Satellite_Structural_Titanium_Bus_Node a aero:Product ;
+aero:Product_Zenith_Tecnica_Satellite_Structural_Titanium_Bus_Node a aero:Product ;
     rdfs:label "Satellite Structural Titanium Bus Node"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_Titanium_Ti6Al4V ;
     aero:deployedOnPlatform aero:Platform_LEOSatellite ;
@@ -443,7 +435,7 @@ aero:Product_Zenith_Tecnica_Limited_Satellite_Structural_Titanium_Bus_Node a aer
     aero:partNumber "PN-NZL-ZT-SATBRK"^^xsd:string ;
     aero:productDescription "Additive manufactured high-stiffness titanium payload mount bracket deployed on over 200 operational orbital spacecraft."^^xsd:string .
 
-aero:Service_Dawn_Aerospace_Limited_High_Pressure_Gas_Cryogenic_Propulsion_Flow_Testing a aero:Service,
+aero:Service_Dawn_Aerospace_High_Pressure_Gas_Cryogenic_Propulsion_Flow_Testing a aero:Service,
         aero:TestingQualificationService ;
     rdfs:label "High-Pressure Gas & Cryogenic Propulsion Flow Testing"^^xsd:string ;
     aero:serviceAccreditation "ISO 9001:2015"^^xsd:string ;
@@ -451,7 +443,7 @@ aero:Service_Dawn_Aerospace_Limited_High_Pressure_Gas_Cryogenic_Propulsion_Flow_
     aero:supportsPlatform aero:Platform_LEOSatellite,
         aero:Platform_SpaceLaunchVehicle .
 
-aero:Service_Dawn_Aerospace_Limited_In_Orbit_Thruster_Calibration_Lifecycle_Health_Assessment a aero:LogisticsSupportService,
+aero:Service_Dawn_Aerospace_In_Orbit_Thruster_Calibration_Lifecycle_Health_Assessment a aero:LogisticsSupportService,
         aero:Service ;
     rdfs:label "In-Orbit Thruster Calibration & Lifecycle Health Assessment"^^xsd:string ;
     aero:serviceAccreditation "ITAR Compliant"^^xsd:string ;
@@ -459,7 +451,7 @@ aero:Service_Dawn_Aerospace_Limited_In_Orbit_Thruster_Calibration_Lifecycle_Heal
     aero:supportsPlatform aero:Platform_LEOSatellite,
         aero:Platform_SpaceLaunchVehicle .
 
-aero:Service_Dawn_Aerospace_Limited_Rocket_Propulsion_Overhaul_and_Thruster_Requalification a aero:MROService,
+aero:Service_Dawn_Aerospace_Rocket_Propulsion_Overhaul_and_Thruster_Requalification a aero:MROService,
         aero:Service ;
     rdfs:label "Rocket Propulsion Overhaul and Thruster Requalification"^^xsd:string ;
     aero:serviceAccreditation "AS9100D"^^xsd:string ;
@@ -467,7 +459,7 @@ aero:Service_Dawn_Aerospace_Limited_Rocket_Propulsion_Overhaul_and_Thruster_Requ
     aero:supportsPlatform aero:Platform_LEOSatellite,
         aero:Platform_SpaceLaunchVehicle .
 
-aero:Service_Dawn_Aerospace_Limited_Spacecraft_Chemical_Propulsion_Custom_Engineering a aero:EngineeringService,
+aero:Service_Dawn_Aerospace_Spacecraft_Chemical_Propulsion_Custom_Engineering a aero:EngineeringService,
         aero:Service ;
     rdfs:label "Spacecraft Chemical Propulsion Custom Engineering"^^xsd:string ;
     aero:serviceAccreditation "ESA / NASA Qualified Propulsion"^^xsd:string ;
@@ -475,35 +467,35 @@ aero:Service_Dawn_Aerospace_Limited_Spacecraft_Chemical_Propulsion_Custom_Engine
     aero:supportsPlatform aero:Platform_LEOSatellite,
         aero:Platform_SpaceLaunchVehicle .
 
-aero:Service_Dotterel_Technologies_Limited_Acoustic_Sensor_Field_Overhaul_Calibration a aero:MROService,
+aero:Service_Dotterel_Technologies_Acoustic_Sensor_Field_Overhaul_Calibration a aero:MROService,
         aero:Service ;
     rdfs:label "Acoustic Sensor Field Overhaul & Calibration"^^xsd:string ;
     aero:serviceAccreditation "ISO 9001"^^xsd:string ;
     aero:serviceDescription "Waterproof acoustic diaphragm inspection, sensor sensitivity recalibration, and rugged field enclosure testing."^^xsd:string ;
     aero:supportsPlatform aero:Platform_TacticalUAS .
 
-aero:Service_Dotterel_Technologies_Limited_DSP_Airborne_Audio_Algorithm_Integration a aero:EngineeringService,
+aero:Service_Dotterel_Technologies_DSP_Airborne_Audio_Algorithm_Integration a aero:EngineeringService,
         aero:Service ;
     rdfs:label "DSP Airborne Audio Algorithm Integration"^^xsd:string ;
     aero:serviceAccreditation "ISO 9001"^^xsd:string ;
     aero:serviceDescription "FPGA-based beamforming software integration, noise suppression filter tuning, and video-audio telemetry synchronization."^^xsd:string ;
     aero:supportsPlatform aero:Platform_TacticalUAS .
 
-aero:Service_Dotterel_Technologies_Limited_Tactical_Acoustic_Sensor_Deployment_Training a aero:Service,
+aero:Service_Dotterel_Technologies_Tactical_Acoustic_Sensor_Deployment_Training a aero:Service,
         aero:SimulationTrainingService ;
     rdfs:label "Tactical Acoustic Sensor Deployment Training"^^xsd:string ;
     aero:serviceAccreditation "ITAR Compliant"^^xsd:string ;
     aero:serviceDescription "Operator tactical audio triangulation training, urban acoustic surveillance tactics, and payload mounting instructions."^^xsd:string ;
     aero:supportsPlatform aero:Platform_TacticalUAS .
 
-aero:Service_Dotterel_Technologies_Limited_UAS_Acoustic_Signature_Modeling_Noise_Attenuation_Testing a aero:Service,
+aero:Service_Dotterel_Technologies_UAS_Acoustic_Signature_Modeling_Noise_Attenuation_Testing a aero:Service,
         aero:TestingQualificationService ;
     rdfs:label "UAS Acoustic Signature Modeling & Noise Attenuation Testing"^^xsd:string ;
     aero:serviceAccreditation "ISO 9001"^^xsd:string ;
     aero:serviceDescription "Anechoic chamber acoustic signature measurement, rotor tip acoustic optimization, and acoustic stealth certification."^^xsd:string ;
     aero:supportsPlatform aero:Platform_TacticalUAS .
 
-aero:Service_Flightcell_International_Limited_Aircraft_DO_160G_Environmental_EMI_Qualification_Testing a aero:Service,
+aero:Service_Flightcell_International_Aircraft_DO_160G_Environmental_EMI_Qualification_Testing a aero:Service,
         aero:TestingQualificationService ;
     rdfs:label "Aircraft DO-160G Environmental & EMI Qualification Testing"^^xsd:string ;
     aero:serviceAccreditation "FAA TSO-C159b"^^xsd:string ;
@@ -512,7 +504,7 @@ aero:Service_Flightcell_International_Limited_Aircraft_DO_160G_Environmental_EMI
         aero:Platform_RotaryWing,
         aero:Platform_TacticalUAS .
 
-aero:Service_Flightcell_International_Limited_Avionics_STC_Design_Cockpit_Integration_Engineering a aero:EngineeringService,
+aero:Service_Flightcell_International_Avionics_STC_Design_Cockpit_Integration_Engineering a aero:EngineeringService,
         aero:Service ;
     rdfs:label "Avionics STC Design & Cockpit Integration Engineering"^^xsd:string ;
     aero:serviceAccreditation "CAA NZ Part 148"^^xsd:string ;
@@ -521,7 +513,7 @@ aero:Service_Flightcell_International_Limited_Avionics_STC_Design_Cockpit_Integr
         aero:Platform_RotaryWing,
         aero:Platform_TacticalUAS .
 
-aero:Service_Flightcell_International_Limited_DZMx_Depot_Repair_Firmware_Security_Updates a aero:MROService,
+aero:Service_Flightcell_International_DZMx_Depot_Repair_Firmware_Security_Updates a aero:MROService,
         aero:Service ;
     rdfs:label "DZMx Depot Repair & Firmware Security Updates"^^xsd:string ;
     aero:serviceAccreditation "AS9100D"^^xsd:string ;
@@ -530,7 +522,7 @@ aero:Service_Flightcell_International_Limited_DZMx_Depot_Repair_Firmware_Securit
         aero:Platform_RotaryWing,
         aero:Platform_TacticalUAS .
 
-aero:Service_Flightcell_International_Limited_Global_Aircraft_Tracking_Server_Fleet_Management a aero:LogisticsSupportService,
+aero:Service_Flightcell_International_Global_Aircraft_Tracking_Server_Fleet_Management a aero:LogisticsSupportService,
         aero:Service ;
     rdfs:label "Global Aircraft Tracking Server Fleet Management"^^xsd:string ;
     aero:serviceAccreditation "ISO 27001"^^xsd:string ;
@@ -539,7 +531,7 @@ aero:Service_Flightcell_International_Limited_Global_Aircraft_Tracking_Server_Fl
         aero:Platform_RotaryWing,
         aero:Platform_TacticalUAS .
 
-aero:Service_Marops_Limited_Combat_Management_System_Operator_Training_Delivery a aero:Service,
+aero:Service_Marops_Combat_Management_System_Operator_Training_Delivery a aero:Service,
         aero:SimulationTrainingService ;
     rdfs:label "Combat Management System Operator Training Delivery"^^xsd:string ;
     aero:serviceAccreditation "NZDF Approved Contractor"^^xsd:string ;
@@ -547,7 +539,7 @@ aero:Service_Marops_Limited_Combat_Management_System_Operator_Training_Delivery 
     aero:supportsPlatform aero:Platform_Submarine,
         aero:Platform_SurfaceCombatant .
 
-aero:Service_Marops_Limited_Naval_Bridge_Simulator_Maintenance_Software_In_Service_Support a aero:Service,
+aero:Service_Marops_Naval_Bridge_Simulator_Maintenance_Software_In_Service_Support a aero:Service,
         aero:SimulationTrainingService ;
     rdfs:label "Naval Bridge Simulator Maintenance & Software In-Service Support"^^xsd:string ;
     aero:serviceAccreditation "ISO 9001"^^xsd:string ;
@@ -555,7 +547,7 @@ aero:Service_Marops_Limited_Naval_Bridge_Simulator_Maintenance_Software_In_Servi
     aero:supportsPlatform aero:Platform_Submarine,
         aero:Platform_SurfaceCombatant .
 
-aero:Service_Marops_Limited_Naval_Sensor_Interface_Hardware_Integration a aero:EngineeringService,
+aero:Service_Marops_Naval_Sensor_Interface_Hardware_Integration a aero:EngineeringService,
         aero:Service ;
     rdfs:label "Naval Sensor Interface Hardware Integration"^^xsd:string ;
     aero:serviceAccreditation "ISO 9001"^^xsd:string ;
@@ -563,7 +555,7 @@ aero:Service_Marops_Limited_Naval_Sensor_Interface_Hardware_Integration a aero:E
     aero:supportsPlatform aero:Platform_Submarine,
         aero:Platform_SurfaceCombatant .
 
-aero:Service_Marops_Limited_Simulator_Visual_Display_Engine_Calibration_Alignment a aero:MROService,
+aero:Service_Marops_Simulator_Visual_Display_Engine_Calibration_Alignment a aero:MROService,
         aero:Service ;
     rdfs:label "Simulator Visual Display Engine Calibration & Alignment"^^xsd:string ;
     aero:serviceAccreditation "AS9100D"^^xsd:string ;
@@ -571,7 +563,7 @@ aero:Service_Marops_Limited_Simulator_Visual_Display_Engine_Calibration_Alignmen
     aero:supportsPlatform aero:Platform_Submarine,
         aero:Platform_SurfaceCombatant .
 
-aero:Service_Rakon_Limited_Custom_Frequency_Synthesis_Microelectronic_Design a aero:EngineeringService,
+aero:Service_Rakon_Custom_Frequency_Synthesis_Microelectronic_Design a aero:EngineeringService,
         aero:Service ;
     rdfs:label "Custom Frequency Synthesis Microelectronic Design"^^xsd:string ;
     aero:serviceAccreditation "MIL-PRF-55310 Qualified"^^xsd:string ;
@@ -580,7 +572,7 @@ aero:Service_Rakon_Limited_Custom_Frequency_Synthesis_Microelectronic_Design a a
         aero:Platform_FixedWingCombat,
         aero:Platform_LEOSatellite .
 
-aero:Service_Rakon_Limited_Defense_Supply_Chain_Crystal_Screening_Burn_In a aero:Service,
+aero:Service_Rakon_Defense_Supply_Chain_Crystal_Screening_Burn_In a aero:Service,
         aero:TestingQualificationService ;
     rdfs:label "Defense Supply Chain Crystal Screening & Burn-In"^^xsd:string ;
     aero:serviceAccreditation "AS9100D"^^xsd:string ;
@@ -589,7 +581,7 @@ aero:Service_Rakon_Limited_Defense_Supply_Chain_Crystal_Screening_Burn_In a aero
         aero:Platform_FixedWingCombat,
         aero:Platform_LEOSatellite .
 
-aero:Service_Rakon_Limited_Precision_Oscillator_Re_calibration_and_Refurbishment a aero:MROService,
+aero:Service_Rakon_Precision_Oscillator_Re_calibration_and_Refurbishment a aero:MROService,
         aero:Service ;
     rdfs:label "Precision Oscillator Re-calibration and Refurbishment"^^xsd:string ;
     aero:serviceAccreditation "ISO 9001:2015"^^xsd:string ;
@@ -598,7 +590,7 @@ aero:Service_Rakon_Limited_Precision_Oscillator_Re_calibration_and_Refurbishment
         aero:Platform_FixedWingCombat,
         aero:Platform_LEOSatellite .
 
-aero:Service_Rakon_Limited_Space_Radiation_Characterization_TID_Testing a aero:Service,
+aero:Service_Rakon_Space_Radiation_Characterization_TID_Testing a aero:Service,
         aero:TestingQualificationService ;
     rdfs:label "Space Radiation Characterization & TID Testing"^^xsd:string ;
     aero:serviceAccreditation "ESA ECSS-Q-ST-60C"^^xsd:string ;
@@ -607,7 +599,7 @@ aero:Service_Rakon_Limited_Space_Radiation_Characterization_TID_Testing a aero:S
         aero:Platform_FixedWingCombat,
         aero:Platform_LEOSatellite .
 
-aero:Service_Rocket_Lab_Limited_Dedicated_Orbital_Space_Launch_Operations a aero:EngineeringService,
+aero:Service_Rocket_Lab_Dedicated_Orbital_Space_Launch_Operations a aero:EngineeringService,
         aero:Service ;
     rdfs:label "Dedicated Orbital Space Launch Operations"^^xsd:string ;
     aero:serviceAccreditation "FAA Part 450 Launch License"^^xsd:string ;
@@ -615,7 +607,7 @@ aero:Service_Rocket_Lab_Limited_Dedicated_Orbital_Space_Launch_Operations a aero
     aero:supportsPlatform aero:Platform_LEOSatellite,
         aero:Platform_SpaceLaunchVehicle .
 
-aero:Service_Rocket_Lab_Limited_Payload_Cleanroom_Integration_and_Environmental_Testing a aero:Service,
+aero:Service_Rocket_Lab_Payload_Cleanroom_Integration_and_Environmental_Testing a aero:Service,
         aero:TestingQualificationService ;
     rdfs:label "Payload Cleanroom Integration and Environmental Testing"^^xsd:string ;
     aero:serviceAccreditation "ISO/IEC 17025"^^xsd:string ;
@@ -623,7 +615,7 @@ aero:Service_Rocket_Lab_Limited_Payload_Cleanroom_Integration_and_Environmental_
     aero:supportsPlatform aero:Platform_LEOSatellite,
         aero:Platform_SpaceLaunchVehicle .
 
-aero:Service_Rocket_Lab_Limited_Rocket_Engine_Hot_Fire_Qualification_Rapid_Refurbishment a aero:MROService,
+aero:Service_Rocket_Lab_Rocket_Engine_Hot_Fire_Qualification_Rapid_Refurbishment a aero:MROService,
         aero:Service ;
     rdfs:label "Rocket Engine Hot-Fire Qualification & Rapid Refurbishment"^^xsd:string ;
     aero:serviceAccreditation "AS9100D"^^xsd:string ;
@@ -631,7 +623,7 @@ aero:Service_Rocket_Lab_Limited_Rocket_Engine_Hot_Fire_Qualification_Rapid_Refur
     aero:supportsPlatform aero:Platform_LEOSatellite,
         aero:Platform_SpaceLaunchVehicle .
 
-aero:Service_Rocket_Lab_Limited_Satellite_Constellation_Telemetry_Tracking_Mission_Operations a aero:Service,
+aero:Service_Rocket_Lab_Satellite_Constellation_Telemetry_Tracking_Mission_Operations a aero:Service,
         aero:SimulationTrainingService ;
     rdfs:label "Satellite Constellation Telemetry Tracking & Mission Operations"^^xsd:string ;
     aero:serviceAccreditation "Space Operations Security Level 2"^^xsd:string ;
@@ -639,7 +631,7 @@ aero:Service_Rocket_Lab_Limited_Satellite_Constellation_Telemetry_Tracking_Missi
     aero:supportsPlatform aero:Platform_LEOSatellite,
         aero:Platform_SpaceLaunchVehicle .
 
-aero:Service_Tait_International_Limited_247_Tactical_Network_Operations_Center_NOC_Managed_Support a aero:LogisticsSupportService,
+aero:Service_Tait_International_247_Tactical_Network_Operations_Center_NOC_Managed_Support a aero:LogisticsSupportService,
         aero:Service ;
     rdfs:label "24/7 Tactical Network Operations Center (NOC) Managed Support"^^xsd:string ;
     aero:serviceAccreditation "ISO 27001"^^xsd:string ;
@@ -647,7 +639,7 @@ aero:Service_Tait_International_Limited_247_Tactical_Network_Operations_Center_N
     aero:supportsPlatform aero:Platform_ArmouredCombatVehicle,
         aero:Platform_SurfaceCombatant .
 
-aero:Service_Tait_International_Limited_MIL_STD_810H_Ruggedization_Cryptographic_Security_Auditing a aero:CyberSecurityService,
+aero:Service_Tait_International_MIL_STD_810H_Ruggedization_Cryptographic_Security_Auditing a aero:CyberSecurityService,
         aero:Service ;
     rdfs:label "MIL-STD-810H Ruggedization & Cryptographic Security Auditing"^^xsd:string ;
     aero:serviceAccreditation "FIPS 140-2 Certified"^^xsd:string ;
@@ -655,7 +647,7 @@ aero:Service_Tait_International_Limited_MIL_STD_810H_Ruggedization_Cryptographic
     aero:supportsPlatform aero:Platform_ArmouredCombatVehicle,
         aero:Platform_SurfaceCombatant .
 
-aero:Service_Tait_International_Limited_Radio_Fleet_In_Service_Support_and_Depot_Board_Repair a aero:MROService,
+aero:Service_Tait_International_Radio_Fleet_In_Service_Support_and_Depot_Board_Repair a aero:MROService,
         aero:Service ;
     rdfs:label "Radio Fleet In-Service Support and Depot Board Repair"^^xsd:string ;
     aero:serviceAccreditation "ISO 9001:2015"^^xsd:string ;
@@ -663,7 +655,7 @@ aero:Service_Tait_International_Limited_Radio_Fleet_In_Service_Support_and_Depot
     aero:supportsPlatform aero:Platform_ArmouredCombatVehicle,
         aero:Platform_SurfaceCombatant .
 
-aero:Service_Tait_International_Limited_Tactical_Network_Architecture_Design_RF_Propagation_Modeling a aero:EngineeringService,
+aero:Service_Tait_International_Tactical_Network_Architecture_Design_RF_Propagation_Modeling a aero:EngineeringService,
         aero:Service ;
     rdfs:label "Tactical Network Architecture Design & RF Propagation Modeling"^^xsd:string ;
     aero:serviceAccreditation "ISO 9001"^^xsd:string ;
@@ -671,7 +663,7 @@ aero:Service_Tait_International_Limited_Tactical_Network_Architecture_Design_RF_
     aero:supportsPlatform aero:Platform_ArmouredCombatVehicle,
         aero:Platform_SurfaceCombatant .
 
-aero:Service_Zenith_Tecnica_Limited_Aerospace_Additive_Manufacturing_Process_Certification a aero:Service,
+aero:Service_Zenith_Tecnica_Aerospace_Additive_Manufacturing_Process_Certification a aero:Service,
         aero:TestingQualificationService ;
     rdfs:label "Aerospace Additive Manufacturing Process Certification"^^xsd:string ;
     aero:serviceAccreditation "NADCAP Additive Manufacturing"^^xsd:string ;
@@ -680,7 +672,7 @@ aero:Service_Zenith_Tecnica_Limited_Aerospace_Additive_Manufacturing_Process_Cer
         aero:Platform_LEOSatellite,
         aero:Platform_SpaceLaunchVehicle .
 
-aero:Service_Zenith_Tecnica_Limited_Design_for_Additive_Manufacturing_DfAM_Consulting a aero:EngineeringService,
+aero:Service_Zenith_Tecnica_Design_for_Additive_Manufacturing_DfAM_Consulting a aero:EngineeringService,
         aero:Service ;
     rdfs:label "Design for Additive Manufacturing (DfAM) Consulting"^^xsd:string ;
     aero:serviceAccreditation "AS9100D"^^xsd:string ;
@@ -689,7 +681,7 @@ aero:Service_Zenith_Tecnica_Limited_Design_for_Additive_Manufacturing_DfAM_Consu
         aero:Platform_LEOSatellite,
         aero:Platform_SpaceLaunchVehicle .
 
-aero:Service_Zenith_Tecnica_Limited_Hot_Isostatic_Pressing_HIP_and_Vacuum_Heat_Treatment_Support a aero:MROService,
+aero:Service_Zenith_Tecnica_Hot_Isostatic_Pressing_HIP_and_Vacuum_Heat_Treatment_Support a aero:MROService,
         aero:Service ;
     rdfs:label "Hot Isostatic Pressing (HIP) and Vacuum Heat Treatment Support"^^xsd:string ;
     aero:serviceAccreditation "NADCAP Heat Treating"^^xsd:string ;
@@ -698,7 +690,7 @@ aero:Service_Zenith_Tecnica_Limited_Hot_Isostatic_Pressing_HIP_and_Vacuum_Heat_T
         aero:Platform_LEOSatellite,
         aero:Platform_SpaceLaunchVehicle .
 
-aero:Service_Zenith_Tecnica_Limited_Precision_CNC_5_Axis_Post_Machining_and_CMM_Inspection a aero:EngineeringService,
+aero:Service_Zenith_Tecnica_Precision_CNC_5_Axis_Post_Machining_and_CMM_Inspection a aero:EngineeringService,
         aero:Service ;
     rdfs:label "Precision CNC 5-Axis Post-Machining and CMM Inspection"^^xsd:string ;
     aero:serviceAccreditation "ISO 9001:2015"^^xsd:string ;
