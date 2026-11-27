@@ -161,3 +161,11 @@ aero:Platform_Falcon9_Heavy a aero:SpacePlatform ;
     rdfs:label "SpaceX Falcon 9 & Falcon Heavy Reusable National Security Space Launch System"@en ;
     skos:altLabel "Falcon 9", "Falcon Heavy" .
 
+
+aero:Platform_CyberDefenceSystem a aero:Platform ;
+    rdfs:label "Cyber Defence & Network Security System"@en ;
+    aero:platformDomain aero:DomainC4ISR .
+
+aero:Platform_SimulationTrainingSystem a aero:Platform ;
+    rdfs:label "Synthetic Environment & Simulation Training System"@en ;
+    aero:platformDomain aero:DomainC4ISR .

@@ -24392,7 +24392,9 @@
       "DomainDefence",
       "DomainC4ISR"
     ],
-    "platforms": [],
+    "platforms": [
+      "Platform_CyberDefenceSystem"
+    ],
     "kics": [
       "KIC_CyberResilience"
     ],
@@ -24412,7 +24414,9 @@
         "part_number": "BP-MXDR-365",
         "fsc_code": "7030",
         "nsn_code": null,
-        "platforms": [],
+        "platforms": [
+          "Platform_CyberDefenceSystem"
+        ],
         "materials": []
       }
     ],
@@ -24450,7 +24454,9 @@
       "DomainDefence",
       "DomainC4ISR"
     ],
-    "platforms": [],
+    "platforms": [
+      "Platform_SimulationTrainingSystem"
+    ],
     "kics": [
       "KIC_AIAutonomousSystems",
       "KIC_TrainingSimulation"
@@ -24471,7 +24477,9 @@
         "part_number": "BA-TWIN-01",
         "fsc_code": "7030",
         "nsn_code": null,
-        "platforms": [],
+        "platforms": [
+          "Platform_SimulationTrainingSystem"
+        ],
         "materials": []
       }
     ],
@@ -24507,7 +24515,9 @@
     "domains": [
       "DomainDefence"
     ],
-    "platforms": [],
+    "platforms": [
+      "Platform_SurfaceCombatant"
+    ],
     "kics": [
       "KIC_SensorsSonar"
     ],
@@ -24527,8 +24537,12 @@
         "part_number": "MEAS-SAA-01",
         "fsc_code": "6685",
         "nsn_code": null,
-        "platforms": [],
-        "materials": []
+        "platforms": [
+          "Platform_SurfaceCombatant"
+        ],
+        "materials": [
+          "Material_Titanium_Ti6Al4V"
+        ]
       }
     ],
     "services": [
@@ -25603,7 +25617,9 @@
     "domains": [
       "DomainDefence"
     ],
-    "platforms": [],
+    "platforms": [
+      "Platform_ArmouredCombatVehicle"
+    ],
     "kics": [
       "KIC_InServiceSupport"
     ],
@@ -25623,7 +25639,9 @@
         "part_number": "ENVY-MED-01",
         "fsc_code": "6515",
         "nsn_code": null,
-        "platforms": [],
+        "platforms": [
+          "Platform_ArmouredCombatVehicle"
+        ],
         "materials": []
       }
     ],

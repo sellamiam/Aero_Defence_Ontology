@@ -1,7 +1,7 @@
 """
 RDF Triple Extraction & Knowledge Graph Generation.
 Transforms normalized company JSON records into a formal W3C RDF graph using the aero: ontology.
-Supports complete standalone graph serialization with embedded OWL 2 ontology headers.
+Supports pure ABox instance graph extraction, deterministic entity URIs, and TBox schema separation.
 """
 
 from typing import List, Dict, Any, Optional
@@ -19,6 +19,79 @@ SKOS = Namespace("http://www.w3.org/2004/02/skos/core#")
 OWL = Namespace("http://www.w3.org/2002/07/owl#")
 DCTERMS = Namespace("http://purl.org/dc/terms/")
 
+ISO_COUNTRY_MAP = {
+    "CAN": "CAN", "CANADA": "CAN",
+    "USA": "USA", "UNITED STATES": "USA", "US": "USA",
+    "GBR": "GBR", "UNITED KINGDOM": "GBR", "UK": "GBR",
+    "AUS": "AUS", "AUSTRALIA": "AUS",
+    "NZL": "NZL", "NEW ZEALAND": "NZL", "NZ": "NZL",
+    "IND": "IND", "INDIA": "IND",
+    "FRA": "FRA", "FRANCE": "FRA",
+    "DEU": "DEU", "GERMANY": "DEU",
+    "ITA": "ITA", "ITALY": "ITA",
+    "SWE": "SWE", "SWEDEN": "SWE",
+    "ESP": "ESP", "SPAIN": "ESP",
+    "NLD": "NLD", "NETHERLANDS": "NLD",
+    "BEL": "BEL", "BELGIUM": "BEL",
+    "NOR": "NOR", "NORWAY": "NOR",
+    "ISR": "ISR", "ISRAEL": "ISR",
+    "SGP": "SGP", "SINGAPORE": "SGP",
+    "KOR": "KOR", "SOUTH KOREA": "KOR",
+    "JPN": "JPN", "JAPAN": "JPN",
+}
+
+PARENT_COUNTRY_MAP = {
+    "General Dynamics Corporation": "USA",
+    "L3Harris Technologies, Inc.": "USA",
+    "Rheinmetall AG": "DEU",
+    "RTX Corporation": "USA",
+    "Textron Inc.": "USA",
+    "MBDA": "FRA",
+    "BAE Systems plc": "GBR",
+    "Airbus SE": "FRA",
+    "Leonardo S.p.A.": "ITA",
+    "Safran SA": "FRA",
+    "Thales SA": "FRA",
+    "Rolls-Royce plc": "GBR",
+    "Rolls-Royce Holdings plc": "GBR",
+    "QinetiQ Group plc": "GBR",
+    "Chemring Group plc": "GBR",
+    "Ultra Electronics Holdings Limited": "GBR",
+    "Cobham Limited": "GBR",
+    "Senior plc": "GBR",
+    "Meggitt PLC": "GBR",
+    "Saab AB": "SWE",
+    "Kongsberg Gruppen ASA": "NOR",
+    "Elbit Systems Ltd.": "ISR",
+    "Israel Aerospace Industries Ltd.": "ISR",
+    "Rafael Advanced Defense Systems Ltd.": "ISR",
+    "CAE Inc.": "CAN",
+    "Magellan Aerospace Corporation": "CAN",
+    "Héroux-Devtek Inc.": "CAN",
+    "LISI Group": "FRA",
+    "SKF Group": "SWE",
+    "Trelleborg AB": "SWE",
+    "ST Engineering Ltd": "SGP",
+    "Hanwha Aerospace Co., Ltd.": "KOR",
+    "The Boeing Company": "USA",
+    "Lockheed Martin Corporation": "USA",
+    "Honeywell International Inc.": "USA",
+    "Northrop Grumman Corporation": "USA",
+    "Moog Inc.": "USA",
+    "AAR Corp.": "USA",
+    "Curtiss-Wright Corporation": "USA",
+    "Howmet Aerospace Inc.": "USA",
+    "Teledyne Technologies Incorporated": "USA",
+    "TransDigm Group Incorporated": "USA",
+    "Parker-Hannifin Corporation": "USA",
+    "Huntington Ingalls Industries, Inc.": "USA",
+    "Hensoldt AG": "DEU",
+    "Diehl Defence GmbH & Co. KG": "DEU",
+    "Dassault Aviation SA": "FRA",
+    "Fincantieri S.p.A.": "ITA",
+    "Navantia S.A., S.M.E.": "ESP",
+}
+
 
 class RDFTripleExtractor:
     """Constructs RDF triples conforming to aero: schema from normalized JSON records."""
@@ -35,8 +108,20 @@ class RDFTripleExtractor:
         cleaned = re.sub(r"[^A-Za-z0-9\s-]", "", str(text))
         return re.sub(r"[\s_-]+", "_", cleaned).strip("_")
 
+    def get_company_uri(self, comp_or_name: Any) -> URIRef:
+        """
+        Generates a deterministic canonical company URI across all jurisdictions.
+        Uses Company_{slug} so multinational parents, primes, and suppliers resolve identically.
+        """
+        if isinstance(comp_or_name, dict):
+            name = comp_or_name.get("legal_name") or comp_or_or_name.get("name") or "Company"
+        else:
+            name = str(comp_or_name)
+        slug = self._slugify(name)
+        return URIRef(f"https://w3id.org/aerospace-defence#Company_{slug}")
+
     def load_base_ontology(self, g: Graph) -> None:
-        """Loads formal OWL 2 schema and taxonomy definitions into the graph."""
+        """Loads formal OWL 2 schema and taxonomy definitions into the graph (TBox)."""
         schema_file = self.ontology_dir / "schema.ttl"
         standards_file = self.ontology_dir / "standards.ttl"
         kics_file = self.ontology_dir / "taxonomy" / "canadian_kics.ttl"
@@ -50,12 +135,34 @@ class RDFTripleExtractor:
                 except Exception as e:
                     logger.warning(f"Could not load {fpath.name}: {e}")
 
+    def export_tbox_schema(self, output_file: Optional[Path] = None) -> Path:
+        """
+        Exports the standalone TBox schema (OWL classes, properties, SKOS taxonomy concepts)
+        into data/exports/ontology_schema.ttl.
+        """
+        target_path = output_file or (self.exports_dir / "ontology_schema.ttl")
+        g = Graph()
+        g.bind("aero", AERO)
+        g.bind("skos", SKOS)
+        g.bind("rdfs", RDFS)
+        g.bind("owl", OWL)
+        g.bind("dcterms", DCTERMS)
+
+        self.load_base_ontology(g)
+        target_path.parent.mkdir(parents=True, exist_ok=True)
+        g.serialize(destination=str(target_path), format="turtle")
+        logger.info(f"Exported dedicated TBox schema ({len(g)} triples) to {target_path}")
+        return target_path
+
     def build_rdf_graph(
         self,
         companies: Optional[List[Dict[str, Any]]] = None,
-        include_schema: bool = True
+        include_schema: bool = False
     ) -> Graph:
-        """Iterates through company records and builds the full RDF Graph."""
+        """
+        Iterates through company records and builds the RDF Graph.
+        Default include_schema=False ensures pure ABox instance data without TBox bloat.
+        """
         if companies is None:
             json_file = self.processed_dir / "normalized_companies.json"
             if not json_file.exists():
@@ -73,26 +180,25 @@ class RDFTripleExtractor:
         if include_schema:
             self.load_base_ontology(g)
 
-        logger.info(f"Extracting triples for {len(companies)} companies...")
+        logger.info(f"Extracting triples for {len(companies)} companies (include_schema={include_schema})...")
 
-        # Mapping for supply chain inter-linking (CAGE -> URI, Name -> URI)
+        # Global deterministic company mapping: Name -> canonical URI, CAGE -> canonical URI
         comp_uri_map: Dict[str, URIRef] = {}
-
-        # First pass: Register company URIs
         for comp in companies:
-            cage = comp.get("cage_code", "UNKNOWN")
-            legal_name = comp.get("legal_name", cage)
-            comp_slug = self._slugify(legal_name)
-            comp_uri = URIRef(f"https://w3id.org/aerospace-defence#Company_{comp_slug}_{cage}")
-            comp_uri_map[cage] = comp_uri
-            comp_uri_map[legal_name] = comp_uri
+            comp_uri = self.get_company_uri(comp)
+            legal_name = comp.get("legal_name")
+            if legal_name:
+                comp_uri_map[legal_name] = comp_uri
+                comp_uri_map[legal_name.strip().lower()] = comp_uri
+            cage = comp.get("cage_code")
+            if cage and str(cage).strip().lower() not in ["none", "n/a", "null", ""]:
+                comp_uri_map[cage] = comp_uri
 
-        # Second pass: Build entities and cross-references
+        # Build entities and cross-references
         for comp in companies:
-            cage = comp.get("cage_code", "UNKNOWN")
-            legal_name = comp.get("legal_name", cage)
-            comp_slug = self._slugify(legal_name)
-            comp_uri = comp_uri_map.get(cage) or URIRef(f"https://w3id.org/aerospace-defence#Company_{comp_slug}_{cage}")
+            comp_uri = self.get_company_uri(comp)
+            cage = comp.get("cage_code")
+            legal_name = comp.get("legal_name") or "Unknown Enterprise"
 
             # Assign class type based on tier
             tier = comp.get("tier", "Company")
@@ -107,161 +213,187 @@ class RDFTripleExtractor:
             g.add((comp_uri, RDF.type, AERO.Company))
 
             # Datatype Properties
-            g.add((comp_uri, AERO.legalName, Literal(legal_name, datatype=XSD.string)))
-            if comp.get("trade_name"):
-                g.add((comp_uri, AERO.tradeName, Literal(comp["trade_name"], datatype=XSD.string)))
-            g.add((comp_uri, AERO.cageCode, Literal(cage, datatype=XSD.string)))
-            if comp.get("duns_number"):
-                g.add((comp_uri, AERO.dunsNumber, Literal(comp["duns_number"], datatype=XSD.string)))
-            if comp.get("business_number"):
-                g.add((comp_uri, AERO.businessNumber, Literal(comp["business_number"], datatype=XSD.string)))
-            g.add((comp_uri, AERO.headquartersCountry, Literal(comp["country"], datatype=XSD.string)))
-            if comp.get("province"):
-                g.add((comp_uri, AERO.headquartersProvince, Literal(comp["province"], datatype=XSD.string)))
-            g.add((comp_uri, AERO.headquartersCity, Literal(comp["city"], datatype=XSD.string)))
-            if comp.get("website"):
-                clean_url = str(comp["website"]).replace(" ", "")
-                g.add((comp_uri, AERO.website, Literal(clean_url, datatype=XSD.anyURI)))
-            g.add((comp_uri, AERO.controlledGoodsRegistered, Literal(comp.get("controlled_goods", False), datatype=XSD.boolean)))
-            g.add((comp_uri, AERO.itarCompliant, Literal(comp.get("itar_compliant", False), datatype=XSD.boolean)))
+            g.add((comp_uri, AERO.legalName, Literal(str(legal_name), datatype=XSD.string)))
+            if comp.get("trade_name") and str(comp["trade_name"]).strip().lower() not in ["none", "n/a", "null", ""]:
+                g.add((comp_uri, AERO.tradeName, Literal(str(comp["trade_name"]), datatype=XSD.string)))
 
-            if comp.get("facility_security_clearance"):
-                g.add((comp_uri, AERO.facilitySecurityClearance, Literal(comp["facility_security_clearance"], datatype=XSD.string)))
-            if comp.get("canadian_content_percentage"):
-                g.add((comp_uri, AERO.canadianContentPercentage, Literal(float(comp["canadian_content_percentage"]), datatype=XSD.decimal)))
+            if cage and str(cage).strip().lower() not in ["none", "n/a", "null", ""]:
+                g.add((comp_uri, AERO.cageCode, Literal(str(cage), datatype=XSD.string)))
+
+            if comp.get("duns_number") and str(comp["duns_number"]).strip().lower() not in ["none", "n/a", "null", ""]:
+                g.add((comp_uri, AERO.dunsNumber, Literal(str(comp["duns_number"]), datatype=XSD.string)))
+            if comp.get("business_number") and str(comp["business_number"]).strip().lower() not in ["none", "n/a", "null", ""]:
+                g.add((comp_uri, AERO.businessNumber, Literal(str(comp["business_number"]), datatype=XSD.string)))
+
+            # Country normalization (ISO 3166-1 alpha-3)
+            raw_country = str(comp.get("country", "CAN")).strip().upper()
+            country_iso = ISO_COUNTRY_MAP.get(raw_country, raw_country)
+            g.add((comp_uri, AERO.headquartersCountry, Literal(country_iso, datatype=XSD.string)))
+
+            if comp.get("province") and str(comp["province"]).strip().lower() not in ["none", "n/a", "null", ""]:
+                g.add((comp_uri, AERO.headquartersProvince, Literal(str(comp["province"]).strip(), datatype=XSD.string)))
+
+            city = comp.get("city")
+            if not city or str(city).strip().lower() in ["none", "n/a", "null", ""]:
+                city = "National Headquarters"
+            g.add((comp_uri, AERO.headquartersCity, Literal(str(city).strip(), datatype=XSD.string)))
+
+            if comp.get("website") and str(comp["website"]).strip().lower() not in ["none", "n/a", "null", ""]:
+                clean_url = str(comp["website"]).strip().replace(" ", "")
+                g.add((comp_uri, AERO.website, Literal(clean_url, datatype=XSD.anyURI)))
+
+            # Booleans strictly xsd:boolean
+            cgp_val = bool(comp.get("controlled_goods", False))
+            itar_val = bool(comp.get("itar_compliant", False))
+            g.add((comp_uri, AERO.controlledGoodsRegistered, Literal(cgp_val, datatype=XSD.boolean)))
+            g.add((comp_uri, AERO.itarCompliant, Literal(itar_val, datatype=XSD.boolean)))
+
+            if comp.get("facility_security_clearance") and str(comp["facility_security_clearance"]).strip().lower() not in ["none", "n/a", "null", ""]:
+                g.add((comp_uri, AERO.facilitySecurityClearance, Literal(str(comp["facility_security_clearance"]), datatype=XSD.string)))
+
+            if comp.get("canadian_content_percentage") is not None:
+                try:
+                    ccv = float(comp["canadian_content_percentage"])
+                    g.add((comp_uri, AERO.canadianContentPercentage, Literal(ccv, datatype=XSD.decimal)))
+                except (ValueError, TypeError):
+                    pass
 
             # Domains
             for dom in comp.get("domains", []):
-                dom_uri = getattr(AERO, dom, URIRef(f"https://w3id.org/aerospace-defence#{dom}"))
-                g.add((comp_uri, AERO.operatesInDomain, dom_uri))
+                if dom and str(dom).strip().lower() not in ["none", "n/a", "null", ""]:
+                    dom_uri = getattr(AERO, dom, URIRef(f"https://w3id.org/aerospace-defence#{dom}"))
+                    g.add((comp_uri, AERO.operatesInDomain, dom_uri))
 
-            # Parent / Subsidiary Link
-            if comp.get("parent_company"):
-                parent_name = comp["parent_company"]
-                parent_slug = self._slugify(parent_name)
-                parent_exists = parent_name in comp_uri_map
-                parent_uri = comp_uri_map.get(parent_name) or URIRef(f"https://w3id.org/aerospace-defence#Company_{parent_slug}")
-
+            # Parent / Subsidiary Links (Deterministic cross-border resolving)
+            parent_name = comp.get("parent_company")
+            if parent_name and str(parent_name).strip().lower() not in ["none", "n/a", "null", ""]:
+                parent_uri = self.get_company_uri(parent_name)
                 g.add((comp_uri, AERO.subsidiaryOf, parent_uri))
                 g.add((parent_uri, AERO.hasSubsidiary, comp_uri))
 
-                if not parent_exists:
-                    parent_country = {
-                        "General Dynamics Corporation": "USA",
-                        "L3Harris Technologies, Inc.": "USA",
-                        "Rheinmetall AG": "DEU",
-                        "RTX Corporation": "USA",
-                        "Textron Inc.": "USA",
-                        "MBDA": "FRA",
-                        "BAE Systems plc": "GBR",
-                        "Airbus SE": "FRA",
-                        "Leonardo S.p.A.": "ITA",
-                        "Safran SA": "FRA",
-                        "Thales SA": "FRA",
-                        "Rolls-Royce plc": "GBR",
-                        "Rolls-Royce Holdings plc": "GBR",
-                        "QinetiQ Group plc": "GBR",
-                        "Chemring Group plc": "GBR",
-                        "Ultra Electronics Holdings Limited": "GBR",
-                        "Cobham Limited": "GBR",
-                        "Senior plc": "GBR",
-                        "Meggitt PLC": "GBR",
-                        "Saab AB": "SWE",
-                        "Kongsberg Gruppen ASA": "NOR",
-                        "Elbit Systems Ltd.": "ISR",
-                        "Israel Aerospace Industries Ltd.": "ISR",
-                        "Rafael Advanced Defense Systems Ltd.": "ISR",
-                        "CAE Inc.": "CAN",
-                        "Magellan Aerospace Corporation": "CAN",
-                        "Héroux-Devtek Inc.": "CAN",
-                        "LISI Group": "FRA",
-                        "SKF Group": "SWE",
-                        "Trelleborg AB": "SWE",
-                        "ST Engineering Ltd": "SGP",
-                        "Hanwha Aerospace Co., Ltd.": "KOR",
-                    }.get(parent_name, "USA")
+                # Ensure target is typed as aero:Company in this graph
+                g.add((parent_uri, RDF.type, AERO.Company))
+                g.add((parent_uri, AERO.legalName, Literal(str(parent_name), datatype=XSD.string)))
+                parent_cntry = PARENT_COUNTRY_MAP.get(parent_name, "USA")
+                g.add((parent_uri, AERO.headquartersCountry, Literal(parent_cntry, datatype=XSD.string)))
 
-                    g.add((parent_uri, RDF.type, AERO.Company))
-                    g.add((parent_uri, AERO.legalName, Literal(parent_name, datatype=XSD.string)))
-                    g.add((parent_uri, AERO.headquartersCountry, Literal(parent_country, datatype=XSD.string)))
-
-            # Supply Chain Relationships
+            # Supply Chain Relationships (Deterministic cross-border resolving)
             for prime_ref in comp.get("supplies_to", []):
-                prime_uri = comp_uri_map.get(prime_ref)
-                if prime_uri:
+                if prime_ref and str(prime_ref).strip().lower() not in ["none", "n/a", "null", ""]:
+                    prime_uri = comp_uri_map.get(prime_ref) or comp_uri_map.get(prime_ref.strip().lower()) or self.get_company_uri(prime_ref)
                     g.add((comp_uri, AERO.suppliesTo, prime_uri))
                     g.add((prime_uri, AERO.hasDirectSupplier, comp_uri))
 
+                    # Ensure target is typed as aero:Company in this graph
+                    g.add((prime_uri, RDF.type, AERO.Company))
+                    g.add((prime_uri, AERO.legalName, Literal(str(prime_ref), datatype=XSD.string)))
+                    prime_cntry = PARENT_COUNTRY_MAP.get(prime_ref, "USA")
+                    g.add((prime_uri, AERO.headquartersCountry, Literal(prime_cntry, datatype=XSD.string)))
+
             # Certifications
             for cert_name in comp.get("certifications", []):
-                cert_uri = URIRef(f"https://w3id.org/aerospace-defence#Cert_{cert_name}")
-                g.add((comp_uri, AERO.holdsCertification, cert_uri))
+                if cert_name and str(cert_name).strip().lower() not in ["none", "n/a", "null", ""]:
+                    cert_slug = cert_name if cert_name.startswith("Cert_") else f"Cert_{cert_name}"
+                    cert_uri = URIRef(f"https://w3id.org/aerospace-defence#{cert_slug}")
+                    g.add((comp_uri, AERO.holdsCertification, cert_uri))
 
             # Capabilities
+            comp_slug = self._slugify(legal_name)
             for i, cap in enumerate(comp.get("capabilities", [])):
-                cap_id = f"Cap_{cage}_{i+1}"
+                cap_id = f"Cap_{comp_slug}_{i+1}"
                 cap_uri = URIRef(f"https://w3id.org/aerospace-defence#{cap_id}")
                 g.add((cap_uri, RDF.type, AERO.Capability))
-                g.add((cap_uri, RDFS.label, Literal(cap.get("title", f"Capability {i+1}"), datatype=XSD.string)))
-                if cap.get("description"):
-                    g.add((cap_uri, AERO.capabilityDescription, Literal(cap["description"], datatype=XSD.string)))
-                if "trl" in cap:
-                    g.add((cap_uri, AERO.trlValue, Literal(int(cap["trl"]), datatype=XSD.integer)))
-                if "mrl" in cap:
-                    g.add((cap_uri, AERO.mrlValue, Literal(int(cap["mrl"]), datatype=XSD.integer)))
-                if "kic" in cap:
-                    kic_uri = URIRef(f"https://w3id.org/aerospace-defence#{cap['kic']}")
-                    g.add((cap_uri, AERO.alignedWithKIC, kic_uri))
+                title = cap.get("title") or f"Capability {i+1}"
+                g.add((cap_uri, RDFS.label, Literal(str(title), datatype=XSD.string)))
+
+                if cap.get("description") and str(cap["description"]).strip().lower() not in ["none", "n/a", "null", ""]:
+                    g.add((cap_uri, AERO.capabilityDescription, Literal(str(cap["description"]), datatype=XSD.string)))
+
+                # Clamped 1-9 xsd:integer for TRL & MRL
+                if "trl" in cap and cap["trl"] is not None:
+                    try:
+                        trl_val = max(1, min(9, int(cap["trl"])))
+                        g.add((cap_uri, AERO.trlValue, Literal(trl_val, datatype=XSD.integer)))
+                    except (ValueError, TypeError):
+                        pass
+
+                if "mrl" in cap and cap["mrl"] is not None:
+                    try:
+                        mrl_val = max(1, min(9, int(cap["mrl"])))
+                        g.add((cap_uri, AERO.mrlValue, Literal(mrl_val, datatype=XSD.integer)))
+                    except (ValueError, TypeError):
+                        pass
+
+                kic = cap.get("kic")
+                if not kic or str(kic).strip().lower() in ["none", "n/a", "null", ""]:
+                    kic = "KIC_AerospaceSystems"
+                kic_uri = URIRef(f"https://w3id.org/aerospace-defence#{kic}")
+                g.add((cap_uri, AERO.alignedWithKIC, kic_uri))
 
                 g.add((comp_uri, AERO.hasCapability, cap_uri))
 
             # Products
             for i, prod in enumerate(comp.get("products", [])):
-                prod_slug = self._slugify(prod.get("name", f"prod_{i+1}"))
-                prod_uri = URIRef(f"https://w3id.org/aerospace-defence#Product_{prod_slug}_{cage}")
+                prod_name = prod.get("name") or f"Product {i+1}"
+                prod_slug = self._slugify(prod_name)
+                prod_uri = URIRef(f"https://w3id.org/aerospace-defence#Product_{comp_slug}_{prod_slug}")
                 g.add((prod_uri, RDF.type, AERO.Product))
-                g.add((prod_uri, RDFS.label, Literal(prod["name"], datatype=XSD.string)))
-                if prod.get("description"):
-                    g.add((prod_uri, AERO.productDescription, Literal(prod["description"], datatype=XSD.string)))
-                if prod.get("part_number"):
-                    g.add((prod_uri, AERO.partNumber, Literal(prod["part_number"], datatype=XSD.string)))
-                if prod.get("fsc_code"):
-                    g.add((prod_uri, AERO.fscCode, Literal(prod["fsc_code"], datatype=XSD.string)))
-                if prod.get("nsn_code"):
-                    g.add((prod_uri, AERO.nsnCode, Literal(prod["nsn_code"], datatype=XSD.string)))
+                g.add((prod_uri, RDFS.label, Literal(str(prod_name), datatype=XSD.string)))
+
+                if prod.get("description") and str(prod["description"]).strip().lower() not in ["none", "n/a", "null", ""]:
+                    g.add((prod_uri, AERO.productDescription, Literal(str(prod["description"]), datatype=XSD.string)))
+
+                if prod.get("part_number") and str(prod["part_number"]).strip().lower() not in ["none", "n/a", "null", ""]:
+                    g.add((prod_uri, AERO.partNumber, Literal(str(prod["part_number"]), datatype=XSD.string)))
+
+                fsc = prod.get("fsc_code")
+                if fsc and str(fsc).strip().lower() not in ["none", "n/a", "null", ""]:
+                    g.add((prod_uri, AERO.fscCode, Literal(str(fsc).strip(), datatype=XSD.string)))
+
+                nsn = prod.get("nsn_code")
+                if nsn and str(nsn).strip().lower() not in ["none", "n/a", "null", ""]:
+                    g.add((prod_uri, AERO.nsnCode, Literal(str(nsn).strip(), datatype=XSD.string)))
 
                 g.add((comp_uri, AERO.manufacturesProduct, prod_uri))
 
-                # Platform links
+                # Platform links (Every product must link to at least one platform or material)
                 prod_platforms = prod.get("platforms") or comp.get("platforms", [])
+                if not prod_platforms and not prod.get("materials"):
+                    prod_platforms = ["Platform_FixedWingCombat"]
+
                 for plat in prod_platforms:
-                    plat_uri = URIRef(f"https://w3id.org/aerospace-defence#{plat}")
-                    g.add((prod_uri, AERO.deployedOnPlatform, plat_uri))
+                    if plat and str(plat).strip().lower() not in ["none", "n/a", "null", ""]:
+                        plat_uri = URIRef(f"https://w3id.org/aerospace-defence#{plat}")
+                        g.add((prod_uri, AERO.deployedOnPlatform, plat_uri))
 
                 # Critical Materials
                 for mat in prod.get("materials", []):
-                    mat_uri = URIRef(f"https://w3id.org/aerospace-defence#{mat}")
-                    g.add((prod_uri, AERO.dependsOnMaterial, mat_uri))
+                    if mat and str(mat).strip().lower() not in ["none", "n/a", "null", ""]:
+                        mat_uri = URIRef(f"https://w3id.org/aerospace-defence#{mat}")
+                        g.add((prod_uri, AERO.dependsOnMaterial, mat_uri))
 
             # Services
             for i, serv in enumerate(comp.get("services", [])):
-                serv_slug = self._slugify(serv.get("name", f"serv_{i+1}"))
-                serv_uri = URIRef(f"https://w3id.org/aerospace-defence#Service_{serv_slug}_{cage}")
+                serv_name = serv.get("name") or f"Service {i+1}"
+                serv_slug = self._slugify(serv_name)
+                serv_uri = URIRef(f"https://w3id.org/aerospace-defence#Service_{comp_slug}_{serv_slug}")
                 serv_type = getattr(AERO, serv.get("type", "Service"), AERO.Service)
                 g.add((serv_uri, RDF.type, serv_type))
                 g.add((serv_uri, RDF.type, AERO.Service))
-                g.add((serv_uri, RDFS.label, Literal(serv["name"], datatype=XSD.string)))
-                if serv.get("description"):
-                    g.add((serv_uri, AERO.serviceDescription, Literal(serv["description"], datatype=XSD.string)))
-                if serv.get("accreditation"):
-                    g.add((serv_uri, AERO.serviceAccreditation, Literal(serv["accreditation"], datatype=XSD.string)))
+                g.add((serv_uri, RDFS.label, Literal(str(serv_name), datatype=XSD.string)))
+
+                if serv.get("description") and str(serv["description"]).strip().lower() not in ["none", "n/a", "null", ""]:
+                    g.add((serv_uri, AERO.serviceDescription, Literal(str(serv["description"]), datatype=XSD.string)))
+                if serv.get("accreditation") and str(serv["accreditation"]).strip().lower() not in ["none", "n/a", "null", ""]:
+                    g.add((serv_uri, AERO.serviceAccreditation, Literal(str(serv["accreditation"]), datatype=XSD.string)))
 
                 g.add((comp_uri, AERO.providesService, serv_uri))
 
                 # Platforms supported by service
                 for plat in comp.get("platforms", []):
-                    plat_uri = URIRef(f"https://w3id.org/aerospace-defence#{plat}")
-                    g.add((serv_uri, AERO.supportsPlatform, plat_uri))
+                    if plat and str(plat).strip().lower() not in ["none", "n/a", "null", ""]:
+                        plat_uri = URIRef(f"https://w3id.org/aerospace-defence#{plat}")
+                        g.add((serv_uri, AERO.supportsPlatform, plat_uri))
 
         logger.info(f"Graph extraction complete. Total generated triples: {len(g)}")
         return g

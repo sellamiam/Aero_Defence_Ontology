@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 """
 Standalone Global Aerospace & Defence Supply Chain Knowledge Graph Exporter.
-Coordinates harvesters across all 6 jurisdictions (Canada, UK, EU, Australia, New Zealand, India),
-injects cross-tier supply chain linkages, embeds formal OWL 2 schemas, and exports:
-  1. Standalone jurisdiction files: canada.ttl, uk.ttl, eu.ttl, australia.ttl, new_zealand.ttl, india.ttl
-  2. Standalone global unified file: Aero_Defence_Global_Supply_Chain_Ontology.ttl
-  3. Copies to /Users/mohamedsellamia/Desktop/ for instant access by William Langley.
+Coordinates harvesters across all 7 jurisdictions (Canada, USA, UK, EU, Australia, New Zealand, India),
+injects cross-tier supply chain linkages, extracts pure ABox instance data, and exports:
+  1. Standalone TBox schema: data/exports/ontology_schema.ttl
+  2. Pure ABox jurisdiction files: canada.ttl, usa.ttl, uk.ttl, eu.ttl, australia.ttl, new_zealand.ttl, india.ttl
+  3. Standalone global unified file: Aero_Defence_Global_Supply_Chain_Ontology.ttl (with include_schema=True)
+  4. Matching .txt files alongside every .ttl file for instant ingestion in Google AI Studio.
+  5. Post-export rdflib + SHACL + SPARQL integrity verification across all generated files.
 """
 
 import sys
@@ -22,6 +24,7 @@ ROOT_DIR = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT_DIR))
 
 import rdflib
+from rdflib import Graph, URIRef, RDF
 import pyoxigraph
 from pipeline.extractor import RDFTripleExtractor
 from harvesters.canada_harvester import CanadaHarvester
@@ -58,28 +61,28 @@ def inject_cross_border_supply_chain_links(all_companies: List[Dict[str, Any]]) 
         
         # Naval Type 26 / Canadian Surface Combatant / Hunter Frigate
         ("CEA Technologies Pty Ltd", ["BAE Systems Australia Limited"]),
-        ("Ultra Electronics Maritime Systems Canada", ["BAE Systems plc"]),
-        ("Marops Limited", ["Austal Limited"]),
-        ("Zenith Tecnica Limited", ["Rocket Lab Limited"]),
-        
-        # Aeroengine Global Supply Chain
-        ("Bharat Electronics Limited", ["Hindustan Aeronautics Limited"]),
-        ("Tonbo Imaging India Private Limited", ["Bharat Dynamics Limited"]),
-        ("Dawn Aerospace Limited", ["Rocket Lab Limited"]),
-        ("Flightcell International Limited", ["Bell Textron Canada Ltd."]),
+        ("Ultra Electronics Maritime Systems Inc.", ["Lockheed Martin Canada Inc."]),
+        ("Rolls-Royce plc", ["BAE Systems plc"]),
+        ("Babcock Canada Inc.", ["Babcock International Group PLC"]),
 
-        # United States <-> Allied Cross-Border Supply Chain (F-35, P-8, Type 26, Space)
-        ("Magellan Aerospace Corporation", ["Lockheed Martin Corporation", "RTX Corporation"]),
-        ("Héroux-Devtek Inc.", ["The Boeing Company", "Lockheed Martin Corporation"]),
-        ("Quickstep Holdings Limited", ["Lockheed Martin Corporation", "Northrop Grumman Corporation"]),
-        ("Ferra Engineering Pty Ltd", ["The Boeing Company", "Lockheed Martin Corporation"]),
-        ("GKN Aerospace Services Limited", ["Lockheed Martin Corporation", "The Boeing Company"]),
-        ("Pratt & Whitney Canada Corp.", ["RTX Corporation", "The Boeing Company"]),
+        # P-8 Poseidon / Maritime Patrol Supply Chain
+        ("CAE Inc.", ["The Boeing Company"]),
+        ("Honeywell Aerospace (UK)", ["The Boeing Company"]),
+
+        # Land Combat Vehicle Supply Chain (LAV 6.0 / Stryker / Boxer / Ajax)
         ("General Dynamics Land Systems-Canada", ["General Dynamics Corporation"]),
-        ("L3Harris MAS Inc.", ["L3Harris Technologies, Inc."]),
-        ("CAE Inc.", ["CAE USA Inc.", "Lockheed Martin Corporation"]),
-        ("Ultra Electronics Maritime Systems Canada", ["BAE Systems, Inc."]),
-        ("Rocket Lab Limited", ["Rocket Lab USA, Inc."]),
+        ("Rheinmetall Canada Inc.", ["Rheinmetall AG"]),
+        ("Leonardo DRS, Inc.", ["Leonardo S.p.A."]),
+
+        # Strategic Missile & Air Defence Supply Chain
+        ("Thales UK Limited", ["Thales SA"]),
+        ("MBDA", ["Airbus SE", "BAE Systems plc", "Leonardo S.p.A."]),
+        ("Diehl Defence GmbH & Co. KG", ["Airbus SE"]),
+
+        # Space Launch & Satellite Constellations
+        ("MDA Space Ltd.", ["Canadian Space Agency"]),
+        ("Spire Global UK Ltd", ["Spire Global, Inc."]),
+        ("Rocket Lab Australia Pty Ltd", ["Rocket Lab USA, Inc."]),
     ]
 
     for supplier_name, prime_names in linkages:
@@ -88,7 +91,7 @@ def inject_cross_border_supply_chain_links(all_companies: List[Dict[str, Any]]) 
             if "supplies_to" not in comp:
                 comp["supplies_to"] = []
             for p in prime_names:
-                if p in name_to_comp and p not in comp["supplies_to"]:
+                if p not in comp["supplies_to"]:
                     comp["supplies_to"].append(p)
 
     logger.info("Successfully established cross-border supply chain linkages.")
@@ -124,30 +127,40 @@ def main():
         all_harvested_companies.extend(records)
         logger.info(f"-> Harvested {len(records)} companies for {name}.")
 
-    logger.info(f"Total companies harvested across all 6 jurisdictions: {len(all_harvested_companies)}")
+    logger.info(f"Total companies harvested across all jurisdictions: {len(all_harvested_companies)}")
 
     # 2. Inject cross-border supply chain links
     inject_cross_border_supply_chain_links(all_harvested_companies)
 
-    # 3. Export separate jurisdiction files
+    # 3. Export dedicated TBox Schema: data/exports/ontology_schema.ttl
+    logger.info("-" * 80)
+    logger.info("EXPORTING DEDICATED TBOX ONTOLOGY SCHEMA (ontology_schema.ttl)")
+    logger.info("-" * 80)
+    schema_ttl_path = EXPORTS_DIR / "ontology_schema.ttl"
+    schema_txt_path = EXPORTS_DIR / "ontology_schema.txt"
+    extractor.export_tbox_schema(schema_ttl_path)
+    shutil.copy2(schema_ttl_path, schema_txt_path)
+    schema_size_mb = os.path.getsize(schema_ttl_path) / (1024 * 1024)
+    logger.info(f"-> Generated ontology_schema.ttl: {schema_size_mb:.2f} MB")
+
+    # 4. Export separate pure ABox jurisdiction files (include_schema=False)
     export_summary = []
     logger.info("-" * 80)
-    logger.info("SERIALIZING STANDALONE JURISDICTION TURTLE (.TTL) FILES")
+    logger.info("SERIALIZING STANDALONE PURE ABOX JURISDICTION TURTLE (.TTL) FILES")
     logger.info("-" * 80)
 
     for name, _, _, ttl_filename in harvesters_config:
         records = jurisdiction_data[name]
-        logger.info(f"Building RDF graph for {name} ({len(records)} companies)...")
-        g = extractor.build_rdf_graph(companies=records, include_schema=True)
+        logger.info(f"Building pure ABox RDF graph for {name} ({len(records)} companies)...")
+        g = extractor.build_rdf_graph(companies=records, include_schema=False)
         
         target_path = EXPORTS_DIR / ttl_filename
         extractor.export_standalone_ttl(g, target_path)
 
-        # Write .txt copy alongside .ttl in data/exports/ and Desktop
+        # Write .txt copy alongside .ttl in data/exports/
         txt_filename = Path(ttl_filename).with_suffix(".txt").name
         target_txt_path = EXPORTS_DIR / txt_filename
         shutil.copy2(target_path, target_txt_path)
-
 
         file_size_mb = os.path.getsize(target_path) / (1024 * 1024)
         logger.info(f"-> Generated {ttl_filename}: {len(g)} triples, {file_size_mb:.2f} MB")
@@ -161,7 +174,7 @@ def main():
             "path": str(target_path),
         })
 
-    # 4. Export the unified master global ontology file
+    # 5. Export the unified master global ontology file (include_schema=True)
     logger.info("-" * 80)
     logger.info("BUILDING MASTER UNIFIED GLOBAL SUPPLY CHAIN ONTOLOGY (.TTL)")
     logger.info("-" * 80)
@@ -171,7 +184,7 @@ def main():
     master_path = EXPORTS_DIR / master_filename
     master_txt_path = EXPORTS_DIR / master_txt_filename
 
-    logger.info(f"Building complete master RDF graph for all {len(all_harvested_companies)} companies...")
+    logger.info(f"Building complete master RDF graph for all {len(all_harvested_companies)} companies (with schema)...")
     master_graph = extractor.build_rdf_graph(companies=all_harvested_companies, include_schema=True)
 
     extractor.export_standalone_ttl(master_graph, master_path)
@@ -184,7 +197,7 @@ def main():
     logger.info(f"   File Size: {master_size_mb:.2f} MB")
     logger.info(f"   Saved at: {master_path}")
 
-    # 5. Fast verification with pyoxigraph
+    # 6. Fast verification with pyoxigraph
     logger.info("-" * 80)
     logger.info("VERIFYING RDF SYNTAX AND EXECUTING SAMPLE SIMULATION SPARQL QUERIES")
     logger.info("-" * 80)
@@ -252,6 +265,11 @@ def main():
         "build_timestamp": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
         "total_companies": len(all_harvested_companies),
         "total_triples": len(master_graph),
+        "schema_file": {
+            "name": "ontology_schema.ttl",
+            "path": str(schema_ttl_path),
+            "size_mb": round(schema_size_mb, 2),
+        },
         "master_file": {
             "name": master_filename,
             "path": str(master_path),
