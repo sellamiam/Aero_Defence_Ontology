@@ -21,7 +21,7 @@ class NewZealandHarvester(BaseHarvester):
                 "legal_name": "Rocket Lab Limited",
                 "trade_name": "Rocket Lab",
                 "cage_code": "E0A12",
-                "duns_number": "594820194",
+                "duns_number": None,
                 "business_number": "NZ9429031827461",
                 "country": "NZL",
                 "city": "Auckland",
@@ -117,7 +117,7 @@ class NewZealandHarvester(BaseHarvester):
                 "legal_name": "Dawn Aerospace Limited",
                 "trade_name": "Dawn Aerospace",
                 "cage_code": "E0B24",
-                "duns_number": "594892018",
+                "duns_number": None,
                 "business_number": "NZ9429046829102",
                 "country": "NZL",
                 "city": "Christchurch",
@@ -197,7 +197,7 @@ class NewZealandHarvester(BaseHarvester):
                 "legal_name": "Tait International Limited",
                 "trade_name": "Tait Communications",
                 "cage_code": "E0C36",
-                "duns_number": "594812749",
+                "duns_number": None,
                 "business_number": "NZ9429037482910",
                 "country": "NZL",
                 "city": "Christchurch",
@@ -277,7 +277,7 @@ class NewZealandHarvester(BaseHarvester):
                 "legal_name": "Rakon Limited",
                 "trade_name": "Rakon",
                 "cage_code": "E0D48",
-                "duns_number": "594838192",
+                "duns_number": None,
                 "business_number": "NZ9429038291047",
                 "country": "NZL",
                 "city": "Auckland",
@@ -357,7 +357,7 @@ class NewZealandHarvester(BaseHarvester):
                 "legal_name": "Zenith Tecnica Limited",
                 "trade_name": "Zenith Tecnica",
                 "cage_code": "E0E60",
-                "duns_number": "594849102",
+                "duns_number": None,
                 "business_number": "NZ9429041928471",
                 "country": "NZL",
                 "city": "Auckland",
@@ -437,7 +437,7 @@ class NewZealandHarvester(BaseHarvester):
                 "legal_name": "Marops Limited",
                 "trade_name": "Marops Defence & Marine",
                 "cage_code": "E0F72",
-                "duns_number": "594859102",
+                "duns_number": None,
                 "business_number": "NZ9429034819284",
                 "country": "NZL",
                 "city": "Auckland",
@@ -501,7 +501,7 @@ class NewZealandHarvester(BaseHarvester):
                 "legal_name": "Dotterel Technologies Limited",
                 "trade_name": "Dotterel",
                 "cage_code": "E0G84",
-                "duns_number": "594869201",
+                "duns_number": None,
                 "business_number": "NZ9429045918274",
                 "country": "NZL",
                 "city": "Auckland",
@@ -565,7 +565,7 @@ class NewZealandHarvester(BaseHarvester):
                 "legal_name": "Flightcell International Limited",
                 "trade_name": "Flightcell",
                 "cage_code": "E0H96",
-                "duns_number": "594879312",
+                "duns_number": None,
                 "business_number": "NZ9429039182741",
                 "country": "NZL",
                 "city": "Nelson",
@@ -627,185 +627,9 @@ class NewZealandHarvester(BaseHarvester):
             },
         ]
 
-    def _generate_nz_ecosystem(self, target_count: int = 60) -> List[Dict[str, Any]]:
-        flagships = self._get_flagship_nz_companies()
-        records: List[Dict[str, Any]] = list(flagships)
-
-        nz_locations = [
-            ("Auckland", "Auckland"),
-            ("Christchurch", "Canterbury"),
-            ("Wellington", "Wellington"),
-            ("Hamilton", "Waikato"),
-            ("Tauranga", "Bay of Plenty"),
-            ("Nelson", "Nelson"),
-            ("Palmerston North", "Manawatu"),
-            ("Dunedin", "Otago"),
-        ]
-
-        templates = [
-            (
-                "Carbon Composite Aerostructure Autoclave Tooling",
-                "Precision Invar and composite tooling for autoclave curing of high-temperature aerospace structures and drone fairings.",
-                "KIC_AdvancedMaterials",
-                "Tier2Supplier",
-                ["AS9100D", "ISO9001"],
-                "Platform_FixedWingCombat",
-                "1560",
-                "Airframe Structural Tooling Subsystem",
-                "Material_CarbonFiber_Composite",
-            ),
-            (
-                "Precision 5-Axis CNC Titanium & Inconel Machining",
-                "High-precision milling of aerospace landing gear components, hydraulic manifolds, and rocket engine brackets.",
-                "KIC_AerospaceSystems",
-                "Tier2Supplier",
-                ["AS9100D", "ISO9001", "NADCAP_NDT"],
-                "Platform_FixedWingTransport",
-                "1680",
-                "High-Tolerance Aerospace Hydraulic Manifold",
-                "Material_Titanium_Ti6Al4V",
-            ),
-            (
-                "Rugged Autonomous Robotics & Submersible Inspection",
-                "Deep-water inspection ROVs and magnetic crawling robots for non-destructive hull and fuel tank evaluation.",
-                "KIC_AIAutonomousSystems",
-                "SMESupplier",
-                ["ISO9001"],
-                "Platform_SurfaceCombatant",
-                "2090",
-                "Submersible Inspection Robotic Vehicle",
-                "Material_Titanium_Ti6Al4V",
-            ),
-            (
-                "Tactical Long-Endurance Surveillance UAS Platforms",
-                "Long-endurance electric and hybrid VTOL drone platforms with high-definition EO/IR sensor integration for coastal and border patrol.",
-                "KIC_RemotelyPilotedSystems",
-                "SMESupplier",
-                ["ISO9001", "ITAR_Compliant"],
-                "Platform_TacticalUAS",
-                "1550",
-                "Endurance Coastal Surveillance Drone",
-                "Material_CarbonFiber_Composite",
-            ),
-            (
-                "Cryogenic Fuel Handling & Clean Spacecraft Tank Systems",
-                "Vacuum-insulated cryogenic transfer piping, valves, and high-pressure tanks for liquid oxygen and liquid hydrogen aerospace applications.",
-                "KIC_SpaceSystems",
-                "Tier2Supplier",
-                ["AS9100D", "ISO9001"],
-                "Platform_SpaceLaunchVehicle",
-                "2840",
-                "Cryogenic Fluid Isolation Valve Assembly",
-                "Material_Inconel_718",
-            ),
-            (
-                "Naval Electrical Wiring Interconnect & Marine Harnesses",
-                "Subsea pressure-tight military electrical harnesses, penetrators, and environmentally sealed naval distribution boxes.",
-                "KIC_NavalShipbuilding",
-                "Tier2Supplier",
-                ["ISO9001", "NATO_AQAP2110"],
-                "Platform_SurfaceCombatant",
-                "5995",
-                "Hermetic Subsea Naval Cable Assembly",
-                "Material_AluminiumLithium_2055",
-            ),
-        ]
-
-        service_templates = [
-            ("Precision CNC 5-Axis Milling & Dimensional CMM Verification", "EngineeringService", "ISO 9001:2015"),
-            ("Non-Destructive Ultrasonic and Dye Penetrant Inspection (NDT)", "TestingQualificationService", "NADCAP NDT Certified"),
-            ("Aero-Mechanical Component Depot Overhaul and Life Extension", "MROService", "CAA NZ Part 145"),
-            ("Environmental Thermal Vacuum and Vibration Stress Qualification", "TestingQualificationService", "MIL-STD-810H"),
-            ("Avionics Harness Fabrication and Laser Wire Marking", "EngineeringService", "AS9100 Rev D"),
-            ("Integrated Logistics Support and Spares Inventory Management", "LogisticsSupportService", "ISO 9001"),
-        ]
-
-        random.seed(303)
-        idx = len(records) + 1
-        while len(records) < target_count:
-            city, prov = random.choice(nz_locations)
-            tpl = random.choice(templates)
-            cap_title, cap_desc, kic, tier, certs, platform, fsc, prod_name, mat = tpl
-
-            company_name = f"Kiwi {cap_title.split()[0]} {city} Ltd."
-            cage = f"E{idx:04d}"
-            duns = f"5948{random.randint(10000, 99999)}"
-            bn = f"NZ94290{random.randint(10000000, 99999999)}"
-
-            # Pick 4 services for each company
-            company_services = []
-            selected_servs = random.sample(service_templates, 4)
-            for s_name, s_type, s_accred in selected_servs:
-                company_services.append({
-                    "name": f"{s_name} - {city} Facility",
-                    "description": f"Comprehensive {s_name.lower()} adhering to military specifications and defence customer standards.",
-                    "type": s_type,
-                    "accreditation": s_accred,
-                })
-
-            rec = {
-                "legal_name": company_name,
-                "trade_name": f"{cap_title.split()[0]} New Zealand",
-                "cage_code": cage,
-                "duns_number": duns,
-                "business_number": bn,
-                "country": "NZL",
-                "province": prov,
-                "city": city,
-                "website": f"https://www.{company_name.lower().replace(' ', '').replace('.', '')}.co.nz",
-                "tier": tier,
-                "controlled_goods": True,
-                "itar_compliant": random.random() < 0.75,
-                "certifications": list(certs),
-                "domains": ["DomainDefence", "AirPlatform"],
-                "platforms": [platform],
-                "kics": [kic],
-                "capabilities": [
-                    {
-                        "title": cap_title,
-                        "description": f"{cap_desc} Delivered to tier 1 primes and sovereign defence agencies.",
-                        "trl": random.choice([7, 8, 9]),
-                        "mrl": random.choice([7, 8, 9]),
-                        "kic": kic,
-                    },
-                    {
-                        "title": f"Rapid Precision Prototyping & Engineering Validation ({cap_title.split()[0]})",
-                        "description": f"Digital CAD/CAM engineering, rapid prototyping, and empirical qualification for {cap_title.lower()}.",
-                        "trl": 8,
-                        "mrl": 8,
-                        "kic": kic,
-                    },
-                ],
-                "products": [
-                    {
-                        "name": f"{company_name} {prod_name}",
-                        "description": f"High-reliability {prod_name.lower()} manufactured to stringent aerospace tolerances.",
-                        "part_number": f"PN-NZL-{cage}-01",
-                        "fsc_code": fsc,
-                        "nsn_code": f"{fsc}-98-{random.randint(100,999)}-{random.randint(1000,9999)}",
-                        "platforms": [platform],
-                        "materials": [mat],
-                    },
-                    {
-                        "name": f"{company_name} Modular Auxiliary Subassembly",
-                        "description": "Ruggedized mounting subassembly and protective interface hardware.",
-                        "part_number": f"PN-NZL-{cage}-02",
-                        "fsc_code": fsc,
-                        "nsn_code": f"{fsc}-98-{random.randint(100,999)}-{random.randint(1000,9999)}",
-                        "platforms": [platform],
-                        "materials": [mat],
-                    },
-                ],
-                "services": company_services,
-            }
-            records.append(rec)
-            idx += 1
-
-        return records
-
     def harvest(self, limit: Optional[int] = None) -> List[Dict[str, Any]]:
         records = self._get_flagship_nz_companies()
         if limit is not None:
             records = records[:limit]
-        self.save_raw(records, "nz_aero_defence_catalog.json")
+        self.save_raw(records, "new_zealand_aero_defence_catalog.json")
         return records

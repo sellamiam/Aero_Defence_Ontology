@@ -7,7 +7,6 @@ aero:Company_Bharat_Dynamics_Limited a aero:Company,
     aero:businessNumber "IN36AAACB0001Z5"^^xsd:string ;
     aero:cageCode "1824A"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:dunsNumber "650223948"^^xsd:string ;
     aero:hasCapability aero:Cap_Bharat_Dynamics_Limited_1,
         aero:Cap_Bharat_Dynamics_Limited_2 ;
     aero:headquartersCity "Hyderabad"^^xsd:string ;
@@ -38,7 +37,6 @@ aero:Company_Bharat_Electronics_Limited a aero:Company,
     aero:businessNumber "IN29AAACB0001Z2"^^xsd:string ;
     aero:cageCode "1812A"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:dunsNumber "650182741"^^xsd:string ;
     aero:hasCapability aero:Cap_Bharat_Electronics_Limited_1,
         aero:Cap_Bharat_Electronics_Limited_2,
         aero:Cap_Bharat_Electronics_Limited_3 ;
@@ -73,7 +71,6 @@ aero:Company_Larsen_Toubro_Limited_Defence a aero:Company,
     aero:businessNumber "IN27AAACL0001Z4"^^xsd:string ;
     aero:cageCode "1876A"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:dunsNumber "650212847"^^xsd:string ;
     aero:hasCapability aero:Cap_Larsen_Toubro_Limited_Defence_1,
         aero:Cap_Larsen_Toubro_Limited_Defence_2,
         aero:Cap_Larsen_Toubro_Limited_Defence_3 ;
@@ -105,7 +102,6 @@ aero:Company_Paras_Defence_and_Space_Technologies_Limited a aero:Company,
     aero:businessNumber "IN27AAACP0003Z8"^^xsd:string ;
     aero:cageCode "1938A"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:dunsNumber "650256920"^^xsd:string ;
     aero:hasCapability aero:Cap_Paras_Defence_and_Space_Technologies_Limited_1,
         aero:Cap_Paras_Defence_and_Space_Technologies_Limited_2 ;
     aero:headquartersCity "Navi Mumbai"^^xsd:string ;
@@ -135,7 +131,6 @@ aero:Company_Tonbo_Imaging_India_Private_Limited a aero:Company,
     aero:businessNumber "IN29AAACT0002Z7"^^xsd:string ;
     aero:cageCode "1925A"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:dunsNumber "650245910"^^xsd:string ;
     aero:hasCapability aero:Cap_Tonbo_Imaging_India_Private_Limited_1,
         aero:Cap_Tonbo_Imaging_India_Private_Limited_2 ;
     aero:headquartersCity "Bengaluru"^^xsd:string ;
@@ -164,7 +159,6 @@ aero:Company_Zen_Technologies_Limited a aero:Company,
     aero:businessNumber "IN36AAACZ0004Z9"^^xsd:string ;
     aero:cageCode "1947A"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:dunsNumber "650267931"^^xsd:string ;
     aero:hasCapability aero:Cap_Zen_Technologies_Limited_1,
         aero:Cap_Zen_Technologies_Limited_2 ;
     aero:headquartersCity "Hyderabad"^^xsd:string ;
@@ -193,7 +187,6 @@ aero:Company_ideaForge_Technology_Limited a aero:Company,
     aero:businessNumber "IN27AAACI0005Z0"^^xsd:string ;
     aero:cageCode "1955A"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:dunsNumber "650278942"^^xsd:string ;
     aero:hasCapability aero:Cap_ideaForge_Technology_Limited_1,
         aero:Cap_ideaForge_Technology_Limited_2 ;
     aero:headquartersCity "Navi Mumbai"^^xsd:string ;
@@ -389,7 +382,6 @@ aero:Company_Dynamatic_Technologies_Limited a aero:Company,
     aero:businessNumber "IN29AAACD0001Z6"^^xsd:string ;
     aero:cageCode "1910A"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:dunsNumber "650234851"^^xsd:string ;
     aero:hasCapability aero:Cap_Dynamatic_Technologies_Limited_1,
         aero:Cap_Dynamatic_Technologies_Limited_2 ;
     aero:headquartersCity "Bengaluru"^^xsd:string ;
@@ -421,7 +413,6 @@ aero:Company_Tata_Advanced_Systems_Limited a aero:Company,
     aero:businessNumber "IN36AAACT0001Z3"^^xsd:string ;
     aero:cageCode "1850A"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:dunsNumber "650201948"^^xsd:string ;
     aero:hasCapability aero:Cap_Tata_Advanced_Systems_Limited_1,
         aero:Cap_Tata_Advanced_Systems_Limited_2,
         aero:Cap_Tata_Advanced_Systems_Limited_3 ;
@@ -1111,7 +1102,6 @@ aero:Company_Hindustan_Aeronautics_Limited a aero:Company,
     aero:businessNumber "IN29AAACH0001Z1"^^xsd:string ;
     aero:cageCode "1845A"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:dunsNumber "650192847"^^xsd:string ;
     aero:hasCapability aero:Cap_Hindustan_Aeronautics_Limited_1,
         aero:Cap_Hindustan_Aeronautics_Limited_2,
         aero:Cap_Hindustan_Aeronautics_Limited_3 ;

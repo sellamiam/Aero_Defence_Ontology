@@ -3,7 +3,7 @@
     "legal_name": "CEA Technologies Pty Ltd",
     "trade_name": "CEA Technologies",
     "cage_code": "Z0A12",
-    "duns_number": "753194012",
+    "duns_number": null,
     "business_number": "AU990086452",
     "country": "AUS",
     "city": "Canberra",
@@ -118,7 +118,7 @@
     "legal_name": "Electro Optic Systems Pty Ltd",
     "trade_name": "EOS Defence Systems",
     "cage_code": "Z0B44",
-    "duns_number": "758491028",
+    "duns_number": null,
     "business_number": "AU720928172",
     "country": "AUS",
     "city": "Symonston",
@@ -230,7 +230,7 @@
     "legal_name": "Austal Limited",
     "trade_name": "Austal",
     "cage_code": "Z0C81",
-    "duns_number": "759281741",
+    "duns_number": null,
     "business_number": "AU540092646",
     "country": "AUS",
     "city": "Henderson",
@@ -338,7 +338,7 @@
     "legal_name": "Quickstep Holdings Limited",
     "trade_name": "Quickstep Composites",
     "cage_code": "Z0D95",
-    "duns_number": "751092841",
+    "duns_number": null,
     "business_number": "AU550962681",
     "country": "AUS",
     "city": "Bankstown",
@@ -449,7 +449,7 @@
     "legal_name": "Ferra Engineering Pty Ltd",
     "trade_name": "Ferra Aerospace",
     "cage_code": "Z0E33",
-    "duns_number": "752948192",
+    "duns_number": null,
     "business_number": "AU340081928",
     "country": "AUS",
     "city": "Tingalpa",
@@ -559,7 +559,7 @@
     "legal_name": "DroneShield Limited",
     "trade_name": "DroneShield",
     "cage_code": "Z0I82",
-    "duns_number": "758192049",
+    "duns_number": null,
     "business_number": "AU266089132",
     "country": "AUS",
     "city": "Sydney",
@@ -669,7 +669,7 @@
     "legal_name": "BAE Systems Australia Limited",
     "trade_name": "BAE Systems Australia",
     "cage_code": "Z0K14",
-    "duns_number": "750491823",
+    "duns_number": null,
     "business_number": "AU450084230",
     "country": "AUS",
     "city": "Edinburgh Parks",
@@ -783,7 +783,7 @@
     "legal_name": "ASC Pty Ltd",
     "trade_name": "ASC",
     "cage_code": "Z0L25",
-    "duns_number": "750918274",
+    "duns_number": null,
     "business_number": "AU830086302",
     "country": "AUS",
     "city": "Osborne",
@@ -874,5 +874,260 @@
         "accreditation": "ISO 9001:2015"
       }
     ]
+  },
+  {
+    "business_number": "AU380928412",
+    "cage_code": "Z0N10",
+    "capabilities": [
+      {
+        "description": "Deep-draw forging, machining, explosive filling, and ballistic proofing of 155mm artillery shells and precision cannon ammunition.",
+        "kic": "KIC_MissilesAmmunition",
+        "mrl": 9,
+        "title": "Sovereign Medium- and Large-Calibre Guided Munitions Manufacturing & Lethality Systems",
+        "trl": 9
+      }
+    ],
+    "certifications": [
+      "ISO9001",
+      "DISP_Level3",
+      "NATO_AQAP2110"
+    ],
+    "city": "Brisbane",
+    "controlled_goods": true,
+    "country": "AUS",
+    "domains": [
+      "LandPlatform",
+      "DomainDefence"
+    ],
+    "duns_number": null,
+    "itar_compliant": true,
+    "kics": [
+      "KIC_MissilesAmmunition",
+      "KIC_AdvancedMaterials"
+    ],
+    "legal_name": "NIOA Group Pty Ltd",
+    "platforms": [
+      "Platform_GroundCombatVehicle"
+    ],
+    "products": [
+      {
+        "description": "Long-range base-bleed and rocket-assisted 155mm artillery ammunition meeting NATO Joint Ballistics Memorandum of Understanding standards.",
+        "fsc_code": "1320",
+        "materials": [
+          "Material_ArmourSteel_MIL_A_46100"
+        ],
+        "name": "155mm Assegai Artillery Projectiles and High-Explosive Forgings",
+        "nsn_code": "1320-66-160-8432",
+        "part_number": "PN-AUS-NIO-155MM",
+        "platforms": [
+          "Platform_GroundCombatVehicle"
+        ]
+      }
+    ],
+    "province": "QLD",
+    "services": [
+      {
+        "accreditation": "DISP Entry Level 3",
+        "description": "Live-fire pressure velocity measurement, high-speed radiographic projectile tracking, and propellant chemical stability testing.",
+        "name": "Munitions Proofing, Ballistic Range Testing & Demilitarization Services",
+        "type": "TestingQualificationService"
+      }
+    ],
+    "tier": "Tier1Supplier",
+    "trade_name": "NIOA",
+    "website": "https://www.nioa.com.au"
+  },
+  {
+    "business_number": "AU290046128",
+    "cage_code": "Z0M22",
+    "capabilities": [
+      {
+        "description": "High-tolerance titanium and high-tensile steel aerostructure machining, automated assembly tooling jigs, and global F-35 engine handling equipment.",
+        "kic": "KIC_AerospaceSystems",
+        "mrl": 9,
+        "title": "Flight-Critical 5-Axis Precision Aerospace Tooling and Structural Ground Support Equipment",
+        "trl": 9
+      }
+    ],
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "DISP_Level2"
+    ],
+    "city": "Moorabbin",
+    "controlled_goods": true,
+    "country": "AUS",
+    "domains": [
+      "AirPlatform",
+      "LandPlatform",
+      "DomainDefence"
+    ],
+    "duns_number": null,
+    "itar_compliant": true,
+    "kics": [
+      "KIC_AerospaceSystems",
+      "KIC_AdvancedMaterials"
+    ],
+    "legal_name": "Marand Precision Engineering Pty Ltd",
+    "platforms": [
+      "Platform_F35_Lightning_II"
+    ],
+    "products": [
+      {
+        "description": "Precision mechanical ground support trailer standard worldwide for removing and installing Pratt & Whitney F135 engines on F-35 fighters.",
+        "fsc_code": "1730",
+        "materials": [
+          "Material_Titanium_Ti6Al4V",
+          "Material_Aluminium_7075_T6"
+        ],
+        "name": "F-35 Lightning II Engine Removal and Installation Trailer (ER&IT)",
+        "nsn_code": "1730-01-582-7741",
+        "part_number": "PN-AUS-MRD-ERIT35",
+        "platforms": [
+          "Platform_F35_Lightning_II"
+        ]
+      }
+    ],
+    "province": "VIC",
+    "services": [
+      {
+        "accreditation": "AS9100D",
+        "description": "Laser tracker volumetric verification, finite element stress analysis for ground support rigs, and periodic proof loading.",
+        "name": "Aerospace Tooling Design, Calibration & Precision Mechanical CMM Inspection",
+        "type": "EngineeringService"
+      }
+    ],
+    "tier": "Tier2Supplier",
+    "trade_name": "Marand",
+    "website": "https://www.marand.com.au"
+  },
+  {
+    "business_number": "AU220982341",
+    "cage_code": "Z0B33",
+    "capabilities": [
+      {
+        "description": "Continuous quench-and-temper heat treatment of ultra-high hardness military ballistic protection steel plates for combat vehicles and submarines.",
+        "kic": "KIC_AdvancedMaterials",
+        "mrl": 9,
+        "title": "Quenched and Tempered High-Hardness Structural Armour Steel Plate Rolling and Testing",
+        "trl": 9
+      }
+    ],
+    "certifications": [
+      "ISO9001",
+      "ISO14001",
+      "DISP_Level2"
+    ],
+    "city": "Unanderra",
+    "controlled_goods": true,
+    "country": "AUS",
+    "domains": [
+      "LandPlatform",
+      "MaritimePlatform",
+      "DomainDefence"
+    ],
+    "duns_number": null,
+    "itar_compliant": true,
+    "kics": [
+      "KIC_AdvancedMaterials"
+    ],
+    "legal_name": "Bisalloy Steels Pty Ltd",
+    "platforms": [
+      "Platform_GroundCombatVehicle",
+      "Platform_SurfaceCombatant"
+    ],
+    "products": [
+      {
+        "description": "MIL-A-46100 and STANAG 4569 certified quench-and-tempered armor steel plate providing maximum blast and ballistic penetration resistance.",
+        "fsc_code": "9515",
+        "materials": [
+          "Material_ArmourSteel_MIL_A_46100"
+        ],
+        "name": "BISALLOY Armour High-Hardness Ballistic Protection Plate",
+        "nsn_code": "9515-66-158-7711",
+        "part_number": "PN-AUS-BIS-ARM500",
+        "platforms": [
+          "Platform_GroundCombatVehicle",
+          "Platform_SurfaceCombatant"
+        ]
+      }
+    ],
+    "province": "NSW",
+    "services": [
+      {
+        "accreditation": "NATA Accredited / ISO/IEC 17025",
+        "description": "Charpy V-notch low-temperature impact testing, hardness indentation profiling, and projectile V50 ballistic resistance certification.",
+        "name": "Ballistic V50 Armor Perforation Testing & Metallurgical Failure Analysis",
+        "type": "TestingQualificationService"
+      }
+    ],
+    "tier": "Tier2Supplier",
+    "trade_name": "Bisalloy",
+    "website": "https://www.bisalloy.com.au"
+  },
+  {
+    "business_number": "AU620038912",
+    "cage_code": "Z0T11",
+    "capabilities": [
+      {
+        "description": "Engineering and manufacture of plug-and-play digital AMLCD cockpit flight displays, vehicle crew commander targeting monitors, and mission system processors.",
+        "kic": "KIC_AvionicsOptronics",
+        "mrl": 9,
+        "title": "Cathode Ray Tube to Active Matrix LCD Military Avionics Retrofit and Targeting Sight Displays",
+        "trl": 9
+      }
+    ],
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "DISP_Level2"
+    ],
+    "city": "Silverwater",
+    "controlled_goods": true,
+    "country": "AUS",
+    "domains": [
+      "AirPlatform",
+      "LandPlatform",
+      "DomainDefence"
+    ],
+    "duns_number": null,
+    "itar_compliant": true,
+    "kics": [
+      "KIC_AvionicsOptronics",
+      "KIC_DefenceSystemsIntegration"
+    ],
+    "legal_name": "Thomas Global Systems Pty Ltd",
+    "platforms": [
+      "Platform_FixedWingTransport",
+      "Platform_GroundCombatVehicle"
+    ],
+    "products": [
+      {
+        "description": "Direct drop-in replacement LCD display upgrading legacy military transport cockpits without costly wiring or software changes.",
+        "fsc_code": "6610",
+        "materials": [
+          "Material_Aluminium_7075_T6"
+        ],
+        "name": "TFD-7000 High-Reliability AMLCD Flight Display Unit",
+        "nsn_code": "6610-66-159-2041",
+        "part_number": "PN-AUS-TGS-TFD7000",
+        "platforms": [
+          "Platform_FixedWingTransport",
+          "Platform_GroundCombatVehicle"
+        ]
+      }
+    ],
+    "province": "NSW",
+    "services": [
+      {
+        "accreditation": "AS9100D",
+        "description": "In-service display recalibration, optical bonding repair, and obsolescence redesign for mission-critical military electronics.",
+        "name": "Avionics Depot-Level Repair, Obsolescence Management & DO-254 Hardware Engineering",
+        "type": "MROService"
+      }
+    ],
+    "tier": "Tier1Supplier",
+    "trade_name": "Thomas Global Systems",
+    "website": "https://www.thomas-global.com"
   }
 ]

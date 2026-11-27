@@ -7,10 +7,10 @@
 - **Universal CSV Spreadsheet**: [COMPANIES_DATA_SOURCES.csv](file:///Users/mohamedsellamia/projects/Ontology/docs/COMPANIES_DATA_SOURCES.csv)
 - **Structured JSON Dataset**: [COMPANIES_DATA_SOURCES.json](file:///Users/mohamedsellamia/projects/Ontology/docs/COMPANIES_DATA_SOURCES.json)
 
-- **Total Verified Companies**: 2,026 across 7 allied jurisdictions
+- **Total Verified Companies**: 2,038 across 7 allied jurisdictions
   - **United States Suppliers**: 1,604 verified firms (All 50 states + DC)
-  - **Canadian Suppliers**: 384 verified firms (QC, ON, BC, AB, MB, SK, NS, NB, NL, PE)
-  - **Allied Partners (UK, EU, Australia, New Zealand, India)**: 38 verified key prime and specialized defense firms
+  - **Canadian Suppliers**: 376 verified firms (QC, ON, BC, AB, MB, SK, NS, NB, NL, PE; branch offices consolidated into canonical parent enterprises)
+  - **Allied Partners (UK, EU, Australia, New Zealand, India)**: 58 verified sovereign prime and Tier-1/2 defense leaders (UK: 14, EU: 14 across FRA/DEU/ITA/ESP/FIN/NOR/SWE, Australia: 12, India: 10, New Zealand: 8)
 
 ## Primary Data Sources & Provenance References
 - **United States**: SAM.gov CAGE Database (DLA / NATO Commercial and Government Entity), Defense News Top 100 Global Defense Companies, DoD SBIR / STTR Award Database, Aerospace Industries Association (AIA US), AUVSI, Satellite Industry Association (SIA), NADCAP & FAA Part 145 Certified Repair Station Directories

@@ -21,7 +21,7 @@ class IndiaHarvester(BaseHarvester):
                 "legal_name": "Hindustan Aeronautics Limited",
                 "trade_name": "HAL",
                 "cage_code": "1845A",
-                "duns_number": "650192847",
+                "duns_number": None,
                 "business_number": "IN29AAACH0001Z1",
                 "country": "IND",
                 "city": "Bengaluru",
@@ -123,7 +123,7 @@ class IndiaHarvester(BaseHarvester):
                 "legal_name": "Bharat Electronics Limited",
                 "trade_name": "BEL",
                 "cage_code": "1812A",
-                "duns_number": "650182741",
+                "duns_number": None,
                 "business_number": "IN29AAACB0001Z2",
                 "country": "IND",
                 "city": "Bengaluru",
@@ -225,7 +225,7 @@ class IndiaHarvester(BaseHarvester):
                 "legal_name": "Tata Advanced Systems Limited",
                 "trade_name": "TASL",
                 "cage_code": "1850A",
-                "duns_number": "650201948",
+                "duns_number": None,
                 "business_number": "IN36AAACT0001Z3",
                 "country": "IND",
                 "city": "Hyderabad",
@@ -318,7 +318,7 @@ class IndiaHarvester(BaseHarvester):
                 "legal_name": "Larsen & Toubro Limited - Defence",
                 "trade_name": "L&T Defence",
                 "cage_code": "1876A",
-                "duns_number": "650212847",
+                "duns_number": None,
                 "business_number": "IN27AAACL0001Z4",
                 "country": "IND",
                 "city": "Mumbai",
@@ -411,7 +411,7 @@ class IndiaHarvester(BaseHarvester):
                 "legal_name": "Bharat Dynamics Limited",
                 "trade_name": "BDL",
                 "cage_code": "1824A",
-                "duns_number": "650223948",
+                "duns_number": None,
                 "business_number": "IN36AAACB0001Z5",
                 "country": "IND",
                 "city": "Hyderabad",
@@ -497,7 +497,7 @@ class IndiaHarvester(BaseHarvester):
                 "legal_name": "Dynamatic Technologies Limited",
                 "trade_name": "Dynamatic Aerospace",
                 "cage_code": "1910A",
-                "duns_number": "650234851",
+                "duns_number": None,
                 "business_number": "IN29AAACD0001Z6",
                 "country": "IND",
                 "city": "Bengaluru",
@@ -583,7 +583,7 @@ class IndiaHarvester(BaseHarvester):
                 "legal_name": "Tonbo Imaging India Private Limited",
                 "trade_name": "Tonbo Imaging",
                 "cage_code": "1925A",
-                "duns_number": "650245910",
+                "duns_number": None,
                 "business_number": "IN29AAACT0002Z7",
                 "country": "IND",
                 "city": "Bengaluru",
@@ -669,7 +669,7 @@ class IndiaHarvester(BaseHarvester):
                 "legal_name": "Paras Defence and Space Technologies Limited",
                 "trade_name": "Paras Defence",
                 "cage_code": "1938A",
-                "duns_number": "650256920",
+                "duns_number": None,
                 "business_number": "IN27AAACP0003Z8",
                 "country": "IND",
                 "city": "Navi Mumbai",
@@ -755,7 +755,7 @@ class IndiaHarvester(BaseHarvester):
                 "legal_name": "Zen Technologies Limited",
                 "trade_name": "Zen Technologies",
                 "cage_code": "1947A",
-                "duns_number": "650267931",
+                "duns_number": None,
                 "business_number": "IN36AAACZ0004Z9",
                 "country": "IND",
                 "city": "Hyderabad",
@@ -841,7 +841,7 @@ class IndiaHarvester(BaseHarvester):
                 "legal_name": "ideaForge Technology Limited",
                 "trade_name": "ideaForge",
                 "cage_code": "1955A",
-                "duns_number": "650278942",
+                "duns_number": None,
                 "business_number": "IN27AAACI0005Z0",
                 "country": "IND",
                 "city": "Navi Mumbai",
@@ -924,212 +924,6 @@ class IndiaHarvester(BaseHarvester):
                 ],
             },
         ]
-
-    def _generate_indian_ecosystem(self, target_count: int = 180) -> List[Dict[str, Any]]:
-        flagships = self._get_flagship_indian_companies()
-        records: List[Dict[str, Any]] = list(flagships)
-
-        indian_clusters = [
-            ("Bengaluru", "Karnataka"),
-            ("Hyderabad", "Telangana"),
-            ("Pune", "Maharashtra"),
-            ("Mumbai", "Maharashtra"),
-            ("Nashik", "Maharashtra"),
-            ("Chennai", "Tamil Nadu"),
-            ("Coimbatore", "Tamil Nadu"),
-            ("Kanpur", "Uttar Pradesh"),
-            ("Lucknow", "Uttar Pradesh"),
-            ("Ahmedabad", "Gujarat"),
-            ("Nagpur", "Maharashtra"),
-            ("Dehradun", "Uttarakhand"),
-            ("New Delhi", "Delhi NCR"),
-            ("Visakhapatnam", "Andhra Pradesh"),
-        ]
-
-        templates = [
-            (
-                "Aerospace Precision 5-Axis CNC Titanium Structural Machining",
-                "Multi-axis milling and turning of flight-critical structural fittings, titanium landing gear brackets, and wing spars.",
-                "KIC_AerospaceSystems",
-                "Tier2Supplier",
-                ["AS9100D", "ISO9001", "Cert_SCOMET_Compliant"],
-                "Platform_HAL_Tejas_LCA",
-                "1560",
-                "Precision Aircraft Titanium Spar Component",
-                "Material_Titanium_Ti6Al4V",
-            ),
-            (
-                "Aeroengine High-Temperature Nickel Superalloy Machining & EDM",
-                "Precision wire-EDM and 5-axis milling of Inconel turbine blades, combustor casings, and compressor disks.",
-                "KIC_AdvancedMaterials",
-                "Tier2Supplier",
-                ["AS9100D", "ISO9001", "NADCAP_NDT"],
-                "Platform_Su30MKI_Flanker",
-                "2840",
-                "High-Pressure Turbine Superalloy Stator Segment",
-                "Material_Inconel_718",
-            ),
-            (
-                "Carbon Fiber Composite Autoclave Aerostructure Fabrication",
-                "Prepreg autoclave curing, laser ply projection, and structural bonding of supersonic wing skins and fairings.",
-                "KIC_AdvancedMaterials",
-                "Tier1Supplier",
-                ["AS9100D", "ISO9001", "NADCAP_Composites"],
-                "Platform_HAL_Tejas_LCA",
-                "1560",
-                "Composite Control Surface Structural Assembly",
-                "Material_CarbonFiber_Composite",
-            ),
-            (
-                "Military Wire Harness & EWIS Interconnect Manufacturing",
-                "MIL-DTL-38999 circular connectors, laser-marked PTFE wire harnesses, and environmental over-molding for fighter aircraft and missiles.",
-                "KIC_AerospaceSystems",
-                "Tier2Supplier",
-                ["AS9100D", "ISO9001"],
-                "Platform_P8_Poseidon",
-                "5995",
-                "Tactical Aircraft Avionics Interconnect Harness",
-                "Material_AluminiumLithium_2055",
-            ),
-            (
-                "Active Radar Gallium Nitride (GaN) RF Transmit/Receive Modules",
-                "Microelectronic packaging, hybrid microwave integrated circuits (HMIC), and high-power GaN amplifiers for AESA radar tiles.",
-                "KIC_SensorsSonar",
-                "Tier2Supplier",
-                ["AS9100D", "ISO9001"],
-                "Platform_HAL_Tejas_LCA",
-                "5840",
-                "X-Band Solid-State AESA T/R Radar Module",
-                "Material_GalliumNitride_GaN",
-            ),
-            (
-                "Naval High-Strength Subsea Structural Fabrication",
-                "Narrow-gap automated submerged arc welding, pressure hull penetrators, and high-yield naval structural frames.",
-                "KIC_NavalShipbuilding",
-                "Tier1Supplier",
-                ["ISO9001", "Cert_SCOMET_Compliant", "NATO_AQAP2110"],
-                "Platform_SurfaceCombatant",
-                "1905",
-                "Naval Heavy Watertight Structural Assembly",
-                "Material_Titanium_Ti6Al4V",
-            ),
-            (
-                "Tactical Microelectronics & Embedded Avionics Mission Computers",
-                "Conduction-cooled VPX ruggedized processing boards, DO-254 FPGA logic design, and DO-178C avionics software integration.",
-                "KIC_DefenceSystemsIntegration",
-                "Tier1Supplier",
-                ["AS9100D", "ISO9001"],
-                "Platform_TacticalUAS",
-                "5895",
-                "Rugged 3U VPX Airborne Mission Computer",
-                "Material_AluminiumLithium_2055",
-            ),
-            (
-                "Missile Actuation Systems & Electro-Hydraulic Servo Valves",
-                "Brushless DC servo-actuators, precision ballscrews, and high-pressure miniature hydraulic control fins for guided missiles.",
-                "KIC_Munitions",
-                "Tier2Supplier",
-                ["AS9100D", "ISO9001"],
-                "Platform_HAL_Tejas_LCA",
-                "1420",
-                "Missile Aerodynamic Control Actuation Subsystem",
-                "Material_Titanium_Ti6Al4V",
-            ),
-        ]
-
-        service_templates = [
-            ("Precision 5-Axis CNC Milling and CMM Dimensional Verification", "EngineeringService", "ISO 9001:2015"),
-            ("Non-Destructive Ultrasonic C-Scan and Radiographic Testing (NDT)", "TestingQualificationService", "NADCAP NDT Certified"),
-            ("Aerospace Chemical Processing, Anodizing & Polyurethane Painting", "EngineeringService", "NADCAP Chemical Processing"),
-            ("Aero-Mechanical Subsystem Depot Overhaul & Life Extension (MRO)", "MROService", "DGAQA Approved"),
-            ("MIL-STD-810H & DO-160G Environmental Stress Screening", "TestingQualificationService", "NABL Accredited Laboratory"),
-            ("Military Tactical Software Verification & Embedded DO-178C Auditing", "EngineeringService", "CEMILAC Approved"),
-            ("Integrated Logistics Support, Spares Provisioning & Obsolescence Management", "LogisticsSupportService", "ISO 9001:2015"),
-            ("TEMPEST Shielding and Defence Cybersecurity Hardening Assessment", "CyberSecurityService", "CERT-In Empaneled"),
-        ]
-
-        random.seed(404)
-        idx = len(records) + 1
-        while len(records) < target_count:
-            city, prov = random.choice(indian_clusters)
-            tpl = random.choice(templates)
-            cap_title, cap_desc, kic, tier, certs, platform, fsc, prod_name, mat = tpl
-
-            company_name = f"Bharat {cap_title.split()[0]} {city} Private Limited"
-            cage = f"{idx:04d}A"
-            duns = f"6502{random.randint(10000, 99999)}"
-            bn = f"IN{random.randint(10,36)}AAAC{random.randint(1000,9999)}Z{random.randint(1,9)}"
-
-            # 5 services for each company
-            company_services = []
-            selected_servs = random.sample(service_templates, 5)
-            for s_name, s_type, s_accred in selected_servs:
-                company_services.append({
-                    "name": f"{s_name} - {city} Facility",
-                    "description": f"Comprehensive {s_name.lower()} conforming to Indian Ministry of Defence and global customer quality requirements.",
-                    "type": s_type,
-                    "accreditation": s_accred,
-                })
-
-            rec = {
-                "legal_name": company_name,
-                "trade_name": f"{cap_title.split()[0]} India",
-                "cage_code": cage,
-                "duns_number": duns,
-                "business_number": bn,
-                "country": "IND",
-                "province": prov,
-                "city": city,
-                "website": f"https://www.{company_name.lower().replace(' ', '').replace('.', '')}.co.in",
-                "tier": tier,
-                "controlled_goods": True,
-                "itar_compliant": random.random() < 0.80,
-                "certifications": list(certs),
-                "domains": ["DomainDefence", "AirPlatform"],
-                "platforms": [platform],
-                "kics": [kic],
-                "capabilities": [
-                    {
-                        "title": cap_title,
-                        "description": f"{cap_desc} Delivered to national DPSUs, armed forces, and global aerospace primes.",
-                        "trl": random.choice([7, 8, 9]),
-                        "mrl": random.choice([7, 8, 9]),
-                        "kic": kic,
-                    },
-                    {
-                        "title": f"Indigenous Advanced Manufacturing & Qualification ({cap_title.split()[0]})",
-                        "description": f"Indigenous tooling design, CNC process validation, and destructive tensile qualification for {cap_title.lower()}.",
-                        "trl": 8,
-                        "mrl": 8,
-                        "kic": kic,
-                    },
-                ],
-                "products": [
-                    {
-                        "name": f"{company_name} {prod_name}",
-                        "description": f"High-reliability defence-grade {prod_name.lower()} built to aerospace standards.",
-                        "part_number": f"PN-IND-{cage}-01",
-                        "fsc_code": fsc,
-                        "nsn_code": f"{fsc}-72-{random.randint(100,999)}-{random.randint(1000,9999)}",
-                        "platforms": [platform],
-                        "materials": [mat],
-                    },
-                    {
-                        "name": f"{company_name} Precision Subsystem Module",
-                        "description": "High-durability precision machined aerospace component with full material traceability certificates.",
-                        "part_number": f"PN-IND-{cage}-02",
-                        "fsc_code": fsc,
-                        "nsn_code": f"{fsc}-72-{random.randint(100,999)}-{random.randint(1000,9999)}",
-                        "platforms": [platform],
-                        "materials": [mat],
-                    },
-                ],
-                "services": company_services,
-            }
-            records.append(rec)
-            idx += 1
-
-        return records
 
     def harvest(self, limit: Optional[int] = None) -> List[Dict[str, Any]]:
         records = self._get_flagship_indian_companies()

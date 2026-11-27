@@ -7,7 +7,6 @@ aero:Company_ASC_Pty_Ltd a aero:Company,
     aero:businessNumber "AU830086302"^^xsd:string ;
     aero:cageCode "Z0L25"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:dunsNumber "750918274"^^xsd:string ;
     aero:hasCapability aero:Cap_ASC_Pty_Ltd_1,
         aero:Cap_ASC_Pty_Ltd_2 ;
     aero:headquartersCity "Osborne"^^xsd:string ;
@@ -35,7 +34,6 @@ aero:Company_Austal_Limited a aero:Company,
     aero:businessNumber "AU540092646"^^xsd:string ;
     aero:cageCode "Z0C81"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:dunsNumber "759281741"^^xsd:string ;
     aero:hasCapability aero:Cap_Austal_Limited_1,
         aero:Cap_Austal_Limited_2 ;
     aero:headquartersCity "Henderson"^^xsd:string ;
@@ -59,12 +57,33 @@ aero:Company_Austal_Limited a aero:Company,
     aero:tradeName "Austal"^^xsd:string ;
     aero:website "https://www.austal.com"^^xsd:anyURI .
 
+aero:Company_Bisalloy_Steels_Pty_Ltd a aero:Company,
+        aero:Tier2Supplier ;
+    aero:businessNumber "AU220982341"^^xsd:string ;
+    aero:cageCode "Z0B33"^^xsd:string ;
+    aero:controlledGoodsRegistered true ;
+    aero:hasCapability aero:Cap_Bisalloy_Steels_Pty_Ltd_1 ;
+    aero:headquartersCity "Unanderra"^^xsd:string ;
+    aero:headquartersCountry "AUS"^^xsd:string ;
+    aero:headquartersProvince "NSW"^^xsd:string ;
+    aero:holdsCertification aero:Cert_DISP_Level2,
+        aero:Cert_ISO14001,
+        aero:Cert_ISO9001 ;
+    aero:itarCompliant true ;
+    aero:legalName "Bisalloy Steels Pty Ltd"^^xsd:string ;
+    aero:manufacturesProduct aero:Product_Bisalloy_Steels_Pty_Ltd_BISALLOY_Armour_High_Hardness_Ballistic_Protection_Plate ;
+    aero:operatesInDomain aero:DomainDefence,
+        aero:LandPlatform,
+        aero:MaritimePlatform ;
+    aero:providesService aero:Service_Bisalloy_Steels_Pty_Ltd_Ballistic_V50_Armor_Perforation_Testing_Metallurgical_Failure_Analysis ;
+    aero:tradeName "Bisalloy"^^xsd:string ;
+    aero:website "https://www.bisalloy.com.au"^^xsd:anyURI .
+
 aero:Company_DroneShield_Limited a aero:Company,
         aero:Tier1Supplier ;
     aero:businessNumber "AU266089132"^^xsd:string ;
     aero:cageCode "Z0I82"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:dunsNumber "758192049"^^xsd:string ;
     aero:hasCapability aero:Cap_DroneShield_Limited_1,
         aero:Cap_DroneShield_Limited_2 ;
     aero:headquartersCity "Sydney"^^xsd:string ;
@@ -92,7 +111,6 @@ aero:Company_Electro_Optic_Systems_Pty_Ltd a aero:Company,
     aero:businessNumber "AU720928172"^^xsd:string ;
     aero:cageCode "Z0B44"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:dunsNumber "758491028"^^xsd:string ;
     aero:hasCapability aero:Cap_Electro_Optic_Systems_Pty_Ltd_1,
         aero:Cap_Electro_Optic_Systems_Pty_Ltd_2 ;
     aero:headquartersCity "Symonston"^^xsd:string ;
@@ -116,6 +134,71 @@ aero:Company_Electro_Optic_Systems_Pty_Ltd a aero:Company,
         aero:Service_Electro_Optic_Systems_Pty_Ltd_Space_Situational_Awareness_Orbital_Telemetry_Services ;
     aero:tradeName "EOS Defence Systems"^^xsd:string ;
     aero:website "https://www.eos-aus.com"^^xsd:anyURI .
+
+aero:Company_Marand_Precision_Engineering_Pty_Ltd a aero:Company,
+        aero:Tier2Supplier ;
+    aero:businessNumber "AU290046128"^^xsd:string ;
+    aero:cageCode "Z0M22"^^xsd:string ;
+    aero:controlledGoodsRegistered true ;
+    aero:hasCapability aero:Cap_Marand_Precision_Engineering_Pty_Ltd_1 ;
+    aero:headquartersCity "Moorabbin"^^xsd:string ;
+    aero:headquartersCountry "AUS"^^xsd:string ;
+    aero:headquartersProvince "VIC"^^xsd:string ;
+    aero:holdsCertification aero:Cert_AS9100D,
+        aero:Cert_DISP_Level2,
+        aero:Cert_ISO9001 ;
+    aero:itarCompliant true ;
+    aero:legalName "Marand Precision Engineering Pty Ltd"^^xsd:string ;
+    aero:manufacturesProduct aero:Product_Marand_Precision_Engineering_Pty_Ltd_F_35_Lightning_II_Engine_Removal_and_Installation_Trailer_ERIT ;
+    aero:operatesInDomain aero:AirPlatform,
+        aero:DomainDefence,
+        aero:LandPlatform ;
+    aero:providesService aero:Service_Marand_Precision_Engineering_Pty_Ltd_Aerospace_Tooling_Design_Calibration_Precision_Mechanical_CMM_Inspection ;
+    aero:tradeName "Marand"^^xsd:string ;
+    aero:website "https://www.marand.com.au"^^xsd:anyURI .
+
+aero:Company_NIOA_Group_Pty_Ltd a aero:Company,
+        aero:Tier1Supplier ;
+    aero:businessNumber "AU380928412"^^xsd:string ;
+    aero:cageCode "Z0N10"^^xsd:string ;
+    aero:controlledGoodsRegistered true ;
+    aero:hasCapability aero:Cap_NIOA_Group_Pty_Ltd_1 ;
+    aero:headquartersCity "Brisbane"^^xsd:string ;
+    aero:headquartersCountry "AUS"^^xsd:string ;
+    aero:headquartersProvince "QLD"^^xsd:string ;
+    aero:holdsCertification aero:Cert_DISP_Level3,
+        aero:Cert_ISO9001,
+        aero:Cert_NATO_AQAP2110 ;
+    aero:itarCompliant true ;
+    aero:legalName "NIOA Group Pty Ltd"^^xsd:string ;
+    aero:manufacturesProduct aero:Product_NIOA_Group_Pty_Ltd_155mm_Assegai_Artillery_Projectiles_and_High_Explosive_Forgings ;
+    aero:operatesInDomain aero:DomainDefence,
+        aero:LandPlatform ;
+    aero:providesService aero:Service_NIOA_Group_Pty_Ltd_Munitions_Proofing_Ballistic_Range_Testing_Demilitarization_Services ;
+    aero:tradeName "NIOA"^^xsd:string ;
+    aero:website "https://www.nioa.com.au"^^xsd:anyURI .
+
+aero:Company_Thomas_Global_Systems_Pty_Ltd a aero:Company,
+        aero:Tier1Supplier ;
+    aero:businessNumber "AU620038912"^^xsd:string ;
+    aero:cageCode "Z0T11"^^xsd:string ;
+    aero:controlledGoodsRegistered true ;
+    aero:hasCapability aero:Cap_Thomas_Global_Systems_Pty_Ltd_1 ;
+    aero:headquartersCity "Silverwater"^^xsd:string ;
+    aero:headquartersCountry "AUS"^^xsd:string ;
+    aero:headquartersProvince "NSW"^^xsd:string ;
+    aero:holdsCertification aero:Cert_AS9100D,
+        aero:Cert_DISP_Level2,
+        aero:Cert_ISO9001 ;
+    aero:itarCompliant true ;
+    aero:legalName "Thomas Global Systems Pty Ltd"^^xsd:string ;
+    aero:manufacturesProduct aero:Product_Thomas_Global_Systems_Pty_Ltd_TFD_7000_High_Reliability_AMLCD_Flight_Display_Unit ;
+    aero:operatesInDomain aero:AirPlatform,
+        aero:DomainDefence,
+        aero:LandPlatform ;
+    aero:providesService aero:Service_Thomas_Global_Systems_Pty_Ltd_Avionics_Depot_Level_Repair_Obsolescence_Management_DO_254_Hardware_Engineering ;
+    aero:tradeName "Thomas Global Systems"^^xsd:string ;
+    aero:website "https://www.thomas-global.com"^^xsd:anyURI .
 
 aero:Cap_ASC_Pty_Ltd_1 a aero:Capability ;
     rdfs:label "Submarine Full-Cycle Docking (FCD) and Deep Maintenance"^^xsd:string ;
@@ -158,6 +241,13 @@ aero:Cap_BAE_Systems_Australia_Limited_2 a aero:Capability ;
     aero:capabilityDescription "Australian-designed autonomous loyal wingman uncrewed combat aircraft payload integration and structural subassemblies."^^xsd:string ;
     aero:mrlValue 8 ;
     aero:trlValue 8 .
+
+aero:Cap_Bisalloy_Steels_Pty_Ltd_1 a aero:Capability ;
+    rdfs:label "Quenched and Tempered High-Hardness Structural Armour Steel Plate Rolling and Testing"^^xsd:string ;
+    aero:alignedWithKIC aero:KIC_AdvancedMaterials ;
+    aero:capabilityDescription "Continuous quench-and-temper heat treatment of ultra-high hardness military ballistic protection steel plates for combat vehicles and submarines."^^xsd:string ;
+    aero:mrlValue 9 ;
+    aero:trlValue 9 .
 
 aero:Cap_CEA_Technologies_Pty_Ltd_1 a aero:Capability ;
     rdfs:label "Active Electronically Scanned Array (AESA) Digital Phased Array Radar Systems"^^xsd:string ;
@@ -215,6 +305,20 @@ aero:Cap_Ferra_Engineering_Pty_Ltd_2 a aero:Capability ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
+aero:Cap_Marand_Precision_Engineering_Pty_Ltd_1 a aero:Capability ;
+    rdfs:label "Flight-Critical 5-Axis Precision Aerospace Tooling and Structural Ground Support Equipment"^^xsd:string ;
+    aero:alignedWithKIC aero:KIC_AerospaceSystems ;
+    aero:capabilityDescription "High-tolerance titanium and high-tensile steel aerostructure machining, automated assembly tooling jigs, and global F-35 engine handling equipment."^^xsd:string ;
+    aero:mrlValue 9 ;
+    aero:trlValue 9 .
+
+aero:Cap_NIOA_Group_Pty_Ltd_1 a aero:Capability ;
+    rdfs:label "Sovereign Medium- and Large-Calibre Guided Munitions Manufacturing & Lethality Systems"^^xsd:string ;
+    aero:alignedWithKIC aero:KIC_MissilesAmmunition ;
+    aero:capabilityDescription "Deep-draw forging, machining, explosive filling, and ballistic proofing of 155mm artillery shells and precision cannon ammunition."^^xsd:string ;
+    aero:mrlValue 9 ;
+    aero:trlValue 9 .
+
 aero:Cap_Quickstep_Holdings_Limited_1 a aero:Capability ;
     rdfs:label "Advanced Carbon-Fiber Composite Aerostructure Autoclave Manufacturing"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_AdvancedMaterials ;
@@ -229,6 +333,13 @@ aero:Cap_Quickstep_Holdings_Limited_2 a aero:Capability ;
     aero:mrlValue 8 ;
     aero:trlValue 8 .
 
+aero:Cap_Thomas_Global_Systems_Pty_Ltd_1 a aero:Capability ;
+    rdfs:label "Cathode Ray Tube to Active Matrix LCD Military Avionics Retrofit and Targeting Sight Displays"^^xsd:string ;
+    aero:alignedWithKIC aero:KIC_AvionicsOptronics ;
+    aero:capabilityDescription "Engineering and manufacture of plug-and-play digital AMLCD cockpit flight displays, vehicle crew commander targeting monitors, and mission system processors."^^xsd:string ;
+    aero:mrlValue 9 ;
+    aero:trlValue 9 .
+
 aero:Company_BAE_Systems_plc a aero:Company ;
     aero:hasDirectSupplier aero:Company_Quickstep_Holdings_Limited ;
     aero:headquartersCountry "GBR"^^xsd:string ;
@@ -239,7 +350,6 @@ aero:Company_CEA_Technologies_Pty_Ltd a aero:Company,
     aero:businessNumber "AU990086452"^^xsd:string ;
     aero:cageCode "Z0A12"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:dunsNumber "753194012"^^xsd:string ;
     aero:hasCapability aero:Cap_CEA_Technologies_Pty_Ltd_1,
         aero:Cap_CEA_Technologies_Pty_Ltd_2 ;
     aero:headquartersCity "Canberra"^^xsd:string ;
@@ -272,7 +382,6 @@ aero:Company_Ferra_Engineering_Pty_Ltd a aero:Company,
     aero:businessNumber "AU340081928"^^xsd:string ;
     aero:cageCode "Z0E33"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:dunsNumber "752948192"^^xsd:string ;
     aero:hasCapability aero:Cap_Ferra_Engineering_Pty_Ltd_1,
         aero:Cap_Ferra_Engineering_Pty_Ltd_2 ;
     aero:headquartersCity "Tingalpa"^^xsd:string ;
@@ -343,6 +452,16 @@ aero:Product_BAE_Systems_Australia_Limited_Nulka_Active_Missile_Decoy_System a a
     aero:nsnCode "1420-66-910-1846"^^xsd:string ;
     aero:partNumber "PN-AUS-BAE-NLK01"^^xsd:string ;
     aero:productDescription "Rocket-propelled active expendable off-board decoy neutralizing anti-ship cruise missiles."^^xsd:string .
+
+aero:Product_Bisalloy_Steels_Pty_Ltd_BISALLOY_Armour_High_Hardness_Ballistic_Protection_Plate a aero:Product ;
+    rdfs:label "BISALLOY Armour High-Hardness Ballistic Protection Plate"^^xsd:string ;
+    aero:dependsOnMaterial aero:Material_ArmourSteel_MIL_A_46100 ;
+    aero:deployedOnPlatform aero:Platform_GroundCombatVehicle,
+        aero:Platform_SurfaceCombatant ;
+    aero:fscCode "9515"^^xsd:string ;
+    aero:nsnCode "9515-66-158-7711"^^xsd:string ;
+    aero:partNumber "PN-AUS-BIS-ARM500"^^xsd:string ;
+    aero:productDescription "MIL-A-46100 and STANAG 4569 certified quench-and-tempered armor steel plate providing maximum blast and ballistic penetration resistance."^^xsd:string .
 
 aero:Product_CEA_Technologies_Pty_Ltd_CEAFAR_3D_Active_Phased_Array_Radar a aero:Product ;
     rdfs:label "CEAFAR 3D Active Phased Array Radar"^^xsd:string ;
@@ -420,6 +539,25 @@ aero:Product_Ferra_Engineering_Pty_Ltd_F_35_Weapons_Bay_Mechanical_Actuation_Mec
     aero:partNumber "PN-AUS-FRA-WB01"^^xsd:string ;
     aero:productDescription "Titanium machined internal weapon bay door pivot fittings and actuation linkages."^^xsd:string .
 
+aero:Product_Marand_Precision_Engineering_Pty_Ltd_F_35_Lightning_II_Engine_Removal_and_Installation_Trailer_ERIT a aero:Product ;
+    rdfs:label "F-35 Lightning II Engine Removal and Installation Trailer (ER&IT)"^^xsd:string ;
+    aero:dependsOnMaterial aero:Material_Aluminium_7075_T6,
+        aero:Material_Titanium_Ti6Al4V ;
+    aero:deployedOnPlatform aero:Platform_F35_Lightning_II ;
+    aero:fscCode "1730"^^xsd:string ;
+    aero:nsnCode "1730-01-582-7741"^^xsd:string ;
+    aero:partNumber "PN-AUS-MRD-ERIT35"^^xsd:string ;
+    aero:productDescription "Precision mechanical ground support trailer standard worldwide for removing and installing Pratt & Whitney F135 engines on F-35 fighters."^^xsd:string .
+
+aero:Product_NIOA_Group_Pty_Ltd_155mm_Assegai_Artillery_Projectiles_and_High_Explosive_Forgings a aero:Product ;
+    rdfs:label "155mm Assegai Artillery Projectiles and High-Explosive Forgings"^^xsd:string ;
+    aero:dependsOnMaterial aero:Material_ArmourSteel_MIL_A_46100 ;
+    aero:deployedOnPlatform aero:Platform_GroundCombatVehicle ;
+    aero:fscCode "1320"^^xsd:string ;
+    aero:nsnCode "1320-66-160-8432"^^xsd:string ;
+    aero:partNumber "PN-AUS-NIO-155MM"^^xsd:string ;
+    aero:productDescription "Long-range base-bleed and rocket-assisted 155mm artillery ammunition meeting NATO Joint Ballistics Memorandum of Understanding standards."^^xsd:string .
+
 aero:Product_Quickstep_Holdings_Limited_C_130J_Hercules_Composite_Wing_Flaps a aero:Product ;
     rdfs:label "C-130J Hercules Composite Wing Flaps"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_CarbonFiber_Composite ;
@@ -438,6 +576,16 @@ aero:Product_Quickstep_Holdings_Limited_F_35_Lightning_II_Carbon_Fiber_Vertical_
     aero:nsnCode "1560-66-419-1029"^^xsd:string ;
     aero:partNumber "PN-AUS-QCK-F35VT"^^xsd:string ;
     aero:productDescription "Composite structural vertical tail box assemblies manufactured to low-observable stealth tolerances."^^xsd:string .
+
+aero:Product_Thomas_Global_Systems_Pty_Ltd_TFD_7000_High_Reliability_AMLCD_Flight_Display_Unit a aero:Product ;
+    rdfs:label "TFD-7000 High-Reliability AMLCD Flight Display Unit"^^xsd:string ;
+    aero:dependsOnMaterial aero:Material_Aluminium_7075_T6 ;
+    aero:deployedOnPlatform aero:Platform_FixedWingTransport,
+        aero:Platform_GroundCombatVehicle ;
+    aero:fscCode "6610"^^xsd:string ;
+    aero:nsnCode "6610-66-159-2041"^^xsd:string ;
+    aero:partNumber "PN-AUS-TGS-TFD7000"^^xsd:string ;
+    aero:productDescription "Direct drop-in replacement LCD display upgrading legacy military transport cockpits without costly wiring or software changes."^^xsd:string .
 
 aero:Service_ASC_Pty_Ltd_247_Submarine_Operational_Fleet_In_Service_Maintenance_Support a aero:LogisticsSupportService,
         aero:Service ;
@@ -558,6 +706,14 @@ aero:Service_BAE_Systems_Australia_Limited_Warship_Combat_System_Integration_and
     aero:supportsPlatform aero:Platform_F35_Lightning_II,
         aero:Platform_HunterClass_Frigate,
         aero:Platform_MQ28_GhostBat .
+
+aero:Service_Bisalloy_Steels_Pty_Ltd_Ballistic_V50_Armor_Perforation_Testing_Metallurgical_Failure_Analysis a aero:Service,
+        aero:TestingQualificationService ;
+    rdfs:label "Ballistic V50 Armor Perforation Testing & Metallurgical Failure Analysis"^^xsd:string ;
+    aero:serviceAccreditation "NATA Accredited / ISO/IEC 17025"^^xsd:string ;
+    aero:serviceDescription "Charpy V-notch low-temperature impact testing, hardness indentation profiling, and projectile V50 ballistic resistance certification."^^xsd:string ;
+    aero:supportsPlatform aero:Platform_GroundCombatVehicle,
+        aero:Platform_SurfaceCombatant .
 
 aero:Service_CEA_Technologies_Pty_Ltd_AESA_TransmitReceive_Module_Microelectronic_Rework a aero:MROService,
         aero:Service ;
@@ -739,6 +895,20 @@ aero:Service_Ferra_Engineering_Pty_Ltd_Vendor_Managed_Inventory_VMI_Spares_Provi
         aero:Platform_FixedWingCombat,
         aero:Platform_P8_Poseidon .
 
+aero:Service_Marand_Precision_Engineering_Pty_Ltd_Aerospace_Tooling_Design_Calibration_Precision_Mechanical_CMM_Inspection a aero:EngineeringService,
+        aero:Service ;
+    rdfs:label "Aerospace Tooling Design, Calibration & Precision Mechanical CMM Inspection"^^xsd:string ;
+    aero:serviceAccreditation "AS9100D"^^xsd:string ;
+    aero:serviceDescription "Laser tracker volumetric verification, finite element stress analysis for ground support rigs, and periodic proof loading."^^xsd:string ;
+    aero:supportsPlatform aero:Platform_F35_Lightning_II .
+
+aero:Service_NIOA_Group_Pty_Ltd_Munitions_Proofing_Ballistic_Range_Testing_Demilitarization_Services a aero:Service,
+        aero:TestingQualificationService ;
+    rdfs:label "Munitions Proofing, Ballistic Range Testing & Demilitarization Services"^^xsd:string ;
+    aero:serviceAccreditation "DISP Entry Level 3"^^xsd:string ;
+    aero:serviceDescription "Live-fire pressure velocity measurement, high-speed radiographic projectile tracking, and propellant chemical stability testing."^^xsd:string ;
+    aero:supportsPlatform aero:Platform_GroundCombatVehicle .
+
 aero:Service_Quickstep_Holdings_Limited_Aerospace_Composite_Repair_Non_Destructive_Testing_NDT a aero:MROService,
         aero:Service ;
     rdfs:label "Aerospace Composite Repair & Non-Destructive Testing (NDT)"^^xsd:string ;
@@ -784,12 +954,19 @@ aero:Service_Quickstep_Holdings_Limited_Stealth_Surface_Radar_Absorbent_Material
         aero:Platform_F35_Lightning_II,
         aero:Platform_MQ28_GhostBat .
 
+aero:Service_Thomas_Global_Systems_Pty_Ltd_Avionics_Depot_Level_Repair_Obsolescence_Management_DO_254_Hardware_Engineering a aero:MROService,
+        aero:Service ;
+    rdfs:label "Avionics Depot-Level Repair, Obsolescence Management & DO-254 Hardware Engineering"^^xsd:string ;
+    aero:serviceAccreditation "AS9100D"^^xsd:string ;
+    aero:serviceDescription "In-service display recalibration, optical bonding repair, and obsolescence redesign for mission-critical military electronics."^^xsd:string ;
+    aero:supportsPlatform aero:Platform_FixedWingTransport,
+        aero:Platform_GroundCombatVehicle .
+
 aero:Company_Quickstep_Holdings_Limited a aero:Company,
         aero:Tier1Supplier ;
     aero:businessNumber "AU550962681"^^xsd:string ;
     aero:cageCode "Z0D95"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:dunsNumber "751092841"^^xsd:string ;
     aero:hasCapability aero:Cap_Quickstep_Holdings_Limited_1,
         aero:Cap_Quickstep_Holdings_Limited_2 ;
     aero:headquartersCity "Bankstown"^^xsd:string ;
@@ -821,7 +998,6 @@ aero:Company_BAE_Systems_Australia_Limited a aero:Company,
     aero:businessNumber "AU450084230"^^xsd:string ;
     aero:cageCode "Z0K14"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:dunsNumber "750491823"^^xsd:string ;
     aero:hasCapability aero:Cap_BAE_Systems_Australia_Limited_1,
         aero:Cap_BAE_Systems_Australia_Limited_2 ;
     aero:hasDirectSupplier aero:Company_CEA_Technologies_Pty_Ltd,

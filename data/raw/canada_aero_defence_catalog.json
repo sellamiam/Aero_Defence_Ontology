@@ -13,9 +13,10 @@
     "facility_security_clearance": "Secret",
     "certifications": [
       "AS9100D",
-      "ISO9001",
       "ISO14001",
-      "ITAR_Compliant"
+      "ISO9001",
+      "ITAR_Compliant",
+      "NADCAP_Composites"
     ],
     "domains": [
       "AirPlatform",
@@ -26,6 +27,7 @@
       "Platform_FixedWingTransport"
     ],
     "kics": [
+      "KIC_AdvancedMaterials",
       "KIC_AerospaceSystems",
       "KIC_DefenceSystemsIntegration"
     ],
@@ -33,6 +35,13 @@
       {
         "title": "Business & Special-Mission Aircraft Manufacturing",
         "description": "Design, manufacturing, and completion of Global and Challenger business jets and specialized military/surveillance aircraft.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_AerospaceSystems"
+      },
+      {
+        "title": "Business & Special-Mission Aircraft Final Assembly",
+        "description": "Final assembly and flight completion of Global-series aircraft, including special-mission defence variants.",
         "trl": 9,
         "mrl": 9,
         "kic": "KIC_AerospaceSystems"
@@ -52,6 +61,19 @@
           "Material_CarbonFiber_Composite",
           "Material_AluminiumLithium_2055"
         ]
+      },
+      {
+        "name": "Global 6500 / 8000 Special Mission Platform",
+        "description": "Long-range business and military ISR/AEW&C aircraft platform.",
+        "part_number": "BBD-GLOBAL-SM",
+        "fsc_code": "1510",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_FixedWingTransport"
+        ],
+        "materials": [
+          "Material_Titanium_Ti6Al4V"
+        ]
       }
     ],
     "services": [
@@ -60,16 +82,23 @@
         "description": "OEM airframe maintenance, modification, and special-mission integration.",
         "type": "MROService",
         "accreditation": "AS9100D"
+      },
+      {
+        "name": "Aircraft Completion & MRO",
+        "description": "Final aircraft assembly, flight test, and global customer support.",
+        "type": "MROService",
+        "accreditation": "AS9100D"
       }
     ],
     "parent_company": null,
     "supplies_to": [
+      "Global Allies",
       "Royal Canadian Air Force",
       "US Air Force"
     ],
-    "source_note": "Aéro Montréal / CADSI member; Dorval & Mirabel facilities",
-    "duns_number": "306367139",
-    "business_number": "509971700RC0001"
+    "source_note": "Aéro Montréal / CADSI member; Dorval & Mirabel facilities; Integrated operating facility in Mississauga",
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "CAE Inc.",
@@ -146,8 +175,8 @@
       "NATO"
     ],
     "source_note": "CADSI / Aéro Montréal member; HQ in Saint-Laurent",
-    "duns_number": "366829384",
-    "business_number": "289539885RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Pratt & Whitney Canada Corp.",
@@ -227,8 +256,8 @@
       "DND Canada"
     ],
     "source_note": "Aéro Montréal / AIAC member; Longueuil HQ",
-    "duns_number": "682701104",
-    "business_number": "400803918RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Airbus Canada Limited Partnership",
@@ -297,8 +326,8 @@
       "Air France"
     ],
     "source_note": "Aéro Montréal member; Mirabel final assembly line",
-    "duns_number": "502993404",
-    "business_number": "840260982RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Bell Textron Canada Limited",
@@ -368,8 +397,8 @@
       "Royal Canadian Air Force"
     ],
     "source_note": "Aéro Montréal / CADSI member; Mirabel",
-    "duns_number": "453586684",
-    "business_number": "444841832RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "MDA Space Ltd.",
@@ -443,8 +472,8 @@
       "Globalstar"
     ],
     "source_note": "Aéro Montréal / CADSI member; Montreal satellite facility",
-    "duns_number": "222423916",
-    "business_number": "123955489RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Chantier Davie Canada Inc.",
@@ -512,8 +541,8 @@
       "Canadian Coast Guard"
     ],
     "source_note": "CADSI member; NSS third pillar shipyard in Lévis",
-    "duns_number": "897231482",
-    "business_number": "834430712RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Rheinmetall Canada Inc.",
@@ -528,26 +557,28 @@
     "itar_compliant": true,
     "facility_security_clearance": "Secret",
     "certifications": [
-      "ISO9001",
+      "AS9100D",
+      "FacilitySecurity_Secret",
       "ISO14001",
+      "ISO9001",
       "ITAR_Compliant",
-      "NATO_AQAP2110",
-      "FacilitySecurity_Secret"
+      "NATO_AQAP2110"
     ],
     "domains": [
-      "LandPlatform",
-      "UASPlatform",
+      "DomainC4ISR",
       "DomainDefence",
-      "DomainC4ISR"
+      "LandPlatform",
+      "UASPlatform"
     ],
     "platforms": [
       "Platform_ArmouredCombatVehicle",
+      "Platform_FixedWingTransport",
       "Platform_TacticalUAS"
     ],
     "kics": [
-      "KIC_DefenceSystemsIntegration",
+      "KIC_AIAutonomousSystems",
       "KIC_ArmouredVehicles",
-      "KIC_AIAutonomousSystems"
+      "KIC_DefenceSystemsIntegration"
     ],
     "capabilities": [
       {
@@ -556,6 +587,13 @@
         "trl": 9,
         "mrl": 9,
         "kic": "KIC_DefenceSystemsIntegration"
+      },
+      {
+        "title": "Rheinmetall Canada Aerospace & Defence Capabilities",
+        "description": "Verified Ontario aerospace/defence supplier in Ottawa providing KIC_ArmouredVehicles capabilities.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_ArmouredVehicles"
       }
     ],
     "products": [
@@ -573,6 +611,20 @@
           "Material_Kevlar_Aramid",
           "Material_CarbonFiber_Composite"
         ]
+      },
+      {
+        "name": "Argus Soldier System Digital Dismounted Hub",
+        "description": "Integrated soldier system power/data distribution hub connecting tactical radios, weapon sights, and wearable computing.",
+        "part_number": "PN-RHE-ARGUS-HUB",
+        "fsc_code": "5895",
+        "nsn_code": "5895-20-011-8273",
+        "platforms": [
+          "Platform_CyberDefenceSystem",
+          "Platform_ArmouredCombatVehicle"
+        ],
+        "materials": [
+          "Material_SiliconCarbide_SiC"
+        ]
       }
     ],
     "services": [
@@ -581,16 +633,23 @@
         "description": "Vehicle integration, software engineering, and in-service support.",
         "type": "EngineeringService",
         "accreditation": "NATO_AQAP2110"
+      },
+      {
+        "name": "Rheinmetall Canada Engineering & Support",
+        "description": "Technical engineering, manufacturing, or sustainment services in Ottawa, ON.",
+        "type": "EngineeringService",
+        "accreditation": "AS9100D"
       }
     ],
     "parent_company": "Rheinmetall AG",
     "supplies_to": [
       "Canadian Armed Forces",
+      "Department of National Defence (Canada)",
       "NATO"
     ],
-    "source_note": "CADSI member; Saint-Jean-sur-Richelieu HQ",
-    "duns_number": "865033278",
-    "business_number": "658851962RC0001"
+    "source_note": "CADSI member; Saint-Jean-sur-Richelieu HQ; Integrated operating facility in Ottawa",
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "General Dynamics Ordnance and Tactical Systems - Canada Inc.",
@@ -660,8 +719,8 @@
       "NATO"
     ],
     "source_note": "CADSI member; Repentigny & Valleyfield",
-    "duns_number": "913118606",
-    "business_number": "286449671RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "L3Harris MAS Inc.",
@@ -736,8 +795,8 @@
       "US Navy"
     ],
     "source_note": "CADSI / Aéro Montréal member; Mirabel",
-    "duns_number": "154117459",
-    "business_number": "756467080RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Héroux-Devtek Inc.",
@@ -817,8 +876,8 @@
       "Saab"
     ],
     "source_note": "Aéro Montréal / CADSI member; Longueuil HQ",
-    "duns_number": "761305658",
-    "business_number": "492039908RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "CMC Electronics Inc.",
@@ -895,8 +954,8 @@
       "Bombardier"
     ],
     "source_note": "Aéro Montréal / CADSI member; Saint-Laurent",
-    "duns_number": "246054000",
-    "business_number": "510301896RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Safran Landing Systems Canada Inc.",
@@ -965,8 +1024,8 @@
       "Boeing"
     ],
     "source_note": "Aéro Montréal member; Mirabel",
-    "duns_number": "668881413",
-    "business_number": "724398802RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Safran Cabin Canada Inc.",
@@ -1032,8 +1091,8 @@
       "Bombardier"
     ],
     "source_note": "Aéro Montréal member; Kirkland",
-    "duns_number": "921909168",
-    "business_number": "393242004RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Airbus Atlantic Canada Inc.",
@@ -1101,8 +1160,8 @@
       "Bombardier"
     ],
     "source_note": "Aéro Montréal member; Mirabel",
-    "duns_number": "176732761",
-    "business_number": "841909133RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "MHI RJ Aviation Inc.",
@@ -1171,8 +1230,8 @@
       "Air Canada"
     ],
     "source_note": "Aéro Montréal member; Mirabel",
-    "duns_number": "170184378",
-    "business_number": "123268241RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "GE Aerospace Bromont",
@@ -1244,8 +1303,8 @@
       "CFM International"
     ],
     "source_note": "Aéro Montréal member; Bromont Science Park",
-    "duns_number": "314971405",
-    "business_number": "658283832RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Howmet Aerospace Laval",
@@ -1322,8 +1381,8 @@
       "Rolls-Royce"
     ],
     "source_note": "Aéro Montréal member; Laval",
-    "duns_number": "314479911",
-    "business_number": "481839168RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Mecachrome Canada Inc.",
@@ -1393,8 +1452,8 @@
       "Safran"
     ],
     "source_note": "Aéro Montréal member; Mirabel",
-    "duns_number": "401745367",
-    "business_number": "361456811RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Sonaca Montréal Inc.",
@@ -1461,8 +1520,8 @@
       "Embraer"
     ],
     "source_note": "Aéro Montréal member; Mirabel",
-    "duns_number": "124395273",
-    "business_number": "618510547RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Liebherr-Aerospace Canada",
@@ -1532,8 +1591,8 @@
       "Embraer"
     ],
     "source_note": "Aéro Montréal member; Laval",
-    "duns_number": "539684003",
-    "business_number": "228830676RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Thales Canada Inc.",
@@ -1549,30 +1608,37 @@
     "facility_security_clearance": "Top Secret / SCI",
     "certifications": [
       "AS9100D",
-      "ISO9001",
+      "FacilitySecurity_TopSecret",
       "ISO27001",
-      "ITAR_Compliant",
-      "FacilitySecurity_TopSecret"
+      "ISO9001",
+      "ITAR_Compliant"
     ],
     "domains": [
       "AirPlatform",
-      "MaritimePlatform",
+      "DomainC4ISR",
       "DomainDefence",
-      "DomainC4ISR"
+      "MaritimePlatform"
     ],
     "platforms": [
       "Platform_FixedWingTransport",
       "Platform_SurfaceCombatant"
     ],
     "kics": [
+      "KIC_CyberResilience",
       "KIC_DefenceSystemsIntegration",
-      "KIC_SensorsSonar",
-      "KIC_CyberResilience"
+      "KIC_SensorsSonar"
     ],
     "capabilities": [
       {
         "title": "Avionics, Naval Systems & Defence Electronics",
         "description": "Systems integration, avionics software, naval combat systems, and secure communications.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_DefenceSystemsIntegration"
+      },
+      {
+        "title": "Thales Canada Aerospace & Defence Capabilities",
+        "description": "Verified Ontario aerospace/defence supplier in Ottawa providing KIC_DefenceSystemsIntegration capabilities.",
         "trl": 9,
         "mrl": 9,
         "kic": "KIC_DefenceSystemsIntegration"
@@ -1592,6 +1658,20 @@
         "materials": [
           "Material_GalliumNitride_GaN"
         ]
+      },
+      {
+        "name": "Naval Tactical Command & Fire Control Software Suites",
+        "description": "TactIS-integrated naval mission systems, situational awareness engines, and digital intercommunication terminals.",
+        "part_number": "PN-THL-TACT-SW",
+        "fsc_code": "5895",
+        "nsn_code": "5895-20-007-1290",
+        "platforms": [
+          "Platform_Type26_GlobalCombatShip",
+          "Platform_SurfaceCombatant"
+        ],
+        "materials": [
+          "Material_SiliconCarbide_SiC"
+        ]
       }
     ],
     "services": [
@@ -1600,17 +1680,24 @@
         "description": "Systems integration, cybersecurity, and lifecycle support.",
         "type": "EngineeringService",
         "accreditation": "ISO9001"
+      },
+      {
+        "name": "Thales Canada Engineering & Support",
+        "description": "Technical engineering, manufacturing, or sustainment services in Ottawa, ON.",
+        "type": "EngineeringService",
+        "accreditation": "AS9100D"
       }
     ],
     "parent_company": "Thales Group",
     "supplies_to": [
-      "Royal Canadian Navy",
+      "Bombardier",
+      "Department of National Defence (Canada)",
       "Royal Canadian Air Force",
-      "Bombardier"
+      "Royal Canadian Navy"
     ],
-    "source_note": "CADSI / Aéro Montréal member; Saint-Laurent",
-    "duns_number": "362791258",
-    "business_number": "567294235RC0001"
+    "source_note": "CADSI / Aéro Montréal member; Saint-Laurent; Integrated operating facility in Ottawa",
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "DART Aerospace Ltd.",
@@ -1680,8 +1767,8 @@
       "Leonardo"
     ],
     "source_note": "Aéro Montréal member; Montreal region",
-    "duns_number": "472197993",
-    "business_number": "490935472RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Avior Integrated Products Inc.",
@@ -1756,8 +1843,8 @@
       "Pratt & Whitney Canada"
     ],
     "source_note": "Aéro Montréal member; Laval, Saint-Laurent & Granby",
-    "duns_number": "745476258",
-    "business_number": "437178336RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Avianor Inc.",
@@ -1826,8 +1913,8 @@
       "Air Transat"
     ],
     "source_note": "Aéro Montréal member; Mirabel",
-    "duns_number": "785032111",
-    "business_number": "853509460RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "AAR Aircraft Services Trois-Rivières",
@@ -1896,8 +1983,8 @@
       "Cargojet"
     ],
     "source_note": "Aéro Montréal member; Trois-Rivières Airport",
-    "duns_number": "726501460",
-    "business_number": "573087909RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Top Aces Inc.",
@@ -1967,8 +2054,8 @@
       "German Air Force"
     ],
     "source_note": "CADSI member; Dorval HQ",
-    "duns_number": "858554849",
-    "business_number": "820842111RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "AtkinsRéalis Inc.",
@@ -2039,8 +2126,8 @@
       "Royal Canadian Navy"
     ],
     "source_note": "CADSI member; Montreal HQ",
-    "duns_number": "456774423",
-    "business_number": "325706738RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Groupe Meloche Inc.",
@@ -2115,8 +2202,8 @@
       "Airbus"
     ],
     "source_note": "Aéro Montréal / STIQ member; Valleyfield & Bromont",
-    "duns_number": "796179401",
-    "business_number": "872049873RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Abipa Canada Inc.",
@@ -2186,8 +2273,8 @@
       "Héroux-Devtek"
     ],
     "source_note": "Aéro Montréal member; Boisbriand",
-    "duns_number": "278603767",
-    "business_number": "385129006RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "A.T.L.A.S. Aéronautik Inc.",
@@ -2256,8 +2343,8 @@
       "Safran"
     ],
     "source_note": "Aéro Montréal / Granby Aeronautics Pole",
-    "duns_number": "628384927",
-    "business_number": "789271697RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "A7 Intégration Inc.",
@@ -2325,8 +2412,8 @@
       "Bell Textron Canada"
     ],
     "source_note": "Aéro Montréal member; Granby",
-    "duns_number": "511429646",
-    "business_number": "490426256RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "M1 Composites Technology Inc.",
@@ -2398,8 +2485,8 @@
       "Air Canada"
     ],
     "source_note": "Aéro Montréal / AIAC member; Laval",
-    "duns_number": "892431228",
-    "business_number": "365324712RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Mecaer America Inc.",
@@ -2469,8 +2556,8 @@
       "Airbus Helicopters"
     ],
     "source_note": "Aéro Montréal member; Laval",
-    "duns_number": "699270921",
-    "business_number": "229611891RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Lev-Fab Inc.",
@@ -2540,8 +2627,8 @@
       "Airbus"
     ],
     "source_note": "Aéro Montréal MACH member; Saint-Laurent",
-    "duns_number": "763872075",
-    "business_number": "508108097RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Mitacor Industries Inc.",
@@ -2613,8 +2700,8 @@
       "Bell Textron Canada"
     ],
     "source_note": "Aéro Montréal member; Saint-Laurent",
-    "duns_number": "247834253",
-    "business_number": "908990111RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Mesotec Inc.",
@@ -2683,8 +2770,8 @@
       "Bombardier"
     ],
     "source_note": "Aéro Montréal member; Sherbrooke",
-    "duns_number": "568967990",
-    "business_number": "137619965RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Marmen Inc.",
@@ -2753,8 +2840,8 @@
       "Pratt & Whitney"
     ],
     "source_note": "STIQ member; Trois-Rivières",
-    "duns_number": "189030580",
-    "business_number": "709117264RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "G.M. Précision Inc.",
@@ -2825,8 +2912,8 @@
       "Pratt & Whitney Canada"
     ],
     "source_note": "STIQ / Aéro Montréal; Saint-Jean-sur-Richelieu",
-    "duns_number": "937619513",
-    "business_number": "753902570RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "GHGSat Inc.",
@@ -2895,8 +2982,8 @@
       "NASA"
     ],
     "source_note": "Montreal HQ",
-    "duns_number": "445857316",
-    "business_number": "725794302RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Reaction Dynamics Labs Inc.",
@@ -2963,8 +3050,8 @@
       "DND Canada"
     ],
     "source_note": "Longueuil HQ",
-    "duns_number": "320293505",
-    "business_number": "197971537RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Telops Inc.",
@@ -3037,8 +3124,8 @@
       "NATO"
     ],
     "source_note": "CADSI member; Quebec City",
-    "duns_number": "253664717",
-    "business_number": "122222216RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Creaform Inc.",
@@ -3107,8 +3194,8 @@
       "Pratt & Whitney Canada"
     ],
     "source_note": "Aéro Montréal member; Lévis HQ",
-    "duns_number": "661579880",
-    "business_number": "389736326RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Polyrix Inc.",
@@ -3174,8 +3261,8 @@
       "Safran"
     ],
     "source_note": "Quebec City region",
-    "duns_number": "469469184",
-    "business_number": "393254421RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "EXFO Inc.",
@@ -3242,8 +3329,8 @@
       "Lockheed Martin"
     ],
     "source_note": "Quebec City HQ",
-    "duns_number": "374439671",
-    "business_number": "606234056RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "ABB Inc. Measurement & Analytics",
@@ -3314,8 +3401,8 @@
       "NASA"
     ],
     "source_note": "Quebec City optical space hub",
-    "duns_number": "334797079",
-    "business_number": "626713094RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "INO (Institut national d'optique)",
@@ -3387,8 +3474,8 @@
       "DND Canada"
     ],
     "source_note": "CADSI member; Quebec City",
-    "duns_number": "106675407",
-    "business_number": "574655267RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "MPB Communications Inc.",
@@ -3455,8 +3542,8 @@
       "ESA"
     ],
     "source_note": "Montreal West Island",
-    "duns_number": "456532008",
-    "business_number": "269149542RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Photon etc. Inc.",
@@ -3521,8 +3608,8 @@
       "NRC Canada"
     ],
     "source_note": "Montreal",
-    "duns_number": "525929742",
-    "business_number": "198815378RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Gentec-EO Inc.",
@@ -3588,8 +3675,8 @@
       "Lockheed Martin"
     ],
     "source_note": "Quebec City",
-    "duns_number": "620991149",
-    "business_number": "439770780RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "AirBoss Defense Group",
@@ -3658,8 +3745,8 @@
       "NATO"
     ],
     "source_note": "CADSI member; Acton Vale & Bromont",
-    "duns_number": "660978866",
-    "business_number": "375774460RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Logistik Unicorp Inc.",
@@ -3726,8 +3813,8 @@
       "RCMP"
     ],
     "source_note": "CADSI member; Saint-Jean-sur-Richelieu",
-    "duns_number": "768977553",
-    "business_number": "533519475RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "CMP Advanced Mechanical Solutions Ltd.",
@@ -3799,8 +3886,8 @@
       "US DoD"
     ],
     "source_note": "CADSI member; Châteauguay",
-    "duns_number": "493188914",
-    "business_number": "138601353RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Groupe Ocean Inc.",
@@ -3867,8 +3954,8 @@
       "Royal Canadian Navy"
     ],
     "source_note": "Quebec City & Isle-aux-Coudres",
-    "duns_number": "759480591",
-    "business_number": "153738702RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "ARA Robotics Inc.",
@@ -3936,8 +4023,8 @@
       "Public Safety Canada"
     ],
     "source_note": "Montreal",
-    "duns_number": "421308350",
-    "business_number": "478367564RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Volatus Aerospace Corp.",
@@ -4004,8 +4091,8 @@
       "DND Canada"
     ],
     "source_note": "Mirabel Innovation Centre",
-    "duns_number": "848967024",
-    "business_number": "904486575RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Laflamme Aero Inc.",
@@ -4074,8 +4161,8 @@
       "DND Canada"
     ],
     "source_note": "Saint-Anselme (Chaudière-Appalaches)",
-    "duns_number": "851845337",
-    "business_number": "864378336RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "CS Canada Inc.",
@@ -4144,8 +4231,8 @@
       "Transport Canada"
     ],
     "source_note": "Montreal",
-    "duns_number": "322876500",
-    "business_number": "156049473RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "StreamScan Inc.",
@@ -4209,8 +4296,8 @@
       "Canadian Defence Contractors"
     ],
     "source_note": "Montreal",
-    "duns_number": "637637280",
-    "business_number": "767672151RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "AAA Canada Inc.",
@@ -4278,8 +4365,8 @@
       "Bell Textron Canada"
     ],
     "source_note": "Aéro Montréal member; Montreal",
-    "duns_number": "196278074",
-    "business_number": "973416731RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "ALTEN Canada Inc.",
@@ -4348,8 +4435,8 @@
       "Pratt & Whitney Canada"
     ],
     "source_note": "Aéro Montréal member; Montreal",
-    "duns_number": "354481737",
-    "business_number": "201584000RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Akkodis Canada Inc.",
@@ -4418,8 +4505,8 @@
       "CAE"
     ],
     "source_note": "Aéro Montréal member; Montreal",
-    "duns_number": "503685853",
-    "business_number": "758524249RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "FusiA Impression 3D Métal Inc.",
@@ -4492,8 +4579,8 @@
       "Airbus"
     ],
     "source_note": "Aéro Montréal member; Saint-Eustache",
-    "duns_number": "533835760",
-    "business_number": "194135711RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "AV&R Inc.",
@@ -4560,8 +4647,8 @@
       "Safran"
     ],
     "source_note": "Aéro Montréal member; Saint-Bruno",
-    "duns_number": "208560823",
-    "business_number": "605428037RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "International Surface Technologies Inc.",
@@ -4627,8 +4714,8 @@
       "Héroux-Devtek"
     ],
     "source_note": "Laval",
-    "duns_number": "591121111",
-    "business_number": "657812623RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "NSE Automatech Inc.",
@@ -4697,8 +4784,8 @@
       "Thales"
     ],
     "source_note": "Granby Aeronautics Pole",
-    "duns_number": "643052587",
-    "business_number": "438660750RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "MF2 Aero Inc.",
@@ -4764,8 +4851,8 @@
       "Bombardier"
     ],
     "source_note": "Trois-Rivières",
-    "duns_number": "352590925",
-    "business_number": "580821499RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Innotech-Execaire Aviation Group",
@@ -4833,8 +4920,8 @@
       "Dassault"
     ],
     "source_note": "Aéro Montréal member; Dorval",
-    "duns_number": "485695049",
-    "business_number": "257755527RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Skyservice Business Aviation Inc.",
@@ -4902,8 +4989,8 @@
       "Embraer"
     ],
     "source_note": "Dorval",
-    "duns_number": "714067852",
-    "business_number": "536956023RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Nolinor Aviation Inc.",
@@ -4967,8 +5054,8 @@
       "Mining & Northern Communities"
     ],
     "source_note": "Mirabel HQ",
-    "duns_number": "476013962",
-    "business_number": "316119092RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Air Inuit Ltd.",
@@ -5032,8 +5119,8 @@
       "Nunavik Communities"
     ],
     "source_note": "Dorval",
-    "duns_number": "965849373",
-    "business_number": "747541575RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Chrono Aviation Inc.",
@@ -5097,8 +5184,8 @@
       "Quebec Industrial Clients"
     ],
     "source_note": "Quebec City",
-    "duns_number": "339149014",
-    "business_number": "363910882RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Averna Technologies Inc.",
@@ -5167,8 +5254,8 @@
       "L3Harris"
     ],
     "source_note": "Montreal HQ",
-    "duns_number": "788670850",
-    "business_number": "908007818RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Optel Group Inc.",
@@ -5232,8 +5319,8 @@
       "Industrial & Defence Supply Chains"
     ],
     "source_note": "Quebec City HQ",
-    "duns_number": "901158150",
-    "business_number": "574580028RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Olympus NDT Canada (Evident)",
@@ -5305,8 +5392,8 @@
       "Davie Shipbuilding"
     ],
     "source_note": "Quebec City R&D & manufacturing",
-    "duns_number": "917800928",
-    "business_number": "956274133RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Tyto Robotics Inc.",
@@ -5372,8 +5459,8 @@
       "Volatus Aerospace"
     ],
     "source_note": "Gatineau",
-    "duns_number": "486906987",
-    "business_number": "262896344RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Ki3 Photonics Technologies Inc.",
@@ -5440,8 +5527,8 @@
       "DRDC"
     ],
     "source_note": "Montreal",
-    "duns_number": "589265783",
-    "business_number": "545489147RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "CM Aerospace Inc.",
@@ -5507,8 +5594,8 @@
       "Air Canada"
     ],
     "source_note": "Laval",
-    "duns_number": "184404392",
-    "business_number": "134657862RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "MAD Aerospace Inc.",
@@ -5573,8 +5660,8 @@
       "Regional & Special Mission Operators"
     ],
     "source_note": "Bromont",
-    "duns_number": "658143738",
-    "business_number": "377913359RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Elimetal Inc.",
@@ -5642,8 +5729,8 @@
       "CMC Electronics"
     ],
     "source_note": "Saint-Laurent",
-    "duns_number": "338046390",
-    "business_number": "954962765RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Usinage Villeneuve Inc.",
@@ -5709,8 +5796,8 @@
       "Héroux-Devtek"
     ],
     "source_note": "Longueuil",
-    "duns_number": "253552750",
-    "business_number": "906578773RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Creation Technologies Canada",
@@ -5779,8 +5866,8 @@
       "CAE"
     ],
     "source_note": "Montreal",
-    "duns_number": "762217317",
-    "business_number": "318603479RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Shearwater Aerospace Inc.",
@@ -5845,8 +5932,8 @@
       "UAV Manufacturers"
     ],
     "source_note": "Montreal",
-    "duns_number": "411904868",
-    "business_number": "432902421RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Notos Technologies Inc.",
@@ -5911,8 +5998,8 @@
       "Commercial & Defence UAVs"
     ],
     "source_note": "Montreal",
-    "duns_number": "239152696",
-    "business_number": "454661862RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "DefendX Technologies Inc.",
@@ -5979,8 +6066,8 @@
       "Critical Infrastructure"
     ],
     "source_note": "Montreal",
-    "duns_number": "929828732",
-    "business_number": "521245756RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "CC3rios Systems Inc.",
@@ -6044,8 +6131,8 @@
       "Quebec Aerospace & Defence SMEs"
     ],
     "source_note": "Montreal",
-    "duns_number": "292934279",
-    "business_number": "873393648RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Aéroports de Montréal",
@@ -6112,8 +6199,8 @@
       "L3Harris MAS"
     ],
     "source_note": "Aéro Montréal member; Dorval & Mirabel",
-    "duns_number": "362708308",
-    "business_number": "445556510RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Centre technologique en aérospatiale (CTA)",
@@ -6183,8 +6270,8 @@
       "Bell Textron"
     ],
     "source_note": "Aéro Montréal member; Saint-Hubert",
-    "duns_number": "143418003",
-    "business_number": "550999463RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "CRIAQ (Consortium de recherche et d'innovation en aérospatiale au Québec)",
@@ -6253,8 +6340,8 @@
       "Pratt & Whitney Canada"
     ],
     "source_note": "Aéro Montréal partner; Montreal",
-    "duns_number": "637552890",
-    "business_number": "136850065RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "C2MI (MiQro Innovation Collaborative Centre)",
@@ -6323,8 +6410,8 @@
       "MDA Space"
     ],
     "source_note": "Bromont Science Park",
-    "duns_number": "233276941",
-    "business_number": "490525587RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Teledyne DALSA Semiconductor Inc.",
@@ -6396,8 +6483,8 @@
       "US DoD"
     ],
     "source_note": "Bromont",
-    "duns_number": "391840002",
-    "business_number": "484502518RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Précision Aéro-Mécanique Inc.",
@@ -6463,8 +6550,8 @@
       "Pratt & Whitney Canada"
     ],
     "source_note": "Saint-Hubert",
-    "duns_number": "174839264",
-    "business_number": "305440563RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Mecanic-Valirex Inc.",
@@ -6530,8 +6617,8 @@
       "Héroux-Devtek"
     ],
     "source_note": "Saint-Laurent",
-    "duns_number": "129477491",
-    "business_number": "703885503RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Aéro-Structures Longueuil Inc.",
@@ -6597,8 +6684,8 @@
       "Airbus Canada"
     ],
     "source_note": "Longueuil",
-    "duns_number": "700807451",
-    "business_number": "613669163RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Groupe DCM Inc.",
@@ -6668,8 +6755,8 @@
       "Pratt & Whitney Canada"
     ],
     "source_note": "Aéro Montréal member; Blainville",
-    "duns_number": "588154464",
-    "business_number": "789717357RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Mecfor Inc.",
@@ -6734,8 +6821,8 @@
       "Aerospace & Aluminum Sector"
     ],
     "source_note": "Saguenay",
-    "duns_number": "491350210",
-    "business_number": "184837257RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Rio Tinto Aluminium (Aerospace)",
@@ -6802,8 +6889,8 @@
       "Airbus"
     ],
     "source_note": "Saguenay–Lac-Saint-Jean",
-    "duns_number": "470906587",
-    "business_number": "519364492RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "PyroGenesis Canada Inc.",
@@ -6875,8 +6962,8 @@
       "Auburn University"
     ],
     "source_note": "Montreal",
-    "duns_number": "965381006",
-    "business_number": "540102115RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "5N Plus Inc.",
@@ -6946,8 +7033,8 @@
       "Lockheed Martin"
     ],
     "source_note": "Saint-Laurent HQ",
-    "duns_number": "427248165",
-    "business_number": "132756089RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Rayonier A.M. / Tembec",
@@ -7014,8 +7101,8 @@
       "NATO Munitions"
     ],
     "source_note": "Témiscaming",
-    "duns_number": "713507972",
-    "business_number": "892265845RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Sanimarc (Wood) / Aéro-Services",
@@ -7078,8 +7165,8 @@
       "DND Canada"
     ],
     "source_note": "Quebec City",
-    "duns_number": "630170902",
-    "business_number": "578296745RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Optonique",
@@ -7145,8 +7232,8 @@
       "EXFO"
     ],
     "source_note": "Quebec City",
-    "duns_number": "979323596",
-    "business_number": "102640544RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "STIQ (Sous-traitance industrielle Québec)",
@@ -7212,8 +7299,8 @@
       "Davie"
     ],
     "source_note": "Montreal",
-    "duns_number": "835110005",
-    "business_number": "350179515RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Aéro Montréal",
@@ -7281,8 +7368,8 @@
       "Pratt & Whitney Canada"
     ],
     "source_note": "Montreal",
-    "duns_number": "651075652",
-    "business_number": "965201843RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Immersive Design Studios Inc.",
@@ -7347,8 +7434,8 @@
       "Defence Integrators"
     ],
     "source_note": "Montreal",
-    "duns_number": "237506031",
-    "business_number": "576698078RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Presagis Canada Inc.",
@@ -7420,8 +7507,8 @@
       "US Air Force"
     ],
     "source_note": "CADSI member; Saint-Laurent",
-    "duns_number": "421721324",
-    "business_number": "759514264RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Vortex Solution Inc.",
@@ -7485,8 +7572,8 @@
       "Government of Canada"
     ],
     "source_note": "Montreal",
-    "duns_number": "545654991",
-    "business_number": "575009552RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Beneq / Kemira / Solmax",
@@ -7552,8 +7639,8 @@
       "US Army Corps of Engineers"
     ],
     "source_note": "Varennes HQ",
-    "duns_number": "196728896",
-    "business_number": "997903516RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Aéro-Mag 2000 Inc.",
@@ -7620,8 +7707,8 @@
       "Bombardier"
     ],
     "source_note": "Dorval HQ",
-    "duns_number": "690924208",
-    "business_number": "261762547RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Orenda / Magellan Aerospace (Quebec)",
@@ -7695,79 +7782,8 @@
       "Pratt & Whitney"
     ],
     "source_note": "Montreal",
-    "duns_number": "614275370",
-    "business_number": "769267942RC0001"
-  },
-  {
-    "legal_name": "TurbineAero / StandardAero (Montreal)",
-    "trade_name": "StandardAero",
-    "cage_code": "L5090",
-    "country": "CAN",
-    "city": "Dorval",
-    "province": "QC",
-    "website": "https://www.standardaero.com",
-    "tier": "Tier1Supplier",
-    "controlled_goods": true,
-    "itar_compliant": true,
-    "facility_security_clearance": "Unclassified / ITAR",
-    "certifications": [
-      "AS9110C",
-      "ISO9001",
-      "FAA_Part145"
-    ],
-    "domains": [
-      "AirPlatform",
-      "DomainAeronautics",
-      "DomainDefence"
-    ],
-    "platforms": [
-      "Platform_FixedWingTransport",
-      "Platform_RotaryWing"
-    ],
-    "kics": [
-      "KIC_InServiceSupport"
-    ],
-    "capabilities": [
-      {
-        "title": "Aero-Engine & APU MRO",
-        "description": "Independent maintenance, repair, and overhaul of gas turbine engines and auxiliary power units.",
-        "trl": 9,
-        "mrl": 9,
-        "kic": "KIC_InServiceSupport"
-      }
-    ],
-    "products": [
-      {
-        "name": "Turboprop & Turbofan MRO",
-        "description": "Complete engine overhaul and test cell qualification.",
-        "part_number": null,
-        "fsc_code": "2840",
-        "nsn_code": null,
-        "platforms": [
-          "Platform_FixedWingTransport",
-          "Platform_RotaryWing"
-        ],
-        "materials": [
-          "Material_Inconel_718"
-        ]
-      }
-    ],
-    "services": [
-      {
-        "name": "Engine MRO",
-        "description": "FAA/TCCA-certified engine repair.",
-        "type": "MROService",
-        "accreditation": "FAA_Part145"
-      }
-    ],
-    "parent_company": "StandardAero",
-    "supplies_to": [
-      "Royal Canadian Air Force",
-      "Regional Airlines"
-    ],
-    "source_note": "Dorval",
-    "duns_number": "638863709",
-    "business_number": "555119302RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Safran Helicopter Engines Canada",
@@ -7836,86 +7852,8 @@
       "Canadian Coast Guard"
     ],
     "source_note": "Mirabel",
-    "duns_number": "211122184",
-    "business_number": "398056319RC0001"
-  },
-  {
-    "legal_name": "L3Harris Wescam (Montreal Operations)",
-    "trade_name": "L3Harris Wescam",
-    "cage_code": "LE771",
-    "country": "CAN",
-    "city": "Montréal",
-    "province": "QC",
-    "website": "https://www.l3harris.com",
-    "tier": "Tier1Supplier",
-    "controlled_goods": true,
-    "itar_compliant": true,
-    "facility_security_clearance": "Top Secret / SCI",
-    "certifications": [
-      "AS9100D",
-      "ISO9001",
-      "ITAR_Compliant",
-      "FacilitySecurity_TopSecret"
-    ],
-    "domains": [
-      "AirPlatform",
-      "UASPlatform",
-      "MaritimePlatform",
-      "DomainDefence",
-      "DomainC4ISR"
-    ],
-    "platforms": [
-      "Platform_TacticalUAS",
-      "Platform_RotaryWing",
-      "Platform_P8_Poseidon"
-    ],
-    "kics": [
-      "KIC_EOIRSystems",
-      "KIC_SensorsSonar"
-    ],
-    "capabilities": [
-      {
-        "title": "EO/IR Turret Integration & Support",
-        "description": "Airborne electro-optical/infrared (MX-Series) sensor integration and mission systems support in Quebec.",
-        "trl": 9,
-        "mrl": 9,
-        "kic": "KIC_EOIRSystems"
-      }
-    ],
-    "products": [
-      {
-        "name": "MX-15 / MX-20 EO/IR Turrets",
-        "description": "Stabilized multi-spectral airborne surveillance turrets.",
-        "part_number": null,
-        "fsc_code": "5855",
-        "nsn_code": null,
-        "platforms": [
-          "Platform_TacticalUAS",
-          "Platform_RotaryWing",
-          "Platform_P8_Poseidon"
-        ],
-        "materials": [
-          "Material_CarbonFiber_Composite",
-          "Material_Beryllium_Optical"
-        ]
-      }
-    ],
-    "services": [
-      {
-        "name": "EO/IR Systems Integration",
-        "description": "Airborne ISR payload integration.",
-        "type": "EngineeringService",
-        "accreditation": "AS9100D"
-      }
-    ],
-    "parent_company": "L3Harris Technologies",
-    "supplies_to": [
-      "Royal Canadian Air Force",
-      "Bombardier"
-    ],
-    "source_note": "Montreal",
-    "duns_number": "282403416",
-    "business_number": "998824095RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Collins Aerospace (Montreal)",
@@ -7986,8 +7924,8 @@
       "Airbus"
     ],
     "source_note": "Saint-Laurent",
-    "duns_number": "878464561",
-    "business_number": "611151466RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Honeywell Aerospace (Montreal)",
@@ -8058,8 +7996,8 @@
       "Bell Textron Canada"
     ],
     "source_note": "Saint-Laurent",
-    "duns_number": "328194685",
-    "business_number": "449198570RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Parker Aerospace (Montreal)",
@@ -8127,8 +8065,8 @@
       "Bell Textron"
     ],
     "source_note": "Saint-Laurent",
-    "duns_number": "403433217",
-    "business_number": "163807976RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Eaton Aerospace (Montreal)",
@@ -8195,8 +8133,8 @@
       "Airbus"
     ],
     "source_note": "Saint-Laurent",
-    "duns_number": "559363770",
-    "business_number": "664015700RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Moog Inc. (Montreal)",
@@ -8267,8 +8205,8 @@
       "Bell Textron"
     ],
     "source_note": "Saint-Laurent",
-    "duns_number": "553301185",
-    "business_number": "221782797RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Cjet Aviation Inc.",
@@ -8333,8 +8271,8 @@
       "Regional Operators"
     ],
     "source_note": "Trois-Rivières",
-    "duns_number": "690441737",
-    "business_number": "553051892RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "M.I. Integration (Plastech)",
@@ -8400,8 +8338,8 @@
       "BRP"
     ],
     "source_note": "Sherbrooke",
-    "duns_number": "409850882",
-    "business_number": "325241969RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Camoplast / Michelin (Magog)",
@@ -8466,8 +8404,8 @@
       "Rheinmetall Canada"
     ],
     "source_note": "Magog",
-    "duns_number": "740982694",
-    "business_number": "675413936RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Soucy International Inc.",
@@ -8540,8 +8478,8 @@
       "Rheinmetall"
     ],
     "source_note": "CADSI member; Drummondville",
-    "duns_number": "595405790",
-    "business_number": "706415031RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Cascades / Sonoco (Quebec)",
@@ -8605,8 +8543,8 @@
       "Quebec Aerospace OEMs"
     ],
     "source_note": "Kingsey Falls",
-    "duns_number": "462215358",
-    "business_number": "292580891RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Prévost / Volvo Group (Sainte-Claire)",
@@ -8671,8 +8609,8 @@
       "Government & Security Agencies"
     ],
     "source_note": "Sainte-Claire",
-    "duns_number": "777575803",
-    "business_number": "936110640RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Demers Ambulances Inc.",
@@ -8737,8 +8675,8 @@
       "Emergency Services"
     ],
     "source_note": "Beloeil",
-    "duns_number": "278935699",
-    "business_number": "144543397RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Lion Electric (Saint-Jérôme)",
@@ -8801,8 +8739,8 @@
       "Government Fleets"
     ],
     "source_note": "Saint-Jérôme",
-    "duns_number": "689563692",
-    "business_number": "412407814RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "BRP Inc. (Valcourt)",
@@ -8869,8 +8807,8 @@
       "Arctic Forces"
     ],
     "source_note": "Valcourt HQ",
-    "duns_number": "479438862",
-    "business_number": "517955862RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Pomerleau Inc. (Defence Infrastructure)",
@@ -8936,8 +8874,8 @@
       "Defence Construction Canada"
     ],
     "source_note": "Saint-Georges & Montreal",
-    "duns_number": "790936779",
-    "business_number": "722776797RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "EBC Inc.",
@@ -9002,8 +8940,8 @@
       "Defence Construction Canada"
     ],
     "source_note": "Quebec City region",
-    "duns_number": "685064956",
-    "business_number": "312534224RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "WSP Canada Inc. (Montreal)",
@@ -9071,8 +9009,8 @@
       "DCC"
     ],
     "source_note": "Montreal HQ",
-    "duns_number": "434591811",
-    "business_number": "386344247RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "CGI Inc. (Defence & Intelligence)",
@@ -9145,8 +9083,8 @@
       "ESA"
     ],
     "source_note": "CADSI member; Montreal HQ",
-    "duns_number": "780530603",
-    "business_number": "460228270RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Commissionnaires du Québec",
@@ -9212,8 +9150,8 @@
       "Aerospace Primes"
     ],
     "source_note": "Montreal HQ",
-    "duns_number": "228594372",
-    "business_number": "460236178RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Aéro-Club de Montréal / ÉNA",
@@ -9280,8 +9218,8 @@
       "Pratt & Whitney Canada"
     ],
     "source_note": "Longueuil (Saint-Hubert Airport)",
-    "duns_number": "885183986",
-    "business_number": "436791455RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "NRC Aerospace (Montreal)",
@@ -9354,8 +9292,8 @@
       "Pratt & Whitney"
     ],
     "source_note": "Montreal",
-    "duns_number": "684567713",
-    "business_number": "238773132RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "DRDC Valcartier",
@@ -9426,8 +9364,8 @@
       "Canadian Armed Forces"
     ],
     "source_note": "Valcartier (Courcelette)",
-    "duns_number": "775076428",
-    "business_number": "129623500RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Optech / Teledyne Optech (Quebec)",
@@ -9496,8 +9434,8 @@
       "Canadian Hydrographic Service"
     ],
     "source_note": "Quebec",
-    "duns_number": "235336278",
-    "business_number": "566864556RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Kongsberg Geospatial (Montreal)",
@@ -9568,226 +9506,8 @@
       "Raytheon"
     ],
     "source_note": "Montreal",
-    "duns_number": "568526082",
-    "business_number": "389213481RC0001"
-  },
-  {
-    "legal_name": "Saab Canada (Montreal)",
-    "trade_name": "Saab Canada",
-    "cage_code": "L1B71",
-    "country": "CAN",
-    "city": "Montréal",
-    "province": "QC",
-    "website": "https://www.saab.com",
-    "tier": "Tier1Supplier",
-    "controlled_goods": true,
-    "itar_compliant": true,
-    "facility_security_clearance": "Secret",
-    "certifications": [
-      "ISO9001",
-      "ITAR_Compliant",
-      "FacilitySecurity_Secret"
-    ],
-    "domains": [
-      "AirPlatform",
-      "MaritimePlatform",
-      "DomainDefence",
-      "DomainC4ISR"
-    ],
-    "platforms": [
-      "Platform_SurfaceCombatant",
-      "Platform_FixedWingCombat"
-    ],
-    "kics": [
-      "KIC_DefenceSystemsIntegration",
-      "KIC_SensorsSonar"
-    ],
-    "capabilities": [
-      {
-        "title": "Naval Combat Systems & Radar Integration",
-        "description": "Support for naval combat management systems, radars, and training/simulation in Canada.",
-        "trl": 9,
-        "mrl": 9,
-        "kic": "KIC_DefenceSystemsIntegration"
-      }
-    ],
-    "products": [
-      {
-        "name": "9LV Combat Management & Giraffe Radar",
-        "description": "Naval C2 and air/surface surveillance radars.",
-        "part_number": null,
-        "fsc_code": "5840",
-        "nsn_code": null,
-        "platforms": [
-          "Platform_SurfaceCombatant",
-          "Platform_FixedWingCombat"
-        ],
-        "materials": [
-          "Material_GalliumNitride_GaN"
-        ]
-      }
-    ],
-    "services": [
-      {
-        "name": "Naval Systems Engineering",
-        "description": "Combat system integration.",
-        "type": "EngineeringService",
-        "accreditation": "ISO9001"
-      }
-    ],
-    "parent_company": "Saab AB",
-    "supplies_to": [
-      "Royal Canadian Navy"
-    ],
-    "source_note": "Montreal",
-    "duns_number": "718020427",
-    "business_number": "530388284RC0001"
-  },
-  {
-    "legal_name": "Lockheed Martin Canada (Montreal)",
-    "trade_name": "Lockheed Martin Canada",
-    "cage_code": "LDBE1",
-    "country": "CAN",
-    "city": "Montréal",
-    "province": "QC",
-    "website": "https://www.lockheedmartin.com",
-    "tier": "Prime",
-    "controlled_goods": true,
-    "itar_compliant": true,
-    "facility_security_clearance": "Top Secret / SCI",
-    "certifications": [
-      "AS9100D",
-      "ISO9001",
-      "ITAR_Compliant",
-      "FacilitySecurity_TopSecret"
-    ],
-    "domains": [
-      "MaritimePlatform",
-      "AirPlatform",
-      "DomainDefence",
-      "DomainC4ISR"
-    ],
-    "platforms": [
-      "Platform_SurfaceCombatant",
-      "Platform_Type26_GlobalCombatShip",
-      "Platform_F35_Lightning_II"
-    ],
-    "kics": [
-      "KIC_DefenceSystemsIntegration",
-      "KIC_SensorsSonar"
-    ],
-    "capabilities": [
-      {
-        "title": "CMS 330 Naval Combat Management System",
-        "description": "Design and integration of the CMS 330 naval combat management system for Canadian and allied warships.",
-        "trl": 9,
-        "mrl": 9,
-        "kic": "KIC_DefenceSystemsIntegration"
-      }
-    ],
-    "products": [
-      {
-        "name": "CMS 330 Combat Management System",
-        "description": "Integrated naval C2 and sensor fusion software.",
-        "part_number": null,
-        "fsc_code": "5840",
-        "nsn_code": null,
-        "platforms": [
-          "Platform_SurfaceCombatant",
-          "Platform_Type26_GlobalCombatShip",
-          "Platform_F35_Lightning_II"
-        ],
-        "materials": [
-          "Material_GalliumNitride_GaN"
-        ]
-      }
-    ],
-    "services": [
-      {
-        "name": "Naval Combat System Integration",
-        "description": "Software engineering and shore-based testing.",
-        "type": "EngineeringService",
-        "accreditation": "AS9100D"
-      }
-    ],
-    "parent_company": "Lockheed Martin Corp.",
-    "supplies_to": [
-      "Royal Canadian Navy",
-      "Royal New Zealand Navy"
-    ],
-    "source_note": "CADSI member; Montreal",
-    "duns_number": "844171557",
-    "business_number": "217476269RC0001"
-  },
-  {
-    "legal_name": "Babcock Canada (Montreal / Lévis)",
-    "trade_name": "Babcock Canada",
-    "cage_code": "LE1E2",
-    "country": "CAN",
-    "city": "Lévis",
-    "province": "QC",
-    "website": "https://www.babcockcanada.com",
-    "tier": "Prime",
-    "controlled_goods": true,
-    "itar_compliant": true,
-    "facility_security_clearance": "Secret",
-    "certifications": [
-      "ISO9001",
-      "ISO14001",
-      "FacilitySecurity_Secret"
-    ],
-    "domains": [
-      "MaritimePlatform",
-      "DomainDefence"
-    ],
-    "platforms": [
-      "Platform_Submarine",
-      "Platform_SurfaceCombatant"
-    ],
-    "kics": [
-      "KIC_InServiceSupport",
-      "KIC_NavalShipbuilding"
-    ],
-    "capabilities": [
-      {
-        "title": "Naval In-Service Support & Submarine Sustainment",
-        "description": "Engineering, technical support, and fleet sustainment for Royal Canadian Navy vessels.",
-        "trl": 9,
-        "mrl": 9,
-        "kic": "KIC_InServiceSupport"
-      }
-    ],
-    "products": [
-      {
-        "name": "Naval Fleet Sustainment",
-        "description": "Lifecycle engineering and dockyard support.",
-        "part_number": null,
-        "fsc_code": "1905",
-        "nsn_code": null,
-        "platforms": [
-          "Platform_Submarine",
-          "Platform_SurfaceCombatant"
-        ],
-        "materials": [
-          "Material_Tungsten_HeavyAlloy"
-        ]
-      }
-    ],
-    "services": [
-      {
-        "name": "Naval In-Service Support",
-        "description": "Refit management and ILS.",
-        "type": "MROService",
-        "accreditation": "ISO9001"
-      }
-    ],
-    "parent_company": "Babcock International",
-    "supplies_to": [
-      "Royal Canadian Navy"
-    ],
-    "source_note": "CADSI member; Quebec",
-    "duns_number": "477740595",
-    "business_number": "410315577RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Serco Canada Marine",
@@ -9852,82 +9572,8 @@
       "Royal Canadian Navy"
     ],
     "source_note": "Quebec",
-    "duns_number": "502081354",
-    "business_number": "184541591RC0001"
-  },
-  {
-    "legal_name": "Raytheon Canada (Montreal)",
-    "trade_name": "Raytheon Canada",
-    "cage_code": "L7840",
-    "country": "CAN",
-    "city": "Montréal",
-    "province": "QC",
-    "website": "https://www.rtx.com",
-    "tier": "Prime",
-    "controlled_goods": true,
-    "itar_compliant": true,
-    "facility_security_clearance": "Top Secret / SCI",
-    "certifications": [
-      "AS9100D",
-      "ISO9001",
-      "ITAR_Compliant",
-      "FacilitySecurity_TopSecret"
-    ],
-    "domains": [
-      "AirPlatform",
-      "MaritimePlatform",
-      "DomainDefence",
-      "DomainC4ISR"
-    ],
-    "platforms": [
-      "Platform_SurfaceCombatant",
-      "Platform_Patriot_PAC3"
-    ],
-    "kics": [
-      "KIC_SensorsSonar",
-      "KIC_DefenceSystemsIntegration"
-    ],
-    "capabilities": [
-      {
-        "title": "Radar, Air Traffic & Missile Defence Support",
-        "description": "Engineering and sustainment for air traffic management, naval radars, and defence systems.",
-        "trl": 9,
-        "mrl": 9,
-        "kic": "KIC_SensorsSonar"
-      }
-    ],
-    "products": [
-      {
-        "name": "Phalanx / Naval Radar Support",
-        "description": "Radar and weapon system sustainment.",
-        "part_number": null,
-        "fsc_code": "5840",
-        "nsn_code": null,
-        "platforms": [
-          "Platform_SurfaceCombatant",
-          "Platform_Patriot_PAC3"
-        ],
-        "materials": [
-          "Material_GalliumNitride_GaN"
-        ]
-      }
-    ],
-    "services": [
-      {
-        "name": "Radar & Defence Sustainment",
-        "description": "In-service support and depot repair.",
-        "type": "MROService",
-        "accreditation": "AS9100D"
-      }
-    ],
-    "parent_company": "RTX Corporation",
-    "supplies_to": [
-      "Royal Canadian Navy",
-      "NAV CANADA"
-    ],
-    "source_note": "Montreal",
-    "duns_number": "264580065",
-    "business_number": "546571579RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Leonardo Canada (Montreal)",
@@ -9998,8 +9644,8 @@
       "Royal Canadian Navy"
     ],
     "source_note": "Montreal",
-    "duns_number": "387136871",
-    "business_number": "122534774RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Sagemcom / Safran Electronics & Defense Canada",
@@ -10070,8 +9716,8 @@
       "Canadian Armed Forces"
     ],
     "source_note": "Montreal",
-    "duns_number": "241179939",
-    "business_number": "739360272RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Esterline / Korry (Montreal)",
@@ -10141,8 +9787,8 @@
       "Bell Textron"
     ],
     "source_note": "Saint-Laurent",
-    "duns_number": "627532046",
-    "business_number": "135883708RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Aéronautique 2000 Inc.",
@@ -10207,8 +9853,8 @@
       "Regional Operators"
     ],
     "source_note": "Saint-Hubert",
-    "duns_number": "164154677",
-    "business_number": "848984043RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Pascan Aviation Inc.",
@@ -10272,8 +9918,8 @@
       "Quebec Regional Routes"
     ],
     "source_note": "Saint-Hubert",
-    "duns_number": "381183750",
-    "business_number": "787267962RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Propair Inc.",
@@ -10337,8 +9983,8 @@
       "Government of Quebec"
     ],
     "source_note": "Rouyn-Noranda",
-    "duns_number": "530326239",
-    "business_number": "135731614RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Air Creebec Inc.",
@@ -10402,8 +10048,8 @@
       "Northern Quebec Communities"
     ],
     "source_note": "Val-d'Or",
-    "duns_number": "914583662",
-    "business_number": "655243165RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "ExactAir Inc.",
@@ -10468,8 +10114,8 @@
       "Government of Quebec"
     ],
     "source_note": "Saint-Honoré (Saguenay)",
-    "duns_number": "397641261",
-    "business_number": "291044086RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Heli-Excel Inc.",
@@ -10534,8 +10180,8 @@
       "Mining Sector"
     ],
     "source_note": "Sept-Îles",
-    "duns_number": "704587018",
-    "business_number": "543726605RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Passport Hélico Inc.",
@@ -10599,8 +10245,8 @@
       "Commercial Operators"
     ],
     "source_note": "Mascouche",
-    "duns_number": "404571200",
-    "business_number": "818160695RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Aéro-Photo (1961) Inc.",
@@ -10664,8 +10310,8 @@
       "Government of Quebec"
     ],
     "source_note": "Quebec City",
-    "duns_number": "402421954",
-    "business_number": "175100598RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Effenco / Oshkosh (Montreal)",
@@ -10729,8 +10375,8 @@
       "Airports & Airlines"
     ],
     "source_note": "Montreal",
-    "duns_number": "461211433",
-    "business_number": "752931439RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Groupe Nduom / NordSpace (Quebec Ops)",
@@ -10797,8 +10443,8 @@
       "Canadian Space Agency"
     ],
     "source_note": "Canadian space ecosystem",
-    "duns_number": "132185902",
-    "business_number": "105718575RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Sovereign / Spire Global (Montreal)",
@@ -10865,8 +10511,8 @@
       "Canadian Coast Guard"
     ],
     "source_note": "Montreal",
-    "duns_number": "141731564",
-    "business_number": "349102667RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Ciena Canada (Montreal)",
@@ -10933,8 +10579,8 @@
       "DND Canada"
     ],
     "source_note": "Montreal",
-    "duns_number": "795211441",
-    "business_number": "293335161RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Ericsson Canada (Montreal)",
@@ -10999,8 +10645,8 @@
       "Airports & Ports"
     ],
     "source_note": "Montreal R&D hub",
-    "duns_number": "748791115",
-    "business_number": "660574134RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Matrox Electronic Systems Ltd.",
@@ -11067,8 +10713,8 @@
       "Lockheed Martin"
     ],
     "source_note": "Dorval HQ",
-    "duns_number": "549710837",
-    "business_number": "331849017RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Genetec Inc.",
@@ -11136,8 +10782,8 @@
       "Airports"
     ],
     "source_note": "Saint-Laurent HQ",
-    "duns_number": "251169623",
-    "business_number": "194095662RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Korem Inc.",
@@ -11200,8 +10846,8 @@
       "Government Agencies"
     ],
     "source_note": "Quebec City HQ",
-    "duns_number": "831187633",
-    "business_number": "757795561RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "LeddarTech Inc.",
@@ -11269,8 +10915,8 @@
       "Automotive & Autonomy OEMs"
     ],
     "source_note": "Quebec City HQ",
-    "duns_number": "740218540",
-    "business_number": "718530197RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Vention Inc.",
@@ -11334,8 +10980,8 @@
       "Aerospace & Manufacturing"
     ],
     "source_note": "Montreal HQ",
-    "duns_number": "403738113",
-    "business_number": "331779007RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Kinova Inc.",
@@ -11401,8 +11047,8 @@
       "Defence Integrators"
     ],
     "source_note": "Boisbriand HQ",
-    "duns_number": "779978367",
-    "business_number": "414740582RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Robotiq Inc.",
@@ -11466,8 +11112,8 @@
       "Aerospace Tier-1/2"
     ],
     "source_note": "Lévis HQ",
-    "duns_number": "183261705",
-    "business_number": "482435457RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Eddyfi Technologies",
@@ -11539,8 +11185,8 @@
       "US Navy"
     ],
     "source_note": "Quebec City HQ",
-    "duns_number": "459602227",
-    "business_number": "682681321RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Novakem / Sika (Quebec)",
@@ -11609,8 +11255,8 @@
       "Davie Shipbuilding"
     ],
     "source_note": "Pointe-Claire",
-    "duns_number": "711114304",
-    "business_number": "415598949RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "h2o Innovation Inc.",
@@ -11675,8 +11321,8 @@
       "Canadian Coast Guard"
     ],
     "source_note": "Quebec City HQ",
-    "duns_number": "313506923",
-    "business_number": "973357787RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Xebec / Ivys Adsorption",
@@ -11740,8 +11386,8 @@
       "Industrial & Defence"
     ],
     "source_note": "Blainville",
-    "duns_number": "398273972",
-    "business_number": "149688596RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "OPAL-RT Technologies Inc.",
@@ -11813,8 +11459,8 @@
       "Naval Contractors"
     ],
     "source_note": "Montreal HQ",
-    "duns_number": "250406102",
-    "business_number": "669559495RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "OSF Digital / Alithya Group Inc.",
@@ -11882,8 +11528,8 @@
       "Aerospace Primes"
     ],
     "source_note": "Quebec City HQ",
-    "duns_number": "983080423",
-    "business_number": "834491366RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Aéro-Design / Sogeclair Aerospace Canada",
@@ -11950,8 +11596,8 @@
       "Airbus"
     ],
     "source_note": "Montreal",
-    "duns_number": "346653619",
-    "business_number": "306355243RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Exonetik Inc.",
@@ -12019,8 +11665,8 @@
       "Robotics & Defence OEMs"
     ],
     "source_note": "Sherbrooke",
-    "duns_number": "793428550",
-    "business_number": "158106931RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Boreal Laser / Boson Photonics",
@@ -12085,8 +11731,8 @@
       "Research Labs"
     ],
     "source_note": "Quebec City",
-    "duns_number": "358958765",
-    "business_number": "475370910RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "General Dynamics Mission Systems–Canada",
@@ -12102,21 +11748,23 @@
     "facility_security_clearance": "Top Secret / SCI",
     "certifications": [
       "AS9100D",
-      "ISO9001",
+      "FacilitySecurity_TopSecret",
       "ISO27001",
-      "FacilitySecurity_TopSecret"
+      "ISO9001"
     ],
     "domains": [
-      "LandPlatform",
-      "MaritimePlatform",
       "AirPlatform",
+      "DomainC4ISR",
       "DomainDefence",
-      "DomainC4ISR"
+      "LandPlatform",
+      "MaritimePlatform"
     ],
     "platforms": [
       "Platform_ArmouredCombatVehicle",
-      "Platform_Type26_GlobalCombatShip",
-      "Platform_P8_Poseidon"
+      "Platform_P8_Poseidon",
+      "Platform_Submarine",
+      "Platform_SurfaceCombatant",
+      "Platform_Type26_GlobalCombatShip"
     ],
     "kics": [
       "KIC_DefenceSystemsIntegration",
@@ -12130,6 +11778,13 @@
         "trl": 9,
         "mrl": 9,
         "kic": "KIC_DefenceSystemsIntegration"
+      },
+      {
+        "title": "Underwater Acoustics & Naval C4ISR",
+        "description": "Development of sonobuoy processing, towed array sonar, and integrated maritime C4ISR systems.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_SensorsSonar"
       }
     ],
     "products": [
@@ -12147,6 +11802,18 @@
         "materials": [
           "Material_Titanium_Ti6Al4V"
         ]
+      },
+      {
+        "name": "Maritime Acoustic Processing Systems",
+        "description": "Anti-submarine warfare acoustic processors and tactical display systems.",
+        "part_number": "GDMS-ASW-01",
+        "fsc_code": "5845",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_SurfaceCombatant",
+          "Platform_P8_Poseidon"
+        ],
+        "materials": []
       }
     ],
     "services": [
@@ -12155,17 +11822,24 @@
         "description": "End-to-end defence systems engineering, integration, and lifecycle support.",
         "type": "EngineeringService",
         "accreditation": "AS9100D"
+      },
+      {
+        "name": "Naval C4ISR Integration & Support",
+        "description": "Engineering and sustainment for naval underwater warfare and mission systems.",
+        "type": "EngineeringService",
+        "accreditation": "ISO9001"
       }
     ],
     "parent_company": "General Dynamics Corporation",
     "supplies_to": [
+      "Canadian Army",
       "Department of National Defence (Canada)",
-      "Royal Canadian Navy",
-      "Canadian Army"
+      "Royal Canadian Air Force",
+      "Royal Canadian Navy"
     ],
-    "source_note": "CADSI Member / Ottawa Defence Cluster",
-    "duns_number": "551225927",
-    "business_number": "165328674RC0001"
+    "source_note": "CADSI Member / Ottawa Defence Cluster; Integrated operating facility in Dartmouth",
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Lockheed Martin Canada Inc.",
@@ -12181,29 +11855,38 @@
     "facility_security_clearance": "Top Secret / SCI",
     "certifications": [
       "AS9100D",
+      "FacilitySecurity_TopSecret",
       "ISO9001",
-      "FacilitySecurity_TopSecret"
+      "ITAR_Compliant"
     ],
     "domains": [
-      "MaritimePlatform",
       "AirPlatform",
+      "DomainC4ISR",
       "DomainDefence",
-      "DomainC4ISR"
+      "MaritimePlatform"
     ],
     "platforms": [
-      "Platform_Type26_GlobalCombatShip",
+      "Platform_C130J_SuperHercules",
       "Platform_F35_Lightning_II",
-      "Platform_C130J_SuperHercules"
+      "Platform_SurfaceCombatant",
+      "Platform_Type26_GlobalCombatShip"
     ],
     "kics": [
       "KIC_DefenceSystemsIntegration",
-      "KIC_SensorsSonar",
-      "KIC_InServiceSupport"
+      "KIC_InServiceSupport",
+      "KIC_SensorsSonar"
     ],
     "capabilities": [
       {
         "title": "Naval Combat Management Systems & Aerospace Sustainment",
         "description": "Design and integration of CMS 330 naval combat management systems and military aircraft sustainment.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_DefenceSystemsIntegration"
+      },
+      {
+        "title": "CMS 330 Naval Combat Management System",
+        "description": "Design and integration of the CMS 330 naval combat management system for Canadian and allied warships.",
         "trl": 9,
         "mrl": 9,
         "kic": "KIC_DefenceSystemsIntegration"
@@ -12232,16 +11915,23 @@
         "description": "Naval combat system integration, testing, and aerospace fleet sustainment.",
         "type": "EngineeringService",
         "accreditation": "AS9100D"
+      },
+      {
+        "name": "Naval Combat System Integration",
+        "description": "Software engineering and shore-based testing.",
+        "type": "EngineeringService",
+        "accreditation": "AS9100D"
       }
     ],
     "parent_company": "Lockheed Martin Corporation",
     "supplies_to": [
+      "Royal Canadian Air Force",
       "Royal Canadian Navy",
-      "Royal Canadian Air Force"
+      "Royal New Zealand Navy"
     ],
-    "source_note": "CADSI Member / Ottawa Defence Cluster",
-    "duns_number": "417238589",
-    "business_number": "270956150RC0001"
+    "source_note": "CADSI Member / Ottawa Defence Cluster; Integrated operating facility in Montréal",
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Calian Group Ltd.",
@@ -12313,8 +12003,8 @@
       "NATO"
     ],
     "source_note": "CADSI Member / Ottawa",
-    "duns_number": "152365437",
-    "business_number": "592302054RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "ADGA Group Consultants Inc.",
@@ -12384,8 +12074,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "CADSI Member / Ottawa",
-    "duns_number": "846602031",
-    "business_number": "400651377RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "DRS Technologies Canada Ltd.",
@@ -12460,8 +12150,8 @@
       "US Navy"
     ],
     "source_note": "CADSI Member / Kanata",
-    "duns_number": "291766717",
-    "business_number": "224628945RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Allen-Vanguard Corporation",
@@ -12532,8 +12222,8 @@
       "US DoD"
     ],
     "source_note": "CADSI Member / Ottawa",
-    "duns_number": "556428539",
-    "business_number": "793917231RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "49North",
@@ -12602,8 +12292,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "Canadian Defence Review / Ottawa",
-    "duns_number": "278242769",
-    "business_number": "773074939RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "QinetiQ Canada Ltd.",
@@ -12673,8 +12363,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "CADSI Member / Ottawa",
-    "duns_number": "551006700",
-    "business_number": "397865738RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "IBM Canada Defence and Intelligence Centre",
@@ -12740,8 +12430,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "Ottawa Defence Cluster",
-    "duns_number": "563142490",
-    "business_number": "398391663RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Sphyrna Security Inc.",
@@ -12807,8 +12497,8 @@
       "CSE"
     ],
     "source_note": "Ottawa Cyber Cluster",
-    "duns_number": "440936880",
-    "business_number": "865799770RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Crypto4A Technologies Inc.",
@@ -12874,8 +12564,8 @@
       "NATO Allies"
     ],
     "source_note": "Ottawa Cyber Cluster",
-    "duns_number": "248850534",
-    "business_number": "498425805RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "CCX Technologies Inc.",
@@ -12946,8 +12636,8 @@
       "Royal Canadian Air Force"
     ],
     "source_note": "OAC / Ottawa",
-    "duns_number": "795078952",
-    "business_number": "625244259RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Vectors Defence Inc.",
@@ -13013,8 +12703,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "Ottawa Defence Cluster",
-    "duns_number": "521963238",
-    "business_number": "768362771RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Arnprior Aerospace Inc.",
@@ -13086,8 +12776,8 @@
       "Lockheed Martin"
     ],
     "source_note": "OAC Board Member / Arnprior",
-    "duns_number": "187381023",
-    "business_number": "131658421RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Telesat Canada",
@@ -13155,8 +12845,8 @@
       "US DoD"
     ],
     "source_note": "Ottawa Space Cluster",
-    "duns_number": "413897208",
-    "business_number": "233867083RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "C-COM Satellite Systems Inc.",
@@ -13225,8 +12915,8 @@
       "NATO"
     ],
     "source_note": "Ottawa Space Cluster",
-    "duns_number": "756169459",
-    "business_number": "147349845RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Mission Control Space Services Inc.",
@@ -13292,8 +12982,8 @@
       "NASA"
     ],
     "source_note": "Ottawa Space Cluster",
-    "duns_number": "195533149",
-    "business_number": "456315552RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Robotics Centre Inc.",
@@ -13360,8 +13050,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "Kanata / DND Supplier",
-    "duns_number": "724216179",
-    "business_number": "587270570RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Dominion Dynamics Inc.",
@@ -13427,8 +13117,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "Ottawa Defence Tech",
-    "duns_number": "485666228",
-    "business_number": "909270327RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "AirShare Inc.",
@@ -13494,8 +13184,8 @@
       "US DoD"
     ],
     "source_note": "Ottawa Defence Tech",
-    "duns_number": "585354776",
-    "business_number": "973438798RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Tron Motors Inc.",
@@ -13561,80 +13251,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "Ottawa Area X.O",
-    "duns_number": "277291531",
-    "business_number": "357449542RC0001"
-  },
-  {
-    "legal_name": "Bombardier Inc. (Toronto/Mississauga Operations)",
-    "trade_name": "Bombardier",
-    "cage_code": "LE832",
-    "country": "CAN",
-    "city": "Mississauga",
-    "province": "ON",
-    "website": "https://bombardier.com",
-    "tier": "Prime",
-    "controlled_goods": true,
-    "itar_compliant": true,
-    "facility_security_clearance": "Unclassified / ITAR",
-    "certifications": [
-      "AS9100D",
-      "ISO9001",
-      "ISO14001",
-      "NADCAP_Composites"
-    ],
-    "domains": [
-      "AirPlatform",
-      "DomainAeronautics",
-      "DomainDefence"
-    ],
-    "platforms": [
-      "Platform_FixedWingTransport"
-    ],
-    "kics": [
-      "KIC_AerospaceSystems",
-      "KIC_AdvancedMaterials"
-    ],
-    "capabilities": [
-      {
-        "title": "Business & Special-Mission Aircraft Final Assembly",
-        "description": "Final assembly and flight completion of Global-series aircraft, including special-mission defence variants.",
-        "trl": 9,
-        "mrl": 9,
-        "kic": "KIC_AerospaceSystems"
-      }
-    ],
-    "products": [
-      {
-        "name": "Global 6500 / 8000 Special Mission Platform",
-        "description": "Long-range business and military ISR/AEW&C aircraft platform.",
-        "part_number": "BBD-GLOBAL-SM",
-        "fsc_code": "1510",
-        "nsn_code": null,
-        "platforms": [
-          "Platform_FixedWingTransport"
-        ],
-        "materials": [
-          "Material_Titanium_Ti6Al4V"
-        ]
-      }
-    ],
-    "services": [
-      {
-        "name": "Aircraft Completion & MRO",
-        "description": "Final aircraft assembly, flight test, and global customer support.",
-        "type": "MROService",
-        "accreditation": "AS9100D"
-      }
-    ],
-    "parent_company": null,
-    "supplies_to": [
-      "Royal Canadian Air Force",
-      "US Air Force",
-      "Global Allies"
-    ],
-    "source_note": "OAC Member / Mississauga",
-    "duns_number": "741502136",
-    "business_number": "723676140RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "MHI Canada Aerospace, Inc.",
@@ -13701,8 +13319,8 @@
       "Bombardier"
     ],
     "source_note": "OAC / Mississauga",
-    "duns_number": "119924305",
-    "business_number": "801653976RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Magellan Aerospace Corporation",
@@ -13781,8 +13399,8 @@
       "Canadian Space Agency"
     ],
     "source_note": "OAC / CADSI / Mississauga",
-    "duns_number": "697402379",
-    "business_number": "876972992RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Collins Aerospace (Goodrich Aerospace Canada)",
@@ -13856,8 +13474,8 @@
       "Lockheed Martin"
     ],
     "source_note": "OAC Board Member / Oakville",
-    "duns_number": "132117020",
-    "business_number": "416660862RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Pratt & Whitney Canada Corp. (Mississauga Operations)",
@@ -13928,8 +13546,8 @@
       "De Havilland Canada"
     ],
     "source_note": "OAC / Mississauga",
-    "duns_number": "253983392",
-    "business_number": "729545038RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Honeywell Aerospace Canada",
@@ -14005,8 +13623,8 @@
       "NASA"
     ],
     "source_note": "OAC / Mississauga & Cambridge",
-    "duns_number": "716503871",
-    "business_number": "421472749RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Firan Technology Group Corporation",
@@ -14081,8 +13699,8 @@
       "Collins Aerospace"
     ],
     "source_note": "OAC Board Member / Toronto",
-    "duns_number": "776239121",
-    "business_number": "728870353RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "De Havilland Aircraft of Canada Limited",
@@ -14150,8 +13768,8 @@
       "Global Operators"
     ],
     "source_note": "OAC Board Member / Toronto",
-    "duns_number": "972135858",
-    "business_number": "311670978RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Mubea Cyclone Manufacturing",
@@ -14223,8 +13841,8 @@
       "Spirit AeroSystems"
     ],
     "source_note": "OAC Board Member / Mississauga",
-    "duns_number": "619633195",
-    "business_number": "308447185RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Aviya Aerospace Systems Inc.",
@@ -14294,8 +13912,8 @@
       "Honeywell"
     ],
     "source_note": "OAC / Mississauga",
-    "duns_number": "297075090",
-    "business_number": "944445937RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Aversan Inc.",
@@ -14365,8 +13983,8 @@
       "Collins Aerospace"
     ],
     "source_note": "Invest Mississauga / OAC",
-    "duns_number": "294238860",
-    "business_number": "580419185RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Exactatherm Ltd.",
@@ -14435,8 +14053,8 @@
       "Safran Landing Systems"
     ],
     "source_note": "Invest Mississauga",
-    "duns_number": "720137523",
-    "business_number": "161986070RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Avocet Aerospace Inc.",
@@ -14501,8 +14119,8 @@
       "Commercial & Military Operators"
     ],
     "source_note": "Invest Brampton",
-    "duns_number": "107109733",
-    "business_number": "446542448RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Roshel Inc.",
@@ -14569,8 +14187,8 @@
       "US DoS"
     ],
     "source_note": "Invest Brampton / CADSI",
-    "duns_number": "915951638",
-    "business_number": "393984822RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Burloak Technologies",
@@ -14643,8 +14261,8 @@
       "Lockheed Martin"
     ],
     "source_note": "OAC / Oakville",
-    "duns_number": "523526781",
-    "business_number": "757812631RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "PV Labs Inc.",
@@ -14715,8 +14333,8 @@
       "Defence & Security Agencies"
     ],
     "source_note": "Burlington Aerospace Cluster",
-    "duns_number": "622500706",
-    "business_number": "591964505RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "L3Harris Technologies (WESCAM)",
@@ -14794,8 +14412,8 @@
       "NATO"
     ],
     "source_note": "CADSI / Hamilton-Burlington",
-    "duns_number": "527492944",
-    "business_number": "236330806RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Kepler Communications Inc.",
@@ -14862,8 +14480,8 @@
       "US Space Force"
     ],
     "source_note": "Toronto Space Cluster",
-    "duns_number": "409505400",
-    "business_number": "400234274RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Canadensys Aerospace Corporation",
@@ -14930,8 +14548,8 @@
       "NASA"
     ],
     "source_note": "Ontario Space Cluster",
-    "duns_number": "355062736",
-    "business_number": "721363199RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Matrix Technology Ltd.",
@@ -14999,8 +14617,8 @@
       "Airbus"
     ],
     "source_note": "Markham AS9100 Cluster",
-    "duns_number": "180693167",
-    "business_number": "783171382RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Aerocom Inspection Service Ltd.",
@@ -15071,8 +14689,8 @@
       "Honeywell"
     ],
     "source_note": "Mississauga Nadcap / CGP",
-    "duns_number": "245087578",
-    "business_number": "992409478RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Airbus Helicopters Canada Limited",
@@ -15142,8 +14760,8 @@
       "Canadian Coast Guard"
     ],
     "source_note": "OAC Board Chair / Fort Erie",
-    "duns_number": "154272647",
-    "business_number": "620967289RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "General Dynamics Land Systems–Canada",
@@ -15216,8 +14834,8 @@
       "Allied Forces"
     ],
     "source_note": "CADSI / London Defence Cluster",
-    "duns_number": "598434653",
-    "business_number": "151225889RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Diamond Aircraft Industries Inc.",
@@ -15285,8 +14903,8 @@
       "Flight Training Schools"
     ],
     "source_note": "OAC Board Member / London",
-    "duns_number": "350113117",
-    "business_number": "505127922RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Armatec Survivability",
@@ -15353,8 +14971,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "London Defence Cluster",
-    "duns_number": "445650922",
-    "business_number": "272256663RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "NP Aerospace (Canada) Ltd.",
@@ -15421,8 +15039,8 @@
       "UK MoD"
     ],
     "source_note": "London Defence Cluster",
-    "duns_number": "533151097",
-    "business_number": "526559802RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Militex Coatings Inc.",
@@ -15489,8 +15107,8 @@
       "Canadian Army"
     ],
     "source_note": "London Defence Cluster",
-    "duns_number": "526970342",
-    "business_number": "275569865RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Teledyne FLIR Defence (Waterloo)",
@@ -15561,8 +15179,8 @@
       "NATO"
     ],
     "source_note": "Waterloo EDC",
-    "duns_number": "547312223",
-    "business_number": "914923407RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Schaeffler Aerospace Canada Inc.",
@@ -15634,8 +15252,8 @@
       "Rolls-Royce"
     ],
     "source_note": "Stratford / OAC",
-    "duns_number": "837355229",
-    "business_number": "415295379RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Spire Global Canada (exactEarth)",
@@ -15703,8 +15321,8 @@
       "Canadian Coast Guard"
     ],
     "source_note": "Waterloo-Cambridge Space Cluster",
-    "duns_number": "867408477",
-    "business_number": "564929993RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Uncrewed Systems Inc.",
@@ -15770,8 +15388,8 @@
       "Defence Agencies"
     ],
     "source_note": "Kitchener UAS Cluster",
-    "duns_number": "929777894",
-    "business_number": "806744466RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Voyageur Aviation Corp.",
@@ -15840,8 +15458,8 @@
       "UN"
     ],
     "source_note": "North Bay Aerospace Cluster",
-    "duns_number": "890705281",
-    "business_number": "161000859RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "International Test Pilots School (ITPS) Canada",
@@ -15910,8 +15528,8 @@
       "International Air Forces"
     ],
     "source_note": "London / North Bay",
-    "duns_number": "667853619",
-    "business_number": "150977839RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Ontario Shipyards Inc.",
@@ -15978,8 +15596,8 @@
       "Canadian Coast Guard"
     ],
     "source_note": "St. Catharines / Thunder Bay",
-    "duns_number": "746599947",
-    "business_number": "852157428RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Springer Aerospace",
@@ -16044,8 +15662,8 @@
       "Commercial & Government Fleets"
     ],
     "source_note": "Sault Ste. Marie Cluster",
-    "duns_number": "576374362",
-    "business_number": "235252676RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Fairbanks Morse Defense Canada",
@@ -16114,8 +15732,8 @@
       "US Navy"
     ],
     "source_note": "Peterborough Aerospace & Defence Cluster",
-    "duns_number": "145176234",
-    "business_number": "398382932RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "ACF Associates Inc.",
@@ -16183,8 +15801,8 @@
       "Royal Canadian Air Force"
     ],
     "source_note": "Peterborough Cluster",
-    "duns_number": "354869935",
-    "business_number": "967197417RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Brotech Precision CNC",
@@ -16253,8 +15871,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "Barrie Defence Cluster",
-    "duns_number": "214393391",
-    "business_number": "308018459RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Héroux-Devtek Inc. (Cambridge/Kitchener)",
@@ -16322,8 +15940,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "152249382",
-    "business_number": "172639636RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Centra Industries Inc.",
@@ -16390,8 +16008,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "167723428",
-    "business_number": "525445326RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Northstar Aerospace (Canada) Inc.",
@@ -16460,8 +16078,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "866065260",
-    "business_number": "363573542RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "IMP Aerospace & Defence (Trenton)",
@@ -16527,8 +16145,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "790352012",
-    "business_number": "743550028RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Cascade Aerospace Inc. (Trenton)",
@@ -16594,144 +16212,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "277164257",
-    "business_number": "730717866RC0001"
-  },
-  {
-    "legal_name": "Boeing Canada Operations Ltd. (Trenton)",
-    "trade_name": "Boeing Canada",
-    "cage_code": "L5EF3",
-    "country": "CAN",
-    "city": "Trenton",
-    "province": "ON",
-    "website": "https://www.boeing.ca",
-    "tier": "Prime",
-    "controlled_goods": true,
-    "itar_compliant": true,
-    "facility_security_clearance": "Secret",
-    "certifications": [
-      "AS9100D",
-      "ISO9001"
-    ],
-    "domains": [
-      "AirPlatform",
-      "DomainDefence"
-    ],
-    "platforms": [
-      "Platform_FixedWingTransport"
-    ],
-    "kics": [
-      "KIC_InServiceSupport"
-    ],
-    "capabilities": [
-      {
-        "title": "Boeing Canada Aerospace & Defence Capabilities",
-        "description": "Verified Ontario aerospace/defence supplier in Trenton providing KIC_InServiceSupport capabilities.",
-        "trl": 9,
-        "mrl": 9,
-        "kic": "KIC_InServiceSupport"
-      }
-    ],
-    "products": [
-      {
-        "name": "Advanced Composite Control Surfaces & Fairings",
-        "description": "High-performance autoclave-cured carbon fiber ailerons, flap track fairings, and rudder structural assemblies.",
-        "part_number": "PN-BCW-FLAP-CF",
-        "fsc_code": "1560",
-        "nsn_code": "1560-20-006-8821",
-        "platforms": [
-          "Platform_P8_Poseidon",
-          "Platform_FixedWingCombat"
-        ],
-        "materials": [
-          "Material_CarbonFiber_Composite"
-        ]
-      }
-    ],
-    "services": [
-      {
-        "name": "Boeing Canada Engineering & Support",
-        "description": "Technical engineering, manufacturing, or sustainment services in Trenton, ON.",
-        "type": "EngineeringService",
-        "accreditation": "AS9100D"
-      }
-    ],
-    "parent_company": null,
-    "supplies_to": [
-      "Department of National Defence (Canada)"
-    ],
-    "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "858304466",
-    "business_number": "569688856RC0001"
-  },
-  {
-    "legal_name": "Thales Canada Inc. (Ottawa)",
-    "trade_name": "Thales Canada",
-    "cage_code": "L8C9F",
-    "country": "CAN",
-    "city": "Ottawa",
-    "province": "ON",
-    "website": "https://www.thalesgroup.com/en/countries/americas/canada",
-    "tier": "Prime",
-    "controlled_goods": true,
-    "itar_compliant": true,
-    "facility_security_clearance": "Secret",
-    "certifications": [
-      "AS9100D",
-      "ISO9001"
-    ],
-    "domains": [
-      "DomainDefence",
-      "DomainC4ISR",
-      "MaritimePlatform"
-    ],
-    "platforms": [
-      "Platform_FixedWingTransport"
-    ],
-    "kics": [
-      "KIC_DefenceSystemsIntegration",
-      "KIC_SensorsSonar"
-    ],
-    "capabilities": [
-      {
-        "title": "Thales Canada Aerospace & Defence Capabilities",
-        "description": "Verified Ontario aerospace/defence supplier in Ottawa providing KIC_DefenceSystemsIntegration capabilities.",
-        "trl": 9,
-        "mrl": 9,
-        "kic": "KIC_DefenceSystemsIntegration"
-      }
-    ],
-    "products": [
-      {
-        "name": "Naval Tactical Command & Fire Control Software Suites",
-        "description": "TactIS-integrated naval mission systems, situational awareness engines, and digital intercommunication terminals.",
-        "part_number": "PN-THL-TACT-SW",
-        "fsc_code": "5895",
-        "nsn_code": "5895-20-007-1290",
-        "platforms": [
-          "Platform_Type26_GlobalCombatShip",
-          "Platform_SurfaceCombatant"
-        ],
-        "materials": [
-          "Material_SiliconCarbide_SiC"
-        ]
-      }
-    ],
-    "services": [
-      {
-        "name": "Thales Canada Engineering & Support",
-        "description": "Technical engineering, manufacturing, or sustainment services in Ottawa, ON.",
-        "type": "EngineeringService",
-        "accreditation": "AS9100D"
-      }
-    ],
-    "parent_company": null,
-    "supplies_to": [
-      "Department of National Defence (Canada)"
-    ],
-    "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "158801412",
-    "business_number": "392417031RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "BAE Systems Canada",
@@ -16798,8 +16280,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "228872527",
-    "business_number": "524670307RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Northrop Grumman Canada",
@@ -16867,8 +16349,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "531833744",
-    "business_number": "511926490RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Saab Canada Inc.",
@@ -16884,15 +16366,20 @@
     "facility_security_clearance": "Secret",
     "certifications": [
       "AS9100D",
-      "ISO9001"
+      "FacilitySecurity_Secret",
+      "ISO9001",
+      "ITAR_Compliant"
     ],
     "domains": [
-      "DomainDefence",
+      "AirPlatform",
       "DomainC4ISR",
-      "AirPlatform"
+      "DomainDefence",
+      "MaritimePlatform"
     ],
     "platforms": [
-      "Platform_FixedWingTransport"
+      "Platform_FixedWingCombat",
+      "Platform_FixedWingTransport",
+      "Platform_SurfaceCombatant"
     ],
     "kics": [
       "KIC_DefenceSystemsIntegration",
@@ -16902,6 +16389,13 @@
       {
         "title": "Saab Canada Aerospace & Defence Capabilities",
         "description": "Verified Ontario aerospace/defence supplier in Ottawa providing KIC_DefenceSystemsIntegration capabilities.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_DefenceSystemsIntegration"
+      },
+      {
+        "title": "Naval Combat Systems & Radar Integration",
+        "description": "Support for naval combat management systems, radars, and training/simulation in Canada.",
         "trl": 9,
         "mrl": 9,
         "kic": "KIC_DefenceSystemsIntegration"
@@ -16921,6 +16415,20 @@
         "materials": [
           "Material_GalliumNitride_GaN"
         ]
+      },
+      {
+        "name": "9LV Combat Management & Giraffe Radar",
+        "description": "Naval C2 and air/surface surveillance radars.",
+        "part_number": null,
+        "fsc_code": "5840",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_SurfaceCombatant",
+          "Platform_FixedWingCombat"
+        ],
+        "materials": [
+          "Material_GalliumNitride_GaN"
+        ]
       }
     ],
     "services": [
@@ -16929,84 +16437,22 @@
         "description": "Technical engineering, manufacturing, or sustainment services in Ottawa, ON.",
         "type": "EngineeringService",
         "accreditation": "AS9100D"
-      }
-    ],
-    "parent_company": null,
-    "supplies_to": [
-      "Department of National Defence (Canada)"
-    ],
-    "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "926554304",
-    "business_number": "604781706RC0001"
-  },
-  {
-    "legal_name": "Rheinmetall Canada Inc. (Ottawa)",
-    "trade_name": "Rheinmetall Canada",
-    "cage_code": "L70DC",
-    "country": "CAN",
-    "city": "Ottawa",
-    "province": "ON",
-    "website": "https://www.rheinmetall.ca",
-    "tier": "Prime",
-    "controlled_goods": true,
-    "itar_compliant": true,
-    "facility_security_clearance": "Secret",
-    "certifications": [
-      "AS9100D",
-      "ISO9001"
-    ],
-    "domains": [
-      "LandPlatform",
-      "DomainDefence",
-      "DomainC4ISR"
-    ],
-    "platforms": [
-      "Platform_FixedWingTransport"
-    ],
-    "kics": [
-      "KIC_ArmouredVehicles",
-      "KIC_DefenceSystemsIntegration"
-    ],
-    "capabilities": [
+      },
       {
-        "title": "Rheinmetall Canada Aerospace & Defence Capabilities",
-        "description": "Verified Ontario aerospace/defence supplier in Ottawa providing KIC_ArmouredVehicles capabilities.",
-        "trl": 9,
-        "mrl": 9,
-        "kic": "KIC_ArmouredVehicles"
-      }
-    ],
-    "products": [
-      {
-        "name": "Argus Soldier System Digital Dismounted Hub",
-        "description": "Integrated soldier system power/data distribution hub connecting tactical radios, weapon sights, and wearable computing.",
-        "part_number": "PN-RHE-ARGUS-HUB",
-        "fsc_code": "5895",
-        "nsn_code": "5895-20-011-8273",
-        "platforms": [
-          "Platform_CyberDefenceSystem",
-          "Platform_ArmouredCombatVehicle"
-        ],
-        "materials": [
-          "Material_SiliconCarbide_SiC"
-        ]
-      }
-    ],
-    "services": [
-      {
-        "name": "Rheinmetall Canada Engineering & Support",
-        "description": "Technical engineering, manufacturing, or sustainment services in Ottawa, ON.",
+        "name": "Naval Systems Engineering",
+        "description": "Combat system integration.",
         "type": "EngineeringService",
-        "accreditation": "AS9100D"
+        "accreditation": "ISO9001"
       }
     ],
     "parent_company": null,
     "supplies_to": [
-      "Department of National Defence (Canada)"
+      "Department of National Defence (Canada)",
+      "Royal Canadian Navy"
     ],
-    "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "994013561",
-    "business_number": "527263646RC0001"
+    "source_note": "OAC / CADSI / Ontario Regional Cluster; Integrated operating facility in Montréal",
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Kongsberg Defence Canada",
@@ -17073,8 +16519,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "512601084",
-    "business_number": "641795151RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "MBDA Canada",
@@ -17140,8 +16586,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "787253602",
-    "business_number": "433689863RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Raytheon Canada Limited (Ottawa)",
@@ -17157,23 +16603,46 @@
     "facility_security_clearance": "Secret",
     "certifications": [
       "AS9100D",
-      "ISO9001"
+      "FacilitySecurity_TopSecret",
+      "ISO27001",
+      "ISO9001",
+      "ITAR_Compliant"
     ],
     "domains": [
+      "AirPlatform",
+      "DomainC4ISR",
       "DomainDefence",
-      "DomainC4ISR"
+      "MaritimePlatform"
     ],
     "platforms": [
-      "Platform_FixedWingTransport"
+      "Platform_FixedWingCombat",
+      "Platform_FixedWingTransport",
+      "Platform_Patriot_PAC3",
+      "Platform_SurfaceCombatant"
     ],
     "kics": [
+      "KIC_DefenceSystemsIntegration",
       "KIC_SensorsSonar",
-      "KIC_DefenceSystemsIntegration"
+      "KIC_SoftwareDefinedRadio"
     ],
     "capabilities": [
       {
         "title": "Raytheon Canada Aerospace & Defence Capabilities",
         "description": "Verified Ontario aerospace/defence supplier in Ottawa providing KIC_SensorsSonar capabilities.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_SensorsSonar"
+      },
+      {
+        "title": "Radar, Air Traffic & Missile Defence Support",
+        "description": "Engineering and sustainment for air traffic management, naval radars, and defence systems.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_SensorsSonar"
+      },
+      {
+        "title": "Air Defence Radar In-Service Support & Tactical Command Systems",
+        "description": "Operation, depot sustainment, software engineering, and hardware overhaul for the North Warning System (NWS), naval coastal surveillance radars, and tactical communications systems.",
         "trl": 9,
         "mrl": 9,
         "kic": "KIC_SensorsSonar"
@@ -17193,6 +16662,33 @@
         "materials": [
           "Material_GalliumNitride_GaN"
         ]
+      },
+      {
+        "name": "Phalanx / Naval Radar Support",
+        "description": "Radar and weapon system sustainment.",
+        "part_number": null,
+        "fsc_code": "5840",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_SurfaceCombatant",
+          "Platform_Patriot_PAC3"
+        ],
+        "materials": [
+          "Material_GalliumNitride_GaN"
+        ]
+      },
+      {
+        "name": "AN/FPS-117 North Warning Long-Range Radar Subsystems",
+        "description": "Solid-state L-band 3D phased array surveillance radar transmit/receive modules, signal processing hardware, and radome heating interfaces.",
+        "part_number": "PN-RAY-NWS-TRM",
+        "fsc_code": "5841",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_FixedWingCombat"
+        ],
+        "materials": [
+          "Material_GalliumNitride_GaN"
+        ]
       }
     ],
     "services": [
@@ -17201,85 +16697,32 @@
         "description": "Technical engineering, manufacturing, or sustainment services in Ottawa, ON.",
         "type": "EngineeringService",
         "accreditation": "AS9100D"
-      }
-    ],
-    "parent_company": null,
-    "supplies_to": [
-      "Department of National Defence (Canada)"
-    ],
-    "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "711598213",
-    "business_number": "326614497RC0001"
-  },
-  {
-    "legal_name": "L3Harris Technologies (Ottawa)",
-    "trade_name": "L3Harris Canada",
-    "cage_code": "LB203",
-    "country": "CAN",
-    "city": "Ottawa",
-    "province": "ON",
-    "website": "https://www.l3harris.com",
-    "tier": "Prime",
-    "controlled_goods": true,
-    "itar_compliant": true,
-    "facility_security_clearance": "Secret",
-    "certifications": [
-      "AS9100D",
-      "ISO9001"
-    ],
-    "domains": [
-      "DomainDefence",
-      "DomainC4ISR"
-    ],
-    "platforms": [
-      "Platform_FixedWingTransport"
-    ],
-    "kics": [
-      "KIC_SoftwareDefinedRadio",
-      "KIC_SensorsSonar"
-    ],
-    "capabilities": [
+      },
       {
-        "title": "L3Harris Canada Aerospace & Defence Capabilities",
-        "description": "Verified Ontario aerospace/defence supplier in Ottawa providing KIC_SoftwareDefinedRadio capabilities.",
-        "trl": 9,
-        "mrl": 9,
-        "kic": "KIC_SoftwareDefinedRadio"
-      }
-    ],
-    "products": [
-      {
-        "name": "Wescam MX-Series Tactical EO/IR Sensor Gimbal Mounts",
-        "description": "Gyro-stabilized multi-spectral electro-optical/infrared turret payload isolation mounts and high-speed slip rings.",
-        "part_number": "PN-L3H-MX20-MNT",
-        "fsc_code": "5855",
-        "nsn_code": "5855-20-015-6672",
-        "platforms": [
-          "Platform_P8_Poseidon",
-          "Platform_MQ9B_SkyGuardian",
-          "Platform_RotaryWing"
-        ],
-        "materials": [
-          "Material_Beryllium_Optical",
-          "Material_Titanium_Ti6Al4V"
-        ]
-      }
-    ],
-    "services": [
-      {
-        "name": "L3Harris Canada Engineering & Support",
-        "description": "Technical engineering, manufacturing, or sustainment services in Ottawa, ON.",
-        "type": "EngineeringService",
+        "name": "Radar & Defence Sustainment",
+        "description": "In-service support and depot repair.",
+        "type": "MROService",
         "accreditation": "AS9100D"
+      },
+      {
+        "name": "Radar Depot-Level Maintenance & Arctic Logistics Support",
+        "description": "Turnkey life-cycle engineering, depot repairs, firmware upgrades, and Arctic field technical support for Canadian air defence radar installations.",
+        "type": "MROService",
+        "accreditation": "DCMA"
       }
     ],
     "parent_company": null,
     "supplies_to": [
-      "Department of National Defence (Canada)"
+      "Department of National Defence",
+      "Department of National Defence (Canada)",
+      "NAV CANADA",
+      "NORAD",
+      "Royal Canadian Air Force",
+      "Royal Canadian Navy"
     ],
-    "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "367040491",
-    "business_number": "862818399RC0001"
+    "source_note": "OAC / CADSI / Ontario Regional Cluster; Integrated operating facility in Montréal; Integrated operating facility in Calgary",
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Curtiss-Wright Defense Solutions (Ottawa)",
@@ -17348,8 +16791,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "106787311",
-    "business_number": "158180281RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Gastops Ltd.",
@@ -17418,8 +16861,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "745015502",
-    "business_number": "793344930RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Babcock Canada Inc.",
@@ -17435,14 +16878,18 @@
     "facility_security_clearance": "Secret",
     "certifications": [
       "AS9100D",
+      "FacilitySecurity_Secret",
+      "ISO14001",
       "ISO9001"
     ],
     "domains": [
-      "MaritimePlatform",
-      "DomainDefence"
+      "DomainDefence",
+      "MaritimePlatform"
     ],
     "platforms": [
-      "Platform_FixedWingTransport"
+      "Platform_FixedWingTransport",
+      "Platform_Submarine",
+      "Platform_SurfaceCombatant"
     ],
     "kics": [
       "KIC_InServiceSupport",
@@ -17452,6 +16899,13 @@
       {
         "title": "Babcock Canada Aerospace & Defence Capabilities",
         "description": "Verified Ontario aerospace/defence supplier in Ottawa providing KIC_InServiceSupport capabilities.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_InServiceSupport"
+      },
+      {
+        "title": "Naval In-Service Support & Submarine Sustainment",
+        "description": "Engineering, technical support, and fleet sustainment for Royal Canadian Navy vessels.",
         "trl": 9,
         "mrl": 9,
         "kic": "KIC_InServiceSupport"
@@ -17472,6 +16926,20 @@
           "Material_Titanium_Ti6Al4V",
           "Material_Inconel_718"
         ]
+      },
+      {
+        "name": "Naval Fleet Sustainment",
+        "description": "Lifecycle engineering and dockyard support.",
+        "part_number": null,
+        "fsc_code": "1905",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_Submarine",
+          "Platform_SurfaceCombatant"
+        ],
+        "materials": [
+          "Material_Tungsten_HeavyAlloy"
+        ]
       }
     ],
     "services": [
@@ -17480,15 +16948,22 @@
         "description": "Technical engineering, manufacturing, or sustainment services in Ottawa, ON.",
         "type": "EngineeringService",
         "accreditation": "AS9100D"
+      },
+      {
+        "name": "Naval In-Service Support",
+        "description": "Refit management and ILS.",
+        "type": "MROService",
+        "accreditation": "ISO9001"
       }
     ],
     "parent_company": null,
     "supplies_to": [
-      "Department of National Defence (Canada)"
+      "Department of National Defence (Canada)",
+      "Royal Canadian Navy"
     ],
-    "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "278924130",
-    "business_number": "948226711RC0001"
+    "source_note": "OAC / CADSI / Ontario Regional Cluster; Integrated operating facility in Lévis",
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Serco Canada Inc.",
@@ -17554,8 +17029,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "974779647",
-    "business_number": "503452544RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Dew Engineering and Development ULC",
@@ -17622,8 +17097,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "309697685",
-    "business_number": "526636561RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Inkas Armored Vehicle Manufacturing",
@@ -17690,8 +17165,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "384039235",
-    "business_number": "672690698RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Terradyne Armored Vehicles Inc.",
@@ -17757,8 +17232,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "642399254",
-    "business_number": "219893861RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Shimco",
@@ -17826,8 +17301,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "772256842",
-    "business_number": "771654085RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Kamatics Canada (Kaman)",
@@ -17894,8 +17369,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "696729658",
-    "business_number": "858817826RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Eaton Aerospace (Mississauga)",
@@ -17961,8 +17436,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "374470134",
-    "business_number": "783161416RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Parker Hannifin Canada (Milton)",
@@ -18029,8 +17504,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "309203715",
-    "business_number": "586310914RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Meggitt (Canada) Inc. / Parker Meggitt",
@@ -18096,8 +17571,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "557247918",
-    "business_number": "162626068RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Precision Castparts Corp. (PCC) Canada",
@@ -18164,8 +17639,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "391819190",
-    "business_number": "707245825RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Liburdi Turbine Services",
@@ -18232,8 +17707,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "430773253",
-    "business_number": "589312058RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "B&W Precision Manufacturing",
@@ -18299,8 +17774,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "844537207",
-    "business_number": "701782825RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Apex Aerospace Inc.",
@@ -18365,8 +17840,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "408360546",
-    "business_number": "779239520RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Cadorath Aerospace",
@@ -18433,8 +17908,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "325170381",
-    "business_number": "108170477RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "K-Tork / Rotork Canada",
@@ -18501,8 +17976,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "816560140",
-    "business_number": "717290245RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Pegasus Industrial Specialties",
@@ -18568,8 +18043,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "911663078",
-    "business_number": "897217191RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "ABRO Manufacturing Inc.",
@@ -18635,8 +18110,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "836806691",
-    "business_number": "205529107RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Macfab Manufacturing Inc.",
@@ -18704,8 +18179,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "657125378",
-    "business_number": "518979881RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Iso-Lux Manufacturing Co. Ltd.",
@@ -18771,8 +18246,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "416312853",
-    "business_number": "906982811RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Promark Tool & Manufacturing",
@@ -18839,8 +18314,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "681676293",
-    "business_number": "739578607RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Leancore Manufacturing",
@@ -18906,8 +18381,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "970018826",
-    "business_number": "565458699RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Kongsberg Geospatial",
@@ -18976,8 +18451,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "100611533",
-    "business_number": "654351577RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Bluedrop Training & Simulation (Ottawa)",
@@ -19043,8 +18518,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "183965307",
-    "business_number": "639741951RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "CAE Inc. (Ottawa Defence & Security)",
@@ -19110,8 +18585,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "799036018",
-    "business_number": "321335707RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Top Aces Inc. (Ottawa)",
@@ -19178,8 +18653,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "988848972",
-    "business_number": "387588090RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Discovery Air Defence Services",
@@ -19245,8 +18720,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "971734281",
-    "business_number": "995110112RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Field Aviation Company Inc.",
@@ -19315,8 +18790,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "197408485",
-    "business_number": "363395228RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Flying Colours Corp.",
@@ -19382,8 +18857,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "945039204",
-    "business_number": "877380285RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "The Loomex Group",
@@ -19448,8 +18923,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "233763877",
-    "business_number": "768918314RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "SKADI Cyber Defense Corporation",
@@ -19514,8 +18989,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "179720399",
-    "business_number": "416508744RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Ucore Rare Metals Inc.",
@@ -19580,8 +19055,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "668038604",
-    "business_number": "958638119RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Parsons Corporation (Kingston)",
@@ -19648,8 +19123,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "139190337",
-    "business_number": "287702187RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "AOG Heliservices Inc.",
@@ -19714,8 +19189,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "122903774",
-    "business_number": "613523168RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Algoma Steel Inc.",
@@ -19783,8 +19258,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "869255445",
-    "business_number": "582265143RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Humphrey Aircraft Services",
@@ -19849,8 +19324,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "880361106",
-    "business_number": "464552591RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Canada Rocket Company",
@@ -19917,8 +19392,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "279923761",
-    "business_number": "745070029RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Canadian Space Mining Corporation",
@@ -19985,8 +19460,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "824659234",
-    "business_number": "839828576RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Orbuta Space Solutions",
@@ -20054,8 +19529,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "452751453",
-    "business_number": "698680030RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Microsat Systems Canada Inc. (MSCI)",
@@ -20122,8 +19597,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "917313373",
-    "business_number": "846449785RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Defence Intelligence",
@@ -20188,8 +19663,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "447067121",
-    "business_number": "444138945RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "AML Crating Inc.",
@@ -20254,8 +19729,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "963612921",
-    "business_number": "611598868RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "MCC Inc.",
@@ -20320,8 +19795,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "321279360",
-    "business_number": "536393241RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "BSC Solutions Group",
@@ -20385,8 +19860,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "851154174",
-    "business_number": "688473428RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "F12.net Inc.",
@@ -20450,8 +19925,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "164368057",
-    "business_number": "490114879RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "The Sky Guys Inc.",
@@ -20517,8 +19992,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "612942484",
-    "business_number": "920688727RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Aeryon Labs Inc.",
@@ -20583,8 +20058,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "227853342",
-    "business_number": "778934533RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Altivion Technologies",
@@ -20650,8 +20125,8 @@
       "Department of National Defence (Canada)"
     ],
     "source_note": "OAC / CADSI / Ontario Regional Cluster",
-    "duns_number": "977817292",
-    "business_number": "629419235RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Avcorp Industries Inc.",
@@ -20726,8 +20201,8 @@
       "Bombardier Inc."
     ],
     "source_note": "AIAC / CADSI member; Delta BC facility; Lockheed Martin F-35 Tier-1 supplier",
-    "duns_number": "950380439",
-    "business_number": "509382819RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Cascade Aerospace Inc.",
@@ -20797,8 +20272,8 @@
       "Lockheed Martin Corporation"
     ],
     "source_note": "CADSI / AIAC directory; Abbotsford BC facility; RCAF CC-130 In-Service Support contractor",
-    "duns_number": "872649053",
-    "business_number": "167074528RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "KF Aerospace",
@@ -20868,8 +20343,8 @@
       "Royal Canadian Air Force"
     ],
     "source_note": "CADSI / AIAC member; Kelowna BC; Lead for RCAF Future Aircrew Training (FAcT) joint venture",
-    "duns_number": "310025223",
-    "business_number": "146607328RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "SEASPAN Shipyards (Vancouver Shipyards Co. Ltd.)",
@@ -20937,8 +20412,8 @@
       "Canadian Coast Guard"
     ],
     "source_note": "CADSI / National Shipbuilding Strategy prime contractor; North Vancouver BC",
-    "duns_number": "399073103",
-    "business_number": "273497087RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "UrtheCast Corp.",
@@ -21005,8 +20480,8 @@
       "Department of National Defence"
     ],
     "source_note": "CADSI directory; Vancouver BC; Space Earth Observation and Geospatial Intelligence",
-    "duns_number": "555005450",
-    "business_number": "598427543RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Viking Air Limited",
@@ -21076,8 +20551,8 @@
       "Global Defense Forces"
     ],
     "source_note": "AIAC / CADSI member; Victoria International Airport North Saanich BC; OEM DHC aircraft",
-    "duns_number": "786275564",
-    "business_number": "812895064RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Ascent Systems Technologies Inc.",
@@ -21145,8 +20620,8 @@
       "Seaspan Shipyards"
     ],
     "source_note": "CADSI member directory; Vancouver BC; Rugged military computing and systems integration",
-    "duns_number": "427260735",
-    "business_number": "200915794RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Pacific Safety Products Inc.",
@@ -21214,8 +20689,8 @@
       "US Department of Defense"
     ],
     "source_note": "CADSI member directory; Kelowna BC facility; Med-Eng personal protective equipment",
-    "duns_number": "161680518",
-    "business_number": "292670864RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Barnett-Marsden Inc.",
@@ -21285,8 +20760,8 @@
       "Avcorp Industries"
     ],
     "source_note": "AIAC / CADSI member; Richmond BC; AS9100D precision aerospace machining",
-    "duns_number": "849107375",
-    "business_number": "680726989RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Cellula Robotics Ltd.",
@@ -21356,8 +20831,8 @@
       "Defence Research and Development Canada (DRDC)"
     ],
     "source_note": "CADSI member directory; Burnaby BC; DRDC Solus-LR Autonomous Subsea developer",
-    "duns_number": "237873525",
-    "business_number": "327017648RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Analytical Systems Wear Technologies Inc.",
@@ -21429,8 +20904,8 @@
       "Seaspan Shipyards"
     ],
     "source_note": "CADSI member directory; Delta BC; Military rugged power conversion equipment",
-    "duns_number": "817451550",
-    "business_number": "111497753RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Kobelt Manufacturing Co. Ltd.",
@@ -21495,82 +20970,8 @@
       "Canadian Coast Guard"
     ],
     "source_note": "CADSI directory; Surrey BC; Naval steering and propulsion control manufacturer",
-    "duns_number": "883852128",
-    "business_number": "200447461RC0001"
-  },
-  {
-    "legal_name": "Raytheon Canada Limited (Calgary Operations)",
-    "trade_name": "Raytheon Canada",
-    "cage_code": "3A325",
-    "country": "CAN",
-    "city": "Calgary",
-    "province": "AB",
-    "website": "https://www.rtx.com",
-    "tier": "Prime",
-    "controlled_goods": true,
-    "itar_compliant": true,
-    "facility_security_clearance": "Top Secret / SCI",
-    "certifications": [
-      "AS9100D",
-      "ISO9001",
-      "ISO27001",
-      "ITAR_Compliant"
-    ],
-    "domains": [
-      "AirPlatform",
-      "DomainC4ISR",
-      "DomainDefence"
-    ],
-    "platforms": [
-      "Platform_FixedWingCombat",
-      "Platform_SurfaceCombatant"
-    ],
-    "kics": [
-      "KIC_SensorsSonar",
-      "KIC_DefenceSystemsIntegration",
-      "KIC_SoftwareDefinedRadio"
-    ],
-    "capabilities": [
-      {
-        "title": "Air Defence Radar In-Service Support & Tactical Command Systems",
-        "description": "Operation, depot sustainment, software engineering, and hardware overhaul for the North Warning System (NWS), naval coastal surveillance radars, and tactical communications systems.",
-        "trl": 9,
-        "mrl": 9,
-        "kic": "KIC_SensorsSonar"
-      }
-    ],
-    "products": [
-      {
-        "name": "AN/FPS-117 North Warning Long-Range Radar Subsystems",
-        "description": "Solid-state L-band 3D phased array surveillance radar transmit/receive modules, signal processing hardware, and radome heating interfaces.",
-        "part_number": "PN-RAY-NWS-TRM",
-        "fsc_code": "5841",
-        "nsn_code": null,
-        "platforms": [
-          "Platform_FixedWingCombat"
-        ],
-        "materials": [
-          "Material_GalliumNitride_GaN"
-        ]
-      }
-    ],
-    "services": [
-      {
-        "name": "Radar Depot-Level Maintenance & Arctic Logistics Support",
-        "description": "Turnkey life-cycle engineering, depot repairs, firmware upgrades, and Arctic field technical support for Canadian air defence radar installations.",
-        "type": "MROService",
-        "accreditation": "DCMA"
-      }
-    ],
-    "parent_company": "RTX Corporation",
-    "supplies_to": [
-      "Department of National Defence",
-      "NORAD",
-      "Royal Canadian Air Force"
-    ],
-    "source_note": "CADSI / AIAC prime member; Calgary AB facility; North Warning System operations",
-    "duns_number": "393745934",
-    "business_number": "960030461RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "NovAtel Inc.",
@@ -21645,8 +21046,8 @@
       "Lockheed Martin Corporation"
     ],
     "source_note": "CADSI / Hexagon AB; Calgary AB HQ; Global defence standard for GPS anti-jam antennas",
-    "duns_number": "761042979",
-    "business_number": "632729497RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Canadian Commercial Corporation (Field Aviation / AVMAX)",
@@ -21715,8 +21116,8 @@
       "Commercial Fleet Operators"
     ],
     "source_note": "CADSI / AIAC directory; Calgary International Airport AB; Aviation heavy maintenance",
-    "duns_number": "727625826",
-    "business_number": "993002199RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Blackline Safety Corp.",
@@ -21783,8 +21184,8 @@
       "Industrial Emergency Teams"
     ],
     "source_note": "CADSI member directory; Calgary AB; Connected worker gas detection and security",
-    "duns_number": "145232834",
-    "business_number": "540665430RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Gemini Machine Works Ltd.",
@@ -21851,8 +21252,8 @@
       "General Dynamics Land Systems-Canada"
     ],
     "source_note": "CADSI member; Edmonton AB; Large CNC machining for defence and heavy vehicle programs",
-    "duns_number": "415831869",
-    "business_number": "943862309RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "AltaML Inc.",
@@ -21920,86 +21321,8 @@
       "IDEaS Program Canada"
     ],
     "source_note": "CADSI directory; Edmonton AB; Canadian AI and defence machine learning developer",
-    "duns_number": "185755071",
-    "business_number": "597114069RC0001"
-  },
-  {
-    "legal_name": "StandardAero Limited",
-    "trade_name": "StandardAero",
-    "cage_code": "37754",
-    "country": "CAN",
-    "city": "Winnipeg",
-    "province": "MB",
-    "website": "https://www.standardaero.com",
-    "tier": "Prime",
-    "controlled_goods": true,
-    "itar_compliant": true,
-    "facility_security_clearance": "Secret",
-    "certifications": [
-      "AS9100D",
-      "AS9110C",
-      "ISO9001",
-      "NADCAP_NDT",
-      "NADCAP_Welding",
-      "ITAR_Compliant"
-    ],
-    "domains": [
-      "AirPlatform",
-      "DomainAeronautics",
-      "DomainDefence"
-    ],
-    "platforms": [
-      "Platform_FixedWingTransport",
-      "Platform_RotaryWing",
-      "Platform_C130J_SuperHercules",
-      "Platform_P8_Poseidon"
-    ],
-    "kics": [
-      "KIC_InServiceSupport",
-      "KIC_AerospaceSystems"
-    ],
-    "capabilities": [
-      {
-        "title": "Military Gas Turbine Engine Depot Repair & Overhaul (T56 / AE2100 / CF34)",
-        "description": "Global authorized military depot maintenance center for Rolls-Royce T56 / 501D engines on C-130 and P-3 aircraft, AE2100D3 on C-130J, and GE CF34/T700 military turboshaft engines.",
-        "trl": 9,
-        "mrl": 9,
-        "kic": "KIC_InServiceSupport"
-      }
-    ],
-    "products": [
-      {
-        "name": "T56-A-15 Turboprop Engine Overhaul Module",
-        "description": "Completely remanufactured and test-cell validated Rolls-Royce T56 turboprop power section and reduction gearbox module for C-130 Hercules aircraft.",
-        "part_number": "PN-STD-T56-MRO",
-        "fsc_code": "2840",
-        "nsn_code": null,
-        "platforms": [
-          "Platform_C130J_SuperHercules"
-        ],
-        "materials": [
-          "Material_SingleCrystal_Superalloy",
-          "Material_Titanium_Ti6Al4V"
-        ]
-      }
-    ],
-    "services": [
-      {
-        "name": "Depot Engine Test-Cell Certification & Component Repair",
-        "description": "Full-power dynamometer test-cell certification, laser cladding blade repairs, precision thermal barrier coatings, and complete gas turbine overhaul.",
-        "type": "MROService",
-        "accreditation": "FAA Part 145"
-      }
-    ],
-    "parent_company": "Carlyle Group",
-    "supplies_to": [
-      "Royal Canadian Air Force",
-      "United States Air Force",
-      "United States Navy"
-    ],
-    "source_note": "AIAC / CADSI prime member; Winnipeg MB; Global gas turbine engine depot",
-    "duns_number": "204097604",
-    "business_number": "534928783RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Boeing Canada Operations Ltd. (Winnipeg Division)",
@@ -22016,9 +21339,9 @@
     "certifications": [
       "AS9100D",
       "ISO9001",
+      "ITAR_Compliant",
       "NADCAP_Composites",
-      "NADCAP_NDT",
-      "ITAR_Compliant"
+      "NADCAP_NDT"
     ],
     "domains": [
       "AirPlatform",
@@ -22032,7 +21355,8 @@
     ],
     "kics": [
       "KIC_AdvancedMaterials",
-      "KIC_AerospaceSystems"
+      "KIC_AerospaceSystems",
+      "KIC_InServiceSupport"
     ],
     "capabilities": [
       {
@@ -22041,6 +21365,13 @@
         "trl": 9,
         "mrl": 9,
         "kic": "KIC_AdvancedMaterials"
+      },
+      {
+        "title": "Boeing Canada Aerospace & Defence Capabilities",
+        "description": "Verified Ontario aerospace/defence supplier in Trenton providing KIC_InServiceSupport capabilities.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_InServiceSupport"
       }
     ],
     "products": [
@@ -22056,6 +21387,20 @@
         "materials": [
           "Material_CarbonFiber_Composite"
         ]
+      },
+      {
+        "name": "Advanced Composite Control Surfaces & Fairings",
+        "description": "High-performance autoclave-cured carbon fiber ailerons, flap track fairings, and rudder structural assemblies.",
+        "part_number": "PN-BCW-FLAP-CF",
+        "fsc_code": "1560",
+        "nsn_code": "1560-20-006-8821",
+        "platforms": [
+          "Platform_P8_Poseidon",
+          "Platform_FixedWingCombat"
+        ],
+        "materials": [
+          "Material_CarbonFiber_Composite"
+        ]
       }
     ],
     "services": [
@@ -22064,17 +21409,24 @@
         "description": "Tool design, automated fiber placement (AFP), resin transfer molding (RTM), and phased array ultrasonic non-destructive testing for critical primary composites.",
         "type": "EngineeringService",
         "accreditation": "NADCAP"
+      },
+      {
+        "name": "Boeing Canada Engineering & Support",
+        "description": "Technical engineering, manufacturing, or sustainment services in Trenton, ON.",
+        "type": "EngineeringService",
+        "accreditation": "AS9100D"
       }
     ],
     "parent_company": "The Boeing Company",
     "supplies_to": [
+      "Department of National Defence (Canada)",
+      "Royal Canadian Air Force",
       "The Boeing Company",
-      "United States Navy",
-      "Royal Canadian Air Force"
+      "United States Navy"
     ],
-    "source_note": "AIAC / CADSI member; Winnipeg MB facility; Boeing primary composite center",
-    "duns_number": "225436957",
-    "business_number": "129203962RC0001"
+    "source_note": "AIAC / CADSI member; Winnipeg MB facility; Boeing primary composite center; Integrated operating facility in Trenton",
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Magellan Aerospace, Winnipeg",
@@ -22151,8 +21503,8 @@
       "Lockheed Martin Corporation"
     ],
     "source_note": "AIAC / CADSI prime member; Winnipeg MB; Sounding rocket and satellite manufacturer",
-    "duns_number": "621028182",
-    "business_number": "547921837RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Cormer Aerospace",
@@ -22225,8 +21577,8 @@
       "Magellan Aerospace"
     ],
     "source_note": "AIAC / CADSI member; Winnipeg MB; Complex aerostructure machining",
-    "duns_number": "260113171",
-    "business_number": "349044176RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Precision ADM Inc.",
@@ -22297,8 +21649,8 @@
       "Defence Research and Development Canada"
     ],
     "source_note": "CADSI member directory; Winnipeg MB; AS9100D metal additive manufacturing center",
-    "duns_number": "218166276",
-    "business_number": "765286215RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Brandt Industries Canada Ltd. (Engineered Products)",
@@ -22364,8 +21716,8 @@
       "Department of National Defence"
     ],
     "source_note": "CADSI member directory; Regina SK; Heavy engineered defence vehicle fabrication",
-    "duns_number": "597772884",
-    "business_number": "521588169RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "SED Systems (Calian Advanced Technologies)",
@@ -22437,8 +21789,8 @@
       "Department of National Defence"
     ],
     "source_note": "CADSI / Calian Group; Saskatoon SK facility; Premier global satellite ground system engineering",
-    "duns_number": "417698393",
-    "business_number": "904442922RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Draganfly Innovations Inc.",
@@ -22506,8 +21858,8 @@
       "Allied Defense Forces"
     ],
     "source_note": "CADSI member; Saskatoon SK; Tactical multirotor unmanned aerial systems manufacturer",
-    "duns_number": "840041347",
-    "business_number": "638551293RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Irving Shipbuilding Inc.",
@@ -22575,8 +21927,8 @@
       "Canadian Coast Guard"
     ],
     "source_note": "National Shipbuilding Strategy Prime / ACADA",
-    "duns_number": "157088102",
-    "business_number": "204236031RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "IMP Group International Inc.",
@@ -22648,79 +22000,8 @@
       "Lockheed Martin"
     ],
     "source_note": "ACADA / CADSI / Major Canadian Defence Prime",
-    "duns_number": "222944550",
-    "business_number": "898294633RC0001"
-  },
-  {
-    "legal_name": "General Dynamics Mission Systems - Canada",
-    "trade_name": "GDMS-C (Dartmouth)",
-    "cage_code": "L941D",
-    "country": "CAN",
-    "city": "Dartmouth",
-    "province": "NS",
-    "website": "https://gdmissionsystems.ca",
-    "tier": "Tier1Supplier",
-    "controlled_goods": true,
-    "itar_compliant": true,
-    "facility_security_clearance": "Top Secret / SCI",
-    "certifications": [
-      "ISO9001",
-      "FacilitySecurity_TopSecret"
-    ],
-    "domains": [
-      "MaritimePlatform",
-      "DomainDefence",
-      "DomainC4ISR"
-    ],
-    "platforms": [
-      "Platform_SurfaceCombatant",
-      "Platform_Submarine",
-      "Platform_P8_Poseidon"
-    ],
-    "kics": [
-      "KIC_SensorsSonar",
-      "KIC_DefenceSystemsIntegration",
-      "KIC_SoftwareDefinedRadio"
-    ],
-    "capabilities": [
-      {
-        "title": "Underwater Acoustics & Naval C4ISR",
-        "description": "Development of sonobuoy processing, towed array sonar, and integrated maritime C4ISR systems.",
-        "trl": 9,
-        "mrl": 9,
-        "kic": "KIC_SensorsSonar"
-      }
-    ],
-    "products": [
-      {
-        "name": "Maritime Acoustic Processing Systems",
-        "description": "Anti-submarine warfare acoustic processors and tactical display systems.",
-        "part_number": "GDMS-ASW-01",
-        "fsc_code": "5845",
-        "nsn_code": null,
-        "platforms": [
-          "Platform_SurfaceCombatant",
-          "Platform_P8_Poseidon"
-        ],
-        "materials": []
-      }
-    ],
-    "services": [
-      {
-        "name": "Naval C4ISR Integration & Support",
-        "description": "Engineering and sustainment for naval underwater warfare and mission systems.",
-        "type": "EngineeringService",
-        "accreditation": "ISO9001"
-      }
-    ],
-    "parent_company": "General Dynamics Corporation",
-    "supplies_to": [
-      "Royal Canadian Navy",
-      "Royal Canadian Air Force"
-    ],
-    "source_note": "ACADA / Dartmouth Maritime Defence Cluster",
-    "duns_number": "110172391",
-    "business_number": "177792829RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Ultra Electronics Maritime Systems Inc.",
@@ -22790,8 +22071,8 @@
       "UK Royal Navy"
     ],
     "source_note": "ACADA / Dartmouth ASW Hub",
-    "duns_number": "452424320",
-    "business_number": "314541311RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "L3Harris Technologies Canada",
@@ -22807,21 +22088,30 @@
     "facility_security_clearance": "Secret",
     "certifications": [
       "AS9100D",
+      "FacilitySecurity_Secret",
+      "FacilitySecurity_TopSecret",
       "ISO9001",
-      "FacilitySecurity_Secret"
+      "ITAR_Compliant"
     ],
     "domains": [
-      "MaritimePlatform",
+      "AirPlatform",
+      "DomainC4ISR",
       "DomainDefence",
-      "DomainC4ISR"
+      "MaritimePlatform",
+      "UASPlatform"
     ],
     "platforms": [
-      "Platform_SurfaceCombatant"
+      "Platform_FixedWingTransport",
+      "Platform_P8_Poseidon",
+      "Platform_RotaryWing",
+      "Platform_SurfaceCombatant",
+      "Platform_TacticalUAS"
     ],
     "kics": [
-      "KIC_SoftwareDefinedRadio",
       "KIC_DefenceSystemsIntegration",
-      "KIC_SensorsSonar"
+      "KIC_EOIRSystems",
+      "KIC_SensorsSonar",
+      "KIC_SoftwareDefinedRadio"
     ],
     "capabilities": [
       {
@@ -22830,6 +22120,20 @@
         "trl": 9,
         "mrl": 9,
         "kic": "KIC_SoftwareDefinedRadio"
+      },
+      {
+        "title": "L3Harris Canada Aerospace & Defence Capabilities",
+        "description": "Verified Ontario aerospace/defence supplier in Ottawa providing KIC_SoftwareDefinedRadio capabilities.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_SoftwareDefinedRadio"
+      },
+      {
+        "title": "EO/IR Turret Integration & Support",
+        "description": "Airborne electro-optical/infrared (MX-Series) sensor integration and mission systems support in Quebec.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_EOIRSystems"
       }
     ],
     "products": [
@@ -22843,6 +22147,38 @@
           "Platform_SurfaceCombatant"
         ],
         "materials": []
+      },
+      {
+        "name": "Wescam MX-Series Tactical EO/IR Sensor Gimbal Mounts",
+        "description": "Gyro-stabilized multi-spectral electro-optical/infrared turret payload isolation mounts and high-speed slip rings.",
+        "part_number": "PN-L3H-MX20-MNT",
+        "fsc_code": "5855",
+        "nsn_code": "5855-20-015-6672",
+        "platforms": [
+          "Platform_P8_Poseidon",
+          "Platform_MQ9B_SkyGuardian",
+          "Platform_RotaryWing"
+        ],
+        "materials": [
+          "Material_Beryllium_Optical",
+          "Material_Titanium_Ti6Al4V"
+        ]
+      },
+      {
+        "name": "MX-15 / MX-20 EO/IR Turrets",
+        "description": "Stabilized multi-spectral airborne surveillance turrets.",
+        "part_number": null,
+        "fsc_code": "5855",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_TacticalUAS",
+          "Platform_RotaryWing",
+          "Platform_P8_Poseidon"
+        ],
+        "materials": [
+          "Material_CarbonFiber_Composite",
+          "Material_Beryllium_Optical"
+        ]
       }
     ],
     "services": [
@@ -22851,15 +22187,30 @@
         "description": "Engineering and sustainment for naval communications and EW.",
         "type": "EngineeringService",
         "accreditation": "ISO9001"
+      },
+      {
+        "name": "L3Harris Canada Engineering & Support",
+        "description": "Technical engineering, manufacturing, or sustainment services in Ottawa, ON.",
+        "type": "EngineeringService",
+        "accreditation": "AS9100D"
+      },
+      {
+        "name": "EO/IR Systems Integration",
+        "description": "Airborne ISR payload integration.",
+        "type": "EngineeringService",
+        "accreditation": "AS9100D"
       }
     ],
     "parent_company": "L3Harris Technologies",
     "supplies_to": [
+      "Bombardier",
+      "Department of National Defence (Canada)",
+      "Royal Canadian Air Force",
       "Royal Canadian Navy"
     ],
-    "source_note": "Halifax Defence Cluster",
-    "duns_number": "553954900",
-    "business_number": "735506288RC0001"
+    "source_note": "Halifax Defence Cluster; Integrated operating facility in Ottawa; Integrated operating facility in Montréal",
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Airbus Atlantic Composites",
@@ -22930,8 +22281,8 @@
       "Global Aerospace OEMs"
     ],
     "source_note": "ACOA / Invest Nova Scotia",
-    "duns_number": "317896859",
-    "business_number": "961881522RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Fleetway Inc.",
@@ -22997,8 +22348,8 @@
       "Royal Canadian Navy"
     ],
     "source_note": "ACADA / Irving Shipbuilding",
-    "duns_number": "663289088",
-    "business_number": "733078818RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "GeoSpectrum Technologies Inc.",
@@ -23063,8 +22414,8 @@
       "Allied Navies"
     ],
     "source_note": "COVE / ACADA",
-    "duns_number": "974298511",
-    "business_number": "352244242RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "MetOcean Telematics Ltd.",
@@ -23131,8 +22482,8 @@
       "US DoD"
     ],
     "source_note": "Dartmouth Ocean Tech Cluster",
-    "duns_number": "107055087",
-    "business_number": "474322020RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "JASCO Applied Sciences Ltd.",
@@ -23195,8 +22546,8 @@
       "DRDC Atlantic"
     ],
     "source_note": "Dartmouth Ocean Tech Cluster",
-    "duns_number": "415296774",
-    "business_number": "780778914RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Nautel Limited",
@@ -23261,8 +22612,8 @@
       "Department of National Defence"
     ],
     "source_note": "Team INSPIRE / ACADA",
-    "duns_number": "837927512",
-    "business_number": "100367488RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Bluedrop Training & Simulation Inc.",
@@ -23331,8 +22682,8 @@
       "Boeing"
     ],
     "source_note": "Invest Nova Scotia / ACADA",
-    "duns_number": "275915394",
-    "business_number": "366738311RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Rosborough Boats",
@@ -23397,8 +22748,8 @@
       "Canadian Coast Guard"
     ],
     "source_note": "Halifax Marine Cluster",
-    "duns_number": "749837776",
-    "business_number": "112554952RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "A.F. Theriault & Son Ltd.",
@@ -23462,8 +22813,8 @@
       "Canadian Coast Guard"
     ],
     "source_note": "Nova Scotia Marine Cluster",
-    "duns_number": "118934769",
-    "business_number": "614237372RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Hawboldt Industries (1989) Ltd.",
@@ -23526,8 +22877,8 @@
       "Royal Canadian Navy"
     ],
     "source_note": "Nova Scotia Marine Cluster",
-    "duns_number": "612176228",
-    "business_number": "436578789RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Lunenburg Foundry & Engineering Ltd.",
@@ -23590,8 +22941,8 @@
       "Atlantic Canadian Shipyards"
     ],
     "source_note": "Nova Scotia Marine Cluster",
-    "duns_number": "473846130",
-    "business_number": "452792229RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Survival Systems Limited",
@@ -23656,8 +23007,8 @@
       "Royal Canadian Navy"
     ],
     "source_note": "Dartmouth Defence Cluster",
-    "duns_number": "724176323",
-    "business_number": "678927923RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Enginuity Inc.",
@@ -23722,8 +23073,8 @@
       "COVE"
     ],
     "source_note": "Invest Nova Scotia",
-    "duns_number": "951254323",
-    "business_number": "384925363RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Modest Tree Media Inc.",
@@ -23788,8 +23139,8 @@
       "Royal Canadian Navy"
     ],
     "source_note": "Irving Shipbuilding Supply Chain",
-    "duns_number": "409177503",
-    "business_number": "711087818RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Avalon Holographics Inc.",
@@ -23854,8 +23205,8 @@
       "US DoD"
     ],
     "source_note": "ACADA",
-    "duns_number": "470632354",
-    "business_number": "961679561RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Maritime Launch Services Ltd.",
@@ -23918,8 +23269,8 @@
       "Commercial & Defence Satellite Operators"
     ],
     "source_note": "Invest Nova Scotia",
-    "duns_number": "766185157",
-    "business_number": "733527861RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Marswell Metal Industries Ltd.",
@@ -23983,8 +23334,8 @@
       "Irving Shipbuilding Inc."
     ],
     "source_note": "Irving Shipbuilding Supply Chain",
-    "duns_number": "562706390",
-    "business_number": "264133524RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Marecomms Inc.",
@@ -24049,8 +23400,8 @@
       "Marine Robotics Integrators"
     ],
     "source_note": "COVE Resident",
-    "duns_number": "909350458",
-    "business_number": "228096450RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Glas Ocean Electric Inc.",
@@ -24111,8 +23462,8 @@
       "Commercial & Government Boat Builders"
     ],
     "source_note": "COVE Resident",
-    "duns_number": "904184833",
-    "business_number": "243535390RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Dartmouth Ocean Technologies Inc.",
@@ -24175,8 +23526,8 @@
       "Ocean Research & Defence"
     ],
     "source_note": "COVE Resident",
-    "duns_number": "184953845",
-    "business_number": "553389207RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Ocean Sonics Ltd.",
@@ -24240,8 +23591,8 @@
       "DRDC"
     ],
     "source_note": "Nova Scotia Ocean Tech",
-    "duns_number": "508004060",
-    "business_number": "656950612RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Cherubini Metal Works Ltd.",
@@ -24305,8 +23656,8 @@
       "Irving Shipbuilding Inc."
     ],
     "source_note": "Dartmouth Marine Supply Chain",
-    "duns_number": "555640139",
-    "business_number": "192766657RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Tri-Star Industries Ltd.",
@@ -24369,8 +23720,8 @@
       "Provincial Governments"
     ],
     "source_note": "Nova Scotia Defence Manufacturing",
-    "duns_number": "604759200",
-    "business_number": "608202983RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "PAL Aerospace Ltd.",
@@ -24441,8 +23792,8 @@
       "Allied Governments"
     ],
     "source_note": "ACADA / NL Aerospace Anchor",
-    "duns_number": "956629515",
-    "business_number": "661818713RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Kraken Robotics Inc.",
@@ -24509,8 +23860,8 @@
       "NATO Navies"
     ],
     "source_note": "OceansAdvance / NL Ocean Tech",
-    "duns_number": "110650250",
-    "business_number": "950529368RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "C-CORE",
@@ -24578,8 +23929,8 @@
       "Department of National Defence"
     ],
     "source_note": "OceansAdvance / DRDC Contractor",
-    "duns_number": "405919334",
-    "business_number": "875182630RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Rutter Inc.",
@@ -24643,8 +23994,8 @@
       "Canadian Coast Guard"
     ],
     "source_note": "OceansAdvance",
-    "duns_number": "338006562",
-    "business_number": "170090759RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "SubC Imaging",
@@ -24710,8 +24061,8 @@
       "Offshore & Defence ROV Operators"
     ],
     "source_note": "NL Ocean Tech",
-    "duns_number": "497644664",
-    "business_number": "292027037RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Kongsberg Discovery Canada Ltd.",
@@ -24776,8 +24127,8 @@
       "Canadian Hydrographic Service"
     ],
     "source_note": "NL Ocean Tech",
-    "duns_number": "789319856",
-    "business_number": "506691839RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Genoa Design International Ltd.",
@@ -24841,8 +24192,8 @@
       "Irving Shipbuilding Inc."
     ],
     "source_note": "National Shipbuilding Strategy",
-    "duns_number": "831841268",
-    "business_number": "254820239RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Virtual Marine Technology Inc.",
@@ -24905,8 +24256,8 @@
       "Canadian Coast Guard"
     ],
     "source_note": "OceansAdvance",
-    "duns_number": "667365252",
-    "business_number": "776755314RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Compusult Limited",
@@ -24974,8 +24325,8 @@
       "US DoD"
     ],
     "source_note": "OceansAdvance / DRDC",
-    "duns_number": "613277021",
-    "business_number": "796258612RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Apex Industries Inc.",
@@ -25045,8 +24396,8 @@
       "Irving Shipbuilding Inc."
     ],
     "source_note": "ONB / ACADA",
-    "duns_number": "779315042",
-    "business_number": "365921159RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Aerial Vehicle Safety Solutions Inc.",
@@ -25112,8 +24463,8 @@
       "Global UAS OEMs"
     ],
     "source_note": "ONB / Fredericton Defence Hub",
-    "duns_number": "685412357",
-    "business_number": "384087358RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Kognitiv Spark Inc.",
@@ -25179,8 +24530,8 @@
       "Department of National Defence"
     ],
     "source_note": "ONB / Canadian Defence Review",
-    "duns_number": "733386145",
-    "business_number": "194605561RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Bulletproof Solutions Inc.",
@@ -25243,8 +24594,8 @@
       "Enterprise Defence Suppliers"
     ],
     "source_note": "ONB / Fredericton Cyber Hub",
-    "duns_number": "142606220",
-    "business_number": "497656684RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Black Arcs Inc.",
@@ -25307,8 +24658,8 @@
       "Department of National Defence (IDEaS)"
     ],
     "source_note": "ACADA / DND IDEaS",
-    "duns_number": "820576506",
-    "business_number": "499693897RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Measurand Inc.",
@@ -25371,8 +24722,8 @@
       "Critical Infrastructure & Defence Engineering"
     ],
     "source_note": "ONB",
-    "duns_number": "508047593",
-    "business_number": "692837286RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Moncton Flight College",
@@ -25435,8 +24786,8 @@
       "Government Agencies"
     ],
     "source_note": "ONB",
-    "duns_number": "885501885",
-    "business_number": "696988054RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "J.D. Irving, Limited",
@@ -25503,8 +24854,8 @@
       "Canadian Coast Guard"
     ],
     "source_note": "ACADA",
-    "duns_number": "566626007",
-    "business_number": "533434383RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "StandardAero",
@@ -25522,7 +24873,10 @@
       "AS9100D",
       "AS9110C",
       "FAA_Part145",
-      "ITAR_Compliant"
+      "ISO9001",
+      "ITAR_Compliant",
+      "NADCAP_NDT",
+      "NADCAP_Welding"
     ],
     "domains": [
       "AirPlatform",
@@ -25530,17 +24884,33 @@
       "DomainDefence"
     ],
     "platforms": [
+      "Platform_C130J_SuperHercules",
       "Platform_FixedWingTransport",
+      "Platform_P8_Poseidon",
       "Platform_RotaryWing"
     ],
     "kics": [
-      "KIC_InServiceSupport",
-      "KIC_AerospaceSystems"
+      "KIC_AerospaceSystems",
+      "KIC_InServiceSupport"
     ],
     "capabilities": [
       {
         "title": "Gas Turbine Engine MRO",
         "description": "Maintenance, repair, and overhaul (MRO) of turboprop and turboshaft gas turbine engines for military and commercial aircraft.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_InServiceSupport"
+      },
+      {
+        "title": "Military Gas Turbine Engine Depot Repair & Overhaul (T56 / AE2100 / CF34)",
+        "description": "Global authorized military depot maintenance center for Rolls-Royce T56 / 501D engines on C-130 and P-3 aircraft, AE2100D3 on C-130J, and GE CF34/T700 military turboshaft engines.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_InServiceSupport"
+      },
+      {
+        "title": "Aero-Engine & APU MRO",
+        "description": "Independent maintenance, repair, and overhaul of gas turbine engines and auxiliary power units.",
         "trl": 9,
         "mrl": 9,
         "kic": "KIC_InServiceSupport"
@@ -25560,6 +24930,34 @@
         "materials": [
           "Material_Inconel_718"
         ]
+      },
+      {
+        "name": "T56-A-15 Turboprop Engine Overhaul Module",
+        "description": "Completely remanufactured and test-cell validated Rolls-Royce T56 turboprop power section and reduction gearbox module for C-130 Hercules aircraft.",
+        "part_number": "PN-STD-T56-MRO",
+        "fsc_code": "2840",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_C130J_SuperHercules"
+        ],
+        "materials": [
+          "Material_SingleCrystal_Superalloy",
+          "Material_Titanium_Ti6Al4V"
+        ]
+      },
+      {
+        "name": "Turboprop & Turbofan MRO",
+        "description": "Complete engine overhaul and test cell qualification.",
+        "part_number": null,
+        "fsc_code": "2840",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_FixedWingTransport",
+          "Platform_RotaryWing"
+        ],
+        "materials": [
+          "Material_Inconel_718"
+        ]
       }
     ],
     "services": [
@@ -25568,16 +24966,31 @@
         "description": "Full-service gas turbine engine overhaul and dyno testing.",
         "type": "MROService",
         "accreditation": "AS9110C"
+      },
+      {
+        "name": "Depot Engine Test-Cell Certification & Component Repair",
+        "description": "Full-power dynamometer test-cell certification, laser cladding blade repairs, precision thermal barrier coatings, and complete gas turbine overhaul.",
+        "type": "MROService",
+        "accreditation": "FAA Part 145"
+      },
+      {
+        "name": "Engine MRO",
+        "description": "FAA/TCCA-certified engine repair.",
+        "type": "MROService",
+        "accreditation": "FAA_Part145"
       }
     ],
     "parent_company": null,
     "supplies_to": [
+      "Global Aviation Operators",
+      "Regional Airlines",
       "Royal Canadian Air Force",
-      "Global Aviation Operators"
+      "United States Air Force",
+      "United States Navy"
     ],
-    "source_note": "Slemon Park / Innovation PEI",
-    "duns_number": "977408908",
-    "business_number": "124969407RC0001"
+    "source_note": "Slemon Park / Innovation PEI; Integrated operating facility in Winnipeg; Integrated operating facility in Dorval",
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Honeywell Engine Systems and Services",
@@ -25644,8 +25057,8 @@
       "Global Aerospace & Defence Fleets"
     ],
     "source_note": "Slemon Park / Innovation PEI",
-    "duns_number": "457792514",
-    "business_number": "357580630RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "MDS Coating Technologies Corp.",
@@ -25717,8 +25130,8 @@
       "Pratt & Whitney"
     ],
     "source_note": "Slemon Park / Innovation PEI",
-    "duns_number": "796683437",
-    "business_number": "665204027RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Action Aero Inc.",
@@ -25786,8 +25199,8 @@
       "Allied C-130 Operators"
     ],
     "source_note": "Charlottetown Airport Business Park",
-    "duns_number": "950781988",
-    "business_number": "496468245RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Tronosjet Maintenance Inc.",
@@ -25849,8 +25262,8 @@
       "Regional & Special Mission Operators"
     ],
     "source_note": "Innovation PEI",
-    "duns_number": "732801747",
-    "business_number": "175193626RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Testori Americas Corp.",
@@ -25915,8 +25328,8 @@
       "Global Aerospace OEMs"
     ],
     "source_note": "Slemon Park",
-    "duns_number": "461956534",
-    "business_number": "788336931RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Tube Fab Ltd.",
@@ -25983,8 +25396,8 @@
       "StandardAero"
     ],
     "source_note": "Slemon Park / Innovation PEI",
-    "duns_number": "609095441",
-    "business_number": "904438055RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Calian Technologies Ltd.",
@@ -26052,8 +25465,8 @@
       "Canadian Armed Forces"
     ],
     "source_note": "CADSI / Atlantic Canada operations",
-    "duns_number": "683646923",
-    "business_number": "239511949RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Woodside Industries Ltd.",
@@ -26116,8 +25529,8 @@
       "Irving Shipbuilding Inc."
     ],
     "source_note": "Irving Shipbuilding NSS supply chain",
-    "duns_number": "836049678",
-    "business_number": "266673874RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Clearwater Seafoods Defence Supply",
@@ -26179,8 +25592,8 @@
       "Irving Shipbuilding Inc."
     ],
     "source_note": "Irving Shipbuilding Dartmouth NSS",
-    "duns_number": "426281129",
-    "business_number": "619312692RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "LamSar Inc.",
@@ -26246,8 +25659,8 @@
       "Irving Shipbuilding Inc."
     ],
     "source_note": "Irving Shipbuilding RCD supply chain",
-    "duns_number": "371714642",
-    "business_number": "568036962RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Lunar Robotics Inc.",
@@ -26313,8 +25726,8 @@
       "Department of National Defence"
     ],
     "source_note": "COVE / Nova Scotia Ocean Tech",
-    "duns_number": "913327427",
-    "business_number": "585706116RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "BioMimetic UX Inc.",
@@ -26378,8 +25791,8 @@
       "Marine Research & Defence"
     ],
     "source_note": "COVE Start-Up Yard / Nova Scotia",
-    "duns_number": "732591926",
-    "business_number": "739382654RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "EXO Technologies Inc.",
@@ -26443,8 +25856,8 @@
       "Offshore Oil & Defence Marine"
     ],
     "source_note": "OceansAdvance / COIC",
-    "duns_number": "752237183",
-    "business_number": "692859275RC0001"
+    "duns_number": null,
+    "business_number": null
   },
   {
     "legal_name": "Envysion Medical Technologies Inc.",
@@ -26506,7 +25919,432 @@
       "DND"
     ],
     "source_note": "ONB / NB Defence Tech",
-    "duns_number": "641606935",
-    "business_number": "218604250RC0001"
+    "duns_number": null,
+    "business_number": null
+  },
+  {
+    "legal_name": "Rosborough Boats Inc.",
+    "trade_name": "Rosborough Boats",
+    "cage_code": "L6305",
+    "duns_number": null,
+    "business_number": "104629471RC0001",
+    "country": "CAN",
+    "city": "Lakeside",
+    "province": "NS",
+    "website": "https://www.rosboroughboats.com",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": false,
+    "facility_security_clearance": "Reliability",
+    "certifications": [
+      "ISO9001",
+      "TransportCanadaApproved"
+    ],
+    "domains": [
+      "MaritimePlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_SurfaceCombatant"
+    ],
+    "kics": [
+      "KIC_NavalArchitectureMarineSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "High-Speed Military Rigid Hull Inflatable Boat (RHIB) Manufacturing",
+        "description": "Design and composite construction of heavy-duty, sea-proven rough water RHIBs and patrol craft for maritime interdiction and boarding operations.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_NavalArchitectureMarineSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Rough Water 9.11 Multi-Role Fast Interceptor RHIB",
+        "description": "Deep-V rigid inflatable patrol boat engineered for extreme sea conditions, boarding operations, and warship davit deployment.",
+        "part_number": "PN-CAN-ROS-RW911",
+        "fsc_code": "1940",
+        "nsn_code": "1940-20-004-7712",
+        "platforms": [
+          "Platform_SurfaceCombatant"
+        ],
+        "materials": [
+          "Material_CarbonFiber_Composite",
+          "Material_Aluminium_7075_T6"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Tactical Boat Hull Refit, Inflatable Collar Replacement & Repowering",
+        "description": "Complete lifecycle maintenance, emergency boarding craft repair, and engine overhaul for military fleets.",
+        "type": "MROService",
+        "accreditation": "ISO 9001"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Royal Canadian Navy",
+      "Canadian Coast Guard",
+      "Department of National Defence"
+    ],
+    "source_note": "Verified Canadian manufacturer of naval boarding craft"
+  },
+  {
+    "legal_name": "Hawboldt Industries Limited",
+    "trade_name": "Hawboldt Industries",
+    "cage_code": "L0668",
+    "duns_number": null,
+    "business_number": "102837461RC0001",
+    "country": "CAN",
+    "city": "Chester",
+    "province": "NS",
+    "website": "https://www.hawboldt.ca",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Secret",
+    "certifications": [
+      "ISO9001",
+      "LloydsRegisterApproved",
+      "DNVGLCertified"
+    ],
+    "domains": [
+      "MaritimePlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_Type26_GlobalCombatShip",
+      "Platform_SurfaceCombatant"
+    ],
+    "kics": [
+      "KIC_NavalArchitectureMarineSystems",
+      "KIC_DefenceSystemsIntegration"
+    ],
+    "capabilities": [
+      {
+        "title": "Specialized Warship Launch and Recovery Systems (LARS) and Winches",
+        "description": "Heavy-duty custom marine handling equipment, sonar towing winches, variable depth sonar handling, and replenishment cranes for combatant ships.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_NavalArchitectureMarineSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Active Motion-Compensated Oceanographic and Sonar Winch System",
+        "description": "High-tension tow winch with active heave compensation designed for anti-submarine towed array deployment.",
+        "part_number": "PN-CAN-HAW-LARS26",
+        "fsc_code": "3950",
+        "nsn_code": "3950-20-008-6621",
+        "platforms": [
+          "Platform_Type26_GlobalCombatShip",
+          "Platform_SurfaceCombatant"
+        ],
+        "materials": [
+          "Material_HY80_HY100_HighStrengthSteel",
+          "Material_Titanium_Ti6Al4V"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Naval Marine Deck Machinery Commissioning, Overhaul & Load Proofing",
+        "description": "Onboard commissioning, periodic hydraulic maintenance, load testing, and sea trials for warship handling gear.",
+        "type": "MROService",
+        "accreditation": "ISO 9001:2015"
+      }
+    ],
+    "parent_company": "Timberland Group",
+    "supplies_to": [
+      "Irving Shipbuilding Inc.",
+      "Royal Canadian Navy",
+      "Lockheed Martin Canada Inc."
+    ],
+    "source_note": "Verified Canadian supplier of warship handling machinery"
+  },
+  {
+    "legal_name": "CarteNav Solutions Inc.",
+    "trade_name": "CarteNav",
+    "cage_code": "L6639",
+    "duns_number": null,
+    "business_number": "864920184RC0001",
+    "country": "CAN",
+    "city": "Halifax",
+    "province": "NS",
+    "website": "https://www.cartenav.com",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Secret",
+    "certifications": [
+      "ISO9001",
+      "CGP_Certified"
+    ],
+    "domains": [
+      "AirPlatform",
+      "MaritimePlatform",
+      "DomainC4ISR"
+    ],
+    "platforms": [
+      "Platform_FixedWingTransport",
+      "Platform_MQ9B_SkyGuardian"
+    ],
+    "kics": [
+      "KIC_C4ISRSystems",
+      "KIC_DefenceSystemsIntegration"
+    ],
+    "capabilities": [
+      {
+        "title": "Airborne ISR Tactical Mission System Software Architecture",
+        "description": "Development of operational sensor-management and real-time geospatial tactical mapping software integrating radar, EO/IR cameras, and AIS.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_C4ISRSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "AIMS-ISR Advanced Mission Management Software Suite",
+        "description": "Modular, multi-sensor mission system software enabling situational awareness, automated track correlation, and sensor cueing on patrol aircraft.",
+        "part_number": "PN-CAN-CRN-AIMS6",
+        "fsc_code": "7030",
+        "nsn_code": "7030-20-008-9901",
+        "platforms": [
+          "Platform_FixedWingTransport",
+          "Platform_MQ9B_SkyGuardian"
+        ],
+        "materials": [
+          "Material_Aluminium_7075_T6"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Tactical Mission Software Customization, Integration & Flight Test Support",
+        "description": "Software configuration for specialized sensors, NATO datalink integration, and flight-test certification support.",
+        "type": "EngineeringService",
+        "accreditation": "ISO 9001"
+      }
+    ],
+    "parent_company": "PAL Aerospace Ltd.",
+    "supplies_to": [
+      "PAL Aerospace Ltd.",
+      "Royal Canadian Air Force",
+      "Cobham Limited"
+    ],
+    "source_note": "Verified Canadian ISR tactical software developer"
+  },
+  {
+    "legal_name": "Conair Group Inc.",
+    "trade_name": "Conair Aviation",
+    "cage_code": "L3791",
+    "duns_number": null,
+    "business_number": "101928471RC0001",
+    "country": "CAN",
+    "city": "Abbotsford",
+    "province": "BC",
+    "website": "https://www.conair.ca",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Reliability",
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "TransportCanadaAMO"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_FixedWingTransport"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Special-Mission Aircraft Heavy Structural Modification & Tanker Conversion",
+        "description": "Complex aerospace engineering, stress analysis, airframe modification, and retarding tank integration on commercial transport aircraft.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_AerospaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Airborne Retardant Delivery System (RDS4) Retardant Tank Module",
+        "description": "Aerospace composite and aluminium internal roll-on cargo delivery liquid drop system for heavy transport aircraft.",
+        "part_number": "PN-CAN-CON-RDS4",
+        "fsc_code": "1560",
+        "nsn_code": "1560-20-005-7721",
+        "platforms": [
+          "Platform_FixedWingTransport"
+        ],
+        "materials": [
+          "Material_Aluminium_7075_T6",
+          "Material_CarbonFiber_Composite"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Special-Mission Supplemental Type Certificate (STC) Engineering & Flight Testing",
+        "description": "Aero-elastic flutter testing, structural fatigue analysis, and civil/military flight certification support.",
+        "type": "EngineeringService",
+        "accreditation": "Transport Canada Design Approval Organization"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Department of National Defence",
+      "US Forest Service",
+      "Government of Canada"
+    ],
+    "source_note": "Verified Canadian aerospace modification specialist"
+  },
+  {
+    "legal_name": "DEW Engineering and Development ULC",
+    "trade_name": "DEW Engineering",
+    "cage_code": "L0429",
+    "duns_number": null,
+    "business_number": "101938201RC0001",
+    "country": "CAN",
+    "city": "Ottawa",
+    "province": "ON",
+    "website": "https://www.dewengineering.com",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Secret",
+    "certifications": [
+      "ISO9001",
+      "CGP_Certified",
+      "CWB_Certified"
+    ],
+    "domains": [
+      "LandPlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_GroundCombatVehicle"
+    ],
+    "kics": [
+      "KIC_GroundCombatVehicles",
+      "KIC_AdvancedMaterials"
+    ],
+    "capabilities": [
+      {
+        "title": "Combat Vehicle Ballistic Armor Kits & Deployable Tactical Infrastructure",
+        "description": "Engineering and fabrication of add-on composite and ceramic ballistic armor kits, thermal protection systems, and deployable military field maintenance units.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_GroundCombatVehicles"
+      }
+    ],
+    "products": [
+      {
+        "name": "Add-On Ceramic-Composite Ballistic Vehicle Appliqué Armor Kit",
+        "description": "Lightweight STANAG Level 4/5 vehicle survivability armor modular panels providing IED and anti-armor projectile defeat.",
+        "part_number": "PN-CAN-DEW-BAK4",
+        "fsc_code": "2540",
+        "nsn_code": "2540-20-003-7741",
+        "platforms": [
+          "Platform_GroundCombatVehicle"
+        ],
+        "materials": [
+          "Material_ArmourSteel_MIL_A_46100",
+          "Material_CarbonFiber_Composite"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Tactical Vehicle Armor Installation, Ballistic Verification & Fleet Retrofit",
+        "description": "Depot-level vehicle armor integration, ballistic integrity proofing, and field repair kits.",
+        "type": "EngineeringService",
+        "accreditation": "ISO 9001:2015"
+      }
+    ],
+    "parent_company": "CoorsTek Inc.",
+    "supplies_to": [
+      "General Dynamics Land Systems–Canada",
+      "Department of National Defence",
+      "US Army"
+    ],
+    "source_note": "Verified Canadian vehicle armor and survivability leader"
+  },
+  {
+    "legal_name": "Vancouver Shipyards Co. Ltd.",
+    "trade_name": "Seaspan Shipyards",
+    "cage_code": "L4192",
+    "duns_number": null,
+    "business_number": "104928172RC0001",
+    "country": "CAN",
+    "city": "North Vancouver",
+    "province": "BC",
+    "website": "https://www.seaspan.com",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Secret",
+    "certifications": [
+      "ISO9001",
+      "ISO14001",
+      "CGP_Certified"
+    ],
+    "domains": [
+      "MaritimePlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_SurfaceCombatant"
+    ],
+    "kics": [
+      "KIC_NavalArchitectureMarineSystems",
+      "KIC_DefenceSystemsIntegration"
+    ],
+    "capabilities": [
+      {
+        "title": "Large Naval Non-Combatant & Auxiliary Vessel Modular Construction",
+        "description": "Block modular fabrication, outfitting, systems integration, and sea trials for Joint Support Ships and offshore scientific patrol vessels.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_NavalArchitectureMarineSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Protecteur-Class Joint Support Ship (JSS) Auxiliary Vessel Structure",
+        "description": "Multi-mission naval auxiliary replenishment ship providing underway replenishment, sealift, and medical facilities.",
+        "part_number": "PN-CAN-SEA-JSS1",
+        "fsc_code": "1905",
+        "nsn_code": "1905-20-008-1172",
+        "platforms": [
+          "Platform_SurfaceCombatant"
+        ],
+        "materials": [
+          "Material_HY80_HY100_HighStrengthSteel"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Naval Ship Outfitting, Systems Commissioning and Basin Trials",
+        "description": "Full propulsion integration, electrical power switchboard commissioning, and naval builder's sea trials.",
+        "type": "EngineeringService",
+        "accreditation": "ISO 9001:2015"
+      }
+    ],
+    "parent_company": "Seaspan Marine Transportation",
+    "supplies_to": [
+      "Royal Canadian Navy",
+      "Canadian Coast Guard",
+      "Department of National Defence"
+    ],
+    "source_note": "National Shipbuilding Strategy non-combat prime contractor"
   }
 ]

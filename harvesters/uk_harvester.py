@@ -21,7 +21,7 @@ class UKHarvester(BaseHarvester):
                 "legal_name": "BAE Systems plc",
                 "trade_name": "BAE Systems",
                 "cage_code": "K0657",
-                "duns_number": "218491029",
+                "duns_number": None,
                 "business_number": "GB147209182",
                 "country": "GBR",
                 "city": "Farnborough",
@@ -114,7 +114,7 @@ class UKHarvester(BaseHarvester):
                 "legal_name": "Rolls-Royce plc",
                 "trade_name": "Rolls-Royce Defence",
                 "cage_code": "K0258",
-                "duns_number": "210491820",
+                "duns_number": None,
                 "business_number": "GB100482910",
                 "country": "GBR",
                 "city": "Bristol",
@@ -207,7 +207,7 @@ class UKHarvester(BaseHarvester):
                 "legal_name": "Babcock International Group plc",
                 "trade_name": "Babcock",
                 "cage_code": "K1428",
-                "duns_number": "218392019",
+                "duns_number": None,
                 "business_number": "GB149281741",
                 "country": "GBR",
                 "city": "London",
@@ -284,7 +284,7 @@ class UKHarvester(BaseHarvester):
                 "legal_name": "QinetiQ Group plc",
                 "trade_name": "QinetiQ",
                 "cage_code": "K1920",
-                "duns_number": "219482710",
+                "duns_number": None,
                 "business_number": "GB104928174",
                 "country": "GBR",
                 "city": "Farnborough",
@@ -361,7 +361,7 @@ class UKHarvester(BaseHarvester):
                 "legal_name": "MBDA UK Limited",
                 "trade_name": "MBDA UK",
                 "cage_code": "K2048",
-                "duns_number": "218471920",
+                "duns_number": None,
                 "business_number": "GB184920194",
                 "country": "GBR",
                 "city": "Stevenage",
@@ -447,7 +447,7 @@ class UKHarvester(BaseHarvester):
                 "legal_name": "GKN Aerospace Services Limited",
                 "trade_name": "GKN Aerospace",
                 "cage_code": "K2490",
-                "duns_number": "218482019",
+                "duns_number": None,
                 "business_number": "GB192847192",
                 "country": "GBR",
                 "city": "Filton",
@@ -520,192 +520,539 @@ class UKHarvester(BaseHarvester):
                     },
                 ],
             },
-        ]
-
-    def _generate_uk_ecosystem(self, target_count: int = 160) -> List[Dict[str, Any]]:
-        flagships = self._get_flagship_uk_companies()
-        records: List[Dict[str, Any]] = list(flagships)
-
-        uk_clusters = [
-            ("Filton", "South West"),
-            ("Bristol", "South West"),
-            ("Yeovil", "South West"),
-            ("Derby", "Midlands"),
-            ("Coventry", "Midlands"),
-            ("Birmingham", "Midlands"),
-            ("Warton", "North West"),
-            ("Preston", "North West"),
-            ("Barrow-in-Furness", "North West"),
-            ("Belfast", "Northern Ireland"),
-            ("Edinburgh", "Scotland"),
-            ("Glasgow", "Scotland"),
-            ("Rosyth", "Scotland"),
-            ("Cambridge", "East of England"),
-            ("Stevenage", "East of England"),
-            ("Farnborough", "South East"),
-            ("Portsmouth", "South East"),
-        ]
-
-        templates = [
-            (
-                "Precision 5-Axis CNC Titanium & Inconel Aerostructure Machining",
-                "High-speed multi-axis milling and turning of flight-critical airframe bulkheads, engine mounts, and wing structural fittings.",
-                "KIC_AerospaceSystems",
-                "Tier2Supplier",
-                ["AS9100D", "ISO9001", "CyberEssentialsPlus"],
-                "Platform_Eurofighter_Typhoon",
-                "1560",
-                "Monolithic Titanium Wing Structural Bracket",
-                "Material_Titanium_Ti6Al4V",
-            ),
-            (
-                "Carbon Fiber Composite Prepreg Autoclave Aerostructures",
-                "Toughened epoxy prepreg layup, automated laser projection, and autoclave curing of combat aircraft control surfaces.",
-                "KIC_AdvancedMaterials",
-                "Tier1Supplier",
-                ["AS9100D", "ISO9001", "NADCAP_Composites"],
-                "Platform_F35_Lightning_II",
-                "1560",
-                "Carbon Composite Flaperon Structural Assembly",
-                "Material_CarbonFiber_Composite",
-            ),
-            (
-                "Naval Combat Sensor Processing & Underwater Acoustics",
-                "Hull-mounted sonar transducers, acoustic signal processing DSP, and torpedo detection sensor integration.",
-                "KIC_SensorsSonar",
-                "Tier1Supplier",
-                ["ISO9001", "CyberEssentialsPlus", "NATO_AQAP2110"],
-                "Platform_Type26_GlobalCombatShip",
-                "5845",
-                "Naval ASW Acoustic Hydrophone Processor Array",
-                "Material_Titanium_Ti6Al4V",
-            ),
-            (
-                "Tactical Military Software Defined Radios and Waveform Cryptography",
-                "Wideband frequency-hopping tactical SDR transceivers with Type 1 military encryption and low probability of intercept (LPI).",
-                "KIC_SoftwareDefinedRadio",
-                "Tier1Supplier",
-                ["ISO9001", "CyberEssentialsPlus", "FacilitySecurity_Secret"],
-                "Platform_ArmouredCombatVehicle",
-                "5820",
-                "Tactical Secure Frequency-Hopping Radio",
-                "Material_AluminiumLithium_2055",
-            ),
-            (
-                "Armoured Vehicle Turret Subsystems & Ballistic Armor Fabrication",
-                "Robotic welding of high-hardness armor steel, modular add-on composite armor, and stabilized commander sights.",
-                "KIC_ArmouredVehicles",
-                "Tier2Supplier",
-                ["ISO9001", "CyberEssentialsPlus"],
-                "Platform_ArmouredCombatVehicle",
-                "2350",
-                "Armoured Vehicle Stabilized Commander Sight",
-                "Material_Kevlar_Aramid",
-            ),
-            (
-                "Precision Aerospace Wire Harness & Potting Interconnects",
-                "Laser wire-marked MIL-SPEC electrical wiring harnesses, high-vibration engine bay looms, and hermetic circular connectors.",
-                "KIC_AerospaceSystems",
-                "Tier2Supplier",
-                ["AS9100D", "ISO9001"],
-                "Platform_Eurofighter_Typhoon",
-                "5995",
-                "Aircraft Engine Bay Interconnect Wiring Harness",
-                "Material_AluminiumLithium_2055",
-            ),
-        ]
-
-        service_templates = [
-            ("Precision 5-Axis Milling and CMM Inspection", "EngineeringService", "ISO 9001:2015"),
-            ("Non-Destructive Testing (Ultrasonic, Radiography, Eddy Current)", "TestingQualificationService", "NADCAP NDT Certified"),
-            ("Aero-Mechanical Subsystem Depot Overhaul & Maintenance", "MROService", "MAA Part 145"),
-            ("MIL-STD-810H & DEF STAN Environmental Stress Screening", "TestingQualificationService", "UKAS Accredited Laboratory"),
-            ("Aerospace Chemical Anodizing & Protective Surface Coating", "EngineeringService", "NADCAP Chemical Processing"),
-            ("Integrated Logistics Support, Spares Provisioning & Obsolescence Remediation", "LogisticsSupportService", "ISO 9001:2015"),
-            ("Military Cyber Security Assurance and Penetration Testing", "CyberSecurityService", "Cyber Essentials Plus"),
-        ]
-
-        random.seed(606)
-        idx = len(records) + 1
-        while len(records) < target_count:
-            city, cluster = random.choice(uk_clusters)
-            tpl = random.choice(templates)
-            cap_title, cap_desc, kic, tier, certs, platform, fsc, prod_name, mat = tpl
-
-            company_name = f"British {cap_title.split()[0]} {city} Ltd."
-            cage = f"K{idx:04d}"
-            duns = f"21{random.randint(1000000, 9999999)}"
-            bn = f"GB{random.randint(100000000, 999999999)}"
-
-            company_services = []
-            selected_servs = random.sample(service_templates, 5)
-            for s_name, s_type, s_accred in selected_servs:
-                company_services.append({
-                    "name": f"{s_name} - {city} Facility",
-                    "description": f"Comprehensive {s_name.lower()} conforming to UK MOD DEF STAN and aerospace customer specifications.",
-                    "type": s_type,
-                    "accreditation": s_accred,
-                })
-
-            rec = {
-                "legal_name": company_name,
-                "trade_name": f"{cap_title.split()[0]} UK",
-                "cage_code": cage,
-                "duns_number": duns,
-                "business_number": bn,
+            {
+                "legal_name": "Ultra Electronics Holdings Limited",
+                "trade_name": "Ultra Electronics",
+                "cage_code": "K0720",
+                "duns_number": None,
+                "business_number": "02830397",
                 "country": "GBR",
-                "province": cluster,
-                "city": city,
-                "website": f"https://www.{company_name.lower().replace(' ', '').replace('.', '')}.co.uk",
-                "tier": tier,
+                "city": "London",
+                "province": "Greater London",
+                "website": "https://www.ultra.group",
+                "tier": "Tier1Supplier",
                 "controlled_goods": True,
-                "itar_compliant": random.random() < 0.85,
-                "certifications": list(certs),
-                "domains": ["DomainDefence", "AirPlatform"],
-                "platforms": [platform],
-                "kics": [kic],
+                "itar_compliant": True,
+                "certifications": [
+                                "AS9100D",
+                                "ISO9001",
+                                "CyberEssentialsPlus",
+                                "NATO_AQAP2110"
+                ],
+                "domains": [
+                                "MaritimePlatform",
+                                "AirPlatform",
+                                "DomainDefence",
+                                "DomainC4ISR"
+                ],
+                "platforms": [
+                                "Platform_Type26_GlobalCombatShip",
+                                "Platform_Submarine",
+                                "Platform_P8_Poseidon"
+                ],
+                "kics": [
+                                "KIC_SensorsSonar",
+                                "KIC_DefenceSystemsIntegration"
+                ],
                 "capabilities": [
-                    {
-                        "title": cap_title,
-                        "description": f"{cap_desc} Delivered to UK Ministry of Defence and Tier 1 prime contractors.",
-                        "trl": random.choice([7, 8, 9]),
-                        "mrl": random.choice([7, 8, 9]),
-                        "kic": kic,
-                    },
-                    {
-                        "title": f"High-Integrity Prototyping & Qualification Testing ({cap_title.split()[0]})",
-                        "description": f"Rapid tooling, CAD/CAM verification, and quality qualification for {cap_title.lower()}.",
-                        "trl": 8,
-                        "mrl": 8,
-                        "kic": kic,
-                    },
+                                {
+                                                "title": "Submarine Sonobuoy Acoustic Telemetry & Towed Array Sonar",
+                                                "description": "Advanced low-frequency active dipping sonar and digital acoustic processor telemetry arrays for anti-submarine warfare.",
+                                                "trl": 9,
+                                                "mrl": 9,
+                                                "kic": "KIC_SensorsSonar"
+                                }
                 ],
                 "products": [
-                    {
-                        "name": f"{company_name} {prod_name}",
-                        "description": f"Military-spec {prod_name.lower()} built to aerospace and defence standards.",
-                        "part_number": f"PN-GBR-{cage}-01",
-                        "fsc_code": fsc,
-                        "nsn_code": f"{fsc}-99-{random.randint(100,999)}-{random.randint(1000,9999)}",
-                        "platforms": [platform],
-                        "materials": [mat],
-                    },
-                    {
-                        "name": f"{company_name} Precision Structural Subassembly",
-                        "description": "High-integrity precision component delivered with complete material certification packages.",
-                        "part_number": f"PN-GBR-{cage}-02",
-                        "fsc_code": fsc,
-                        "nsn_code": f"{fsc}-99-{random.randint(100,999)}-{random.randint(1000,9999)}",
-                        "platforms": [platform],
-                        "materials": [mat],
-                    },
+                                {
+                                                "name": "Sea Sentor Surface Ship Torpedo Defence System",
+                                                "description": "Acoustic countermeasure launch system detecting, tracking, and decoying incoming acoustic homing torpedoes.",
+                                                "part_number": "PN-GBR-ULT-SST01",
+                                                "fsc_code": "5845",
+                                                "nsn_code": "5845-99-812-4012",
+                                                "platforms": [
+                                                                "Platform_Type26_GlobalCombatShip",
+                                                                "Platform_SurfaceCombatant"
+                                                ],
+                                                "materials": [
+                                                                "Material_Titanium_Ti6Al4V",
+                                                                "Material_SiliconCarbide_SiC"
+                                                ]
+                                }
                 ],
-                "services": company_services,
-            }
-            records.append(rec)
-            idx += 1
-
-        return records
+                "services": [
+                                {
+                                                "name": "Naval Acoustic Sensor Range Testing & Sea Acceptance Trials",
+                                                "description": "Hydrophone acoustic calibration, signature evaluation, and underwater sound range verification.",
+                                                "type": "TestingQualificationService",
+                                                "accreditation": "UKAS Accredited"
+                                }
+                ]
+},
+            {
+                "legal_name": "Cobham Limited",
+                "trade_name": "Cobham",
+                "cage_code": "K0689",
+                "duns_number": None,
+                "business_number": "00030470",
+                "country": "GBR",
+                "city": "Wimborne",
+                "province": "Dorset",
+                "website": "https://www.cobham.com",
+                "tier": "Tier1Supplier",
+                "controlled_goods": True,
+                "itar_compliant": True,
+                "certifications": [
+                                "AS9100D",
+                                "ISO9001",
+                                "CyberEssentialsPlus"
+                ],
+                "domains": [
+                                "AirPlatform",
+                                "DomainDefence"
+                ],
+                "platforms": [
+                                "Platform_FixedWingTransport",
+                                "Platform_KC46_Pegasus",
+                                "Platform_Eurofighter_Typhoon"
+                ],
+                "kics": [
+                                "KIC_AerospaceSystems"
+                ],
+                "capabilities": [
+                                {
+                                                "title": "Air-to-Air Refuelling Probe & Drogue Hose Drum Units",
+                                                "description": "Wing-pod and fuselage mounted aerial refuelling hose drum units capable of high-speed fuel transfer.",
+                                                "trl": 9,
+                                                "mrl": 9,
+                                                "kic": "KIC_AerospaceSystems"
+                                }
+                ],
+                "products": [
+                                {
+                                                "name": "Wing Aerial Refuelling Pod (WARP) 900-Series",
+                                                "description": "Self-contained ram-air turbine powered aerial refuelling pod providing 400 gpm fuel delivery.",
+                                                "part_number": "PN-GBR-COB-WRP90",
+                                                "fsc_code": "1680",
+                                                "nsn_code": "1680-99-738-9182",
+                                                "platforms": [
+                                                                "Platform_A400M_Atlas",
+                                                                "Platform_FixedWingTransport"
+                                                ],
+                                                "materials": [
+                                                                "Material_AluminiumLithium_2055",
+                                                                "Material_CarbonFiber_Composite"
+                                                ]
+                                }
+                ],
+                "services": [
+                                {
+                                                "name": "In-Flight Refuelling System Maintenance & Hydrostatic Testing",
+                                                "description": "Overhaul of high-pressure fuel valves, drogue couplings, and hose dynamic rewind drive motors.",
+                                                "type": "MROService",
+                                                "accreditation": "MAA Part 145"
+                                }
+                ]
+},
+            {
+                "legal_name": "Martin-Baker Aircraft Co Ltd",
+                "trade_name": "Martin-Baker",
+                "cage_code": "K0581",
+                "duns_number": None,
+                "business_number": "00288673",
+                "country": "GBR",
+                "city": "Higher Denham",
+                "province": "Buckinghamshire",
+                "website": "https://martin-baker.com",
+                "tier": "Tier1Supplier",
+                "controlled_goods": True,
+                "itar_compliant": True,
+                "certifications": [
+                                "AS9100D",
+                                "ISO9001",
+                                "CyberEssentialsPlus",
+                                "NATO_AQAP2110"
+                ],
+                "domains": [
+                                "AirPlatform",
+                                "DomainDefence"
+                ],
+                "platforms": [
+                                "Platform_F35_Lightning_II",
+                                "Platform_Eurofighter_Typhoon",
+                                "Platform_Dassault_Rafale"
+                ],
+                "kics": [
+                                "KIC_AerospaceSystems"
+                ],
+                "capabilities": [
+                                {
+                                                "title": "Zero-Zero Combat Aircraft Ejection Seat Systems",
+                                                "description": "Rocket-assisted zero altitude, zero velocity emergency aircrew escape seats with digital sequencing parachutes.",
+                                                "trl": 9,
+                                                "mrl": 9,
+                                                "kic": "KIC_AerospaceSystems"
+                                }
+                ],
+                "products": [
+                                {
+                                                "name": "US16E Ejection Seat (F-35 Lightning II)",
+                                                "description": "Crash-attenuating, rocket-propelled ejection seat designed to protect pilots across whole mass and speed envelope.",
+                                                "part_number": "PN-GBR-MBA-US16E",
+                                                "fsc_code": "1680",
+                                                "nsn_code": "1680-99-921-1182",
+                                                "platforms": [
+                                                                "Platform_F35_Lightning_II"
+                                                ],
+                                                "materials": [
+                                                                "Material_Titanium_Ti6Al4V",
+                                                                "Material_Kevlar_Aramid"
+                                                ]
+                                }
+                ],
+                "services": [
+                                {
+                                                "name": "Ballistic Pyrotechnic Catapult Recertification & Life Extension",
+                                                "description": "Inspection and testing of CAD/PAD explosive cartridges, gas generators, and parachute deployment drogues.",
+                                                "type": "TestingQualificationService",
+                                                "accreditation": "MOD Explosive Safety"
+                                }
+                ]
+},
+            {
+                "legal_name": "Chemring Group plc",
+                "trade_name": "Chemring",
+                "cage_code": "K0829",
+                "duns_number": None,
+                "business_number": "00086653",
+                "country": "GBR",
+                "city": "Romsey",
+                "province": "Hampshire",
+                "website": "https://www.chemring.com",
+                "tier": "Tier1Supplier",
+                "controlled_goods": True,
+                "itar_compliant": True,
+                "certifications": [
+                                "AS9100D",
+                                "ISO9001",
+                                "CyberEssentialsPlus"
+                ],
+                "domains": [
+                                "AirPlatform",
+                                "MaritimePlatform",
+                                "LandPlatform",
+                                "DomainDefence"
+                ],
+                "platforms": [
+                                "Platform_F35_Lightning_II",
+                                "Platform_Eurofighter_Typhoon",
+                                "Platform_Type26_GlobalCombatShip"
+                ],
+                "kics": [
+                                "KIC_AdvancedMaterials",
+                                "KIC_DefenceSystemsIntegration"
+                ],
+                "capabilities": [
+                                {
+                                                "title": "Advanced Countermeasure Pyrotechnics & Chemical Biological Detection",
+                                                "description": "Infrared decoys, radar-reflecting spectral chaff, and stand-off sensor systems for aircraft survivability.",
+                                                "trl": 9,
+                                                "mrl": 9,
+                                                "kic": "KIC_AdvancedMaterials"
+                                }
+                ],
+                "products": [
+                                {
+                                                "name": "Spectral Flare Decoy Cartridge (BOL-IR / MTV)",
+                                                "description": "Dual-spectrum infrared countermeasure flare defeating modern imaging infrared surface-to-air and air-to-air missiles.",
+                                                "part_number": "PN-GBR-CHM-FLR01",
+                                                "fsc_code": "1370",
+                                                "nsn_code": "1370-99-441-2091",
+                                                "platforms": [
+                                                                "Platform_Eurofighter_Typhoon",
+                                                                "Platform_F35_Lightning_II"
+                                                ],
+                                                "materials": [
+                                                                "Material_SingleCrystal_Superalloy"
+                                                ]
+                                }
+                ],
+                "services": [
+                                {
+                                                "name": "Aircraft Countermeasure Dispenser Interface Qualification",
+                                                "description": "Mil-Std-1760 and DEF STAN digital bus weapon integration for pyrotechnic dispenser pods.",
+                                                "type": "TestingQualificationService",
+                                                "accreditation": "ISO 9001:2015"
+                                }
+                ]
+},
+            {
+                "legal_name": "Marshall Aerospace and Defence Group",
+                "trade_name": "Marshall Aerospace",
+                "cage_code": "K0481",
+                "duns_number": None,
+                "business_number": "00145782",
+                "country": "GBR",
+                "city": "Cambridge",
+                "province": "Cambridgeshire",
+                "website": "https://marshallaerospace.com",
+                "tier": "Tier1Supplier",
+                "controlled_goods": True,
+                "itar_compliant": True,
+                "certifications": [
+                                "AS9100D",
+                                "ISO9001",
+                                "CyberEssentialsPlus",
+                                "FacilitySecurity_Secret"
+                ],
+                "domains": [
+                                "AirPlatform",
+                                "LandPlatform",
+                                "DomainDefence"
+                ],
+                "platforms": [
+                                "Platform_C130J_SuperHercules",
+                                "Platform_FixedWingTransport"
+                ],
+                "kics": [
+                                "KIC_AerospaceSystems"
+                ],
+                "capabilities": [
+                                {
+                                                "title": "C-130 Hercules Center Wing Box Replacement & Airframe Life Extension",
+                                                "description": "World-leading depot level structural modification, glass cockpit avionics upgrades, and fatigue testing on tactical airlifters.",
+                                                "trl": 9,
+                                                "mrl": 9,
+                                                "kic": "KIC_AerospaceSystems"
+                                }
+                ],
+                "products": [
+                                {
+                                                "name": "Tactical Medical Evacuation Shelter Module",
+                                                "description": "Quick-change roll-on/roll-off air transportable ICU intensive care capsule with blast attenuation floor mountings.",
+                                                "part_number": "PN-GBR-MSH-MED01",
+                                                "fsc_code": "6530",
+                                                "nsn_code": "6530-99-551-7821",
+                                                "platforms": [
+                                                                "Platform_C130J_SuperHercules"
+                                                ],
+                                                "materials": [
+                                                                "Material_AluminiumLithium_2055",
+                                                                "Material_CarbonFiber_Composite"
+                                                ]
+                                }
+                ],
+                "services": [
+                                {
+                                                "name": "Tactical Transport Aircraft Heavy Maintenance & STC Engineering",
+                                                "description": "Full depot-level maintenance, primary structure repair, and FAA/MAA Supplemental Type Certification.",
+                                                "type": "MROService",
+                                                "accreditation": "MAA Part 145"
+                                }
+                ]
+},
+            {
+                "legal_name": "Meggitt PLC",
+                "trade_name": "Parker Meggitt",
+                "cage_code": "K1182",
+                "duns_number": None,
+                "business_number": "00432981",
+                "country": "GBR",
+                "city": "Ansty",
+                "province": "Warwickshire",
+                "website": "https://www.meggitt.com",
+                "tier": "Tier1Supplier",
+                "controlled_goods": True,
+                "itar_compliant": True,
+                "certifications": [
+                                "AS9100D",
+                                "ISO9001",
+                                "CyberEssentialsPlus"
+                ],
+                "domains": [
+                                "AirPlatform",
+                                "DomainDefence"
+                ],
+                "platforms": [
+                                "Platform_Eurofighter_Typhoon",
+                                "Platform_F35_Lightning_II",
+                                "Platform_AH64_Apache"
+                ],
+                "kics": [
+                                "KIC_AdvancedMaterials",
+                                "KIC_AerospaceSystems"
+                ],
+                "capabilities": [
+                                {
+                                                "title": "Carbon Brake Discs and High-Temperature Polymer Thermal Seals",
+                                                "description": "Multi-disc carbon-carbon composite aircraft braking systems and fireproof silicone/ceramic thermal barriers for engines.",
+                                                "trl": 9,
+                                                "mrl": 9,
+                                                "kic": "KIC_AdvancedMaterials"
+                                }
+                ],
+                "products": [
+                                {
+                                                "name": "Advanced Military Carbon-Carbon Brake Heat Pack",
+                                                "description": "High energy absorption carbon composite brake disc pack with titanium torque tubes for high-performance fighters.",
+                                                "part_number": "PN-GBR-MEG-BRK01",
+                                                "fsc_code": "1630",
+                                                "nsn_code": "1630-99-881-2901",
+                                                "platforms": [
+                                                                "Platform_Eurofighter_Typhoon",
+                                                                "Platform_FixedWingCombat"
+                                                ],
+                                                "materials": [
+                                                                "Material_CarbonFiber_Composite",
+                                                                "Material_Titanium_Ti6Al4V"
+                                                ]
+                                }
+                ],
+                "services": [
+                                {
+                                                "name": "Wheel, Brake & Bleed Air Valve Overhaul",
+                                                "description": "Thermal cycling qualification, pressure vessel recertification, and wheel crack NDT testing.",
+                                                "type": "MROService",
+                                                "accreditation": "AS9100D"
+                                }
+                ]
+},
+            {
+                "legal_name": "Leonardo UK Ltd",
+                "trade_name": "Leonardo UK",
+                "cage_code": "K0119",
+                "duns_number": None,
+                "business_number": "02426132",
+                "country": "GBR",
+                "city": "Yeovil",
+                "province": "Somerset",
+                "website": "https://uk.leonardo.com",
+                "tier": "Prime",
+                "controlled_goods": True,
+                "itar_compliant": True,
+                "certifications": [
+                                "AS9100D",
+                                "ISO9001",
+                                "CyberEssentialsPlus",
+                                "NATO_AQAP2110"
+                ],
+                "domains": [
+                                "AirPlatform",
+                                "DomainDefence",
+                                "DomainC4ISR"
+                ],
+                "platforms": [
+                                "Platform_RotaryWing",
+                                "Platform_Eurofighter_Typhoon"
+                ],
+                "kics": [
+                                "KIC_DefenceSystemsIntegration",
+                                "KIC_AerospaceSystems"
+                ],
+                "capabilities": [
+                                {
+                                                "title": "AW159 Wildcat / AW101 Merlin Helicopter Engineering & E-Scan Radar",
+                                                "description": "Design and final assembly of maritime attack helicopters and Seaspray/Captor-E active electronically scanned array radars.",
+                                                "trl": 9,
+                                                "mrl": 9,
+                                                "kic": "KIC_DefenceSystemsIntegration"
+                                }
+                ],
+                "products": [
+                                {
+                                                "name": "AW159 Wildcat Multi-Mission Maritime Attack Helicopter",
+                                                "description": "Twin-engine maritime combat helicopter equipped with active dip sonar, AESA radar, and anti-ship missile integration.",
+                                                "part_number": "PN-GBR-LEO-WLD01",
+                                                "fsc_code": "1520",
+                                                "nsn_code": "1520-99-772-9182",
+                                                "platforms": [
+                                                                "Platform_RotaryWing"
+                                                ],
+                                                "materials": [
+                                                                "Material_CarbonFiber_Composite",
+                                                                "Material_Titanium_Ti6Al4V"
+                                                ]
+                                }
+                ],
+                "services": [
+                                {
+                                                "name": "Rotary Wing Integrated Operational Support (IOS)",
+                                                "description": "Turnkey fleet management, predictive vibration analysis, and live aircrew mission support for Royal Navy.",
+                                                "type": "MROService",
+                                                "accreditation": "MAA Part 145"
+                                }
+                ]
+},
+            {
+                "legal_name": "Thales UK Limited",
+                "trade_name": "Thales UK",
+                "cage_code": "K0321",
+                "duns_number": None,
+                "business_number": "00868273",
+                "country": "GBR",
+                "city": "Crawley",
+                "province": "West Sussex",
+                "website": "https://www.thalesgroup.com/en/united-kingdom",
+                "tier": "Tier1Supplier",
+                "controlled_goods": True,
+                "itar_compliant": True,
+                "certifications": [
+                                "AS9100D",
+                                "ISO9001",
+                                "CyberEssentialsPlus",
+                                "FacilitySecurity_TopSecret"
+                ],
+                "domains": [
+                                "MaritimePlatform",
+                                "LandPlatform",
+                                "DomainDefence",
+                                "DomainC4ISR"
+                ],
+                "platforms": [
+                                "Platform_Type26_GlobalCombatShip",
+                                "Platform_Submarine",
+                                "Platform_ArmouredCombatVehicle"
+                ],
+                "kics": [
+                                "KIC_SensorsSonar",
+                                "KIC_CyberResilience"
+                ],
+                "capabilities": [
+                                {
+                                                "title": "Sonobuoy Acoustic Telemetry and Submarine Sonar 2076 Suite",
+                                                "description": "World-leading submarine bow, flank, and towed array sonar digital processing suite providing superior passive detection.",
+                                                "trl": 9,
+                                                "mrl": 9,
+                                                "kic": "KIC_SensorsSonar"
+                                }
+                ],
+                "products": [
+                                {
+                                                "name": "Sonar 2087 Active Low-Frequency Towed Array Sonar",
+                                                "description": "Variable-depth active and passive low-frequency towed sonar system deployed on Royal Navy anti-submarine frigates.",
+                                                "part_number": "PN-GBR-THL-S2087",
+                                                "fsc_code": "5845",
+                                                "nsn_code": "5845-99-661-8821",
+                                                "platforms": [
+                                                                "Platform_Type26_GlobalCombatShip",
+                                                                "Platform_SurfaceCombatant"
+                                                ],
+                                                "materials": [
+                                                                "Material_Titanium_Ti6Al4V",
+                                                                "Material_SingleCrystal_Superalloy"
+                                                ]
+                                }
+                ],
+                "services": [
+                                {
+                                                "name": "Naval Mission System In-Service Software Maintenance & Cyber Assurance",
+                                                "description": "Continuous cyber-hardening, acoustic algorithm updates, and secure tactical datalink testing.",
+                                                "type": "CyberSecurityService",
+                                                "accreditation": "Cyber Essentials Plus"
+                                }
+                ]
+}
+        ]
 
     def harvest(self, limit: Optional[int] = None) -> List[Dict[str, Any]]:
         records = self._get_flagship_uk_companies()

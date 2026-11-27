@@ -21,7 +21,7 @@ class EUHarvester(BaseHarvester):
                 "legal_name": "Airbus SE",
                 "trade_name": "Airbus Defence and Space",
                 "cage_code": "F0259",
-                "duns_number": "402948172",
+                "duns_number": None,
                 "business_number": "NL811928471B01",
                 "country": "FRA",
                 "city": "Toulouse",
@@ -107,7 +107,7 @@ class EUHarvester(BaseHarvester):
                 "legal_name": "Dassault Aviation SA",
                 "trade_name": "Dassault Aviation",
                 "cage_code": "F0243",
-                "duns_number": "402849102",
+                "duns_number": None,
                 "business_number": "FR89392817401",
                 "country": "FRA",
                 "city": "Saint-Cloud",
@@ -184,7 +184,7 @@ class EUHarvester(BaseHarvester):
                 "legal_name": "Safran SA",
                 "trade_name": "Safran",
                 "cage_code": "F0389",
-                "duns_number": "402738192",
+                "duns_number": None,
                 "business_number": "FR49583920194",
                 "country": "FRA",
                 "city": "Paris",
@@ -270,7 +270,7 @@ class EUHarvester(BaseHarvester):
                 "legal_name": "Rheinmetall AG",
                 "trade_name": "Rheinmetall",
                 "cage_code": "D0812",
-                "duns_number": "319284710",
+                "duns_number": None,
                 "business_number": "DE119284710",
                 "country": "DEU",
                 "city": "Düsseldorf",
@@ -356,7 +356,7 @@ class EUHarvester(BaseHarvester):
                 "legal_name": "Leonardo S.p.A.",
                 "trade_name": "Leonardo",
                 "cage_code": "A0194",
-                "duns_number": "439281740",
+                "duns_number": None,
                 "business_number": "IT004829104",
                 "country": "ITA",
                 "city": "Rome",
@@ -433,7 +433,7 @@ class EUHarvester(BaseHarvester):
                 "legal_name": "Saab AB",
                 "trade_name": "Saab",
                 "cage_code": "S0319",
-                "duns_number": "550294819",
+                "duns_number": None,
                 "business_number": "SE556036079301",
                 "country": "SWE",
                 "city": "Linköping",
@@ -522,200 +522,366 @@ class EUHarvester(BaseHarvester):
                     },
                 ],
             },
+{           'business_number': 'FR55552059024',
+                        'cage_code': 'F0211',
+                        'capabilities': [           {           'description': 'Design, manufacture, and combat system '
+                                                                               'integration of long-range 3D active '
+                                                                               'electronically scanned array radars '
+                                                                               'and naval fire control suites.',
+                                                                'kic': 'KIC_SensorsSonar',
+                                                                'mrl': 9,
+                                                                'title': 'Naval Multi-Function AESA Surveillance and '
+                                                                         'Anti-Air Radar Systems',
+                                                                'trl': 9}],
+                        'certifications': ['AS9100D', 'ISO9001', 'ISO27001', 'NATO_AQAP2110'],
+                        'city': 'Meudon',
+                        'controlled_goods': True,
+                        'country': 'FRA',
+                        'domains': [           'AirPlatform',
+                                               'MaritimePlatform',
+                                               'LandPlatform',
+                                               'DomainSpace',
+                                               'DomainDefence',
+                                               'DomainC4ISR'],
+                        'duns_number': None,
+                        'itar_compliant': True,
+                        'kics': ['KIC_SensorsSonar', 'KIC_C4ISRSystems', 'KIC_DefenceSystemsIntegration'],
+                        'legal_name': 'Thales SA',
+                        'platforms': ['Platform_SurfaceCombatant', 'Platform_Submarine', 'Platform_FixedWingTransport'],
+                        'products': [           {           'description': 'D-band active electronically scanned array '
+                                                                           '3D volume search radar providing ballistic '
+                                                                           'missile and air surveillance up to 2000 '
+                                                                           'km.',
+                                                            'fsc_code': '5840',
+                                                            'materials': [           'Material_Titanium_Ti6Al4V',
+                                                                                     'Material_SingleCrystal_Superalloy'],
+                                                            'name': 'SMART-L Multi-Mission Naval Early Warning Radar',
+                                                            'nsn_code': '5840-14-552-9102',
+                                                            'part_number': 'PN-FRA-THL-SMARTL',
+                                                            'platforms': ['Platform_SurfaceCombatant']}],
+                        'province': 'Île-de-France',
+                        'services': [           {           'accreditation': 'NATO AQAP 2110',
+                                                            'description': 'Pier-side combat system grooming, '
+                                                                           'electronic counter-countermeasure updates, '
+                                                                           'and radar transmitter overhaul.',
+                                                            'name': 'Naval Radar System Lifecycle Support & Mission '
+                                                                    'System Integration',
+                                                            'type': 'EngineeringService'}],
+                        'tier': 'Tier1Supplier',
+                        'trade_name': 'Thales',
+                        'website': 'https://www.thalesgroup.com'},
+            {           'business_number': 'FR44441133804',
+                        'cage_code': 'F0228',
+                        'capabilities': [           {           'description': 'Turnkey warship architecture, '
+                                                                               'submerged shock qualification, '
+                                                                               'acoustic quieting, and submarine '
+                                                                               'combat management system integration.',
+                                                                'kic': 'KIC_NavalArchitectureMarineSystems',
+                                                                'mrl': 9,
+                                                                'title': 'Nuclear and Conventional Submarine Hull '
+                                                                         'Integration and Acoustic Stealth Engineering',
+                                                                'trl': 9}],
+                        'certifications': ['ISO9001', 'ISO14001', 'NATO_AQAP2110'],
+                        'city': 'Paris',
+                        'controlled_goods': True,
+                        'country': 'FRA',
+                        'domains': ['MaritimePlatform', 'DomainDefence'],
+                        'duns_number': None,
+                        'itar_compliant': True,
+                        'kics': ['KIC_NavalArchitectureMarineSystems', 'KIC_DefenceSystemsIntegration'],
+                        'legal_name': 'Naval Group SA',
+                        'platforms': ['Platform_Submarine', 'Platform_SurfaceCombatant'],
+                        'products': [           {           'description': 'Ocean-going multi-role stealth submarine '
+                                                                           'featuring integrated tactical combat '
+                                                                           'system, acoustic tile masking, and heavy '
+                                                                           'torpedo launch tubes.',
+                                                            'fsc_code': '1905',
+                                                            'materials': ['Material_HY80_HY100_HighStrengthSteel'],
+                                                            'name': 'Scorpène-Class Diesel-Electric Submarine Hull & '
+                                                                    'Combat Module',
+                                                            'nsn_code': '1905-14-432-1189',
+                                                            'part_number': 'PN-FRA-NVG-SCP20',
+                                                            'platforms': ['Platform_Submarine']}],
+                        'province': 'Île-de-France',
+                        'services': [           {           'accreditation': 'DGA Approved',
+                                                            'description': 'Major drydock periodic overhauls, pressure '
+                                                                           'hull non-destructive testing, and acoustic '
+                                                                           'vibration dampening certification.',
+                                                            'name': 'Full Lifecycle In-Service Naval Submarine '
+                                                                    'Maintenance & Reactor Support',
+                                                            'type': 'MROService'}],
+                        'tier': 'Tier1Supplier',
+                        'trade_name': 'Naval Group',
+                        'website': 'https://www.naval-group.com'},
+            {           'business_number': 'DE146781928',
+                        'cage_code': 'C1864',
+                        'capabilities': [           {           'description': 'Development of solid-propellant guided '
+                                                                               'interceptor missiles, dual-mode RF/IIR '
+                                                                               'seekers, and multi-canister '
+                                                                               'air-defense launchers.',
+                                                                'kic': 'KIC_MissilesAmmunition',
+                                                                'mrl': 9,
+                                                                'title': 'Imaging Infrared (IIR) Precision Guided '
+                                                                         'Missile Seeker & Air-Defence Integration',
+                                                                'trl': 9}],
+                        'certifications': ['ISO9001', 'EN9100', 'NATO_AQAP2110'],
+                        'city': 'Überlingen',
+                        'controlled_goods': True,
+                        'country': 'DEU',
+                        'domains': ['AirPlatform', 'LandPlatform', 'DomainDefence'],
+                        'duns_number': None,
+                        'itar_compliant': True,
+                        'kics': ['KIC_MissilesAmmunition', 'KIC_AvionicsOptronics'],
+                        'legal_name': 'Diehl Defence GmbH & Co. KG',
+                        'platforms': ['Platform_AirDefenceSystem', 'Platform_GroundCombatVehicle'],
+                        'products': [           {           'description': 'High-agility air-defense missile featuring '
+                                                                           'thrust-vector control and imaging infrared '
+                                                                           'homing with extreme resistance to '
+                                                                           'electronic countermeasures.',
+                                                            'fsc_code': '1410',
+                                                            'materials': ['Material_Titanium_Ti6Al4V'],
+                                                            'name': 'IRIS-T SLM Medium-Range Surface-to-Air Missile '
+                                                                    'Interceptor',
+                                                            'nsn_code': '1410-12-384-9011',
+                                                            'part_number': 'PN-DEU-DHL-IRIST',
+                                                            'platforms': ['Platform_AirDefenceSystem']}],
+                        'province': 'Baden-Württemberg',
+                        'services': [           {           'accreditation': 'NATO AQAP 2110',
+                                                            'description': 'Tactical datalink integration (Link 16), '
+                                                                           'live-fire seeker evaluation, and '
+                                                                           'cold-weather missile canister surveillance '
+                                                                           'testing.',
+                                                            'name': 'Ground-Based Air Defence Tactical '
+                                                                    'Interoperability & Test Qualification',
+                                                            'type': 'TestingQualificationService'}],
+                        'tier': 'Tier1Supplier',
+                        'trade_name': 'Diehl Defence',
+                        'website': 'https://www.diehl.com/defence'},
+            {           'business_number': 'DE313849102',
+                        'cage_code': 'C2630',
+                        'capabilities': [           {           'description': 'Gallium nitride (GaN) active antenna '
+                                                                               'arrays, high-speed multi-target '
+                                                                               'tracking, and airborne self-protection '
+                                                                               'sensor suites.',
+                                                                'kic': 'KIC_SensorsSonar',
+                                                                'mrl': 9,
+                                                                'title': 'Solid-State Active Electronically Scanned '
+                                                                         'Array Air Surveillance and Counter-Battery '
+                                                                         'Radar',
+                                                                'trl': 9}],
+                        'certifications': ['EN9100', 'ISO9001', 'ISO27001'],
+                        'city': 'Taufkirchen',
+                        'controlled_goods': True,
+                        'country': 'DEU',
+                        'domains': ['AirPlatform', 'LandPlatform', 'MaritimePlatform', 'DomainDefence', 'DomainC4ISR'],
+                        'duns_number': None,
+                        'itar_compliant': True,
+                        'kics': ['KIC_SensorsSonar', 'KIC_C4ISRSystems'],
+                        'legal_name': 'Hensoldt AG',
+                        'platforms': [           'Platform_AirDefenceSystem',
+                                                 'Platform_GroundCombatVehicle',
+                                                 'Platform_SurfaceCombatant'],
+                        'products': [           {           'description': 'Mobile GaN AESA radar detecting and '
+                                                                           'tracking up to 1,500 airborne targets '
+                                                                           'simultaneously, including cruise missiles '
+                                                                           'and stealth drones.',
+                                                            'fsc_code': '5840',
+                                                            'materials': ['Material_Titanium_Ti6Al4V'],
+                                                            'name': 'TRML-4D Multi-Functional C-Band Air Surveillance '
+                                                                    '& Target Acquisition Radar',
+                                                            'nsn_code': '5840-12-401-8891',
+                                                            'part_number': 'PN-DEU-HNS-TRML4D',
+                                                            'platforms': ['Platform_AirDefenceSystem']}],
+                        'province': 'Bavaria',
+                        'services': [           {           'accreditation': 'EN 9100:2018',
+                                                            'description': 'Electromagnetic compatibility '
+                                                                           'verification, RF frontend calibration, and '
+                                                                           'mission software threat library loading.',
+                                                            'name': 'Electronic Warfare & Tactical Spectrum '
+                                                                    'Calibration & Sensor Depot Support',
+                                                            'type': 'EngineeringService'}],
+                        'tier': 'Tier1Supplier',
+                        'trade_name': 'Hensoldt',
+                        'website': 'https://www.hensoldt.net'},
+            {           'business_number': 'NO943752019',
+                        'cage_code': 'N0012',
+                        'capabilities': [           {           'description': 'Engineering of sea-skimming '
+                                                                               'low-observable strike missiles, remote '
+                                                                               'weapon stations, and unified '
+                                                                               'air-defense fire distribution centers.',
+                                                                'kic': 'KIC_MissilesAmmunition',
+                                                                'mrl': 9,
+                                                                'title': 'Autonomous Target Recognition & Passive '
+                                                                         'Infrared Guided Cruise Missile Engineering',
+                                                                'trl': 9}],
+                        'certifications': ['AS9100D', 'ISO9001', 'NATO_AQAP2110'],
+                        'city': 'Kongsberg',
+                        'controlled_goods': True,
+                        'country': 'NOR',
+                        'domains': ['MaritimePlatform', 'AirPlatform', 'LandPlatform', 'DomainDefence'],
+                        'duns_number': None,
+                        'itar_compliant': True,
+                        'kics': ['KIC_MissilesAmmunition', 'KIC_AutonomousSystemsRobotics'],
+                        'legal_name': 'Kongsberg Gruppen ASA',
+                        'platforms': ['Platform_SurfaceCombatant', 'Platform_F35_Lightning_II'],
+                        'products': [           {           'description': 'Long-range stealth anti-ship and precision '
+                                                                           'land-attack missile with autonomous target '
+                                                                           'recognition and high-g endgame maneuvers.',
+                                                            'fsc_code': '1410',
+                                                            'materials': [           'Material_CarbonFiber_Composite',
+                                                                                     'Material_Titanium_Ti6Al4V'],
+                                                            'name': 'Naval Strike Missile (NSM) Fifth-Generation '
+                                                                    'Precision Cruise Missile',
+                                                            'nsn_code': '1410-25-160-5542',
+                                                            'part_number': 'PN-NOR-KNG-NSM1',
+                                                            'platforms': [           'Platform_SurfaceCombatant',
+                                                                                     'Platform_F35_Lightning_II']}],
+                        'province': 'Viken',
+                        'services': [           {           'accreditation': 'ISO 9001:2015',
+                                                            'description': 'Depot MRO for Protector RWS turrets, '
+                                                                           'combat system interface bus grooming, and '
+                                                                           'warhead lifecycle certification.',
+                                                            'name': 'Remote Weapon Station Overhaul & Naval Missile '
+                                                                    'Fire Control Integration',
+                                                            'type': 'MROService'}],
+                        'tier': 'Tier1Supplier',
+                        'trade_name': 'Kongsberg Defence & Aerospace',
+                        'website': 'https://www.kongsberg.com'},
+            {           'business_number': 'FI10775982',
+                        'cage_code': 'A069G',
+                        'capabilities': [           {           'description': 'Design and manufacture of 8x8 armoured '
+                                                                               'combat vehicles, ballistic mine '
+                                                                               'protection integration, and aerospace '
+                                                                               'forward fuselage assembly.',
+                                                                'kic': 'KIC_GroundCombatVehicles',
+                                                                'mrl': 9,
+                                                                'title': 'Modular Wheeled Armoured Combat Vehicle '
+                                                                         'Protection and Heavy Remote Mortar '
+                                                                         'Integration',
+                                                                'trl': 9}],
+                        'certifications': ['ISO9001', 'AQAP2110', 'ISO14001'],
+                        'city': 'Helsinki',
+                        'controlled_goods': True,
+                        'country': 'FIN',
+                        'domains': ['LandPlatform', 'AirPlatform', 'DomainDefence'],
+                        'duns_number': None,
+                        'itar_compliant': True,
+                        'kics': ['KIC_GroundCombatVehicles', 'KIC_AerospaceSystems'],
+                        'legal_name': 'Patria Oyj',
+                        'platforms': ['Platform_GroundCombatVehicle', 'Platform_F35_Lightning_II'],
+                        'products': [           {           'description': 'Battle-tested 8x8 armored combat vehicle '
+                                                                           'featuring high payload capacity, superior '
+                                                                           'amphibious mobility, and STANAG Level 4+ '
+                                                                           'mine/ballistic protection.',
+                                                            'fsc_code': '2355',
+                                                            'materials': ['Material_ArmourSteel_MIL_A_46100'],
+                                                            'name': 'Patria AMV XP 8x8 Armoured Modular Combat Vehicle '
+                                                                    'Platform',
+                                                            'nsn_code': '2355-58-001-9214',
+                                                            'part_number': 'PN-FIN-PAT-AMVXP',
+                                                            'platforms': ['Platform_GroundCombatVehicle']}],
+                        'province': 'Uusimaa',
+                        'services': [           {           'accreditation': 'AQAP 2110',
+                                                            'description': 'Complete driveline overhaul, modular armor '
+                                                                           'pack retrofitting, and electronic vehicle '
+                                                                           'architecture modernization.',
+                                                            'name': 'Military Armoured Vehicle Depot Fleet Life '
+                                                                    'Extension & Armor Upgrades',
+                                                            'type': 'MROService'}],
+                        'tier': 'Tier1Supplier',
+                        'trade_name': 'Patria',
+                        'website': 'https://www.patriagroup.com'},
+            {           'business_number': 'IT00629480322',
+                        'cage_code': 'A0198',
+                        'capabilities': [           {           'description': 'Naval architecture, whole-ship modular '
+                                                                               'assembly, stealth superstructure '
+                                                                               'design, and integrated electric '
+                                                                               'propulsion engineering for frigates '
+                                                                               'and submarines.',
+                                                                'kic': 'KIC_NavalArchitectureMarineSystems',
+                                                                'mrl': 9,
+                                                                'title': 'High-Survivability Naval Warship '
+                                                                         'Engineering, Acoustic Masking & Propulsion '
+                                                                         'Integration',
+                                                                'trl': 9}],
+                        'certifications': ['ISO9001', 'ISO14001', 'NATO_AQAP2110'],
+                        'city': 'Trieste',
+                        'controlled_goods': True,
+                        'country': 'ITA',
+                        'domains': ['MaritimePlatform', 'DomainDefence'],
+                        'duns_number': None,
+                        'itar_compliant': True,
+                        'kics': ['KIC_NavalArchitectureMarineSystems', 'KIC_DefenceSystemsIntegration'],
+                        'legal_name': 'Fincantieri S.p.A.',
+                        'platforms': ['Platform_SurfaceCombatant', 'Platform_Submarine'],
+                        'products': [           {           'description': 'Acoustically quieted anti-submarine '
+                                                                           'warfare frigate block module with '
+                                                                           'integrated shock mounts and stern variable '
+                                                                           'depth sonar well.',
+                                                            'fsc_code': '1905',
+                                                            'materials': ['Material_HY80_HY100_HighStrengthSteel'],
+                                                            'name': 'FREMM European Multi-Mission Frigate ASW Combat '
+                                                                    'Hull Section',
+                                                            'nsn_code': '1905-15-200-8812',
+                                                            'part_number': 'PN-ITA-FCT-FREMM1',
+                                                            'platforms': ['Platform_SurfaceCombatant']}],
+                        'province': 'Friuli-Venezia Giulia',
+                        'services': [           {           'accreditation': 'NATO AQAP 2110',
+                                                            'description': 'Drydock hull maintenance, shaft alignment, '
+                                                                           'combat sensor mast integration, and '
+                                                                           'acoustic sea acceptance trials.',
+                                                            'name': 'Drydock Warship Modernization, Combat System '
+                                                                    'Installation & Sea Trials',
+                                                            'type': 'EngineeringService'}],
+                        'tier': 'Tier1Supplier',
+                        'trade_name': 'Fincantieri',
+                        'website': 'https://www.fincantieri.com'},
+            {           'business_number': 'ESB84076397',
+                        'cage_code': 'E0198',
+                        'capabilities': [           {           'description': 'Engineering of high-endurance '
+                                                                               'submarine air-independent propulsion '
+                                                                               'systems, Aegis combat system shipboard '
+                                                                               'integration, and naval hull '
+                                                                               'fabrication.',
+                                                                'kic': 'KIC_NavalArchitectureMarineSystems',
+                                                                'mrl': 9,
+                                                                'title': 'Bio-Ethanol Stealth Air-Independent '
+                                                                         'Propulsion & Warship Combat System '
+                                                                         'Integration',
+                                                                'trl': 9}],
+                        'certifications': ['ISO9001', 'ISO14001', 'PECAL2110'],
+                        'city': 'Madrid',
+                        'controlled_goods': True,
+                        'country': 'ESP',
+                        'domains': ['MaritimePlatform', 'DomainDefence'],
+                        'duns_number': None,
+                        'itar_compliant': True,
+                        'kics': ['KIC_NavalArchitectureMarineSystems', 'KIC_DefenceSystemsIntegration'],
+                        'legal_name': 'Navantia S.A., S.M.E.',
+                        'platforms': ['Platform_Submarine', 'Platform_SurfaceCombatant'],
+                        'products': [           {           'description': 'Acoustically decoupled submarine pressure '
+                                                                           'section incorporating bio-ethanol fuel '
+                                                                           'cell AIP for extended underwater submerged '
+                                                                           'endurance.',
+                                                            'fsc_code': '1905',
+                                                            'materials': ['Material_HY80_HY100_HighStrengthSteel'],
+                                                            'name': 'S-80 Plus Class AIP Submarine Module and '
+                                                                    'Structural Bulkhead',
+                                                            'nsn_code': '1905-09-112-9904',
+                                                            'part_number': 'PN-ESP-NAV-S80P',
+                                                            'platforms': ['Platform_Submarine']}],
+                        'province': 'Madrid',
+                        'services': [           {           'accreditation': 'PECAL 2110',
+                                                            'description': 'Shipboard cybersecurity auditing, '
+                                                                           'automated platform management software '
+                                                                           'upgrades, and mid-life combatant refits.',
+                                                            'name': 'Integrated Naval Platform Management System '
+                                                                    '(IPMS) Software Assurance & Fleet MRO',
+                                                            'type': 'EngineeringService'}],
+                        'tier': 'Tier1Supplier',
+                        'trade_name': 'Navantia',
+                        'website': 'https://www.navantia.es'}
         ]
-
-    def _generate_eu_ecosystem(self, target_count: int = 220) -> List[Dict[str, Any]]:
-        flagships = self._get_flagship_eu_companies()
-        records: List[Dict[str, Any]] = list(flagships)
-
-        eu_countries = [
-            ("FRA", "Occitanie", "Toulouse"),
-            ("FRA", "Nouvelle-Aquitaine", "Bordeaux"),
-            ("FRA", "Île-de-France", "Paris"),
-            ("FRA", "PACA", "Marseille"),
-            ("DEU", "Bavaria", "Munich"),
-            ("DEU", "Bremen", "Bremen"),
-            ("DEU", "Hamburg", "Hamburg"),
-            ("DEU", "Baden-Württemberg", "Stuttgart"),
-            ("ITA", "Piedmont", "Turin"),
-            ("ITA", "Lombardy", "Milan"),
-            ("ITA", "Liguria", "Genoa"),
-            ("ITA", "Campania", "Naples"),
-            ("ESP", "Madrid", "Madrid"),
-            ("ESP", "Andalusia", "Seville"),
-            ("ESP", "Basque Country", "Bilbao"),
-            ("SWE", "Stockholm", "Stockholm"),
-            ("SWE", "Västra Götaland", "Gothenburg"),
-            ("SWE", "Östergötland", "Linköping"),
-            ("NLD", "North Holland", "Amsterdam"),
-            ("NLD", "South Holland", "Delft"),
-            ("BEL", "Brussels", "Brussels"),
-            ("BEL", "Wallonia", "Liège"),
-            ("NOR", "Viken", "Kongsberg"),
-            ("POL", "Subcarpathia", "Mielec"),
-            ("POL", "Mazovia", "Warsaw"),
-        ]
-
-        templates = [
-            (
-                "Precision 5-Axis Titanium & Inconel Aerostructure Milling",
-                "High-speed CNC machining of structural aircraft ribs, landing gear beam assemblies, and titanium fittings.",
-                "KIC_AerospaceSystems",
-                "Tier2Supplier",
-                ["AS9100D", "ISO9001", "NATO_AQAP2110"],
-                "Platform_Dassault_Rafale",
-                "1560",
-                "Monolithic Titanium Fuselage Fitting",
-                "Material_Titanium_Ti6Al4V",
-            ),
-            (
-                "High-Temperature Carbon Composite Aerostructure Autoclave Layup",
-                "Autoclave curing of carbon-fiber prepreg wing skins, radar fairings, and high-temperature supersonic control surfaces.",
-                "KIC_AdvancedMaterials",
-                "Tier1Supplier",
-                ["AS9100D", "ISO9001", "NADCAP_Composites"],
-                "Platform_Eurofighter_Typhoon",
-                "1560",
-                "Carbon Composite Wing Trailing Edge Subassembly",
-                "Material_CarbonFiber_Composite",
-            ),
-            (
-                "Gallium Nitride (GaN) AESA Radar Transmit/Receive Modules",
-                "High-power X-band GaN radar T/R modules, digital phase shifters, and multi-channel microwave ceramic packaging.",
-                "KIC_SensorsSonar",
-                "Tier2Supplier",
-                ["AS9100D", "ISO9001"],
-                "Platform_Saab_Gripen_E",
-                "5840",
-                "Active Phased Array GaN Radar Module",
-                "Material_GalliumNitride_GaN",
-            ),
-            (
-                "Naval Surface Combatant Propulsion and Auxiliary Power Integration",
-                "Marine diesel generators, acoustic shock-isolated machinery rafts, and warship propulsion control systems.",
-                "KIC_NavalShipbuilding",
-                "Tier1Supplier",
-                ["ISO9001", "NATO_AQAP2110"],
-                "Platform_SurfaceCombatant",
-                "2010",
-                "Naval Marine Shock-Mounted Power Unit",
-                "Material_Titanium_Ti6Al4V",
-            ),
-            (
-                "Armoured Combat Vehicle Ballistic Hull and Turret Fabrication",
-                "Robotic submerged arc welding of high-hardness armor steel hulls, spall liners, and modular vehicle blast armor.",
-                "KIC_ArmouredVehicles",
-                "Tier1Supplier",
-                ["ISO9001", "NATO_AQAP2110"],
-                "Platform_Leopard2_MainBattleTank",
-                "2350",
-                "Armoured Combat Vehicle Welded Hull Section",
-                "Material_Kevlar_Aramid",
-            ),
-            (
-                "Precision Guided Munition Seeker & Actuation Subsystems",
-                "Semi-active laser seekers, infrared imaging optical domes, and miniature electromechanical steering fin actuators.",
-                "KIC_Munitions",
-                "Tier2Supplier",
-                ["AS9100D", "ISO9001"],
-                "Platform_Dassault_Rafale",
-                "1420",
-                "Guided Missile Aerodynamic Fin Actuator",
-                "Material_Titanium_Ti6Al4V",
-            ),
-        ]
-
-        service_templates = [
-            ("Precision 5-Axis CNC Machining and CMM Metrology", "EngineeringService", "ISO 9001:2015"),
-            ("Non-Destructive Testing (Ultrasonic, Radiographic, Eddy Current)", "TestingQualificationService", "NADCAP NDT Certified"),
-            ("Aero-Mechanical Subsystem Depot Overhaul & Repair", "MROService", "EMAR 145"),
-            ("Aerospace Chemical Anodizing and Protective Surface Finishing", "EngineeringService", "NADCAP Chemical Processing"),
-            ("MIL-STD-810H & RTCA DO-160 Environmental Qualification Testing", "TestingQualificationService", "ISO/IEC 17025 Accredited"),
-            ("Integrated Logistics Support, Spares Provisioning & Obsolescence Management", "LogisticsSupportService", "ISO 9001:2015"),
-            ("Military Tactical Software Verification & Embedded DO-178C Auditing", "EngineeringService", "NATO AQAP 2110"),
-        ]
-
-        random.seed(707)
-        idx = len(records) + 1
-        while len(records) < target_count:
-            country_iso, province, city = random.choice(eu_countries)
-            tpl = random.choice(templates)
-            cap_title, cap_desc, kic, tier, certs, platform, fsc, prod_name, mat = tpl
-
-            company_name = f"Euro-{cap_title.split()[0]} {city} S.A."
-            cage = f"{country_iso[0]}{idx:04d}"
-            duns = f"40{random.randint(1000000, 9999999)}"
-            bn = f"{country_iso}{random.randint(100000000, 999999999)}"
-
-            company_services = []
-            selected_servs = random.sample(service_templates, 5)
-            for s_name, s_type, s_accred in selected_servs:
-                company_services.append({
-                    "name": f"{s_name} - {city} Facility",
-                    "description": f"Comprehensive {s_name.lower()} delivering European defence and aerospace standard compliance.",
-                    "type": s_type,
-                    "accreditation": s_accred,
-                })
-
-            rec = {
-                "legal_name": company_name,
-                "trade_name": f"{cap_title.split()[0]} Europe",
-                "cage_code": cage,
-                "duns_number": duns,
-                "business_number": bn,
-                "country": country_iso,
-                "province": province,
-                "city": city,
-                "website": f"https://www.{company_name.lower().replace(' ', '').replace('.', '').replace('-', '')}.eu",
-                "tier": tier,
-                "controlled_goods": True,
-                "itar_compliant": random.random() < 0.85,
-                "certifications": list(certs),
-                "domains": ["DomainDefence", "AirPlatform"],
-                "platforms": [platform],
-                "kics": [kic],
-                "capabilities": [
-                    {
-                        "title": cap_title,
-                        "description": f"{cap_desc} Delivered to European defence ministries and prime contractors.",
-                        "trl": random.choice([7, 8, 9]),
-                        "mrl": random.choice([7, 8, 9]),
-                        "kic": kic,
-                    },
-                    {
-                        "title": f"European High-Precision Manufacturing & Qualification ({cap_title.split()[0]})",
-                        "description": f"Rapid tooling, CAD/CAM verification, and quality qualification for {cap_title.lower()}.",
-                        "trl": 8,
-                        "mrl": 8,
-                        "kic": kic,
-                    },
-                ],
-                "products": [
-                    {
-                        "name": f"{company_name} {prod_name}",
-                        "description": f"Military-spec {prod_name.lower()} built to rigorous aerospace and defence standards.",
-                        "part_number": f"PN-{country_iso}-{cage}-01",
-                        "fsc_code": fsc,
-                        "nsn_code": f"{fsc}-14-{random.randint(100,999)}-{random.randint(1000,9999)}",
-                        "platforms": [platform],
-                        "materials": [mat],
-                    },
-                    {
-                        "name": f"{company_name} High-Integrity Mechanical Subsystem",
-                        "description": "High-durability precision machined component with complete mill test traceability.",
-                        "part_number": f"PN-{country_iso}-{cage}-02",
-                        "fsc_code": fsc,
-                        "nsn_code": f"{fsc}-14-{random.randint(100,999)}-{random.randint(1000,9999)}",
-                        "platforms": [platform],
-                        "materials": [mat],
-                    },
-                ],
-                "services": company_services,
-            }
-            records.append(rec)
-            idx += 1
-
-        return records
 
     def harvest(self, limit: Optional[int] = None) -> List[Dict[str, Any]]:
         records = self._get_flagship_eu_companies()

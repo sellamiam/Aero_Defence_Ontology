@@ -7,7 +7,6 @@ aero:Company_Babcock_International_Group_plc a aero:Company,
     aero:businessNumber "GB149281741"^^xsd:string ;
     aero:cageCode "K1428"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:dunsNumber "218392019"^^xsd:string ;
     aero:hasCapability aero:Cap_Babcock_International_Group_plc_1,
         aero:Cap_Babcock_International_Group_plc_2 ;
     aero:headquartersCity "London"^^xsd:string ;
@@ -32,12 +31,78 @@ aero:Company_Babcock_International_Group_plc a aero:Company,
     aero:tradeName "Babcock"^^xsd:string ;
     aero:website "https://www.babcockinternational.com"^^xsd:anyURI .
 
+aero:Company_Chemring_Group_plc a aero:Company,
+        aero:Tier1Supplier ;
+    aero:businessNumber "00086653"^^xsd:string ;
+    aero:cageCode "K0829"^^xsd:string ;
+    aero:controlledGoodsRegistered true ;
+    aero:hasCapability aero:Cap_Chemring_Group_plc_1 ;
+    aero:headquartersCity "Romsey"^^xsd:string ;
+    aero:headquartersCountry "GBR"^^xsd:string ;
+    aero:headquartersProvince "Hampshire"^^xsd:string ;
+    aero:holdsCertification aero:Cert_AS9100D,
+        aero:Cert_CyberEssentialsPlus,
+        aero:Cert_ISO9001 ;
+    aero:itarCompliant true ;
+    aero:legalName "Chemring Group plc"^^xsd:string ;
+    aero:manufacturesProduct aero:Product_Chemring_Group_plc_Spectral_Flare_Decoy_Cartridge_BOL_IR_MTV ;
+    aero:operatesInDomain aero:AirPlatform,
+        aero:DomainDefence,
+        aero:LandPlatform,
+        aero:MaritimePlatform ;
+    aero:providesService aero:Service_Chemring_Group_plc_Aircraft_Countermeasure_Dispenser_Interface_Qualification ;
+    aero:tradeName "Chemring"^^xsd:string ;
+    aero:website "https://www.chemring.com"^^xsd:anyURI .
+
+aero:Company_Cobham_Limited a aero:Company,
+        aero:Tier1Supplier ;
+    aero:businessNumber "00030470"^^xsd:string ;
+    aero:cageCode "K0689"^^xsd:string ;
+    aero:controlledGoodsRegistered true ;
+    aero:hasCapability aero:Cap_Cobham_Limited_1 ;
+    aero:headquartersCity "Wimborne"^^xsd:string ;
+    aero:headquartersCountry "GBR"^^xsd:string ;
+    aero:headquartersProvince "Dorset"^^xsd:string ;
+    aero:holdsCertification aero:Cert_AS9100D,
+        aero:Cert_CyberEssentialsPlus,
+        aero:Cert_ISO9001 ;
+    aero:itarCompliant true ;
+    aero:legalName "Cobham Limited"^^xsd:string ;
+    aero:manufacturesProduct aero:Product_Cobham_Limited_Wing_Aerial_Refuelling_Pod_WARP_900_Series ;
+    aero:operatesInDomain aero:AirPlatform,
+        aero:DomainDefence ;
+    aero:providesService aero:Service_Cobham_Limited_In_Flight_Refuelling_System_Maintenance_Hydrostatic_Testing ;
+    aero:tradeName "Cobham"^^xsd:string ;
+    aero:website "https://www.cobham.com"^^xsd:anyURI .
+
+aero:Company_Leonardo_UK_Ltd a aero:Company,
+        aero:PrimeContractor ;
+    aero:businessNumber "02426132"^^xsd:string ;
+    aero:cageCode "K0119"^^xsd:string ;
+    aero:controlledGoodsRegistered true ;
+    aero:hasCapability aero:Cap_Leonardo_UK_Ltd_1 ;
+    aero:headquartersCity "Yeovil"^^xsd:string ;
+    aero:headquartersCountry "GBR"^^xsd:string ;
+    aero:headquartersProvince "Somerset"^^xsd:string ;
+    aero:holdsCertification aero:Cert_AS9100D,
+        aero:Cert_CyberEssentialsPlus,
+        aero:Cert_ISO9001,
+        aero:Cert_NATO_AQAP2110 ;
+    aero:itarCompliant true ;
+    aero:legalName "Leonardo UK Ltd"^^xsd:string ;
+    aero:manufacturesProduct aero:Product_Leonardo_UK_Ltd_AW159_Wildcat_Multi_Mission_Maritime_Attack_Helicopter ;
+    aero:operatesInDomain aero:AirPlatform,
+        aero:DomainC4ISR,
+        aero:DomainDefence ;
+    aero:providesService aero:Service_Leonardo_UK_Ltd_Rotary_Wing_Integrated_Operational_Support_IOS ;
+    aero:tradeName "Leonardo UK"^^xsd:string ;
+    aero:website "https://uk.leonardo.com"^^xsd:anyURI .
+
 aero:Company_MBDA_UK_Limited a aero:Company,
         aero:PrimeContractor ;
     aero:businessNumber "GB184920194"^^xsd:string ;
     aero:cageCode "K2048"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:dunsNumber "218471920"^^xsd:string ;
     aero:hasCapability aero:Cap_MBDA_UK_Limited_1,
         aero:Cap_MBDA_UK_Limited_2 ;
     aero:headquartersCity "Stevenage"^^xsd:string ;
@@ -64,12 +129,77 @@ aero:Company_MBDA_UK_Limited a aero:Company,
     aero:tradeName "MBDA UK"^^xsd:string ;
     aero:website "https://www.mbda-systems.com"^^xsd:anyURI .
 
+aero:Company_Marshall_Aerospace_and_Defence_Group a aero:Company,
+        aero:Tier1Supplier ;
+    aero:businessNumber "00145782"^^xsd:string ;
+    aero:cageCode "K0481"^^xsd:string ;
+    aero:controlledGoodsRegistered true ;
+    aero:hasCapability aero:Cap_Marshall_Aerospace_and_Defence_Group_1 ;
+    aero:headquartersCity "Cambridge"^^xsd:string ;
+    aero:headquartersCountry "GBR"^^xsd:string ;
+    aero:headquartersProvince "Cambridgeshire"^^xsd:string ;
+    aero:holdsCertification aero:Cert_AS9100D,
+        aero:Cert_CyberEssentialsPlus,
+        aero:Cert_FacilitySecurity_Secret,
+        aero:Cert_ISO9001 ;
+    aero:itarCompliant true ;
+    aero:legalName "Marshall Aerospace and Defence Group"^^xsd:string ;
+    aero:manufacturesProduct aero:Product_Marshall_Aerospace_and_Defence_Group_Tactical_Medical_Evacuation_Shelter_Module ;
+    aero:operatesInDomain aero:AirPlatform,
+        aero:DomainDefence,
+        aero:LandPlatform ;
+    aero:providesService aero:Service_Marshall_Aerospace_and_Defence_Group_Tactical_Transport_Aircraft_Heavy_Maintenance_STC_Engineering ;
+    aero:tradeName "Marshall Aerospace"^^xsd:string ;
+    aero:website "https://marshallaerospace.com"^^xsd:anyURI .
+
+aero:Company_Martin_Baker_Aircraft_Co_Ltd a aero:Company,
+        aero:Tier1Supplier ;
+    aero:businessNumber "00288673"^^xsd:string ;
+    aero:cageCode "K0581"^^xsd:string ;
+    aero:controlledGoodsRegistered true ;
+    aero:hasCapability aero:Cap_Martin_Baker_Aircraft_Co_Ltd_1 ;
+    aero:headquartersCity "Higher Denham"^^xsd:string ;
+    aero:headquartersCountry "GBR"^^xsd:string ;
+    aero:headquartersProvince "Buckinghamshire"^^xsd:string ;
+    aero:holdsCertification aero:Cert_AS9100D,
+        aero:Cert_CyberEssentialsPlus,
+        aero:Cert_ISO9001,
+        aero:Cert_NATO_AQAP2110 ;
+    aero:itarCompliant true ;
+    aero:legalName "Martin-Baker Aircraft Co Ltd"^^xsd:string ;
+    aero:manufacturesProduct aero:Product_Martin_Baker_Aircraft_Co_Ltd_US16E_Ejection_Seat_F_35_Lightning_II ;
+    aero:operatesInDomain aero:AirPlatform,
+        aero:DomainDefence ;
+    aero:providesService aero:Service_Martin_Baker_Aircraft_Co_Ltd_Ballistic_Pyrotechnic_Catapult_Recertification_Life_Extension ;
+    aero:tradeName "Martin-Baker"^^xsd:string ;
+    aero:website "https://martin-baker.com"^^xsd:anyURI .
+
+aero:Company_Meggitt_PLC a aero:Company,
+        aero:Tier1Supplier ;
+    aero:businessNumber "00432981"^^xsd:string ;
+    aero:cageCode "K1182"^^xsd:string ;
+    aero:controlledGoodsRegistered true ;
+    aero:hasCapability aero:Cap_Meggitt_PLC_1 ;
+    aero:headquartersCity "Ansty"^^xsd:string ;
+    aero:headquartersCountry "GBR"^^xsd:string ;
+    aero:headquartersProvince "Warwickshire"^^xsd:string ;
+    aero:holdsCertification aero:Cert_AS9100D,
+        aero:Cert_CyberEssentialsPlus,
+        aero:Cert_ISO9001 ;
+    aero:itarCompliant true ;
+    aero:legalName "Meggitt PLC"^^xsd:string ;
+    aero:manufacturesProduct aero:Product_Meggitt_PLC_Advanced_Military_Carbon_Carbon_Brake_Heat_Pack ;
+    aero:operatesInDomain aero:AirPlatform,
+        aero:DomainDefence ;
+    aero:providesService aero:Service_Meggitt_PLC_Wheel_Brake_Bleed_Air_Valve_Overhaul ;
+    aero:tradeName "Parker Meggitt"^^xsd:string ;
+    aero:website "https://www.meggitt.com"^^xsd:anyURI .
+
 aero:Company_QinetiQ_Group_plc a aero:Company,
         aero:PrimeContractor ;
     aero:businessNumber "GB104928174"^^xsd:string ;
     aero:cageCode "K1920"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:dunsNumber "219482710"^^xsd:string ;
     aero:hasCapability aero:Cap_QinetiQ_Group_plc_1,
         aero:Cap_QinetiQ_Group_plc_2 ;
     aero:headquartersCity "Farnborough"^^xsd:string ;
@@ -93,6 +223,30 @@ aero:Company_QinetiQ_Group_plc a aero:Company,
         aero:Service_QinetiQ_Group_plc_Target_Drone_Fleet_Depot_Refurbishment_and_Engine_Overhaul ;
     aero:tradeName "QinetiQ"^^xsd:string ;
     aero:website "https://www.qinetiq.com"^^xsd:anyURI .
+
+aero:Company_Ultra_Electronics_Holdings_Limited a aero:Company,
+        aero:Tier1Supplier ;
+    aero:businessNumber "02830397"^^xsd:string ;
+    aero:cageCode "K0720"^^xsd:string ;
+    aero:controlledGoodsRegistered true ;
+    aero:hasCapability aero:Cap_Ultra_Electronics_Holdings_Limited_1 ;
+    aero:headquartersCity "London"^^xsd:string ;
+    aero:headquartersCountry "GBR"^^xsd:string ;
+    aero:headquartersProvince "Greater London"^^xsd:string ;
+    aero:holdsCertification aero:Cert_AS9100D,
+        aero:Cert_CyberEssentialsPlus,
+        aero:Cert_ISO9001,
+        aero:Cert_NATO_AQAP2110 ;
+    aero:itarCompliant true ;
+    aero:legalName "Ultra Electronics Holdings Limited"^^xsd:string ;
+    aero:manufacturesProduct aero:Product_Ultra_Electronics_Holdings_Limited_Sea_Sentor_Surface_Ship_Torpedo_Defence_System ;
+    aero:operatesInDomain aero:AirPlatform,
+        aero:DomainC4ISR,
+        aero:DomainDefence,
+        aero:MaritimePlatform ;
+    aero:providesService aero:Service_Ultra_Electronics_Holdings_Limited_Naval_Acoustic_Sensor_Range_Testing_Sea_Acceptance_Trials ;
+    aero:tradeName "Ultra Electronics"^^xsd:string ;
+    aero:website "https://www.ultra.group"^^xsd:anyURI .
 
 aero:Cap_BAE_Systems_plc_1 a aero:Capability ;
     rdfs:label "Sixth-Generation Combat Air Systems (GCAP / Tempest)"^^xsd:string ;
@@ -129,6 +283,20 @@ aero:Cap_Babcock_International_Group_plc_2 a aero:Capability ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
+aero:Cap_Chemring_Group_plc_1 a aero:Capability ;
+    rdfs:label "Advanced Countermeasure Pyrotechnics & Chemical Biological Detection"^^xsd:string ;
+    aero:alignedWithKIC aero:KIC_AdvancedMaterials ;
+    aero:capabilityDescription "Infrared decoys, radar-reflecting spectral chaff, and stand-off sensor systems for aircraft survivability."^^xsd:string ;
+    aero:mrlValue 9 ;
+    aero:trlValue 9 .
+
+aero:Cap_Cobham_Limited_1 a aero:Capability ;
+    rdfs:label "Air-to-Air Refuelling Probe & Drogue Hose Drum Units"^^xsd:string ;
+    aero:alignedWithKIC aero:KIC_AerospaceSystems ;
+    aero:capabilityDescription "Wing-pod and fuselage mounted aerial refuelling hose drum units capable of high-speed fuel transfer."^^xsd:string ;
+    aero:mrlValue 9 ;
+    aero:trlValue 9 .
+
 aero:Cap_GKN_Aerospace_Services_Limited_1 a aero:Capability ;
     rdfs:label "Carbon Composite Wing Spar & Wing Skin Automated Manufacturing"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_AdvancedMaterials ;
@@ -143,6 +311,13 @@ aero:Cap_GKN_Aerospace_Services_Limited_2 a aero:Capability ;
     aero:mrlValue 8 ;
     aero:trlValue 8 .
 
+aero:Cap_Leonardo_UK_Ltd_1 a aero:Capability ;
+    rdfs:label "AW159 Wildcat / AW101 Merlin Helicopter Engineering & E-Scan Radar"^^xsd:string ;
+    aero:alignedWithKIC aero:KIC_DefenceSystemsIntegration ;
+    aero:capabilityDescription "Design and final assembly of maritime attack helicopters and Seaspray/Captor-E active electronically scanned array radars."^^xsd:string ;
+    aero:mrlValue 9 ;
+    aero:trlValue 9 .
+
 aero:Cap_MBDA_UK_Limited_1 a aero:Capability ;
     rdfs:label "Air Dominance Guided Missiles (Meteor & ASRAAM)"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_Munitions ;
@@ -154,6 +329,27 @@ aero:Cap_MBDA_UK_Limited_2 a aero:Capability ;
     rdfs:label "Sea Ceptor / CAMM Naval Air Defence Missile Systems"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_Munitions ;
     aero:capabilityDescription "Soft vertical launch active radar guided air defense missiles providing 360-degree local and area naval protection."^^xsd:string ;
+    aero:mrlValue 9 ;
+    aero:trlValue 9 .
+
+aero:Cap_Marshall_Aerospace_and_Defence_Group_1 a aero:Capability ;
+    rdfs:label "C-130 Hercules Center Wing Box Replacement & Airframe Life Extension"^^xsd:string ;
+    aero:alignedWithKIC aero:KIC_AerospaceSystems ;
+    aero:capabilityDescription "World-leading depot level structural modification, glass cockpit avionics upgrades, and fatigue testing on tactical airlifters."^^xsd:string ;
+    aero:mrlValue 9 ;
+    aero:trlValue 9 .
+
+aero:Cap_Martin_Baker_Aircraft_Co_Ltd_1 a aero:Capability ;
+    rdfs:label "Zero-Zero Combat Aircraft Ejection Seat Systems"^^xsd:string ;
+    aero:alignedWithKIC aero:KIC_AerospaceSystems ;
+    aero:capabilityDescription "Rocket-assisted zero altitude, zero velocity emergency aircrew escape seats with digital sequencing parachutes."^^xsd:string ;
+    aero:mrlValue 9 ;
+    aero:trlValue 9 .
+
+aero:Cap_Meggitt_PLC_1 a aero:Capability ;
+    rdfs:label "Carbon Brake Discs and High-Temperature Polymer Thermal Seals"^^xsd:string ;
+    aero:alignedWithKIC aero:KIC_AdvancedMaterials ;
+    aero:capabilityDescription "Multi-disc carbon-carbon composite aircraft braking systems and fireproof silicone/ceramic thermal barriers for engines."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
@@ -192,6 +388,20 @@ aero:Cap_Rolls_Royce_plc_3 a aero:Capability ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
+aero:Cap_Thales_UK_Limited_1 a aero:Capability ;
+    rdfs:label "Sonobuoy Acoustic Telemetry and Submarine Sonar 2076 Suite"^^xsd:string ;
+    aero:alignedWithKIC aero:KIC_SensorsSonar ;
+    aero:capabilityDescription "World-leading submarine bow, flank, and towed array sonar digital processing suite providing superior passive detection."^^xsd:string ;
+    aero:mrlValue 9 ;
+    aero:trlValue 9 .
+
+aero:Cap_Ultra_Electronics_Holdings_Limited_1 a aero:Capability ;
+    rdfs:label "Submarine Sonobuoy Acoustic Telemetry & Towed Array Sonar"^^xsd:string ;
+    aero:alignedWithKIC aero:KIC_SensorsSonar ;
+    aero:capabilityDescription "Advanced low-frequency active dipping sonar and digital acoustic processor telemetry arrays for anti-submarine warfare."^^xsd:string ;
+    aero:mrlValue 9 ;
+    aero:trlValue 9 .
+
 aero:Company_Airbus_SE a aero:Company ;
     aero:hasDirectSupplier aero:Company_GKN_Aerospace_Services_Limited ;
     aero:headquartersCountry "FRA"^^xsd:string ;
@@ -202,7 +412,6 @@ aero:Company_Rolls_Royce_plc a aero:Company,
     aero:businessNumber "GB100482910"^^xsd:string ;
     aero:cageCode "K0258"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:dunsNumber "210491820"^^xsd:string ;
     aero:hasCapability aero:Cap_Rolls_Royce_plc_1,
         aero:Cap_Rolls_Royce_plc_2,
         aero:Cap_Rolls_Royce_plc_3 ;
@@ -229,6 +438,36 @@ aero:Company_Rolls_Royce_plc a aero:Company,
     aero:suppliesTo aero:Company_BAE_Systems_plc ;
     aero:tradeName "Rolls-Royce Defence"^^xsd:string ;
     aero:website "https://www.rolls-royce.com/defence"^^xsd:anyURI .
+
+aero:Company_Thales_SA a aero:Company ;
+    aero:hasDirectSupplier aero:Company_Thales_UK_Limited ;
+    aero:headquartersCountry "FRA"^^xsd:string ;
+    aero:legalName "Thales SA"^^xsd:string .
+
+aero:Company_Thales_UK_Limited a aero:Company,
+        aero:Tier1Supplier ;
+    aero:businessNumber "00868273"^^xsd:string ;
+    aero:cageCode "K0321"^^xsd:string ;
+    aero:controlledGoodsRegistered true ;
+    aero:hasCapability aero:Cap_Thales_UK_Limited_1 ;
+    aero:headquartersCity "Crawley"^^xsd:string ;
+    aero:headquartersCountry "GBR"^^xsd:string ;
+    aero:headquartersProvince "West Sussex"^^xsd:string ;
+    aero:holdsCertification aero:Cert_AS9100D,
+        aero:Cert_CyberEssentialsPlus,
+        aero:Cert_FacilitySecurity_TopSecret,
+        aero:Cert_ISO9001 ;
+    aero:itarCompliant true ;
+    aero:legalName "Thales UK Limited"^^xsd:string ;
+    aero:manufacturesProduct aero:Product_Thales_UK_Limited_Sonar_2087_Active_Low_Frequency_Towed_Array_Sonar ;
+    aero:operatesInDomain aero:DomainC4ISR,
+        aero:DomainDefence,
+        aero:LandPlatform,
+        aero:MaritimePlatform ;
+    aero:providesService aero:Service_Thales_UK_Limited_Naval_Mission_System_In_Service_Software_Maintenance_Cyber_Assurance ;
+    aero:suppliesTo aero:Company_Thales_SA ;
+    aero:tradeName "Thales UK"^^xsd:string ;
+    aero:website "https://www.thalesgroup.com/en/united-kingdom"^^xsd:anyURI .
 
 aero:Product_BAE_Systems_plc_Eurofighter_Typhoon_Multi_Role_Fighter a aero:Product ;
     rdfs:label "Eurofighter Typhoon Multi-Role Fighter"^^xsd:string ;
@@ -258,6 +497,27 @@ aero:Product_Babcock_International_Group_plc_Type_31_Inspiration_Class_Frigate a
     aero:partNumber "PN-GBR-BAB-T3101"^^xsd:string ;
     aero:productDescription "Arrowhead 140 general-purpose naval frigate designed for global maritime security and disaster relief."^^xsd:string .
 
+aero:Product_Chemring_Group_plc_Spectral_Flare_Decoy_Cartridge_BOL_IR_MTV a aero:Product ;
+    rdfs:label "Spectral Flare Decoy Cartridge (BOL-IR / MTV)"^^xsd:string ;
+    aero:dependsOnMaterial aero:Material_SingleCrystal_Superalloy ;
+    aero:deployedOnPlatform aero:Platform_Eurofighter_Typhoon,
+        aero:Platform_F35_Lightning_II ;
+    aero:fscCode "1370"^^xsd:string ;
+    aero:nsnCode "1370-99-441-2091"^^xsd:string ;
+    aero:partNumber "PN-GBR-CHM-FLR01"^^xsd:string ;
+    aero:productDescription "Dual-spectrum infrared countermeasure flare defeating modern imaging infrared surface-to-air and air-to-air missiles."^^xsd:string .
+
+aero:Product_Cobham_Limited_Wing_Aerial_Refuelling_Pod_WARP_900_Series a aero:Product ;
+    rdfs:label "Wing Aerial Refuelling Pod (WARP) 900-Series"^^xsd:string ;
+    aero:dependsOnMaterial aero:Material_AluminiumLithium_2055,
+        aero:Material_CarbonFiber_Composite ;
+    aero:deployedOnPlatform aero:Platform_A400M_Atlas,
+        aero:Platform_FixedWingTransport ;
+    aero:fscCode "1680"^^xsd:string ;
+    aero:nsnCode "1680-99-738-9182"^^xsd:string ;
+    aero:partNumber "PN-GBR-COB-WRP90"^^xsd:string ;
+    aero:productDescription "Self-contained ram-air turbine powered aerial refuelling pod providing 400 gpm fuel delivery."^^xsd:string .
+
 aero:Product_GKN_Aerospace_Services_Limited_F_35_Composite_In_Spar_Rib_Assemblies a aero:Product ;
     rdfs:label "F-35 Composite In-Spar Rib Assemblies"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_CarbonFiber_Composite ;
@@ -266,6 +526,16 @@ aero:Product_GKN_Aerospace_Services_Limited_F_35_Composite_In_Spar_Rib_Assemblie
     aero:nsnCode "1560-99-249-1029"^^xsd:string ;
     aero:partNumber "PN-GBR-GKN-F35R01"^^xsd:string ;
     aero:productDescription "Monolithic carbon composite wing internal rib assemblies manufactured with robotic AFP systems."^^xsd:string .
+
+aero:Product_Leonardo_UK_Ltd_AW159_Wildcat_Multi_Mission_Maritime_Attack_Helicopter a aero:Product ;
+    rdfs:label "AW159 Wildcat Multi-Mission Maritime Attack Helicopter"^^xsd:string ;
+    aero:dependsOnMaterial aero:Material_CarbonFiber_Composite,
+        aero:Material_Titanium_Ti6Al4V ;
+    aero:deployedOnPlatform aero:Platform_RotaryWing ;
+    aero:fscCode "1520"^^xsd:string ;
+    aero:nsnCode "1520-99-772-9182"^^xsd:string ;
+    aero:partNumber "PN-GBR-LEO-WLD01"^^xsd:string ;
+    aero:productDescription "Twin-engine maritime combat helicopter equipped with active dip sonar, AESA radar, and anti-ship missile integration."^^xsd:string .
 
 aero:Product_MBDA_UK_Limited_Brimstone_Precision_Strike_Air_to_Ground_Missile a aero:Product ;
     rdfs:label "Brimstone Precision Strike Air-to-Ground Missile"^^xsd:string ;
@@ -287,6 +557,37 @@ aero:Product_MBDA_UK_Limited_Meteor_Beyond_Visual_Range_Air_to_Air_Missile a aer
     aero:nsnCode "1410-99-204-8192"^^xsd:string ;
     aero:partNumber "PN-GBR-MBD-MET01"^^xsd:string ;
     aero:productDescription "Ramjet-powered air-to-air missile delivering multi-shot capability against long-range maneuvering targets."^^xsd:string .
+
+aero:Product_Marshall_Aerospace_and_Defence_Group_Tactical_Medical_Evacuation_Shelter_Module a aero:Product ;
+    rdfs:label "Tactical Medical Evacuation Shelter Module"^^xsd:string ;
+    aero:dependsOnMaterial aero:Material_AluminiumLithium_2055,
+        aero:Material_CarbonFiber_Composite ;
+    aero:deployedOnPlatform aero:Platform_C130J_SuperHercules ;
+    aero:fscCode "6530"^^xsd:string ;
+    aero:nsnCode "6530-99-551-7821"^^xsd:string ;
+    aero:partNumber "PN-GBR-MSH-MED01"^^xsd:string ;
+    aero:productDescription "Quick-change roll-on/roll-off air transportable ICU intensive care capsule with blast attenuation floor mountings."^^xsd:string .
+
+aero:Product_Martin_Baker_Aircraft_Co_Ltd_US16E_Ejection_Seat_F_35_Lightning_II a aero:Product ;
+    rdfs:label "US16E Ejection Seat (F-35 Lightning II)"^^xsd:string ;
+    aero:dependsOnMaterial aero:Material_Kevlar_Aramid,
+        aero:Material_Titanium_Ti6Al4V ;
+    aero:deployedOnPlatform aero:Platform_F35_Lightning_II ;
+    aero:fscCode "1680"^^xsd:string ;
+    aero:nsnCode "1680-99-921-1182"^^xsd:string ;
+    aero:partNumber "PN-GBR-MBA-US16E"^^xsd:string ;
+    aero:productDescription "Crash-attenuating, rocket-propelled ejection seat designed to protect pilots across whole mass and speed envelope."^^xsd:string .
+
+aero:Product_Meggitt_PLC_Advanced_Military_Carbon_Carbon_Brake_Heat_Pack a aero:Product ;
+    rdfs:label "Advanced Military Carbon-Carbon Brake Heat Pack"^^xsd:string ;
+    aero:dependsOnMaterial aero:Material_CarbonFiber_Composite,
+        aero:Material_Titanium_Ti6Al4V ;
+    aero:deployedOnPlatform aero:Platform_Eurofighter_Typhoon,
+        aero:Platform_FixedWingCombat ;
+    aero:fscCode "1630"^^xsd:string ;
+    aero:nsnCode "1630-99-881-2901"^^xsd:string ;
+    aero:partNumber "PN-GBR-MEG-BRK01"^^xsd:string ;
+    aero:productDescription "High energy absorption carbon composite brake disc pack with titanium torque tubes for high-performance fighters."^^xsd:string .
 
 aero:Product_QinetiQ_Group_plc_Banshee_Jet_80_Aerial_Target_Drone a aero:Product ;
     rdfs:label "Banshee Jet 80+ Aerial Target Drone"^^xsd:string ;
@@ -316,6 +617,28 @@ aero:Product_Rolls_Royce_plc_F_35B_Rolls_Royce_LiftSystem a aero:Product ;
     aero:nsnCode "2840-99-918-2050"^^xsd:string ;
     aero:partNumber "PN-GBR-RR-LSYS01"^^xsd:string ;
     aero:productDescription "Vertical lift propulsion package including LiftFan, Drive Shaft, and 3-Bearing Swivel Module."^^xsd:string .
+
+aero:Product_Thales_UK_Limited_Sonar_2087_Active_Low_Frequency_Towed_Array_Sonar a aero:Product ;
+    rdfs:label "Sonar 2087 Active Low-Frequency Towed Array Sonar"^^xsd:string ;
+    aero:dependsOnMaterial aero:Material_SingleCrystal_Superalloy,
+        aero:Material_Titanium_Ti6Al4V ;
+    aero:deployedOnPlatform aero:Platform_SurfaceCombatant,
+        aero:Platform_Type26_GlobalCombatShip ;
+    aero:fscCode "5845"^^xsd:string ;
+    aero:nsnCode "5845-99-661-8821"^^xsd:string ;
+    aero:partNumber "PN-GBR-THL-S2087"^^xsd:string ;
+    aero:productDescription "Variable-depth active and passive low-frequency towed sonar system deployed on Royal Navy anti-submarine frigates."^^xsd:string .
+
+aero:Product_Ultra_Electronics_Holdings_Limited_Sea_Sentor_Surface_Ship_Torpedo_Defence_System a aero:Product ;
+    rdfs:label "Sea Sentor Surface Ship Torpedo Defence System"^^xsd:string ;
+    aero:dependsOnMaterial aero:Material_SiliconCarbide_SiC,
+        aero:Material_Titanium_Ti6Al4V ;
+    aero:deployedOnPlatform aero:Platform_SurfaceCombatant,
+        aero:Platform_Type26_GlobalCombatShip ;
+    aero:fscCode "5845"^^xsd:string ;
+    aero:nsnCode "5845-99-812-4012"^^xsd:string ;
+    aero:partNumber "PN-GBR-ULT-SST01"^^xsd:string ;
+    aero:productDescription "Acoustic countermeasure launch system detecting, tracking, and decoying incoming acoustic homing torpedoes."^^xsd:string .
 
 aero:Service_BAE_Systems_plc_Aerospace_Titanium_High_Speed_Gantry_Milling a aero:EngineeringService,
         aero:Service ;
@@ -412,6 +735,24 @@ aero:Service_Babcock_International_Group_plc_Warship_Electrical_Power_and_Propul
         aero:Platform_SurfaceCombatant,
         aero:Platform_Type26_GlobalCombatShip .
 
+aero:Service_Chemring_Group_plc_Aircraft_Countermeasure_Dispenser_Interface_Qualification a aero:Service,
+        aero:TestingQualificationService ;
+    rdfs:label "Aircraft Countermeasure Dispenser Interface Qualification"^^xsd:string ;
+    aero:serviceAccreditation "ISO 9001:2015"^^xsd:string ;
+    aero:serviceDescription "Mil-Std-1760 and DEF STAN digital bus weapon integration for pyrotechnic dispenser pods."^^xsd:string ;
+    aero:supportsPlatform aero:Platform_Eurofighter_Typhoon,
+        aero:Platform_F35_Lightning_II,
+        aero:Platform_Type26_GlobalCombatShip .
+
+aero:Service_Cobham_Limited_In_Flight_Refuelling_System_Maintenance_Hydrostatic_Testing a aero:MROService,
+        aero:Service ;
+    rdfs:label "In-Flight Refuelling System Maintenance & Hydrostatic Testing"^^xsd:string ;
+    aero:serviceAccreditation "MAA Part 145"^^xsd:string ;
+    aero:serviceDescription "Overhaul of high-pressure fuel valves, drogue couplings, and hose dynamic rewind drive motors."^^xsd:string ;
+    aero:supportsPlatform aero:Platform_Eurofighter_Typhoon,
+        aero:Platform_FixedWingTransport,
+        aero:Platform_KC46_Pegasus .
+
 aero:Service_GKN_Aerospace_Services_Limited_Advanced_Composite_Ultrasonic_C_Scan_and_Laser_Shearography_Testing a aero:Service,
         aero:TestingQualificationService ;
     rdfs:label "Advanced Composite Ultrasonic C-Scan and Laser Shearography Testing"^^xsd:string ;
@@ -457,6 +798,14 @@ aero:Service_GKN_Aerospace_Services_Limited_Structural_Composite_Airframe_Repair
         aero:Platform_Eurofighter_Typhoon,
         aero:Platform_F35_Lightning_II .
 
+aero:Service_Leonardo_UK_Ltd_Rotary_Wing_Integrated_Operational_Support_IOS a aero:MROService,
+        aero:Service ;
+    rdfs:label "Rotary Wing Integrated Operational Support (IOS)"^^xsd:string ;
+    aero:serviceAccreditation "MAA Part 145"^^xsd:string ;
+    aero:serviceDescription "Turnkey fleet management, predictive vibration analysis, and live aircrew mission support for Royal Navy."^^xsd:string ;
+    aero:supportsPlatform aero:Platform_Eurofighter_Typhoon,
+        aero:Platform_RotaryWing .
+
 aero:Service_MBDA_UK_Limited_Aircraft_Weapon_Integration_Ballistic_Bus_Digital_Interface_Testing a aero:EngineeringService,
         aero:Service ;
     rdfs:label "Aircraft Weapon Integration & Ballistic Bus Digital Interface Testing"^^xsd:string ;
@@ -501,6 +850,32 @@ aero:Service_MBDA_UK_Limited_Solid_Rocket_Motor_Ramjet_Energetics_Storage_Survei
     aero:supportsPlatform aero:Platform_Eurofighter_Typhoon,
         aero:Platform_F35_Lightning_II,
         aero:Platform_Type26_GlobalCombatShip .
+
+aero:Service_Marshall_Aerospace_and_Defence_Group_Tactical_Transport_Aircraft_Heavy_Maintenance_STC_Engineering a aero:MROService,
+        aero:Service ;
+    rdfs:label "Tactical Transport Aircraft Heavy Maintenance & STC Engineering"^^xsd:string ;
+    aero:serviceAccreditation "MAA Part 145"^^xsd:string ;
+    aero:serviceDescription "Full depot-level maintenance, primary structure repair, and FAA/MAA Supplemental Type Certification."^^xsd:string ;
+    aero:supportsPlatform aero:Platform_C130J_SuperHercules,
+        aero:Platform_FixedWingTransport .
+
+aero:Service_Martin_Baker_Aircraft_Co_Ltd_Ballistic_Pyrotechnic_Catapult_Recertification_Life_Extension a aero:Service,
+        aero:TestingQualificationService ;
+    rdfs:label "Ballistic Pyrotechnic Catapult Recertification & Life Extension"^^xsd:string ;
+    aero:serviceAccreditation "MOD Explosive Safety"^^xsd:string ;
+    aero:serviceDescription "Inspection and testing of CAD/PAD explosive cartridges, gas generators, and parachute deployment drogues."^^xsd:string ;
+    aero:supportsPlatform aero:Platform_Dassault_Rafale,
+        aero:Platform_Eurofighter_Typhoon,
+        aero:Platform_F35_Lightning_II .
+
+aero:Service_Meggitt_PLC_Wheel_Brake_Bleed_Air_Valve_Overhaul a aero:MROService,
+        aero:Service ;
+    rdfs:label "Wheel, Brake & Bleed Air Valve Overhaul"^^xsd:string ;
+    aero:serviceAccreditation "AS9100D"^^xsd:string ;
+    aero:serviceDescription "Thermal cycling qualification, pressure vessel recertification, and wheel crack NDT testing."^^xsd:string ;
+    aero:supportsPlatform aero:Platform_AH64_Apache,
+        aero:Platform_Eurofighter_Typhoon,
+        aero:Platform_F35_Lightning_II .
 
 aero:Service_QinetiQ_Group_plc_Acoustic_and_Electromagnetic_Stealth_Signature_Characterization a aero:Service,
         aero:TestingQualificationService ;
@@ -592,12 +967,29 @@ aero:Service_Rolls_Royce_plc_Turbine_Blade_Non_Destructive_Ultrasonic_and_Eddy_C
         aero:Platform_F35_Lightning_II,
         aero:Platform_Submarine .
 
+aero:Service_Thales_UK_Limited_Naval_Mission_System_In_Service_Software_Maintenance_Cyber_Assurance a aero:CyberSecurityService,
+        aero:Service ;
+    rdfs:label "Naval Mission System In-Service Software Maintenance & Cyber Assurance"^^xsd:string ;
+    aero:serviceAccreditation "Cyber Essentials Plus"^^xsd:string ;
+    aero:serviceDescription "Continuous cyber-hardening, acoustic algorithm updates, and secure tactical datalink testing."^^xsd:string ;
+    aero:supportsPlatform aero:Platform_ArmouredCombatVehicle,
+        aero:Platform_Submarine,
+        aero:Platform_Type26_GlobalCombatShip .
+
+aero:Service_Ultra_Electronics_Holdings_Limited_Naval_Acoustic_Sensor_Range_Testing_Sea_Acceptance_Trials a aero:Service,
+        aero:TestingQualificationService ;
+    rdfs:label "Naval Acoustic Sensor Range Testing & Sea Acceptance Trials"^^xsd:string ;
+    aero:serviceAccreditation "UKAS Accredited"^^xsd:string ;
+    aero:serviceDescription "Hydrophone acoustic calibration, signature evaluation, and underwater sound range verification."^^xsd:string ;
+    aero:supportsPlatform aero:Platform_P8_Poseidon,
+        aero:Platform_Submarine,
+        aero:Platform_Type26_GlobalCombatShip .
+
 aero:Company_BAE_Systems_plc a aero:Company,
         aero:PrimeContractor ;
     aero:businessNumber "GB147209182"^^xsd:string ;
     aero:cageCode "K0657"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:dunsNumber "218491029"^^xsd:string ;
     aero:hasCapability aero:Cap_BAE_Systems_plc_1,
         aero:Cap_BAE_Systems_plc_2,
         aero:Cap_BAE_Systems_plc_3 ;
@@ -632,7 +1024,6 @@ aero:Company_GKN_Aerospace_Services_Limited a aero:Company,
     aero:businessNumber "GB192847192"^^xsd:string ;
     aero:cageCode "K2490"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:dunsNumber "218482019"^^xsd:string ;
     aero:hasCapability aero:Cap_GKN_Aerospace_Services_Limited_1,
         aero:Cap_GKN_Aerospace_Services_Limited_2 ;
     aero:headquartersCity "Filton"^^xsd:string ;

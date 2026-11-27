@@ -2,43 +2,11 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-aero:Company_Airbus_SE a aero:Company,
-        aero:PrimeContractor ;
-    aero:businessNumber "NL811928471B01"^^xsd:string ;
-    aero:cageCode "F0259"^^xsd:string ;
-    aero:controlledGoodsRegistered true ;
-    aero:dunsNumber "402948172"^^xsd:string ;
-    aero:hasCapability aero:Cap_Airbus_SE_1,
-        aero:Cap_Airbus_SE_2 ;
-    aero:headquartersCity "Toulouse"^^xsd:string ;
-    aero:headquartersCountry "FRA"^^xsd:string ;
-    aero:headquartersProvince "Occitanie"^^xsd:string ;
-    aero:holdsCertification aero:Cert_AS9100D,
-        aero:Cert_FacilitySecurity_TopSecret,
-        aero:Cert_ISO9001,
-        aero:Cert_NATO_AQAP2110 ;
-    aero:itarCompliant true ;
-    aero:legalName "Airbus SE"^^xsd:string ;
-    aero:manufacturesProduct aero:Product_Airbus_SE_A400M_Atlas_Military_Transport,
-        aero:Product_Airbus_SE_Eurostar_Neo_Telecommunications_Satellite ;
-    aero:operatesInDomain aero:AirPlatform,
-        aero:DomainDefence,
-        aero:DomainSpace,
-        aero:SpacePlatform ;
-    aero:providesService aero:Service_Airbus_SE_Composite_Aerostructure_Ultrasonic_C_Scan_Inspection,
-        aero:Service_Airbus_SE_Military_Aircraft_Fleet_In_Service_Support_and_Maintenance,
-        aero:Service_Airbus_SE_Multi_Domain_Combat_Cloud_Secure_Datalink_Integration,
-        aero:Service_Airbus_SE_Spacecraft_Cleanroom_Payload_Integration_and_Launch_Campaign_Support,
-        aero:Service_Airbus_SE_Worldwide_Military_Airlifter_Spares_Pooling_Logistics ;
-    aero:tradeName "Airbus Defence and Space"^^xsd:string ;
-    aero:website "https://www.airbus.com/en/defence"^^xsd:anyURI .
-
 aero:Company_Dassault_Aviation_SA a aero:Company,
         aero:PrimeContractor ;
     aero:businessNumber "FR89392817401"^^xsd:string ;
     aero:cageCode "F0243"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:dunsNumber "402849102"^^xsd:string ;
     aero:hasCapability aero:Cap_Dassault_Aviation_SA_1,
         aero:Cap_Dassault_Aviation_SA_2 ;
     aero:headquartersCity "Saint-Cloud"^^xsd:string ;
@@ -62,12 +30,79 @@ aero:Company_Dassault_Aviation_SA a aero:Company,
     aero:tradeName "Dassault Aviation"^^xsd:string ;
     aero:website "https://www.dassault-aviation.com"^^xsd:anyURI .
 
+aero:Company_Fincantieri_SpA a aero:Company,
+        aero:Tier1Supplier ;
+    aero:businessNumber "IT00629480322"^^xsd:string ;
+    aero:cageCode "A0198"^^xsd:string ;
+    aero:controlledGoodsRegistered true ;
+    aero:hasCapability aero:Cap_Fincantieri_SpA_1 ;
+    aero:headquartersCity "Trieste"^^xsd:string ;
+    aero:headquartersCountry "ITA"^^xsd:string ;
+    aero:headquartersProvince "Friuli-Venezia Giulia"^^xsd:string ;
+    aero:holdsCertification aero:Cert_ISO14001,
+        aero:Cert_ISO9001,
+        aero:Cert_NATO_AQAP2110 ;
+    aero:itarCompliant true ;
+    aero:legalName "Fincantieri S.p.A."^^xsd:string ;
+    aero:manufacturesProduct aero:Product_Fincantieri_SpA_FREMM_European_Multi_Mission_Frigate_ASW_Combat_Hull_Section ;
+    aero:operatesInDomain aero:DomainDefence,
+        aero:MaritimePlatform ;
+    aero:providesService aero:Service_Fincantieri_SpA_Drydock_Warship_Modernization_Combat_System_Installation_Sea_Trials ;
+    aero:tradeName "Fincantieri"^^xsd:string ;
+    aero:website "https://www.fincantieri.com"^^xsd:anyURI .
+
+aero:Company_Hensoldt_AG a aero:Company,
+        aero:Tier1Supplier ;
+    aero:businessNumber "DE313849102"^^xsd:string ;
+    aero:cageCode "C2630"^^xsd:string ;
+    aero:controlledGoodsRegistered true ;
+    aero:hasCapability aero:Cap_Hensoldt_AG_1 ;
+    aero:headquartersCity "Taufkirchen"^^xsd:string ;
+    aero:headquartersCountry "DEU"^^xsd:string ;
+    aero:headquartersProvince "Bavaria"^^xsd:string ;
+    aero:holdsCertification aero:Cert_EN9100,
+        aero:Cert_ISO27001,
+        aero:Cert_ISO9001 ;
+    aero:itarCompliant true ;
+    aero:legalName "Hensoldt AG"^^xsd:string ;
+    aero:manufacturesProduct aero:Product_Hensoldt_AG_TRML_4D_Multi_Functional_C_Band_Air_Surveillance_Target_Acquisition_Radar ;
+    aero:operatesInDomain aero:AirPlatform,
+        aero:DomainC4ISR,
+        aero:DomainDefence,
+        aero:LandPlatform,
+        aero:MaritimePlatform ;
+    aero:providesService aero:Service_Hensoldt_AG_Electronic_Warfare_Tactical_Spectrum_Calibration_Sensor_Depot_Support ;
+    aero:tradeName "Hensoldt"^^xsd:string ;
+    aero:website "https://www.hensoldt.net"^^xsd:anyURI .
+
+aero:Company_Kongsberg_Gruppen_ASA a aero:Company,
+        aero:Tier1Supplier ;
+    aero:businessNumber "NO943752019"^^xsd:string ;
+    aero:cageCode "N0012"^^xsd:string ;
+    aero:controlledGoodsRegistered true ;
+    aero:hasCapability aero:Cap_Kongsberg_Gruppen_ASA_1 ;
+    aero:headquartersCity "Kongsberg"^^xsd:string ;
+    aero:headquartersCountry "NOR"^^xsd:string ;
+    aero:headquartersProvince "Viken"^^xsd:string ;
+    aero:holdsCertification aero:Cert_AS9100D,
+        aero:Cert_ISO9001,
+        aero:Cert_NATO_AQAP2110 ;
+    aero:itarCompliant true ;
+    aero:legalName "Kongsberg Gruppen ASA"^^xsd:string ;
+    aero:manufacturesProduct aero:Product_Kongsberg_Gruppen_ASA_Naval_Strike_Missile_NSM_Fifth_Generation_Precision_Cruise_Missile ;
+    aero:operatesInDomain aero:AirPlatform,
+        aero:DomainDefence,
+        aero:LandPlatform,
+        aero:MaritimePlatform ;
+    aero:providesService aero:Service_Kongsberg_Gruppen_ASA_Remote_Weapon_Station_Overhaul_Naval_Missile_Fire_Control_Integration ;
+    aero:tradeName "Kongsberg Defence & Aerospace"^^xsd:string ;
+    aero:website "https://www.kongsberg.com"^^xsd:anyURI .
+
 aero:Company_Leonardo_SpA a aero:Company,
         aero:PrimeContractor ;
     aero:businessNumber "IT004829104"^^xsd:string ;
     aero:cageCode "A0194"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:dunsNumber "439281740"^^xsd:string ;
     aero:hasCapability aero:Cap_Leonardo_SpA_1,
         aero:Cap_Leonardo_SpA_2 ;
     aero:headquartersCity "Rome"^^xsd:string ;
@@ -92,12 +127,75 @@ aero:Company_Leonardo_SpA a aero:Company,
     aero:tradeName "Leonardo"^^xsd:string ;
     aero:website "https://www.leonardo.com"^^xsd:anyURI .
 
+aero:Company_Naval_Group_SA a aero:Company,
+        aero:Tier1Supplier ;
+    aero:businessNumber "FR44441133804"^^xsd:string ;
+    aero:cageCode "F0228"^^xsd:string ;
+    aero:controlledGoodsRegistered true ;
+    aero:hasCapability aero:Cap_Naval_Group_SA_1 ;
+    aero:headquartersCity "Paris"^^xsd:string ;
+    aero:headquartersCountry "FRA"^^xsd:string ;
+    aero:headquartersProvince "Île-de-France"^^xsd:string ;
+    aero:holdsCertification aero:Cert_ISO14001,
+        aero:Cert_ISO9001,
+        aero:Cert_NATO_AQAP2110 ;
+    aero:itarCompliant true ;
+    aero:legalName "Naval Group SA"^^xsd:string ;
+    aero:manufacturesProduct aero:Product_Naval_Group_SA_Scorpne_Class_Diesel_Electric_Submarine_Hull_Combat_Module ;
+    aero:operatesInDomain aero:DomainDefence,
+        aero:MaritimePlatform ;
+    aero:providesService aero:Service_Naval_Group_SA_Full_Lifecycle_In_Service_Naval_Submarine_Maintenance_Reactor_Support ;
+    aero:tradeName "Naval Group"^^xsd:string ;
+    aero:website "https://www.naval-group.com"^^xsd:anyURI .
+
+aero:Company_Navantia_SA_SME a aero:Company,
+        aero:Tier1Supplier ;
+    aero:businessNumber "ESB84076397"^^xsd:string ;
+    aero:cageCode "E0198"^^xsd:string ;
+    aero:controlledGoodsRegistered true ;
+    aero:hasCapability aero:Cap_Navantia_SA_SME_1 ;
+    aero:headquartersCity "Madrid"^^xsd:string ;
+    aero:headquartersCountry "ESP"^^xsd:string ;
+    aero:headquartersProvince "Madrid"^^xsd:string ;
+    aero:holdsCertification aero:Cert_ISO14001,
+        aero:Cert_ISO9001,
+        aero:Cert_PECAL2110 ;
+    aero:itarCompliant true ;
+    aero:legalName "Navantia S.A., S.M.E."^^xsd:string ;
+    aero:manufacturesProduct aero:Product_Navantia_SA_SME_S_80_Plus_Class_AIP_Submarine_Module_and_Structural_Bulkhead ;
+    aero:operatesInDomain aero:DomainDefence,
+        aero:MaritimePlatform ;
+    aero:providesService aero:Service_Navantia_SA_SME_Integrated_Naval_Platform_Management_System_IPMS_Software_Assurance_Fleet_MRO ;
+    aero:tradeName "Navantia"^^xsd:string ;
+    aero:website "https://www.navantia.es"^^xsd:anyURI .
+
+aero:Company_Patria_Oyj a aero:Company,
+        aero:Tier1Supplier ;
+    aero:businessNumber "FI10775982"^^xsd:string ;
+    aero:cageCode "A069G"^^xsd:string ;
+    aero:controlledGoodsRegistered true ;
+    aero:hasCapability aero:Cap_Patria_Oyj_1 ;
+    aero:headquartersCity "Helsinki"^^xsd:string ;
+    aero:headquartersCountry "FIN"^^xsd:string ;
+    aero:headquartersProvince "Uusimaa"^^xsd:string ;
+    aero:holdsCertification aero:Cert_AQAP2110,
+        aero:Cert_ISO14001,
+        aero:Cert_ISO9001 ;
+    aero:itarCompliant true ;
+    aero:legalName "Patria Oyj"^^xsd:string ;
+    aero:manufacturesProduct aero:Product_Patria_Oyj_Patria_AMV_XP_8x8_Armoured_Modular_Combat_Vehicle_Platform ;
+    aero:operatesInDomain aero:AirPlatform,
+        aero:DomainDefence,
+        aero:LandPlatform ;
+    aero:providesService aero:Service_Patria_Oyj_Military_Armoured_Vehicle_Depot_Fleet_Life_Extension_Armor_Upgrades ;
+    aero:tradeName "Patria"^^xsd:string ;
+    aero:website "https://www.patriagroup.com"^^xsd:anyURI .
+
 aero:Company_Rheinmetall_AG a aero:Company,
         aero:PrimeContractor ;
     aero:businessNumber "DE119284710"^^xsd:string ;
     aero:cageCode "D0812"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:dunsNumber "319284710"^^xsd:string ;
     aero:hasCapability aero:Cap_Rheinmetall_AG_1,
         aero:Cap_Rheinmetall_AG_2 ;
     aero:headquartersCity "Düsseldorf"^^xsd:string ;
@@ -126,7 +224,6 @@ aero:Company_Saab_AB a aero:Company,
     aero:businessNumber "SE556036079301"^^xsd:string ;
     aero:cageCode "S0319"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:dunsNumber "550294819"^^xsd:string ;
     aero:hasCapability aero:Cap_Saab_AB_1,
         aero:Cap_Saab_AB_2,
         aero:Cap_Saab_AB_3 ;
@@ -157,7 +254,6 @@ aero:Company_Safran_SA a aero:Company,
     aero:businessNumber "FR49583920194"^^xsd:string ;
     aero:cageCode "F0389"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:dunsNumber "402738192"^^xsd:string ;
     aero:hasCapability aero:Cap_Safran_SA_1,
         aero:Cap_Safran_SA_2 ;
     aero:headquartersCity "Paris"^^xsd:string ;
@@ -181,6 +277,32 @@ aero:Company_Safran_SA a aero:Company,
         aero:Service_Safran_SA_Non_Destructive_Testing_Fluorescent_Penetrant_Eddy_Current ;
     aero:tradeName "Safran"^^xsd:string ;
     aero:website "https://www.safran-group.com"^^xsd:anyURI .
+
+aero:Company_Thales_SA a aero:Company,
+        aero:Tier1Supplier ;
+    aero:businessNumber "FR55552059024"^^xsd:string ;
+    aero:cageCode "F0211"^^xsd:string ;
+    aero:controlledGoodsRegistered true ;
+    aero:hasCapability aero:Cap_Thales_SA_1 ;
+    aero:headquartersCity "Meudon"^^xsd:string ;
+    aero:headquartersCountry "FRA"^^xsd:string ;
+    aero:headquartersProvince "Île-de-France"^^xsd:string ;
+    aero:holdsCertification aero:Cert_AS9100D,
+        aero:Cert_ISO27001,
+        aero:Cert_ISO9001,
+        aero:Cert_NATO_AQAP2110 ;
+    aero:itarCompliant true ;
+    aero:legalName "Thales SA"^^xsd:string ;
+    aero:manufacturesProduct aero:Product_Thales_SA_SMART_L_Multi_Mission_Naval_Early_Warning_Radar ;
+    aero:operatesInDomain aero:AirPlatform,
+        aero:DomainC4ISR,
+        aero:DomainDefence,
+        aero:DomainSpace,
+        aero:LandPlatform,
+        aero:MaritimePlatform ;
+    aero:providesService aero:Service_Thales_SA_Naval_Radar_System_Lifecycle_Support_Mission_System_Integration ;
+    aero:tradeName "Thales"^^xsd:string ;
+    aero:website "https://www.thalesgroup.com"^^xsd:anyURI .
 
 aero:Cap_Airbus_SE_1 a aero:Capability ;
     rdfs:label "Tactical & Strategic Military Transport Aircraft (A400M)"^^xsd:string ;
@@ -210,6 +332,34 @@ aero:Cap_Dassault_Aviation_SA_2 a aero:Capability ;
     aero:mrlValue 7 ;
     aero:trlValue 8 .
 
+aero:Cap_Diehl_Defence_GmbH_Co_KG_1 a aero:Capability ;
+    rdfs:label "Imaging Infrared (IIR) Precision Guided Missile Seeker & Air-Defence Integration"^^xsd:string ;
+    aero:alignedWithKIC aero:KIC_MissilesAmmunition ;
+    aero:capabilityDescription "Development of solid-propellant guided interceptor missiles, dual-mode RF/IIR seekers, and multi-canister air-defense launchers."^^xsd:string ;
+    aero:mrlValue 9 ;
+    aero:trlValue 9 .
+
+aero:Cap_Fincantieri_SpA_1 a aero:Capability ;
+    rdfs:label "High-Survivability Naval Warship Engineering, Acoustic Masking & Propulsion Integration"^^xsd:string ;
+    aero:alignedWithKIC aero:KIC_NavalArchitectureMarineSystems ;
+    aero:capabilityDescription "Naval architecture, whole-ship modular assembly, stealth superstructure design, and integrated electric propulsion engineering for frigates and submarines."^^xsd:string ;
+    aero:mrlValue 9 ;
+    aero:trlValue 9 .
+
+aero:Cap_Hensoldt_AG_1 a aero:Capability ;
+    rdfs:label "Solid-State Active Electronically Scanned Array Air Surveillance and Counter-Battery Radar"^^xsd:string ;
+    aero:alignedWithKIC aero:KIC_SensorsSonar ;
+    aero:capabilityDescription "Gallium nitride (GaN) active antenna arrays, high-speed multi-target tracking, and airborne self-protection sensor suites."^^xsd:string ;
+    aero:mrlValue 9 ;
+    aero:trlValue 9 .
+
+aero:Cap_Kongsberg_Gruppen_ASA_1 a aero:Capability ;
+    rdfs:label "Autonomous Target Recognition & Passive Infrared Guided Cruise Missile Engineering"^^xsd:string ;
+    aero:alignedWithKIC aero:KIC_MissilesAmmunition ;
+    aero:capabilityDescription "Engineering of sea-skimming low-observable strike missiles, remote weapon stations, and unified air-defense fire distribution centers."^^xsd:string ;
+    aero:mrlValue 9 ;
+    aero:trlValue 9 .
+
 aero:Cap_Leonardo_SpA_1 a aero:Capability ;
     rdfs:label "Airborne Fire Control & Surveillance AESA Radars"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_SensorsSonar ;
@@ -221,6 +371,27 @@ aero:Cap_Leonardo_SpA_2 a aero:Capability ;
     rdfs:label "Military & Commercial Utility Helicopters (AW101 / AW149)"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_AerospaceSystems ;
     aero:capabilityDescription "Multi-role medium and heavy military helicopters, composite rotor blade manufacturing, and dynamic drive systems."^^xsd:string ;
+    aero:mrlValue 9 ;
+    aero:trlValue 9 .
+
+aero:Cap_Naval_Group_SA_1 a aero:Capability ;
+    rdfs:label "Nuclear and Conventional Submarine Hull Integration and Acoustic Stealth Engineering"^^xsd:string ;
+    aero:alignedWithKIC aero:KIC_NavalArchitectureMarineSystems ;
+    aero:capabilityDescription "Turnkey warship architecture, submerged shock qualification, acoustic quieting, and submarine combat management system integration."^^xsd:string ;
+    aero:mrlValue 9 ;
+    aero:trlValue 9 .
+
+aero:Cap_Navantia_SA_SME_1 a aero:Capability ;
+    rdfs:label "Bio-Ethanol Stealth Air-Independent Propulsion & Warship Combat System Integration"^^xsd:string ;
+    aero:alignedWithKIC aero:KIC_NavalArchitectureMarineSystems ;
+    aero:capabilityDescription "Engineering of high-endurance submarine air-independent propulsion systems, Aegis combat system shipboard integration, and naval hull fabrication."^^xsd:string ;
+    aero:mrlValue 9 ;
+    aero:trlValue 9 .
+
+aero:Cap_Patria_Oyj_1 a aero:Capability ;
+    rdfs:label "Modular Wheeled Armoured Combat Vehicle Protection and Heavy Remote Mortar Integration"^^xsd:string ;
+    aero:alignedWithKIC aero:KIC_GroundCombatVehicles ;
+    aero:capabilityDescription "Design and manufacture of 8x8 armoured combat vehicles, ballistic mine protection integration, and aerospace forward fuselage assembly."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
@@ -273,6 +444,67 @@ aero:Cap_Safran_SA_2 a aero:Capability ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
+aero:Cap_Thales_SA_1 a aero:Capability ;
+    rdfs:label "Naval Multi-Function AESA Surveillance and Anti-Air Radar Systems"^^xsd:string ;
+    aero:alignedWithKIC aero:KIC_SensorsSonar ;
+    aero:capabilityDescription "Design, manufacture, and combat system integration of long-range 3D active electronically scanned array radars and naval fire control suites."^^xsd:string ;
+    aero:mrlValue 9 ;
+    aero:trlValue 9 .
+
+aero:Company_Airbus_SE a aero:Company,
+        aero:PrimeContractor ;
+    aero:businessNumber "NL811928471B01"^^xsd:string ;
+    aero:cageCode "F0259"^^xsd:string ;
+    aero:controlledGoodsRegistered true ;
+    aero:hasCapability aero:Cap_Airbus_SE_1,
+        aero:Cap_Airbus_SE_2 ;
+    aero:hasDirectSupplier aero:Company_Diehl_Defence_GmbH_Co_KG ;
+    aero:headquartersCity "Toulouse"^^xsd:string ;
+    aero:headquartersCountry "FRA"^^xsd:string ;
+    aero:headquartersProvince "Occitanie"^^xsd:string ;
+    aero:holdsCertification aero:Cert_AS9100D,
+        aero:Cert_FacilitySecurity_TopSecret,
+        aero:Cert_ISO9001,
+        aero:Cert_NATO_AQAP2110 ;
+    aero:itarCompliant true ;
+    aero:legalName "Airbus SE"^^xsd:string ;
+    aero:manufacturesProduct aero:Product_Airbus_SE_A400M_Atlas_Military_Transport,
+        aero:Product_Airbus_SE_Eurostar_Neo_Telecommunications_Satellite ;
+    aero:operatesInDomain aero:AirPlatform,
+        aero:DomainDefence,
+        aero:DomainSpace,
+        aero:SpacePlatform ;
+    aero:providesService aero:Service_Airbus_SE_Composite_Aerostructure_Ultrasonic_C_Scan_Inspection,
+        aero:Service_Airbus_SE_Military_Aircraft_Fleet_In_Service_Support_and_Maintenance,
+        aero:Service_Airbus_SE_Multi_Domain_Combat_Cloud_Secure_Datalink_Integration,
+        aero:Service_Airbus_SE_Spacecraft_Cleanroom_Payload_Integration_and_Launch_Campaign_Support,
+        aero:Service_Airbus_SE_Worldwide_Military_Airlifter_Spares_Pooling_Logistics ;
+    aero:tradeName "Airbus Defence and Space"^^xsd:string ;
+    aero:website "https://www.airbus.com/en/defence"^^xsd:anyURI .
+
+aero:Company_Diehl_Defence_GmbH_Co_KG a aero:Company,
+        aero:Tier1Supplier ;
+    aero:businessNumber "DE146781928"^^xsd:string ;
+    aero:cageCode "C1864"^^xsd:string ;
+    aero:controlledGoodsRegistered true ;
+    aero:hasCapability aero:Cap_Diehl_Defence_GmbH_Co_KG_1 ;
+    aero:headquartersCity "Überlingen"^^xsd:string ;
+    aero:headquartersCountry "DEU"^^xsd:string ;
+    aero:headquartersProvince "Baden-Württemberg"^^xsd:string ;
+    aero:holdsCertification aero:Cert_EN9100,
+        aero:Cert_ISO9001,
+        aero:Cert_NATO_AQAP2110 ;
+    aero:itarCompliant true ;
+    aero:legalName "Diehl Defence GmbH & Co. KG"^^xsd:string ;
+    aero:manufacturesProduct aero:Product_Diehl_Defence_GmbH_Co_KG_IRIS_T_SLM_Medium_Range_Surface_to_Air_Missile_Interceptor ;
+    aero:operatesInDomain aero:AirPlatform,
+        aero:DomainDefence,
+        aero:LandPlatform ;
+    aero:providesService aero:Service_Diehl_Defence_GmbH_Co_KG_Ground_Based_Air_Defence_Tactical_Interoperability_Test_Qualification ;
+    aero:suppliesTo aero:Company_Airbus_SE ;
+    aero:tradeName "Diehl Defence"^^xsd:string ;
+    aero:website "https://www.diehl.com/defence"^^xsd:anyURI .
+
 aero:Product_Airbus_SE_A400M_Atlas_Military_Transport a aero:Product ;
     rdfs:label "A400M Atlas Military Transport"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_CarbonFiber_Composite,
@@ -303,6 +535,44 @@ aero:Product_Dassault_Aviation_SA_Rafale_F4_Omnirole_Fighter a aero:Product ;
     aero:partNumber "PN-FRA-DAS-RAF04"^^xsd:string ;
     aero:productDescription "Multi-role combat fighter equipped with RBE2 AESA radar, Talios targeting pod, and Meteor missile integration."^^xsd:string .
 
+aero:Product_Diehl_Defence_GmbH_Co_KG_IRIS_T_SLM_Medium_Range_Surface_to_Air_Missile_Interceptor a aero:Product ;
+    rdfs:label "IRIS-T SLM Medium-Range Surface-to-Air Missile Interceptor"^^xsd:string ;
+    aero:dependsOnMaterial aero:Material_Titanium_Ti6Al4V ;
+    aero:deployedOnPlatform aero:Platform_AirDefenceSystem ;
+    aero:fscCode "1410"^^xsd:string ;
+    aero:nsnCode "1410-12-384-9011"^^xsd:string ;
+    aero:partNumber "PN-DEU-DHL-IRIST"^^xsd:string ;
+    aero:productDescription "High-agility air-defense missile featuring thrust-vector control and imaging infrared homing with extreme resistance to electronic countermeasures."^^xsd:string .
+
+aero:Product_Fincantieri_SpA_FREMM_European_Multi_Mission_Frigate_ASW_Combat_Hull_Section a aero:Product ;
+    rdfs:label "FREMM European Multi-Mission Frigate ASW Combat Hull Section"^^xsd:string ;
+    aero:dependsOnMaterial aero:Material_HY80_HY100_HighStrengthSteel ;
+    aero:deployedOnPlatform aero:Platform_SurfaceCombatant ;
+    aero:fscCode "1905"^^xsd:string ;
+    aero:nsnCode "1905-15-200-8812"^^xsd:string ;
+    aero:partNumber "PN-ITA-FCT-FREMM1"^^xsd:string ;
+    aero:productDescription "Acoustically quieted anti-submarine warfare frigate block module with integrated shock mounts and stern variable depth sonar well."^^xsd:string .
+
+aero:Product_Hensoldt_AG_TRML_4D_Multi_Functional_C_Band_Air_Surveillance_Target_Acquisition_Radar a aero:Product ;
+    rdfs:label "TRML-4D Multi-Functional C-Band Air Surveillance & Target Acquisition Radar"^^xsd:string ;
+    aero:dependsOnMaterial aero:Material_Titanium_Ti6Al4V ;
+    aero:deployedOnPlatform aero:Platform_AirDefenceSystem ;
+    aero:fscCode "5840"^^xsd:string ;
+    aero:nsnCode "5840-12-401-8891"^^xsd:string ;
+    aero:partNumber "PN-DEU-HNS-TRML4D"^^xsd:string ;
+    aero:productDescription "Mobile GaN AESA radar detecting and tracking up to 1,500 airborne targets simultaneously, including cruise missiles and stealth drones."^^xsd:string .
+
+aero:Product_Kongsberg_Gruppen_ASA_Naval_Strike_Missile_NSM_Fifth_Generation_Precision_Cruise_Missile a aero:Product ;
+    rdfs:label "Naval Strike Missile (NSM) Fifth-Generation Precision Cruise Missile"^^xsd:string ;
+    aero:dependsOnMaterial aero:Material_CarbonFiber_Composite,
+        aero:Material_Titanium_Ti6Al4V ;
+    aero:deployedOnPlatform aero:Platform_F35_Lightning_II,
+        aero:Platform_SurfaceCombatant ;
+    aero:fscCode "1410"^^xsd:string ;
+    aero:nsnCode "1410-25-160-5542"^^xsd:string ;
+    aero:partNumber "PN-NOR-KNG-NSM1"^^xsd:string ;
+    aero:productDescription "Long-range stealth anti-ship and precision land-attack missile with autonomous target recognition and high-g endgame maneuvers."^^xsd:string .
+
 aero:Product_Leonardo_SpA_AW101_Multi_Role_Military_Helicopter a aero:Product ;
     rdfs:label "AW101 Multi-Role Military Helicopter"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_CarbonFiber_Composite,
@@ -312,6 +582,33 @@ aero:Product_Leonardo_SpA_AW101_Multi_Role_Military_Helicopter a aero:Product ;
     aero:nsnCode "1520-15-194-1029"^^xsd:string ;
     aero:partNumber "PN-ITA-LEO-AW101"^^xsd:string ;
     aero:productDescription "Three-engine naval and utility transport helicopter with active vibration reduction and anti-submarine warfare suite."^^xsd:string .
+
+aero:Product_Naval_Group_SA_Scorpne_Class_Diesel_Electric_Submarine_Hull_Combat_Module a aero:Product ;
+    rdfs:label "Scorpène-Class Diesel-Electric Submarine Hull & Combat Module"^^xsd:string ;
+    aero:dependsOnMaterial aero:Material_HY80_HY100_HighStrengthSteel ;
+    aero:deployedOnPlatform aero:Platform_Submarine ;
+    aero:fscCode "1905"^^xsd:string ;
+    aero:nsnCode "1905-14-432-1189"^^xsd:string ;
+    aero:partNumber "PN-FRA-NVG-SCP20"^^xsd:string ;
+    aero:productDescription "Ocean-going multi-role stealth submarine featuring integrated tactical combat system, acoustic tile masking, and heavy torpedo launch tubes."^^xsd:string .
+
+aero:Product_Navantia_SA_SME_S_80_Plus_Class_AIP_Submarine_Module_and_Structural_Bulkhead a aero:Product ;
+    rdfs:label "S-80 Plus Class AIP Submarine Module and Structural Bulkhead"^^xsd:string ;
+    aero:dependsOnMaterial aero:Material_HY80_HY100_HighStrengthSteel ;
+    aero:deployedOnPlatform aero:Platform_Submarine ;
+    aero:fscCode "1905"^^xsd:string ;
+    aero:nsnCode "1905-09-112-9904"^^xsd:string ;
+    aero:partNumber "PN-ESP-NAV-S80P"^^xsd:string ;
+    aero:productDescription "Acoustically decoupled submarine pressure section incorporating bio-ethanol fuel cell AIP for extended underwater submerged endurance."^^xsd:string .
+
+aero:Product_Patria_Oyj_Patria_AMV_XP_8x8_Armoured_Modular_Combat_Vehicle_Platform a aero:Product ;
+    rdfs:label "Patria AMV XP 8x8 Armoured Modular Combat Vehicle Platform"^^xsd:string ;
+    aero:dependsOnMaterial aero:Material_ArmourSteel_MIL_A_46100 ;
+    aero:deployedOnPlatform aero:Platform_GroundCombatVehicle ;
+    aero:fscCode "2355"^^xsd:string ;
+    aero:nsnCode "2355-58-001-9214"^^xsd:string ;
+    aero:partNumber "PN-FIN-PAT-AMVXP"^^xsd:string ;
+    aero:productDescription "Battle-tested 8x8 armored combat vehicle featuring high payload capacity, superior amphibious mobility, and STANAG Level 4+ mine/ballistic protection."^^xsd:string .
 
 aero:Product_Rheinmetall_AG_120mm_Smoothbore_L55A1_Tank_Gun a aero:Product ;
     rdfs:label "120mm Smoothbore L55A1 Tank Gun"^^xsd:string ;
@@ -371,6 +668,16 @@ aero:Product_Safran_SA_Sigma_40_Ring_Laser_Gyroscope_Navigation_System a aero:Pr
     aero:nsnCode "5826-14-389-1030"^^xsd:string ;
     aero:partNumber "PN-FRA-SAF-SG40"^^xsd:string ;
     aero:productDescription "High-precision inertial navigation system for naval surface combatants and submarines."^^xsd:string .
+
+aero:Product_Thales_SA_SMART_L_Multi_Mission_Naval_Early_Warning_Radar a aero:Product ;
+    rdfs:label "SMART-L Multi-Mission Naval Early Warning Radar"^^xsd:string ;
+    aero:dependsOnMaterial aero:Material_SingleCrystal_Superalloy,
+        aero:Material_Titanium_Ti6Al4V ;
+    aero:deployedOnPlatform aero:Platform_SurfaceCombatant ;
+    aero:fscCode "5840"^^xsd:string ;
+    aero:nsnCode "5840-14-552-9102"^^xsd:string ;
+    aero:partNumber "PN-FRA-THL-SMARTL"^^xsd:string ;
+    aero:productDescription "D-band active electronically scanned array 3D volume search radar providing ballistic missile and air surveillance up to 2000 km."^^xsd:string .
 
 aero:Service_Airbus_SE_Composite_Aerostructure_Ultrasonic_C_Scan_Inspection a aero:Service,
         aero:TestingQualificationService ;
@@ -452,6 +759,39 @@ aero:Service_Dassault_Aviation_SA_Supersonic_Flight_Test_Engineering_Weapon_Inte
     aero:serviceDescription "Stores separation testing, flight envelope expansion, and electromagnetic compatibility flight characterization."^^xsd:string ;
     aero:supportsPlatform aero:Platform_Dassault_Rafale .
 
+aero:Service_Diehl_Defence_GmbH_Co_KG_Ground_Based_Air_Defence_Tactical_Interoperability_Test_Qualification a aero:Service,
+        aero:TestingQualificationService ;
+    rdfs:label "Ground-Based Air Defence Tactical Interoperability & Test Qualification"^^xsd:string ;
+    aero:serviceAccreditation "NATO AQAP 2110"^^xsd:string ;
+    aero:serviceDescription "Tactical datalink integration (Link 16), live-fire seeker evaluation, and cold-weather missile canister surveillance testing."^^xsd:string ;
+    aero:supportsPlatform aero:Platform_AirDefenceSystem,
+        aero:Platform_GroundCombatVehicle .
+
+aero:Service_Fincantieri_SpA_Drydock_Warship_Modernization_Combat_System_Installation_Sea_Trials a aero:EngineeringService,
+        aero:Service ;
+    rdfs:label "Drydock Warship Modernization, Combat System Installation & Sea Trials"^^xsd:string ;
+    aero:serviceAccreditation "NATO AQAP 2110"^^xsd:string ;
+    aero:serviceDescription "Drydock hull maintenance, shaft alignment, combat sensor mast integration, and acoustic sea acceptance trials."^^xsd:string ;
+    aero:supportsPlatform aero:Platform_Submarine,
+        aero:Platform_SurfaceCombatant .
+
+aero:Service_Hensoldt_AG_Electronic_Warfare_Tactical_Spectrum_Calibration_Sensor_Depot_Support a aero:EngineeringService,
+        aero:Service ;
+    rdfs:label "Electronic Warfare & Tactical Spectrum Calibration & Sensor Depot Support"^^xsd:string ;
+    aero:serviceAccreditation "EN 9100:2018"^^xsd:string ;
+    aero:serviceDescription "Electromagnetic compatibility verification, RF frontend calibration, and mission software threat library loading."^^xsd:string ;
+    aero:supportsPlatform aero:Platform_AirDefenceSystem,
+        aero:Platform_GroundCombatVehicle,
+        aero:Platform_SurfaceCombatant .
+
+aero:Service_Kongsberg_Gruppen_ASA_Remote_Weapon_Station_Overhaul_Naval_Missile_Fire_Control_Integration a aero:MROService,
+        aero:Service ;
+    rdfs:label "Remote Weapon Station Overhaul & Naval Missile Fire Control Integration"^^xsd:string ;
+    aero:serviceAccreditation "ISO 9001:2015"^^xsd:string ;
+    aero:serviceDescription "Depot MRO for Protector RWS turrets, combat system interface bus grooming, and warhead lifecycle certification."^^xsd:string ;
+    aero:supportsPlatform aero:Platform_F35_Lightning_II,
+        aero:Platform_SurfaceCombatant .
+
 aero:Service_Leonardo_SpA_AESA_Radar_RF_Beam_Steering_and_Performance_Calibration a aero:Service,
         aero:TestingQualificationService ;
     rdfs:label "AESA Radar RF Beam Steering and Performance Calibration"^^xsd:string ;
@@ -496,6 +836,30 @@ aero:Service_Leonardo_SpA_Worldwide_Helicopter_Rotable_Exchange_Logistic_Support
     aero:supportsPlatform aero:Platform_Eurofighter_Typhoon,
         aero:Platform_FixedWingCombat,
         aero:Platform_RotaryWing .
+
+aero:Service_Naval_Group_SA_Full_Lifecycle_In_Service_Naval_Submarine_Maintenance_Reactor_Support a aero:MROService,
+        aero:Service ;
+    rdfs:label "Full Lifecycle In-Service Naval Submarine Maintenance & Reactor Support"^^xsd:string ;
+    aero:serviceAccreditation "DGA Approved"^^xsd:string ;
+    aero:serviceDescription "Major drydock periodic overhauls, pressure hull non-destructive testing, and acoustic vibration dampening certification."^^xsd:string ;
+    aero:supportsPlatform aero:Platform_Submarine,
+        aero:Platform_SurfaceCombatant .
+
+aero:Service_Navantia_SA_SME_Integrated_Naval_Platform_Management_System_IPMS_Software_Assurance_Fleet_MRO a aero:EngineeringService,
+        aero:Service ;
+    rdfs:label "Integrated Naval Platform Management System (IPMS) Software Assurance & Fleet MRO"^^xsd:string ;
+    aero:serviceAccreditation "PECAL 2110"^^xsd:string ;
+    aero:serviceDescription "Shipboard cybersecurity auditing, automated platform management software upgrades, and mid-life combatant refits."^^xsd:string ;
+    aero:supportsPlatform aero:Platform_Submarine,
+        aero:Platform_SurfaceCombatant .
+
+aero:Service_Patria_Oyj_Military_Armoured_Vehicle_Depot_Fleet_Life_Extension_Armor_Upgrades a aero:MROService,
+        aero:Service ;
+    rdfs:label "Military Armoured Vehicle Depot Fleet Life Extension & Armor Upgrades"^^xsd:string ;
+    aero:serviceAccreditation "AQAP 2110"^^xsd:string ;
+    aero:serviceDescription "Complete driveline overhaul, modular armor pack retrofitting, and electronic vehicle architecture modernization."^^xsd:string ;
+    aero:supportsPlatform aero:Platform_F35_Lightning_II,
+        aero:Platform_GroundCombatVehicle .
 
 aero:Service_Rheinmetall_AG_Combat_Vehicle_Fleet_Depot_Overhaul_Armor_Upgrades a aero:MROService,
         aero:Service ;
@@ -626,4 +990,13 @@ aero:Service_Safran_SA_Non_Destructive_Testing_Fluorescent_Penetrant_Eddy_Curren
     aero:supportsPlatform aero:Platform_Dassault_Rafale,
         aero:Platform_RotaryWing,
         aero:Platform_TacticalUAS .
+
+aero:Service_Thales_SA_Naval_Radar_System_Lifecycle_Support_Mission_System_Integration a aero:EngineeringService,
+        aero:Service ;
+    rdfs:label "Naval Radar System Lifecycle Support & Mission System Integration"^^xsd:string ;
+    aero:serviceAccreditation "NATO AQAP 2110"^^xsd:string ;
+    aero:serviceDescription "Pier-side combat system grooming, electronic counter-countermeasure updates, and radar transmitter overhaul."^^xsd:string ;
+    aero:supportsPlatform aero:Platform_FixedWingTransport,
+        aero:Platform_Submarine,
+        aero:Platform_SurfaceCombatant .
 

@@ -7,7 +7,6 @@ aero:Company_Dawn_Aerospace_Limited a aero:Company,
     aero:businessNumber "NZ9429046829102"^^xsd:string ;
     aero:cageCode "E0B24"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:dunsNumber "594892018"^^xsd:string ;
     aero:hasCapability aero:Cap_Dawn_Aerospace_Limited_1,
         aero:Cap_Dawn_Aerospace_Limited_2 ;
     aero:headquartersCity "Christchurch"^^xsd:string ;
@@ -35,7 +34,6 @@ aero:Company_Dotterel_Technologies_Limited a aero:Company,
     aero:businessNumber "NZ9429045918274"^^xsd:string ;
     aero:cageCode "E0G84"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:dunsNumber "594869201"^^xsd:string ;
     aero:hasCapability aero:Cap_Dotterel_Technologies_Limited_1 ;
     aero:headquartersCity "Auckland"^^xsd:string ;
     aero:headquartersCountry "NZL"^^xsd:string ;
@@ -59,7 +57,6 @@ aero:Company_Flightcell_International_Limited a aero:Company,
     aero:businessNumber "NZ9429039182741"^^xsd:string ;
     aero:cageCode "E0H96"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:dunsNumber "594879312"^^xsd:string ;
     aero:hasCapability aero:Cap_Flightcell_International_Limited_1 ;
     aero:headquartersCity "Nelson"^^xsd:string ;
     aero:headquartersCountry "NZL"^^xsd:string ;
@@ -84,7 +81,6 @@ aero:Company_Marops_Limited a aero:Company,
     aero:businessNumber "NZ9429034819284"^^xsd:string ;
     aero:cageCode "E0F72"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:dunsNumber "594859102"^^xsd:string ;
     aero:hasCapability aero:Cap_Marops_Limited_1 ;
     aero:headquartersCity "Auckland"^^xsd:string ;
     aero:headquartersCountry "NZL"^^xsd:string ;
@@ -108,7 +104,6 @@ aero:Company_Rakon_Limited a aero:Company,
     aero:businessNumber "NZ9429038291047"^^xsd:string ;
     aero:cageCode "E0D48"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:dunsNumber "594838192"^^xsd:string ;
     aero:hasCapability aero:Cap_Rakon_Limited_1,
         aero:Cap_Rakon_Limited_2 ;
     aero:headquartersCity "Auckland"^^xsd:string ;
@@ -137,7 +132,6 @@ aero:Company_Rocket_Lab_Limited a aero:Company,
     aero:businessNumber "NZ9429031827461"^^xsd:string ;
     aero:cageCode "E0A12"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:dunsNumber "594820194"^^xsd:string ;
     aero:hasCapability aero:Cap_Rocket_Lab_Limited_1,
         aero:Cap_Rocket_Lab_Limited_2,
         aero:Cap_Rocket_Lab_Limited_3 ;
@@ -168,7 +162,6 @@ aero:Company_Tait_International_Limited a aero:Company,
     aero:businessNumber "NZ9429037482910"^^xsd:string ;
     aero:cageCode "E0C36"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:dunsNumber "594812749"^^xsd:string ;
     aero:hasCapability aero:Cap_Tait_International_Limited_1,
         aero:Cap_Tait_International_Limited_2 ;
     aero:headquartersCity "Christchurch"^^xsd:string ;
@@ -196,7 +189,6 @@ aero:Company_Zenith_Tecnica_Limited a aero:Company,
     aero:businessNumber "NZ9429041928471"^^xsd:string ;
     aero:cageCode "E0E60"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:dunsNumber "594849102"^^xsd:string ;
     aero:hasCapability aero:Cap_Zenith_Tecnica_Limited_1,
         aero:Cap_Zenith_Tecnica_Limited_2 ;
     aero:headquartersCity "Auckland"^^xsd:string ;
