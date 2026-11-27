@@ -881,6 +881,1120 @@ class EUHarvester(BaseHarvester):
                         'tier': 'Tier1Supplier',
                         'trade_name': 'Navantia',
                         'website': 'https://www.navantia.es'}
+        ,
+{
+                "legal_name": "MTU Aero Engines AG",
+                "trade_name": "MTU Aero Engines",
+                "cage_code": None,
+                "duns_number": None,
+                "business_number": "DE129273398",
+                "country": "DEU",
+                "city": "Munich",
+                "province": "Bavaria",
+                "website": "https://www.mtu.de",
+                "tier": "Tier1Supplier",
+                "controlled_goods": True,
+                "itar_compliant": True,
+                "certifications": [
+                                "AS9100D",
+                                "ISO9001",
+                                "NATO_AQAP2110",
+                                "FacilitySecurity_TopSecret"
+                ],
+                "domains": [
+                                "AirPlatform",
+                                "DomainDefence"
+                ],
+                "platforms": [
+                                "Platform_Eurofighter_Typhoon",
+                                "Platform_A400M_Atlas"
+                ],
+                "kics": [
+                                "KIC_AerospaceSystems",
+                                "KIC_AdvancedMaterials"
+                ],
+                "supplies_to": [
+                                "Airbus SE",
+                                "Rolls-Royce plc"
+                ],
+                "capabilities": [
+                                {
+                                                "title": "Military Gas Turbine Low-Pressure Turbines & Intermediate Casings",
+                                                "description": "Design and manufacture of single-crystal turbine blades, blisks (bladed disks), and low-pressure turbine modules for Eurofighter EJ200 and TP400-D6 turboprop engines.",
+                                                "trl": 9,
+                                                "mrl": 9,
+                                                "kic": "KIC_AerospaceSystems"
+                                }
+                ],
+                "products": [
+                                {
+                                                "name": "EJ200 Low-Pressure Turbine Module",
+                                                "description": "High-efficiency uncooled low-pressure turbine module engineered with advanced nickel superalloys for the Eurofighter Typhoon powerplant.",
+                                                "part_number": "PN-DEU-MTU-EJLPT",
+                                                "fsc_code": "2840",
+                                                "nsn_code": "2840-12-381-9012",
+                                                "platforms": [
+                                                                "Platform_Eurofighter_Typhoon"
+                                                ],
+                                                "materials": [
+                                                                "Material_SingleCrystal_Superalloy",
+                                                                "Material_Inconel_718"
+                                                ]
+                                }
+                ],
+                "services": [
+                                {
+                                                "name": "Military Aeroengine Depot-Level MRO & Turbine Blisk Re-profiling",
+                                                "description": "Electrochemical machining, laser powder bed additive blade tip repair, and high-speed dynamic balancing.",
+                                                "type": "MROService",
+                                                "accreditation": "EASA Part 145"
+                                }
+                ]
+},
+{
+                "legal_name": "Thyssenkrupp Marine Systems GmbH",
+                "trade_name": "TKMS",
+                "cage_code": None,
+                "duns_number": None,
+                "business_number": "DE242691901",
+                "country": "DEU",
+                "city": "Kiel",
+                "province": "Schleswig-Holstein",
+                "website": "https://www.thyssenkrupp-marinesystems.com",
+                "tier": "Prime",
+                "controlled_goods": True,
+                "itar_compliant": True,
+                "certifications": [
+                                "AS9100D",
+                                "ISO9001",
+                                "NATO_AQAP2110",
+                                "FacilitySecurity_TopSecret"
+                ],
+                "domains": [
+                                "MaritimePlatform",
+                                "DomainDefence"
+                ],
+                "platforms": [
+                                "Platform_Submarine",
+                                "Platform_SurfaceCombatant"
+                ],
+                "kics": [
+                                "KIC_NavalShipbuilding",
+                                "KIC_NavalArchitectureMarineSystems"
+                ],
+                "supplies_to": [
+                                "Kongsberg Gruppen ASA",
+                                "Naval Group SA"
+                ],
+                "capabilities": [
+                                {
+                                                "title": "Air-Independent Propulsion (AIP) Non-Nuclear Submarines & Naval Combatants",
+                                                "description": "World-leading design and construction of fuel-cell AIP conventional submarines (Type 212A / Type 212CD) and stealth surface frigates (MEKO / F125).",
+                                                "trl": 9,
+                                                "mrl": 9,
+                                                "kic": "KIC_NavalShipbuilding"
+                                }
+                ],
+                "products": [
+                                {
+                                                "name": "HDW Fuel Cell Air-Independent Propulsion (AIP) Plant",
+                                                "description": "PEM fuel cell system utilizing metal hydride hydrogen storage and liquid oxygen for weeks of silent submerged patrol.",
+                                                "part_number": "PN-DEU-TKM-AIP01",
+                                                "fsc_code": "2010",
+                                                "nsn_code": "2010-12-884-1192",
+                                                "platforms": [
+                                                                "Platform_Submarine"
+                                                ],
+                                                "materials": [
+                                                                "Material_HY80_HY100_HighStrengthSteel",
+                                                                "Material_Titanium_Ti6Al4V"
+                                                ]
+                                }
+                ],
+                "services": [
+                                {
+                                                "name": "Submarine Non-Magnetic Steel Pressure Hull Overhaul & Battery Recertification",
+                                                "description": "Depot full-cycle docking, austenitic stainless steel acoustic hull repair, and AIP fuel cell stack renewal.",
+                                                "type": "ShipyardMROService",
+                                                "accreditation": "NATO AQAP 2110"
+                                }
+                ]
+},
+{
+                "legal_name": "KNDS Deutschland GmbH & Co. KG",
+                "trade_name": "KNDS Deutschland",
+                "cage_code": None,
+                "duns_number": None,
+                "business_number": "DE129391081",
+                "country": "DEU",
+                "city": "Munich",
+                "province": "Bavaria",
+                "website": "https://www.knds.de",
+                "tier": "Prime",
+                "controlled_goods": True,
+                "itar_compliant": True,
+                "certifications": [
+                                "AS9100D",
+                                "ISO9001",
+                                "NATO_AQAP2110",
+                                "FacilitySecurity_TopSecret"
+                ],
+                "domains": [
+                                "LandPlatform",
+                                "DomainDefence"
+                ],
+                "platforms": [
+                                "Platform_Leopard2_MainBattleTank",
+                                "Platform_ArmouredCombatVehicle"
+                ],
+                "kics": [
+                                "KIC_GroundCombatVehicles",
+                                "KIC_ArmouredVehicles"
+                ],
+                "supplies_to": [
+                                "Rheinmetall AG"
+                ],
+                "capabilities": [
+                                {
+                                                "title": "Heavy Armoured Combat Vehicle Systems & Main Battle Tanks",
+                                                "description": "Prime integration of Leopard 2A7/2A8 main battle tanks, Boxer modular armoured personnel carriers, and automated remote weapon turrets.",
+                                                "trl": 9,
+                                                "mrl": 9,
+                                                "kic": "KIC_GroundCombatVehicles"
+                                }
+                ],
+                "products": [
+                                {
+                                                "name": "Leopard 2A8 Main Battle Tank Armoured Turret Assembly",
+                                                "description": "Multi-layer composite and high-hardness armour turret module integrated with EuroTrophy active protection system and 120mm smoothbore gun mount.",
+                                                "part_number": "PN-DEU-KND-L2A8",
+                                                "fsc_code": "2350",
+                                                "nsn_code": "2350-12-401-2891",
+                                                "platforms": [
+                                                                "Platform_Leopard2_MainBattleTank"
+                                                ],
+                                                "materials": [
+                                                                "Material_ArmourSteel_MIL_A_46100",
+                                                                "Material_Titanium_Ti6Al4V"
+                                                ]
+                                }
+                ],
+                "services": [
+                                {
+                                                "name": "Armoured Vehicle Hull Ballistic Upgrade & Trophy APS Integration",
+                                                "description": "In-theater survivability kit integration, reactive armor recertification, and digital hull vetronics network upgrade.",
+                                                "type": "CombatVehicleMROService",
+                                                "accreditation": "ISO 9001"
+                                }
+                ]
+},
+{
+                "legal_name": "RENK Group AG",
+                "trade_name": "RENK",
+                "cage_code": None,
+                "duns_number": None,
+                "business_number": "DE127491029",
+                "country": "DEU",
+                "city": "Augsburg",
+                "province": "Bavaria",
+                "website": "https://www.renk.com",
+                "tier": "Tier1Supplier",
+                "controlled_goods": True,
+                "itar_compliant": True,
+                "certifications": [
+                                "AS9100D",
+                                "ISO9001",
+                                "NATO_AQAP2110"
+                ],
+                "domains": [
+                                "LandPlatform",
+                                "MaritimePlatform",
+                                "DomainDefence"
+                ],
+                "platforms": [
+                                "Platform_Leopard2_MainBattleTank",
+                                "Platform_SurfaceCombatant"
+                ],
+                "kics": [
+                                "KIC_GroundCombatVehicles",
+                                "KIC_NavalArchitectureMarineSystems"
+                ],
+                "supplies_to": [
+                                "KNDS Deutschland GmbH & Co. KG",
+                                "Rheinmetall AG",
+                                "Thyssenkrupp Marine Systems GmbH"
+                ],
+                "capabilities": [
+                                {
+                                                "title": "Heavy-Duty Tracked Vehicle Transmissions & Naval Gear Systems",
+                                                "description": "Design and manufacture of powershift transmissions with integrated steering and braking systems (HSWL 354) for 70-tonne battle tanks and low-noise naval reduction gearboxes.",
+                                                "trl": 9,
+                                                "mrl": 9,
+                                                "kic": "KIC_GroundCombatVehicles"
+                                }
+                ],
+                "products": [
+                                {
+                                                "name": "HSWL 354 Powershift Transmission System",
+                                                "description": "Full-automatic powershift transmission with hydrodynamic retarder and electro-hydraulic brake system for Leopard 2 chassis.",
+                                                "part_number": "PN-DEU-RNK-354",
+                                                "fsc_code": "2520",
+                                                "nsn_code": "2520-12-192-3811",
+                                                "platforms": [
+                                                                "Platform_Leopard2_MainBattleTank"
+                                                ],
+                                                "materials": [
+                                                                "Material_ArmourSteel_MIL_A_46100",
+                                                                "Material_Aluminium_7075_T6"
+                                                ]
+                                }
+                ],
+                "services": [
+                                {
+                                                "name": "Military Drivetrain Dynamometer Testing & Full Depot Rebuild",
+                                                "description": "High-torque automated dynamometer load-profiling, hydraulic valve block overhaul, and planetary gear set rejuvenation.",
+                                                "type": "TransmissionOverhaulService",
+                                                "accreditation": "NATO AQAP 2110"
+                                }
+                ]
+},
+{
+                "legal_name": "Rohde & Schwarz GmbH & Co. KG",
+                "trade_name": "Rohde & Schwarz",
+                "cage_code": None,
+                "duns_number": None,
+                "business_number": "DE129721448",
+                "country": "DEU",
+                "city": "Munich",
+                "province": "Bavaria",
+                "website": "https://www.rohde-schwarz.com",
+                "tier": "Tier1Supplier",
+                "controlled_goods": True,
+                "itar_compliant": True,
+                "certifications": [
+                                "AS9100D",
+                                "ISO9001",
+                                "NATO_AQAP2110",
+                                "FacilitySecurity_TopSecret"
+                ],
+                "domains": [
+                                "AirPlatform",
+                                "MaritimePlatform",
+                                "LandPlatform",
+                                "DomainDefence"
+                ],
+                "platforms": [
+                                "Platform_Eurofighter_Typhoon",
+                                "Platform_SurfaceCombatant"
+                ],
+                "kics": [
+                                "KIC_C4ISRSystems",
+                                "KIC_CyberResilience"
+                ],
+                "supplies_to": [
+                                "Airbus SE",
+                                "Hensoldt AG",
+                                "Thyssenkrupp Marine Systems GmbH"
+                ],
+                "capabilities": [
+                                {
+                                                "title": "Software-Defined Radios (SDR) & Secure Military Tactical Communications",
+                                                "description": "Development of SOVERON digital tactical communications architectures, cryptographic key management, and naval integrated communications systems (NAVICS).",
+                                                "trl": 9,
+                                                "mrl": 9,
+                                                "kic": "KIC_C4ISRSystems"
+                                }
+                ],
+                "products": [
+                                {
+                                                "name": "SOVERON AR5000 Airborne Software-Defined Radio",
+                                                "description": "VHF/UHF wideband secure airborne transceiver with ECCM frequency hopping and SATURN / Have Quick waveform support.",
+                                                "part_number": "PN-DEU-RS-AR5000",
+                                                "fsc_code": "5821",
+                                                "nsn_code": "5821-12-384-9182",
+                                                "platforms": [
+                                                                "Platform_Eurofighter_Typhoon",
+                                                                "Platform_A400M_Atlas"
+                                                ],
+                                                "materials": [
+                                                                "Material_Aluminium_7075_T6"
+                                                ]
+                                }
+                ],
+                "services": [
+                                {
+                                                "name": "Tactical Radio Waveform Cryptographic Hardening & Cyber Vulnerability Audit",
+                                                "description": "Cryptographic algorithm evaluation, frequency-hopping jammer resistance verification, and tactical communications penetration testing.",
+                                                "type": "CyberSecurityService",
+                                                "accreditation": "BSI Certified"
+                                }
+                ]
+},
+{
+                "legal_name": "ArianeGroup SAS",
+                "trade_name": "ArianeGroup",
+                "cage_code": None,
+                "duns_number": None,
+                "business_number": "FR89808389102",
+                "country": "FRA",
+                "city": "Issy-les-Moulineaux",
+                "province": "\u00cele-de-France",
+                "website": "https://www.ariane.group",
+                "tier": "Prime",
+                "controlled_goods": True,
+                "itar_compliant": True,
+                "certifications": [
+                                "AS9100D",
+                                "ISO9001",
+                                "NATO_AQAP2110",
+                                "FacilitySecurity_TopSecret"
+                ],
+                "domains": [
+                                "SpacePlatform",
+                                "DomainSpace",
+                                "DomainDefence"
+                ],
+                "platforms": [
+                                "Platform_SpaceLaunchVehicle"
+                ],
+                "kics": [
+                                "KIC_SpaceSystems",
+                                "KIC_Munitions",
+                                "KIC_AdvancedMaterials"
+                ],
+                "supplies_to": [
+                                "Airbus SE",
+                                "Safran SA"
+                ],
+                "capabilities": [
+                                {
+                                                "title": "Cryogenic & Solid Rocket Propulsion Systems (Ariane 6 / M51)",
+                                                "description": "Prime industrial integration of Ariane 6 orbital launch vehicles, Vulcain 2.1 / Vinci cryogenic liquid engines, and solid rocket motors for strategic deterrence.",
+                                                "trl": 9,
+                                                "mrl": 9,
+                                                "kic": "KIC_SpaceSystems"
+                                }
+                ],
+                "products": [
+                                {
+                                                "name": "Vinci Re-ignitable Cryogenic Rocket Engine Upper Stage",
+                                                "description": "Expandable nozzle cryo-engine generating 180 kN of thrust with multiple re-ignition capability for complex orbital satellite deployment.",
+                                                "part_number": "PN-FRA-ARG-VNC01",
+                                                "fsc_code": "1336",
+                                                "nsn_code": "1336-14-551-9012",
+                                                "platforms": [
+                                                                "Platform_SpaceLaunchVehicle"
+                                                ],
+                                                "materials": [
+                                                                "Material_Inconel_718",
+                                                                "Material_CarbonFiber_Composite"
+                                                ]
+                                }
+                ],
+                "services": [
+                                {
+                                                "name": "Space Launch Vehicle Pyrotechnic Stage Separation & Hot-Fire Testing",
+                                                "description": "Vacuum altitude simulation hot-fire propulsion testing, acoustic vibration resonance assessment, and pyrotechnic separation bolt testing.",
+                                                "type": "PropulsionTestingService",
+                                                "accreditation": "ESA / CNES Certified"
+                                }
+                ]
+},
+{
+                "legal_name": "Lat\u00e9co\u00e8re SA",
+                "trade_name": "Lat\u00e9co\u00e8re",
+                "cage_code": None,
+                "duns_number": None,
+                "business_number": "FR34572049182",
+                "country": "FRA",
+                "city": "Toulouse",
+                "province": "Occitanie",
+                "website": "https://www.latecoere.aero",
+                "tier": "Tier1Supplier",
+                "controlled_goods": True,
+                "itar_compliant": True,
+                "certifications": [
+                                "AS9100D",
+                                "ISO9001",
+                                "FacilitySecurity_Secret"
+                ],
+                "domains": [
+                                "AirPlatform",
+                                "DomainDefence"
+                ],
+                "platforms": [
+                                "Platform_Dassault_Rafale",
+                                "Platform_A400M_Atlas",
+                                "Platform_F35_Lightning_II"
+                ],
+                "kics": [
+                                "KIC_AerospaceSystems",
+                                "KIC_AdvancedMaterials"
+                ],
+                "supplies_to": [
+                                "Dassault Aviation SA",
+                                "Airbus SE",
+                                "Boeing Company"
+                ],
+                "capabilities": [
+                                {
+                                                "title": "Aerostructures Aircraft Doors & Electrical Wiring Interconnection Systems (EWIS)",
+                                                "description": "Design and manufacture of complex metallic/composite aircraft doors and military harness interconnection packages for tactical airlifters and fighters.",
+                                                "trl": 9,
+                                                "mrl": 9,
+                                                "kic": "KIC_AerospaceSystems"
+                                }
+                ],
+                "products": [
+                                {
+                                                "name": "Rafale Combat Aircraft Main Landing Gear Door Assembly",
+                                                "description": "High-stiffness carbon-fiber composite landing gear door assembly engineered to withstand Mach 1.8 aerodynamic buffet pressures.",
+                                                "part_number": "PN-FRA-LAT-RF01",
+                                                "fsc_code": "1560",
+                                                "nsn_code": "1560-14-412-8821",
+                                                "platforms": [
+                                                                "Platform_Dassault_Rafale"
+                                                ],
+                                                "materials": [
+                                                                "Material_CarbonFiber_Composite",
+                                                                "Material_Titanium_Ti6Al4V"
+                                                ]
+                                }
+                ],
+                "services": [
+                                {
+                                                "name": "Composite Aerostructure Ultrasonic C-Scan NDT & Structural Door Rig Testing",
+                                                "description": "Automated multi-axis phased array ultrasonic testing, moisture ingress evaluation, and cycle fatigue door hinge testing.",
+                                                "type": "NDTService",
+                                                "accreditation": "NADCAP Composites"
+                                }
+                ]
+},
+{
+                "legal_name": "Exail Technologies SAS",
+                "trade_name": "Exail",
+                "cage_code": None,
+                "duns_number": None,
+                "business_number": "FR55552084192",
+                "country": "FRA",
+                "city": "Saint-Germain-en-Laye",
+                "province": "\u00cele-de-France",
+                "website": "https://www.exail.com",
+                "tier": "Tier1Supplier",
+                "controlled_goods": True,
+                "itar_compliant": True,
+                "certifications": [
+                                "AS9100D",
+                                "ISO9001",
+                                "NATO_AQAP2110",
+                                "FacilitySecurity_TopSecret"
+                ],
+                "domains": [
+                                "MaritimePlatform",
+                                "LandPlatform",
+                                "DomainDefence"
+                ],
+                "platforms": [
+                                "Platform_Submarine",
+                                "Platform_SurfaceCombatant"
+                ],
+                "kics": [
+                                "KIC_SensorsSonar",
+                                "KIC_AIAutonomousSystems",
+                                "KIC_NavalArchitectureMarineSystems"
+                ],
+                "supplies_to": [
+                                "Naval Group SA",
+                                "Thales SA"
+                ],
+                "capabilities": [
+                                {
+                                                "title": "Fiber-Optic Gyroscope (FOG) Inertial Navigation & Autonomous Mine Countermeasure Robotics",
+                                                "description": "World-leading sub-nautical-mile/month drift fiber-optic gyro inertial navigation systems (Phins / Marins) and unmanned surface/underwater robotic vehicles (A18-M / UMIS).",
+                                                "trl": 9,
+                                                "mrl": 9,
+                                                "kic": "KIC_SensorsSonar"
+                                }
+                ],
+                "products": [
+                                {
+                                                "name": "Marins M7 High-Accuracy Submarine Inertial Navigation System",
+                                                "description": "Military-grade optical fiber gyro INS delivering GPS-denied navigation precision for nuclear and conventional attack submarines.",
+                                                "part_number": "PN-FRA-EXL-M701",
+                                                "fsc_code": "6605",
+                                                "nsn_code": "6605-14-592-3109",
+                                                "platforms": [
+                                                                "Platform_Submarine",
+                                                                "Platform_SurfaceCombatant"
+                                                ],
+                                                "materials": [
+                                                                "Material_Titanium_Ti6Al4V",
+                                                                "Material_Beryllium_Optical"
+                                                ]
+                                }
+                ],
+                "services": [
+                                {
+                                                "name": "Subsea Acoustic Positioning Calibration & Autonomous Vehicle Navigation Tuning",
+                                                "description": "High-depth pressure tank sensor qualification, long-baseline (LBL) transponder calibration, and autonomous obstacle-avoidance firmware validation.",
+                                                "type": "HydrographicService",
+                                                "accreditation": "ISO 9001"
+                                }
+                ]
+},
+{
+                "legal_name": "Sogeclair SA",
+                "trade_name": "Sogeclair",
+                "cage_code": None,
+                "duns_number": None,
+                "business_number": "FR48384210981",
+                "country": "FRA",
+                "city": "Blagnac",
+                "province": "Occitanie",
+                "website": "https://www.sogeclair.com",
+                "tier": "Tier2Supplier",
+                "controlled_goods": True,
+                "itar_compliant": True,
+                "certifications": [
+                                "AS9100D",
+                                "ISO9001"
+                ],
+                "domains": [
+                                "AirPlatform",
+                                "LandPlatform",
+                                "DomainDefence"
+                ],
+                "platforms": [
+                                "Platform_Dassault_Rafale",
+                                "Platform_ArmouredCombatVehicle"
+                ],
+                "kics": [
+                                "KIC_AerospaceSystems",
+                                "KIC_TrainingSimulation"
+                ],
+                "supplies_to": [
+                                "Airbus SE",
+                                "Dassault Aviation SA",
+                                "Thales SA"
+                ],
+                "capabilities": [
+                                {
+                                                "title": "High-Fidelity Virtual Simulation & Tactical Vehicle Cabin Engineering",
+                                                "description": "Specialized simulation software architectures, structural finite element modeling (FEM), and blast-attenuating military vehicle cab systems.",
+                                                "trl": 8,
+                                                "mrl": 8,
+                                                "kic": "KIC_TrainingSimulation"
+                                }
+                ],
+                "products": [
+                                {
+                                                "name": "Tactical Vehicle Driver Interactive Simulation Cabin",
+                                                "description": "Full-motion multi-axis physical vehicle driver training simulator cab with realistic synthetic terrain visual projection.",
+                                                "part_number": "PN-FRA-SOG-SIM01",
+                                                "fsc_code": "6930",
+                                                "nsn_code": "6930-14-338-9128",
+                                                "platforms": [
+                                                                "Platform_ArmouredCombatVehicle"
+                                                ],
+                                                "materials": [
+                                                                "Material_Aluminium_7075_T6"
+                                                ]
+                                }
+                ],
+                "services": [
+                                {
+                                                "name": "Aerospace Finite Element Stress Analysis & Crashworthiness Modeling",
+                                                "description": "Non-linear dynamic crash simulation, cockpit bird strike analysis, and fatigue life assessment of airframe bulkheads.",
+                                                "type": "EngineeringSimulationService",
+                                                "accreditation": "ISO 9001"
+                                }
+                ]
+},
+{
+                "legal_name": "Nexter Systems SA",
+                "trade_name": "KNDS France",
+                "cage_code": None,
+                "duns_number": None,
+                "business_number": "FR70444901928",
+                "country": "FRA",
+                "city": "Versailles",
+                "province": "\u00cele-de-France",
+                "website": "https://www.knds.fr",
+                "tier": "Prime",
+                "controlled_goods": True,
+                "itar_compliant": True,
+                "certifications": [
+                                "AS9100D",
+                                "ISO9001",
+                                "NATO_AQAP2110",
+                                "FacilitySecurity_TopSecret"
+                ],
+                "domains": [
+                                "LandPlatform",
+                                "DomainDefence"
+                ],
+                "platforms": [
+                                "Platform_GroundCombatVehicle",
+                                "Platform_ArmouredCombatVehicle"
+                ],
+                "kics": [
+                                "KIC_GroundCombatVehicles",
+                                "KIC_Munitions",
+                                "KIC_ArmouredVehicles"
+                ],
+                "supplies_to": [
+                                "KNDS Deutschland GmbH & Co. KG",
+                                "Thales SA"
+                ],
+                "capabilities": [
+                                {
+                                                "title": "Truck-Mounted Artillery Systems (CAESAR) & Medium Armoured Combat Vehicles",
+                                                "description": "Prime development of 155mm 52-caliber CAESAR self-propelled artillery systems, VBCI 8x8 infantry fighting vehicles, and high-precision extended-range munitions (KATANA).",
+                                                "trl": 9,
+                                                "mrl": 9,
+                                                "kic": "KIC_GroundCombatVehicles"
+                                }
+                ],
+                "products": [
+                                {
+                                                "name": "CAESAR 155mm 52-Caliber Artillery Gun System",
+                                                "description": "Highly mobile truck-mounted artillery system firing 6 rounds per minute at ranges exceeding 40km with autonomous navigation.",
+                                                "part_number": "PN-FRA-NXT-CSR52",
+                                                "fsc_code": "1025",
+                                                "nsn_code": "1025-14-558-4019",
+                                                "platforms": [
+                                                                "Platform_GroundCombatVehicle"
+                                                ],
+                                                "materials": [
+                                                                "Material_ArmourSteel_MIL_A_46100",
+                                                                "Material_Titanium_Ti6Al4V"
+                                                ]
+                                }
+                ],
+                "services": [
+                                {
+                                                "name": "Artillery Barrel Autofrettage & Gun Tube Erosion Inspection",
+                                                "description": "Hydraulic high-pressure autofrettage processing, laser bore profilometry, and erosion life modeling for tank and artillery tubes.",
+                                                "type": "ArtilleryOverhaulService",
+                                                "accreditation": "NATO AQAP 2110"
+                                }
+                ]
+},
+{
+                "legal_name": "Avio Aero",
+                "trade_name": "GE Avio S.r.l.",
+                "cage_code": None,
+                "duns_number": None,
+                "business_number": "IT02598120014",
+                "country": "ITA",
+                "city": "Rivalta di Torino",
+                "province": "Piedmont",
+                "website": "https://www.avioaero.com",
+                "tier": "Tier1Supplier",
+                "controlled_goods": True,
+                "itar_compliant": True,
+                "certifications": [
+                                "AS9100D",
+                                "ISO9001",
+                                "NATO_AQAP2110",
+                                "FacilitySecurity_TopSecret"
+                ],
+                "domains": [
+                                "AirPlatform",
+                                "DomainDefence"
+                ],
+                "platforms": [
+                                "Platform_Eurofighter_Typhoon",
+                                "Platform_RotaryWing"
+                ],
+                "kics": [
+                                "KIC_AerospaceSystems",
+                                "KIC_AdvancedMaterials"
+                ],
+                "supplies_to": [
+                                "Leonardo S.p.A.",
+                                "MTU Aero Engines AG",
+                                "Safran SA"
+                ],
+                "capabilities": [
+                                {
+                                                "title": "Aeroengine Power Transmissions, Accessory Gearboxes & Electron Beam Melting (EBM) Additive",
+                                                "description": "High-speed transmission systems for military turbofans and turboshafts, additive manufacturing of titanium aluminide (TiAl) low-pressure turbine blades.",
+                                                "trl": 9,
+                                                "mrl": 9,
+                                                "kic": "KIC_AerospaceSystems"
+                                }
+                ],
+                "products": [
+                                {
+                                                "name": "EJ200 Accessory Drive Gearbox (ADGB)",
+                                                "description": "Cast magnesium alloy high-power accessory gearbox transmitting auxiliary drive to hydraulic pumps and generators for Eurofighter Typhoon.",
+                                                "part_number": "PN-ITA-AVI-ADGB",
+                                                "fsc_code": "2840",
+                                                "nsn_code": "2840-15-441-9011",
+                                                "platforms": [
+                                                                "Platform_Eurofighter_Typhoon"
+                                                ],
+                                                "materials": [
+                                                                "Material_Titanium_Ti6Al4V",
+                                                                "Material_Aluminium_7075_T6"
+                                                ]
+                                }
+                ],
+                "services": [
+                                {
+                                                "name": "Additive Titanium Aluminide EBM Melting & Metallurgical Fatigue Testing",
+                                                "description": "Electron beam powder bed additive manufacturing, hot isostatic pressing (HIP) density validation, and high-cycle blade fatigue testing.",
+                                                "type": "AdditiveManufacturingService",
+                                                "accreditation": "NADCAP Additive"
+                                }
+                ]
+},
+{
+                "legal_name": "Elettronica S.p.A.",
+                "trade_name": "ELT Group",
+                "cage_code": None,
+                "duns_number": None,
+                "business_number": "IT00428910582",
+                "country": "ITA",
+                "city": "Rome",
+                "province": "Lazio",
+                "website": "https://www.elt-roma.com",
+                "tier": "Tier1Supplier",
+                "controlled_goods": True,
+                "itar_compliant": True,
+                "certifications": [
+                                "AS9100D",
+                                "ISO9001",
+                                "NATO_AQAP2110",
+                                "FacilitySecurity_TopSecret"
+                ],
+                "domains": [
+                                "AirPlatform",
+                                "MaritimePlatform",
+                                "DomainDefence"
+                ],
+                "platforms": [
+                                "Platform_Eurofighter_Typhoon",
+                                "Platform_SurfaceCombatant"
+                ],
+                "kics": [
+                                "KIC_SensorsSonar",
+                                "KIC_CyberResilience",
+                                "KIC_DefenceSystemsIntegration"
+                ],
+                "supplies_to": [
+                                "Leonardo S.p.A.",
+                                "Airbus SE"
+                ],
+                "capabilities": [
+                                {
+                                                "title": "Airborne & Naval Electronic Warfare (EW) Suites and Directional Infrared Countermeasures (DIRCM)",
+                                                "description": "Self-protection suites (Praetorian DASS for Typhoon), wideband digital radar warning receivers, and multi-band electronic attack jammers.",
+                                                "trl": 9,
+                                                "mrl": 9,
+                                                "kic": "KIC_SensorsSonar"
+                                }
+                ],
+                "products": [
+                                {
+                                                "name": "Praetorian Defensive Aids Sub-System (DASS) Wingtip EW Pod",
+                                                "description": "Wingtip-mounted wideband digital radar warner and cross-eye electronic countermeasure pod for Eurofighter air dominance.",
+                                                "part_number": "PN-ITA-ELT-PRT01",
+                                                "fsc_code": "5865",
+                                                "nsn_code": "5865-15-881-3092",
+                                                "platforms": [
+                                                                "Platform_Eurofighter_Typhoon"
+                                                ],
+                                                "materials": [
+                                                                "Material_CarbonFiber_Composite",
+                                                                "Material_GalliumNitride_GaN"
+                                                ]
+                                }
+                ],
+                "services": [
+                                {
+                                                "name": "Electronic Warfare Threat Library Generation & Anechoic Chamber Testing",
+                                                "description": "Radar emitter pulse train simulation, automated jammer response latency verification, and full-scale anechoic RF chamber characterization.",
+                                                "type": "EWTestingService",
+                                                "accreditation": "NATO Secret"
+                                }
+                ]
+},
+{
+                "legal_name": "Nammo AS",
+                "trade_name": "Nammo",
+                "cage_code": None,
+                "duns_number": None,
+                "business_number": "NO980192841",
+                "country": "NOR",
+                "city": "Raufoss",
+                "province": "Innlandet",
+                "website": "https://www.nammo.com",
+                "tier": "Tier1Supplier",
+                "controlled_goods": True,
+                "itar_compliant": True,
+                "certifications": [
+                                "AS9100D",
+                                "ISO9001",
+                                "NATO_AQAP2110",
+                                "FacilitySecurity_TopSecret"
+                ],
+                "domains": [
+                                "LandPlatform",
+                                "AirPlatform",
+                                "DomainDefence"
+                ],
+                "platforms": [
+                                "Platform_F35_Lightning_II",
+                                "Platform_GroundCombatVehicle"
+                ],
+                "kics": [
+                                "KIC_Munitions",
+                                "KIC_AdvancedMaterials"
+                ],
+                "supplies_to": [
+                                "Diehl Defence GmbH & Co. KG",
+                                "Kongsberg Gruppen ASA",
+                                "Raytheon Company"
+                ],
+                "capabilities": [
+                                {
+                                                "title": "Specialized Military Energetics, Missile Rocket Motors & Insensitive Munitions",
+                                                "description": "Design and manufacture of 25mm APEX ammunition for F-35, solid rocket booster motors for AMRAAM / IRIS-T, and ramjet missile propulsion.",
+                                                "trl": 9,
+                                                "mrl": 9,
+                                                "kic": "KIC_Munitions"
+                                }
+                ],
+                "products": [
+                                {
+                                                "name": "25mm APEX Multi-Purpose Armor-Piercing High-Explosive Round",
+                                                "description": "Semi-armor-piercing high-explosive round engineered for F-35 GAU-22/A cannon to defeat armored targets and bunker structures.",
+                                                "part_number": "PN-NOR-NAM-APX25",
+                                                "fsc_code": "1305",
+                                                "nsn_code": "1305-25-112-9981",
+                                                "platforms": [
+                                                                "Platform_F35_Lightning_II"
+                                                ],
+                                                "materials": [
+                                                                "Material_Tungsten_HeavyAlloy",
+                                                                "Material_ArmourSteel_MIL_A_46100"
+                                                ]
+                                }
+                ],
+                "services": [
+                                {
+                                                "name": "Insensitive Munitions Fast-Cookoff & Bullet Impact Proof Testing",
+                                                "description": "STANAG 4439 thermal cookoff testing, sympathetic detonation range verification, and ballistic gelatin penetration evaluation.",
+                                                "type": "BallisticsTestingService",
+                                                "accreditation": "NATO AQAP 2110"
+                                }
+                ]
+},
+{
+                "legal_name": "GKN Aerospace Sweden AB",
+                "trade_name": "GKN Aerospace Sweden",
+                "cage_code": None,
+                "duns_number": None,
+                "business_number": "SE556024982101",
+                "country": "SWE",
+                "city": "Trollh\u00e4ttan",
+                "province": "V\u00e4stra G\u00f6taland",
+                "website": "https://www.gknaerospace.com",
+                "tier": "Tier1Supplier",
+                "controlled_goods": True,
+                "itar_compliant": True,
+                "certifications": [
+                                "AS9100D",
+                                "ISO9001",
+                                "NATO_AQAP2110",
+                                "FacilitySecurity_TopSecret"
+                ],
+                "domains": [
+                                "AirPlatform",
+                                "DomainDefence"
+                ],
+                "platforms": [
+                                "Platform_Saab_Gripen_E"
+                ],
+                "kics": [
+                                "KIC_AerospaceSystems",
+                                "KIC_AdvancedMaterials"
+                ],
+                "supplies_to": [
+                                "Saab AB",
+                                "Rolls-Royce plc"
+                ],
+                "capabilities": [
+                                {
+                                                "title": "Gripen RM12 / RM16 Military Aeroengine Prime Manufacturing & Nozzle Integration",
+                                                "description": "Design and manufacture of convergent-divergent supersonic exhaust nozzles, turbine exhaust casings, and combustor structures for JAS 39 Gripen fighters.",
+                                                "trl": 9,
+                                                "mrl": 9,
+                                                "kic": "KIC_AerospaceSystems"
+                                }
+                ],
+                "products": [
+                                {
+                                                "name": "RM12 / RM16 Supersonic Variable-Area Exhaust Nozzle",
+                                                "description": "Multi-flap titanium and superalloy afterburning exhaust nozzle with hydraulic actuator synchronization for Gripen combat aircraft.",
+                                                "part_number": "PN-SWE-GKN-RMNOZ",
+                                                "fsc_code": "2840",
+                                                "nsn_code": "2840-25-881-2091",
+                                                "platforms": [
+                                                                "Platform_Saab_Gripen_E"
+                                                ],
+                                                "materials": [
+                                                                "Material_Titanium_Ti6Al4V",
+                                                                "Material_Inconel_718"
+                                                ]
+                                }
+                ],
+                "services": [
+                                {
+                                                "name": "Fighter Engine Sea-Level Test Cell Operation & Hot Gas Overhaul",
+                                                "description": "Full-afterburner thrust calibration, laser holographic blade vibration inspection, and thermal barrier coating restoration.",
+                                                "type": "EngineMROService",
+                                                "accreditation": "SWEDAC / EASA"
+                                }
+                ]
+},
+{
+                "legal_name": "Fokker Aerostructures BV",
+                "trade_name": "GKN Aerospace Netherlands",
+                "cage_code": None,
+                "duns_number": None,
+                "business_number": "NL803921841B01",
+                "country": "NLD",
+                "city": "Papendrecht",
+                "province": "South Holland",
+                "website": "https://www.gknaerospace.com",
+                "tier": "Tier1Supplier",
+                "controlled_goods": True,
+                "itar_compliant": True,
+                "certifications": [
+                                "AS9100D",
+                                "ISO9001",
+                                "FacilitySecurity_TopSecret"
+                ],
+                "domains": [
+                                "AirPlatform",
+                                "DomainDefence"
+                ],
+                "platforms": [
+                                "Platform_F35_Lightning_II"
+                ],
+                "kics": [
+                                "KIC_AerospaceSystems",
+                                "KIC_AdvancedMaterials"
+                ],
+                "supplies_to": [
+                                "Lockheed Martin Corporation",
+                                "Airbus SE"
+                ],
+                "capabilities": [
+                                {
+                                                "title": "Thermoplastic Composite Aerostructures & F-35 Flaperon Manufacturing",
+                                                "description": "Pioneering high-rate thermoplastic composite induction welding and automated tape laying for F-35 flaperons, in-flight refuelling doors, and engine arrestor hooks.",
+                                                "trl": 9,
+                                                "mrl": 9,
+                                                "kic": "KIC_AerospaceSystems"
+                                }
+                ],
+                "products": [
+                                {
+                                                "name": "F-35 Lightning II Carbon Composite Flaperon Control Surface",
+                                                "description": "Molded thermoplastic carbon-fiber flight control surface engineered to sustain extreme supersonic acoustic flutter.",
+                                                "part_number": "PN-NLD-FOK-F35FLP",
+                                                "fsc_code": "1560",
+                                                "nsn_code": "1560-17-119-4821",
+                                                "platforms": [
+                                                                "Platform_F35_Lightning_II"
+                                                ],
+                                                "materials": [
+                                                                "Material_CarbonFiber_Composite",
+                                                                "Material_Titanium_Ti6Al4V"
+                                                ]
+                                }
+                ],
+                "services": [
+                                {
+                                                "name": "Thermoplastic In-Situ Consolidation NDT & Bond Line Ultrasonic Inspection",
+                                                "description": "Laser shearography delamination detection, robotic water-coupled ultrasonic inspection, and high-energy impact damage repair.",
+                                                "type": "AdvancedCompositeNDTService",
+                                                "accreditation": "NADCAP Composites"
+                                }
+                ]
+},
+{
+                "legal_name": "Damen Schelde Naval Shipbuilding B.V.",
+                "trade_name": "Damen Naval",
+                "cage_code": None,
+                "duns_number": None,
+                "business_number": "NL001092841B01",
+                "country": "NLD",
+                "city": "Vlissingen",
+                "province": "Zeeland",
+                "website": "https://www.damen.com/naval",
+                "tier": "Prime",
+                "controlled_goods": True,
+                "itar_compliant": True,
+                "certifications": [
+                                "AS9100D",
+                                "ISO9001",
+                                "NATO_AQAP2110",
+                                "FacilitySecurity_TopSecret"
+                ],
+                "domains": [
+                                "MaritimePlatform",
+                                "DomainDefence"
+                ],
+                "platforms": [
+                                "Platform_SurfaceCombatant"
+                ],
+                "kics": [
+                                "KIC_NavalShipbuilding",
+                                "KIC_NavalArchitectureMarineSystems"
+                ],
+                "supplies_to": [
+                                "Thyssenkrupp Marine Systems GmbH",
+                                "Thales SA"
+                ],
+                "capabilities": [
+                                {
+                                                "title": "Multi-Purpose Frigate (F126) & Combatant Modular Naval Shipbuilding",
+                                                "description": "Design and construction of advanced modular anti-submarine warfare frigates, SIGMA-class corvettes, and Enforcer-class joint support ships.",
+                                                "trl": 9,
+                                                "mrl": 9,
+                                                "kic": "KIC_NavalShipbuilding"
+                                }
+                ],
+                "products": [
+                                {
+                                                "name": "F126 Frigate Pre-Outfitted Modular Hull Block Assembly",
+                                                "description": "Shock-hardened, low-radar-cross-section steel hull section pre-fitted with acoustic vibration damping mounts for frigate integration.",
+                                                "part_number": "PN-NLD-DMN-F126B",
+                                                "fsc_code": "1905",
+                                                "nsn_code": "1905-17-901-4412",
+                                                "platforms": [
+                                                                "Platform_SurfaceCombatant"
+                                                ],
+                                                "materials": [
+                                                                "Material_HY80_HY100_HighStrengthSteel",
+                                                                "Material_ArmourSteel_MIL_A_46100"
+                                                ]
+                                }
+                ],
+                "services": [
+                                {
+                                                "name": "Warship Underwater Acoustic Radiated Noise (URN) Measurement & Signature Quieting",
+                                                "description": "Full-scale sea-range hydrophone acoustic signature logging, cavitation baseline tracking, and structural resonant vibration suppression.",
+                                                "type": "AcousticRangeService",
+                                                "accreditation": "NATO AQAP 2110"
+                                }
+                ]
+}
         ]
 
     def harvest(self, limit: Optional[int] = None) -> List[Dict[str, Any]]:

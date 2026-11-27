@@ -625,6 +625,204 @@ class NewZealandHarvester(BaseHarvester):
                     },
                 ],
             },
+            {
+                "legal_name": "Kea Aerospace Limited",
+                "trade_name": "Kea Aerospace",
+                "cage_code": None,
+                "duns_number": None,
+                "business_number": "NZ9429048192841",
+                "country": "NZL",
+                "city": "Christchurch",
+                "province": "Canterbury",
+                "website": "https://www.keaaerospace.com",
+                "tier": "Tier2Supplier",
+                "controlled_goods": True,
+                "itar_compliant": True,
+                "certifications": [
+                                "AS9100D",
+                                "ISO9001"
+                ],
+                "domains": [
+                                "AirPlatform",
+                                "DomainDefence"
+                ],
+                "platforms": [
+                                "Platform_TacticalUAS"
+                ],
+                "kics": [
+                                "KIC_RemotelyPilotedSystems",
+                                "KIC_SensorsSonar",
+                                "KIC_AdvancedMaterials"
+                ],
+                "supplies_to": [
+                                "Dawn Aerospace Limited",
+                                "Airbus SE"
+                ],
+                "capabilities": [
+                                {
+                                                "title": "Stratospheric High-Altitude Pseudo-Satellite (HAPS) Solar UAS",
+                                                "description": "Design and flight testing of ultra-lightweight solar-powered stratospheric aircraft (Kea Atmos) operating at 65,000 feet for persistent maritime surveillance and communication relay.",
+                                                "trl": 8,
+                                                "mrl": 7,
+                                                "kic": "KIC_RemotelyPilotedSystems"
+                                }
+                ],
+                "products": [
+                                {
+                                                "name": "Kea Atmos Solar Stratospheric Surveillance Aircraft",
+                                                "description": "32-meter wingspan carbon-fiber solar electric HAPS aircraft carrying EO/IR and radar payloads for months of continuous persistent patrol.",
+                                                "part_number": "PN-NZL-KEA-ATMOS",
+                                                "fsc_code": "1550",
+                                                "nsn_code": "1550-98-319-4012",
+                                                "platforms": [
+                                                                "Platform_TacticalUAS"
+                                                ],
+                                                "materials": [
+                                                                "Material_CarbonFiber_Composite",
+                                                                "Material_SiliconCarbide_SiC"
+                                                ]
+                                }
+                ],
+                "services": [
+                                {
+                                                "name": "High-Altitude Flight Telemetry Monitoring & Persistent Sensor Data Downlink",
+                                                "description": "Stratospheric weather routing simulation, beyond-visual-line-of-sight (BVLOS) flight management, and real-time sensor intelligence streaming.",
+                                                "type": "FlightOperationsService",
+                                                "accreditation": "CAA NZ Part 102"
+                                }
+                ]
+},
+{
+                "legal_name": "Syos Aerospace Limited",
+                "trade_name": "Syos Aerospace",
+                "cage_code": None,
+                "duns_number": None,
+                "business_number": "NZ9429049182741",
+                "country": "NZL",
+                "city": "Auckland",
+                "province": "Auckland",
+                "website": "https://www.syos.aero",
+                "tier": "Tier2Supplier",
+                "controlled_goods": True,
+                "itar_compliant": True,
+                "certifications": [
+                                "AS9100D",
+                                "ISO9001"
+                ],
+                "domains": [
+                                "AirPlatform",
+                                "DomainDefence"
+                ],
+                "platforms": [
+                                "Platform_TacticalUAS"
+                ],
+                "kics": [
+                                "KIC_RemotelyPilotedSystems",
+                                "KIC_AIAutonomousSystems"
+                ],
+                "supplies_to": [
+                                "Rocket Lab Limited",
+                                "Tait International Limited"
+                ],
+                "capabilities": [
+                                {
+                                                "title": "Heavy-Lift Autonomous Tactical Cargo UAS & Unmanned Aerial Systems",
+                                                "description": "Hybrid heavy-lift tactical logistics drones, obstacle-avoidance AI flight computers, and autonomous contested-environment cargo delivery systems.",
+                                                "trl": 8,
+                                                "mrl": 7,
+                                                "kic": "KIC_RemotelyPilotedSystems"
+                                }
+                ],
+                "products": [
+                                {
+                                                "name": "Syos Heavy-Lift Tactical VTOL Logistics Drone",
+                                                "description": "Hybrid-electric vertical take-off and landing tactical cargo UAV capable of lifting 100kg payloads across 200km combat radius.",
+                                                "part_number": "PN-NZL-SYO-HL100",
+                                                "fsc_code": "1550",
+                                                "nsn_code": "1550-98-881-2099",
+                                                "platforms": [
+                                                                "Platform_TacticalUAS"
+                                                ],
+                                                "materials": [
+                                                                "Material_CarbonFiber_Composite",
+                                                                "Material_Aluminium_7075_T6"
+                                                ]
+                                }
+                ],
+                "services": [
+                                {
+                                                "name": "Tactical Drone Contested Logistics Field Testing & Autopilot Flight Profiling",
+                                                "description": "GPS-denied visual-inertial odometry testing, acoustic quietness assessment, and autonomous field delivery validation.",
+                                                "type": "DroneFieldTestingService",
+                                                "accreditation": "ISO 9001"
+                                }
+                ]
+},
+{
+                "legal_name": "Aeronavics Limited",
+                "trade_name": "Aeronavics",
+                "cage_code": None,
+                "duns_number": None,
+                "business_number": "NZ9429030819284",
+                "country": "NZL",
+                "city": "Raglan",
+                "province": "Waikato",
+                "website": "https://www.aeronavics.com",
+                "tier": "Tier2Supplier",
+                "controlled_goods": True,
+                "itar_compliant": True,
+                "certifications": [
+                                "AS9100D",
+                                "ISO9001"
+                ],
+                "domains": [
+                                "AirPlatform",
+                                "DomainDefence"
+                ],
+                "platforms": [
+                                "Platform_TacticalUAS"
+                ],
+                "kics": [
+                                "KIC_RemotelyPilotedSystems",
+                                "KIC_AdvancedMaterials"
+                ],
+                "supplies_to": [
+                                "Marops Limited",
+                                "Tait International Limited"
+                ],
+                "capabilities": [
+                                {
+                                                "title": "Industrial-Grade Carbon-Fiber Tactical Multirotor Airframes & Payloads",
+                                                "description": "Precision manufacturing of weather-sealed carbon composite airframes for military perimeter patrol, sensor carriage, and tactical aerial mapping.",
+                                                "trl": 9,
+                                                "mrl": 9,
+                                                "kic": "KIC_RemotelyPilotedSystems"
+                                }
+                ],
+                "products": [
+                                {
+                                                "name": "Aeronavics Navi Heavy-Duty Tactical Multirotor Aircraft",
+                                                "description": "IP65 weather-sealed carbon-composite multirotor drone engineered for operation in heavy rain and 35-knot gale winds.",
+                                                "part_number": "PN-NZL-AER-NV01",
+                                                "fsc_code": "1550",
+                                                "nsn_code": "1550-98-771-3091",
+                                                "platforms": [
+                                                                "Platform_TacticalUAS"
+                                                ],
+                                                "materials": [
+                                                                "Material_CarbonFiber_Composite"
+                                                ]
+                                }
+                ],
+                "services": [
+                                {
+                                                "name": "Carbon Composite Drone Airframe Destructive Drop Testing & Environmental Ingress Certification",
+                                                "description": "Water ingress testing, salt fog corrosion exposure, and carbon-fiber arm dynamic stress test verification.",
+                                                "type": "EnvironmentalTestingService",
+                                                "accreditation": "ISO 9001"
+                                }
+                ]
+}
         ]
 
     def harvest(self, limit: Optional[int] = None) -> List[Dict[str, Any]]:

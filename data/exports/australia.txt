@@ -102,34 +102,6 @@ aero:Company_DroneShield a aero:Company,
     aero:tradeName "DroneShield"^^xsd:string ;
     aero:website "https://www.droneshield.com"^^xsd:anyURI .
 
-aero:Company_Electro_Optic_Systems a aero:Company,
-        aero:PrimeContractor ;
-    aero:businessNumber "AU720928172"^^xsd:string ;
-    aero:controlledGoodsRegistered true ;
-    aero:hasCapability aero:Cap_Electro_Optic_Systems_1,
-        aero:Cap_Electro_Optic_Systems_2 ;
-    aero:headquartersCity "Symonston"^^xsd:string ;
-    aero:headquartersCountry "AUS"^^xsd:string ;
-    aero:headquartersProvince "ACT"^^xsd:string ;
-    aero:holdsCertification aero:Cert_AS9100D,
-        aero:Cert_DISP_Level3,
-        aero:Cert_FacilitySecurity_Secret,
-        aero:Cert_ISO9001 ;
-    aero:itarCompliant true ;
-    aero:legalName "Electro Optic Systems Pty Ltd"^^xsd:string ;
-    aero:manufacturesProduct aero:Product_Electro_Optic_Systems_R800_Heavy_Remote_Weapon_Station,
-        aero:Product_Electro_Optic_Systems_Titanis_Counter_UAS_Laser_Weapon_System ;
-    aero:operatesInDomain aero:DomainDefence,
-        aero:LandPlatform,
-        aero:SpacePlatform ;
-    aero:providesService aero:Service_Electro_Optic_Systems_Combat_Vehicle_Turret_Integration_and_Weapon_Harmonization,
-        aero:Service_Electro_Optic_Systems_Defence_Weapon_Station_Operator_Maintenance_Training,
-        aero:Service_Electro_Optic_Systems_RWS_Gyro_Stabilization_Dynamic_Shake_Table_Qualification,
-        aero:Service_Electro_Optic_Systems_Remote_Weapon_Station_Depot_Overhaul_Fire_Control_Recalibration,
-        aero:Service_Electro_Optic_Systems_Space_Situational_Awareness_Orbital_Telemetry_Services ;
-    aero:tradeName "EOS Defence Systems"^^xsd:string ;
-    aero:website "https://www.eos-aus.com"^^xsd:anyURI .
-
 aero:Company_Marand_Precision_Engineering a aero:Company,
         aero:Tier2Supplier ;
     aero:businessNumber "AU290046128"^^xsd:string ;
@@ -150,26 +122,6 @@ aero:Company_Marand_Precision_Engineering a aero:Company,
     aero:providesService aero:Service_Marand_Precision_Engineering_Aerospace_Tooling_Design_Calibration_Precision_Mechanical_CMM_Inspection ;
     aero:tradeName "Marand"^^xsd:string ;
     aero:website "https://www.marand.com.au"^^xsd:anyURI .
-
-aero:Company_NIOA_Group a aero:Company,
-        aero:Tier1Supplier ;
-    aero:businessNumber "AU380928412"^^xsd:string ;
-    aero:controlledGoodsRegistered true ;
-    aero:hasCapability aero:Cap_NIOA_Group_1 ;
-    aero:headquartersCity "Brisbane"^^xsd:string ;
-    aero:headquartersCountry "AUS"^^xsd:string ;
-    aero:headquartersProvince "QLD"^^xsd:string ;
-    aero:holdsCertification aero:Cert_DISP_Level3,
-        aero:Cert_ISO9001,
-        aero:Cert_NATO_AQAP2110 ;
-    aero:itarCompliant true ;
-    aero:legalName "NIOA Group Pty Ltd"^^xsd:string ;
-    aero:manufacturesProduct aero:Product_NIOA_Group_155mm_Assegai_Artillery_Projectiles_and_High_Explosive_Forgings ;
-    aero:operatesInDomain aero:DomainDefence,
-        aero:LandPlatform ;
-    aero:providesService aero:Service_NIOA_Group_Munitions_Proofing_Ballistic_Range_Testing_Demilitarization_Services ;
-    aero:tradeName "NIOA"^^xsd:string ;
-    aero:website "https://www.nioa.com.au"^^xsd:anyURI .
 
 aero:Company_Thomas_Global_Systems a aero:Company,
         aero:Tier1Supplier ;
@@ -255,6 +207,13 @@ aero:Cap_CEA_Technologies_2 a aero:Capability ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
+aero:Cap_DefendTex_1 a aero:Capability ;
+    rdfs:label "Loitering Munition Drone Systems & Advanced Energetic Nanomaterials"^^xsd:string ;
+    aero:alignedWithKIC aero:KIC_Munitions ;
+    aero:capabilityDescription "Design and manufacture of 40mm tube-launched Drone-40 loitering munitions, counter-defilade kinetic warheads, and swarm logic algorithms."^^xsd:string ;
+    aero:mrlValue 8 ;
+    aero:trlValue 8 .
+
 aero:Cap_DroneShield_1 a aero:Capability ;
     rdfs:label "Artificial Intelligence RF Counter-Drone Signal Classification"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_AIAutonomousSystems ;
@@ -294,6 +253,27 @@ aero:Cap_Ferra_Engineering_2 a aero:Capability ;
     rdfs:label "Electro-Mechanical Weapon Bay Actuation Subassemblies"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_AerospaceSystems ;
     aero:capabilityDescription "Turnkey assembly and functional testing of internal weapon bay door drive mechanisms and bomb rack adapters."^^xsd:string ;
+    aero:mrlValue 9 ;
+    aero:trlValue 9 .
+
+aero:Cap_GH_Varley_1 a aero:Capability ;
+    rdfs:label "Ruggedized Deployable Military Shelters & Missile Ground Support Equipment"^^xsd:string ;
+    aero:alignedWithKIC aero:KIC_GroundCombatVehicles ;
+    aero:capabilityDescription "Turnkey engineering of ISO tactical communications shelters, radar transport trailers, and missile canister mechanical transporters."^^xsd:string ;
+    aero:mrlValue 9 ;
+    aero:trlValue 9 .
+
+aero:Cap_Gilmour_Space_Technologies_1 a aero:Capability ;
+    rdfs:label "Hybrid Rocket Propulsion & Sovereign Orbital Launch Vehicle (Eris)"^^xsd:string ;
+    aero:alignedWithKIC aero:KIC_SpaceSystems ;
+    aero:capabilityDescription "Indigenous development of proprietary hybrid rocket propulsion systems, composite propellant tanks, and dedicated orbital satellite launch capability."^^xsd:string ;
+    aero:mrlValue 7 ;
+    aero:trlValue 8 .
+
+aero:Cap_Lovitt_Technologies_Australia_1 a aero:Capability ;
+    rdfs:label "Precision 5-Axis Heavy Titanium & Superalloy CNC Machining"^^xsd:string ;
+    aero:alignedWithKIC aero:KIC_AerospaceSystems ;
+    aero:capabilityDescription "Complex machining of structural F-35 airframe titanium components, engine mounts, and pylon attach fittings from solid monolithic billets."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
@@ -337,6 +317,11 @@ aero:Company_BAE_Systems_plc a aero:Company ;
     aero:headquartersCountry "GBR"^^xsd:string ;
     aero:legalName "BAE Systems plc"^^xsd:string .
 
+aero:Company_Boeing_Company a aero:Company ;
+    aero:hasDirectSupplier aero:Company_Lovitt_Technologies_Australia ;
+    aero:headquartersCountry "USA"^^xsd:string ;
+    aero:legalName "The Boeing Company"^^xsd:string .
+
 aero:Company_CEA_Technologies a aero:Company,
         aero:PrimeContractor ;
     aero:businessNumber "AU990086452"^^xsd:string ;
@@ -368,34 +353,31 @@ aero:Company_CEA_Technologies a aero:Company,
     aero:tradeName "CEA Technologies"^^xsd:string ;
     aero:website "https://www.cea.com.au"^^xsd:anyURI .
 
-aero:Company_Ferra_Engineering a aero:Company,
+aero:Company_NIOA_Group a aero:Company,
         aero:Tier1Supplier ;
-    aero:businessNumber "AU340081928"^^xsd:string ;
+    aero:businessNumber "AU380928412"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:hasCapability aero:Cap_Ferra_Engineering_1,
-        aero:Cap_Ferra_Engineering_2 ;
-    aero:headquartersCity "Tingalpa"^^xsd:string ;
+    aero:hasCapability aero:Cap_NIOA_Group_1 ;
+    aero:hasDirectSupplier aero:Company_DefendTex ;
+    aero:headquartersCity "Brisbane"^^xsd:string ;
     aero:headquartersCountry "AUS"^^xsd:string ;
     aero:headquartersProvince "QLD"^^xsd:string ;
-    aero:holdsCertification aero:Cert_AS9100D,
-        aero:Cert_DISP_Level2,
-        aero:Cert_FacilitySecurity_Secret,
+    aero:holdsCertification aero:Cert_DISP_Level3,
         aero:Cert_ISO9001,
-        aero:Cert_NADCAP_Chemical ;
+        aero:Cert_NATO_AQAP2110 ;
     aero:itarCompliant true ;
-    aero:legalName "Ferra Engineering Pty Ltd"^^xsd:string ;
-    aero:manufacturesProduct aero:Product_Ferra_Engineering_Boeing_P_8_Poseidon_Titanium_Wing_Fittings,
-        aero:Product_Ferra_Engineering_F_35_Weapons_Bay_Mechanical_Actuation_Mechanisms ;
-    aero:operatesInDomain aero:AirPlatform,
-        aero:DomainDefence ;
-    aero:providesService aero:Service_Ferra_Engineering_Aerospace_Subassembly_Hydraulic_Load_Proof_Testing,
-        aero:Service_Ferra_Engineering_Fluorescent_Penetrant_and_Magnetic_Particle_Inspection_NDT,
-        aero:Service_Ferra_Engineering_Precision_Titanium_Bushing_Bearings_Installation_and_Re_work,
-        aero:Service_Ferra_Engineering_Surface_Finishing_Anodizing_Chemical_Passivation,
-        aero:Service_Ferra_Engineering_Vendor_Managed_Inventory_VMI_Spares_Provisioning ;
-    aero:suppliesTo aero:Company_BAE_Systems_Australia ;
-    aero:tradeName "Ferra Aerospace"^^xsd:string ;
-    aero:website "https://www.ferra-group.com"^^xsd:anyURI .
+    aero:legalName "NIOA Group Pty Ltd"^^xsd:string ;
+    aero:manufacturesProduct aero:Product_NIOA_Group_155mm_Assegai_Artillery_Projectiles_and_High_Explosive_Forgings ;
+    aero:operatesInDomain aero:DomainDefence,
+        aero:LandPlatform ;
+    aero:providesService aero:Service_NIOA_Group_Munitions_Proofing_Ballistic_Range_Testing_Demilitarization_Services ;
+    aero:tradeName "NIOA"^^xsd:string ;
+    aero:website "https://www.nioa.com.au"^^xsd:anyURI .
+
+aero:Company_Raytheon_Company a aero:Company ;
+    aero:hasDirectSupplier aero:Company_GH_Varley ;
+    aero:headquartersCountry "USA"^^xsd:string ;
+    aero:legalName "Raytheon Company"^^xsd:string .
 
 aero:Product_ASC_Collins_Class_Submarine_Life_Extension_Modules a aero:Product ;
     rdfs:label "Collins-Class Submarine Life Extension Modules"^^xsd:string ;
@@ -473,6 +455,16 @@ aero:Product_CEA_Technologies_CEAMOUNT_Continuous_Wave_Illuminator a aero:Produc
     aero:partNumber "PN-AUS-CEA-CMT01"^^xsd:string ;
     aero:productDescription "Active phased array continuous wave radar illuminator for semi-active missile guidance."^^xsd:string .
 
+aero:Product_DefendTex_Drone_40_Tube_Launched_Tactical_Loitering_Munition a aero:Product ;
+    rdfs:label "Drone-40 Tube-Launched Tactical Loitering Munition"^^xsd:string ;
+    aero:dependsOnMaterial aero:Material_Aluminium_7075_T6,
+        aero:Material_CarbonFiber_Composite ;
+    aero:deployedOnPlatform aero:Platform_TacticalUAS ;
+    aero:fscCode "1330"^^xsd:string ;
+    aero:nsnCode "1330-66-881-2099"^^xsd:string ;
+    aero:partNumber "PN-AUS-DFX-D40"^^xsd:string ;
+    aero:productDescription "40mm grenade launcher deployed reconnaissance and anti-armor loitering munition with 45-minute flight endurance."^^xsd:string .
+
 aero:Product_DroneShield_DroneGun_Mk4_Handheld_Counter_UAS_Neutralizer a aero:Product ;
     rdfs:label "DroneGun Mk4 Handheld Counter-UAS Neutralizer"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_AluminiumLithium_2055,
@@ -528,6 +520,35 @@ aero:Product_Ferra_Engineering_F_35_Weapons_Bay_Mechanical_Actuation_Mechanisms 
     aero:nsnCode "1560-66-528-9102"^^xsd:string ;
     aero:partNumber "PN-AUS-FRA-WB01"^^xsd:string ;
     aero:productDescription "Titanium machined internal weapon bay door pivot fittings and actuation linkages."^^xsd:string .
+
+aero:Product_GH_Varley_Tactical_Expandable_Command_Control_C2_Container_Shelter a aero:Product ;
+    rdfs:label "Tactical Expandable Command & Control (C2) Container Shelter"^^xsd:string ;
+    aero:dependsOnMaterial aero:Material_Aluminium_7075_T6 ;
+    aero:deployedOnPlatform aero:Platform_ArmouredCombatVehicle,
+        aero:Platform_GroundCombatVehicle ;
+    aero:fscCode "5411"^^xsd:string ;
+    aero:nsnCode "5411-66-419-8812"^^xsd:string ;
+    aero:partNumber "PN-AUS-VRL-C2S20"^^xsd:string ;
+    aero:productDescription "EMI-shielded ISO 20-foot expandable shelter with integrated environmental control and power conditioning for field tactical operations."^^xsd:string .
+
+aero:Product_Gilmour_Space_Technologies_Sirius_Hybrid_Rocket_Motor_Propulsion_Unit a aero:Product ;
+    rdfs:label "Sirius Hybrid Rocket Motor Propulsion Unit"^^xsd:string ;
+    aero:dependsOnMaterial aero:Material_CarbonFiber_Composite,
+        aero:Material_Inconel_718 ;
+    aero:deployedOnPlatform aero:Platform_SpaceLaunchVehicle ;
+    aero:fscCode "1336"^^xsd:string ;
+    aero:nsnCode "1336-66-992-1029"^^xsd:string ;
+    aero:partNumber "PN-AUS-GLM-SRS01"^^xsd:string ;
+    aero:productDescription "Single-burn proprietary polymer-solid fuel and liquid oxygen hybrid rocket motor generating 115 kN thrust."^^xsd:string .
+
+aero:Product_Lovitt_Technologies_Australia_F_35_Engine_Mount_Tension_Link_Structural_Fitting a aero:Product ;
+    rdfs:label "F-35 Engine Mount Tension Link Structural Fitting"^^xsd:string ;
+    aero:dependsOnMaterial aero:Material_Titanium_Ti6Al4V ;
+    aero:deployedOnPlatform aero:Platform_F35_Lightning_II ;
+    aero:fscCode "1560"^^xsd:string ;
+    aero:nsnCode "1560-66-812-4019"^^xsd:string ;
+    aero:partNumber "PN-AUS-LVT-F35ML"^^xsd:string ;
+    aero:productDescription "Monolithic 5-axis machined titanium Ti-6Al-4V tension link supporting F135 turbofan engine loads."^^xsd:string .
 
 aero:Product_Marand_Precision_Engineering_F_35_Lightning_II_Engine_Removal_and_Installation_Trailer_ERIT a aero:Product ;
     rdfs:label "F-35 Lightning II Engine Removal and Installation Trailer (ER&IT)"^^xsd:string ;
@@ -750,6 +771,13 @@ aero:Service_CEA_Technologies_Royal_Australian_Navy_Operational_Radar_Technical_
         aero:Platform_HunterClass_Frigate,
         aero:Platform_SurfaceCombatant .
 
+aero:Service_DefendTex_Autonomous_Drone_Swarm_Flight_Path_Simulation_Target_Tracking_Verification a aero:DroneSafetyService,
+        aero:Service ;
+    rdfs:label "Autonomous Drone Swarm Flight Path Simulation & Target Tracking Verification"^^xsd:string ;
+    aero:serviceAccreditation "CASA / ADF Approved"^^xsd:string ;
+    aero:serviceDescription "Hardware-in-the-loop swarm coordinate navigation testing and warhead safe-and-arm electronic qualification."^^xsd:string ;
+    aero:supportsPlatform aero:Platform_TacticalUAS .
+
 aero:Service_DroneShield_C_UAS_Hardware_Depot_Servicing_and_Antenna_Tuning a aero:MROService,
         aero:Service ;
     rdfs:label "C-UAS Hardware Depot Servicing and Antenna Tuning"^^xsd:string ;
@@ -885,6 +913,29 @@ aero:Service_Ferra_Engineering_Vendor_Managed_Inventory_VMI_Spares_Provisioning 
         aero:Platform_FixedWingCombat,
         aero:Platform_P8_Poseidon .
 
+aero:Service_GH_Varley_Shelter_High_Attenuation_RF_Shielding_Certification_Climatic_Chamber_Testing a aero:Service,
+        aero:ShelterTestingService ;
+    rdfs:label "Shelter High-Attenuation RF Shielding Certification & Climatic Chamber Testing"^^xsd:string ;
+    aero:serviceAccreditation "ISO 9001"^^xsd:string ;
+    aero:serviceDescription "Mil-Std-188-125 EMP attenuation verification, rain intrusion testing, and extreme desert/arctic environmental conditioning."^^xsd:string ;
+    aero:supportsPlatform aero:Platform_ArmouredCombatVehicle,
+        aero:Platform_GroundCombatVehicle .
+
+aero:Service_Gilmour_Space_Technologies_Static_Rocket_Motor_Test_Stand_Firing_High_Altitude_Flight_Operations a aero:LaunchRangeService,
+        aero:Service ;
+    rdfs:label "Static Rocket Motor Test Stand Firing & High-Altitude Flight Operations"^^xsd:string ;
+    aero:serviceAccreditation "ASA Launch Permit"^^xsd:string ;
+    aero:serviceDescription "Multi-channel load cell thrust logging, chamber pressure telemetry analysis, and orbital trajectory range safety support."^^xsd:string ;
+    aero:supportsPlatform aero:Platform_SpaceLaunchVehicle .
+
+aero:Service_Lovitt_Technologies_Australia_High_Speed_Titanium_Monolithic_CMM_Metrology_Fluorescent_Penetrant_Inspection a aero:PrecisionInspectionService,
+        aero:Service ;
+    rdfs:label "High-Speed Titanium Monolithic CMM Metrology & Fluorescent Penetrant Inspection"^^xsd:string ;
+    aero:serviceAccreditation "NADCAP NDT"^^xsd:string ;
+    aero:serviceDescription "Sub-micron laser scanning CMM verification, dye penetrant surface flaw detection, and surface shot-peening recertification."^^xsd:string ;
+    aero:supportsPlatform aero:Platform_F35_Lightning_II,
+        aero:Platform_FA18_SuperHornet .
+
 aero:Service_Marand_Precision_Engineering_Aerospace_Tooling_Design_Calibration_Precision_Mechanical_CMM_Inspection a aero:EngineeringService,
         aero:Service ;
     rdfs:label "Aerospace Tooling Design, Calibration & Precision Mechanical CMM Inspection"^^xsd:string ;
@@ -952,6 +1003,117 @@ aero:Service_Thomas_Global_Systems_Avionics_Depot_Level_Repair_Obsolescence_Mana
     aero:supportsPlatform aero:Platform_FixedWingTransport,
         aero:Platform_GroundCombatVehicle .
 
+aero:Company_DefendTex a aero:Company,
+        aero:Tier2Supplier ;
+    aero:businessNumber "AU59169284102"^^xsd:string ;
+    aero:controlledGoodsRegistered true ;
+    aero:hasCapability aero:Cap_DefendTex_1 ;
+    aero:headquartersCity "Melbourne"^^xsd:string ;
+    aero:headquartersCountry "AUS"^^xsd:string ;
+    aero:headquartersProvince "VIC"^^xsd:string ;
+    aero:holdsCertification aero:Cert_AS9100D,
+        aero:Cert_DISP_Level3,
+        aero:Cert_ISO9001 ;
+    aero:itarCompliant true ;
+    aero:legalName "DefendTex Pty Ltd"^^xsd:string ;
+    aero:manufacturesProduct aero:Product_DefendTex_Drone_40_Tube_Launched_Tactical_Loitering_Munition ;
+    aero:operatesInDomain aero:DomainDefence,
+        aero:LandPlatform ;
+    aero:providesService aero:Service_DefendTex_Autonomous_Drone_Swarm_Flight_Path_Simulation_Target_Tracking_Verification ;
+    aero:suppliesTo aero:Company_Electro_Optic_Systems,
+        aero:Company_NIOA_Group ;
+    aero:tradeName "DefendTex"^^xsd:string ;
+    aero:website "https://www.defendtex.com"^^xsd:anyURI .
+
+aero:Company_Electro_Optic_Systems a aero:Company,
+        aero:PrimeContractor ;
+    aero:businessNumber "AU720928172"^^xsd:string ;
+    aero:controlledGoodsRegistered true ;
+    aero:hasCapability aero:Cap_Electro_Optic_Systems_1,
+        aero:Cap_Electro_Optic_Systems_2 ;
+    aero:hasDirectSupplier aero:Company_DefendTex,
+        aero:Company_Gilmour_Space_Technologies ;
+    aero:headquartersCity "Symonston"^^xsd:string ;
+    aero:headquartersCountry "AUS"^^xsd:string ;
+    aero:headquartersProvince "ACT"^^xsd:string ;
+    aero:holdsCertification aero:Cert_AS9100D,
+        aero:Cert_DISP_Level3,
+        aero:Cert_FacilitySecurity_Secret,
+        aero:Cert_ISO9001 ;
+    aero:itarCompliant true ;
+    aero:legalName "Electro Optic Systems Pty Ltd"^^xsd:string ;
+    aero:manufacturesProduct aero:Product_Electro_Optic_Systems_R800_Heavy_Remote_Weapon_Station,
+        aero:Product_Electro_Optic_Systems_Titanis_Counter_UAS_Laser_Weapon_System ;
+    aero:operatesInDomain aero:DomainDefence,
+        aero:LandPlatform,
+        aero:SpacePlatform ;
+    aero:providesService aero:Service_Electro_Optic_Systems_Combat_Vehicle_Turret_Integration_and_Weapon_Harmonization,
+        aero:Service_Electro_Optic_Systems_Defence_Weapon_Station_Operator_Maintenance_Training,
+        aero:Service_Electro_Optic_Systems_RWS_Gyro_Stabilization_Dynamic_Shake_Table_Qualification,
+        aero:Service_Electro_Optic_Systems_Remote_Weapon_Station_Depot_Overhaul_Fire_Control_Recalibration,
+        aero:Service_Electro_Optic_Systems_Space_Situational_Awareness_Orbital_Telemetry_Services ;
+    aero:tradeName "EOS Defence Systems"^^xsd:string ;
+    aero:website "https://www.eos-aus.com"^^xsd:anyURI .
+
+aero:Company_Ferra_Engineering a aero:Company,
+        aero:Tier1Supplier ;
+    aero:businessNumber "AU340081928"^^xsd:string ;
+    aero:controlledGoodsRegistered true ;
+    aero:hasCapability aero:Cap_Ferra_Engineering_1,
+        aero:Cap_Ferra_Engineering_2 ;
+    aero:hasDirectSupplier aero:Company_Lovitt_Technologies_Australia ;
+    aero:headquartersCity "Tingalpa"^^xsd:string ;
+    aero:headquartersCountry "AUS"^^xsd:string ;
+    aero:headquartersProvince "QLD"^^xsd:string ;
+    aero:holdsCertification aero:Cert_AS9100D,
+        aero:Cert_DISP_Level2,
+        aero:Cert_FacilitySecurity_Secret,
+        aero:Cert_ISO9001,
+        aero:Cert_NADCAP_Chemical ;
+    aero:itarCompliant true ;
+    aero:legalName "Ferra Engineering Pty Ltd"^^xsd:string ;
+    aero:manufacturesProduct aero:Product_Ferra_Engineering_Boeing_P_8_Poseidon_Titanium_Wing_Fittings,
+        aero:Product_Ferra_Engineering_F_35_Weapons_Bay_Mechanical_Actuation_Mechanisms ;
+    aero:operatesInDomain aero:AirPlatform,
+        aero:DomainDefence ;
+    aero:providesService aero:Service_Ferra_Engineering_Aerospace_Subassembly_Hydraulic_Load_Proof_Testing,
+        aero:Service_Ferra_Engineering_Fluorescent_Penetrant_and_Magnetic_Particle_Inspection_NDT,
+        aero:Service_Ferra_Engineering_Precision_Titanium_Bushing_Bearings_Installation_and_Re_work,
+        aero:Service_Ferra_Engineering_Surface_Finishing_Anodizing_Chemical_Passivation,
+        aero:Service_Ferra_Engineering_Vendor_Managed_Inventory_VMI_Spares_Provisioning ;
+    aero:suppliesTo aero:Company_BAE_Systems_Australia ;
+    aero:tradeName "Ferra Aerospace"^^xsd:string ;
+    aero:website "https://www.ferra-group.com"^^xsd:anyURI .
+
+aero:Company_Gilmour_Space_Technologies a aero:Company,
+        aero:PrimeContractor ;
+    aero:businessNumber "AU48602918274"^^xsd:string ;
+    aero:controlledGoodsRegistered true ;
+    aero:hasCapability aero:Cap_Gilmour_Space_Technologies_1 ;
+    aero:headquartersCity "Helensvale"^^xsd:string ;
+    aero:headquartersCountry "AUS"^^xsd:string ;
+    aero:headquartersProvince "QLD"^^xsd:string ;
+    aero:holdsCertification aero:Cert_AS9100D,
+        aero:Cert_DISP_Level2,
+        aero:Cert_ISO9001 ;
+    aero:itarCompliant true ;
+    aero:legalName "Gilmour Space Technologies Pty Ltd"^^xsd:string ;
+    aero:manufacturesProduct aero:Product_Gilmour_Space_Technologies_Sirius_Hybrid_Rocket_Motor_Propulsion_Unit ;
+    aero:operatesInDomain aero:DomainDefence,
+        aero:DomainSpace,
+        aero:SpacePlatform ;
+    aero:providesService aero:Service_Gilmour_Space_Technologies_Static_Rocket_Motor_Test_Stand_Firing_High_Altitude_Flight_Operations ;
+    aero:suppliesTo aero:Company_BAE_Systems_Australia,
+        aero:Company_Electro_Optic_Systems ;
+    aero:tradeName "Gilmour Space"^^xsd:string ;
+    aero:website "https://www.gspacetech.com"^^xsd:anyURI .
+
+aero:Company_Lockheed_Martin_Corporation a aero:Company ;
+    aero:hasDirectSupplier aero:Company_GH_Varley,
+        aero:Company_Lovitt_Technologies_Australia ;
+    aero:headquartersCountry "USA"^^xsd:string ;
+    aero:legalName "Lockheed Martin Corporation"^^xsd:string .
+
 aero:Company_Quickstep a aero:Company,
         aero:Tier1Supplier ;
     aero:businessNumber "AU550962681"^^xsd:string ;
@@ -982,6 +1144,52 @@ aero:Company_Quickstep a aero:Company,
     aero:tradeName "Quickstep Composites"^^xsd:string ;
     aero:website "https://www.quickstep.com.au"^^xsd:anyURI .
 
+aero:Company_GH_Varley a aero:Company,
+        aero:Tier2Supplier ;
+    aero:businessNumber "AU78000008271"^^xsd:string ;
+    aero:controlledGoodsRegistered true ;
+    aero:hasCapability aero:Cap_GH_Varley_1 ;
+    aero:headquartersCity "Tomago"^^xsd:string ;
+    aero:headquartersCountry "AUS"^^xsd:string ;
+    aero:headquartersProvince "NSW"^^xsd:string ;
+    aero:holdsCertification aero:Cert_AS9100D,
+        aero:Cert_DISP_Level3,
+        aero:Cert_ISO9001 ;
+    aero:itarCompliant true ;
+    aero:legalName "G.H. Varley Pty Ltd"^^xsd:string ;
+    aero:manufacturesProduct aero:Product_GH_Varley_Tactical_Expandable_Command_Control_C2_Container_Shelter ;
+    aero:operatesInDomain aero:DomainDefence,
+        aero:LandPlatform ;
+    aero:providesService aero:Service_GH_Varley_Shelter_High_Attenuation_RF_Shielding_Certification_Climatic_Chamber_Testing ;
+    aero:suppliesTo aero:Company_BAE_Systems_Australia,
+        aero:Company_Lockheed_Martin_Corporation,
+        aero:Company_Raytheon_Company ;
+    aero:tradeName "Varley Group"^^xsd:string ;
+    aero:website "https://www.varleygroup.com"^^xsd:anyURI .
+
+aero:Company_Lovitt_Technologies_Australia a aero:Company,
+        aero:Tier2Supplier ;
+    aero:businessNumber "AU31004819284"^^xsd:string ;
+    aero:controlledGoodsRegistered true ;
+    aero:hasCapability aero:Cap_Lovitt_Technologies_Australia_1 ;
+    aero:headquartersCity "Montmorency"^^xsd:string ;
+    aero:headquartersCountry "AUS"^^xsd:string ;
+    aero:headquartersProvince "VIC"^^xsd:string ;
+    aero:holdsCertification aero:Cert_AS9100D,
+        aero:Cert_DISP_Level3,
+        aero:Cert_ISO9001 ;
+    aero:itarCompliant true ;
+    aero:legalName "Lovitt Technologies Australia Pty Ltd"^^xsd:string ;
+    aero:manufacturesProduct aero:Product_Lovitt_Technologies_Australia_F_35_Engine_Mount_Tension_Link_Structural_Fitting ;
+    aero:operatesInDomain aero:AirPlatform,
+        aero:DomainDefence ;
+    aero:providesService aero:Service_Lovitt_Technologies_Australia_High_Speed_Titanium_Monolithic_CMM_Metrology_Fluorescent_Penetrant_Inspection ;
+    aero:suppliesTo aero:Company_Boeing_Company,
+        aero:Company_Ferra_Engineering,
+        aero:Company_Lockheed_Martin_Corporation ;
+    aero:tradeName "Lovitt Technologies"^^xsd:string ;
+    aero:website "https://www.lovitt.com.au"^^xsd:anyURI .
+
 aero:Company_BAE_Systems_Australia a aero:Company,
         aero:PrimeContractor ;
     aero:businessNumber "AU450084230"^^xsd:string ;
@@ -990,6 +1198,8 @@ aero:Company_BAE_Systems_Australia a aero:Company,
         aero:Cap_BAE_Systems_Australia_2 ;
     aero:hasDirectSupplier aero:Company_CEA_Technologies,
         aero:Company_Ferra_Engineering,
+        aero:Company_GH_Varley,
+        aero:Company_Gilmour_Space_Technologies,
         aero:Company_Quickstep ;
     aero:headquartersCity "Edinburgh Parks"^^xsd:string ;
     aero:headquartersCountry "AUS"^^xsd:string ;

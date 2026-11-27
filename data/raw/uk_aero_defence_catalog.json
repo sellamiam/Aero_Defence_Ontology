@@ -1188,5 +1188,829 @@
         "accreditation": "Cyber Essentials Plus"
       }
     ]
+  },
+  {
+    "legal_name": "Senior plc",
+    "trade_name": "Senior Aerospace",
+    "cage_code": null,
+    "duns_number": null,
+    "business_number": "GB00252966",
+    "country": "GBR",
+    "city": "Rickmansworth",
+    "province": "Hertfordshire",
+    "website": "https://www.seniorplc.com",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CyberEssentialsPlus"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_Eurofighter_Typhoon",
+      "Platform_F35_Lightning_II"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems",
+      "KIC_AdvancedMaterials"
+    ],
+    "supplies_to": [
+      "Rolls-Royce plc",
+      "BAE Systems plc"
+    ],
+    "capabilities": [
+      {
+        "title": "High-Pressure Engine Bleed Air & Fluid Conveyance Ducting",
+        "description": "Design and manufacture of metallic and composite bleed air ducting, bellows, and flexible joints capable of operating at extreme gas turbine temperatures.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_AerospaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "High-Pressure Gas Turbine Bleed Air Duct Assembly",
+        "description": "High-temperature nickel-alloy flexible duct assembly with multi-ply bellows for Eurofighter EJ200 engine bleed systems.",
+        "part_number": "PN-GBR-SNR-BLD01",
+        "fsc_code": "1680",
+        "nsn_code": "1680-99-441-2019",
+        "platforms": [
+          "Platform_Eurofighter_Typhoon"
+        ],
+        "materials": [
+          "Material_Inconel_718",
+          "Material_Titanium_Ti6Al4V"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Aeroengine Duct Proof Pressure & Thermal Cycle Qualification",
+        "description": "Comprehensive pneumatic burst pressure, thermal endurance, and high-frequency vibration testing.",
+        "type": "TestingService",
+        "accreditation": "ISO 17025"
+      }
+    ]
+  },
+  {
+    "legal_name": "TT Electronics plc",
+    "trade_name": "TT Electronics",
+    "cage_code": null,
+    "duns_number": null,
+    "business_number": "GB00087249",
+    "country": "GBR",
+    "city": "Woking",
+    "province": "Surrey",
+    "website": "https://www.ttelectronics.com",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CyberEssentialsPlus"
+    ],
+    "domains": [
+      "LandPlatform",
+      "AirPlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_ArmouredCombatVehicle",
+      "Platform_Eurofighter_Typhoon"
+    ],
+    "kics": [
+      "KIC_GroundCombatVehicles",
+      "KIC_C4ISRSystems"
+    ],
+    "supplies_to": [
+      "BAE Systems plc",
+      "Rheinmetall AG"
+    ],
+    "capabilities": [
+      {
+        "title": "Harsh-Environment Armoured Vehicle Cable Harnesses & Power Electronics",
+        "description": "Ruggedized DEF-STAN 61-12 wire harnesses, high-reliability electromagnetic interference (EMI) filtered connectors, and power distribution units for tactical combat vehicles.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_GroundCombatVehicles"
+      }
+    ],
+    "products": [
+      {
+        "name": "Armoured Combat Vehicle Main Chassis Electrical Harness",
+        "description": "Sealed, radiation-hardened, and chemical-agent-resistant electrical power distribution harness for Boxer MRAV hull systems.",
+        "part_number": "PN-GBR-TTE-BX01",
+        "fsc_code": "6150",
+        "nsn_code": "6150-99-318-7741",
+        "platforms": [
+          "Platform_ArmouredCombatVehicle"
+        ],
+        "materials": [
+          "Material_Kevlar_Aramid"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Mil-Spec Wiring Harness Rapid Prototyping & EMP Hardening",
+        "description": "Design verification, electromagnetic pulse (EMP) attenuation testing, and rapid repair harness manufacturing.",
+        "type": "EngineeringService",
+        "accreditation": "DEF-STAN 59-411"
+      }
+    ]
+  },
+  {
+    "legal_name": "Surrey Satellite Technology Ltd",
+    "trade_name": "SSTL",
+    "cage_code": null,
+    "duns_number": null,
+    "business_number": "GB01918342",
+    "country": "GBR",
+    "city": "Guildford",
+    "province": "Surrey",
+    "website": "https://www.sstl.co.uk",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CyberEssentialsPlus",
+      "FacilitySecurity_Secret"
+    ],
+    "domains": [
+      "SpacePlatform",
+      "DomainSpace",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_LEOSatellite"
+    ],
+    "kics": [
+      "KIC_SpaceSystems",
+      "KIC_EOIRSystems"
+    ],
+    "supplies_to": [
+      "Airbus SE"
+    ],
+    "capabilities": [
+      {
+        "title": "Small Satellite Constellation Design, Integration & In-Orbit Delivery",
+        "description": "Turnkey engineering of high-resolution optical and synthetic aperture radar (SAR) LEO smallsats, avionics, reaction wheels, and star trackers.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_SpaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "SSTL-Micro Optical Earth Observation Satellite Bus",
+        "description": "Standardized 150kg class 3-axis stabilized satellite platform carrying sub-meter optical multispectral payloads.",
+        "part_number": "PN-GBR-SST-MIC01",
+        "fsc_code": "1810",
+        "nsn_code": "1810-99-812-4012",
+        "platforms": [
+          "Platform_LEOSatellite"
+        ],
+        "materials": [
+          "Material_CarbonFiber_Composite",
+          "Material_AluminiumLithium_2055"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "In-Orbit Satellite Commissioning & Mission Operations Support",
+        "description": "Ground station downlink, orbit maintenance maneuvers, and satellite bus health telemetry monitoring.",
+        "type": "SpaceMissionService",
+        "accreditation": "ISO 9001"
+      }
+    ]
+  },
+  {
+    "legal_name": "Rolls-Royce Submarines Limited",
+    "trade_name": "Rolls-Royce Submarines",
+    "cage_code": null,
+    "duns_number": null,
+    "business_number": "GB02492111",
+    "country": "GBR",
+    "city": "Derby",
+    "province": "Derbyshire",
+    "website": "https://www.rolls-royce.com/products-and-services/defence/submarines.aspx",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CyberEssentialsPlus",
+      "NATO_AQAP2110",
+      "FacilitySecurity_TopSecret"
+    ],
+    "domains": [
+      "MaritimePlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_Submarine"
+    ],
+    "kics": [
+      "KIC_NavalShipbuilding",
+      "KIC_NavalArchitectureMarineSystems"
+    ],
+    "supplies_to": [
+      "BAE Systems plc"
+    ],
+    "capabilities": [
+      {
+        "title": "Naval Nuclear Propulsion Steam Raising Plant (PWR2 / PWR3)",
+        "description": "Design, manufacture, and in-service support of pressurized water reactor (PWR) nuclear steam generators and propulsion modules for Royal Navy attack and ballistic missile submarines.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_NavalShipbuilding"
+      }
+    ],
+    "products": [
+      {
+        "name": "Pressurized Water Reactor Primary Coolant Pump Module",
+        "description": "Ultra-low acoustic signature canned-motor primary coolant pump engineered for submarine reactor coolant circulation.",
+        "part_number": "PN-GBR-RRS-PCP01",
+        "fsc_code": "4320",
+        "nsn_code": "4320-99-901-5512",
+        "platforms": [
+          "Platform_Submarine"
+        ],
+        "materials": [
+          "Material_HY80_HY100_HighStrengthSteel",
+          "Material_Inconel_718"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Submarine Nuclear Propulsion Core Life Management & Non-Destructive Examination",
+        "description": "Ultrasonic reactor pressure vessel weld inspection, radiometric core health assessment, and lifetime structural integrity verification.",
+        "type": "NuclearEngineeringService",
+        "accreditation": "ONR Licensed"
+      }
+    ]
+  },
+  {
+    "legal_name": "Reaction Engines Limited",
+    "trade_name": "Reaction Engines",
+    "cage_code": null,
+    "duns_number": null,
+    "business_number": "GB02377312",
+    "country": "GBR",
+    "city": "Abingdon",
+    "province": "Oxfordshire",
+    "website": "https://www.reactionengines.com",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CyberEssentialsPlus"
+    ],
+    "domains": [
+      "AirPlatform",
+      "SpacePlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_Eurofighter_Typhoon",
+      "Platform_FixedWingCombat"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems",
+      "KIC_AdvancedMaterials"
+    ],
+    "supplies_to": [
+      "Rolls-Royce plc",
+      "BAE Systems plc"
+    ],
+    "capabilities": [
+      {
+        "title": "Ultra-High-Efficiency Micro-Tube Heat Exchangers & Hypersonic Precoolers",
+        "description": "Additive and vacuum-brazed micro-tubular heat exchangers enabling rapid cooling of airstreams from 1,000°C to ambient in sub-second regimes for advanced sixth-generation combat aircraft.",
+        "trl": 8,
+        "mrl": 7,
+        "kic": "KIC_AerospaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Micro-Tubular Air-to-Fuel Thermal Management Heat Exchanger",
+        "description": "Compact, lightweight thermal management heat exchanger matrix fabricated from micro-bore alloy tubing for next-gen combat air systems.",
+        "part_number": "PN-GBR-REL-HX01",
+        "fsc_code": "1660",
+        "nsn_code": "1660-99-722-1089",
+        "platforms": [
+          "Platform_Eurofighter_Typhoon",
+          "Platform_FixedWingCombat"
+        ],
+        "materials": [
+          "Material_Inconel_718",
+          "Material_Titanium_Ti6Al4V"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "High-Mach Aerothermal Simulation & Hot-Gas Wind Tunnel Testing",
+        "description": "Aerothermal CFD modeling, supersonic boundary layer heat transfer analysis, and environmental hot-gas flow testing.",
+        "type": "AerothermalTestingService",
+        "accreditation": "ISO 9001"
+      }
+    ]
+  },
+  {
+    "legal_name": "Oxford Space Systems Ltd",
+    "trade_name": "Oxford Space Systems",
+    "cage_code": null,
+    "duns_number": null,
+    "business_number": "GB08681142",
+    "country": "GBR",
+    "city": "Harwell",
+    "province": "Oxfordshire",
+    "website": "https://www.oxford.space",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CyberEssentialsPlus"
+    ],
+    "domains": [
+      "SpacePlatform",
+      "DomainSpace"
+    ],
+    "platforms": [
+      "Platform_LEOSatellite"
+    ],
+    "kics": [
+      "KIC_SpaceSystems",
+      "KIC_AdvancedMaterials"
+    ],
+    "supplies_to": [
+      "Surrey Satellite Technology Ltd",
+      "Airbus SE"
+    ],
+    "capabilities": [
+      {
+        "title": "Deployable Carbon-Composite Satellite Antennas & Boom Structures",
+        "description": "Origami-inspired deployable helical antennas, large-aperture parabolic reflectors, and wrapped carbon-fiber composite booms for tactical satellite SAR and telecommunications.",
+        "trl": 8,
+        "mrl": 8,
+        "kic": "KIC_SpaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Deployable Parabolic Mesh Reflector Antenna (3-Meter Aperture)",
+        "description": "Ultra-lightweight high-gain deployable space antenna for X-band synthetic aperture radar smallsat constellations.",
+        "part_number": "PN-GBR-OSS-ANT01",
+        "fsc_code": "5985",
+        "nsn_code": "5985-99-633-9014",
+        "platforms": [
+          "Platform_LEOSatellite"
+        ],
+        "materials": [
+          "Material_CarbonFiber_Composite",
+          "Material_Titanium_Ti6Al4V"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Thermal Vacuum Deployment Qualification & RF Radiation Pattern Mapping",
+        "description": "High-vacuum thermal cycling deployment testing, micro-gravity boom release verification, and spherical RF chamber antenna pattern characterization.",
+        "type": "SpaceQualificationService",
+        "accreditation": "ECSS Compliant"
+      }
+    ]
+  },
+  {
+    "legal_name": "Dowty Propellers",
+    "trade_name": "Dowty Propellers (GE Aerospace)",
+    "cage_code": null,
+    "duns_number": null,
+    "business_number": "GB00588634",
+    "country": "GBR",
+    "city": "Gloucester",
+    "province": "Gloucestershire",
+    "website": "https://www.dowty.com",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CyberEssentialsPlus"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_C130J_SuperHercules",
+      "Platform_FixedWingTransport"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems",
+      "KIC_AdvancedMaterials"
+    ],
+    "supplies_to": [
+      "Lockheed Martin Corporation"
+    ],
+    "capabilities": [
+      {
+        "title": "All-Composite Electronically Controlled Propeller Systems (R391)",
+        "description": "Six-bladed carbon-polyurethane composite propeller systems featuring full-authority digital electronic control (FADEC) and electric de-icing for military transport aircraft.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_AerospaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "R391 Six-Bladed Composite Propeller Blade Assembly",
+        "description": "Advanced composite propeller blade with polyurethane erosion shield and integral electro-thermal anti-icing element for C-130J tactical transports.",
+        "part_number": "PN-GBR-DWT-R391",
+        "fsc_code": "1610",
+        "nsn_code": "1610-99-551-3091",
+        "platforms": [
+          "Platform_C130J_SuperHercules",
+          "Platform_FixedWingTransport"
+        ],
+        "materials": [
+          "Material_CarbonFiber_Composite",
+          "Material_Titanium_Ti6Al4V"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Composite Propeller Blade Structural Repair & Dynamic Balancing",
+        "description": "Depot-level ultrasonic delamination inspection, leading-edge erosion strip replacement, and dynamic vibration balancing.",
+        "type": "MROService",
+        "accreditation": "EASA Part 145"
+      }
+    ]
+  },
+  {
+    "legal_name": "Eaton Mission Systems Wimborne Limited",
+    "trade_name": "Eaton Mission Systems",
+    "cage_code": null,
+    "duns_number": null,
+    "business_number": "GB00334812",
+    "country": "GBR",
+    "city": "Wimborne",
+    "province": "Dorset",
+    "website": "https://www.eaton.com/aerospace",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CyberEssentialsPlus",
+      "NATO_AQAP2110"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_Eurofighter_Typhoon",
+      "Platform_F35_Lightning_II"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems",
+      "KIC_DefenceSystemsIntegration"
+    ],
+    "supplies_to": [
+      "Airbus SE",
+      "BAE Systems plc",
+      "Lockheed Martin Corporation"
+    ],
+    "capabilities": [
+      {
+        "title": "Air-to-Air Refuelling Hose & Drogue Pod Systems",
+        "description": "World-leading design and manufacture of 900-series wing-mounted tactical aerial refuelling pods and center-fuselage refuelling hose reels.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_AerospaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Wing Aerial Refuelling Pod (908E Series)",
+        "description": "Autonomous ram-air turbine driven aerial refuelling pod with digital fuel metering and variable-speed hose trailing reel.",
+        "part_number": "PN-GBR-ETN-908E",
+        "fsc_code": "1680",
+        "nsn_code": "1680-99-445-8812",
+        "platforms": [
+          "Platform_Eurofighter_Typhoon",
+          "Platform_A400M_Atlas"
+        ],
+        "materials": [
+          "Material_Aluminium_7075_T6",
+          "Material_Titanium_Ti6Al4V"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Aerial Refuelling Pod Depot Overhaul & Hose Proof Pressure Testing",
+        "description": "Hydraulic seal recertification, emergency guillotine cutter inspection, and high-flow fuel rate calibration.",
+        "type": "MROService",
+        "accreditation": "MAA Part 145"
+      }
+    ]
+  },
+  {
+    "legal_name": "Teledyne e2v (UK) Limited",
+    "trade_name": "Teledyne e2v",
+    "cage_code": null,
+    "duns_number": null,
+    "business_number": "GB00432014",
+    "country": "GBR",
+    "city": "Chelmsford",
+    "province": "Essex",
+    "website": "https://www.teledyne-e2v.com",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CyberEssentialsPlus"
+    ],
+    "domains": [
+      "AirPlatform",
+      "MaritimePlatform",
+      "DomainDefence",
+      "DomainSpace"
+    ],
+    "platforms": [
+      "Platform_Eurofighter_Typhoon",
+      "Platform_SurfaceCombatant"
+    ],
+    "kics": [
+      "KIC_SensorsSonar",
+      "KIC_EOIRSystems"
+    ],
+    "supplies_to": [
+      "Thales UK Limited",
+      "Leonardo UK Ltd",
+      "MBDA UK Limited"
+    ],
+    "capabilities": [
+      {
+        "title": "High-Power Microwave Magnetrons & GaN RF Power Transistors",
+        "description": "Engineered RF amplifiers, compact pulsed magnetrons for marine/airborne radars, and radiation-hardened CCD/CMOS imaging sensors.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_SensorsSonar"
+      }
+    ],
+    "products": [
+      {
+        "name": "Gallium Nitride Solid-State Radar Pulse Power Amplifier Module",
+        "description": "High-efficiency X-band GaN power amplifier delivering 500W peak output for airborne fire control radar systems.",
+        "part_number": "PN-GBR-E2V-GAN01",
+        "fsc_code": "5960",
+        "nsn_code": "5960-99-812-3341",
+        "platforms": [
+          "Platform_Eurofighter_Typhoon"
+        ],
+        "materials": [
+          "Material_GalliumNitride_GaN",
+          "Material_SiliconCarbide_SiC"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Semiconductor Screening & Space Radiation Hardness Assurance",
+        "description": "Heavy ion single-event effect testing, total ionizing dose (TID) radiation testing, and military hermetic seal screening.",
+        "type": "RadiationTestingService",
+        "accreditation": "ISO 17025"
+      }
+    ]
+  },
+  {
+    "legal_name": "Smiths Group plc",
+    "trade_name": "Smiths Detection",
+    "cage_code": null,
+    "duns_number": null,
+    "business_number": "GB00137013",
+    "country": "GBR",
+    "city": "Hemel Hempstead",
+    "province": "Hertfordshire",
+    "website": "https://www.smithsdetection.com",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CyberEssentialsPlus"
+    ],
+    "domains": [
+      "LandPlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_ArmouredCombatVehicle",
+      "Platform_GroundCombatVehicle"
+    ],
+    "kics": [
+      "KIC_CBRNDefence",
+      "KIC_SensorsSonar"
+    ],
+    "supplies_to": [
+      "BAE Systems plc",
+      "General Dynamics Corporation"
+    ],
+    "capabilities": [
+      {
+        "title": "Chemical, Biological & Radiological Agent Detection Systems (CBRN)",
+        "description": "Ion mobility spectrometry (IMS) chemical vapor detectors and automated radiation portal monitoring for combat vehicle crew compartments.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_CBRNDefence"
+      }
+    ],
+    "products": [
+      {
+        "name": "LCD 3.3 Advanced Chemical Agent Detector",
+        "description": "Compact, body-worn or vehicle-mounted personal chemical agent detector identifying nerve, blister, blood, and toxic industrial chemicals.",
+        "part_number": "PN-GBR-SMT-LCD33",
+        "fsc_code": "6665",
+        "nsn_code": "6665-99-224-8192",
+        "platforms": [
+          "Platform_ArmouredCombatVehicle",
+          "Platform_GroundCombatVehicle"
+        ],
+        "materials": [
+          "Material_Aluminium_7075_T6"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "CBRN Sensor Recalibration & Spectral Library Expansion",
+        "description": "Live-agent stimulant laboratory testing, ion mobility algorithm updates, and detector cell decontamination servicing.",
+        "type": "CalibrationService",
+        "accreditation": "ISO 9001"
+      }
+    ]
+  },
+  {
+    "legal_name": "Aeronautical & General Instruments Limited",
+    "trade_name": "AGI",
+    "cage_code": null,
+    "duns_number": null,
+    "business_number": "GB00129841",
+    "country": "GBR",
+    "city": "Poole",
+    "province": "Dorset",
+    "website": "https://www.agiltd.co.uk",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CyberEssentialsPlus"
+    ],
+    "domains": [
+      "MaritimePlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_Type26_GlobalCombatShip",
+      "Platform_SurfaceCombatant"
+    ],
+    "kics": [
+      "KIC_NavalShipbuilding",
+      "KIC_SensorsSonar"
+    ],
+    "supplies_to": [
+      "BAE Systems plc",
+      "Babcock International Group plc"
+    ],
+    "capabilities": [
+      {
+        "title": "Naval Visual Landing Aids & Shipborne Meteorological Sensor Arrays",
+        "description": "NVG-compatible flight deck glide path indicator lighting, electromagnetic speed logs, and automated anemometer mast packages for frigates.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_NavalShipbuilding"
+      }
+    ],
+    "products": [
+      {
+        "name": "Naval Flight Deck Visual Landing Aid System (HELI-LED)",
+        "description": "Full LED multi-color gyro-stabilized glide path indicator ensuring safe helicopter deck landings under Sea State 6 conditions.",
+        "part_number": "PN-GBR-AGI-HLD01",
+        "fsc_code": "6220",
+        "nsn_code": "6220-99-714-3829",
+        "platforms": [
+          "Platform_Type26_GlobalCombatShip",
+          "Platform_SurfaceCombatant"
+        ],
+        "materials": [
+          "Material_Aluminium_7075_T6"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Shipboard Flight Deck Photometric Survey & NVG Calibration",
+        "description": "Onboard chromaticity calibration, Night Vision Goggle spectral compliance checks, and naval flight deck light certification.",
+        "type": "InspectionService",
+        "accreditation": "DEF-STAN 02-587"
+      }
+    ]
+  },
+  {
+    "legal_name": "Pennant International Group plc",
+    "trade_name": "Pennant",
+    "cage_code": null,
+    "duns_number": null,
+    "business_number": "GB00729812",
+    "country": "GBR",
+    "city": "Cheltenham",
+    "province": "Gloucestershire",
+    "website": "https://www.pennantplc.com",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "CyberEssentialsPlus"
+    ],
+    "domains": [
+      "AirPlatform",
+      "LandPlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_Eurofighter_Typhoon",
+      "Platform_F35_Lightning_II"
+    ],
+    "kics": [
+      "KIC_TrainingSimulation",
+      "KIC_InServiceSupport"
+    ],
+    "supplies_to": [
+      "BAE Systems plc",
+      "Lockheed Martin Corporation"
+    ],
+    "capabilities": [
+      {
+        "title": "Integrated Maintenance Training Simulators & Virtual Cockpit Trainers",
+        "description": "High-fidelity synthetic hardware-in-the-loop aircraft mechanical handling trainers, weapons loading trainers, and interactive technical documentation.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_TrainingSimulation"
+      }
+    ],
+    "products": [
+      {
+        "name": "Typhoon Weapons Loading & Maintenance Simulator Unit",
+        "description": "Full-scale physical replica of Eurofighter Typhoon wing pylon and weapons bay with tactile electronic loading verification.",
+        "part_number": "PN-GBR-PNT-TYP01",
+        "fsc_code": "6930",
+        "nsn_code": "6930-99-918-4421",
+        "platforms": [
+          "Platform_Eurofighter_Typhoon"
+        ],
+        "materials": [
+          "Material_Aluminium_7075_T6",
+          "Material_CarbonFiber_Composite"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Synthetic Training Courseware Authoring & Simulator Field Maintenance",
+        "description": "S1000D technical publication authoring, simulator hydraulic actuator calibration, and software refresh integration.",
+        "type": "TrainingSupportService",
+        "accreditation": "ISO 9001"
+      }
+    ]
   }
 ]

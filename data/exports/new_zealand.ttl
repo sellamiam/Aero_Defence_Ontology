@@ -2,32 +2,6 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-aero:Company_Dawn_Aerospace a aero:Company,
-        aero:Tier1Supplier ;
-    aero:businessNumber "NZ9429046829102"^^xsd:string ;
-    aero:controlledGoodsRegistered true ;
-    aero:hasCapability aero:Cap_Dawn_Aerospace_1,
-        aero:Cap_Dawn_Aerospace_2 ;
-    aero:headquartersCity "Christchurch"^^xsd:string ;
-    aero:headquartersCountry "NZL"^^xsd:string ;
-    aero:headquartersProvince "Canterbury"^^xsd:string ;
-    aero:holdsCertification aero:Cert_AS9100D,
-        aero:Cert_ISO9001,
-        aero:Cert_ITAR_Compliant ;
-    aero:itarCompliant true ;
-    aero:legalName "Dawn Aerospace Limited"^^xsd:string ;
-    aero:manufacturesProduct aero:Product_Dawn_Aerospace_B20_Green_Bi_propellant_Satellite_Thruster,
-        aero:Product_Dawn_Aerospace_Mk_II_Aurora_Suborbital_Rocketplane ;
-    aero:operatesInDomain aero:DomainDefence,
-        aero:DomainSpace,
-        aero:SpacePlatform ;
-    aero:providesService aero:Service_Dawn_Aerospace_High_Pressure_Gas_Cryogenic_Propulsion_Flow_Testing,
-        aero:Service_Dawn_Aerospace_In_Orbit_Thruster_Calibration_Lifecycle_Health_Assessment,
-        aero:Service_Dawn_Aerospace_Rocket_Propulsion_Overhaul_and_Thruster_Requalification,
-        aero:Service_Dawn_Aerospace_Spacecraft_Chemical_Propulsion_Custom_Engineering ;
-    aero:tradeName "Dawn Aerospace"^^xsd:string ;
-    aero:website "https://www.dawnaerospace.com"^^xsd:anyURI .
-
 aero:Company_Dotterel_Technologies a aero:Company,
         aero:SMESupplier ;
     aero:businessNumber "NZ9429045918274"^^xsd:string ;
@@ -73,28 +47,6 @@ aero:Company_Flightcell_International a aero:Company,
     aero:tradeName "Flightcell"^^xsd:string ;
     aero:website "https://www.flightcell.com"^^xsd:anyURI .
 
-aero:Company_Marops a aero:Company,
-        aero:SMESupplier ;
-    aero:businessNumber "NZ9429034819284"^^xsd:string ;
-    aero:controlledGoodsRegistered true ;
-    aero:hasCapability aero:Cap_Marops_1 ;
-    aero:headquartersCity "Auckland"^^xsd:string ;
-    aero:headquartersCountry "NZL"^^xsd:string ;
-    aero:headquartersProvince "Auckland"^^xsd:string ;
-    aero:holdsCertification aero:Cert_FacilitySecurity_Secret,
-        aero:Cert_ISO9001 ;
-    aero:itarCompliant true ;
-    aero:legalName "Marops Limited"^^xsd:string ;
-    aero:manufacturesProduct aero:Product_Marops_Naval_Tactical_Scenario_Simulator_Suite ;
-    aero:operatesInDomain aero:DomainDefence,
-        aero:MaritimePlatform ;
-    aero:providesService aero:Service_Marops_Combat_Management_System_Operator_Training_Delivery,
-        aero:Service_Marops_Naval_Bridge_Simulator_Maintenance_Software_In_Service_Support,
-        aero:Service_Marops_Naval_Sensor_Interface_Hardware_Integration,
-        aero:Service_Marops_Simulator_Visual_Display_Engine_Calibration_Alignment ;
-    aero:tradeName "Marops Defence & Marine"^^xsd:string ;
-    aero:website "https://www.marops.co.nz"^^xsd:anyURI .
-
 aero:Company_Rakon a aero:Company,
         aero:Tier1Supplier ;
     aero:businessNumber "NZ9429038291047"^^xsd:string ;
@@ -122,61 +74,6 @@ aero:Company_Rakon a aero:Company,
     aero:tradeName "Rakon"^^xsd:string ;
     aero:website "https://www.rakon.com"^^xsd:anyURI .
 
-aero:Company_Rocket_Lab a aero:Company,
-        aero:PrimeContractor ;
-    aero:businessNumber "NZ9429031827461"^^xsd:string ;
-    aero:controlledGoodsRegistered true ;
-    aero:hasCapability aero:Cap_Rocket_Lab_1,
-        aero:Cap_Rocket_Lab_2,
-        aero:Cap_Rocket_Lab_3 ;
-    aero:headquartersCity "Auckland"^^xsd:string ;
-    aero:headquartersCountry "NZL"^^xsd:string ;
-    aero:headquartersProvince "Auckland"^^xsd:string ;
-    aero:holdsCertification aero:Cert_AS9100D,
-        aero:Cert_FacilitySecurity_Secret,
-        aero:Cert_ISO9001,
-        aero:Cert_ITAR_Compliant ;
-    aero:itarCompliant true ;
-    aero:legalName "Rocket Lab Limited"^^xsd:string ;
-    aero:manufacturesProduct aero:Product_Rocket_Lab_Electron_Orbital_Launch_Vehicle,
-        aero:Product_Rocket_Lab_Photon_Spacecraft_Bus,
-        aero:Product_Rocket_Lab_Rutherford_Electric_Pump_Rocket_Engine ;
-    aero:operatesInDomain aero:DomainDefence,
-        aero:DomainSpace,
-        aero:SpacePlatform ;
-    aero:providesService aero:Service_Rocket_Lab_Dedicated_Orbital_Space_Launch_Operations,
-        aero:Service_Rocket_Lab_Payload_Cleanroom_Integration_and_Environmental_Testing,
-        aero:Service_Rocket_Lab_Rocket_Engine_Hot_Fire_Qualification_Rapid_Refurbishment,
-        aero:Service_Rocket_Lab_Satellite_Constellation_Telemetry_Tracking_Mission_Operations ;
-    aero:tradeName "Rocket Lab"^^xsd:string ;
-    aero:website "https://www.rocketlabusa.com"^^xsd:anyURI .
-
-aero:Company_Tait_International a aero:Company,
-        aero:Tier1Supplier ;
-    aero:businessNumber "NZ9429037482910"^^xsd:string ;
-    aero:controlledGoodsRegistered true ;
-    aero:hasCapability aero:Cap_Tait_International_1,
-        aero:Cap_Tait_International_2 ;
-    aero:headquartersCity "Christchurch"^^xsd:string ;
-    aero:headquartersCountry "NZL"^^xsd:string ;
-    aero:headquartersProvince "Canterbury"^^xsd:string ;
-    aero:holdsCertification aero:Cert_CMMC_Level2,
-        aero:Cert_FacilitySecurity_Secret,
-        aero:Cert_ISO27001,
-        aero:Cert_ISO9001 ;
-    aero:itarCompliant true ;
-    aero:legalName "Tait International Limited"^^xsd:string ;
-    aero:manufacturesProduct aero:Product_Tait_International_TB9400_P25_Phase_2_Base_Station_Repeater,
-        aero:Product_Tait_International_TP9600_P25_Phase_2_Tactical_Portable_Radio ;
-    aero:operatesInDomain aero:DomainC4ISR,
-        aero:DomainDefence ;
-    aero:providesService aero:Service_Tait_International_247_Tactical_Network_Operations_Center_NOC_Managed_Support,
-        aero:Service_Tait_International_MIL_STD_810H_Ruggedization_Cryptographic_Security_Auditing,
-        aero:Service_Tait_International_Radio_Fleet_In_Service_Support_and_Depot_Board_Repair,
-        aero:Service_Tait_International_Tactical_Network_Architecture_Design_RF_Propagation_Modeling ;
-    aero:tradeName "Tait Communications"^^xsd:string ;
-    aero:website "https://www.taitcommunications.com"^^xsd:anyURI .
-
 aero:Company_Zenith_Tecnica a aero:Company,
         aero:Tier2Supplier ;
     aero:businessNumber "NZ9429041928471"^^xsd:string ;
@@ -202,6 +99,13 @@ aero:Company_Zenith_Tecnica a aero:Company,
         aero:Service_Zenith_Tecnica_Precision_CNC_5_Axis_Post_Machining_and_CMM_Inspection ;
     aero:tradeName "Zenith Tecnica"^^xsd:string ;
     aero:website "https://www.zenithtecnica.com"^^xsd:anyURI .
+
+aero:Cap_Aeronavics_1 a aero:Capability ;
+    rdfs:label "Industrial-Grade Carbon-Fiber Tactical Multirotor Airframes & Payloads"^^xsd:string ;
+    aero:alignedWithKIC aero:KIC_RemotelyPilotedSystems ;
+    aero:capabilityDescription "Precision manufacturing of weather-sealed carbon composite airframes for military perimeter patrol, sensor carriage, and tactical aerial mapping."^^xsd:string ;
+    aero:mrlValue 9 ;
+    aero:trlValue 9 .
 
 aero:Cap_Dawn_Aerospace_1 a aero:Capability ;
     rdfs:label "Non-Toxic Green Satellite Propulsion Systems"^^xsd:string ;
@@ -230,6 +134,13 @@ aero:Cap_Flightcell_International_1 a aero:Capability ;
     aero:capabilityDescription "Integrated military aircraft transceivers combining Iridium Certus satcom and 4G/5G cellular broadband for real-time telemetry, cockpit voice, and encrypted data."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
+
+aero:Cap_Kea_Aerospace_1 a aero:Capability ;
+    rdfs:label "Stratospheric High-Altitude Pseudo-Satellite (HAPS) Solar UAS"^^xsd:string ;
+    aero:alignedWithKIC aero:KIC_RemotelyPilotedSystems ;
+    aero:capabilityDescription "Design and flight testing of ultra-lightweight solar-powered stratospheric aircraft (Kea Atmos) operating at 65,000 feet for persistent maritime surveillance and communication relay."^^xsd:string ;
+    aero:mrlValue 7 ;
+    aero:trlValue 8 .
 
 aero:Cap_Marops_1 a aero:Capability ;
     rdfs:label "Naval Combat System Simulation & Tactical Mission Trainers"^^xsd:string ;
@@ -273,6 +184,13 @@ aero:Cap_Rocket_Lab_3 a aero:Capability ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
+aero:Cap_Syos_Aerospace_1 a aero:Capability ;
+    rdfs:label "Heavy-Lift Autonomous Tactical Cargo UAS & Unmanned Aerial Systems"^^xsd:string ;
+    aero:alignedWithKIC aero:KIC_RemotelyPilotedSystems ;
+    aero:capabilityDescription "Hybrid heavy-lift tactical logistics drones, obstacle-avoidance AI flight computers, and autonomous contested-environment cargo delivery systems."^^xsd:string ;
+    aero:mrlValue 7 ;
+    aero:trlValue 8 .
+
 aero:Cap_Tait_International_1 a aero:Capability ;
     rdfs:label "Tactical Mission-Critical Encrypted Radio Communications"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_SoftwareDefinedRadio ;
@@ -300,6 +218,100 @@ aero:Cap_Zenith_Tecnica_2 a aero:Capability ;
     aero:capabilityDescription "Generative structural design reducing mass by up to 60% while maintaining ultimate load margins under severe fatigue profiles."^^xsd:string ;
     aero:mrlValue 8 ;
     aero:trlValue 9 .
+
+aero:Company_Airbus_SE a aero:Company ;
+    aero:hasDirectSupplier aero:Company_Kea_Aerospace ;
+    aero:headquartersCountry "FRA"^^xsd:string ;
+    aero:legalName "Airbus SE"^^xsd:string .
+
+aero:Company_Dawn_Aerospace a aero:Company,
+        aero:Tier1Supplier ;
+    aero:businessNumber "NZ9429046829102"^^xsd:string ;
+    aero:controlledGoodsRegistered true ;
+    aero:hasCapability aero:Cap_Dawn_Aerospace_1,
+        aero:Cap_Dawn_Aerospace_2 ;
+    aero:hasDirectSupplier aero:Company_Kea_Aerospace ;
+    aero:headquartersCity "Christchurch"^^xsd:string ;
+    aero:headquartersCountry "NZL"^^xsd:string ;
+    aero:headquartersProvince "Canterbury"^^xsd:string ;
+    aero:holdsCertification aero:Cert_AS9100D,
+        aero:Cert_ISO9001,
+        aero:Cert_ITAR_Compliant ;
+    aero:itarCompliant true ;
+    aero:legalName "Dawn Aerospace Limited"^^xsd:string ;
+    aero:manufacturesProduct aero:Product_Dawn_Aerospace_B20_Green_Bi_propellant_Satellite_Thruster,
+        aero:Product_Dawn_Aerospace_Mk_II_Aurora_Suborbital_Rocketplane ;
+    aero:operatesInDomain aero:DomainDefence,
+        aero:DomainSpace,
+        aero:SpacePlatform ;
+    aero:providesService aero:Service_Dawn_Aerospace_High_Pressure_Gas_Cryogenic_Propulsion_Flow_Testing,
+        aero:Service_Dawn_Aerospace_In_Orbit_Thruster_Calibration_Lifecycle_Health_Assessment,
+        aero:Service_Dawn_Aerospace_Rocket_Propulsion_Overhaul_and_Thruster_Requalification,
+        aero:Service_Dawn_Aerospace_Spacecraft_Chemical_Propulsion_Custom_Engineering ;
+    aero:tradeName "Dawn Aerospace"^^xsd:string ;
+    aero:website "https://www.dawnaerospace.com"^^xsd:anyURI .
+
+aero:Company_Marops a aero:Company,
+        aero:SMESupplier ;
+    aero:businessNumber "NZ9429034819284"^^xsd:string ;
+    aero:controlledGoodsRegistered true ;
+    aero:hasCapability aero:Cap_Marops_1 ;
+    aero:hasDirectSupplier aero:Company_Aeronavics ;
+    aero:headquartersCity "Auckland"^^xsd:string ;
+    aero:headquartersCountry "NZL"^^xsd:string ;
+    aero:headquartersProvince "Auckland"^^xsd:string ;
+    aero:holdsCertification aero:Cert_FacilitySecurity_Secret,
+        aero:Cert_ISO9001 ;
+    aero:itarCompliant true ;
+    aero:legalName "Marops Limited"^^xsd:string ;
+    aero:manufacturesProduct aero:Product_Marops_Naval_Tactical_Scenario_Simulator_Suite ;
+    aero:operatesInDomain aero:DomainDefence,
+        aero:MaritimePlatform ;
+    aero:providesService aero:Service_Marops_Combat_Management_System_Operator_Training_Delivery,
+        aero:Service_Marops_Naval_Bridge_Simulator_Maintenance_Software_In_Service_Support,
+        aero:Service_Marops_Naval_Sensor_Interface_Hardware_Integration,
+        aero:Service_Marops_Simulator_Visual_Display_Engine_Calibration_Alignment ;
+    aero:tradeName "Marops Defence & Marine"^^xsd:string ;
+    aero:website "https://www.marops.co.nz"^^xsd:anyURI .
+
+aero:Company_Rocket_Lab a aero:Company,
+        aero:PrimeContractor ;
+    aero:businessNumber "NZ9429031827461"^^xsd:string ;
+    aero:controlledGoodsRegistered true ;
+    aero:hasCapability aero:Cap_Rocket_Lab_1,
+        aero:Cap_Rocket_Lab_2,
+        aero:Cap_Rocket_Lab_3 ;
+    aero:hasDirectSupplier aero:Company_Syos_Aerospace ;
+    aero:headquartersCity "Auckland"^^xsd:string ;
+    aero:headquartersCountry "NZL"^^xsd:string ;
+    aero:headquartersProvince "Auckland"^^xsd:string ;
+    aero:holdsCertification aero:Cert_AS9100D,
+        aero:Cert_FacilitySecurity_Secret,
+        aero:Cert_ISO9001,
+        aero:Cert_ITAR_Compliant ;
+    aero:itarCompliant true ;
+    aero:legalName "Rocket Lab Limited"^^xsd:string ;
+    aero:manufacturesProduct aero:Product_Rocket_Lab_Electron_Orbital_Launch_Vehicle,
+        aero:Product_Rocket_Lab_Photon_Spacecraft_Bus,
+        aero:Product_Rocket_Lab_Rutherford_Electric_Pump_Rocket_Engine ;
+    aero:operatesInDomain aero:DomainDefence,
+        aero:DomainSpace,
+        aero:SpacePlatform ;
+    aero:providesService aero:Service_Rocket_Lab_Dedicated_Orbital_Space_Launch_Operations,
+        aero:Service_Rocket_Lab_Payload_Cleanroom_Integration_and_Environmental_Testing,
+        aero:Service_Rocket_Lab_Rocket_Engine_Hot_Fire_Qualification_Rapid_Refurbishment,
+        aero:Service_Rocket_Lab_Satellite_Constellation_Telemetry_Tracking_Mission_Operations ;
+    aero:tradeName "Rocket Lab"^^xsd:string ;
+    aero:website "https://www.rocketlabusa.com"^^xsd:anyURI .
+
+aero:Product_Aeronavics_Aeronavics_Navi_Heavy_Duty_Tactical_Multirotor_Aircraft a aero:Product ;
+    rdfs:label "Aeronavics Navi Heavy-Duty Tactical Multirotor Aircraft"^^xsd:string ;
+    aero:dependsOnMaterial aero:Material_CarbonFiber_Composite ;
+    aero:deployedOnPlatform aero:Platform_TacticalUAS ;
+    aero:fscCode "1550"^^xsd:string ;
+    aero:nsnCode "1550-98-771-3091"^^xsd:string ;
+    aero:partNumber "PN-NZL-AER-NV01"^^xsd:string ;
+    aero:productDescription "IP65 weather-sealed carbon-composite multirotor drone engineered for operation in heavy rain and 35-knot gale winds."^^xsd:string .
 
 aero:Product_Dawn_Aerospace_B20_Green_Bi_propellant_Satellite_Thruster a aero:Product ;
     rdfs:label "B20 Green Bi-propellant Satellite Thruster"^^xsd:string ;
@@ -339,6 +351,16 @@ aero:Product_Flightcell_International_Flightcell_DZMx_All_In_One_Airborne_Cellul
     aero:nsnCode "5895-98-869-2049"^^xsd:string ;
     aero:partNumber "PN-NZL-FC-DZMX"^^xsd:string ;
     aero:productDescription "DO-160G certified flight tracking, satellite voice, cellular broadband data, and automated flight following system for military and rescue aircraft."^^xsd:string .
+
+aero:Product_Kea_Aerospace_Kea_Atmos_Solar_Stratospheric_Surveillance_Aircraft a aero:Product ;
+    rdfs:label "Kea Atmos Solar Stratospheric Surveillance Aircraft"^^xsd:string ;
+    aero:dependsOnMaterial aero:Material_CarbonFiber_Composite,
+        aero:Material_SiliconCarbide_SiC ;
+    aero:deployedOnPlatform aero:Platform_TacticalUAS ;
+    aero:fscCode "1550"^^xsd:string ;
+    aero:nsnCode "1550-98-319-4012"^^xsd:string ;
+    aero:partNumber "PN-NZL-KEA-ATMOS"^^xsd:string ;
+    aero:productDescription "32-meter wingspan carbon-fiber solar electric HAPS aircraft carrying EO/IR and radar payloads for months of continuous persistent patrol."^^xsd:string .
 
 aero:Product_Marops_Naval_Tactical_Scenario_Simulator_Suite a aero:Product ;
     rdfs:label "Naval Tactical Scenario Simulator Suite"^^xsd:string ;
@@ -399,6 +421,16 @@ aero:Product_Rocket_Lab_Rutherford_Electric_Pump_Rocket_Engine a aero:Product ;
     aero:partNumber "PN-NZL-RTH-003"^^xsd:string ;
     aero:productDescription "3D printed cycle rocket engine powered by brushless DC electric motors and lithium polymer batteries delivering 25 kN thrust."^^xsd:string .
 
+aero:Product_Syos_Aerospace_Syos_Heavy_Lift_Tactical_VTOL_Logistics_Drone a aero:Product ;
+    rdfs:label "Syos Heavy-Lift Tactical VTOL Logistics Drone"^^xsd:string ;
+    aero:dependsOnMaterial aero:Material_Aluminium_7075_T6,
+        aero:Material_CarbonFiber_Composite ;
+    aero:deployedOnPlatform aero:Platform_TacticalUAS ;
+    aero:fscCode "1550"^^xsd:string ;
+    aero:nsnCode "1550-98-881-2099"^^xsd:string ;
+    aero:partNumber "PN-NZL-SYO-HL100"^^xsd:string ;
+    aero:productDescription "Hybrid-electric vertical take-off and landing tactical cargo UAV capable of lifting 100kg payloads across 200km combat radius."^^xsd:string .
+
 aero:Product_Tait_International_TB9400_P25_Phase_2_Base_Station_Repeater a aero:Product ;
     rdfs:label "TB9400 P25 Phase 2 Base Station / Repeater"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_GalliumNitride_GaN ;
@@ -434,6 +466,13 @@ aero:Product_Zenith_Tecnica_Satellite_Structural_Titanium_Bus_Node a aero:Produc
     aero:nsnCode "1560-98-539-1049"^^xsd:string ;
     aero:partNumber "PN-NZL-ZT-SATBRK"^^xsd:string ;
     aero:productDescription "Additive manufactured high-stiffness titanium payload mount bracket deployed on over 200 operational orbital spacecraft."^^xsd:string .
+
+aero:Service_Aeronavics_Carbon_Composite_Drone_Airframe_Destructive_Drop_Testing_Environmental_Ingress_Certification a aero:EnvironmentalTestingService,
+        aero:Service ;
+    rdfs:label "Carbon Composite Drone Airframe Destructive Drop Testing & Environmental Ingress Certification"^^xsd:string ;
+    aero:serviceAccreditation "ISO 9001"^^xsd:string ;
+    aero:serviceDescription "Water ingress testing, salt fog corrosion exposure, and carbon-fiber arm dynamic stress test verification."^^xsd:string ;
+    aero:supportsPlatform aero:Platform_TacticalUAS .
 
 aero:Service_Dawn_Aerospace_High_Pressure_Gas_Cryogenic_Propulsion_Flow_Testing a aero:Service,
         aero:TestingQualificationService ;
@@ -530,6 +569,13 @@ aero:Service_Flightcell_International_Global_Aircraft_Tracking_Server_Fleet_Mana
     aero:supportsPlatform aero:Platform_FixedWingTransport,
         aero:Platform_RotaryWing,
         aero:Platform_TacticalUAS .
+
+aero:Service_Kea_Aerospace_High_Altitude_Flight_Telemetry_Monitoring_Persistent_Sensor_Data_Downlink a aero:FlightOperationsService,
+        aero:Service ;
+    rdfs:label "High-Altitude Flight Telemetry Monitoring & Persistent Sensor Data Downlink"^^xsd:string ;
+    aero:serviceAccreditation "CAA NZ Part 102"^^xsd:string ;
+    aero:serviceDescription "Stratospheric weather routing simulation, beyond-visual-line-of-sight (BVLOS) flight management, and real-time sensor intelligence streaming."^^xsd:string ;
+    aero:supportsPlatform aero:Platform_TacticalUAS .
 
 aero:Service_Marops_Combat_Management_System_Operator_Training_Delivery a aero:Service,
         aero:SimulationTrainingService ;
@@ -631,6 +677,13 @@ aero:Service_Rocket_Lab_Satellite_Constellation_Telemetry_Tracking_Mission_Opera
     aero:supportsPlatform aero:Platform_LEOSatellite,
         aero:Platform_SpaceLaunchVehicle .
 
+aero:Service_Syos_Aerospace_Tactical_Drone_Contested_Logistics_Field_Testing_Autopilot_Flight_Profiling a aero:DroneFieldTestingService,
+        aero:Service ;
+    rdfs:label "Tactical Drone Contested Logistics Field Testing & Autopilot Flight Profiling"^^xsd:string ;
+    aero:serviceAccreditation "ISO 9001"^^xsd:string ;
+    aero:serviceDescription "GPS-denied visual-inertial odometry testing, acoustic quietness assessment, and autonomous field delivery validation."^^xsd:string ;
+    aero:supportsPlatform aero:Platform_TacticalUAS .
+
 aero:Service_Tait_International_247_Tactical_Network_Operations_Center_NOC_Managed_Support a aero:LogisticsSupportService,
         aero:Service ;
     rdfs:label "24/7 Tactical Network Operations Center (NOC) Managed Support"^^xsd:string ;
@@ -698,4 +751,95 @@ aero:Service_Zenith_Tecnica_Precision_CNC_5_Axis_Post_Machining_and_CMM_Inspecti
     aero:supportsPlatform aero:Platform_FixedWingCombat,
         aero:Platform_LEOSatellite,
         aero:Platform_SpaceLaunchVehicle .
+
+aero:Company_Aeronavics a aero:Company,
+        aero:Tier2Supplier ;
+    aero:businessNumber "NZ9429030819284"^^xsd:string ;
+    aero:controlledGoodsRegistered true ;
+    aero:hasCapability aero:Cap_Aeronavics_1 ;
+    aero:headquartersCity "Raglan"^^xsd:string ;
+    aero:headquartersCountry "NZL"^^xsd:string ;
+    aero:headquartersProvince "Waikato"^^xsd:string ;
+    aero:holdsCertification aero:Cert_AS9100D,
+        aero:Cert_ISO9001 ;
+    aero:itarCompliant true ;
+    aero:legalName "Aeronavics Limited"^^xsd:string ;
+    aero:manufacturesProduct aero:Product_Aeronavics_Aeronavics_Navi_Heavy_Duty_Tactical_Multirotor_Aircraft ;
+    aero:operatesInDomain aero:AirPlatform,
+        aero:DomainDefence ;
+    aero:providesService aero:Service_Aeronavics_Carbon_Composite_Drone_Airframe_Destructive_Drop_Testing_Environmental_Ingress_Certification ;
+    aero:suppliesTo aero:Company_Marops,
+        aero:Company_Tait_International ;
+    aero:tradeName "Aeronavics"^^xsd:string ;
+    aero:website "https://www.aeronavics.com"^^xsd:anyURI .
+
+aero:Company_Kea_Aerospace a aero:Company,
+        aero:Tier2Supplier ;
+    aero:businessNumber "NZ9429048192841"^^xsd:string ;
+    aero:controlledGoodsRegistered true ;
+    aero:hasCapability aero:Cap_Kea_Aerospace_1 ;
+    aero:headquartersCity "Christchurch"^^xsd:string ;
+    aero:headquartersCountry "NZL"^^xsd:string ;
+    aero:headquartersProvince "Canterbury"^^xsd:string ;
+    aero:holdsCertification aero:Cert_AS9100D,
+        aero:Cert_ISO9001 ;
+    aero:itarCompliant true ;
+    aero:legalName "Kea Aerospace Limited"^^xsd:string ;
+    aero:manufacturesProduct aero:Product_Kea_Aerospace_Kea_Atmos_Solar_Stratospheric_Surveillance_Aircraft ;
+    aero:operatesInDomain aero:AirPlatform,
+        aero:DomainDefence ;
+    aero:providesService aero:Service_Kea_Aerospace_High_Altitude_Flight_Telemetry_Monitoring_Persistent_Sensor_Data_Downlink ;
+    aero:suppliesTo aero:Company_Airbus_SE,
+        aero:Company_Dawn_Aerospace ;
+    aero:tradeName "Kea Aerospace"^^xsd:string ;
+    aero:website "https://www.keaaerospace.com"^^xsd:anyURI .
+
+aero:Company_Syos_Aerospace a aero:Company,
+        aero:Tier2Supplier ;
+    aero:businessNumber "NZ9429049182741"^^xsd:string ;
+    aero:controlledGoodsRegistered true ;
+    aero:hasCapability aero:Cap_Syos_Aerospace_1 ;
+    aero:headquartersCity "Auckland"^^xsd:string ;
+    aero:headquartersCountry "NZL"^^xsd:string ;
+    aero:headquartersProvince "Auckland"^^xsd:string ;
+    aero:holdsCertification aero:Cert_AS9100D,
+        aero:Cert_ISO9001 ;
+    aero:itarCompliant true ;
+    aero:legalName "Syos Aerospace Limited"^^xsd:string ;
+    aero:manufacturesProduct aero:Product_Syos_Aerospace_Syos_Heavy_Lift_Tactical_VTOL_Logistics_Drone ;
+    aero:operatesInDomain aero:AirPlatform,
+        aero:DomainDefence ;
+    aero:providesService aero:Service_Syos_Aerospace_Tactical_Drone_Contested_Logistics_Field_Testing_Autopilot_Flight_Profiling ;
+    aero:suppliesTo aero:Company_Rocket_Lab,
+        aero:Company_Tait_International ;
+    aero:tradeName "Syos Aerospace"^^xsd:string ;
+    aero:website "https://www.syos.aero"^^xsd:anyURI .
+
+aero:Company_Tait_International a aero:Company,
+        aero:Tier1Supplier ;
+    aero:businessNumber "NZ9429037482910"^^xsd:string ;
+    aero:controlledGoodsRegistered true ;
+    aero:hasCapability aero:Cap_Tait_International_1,
+        aero:Cap_Tait_International_2 ;
+    aero:hasDirectSupplier aero:Company_Aeronavics,
+        aero:Company_Syos_Aerospace ;
+    aero:headquartersCity "Christchurch"^^xsd:string ;
+    aero:headquartersCountry "NZL"^^xsd:string ;
+    aero:headquartersProvince "Canterbury"^^xsd:string ;
+    aero:holdsCertification aero:Cert_CMMC_Level2,
+        aero:Cert_FacilitySecurity_Secret,
+        aero:Cert_ISO27001,
+        aero:Cert_ISO9001 ;
+    aero:itarCompliant true ;
+    aero:legalName "Tait International Limited"^^xsd:string ;
+    aero:manufacturesProduct aero:Product_Tait_International_TB9400_P25_Phase_2_Base_Station_Repeater,
+        aero:Product_Tait_International_TP9600_P25_Phase_2_Tactical_Portable_Radio ;
+    aero:operatesInDomain aero:DomainC4ISR,
+        aero:DomainDefence ;
+    aero:providesService aero:Service_Tait_International_247_Tactical_Network_Operations_Center_NOC_Managed_Support,
+        aero:Service_Tait_International_MIL_STD_810H_Ruggedization_Cryptographic_Security_Auditing,
+        aero:Service_Tait_International_Radio_Fleet_In_Service_Support_and_Depot_Board_Repair,
+        aero:Service_Tait_International_Tactical_Network_Architecture_Design_RF_Propagation_Modeling ;
+    aero:tradeName "Tait Communications"^^xsd:string ;
+    aero:website "https://www.taitcommunications.com"^^xsd:anyURI .
 

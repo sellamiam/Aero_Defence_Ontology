@@ -1181,5 +1181,350 @@
         "accreditation": "ISO 9001"
       }
     ]
+  },
+  {
+    "legal_name": "Solar Industries India Limited",
+    "trade_name": "Solar Industries (Economic Explosives)",
+    "cage_code": null,
+    "duns_number": null,
+    "business_number": "IN27AABCS2918K1",
+    "country": "IND",
+    "city": "Nagpur",
+    "province": "Maharashtra",
+    "website": "https://www.solargroup.com",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "Cert_SCOMET_Compliant",
+      "FacilitySecurity_TopSecret"
+    ],
+    "domains": [
+      "LandPlatform",
+      "AirPlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_TacticalUAS",
+      "Platform_GroundCombatVehicle"
+    ],
+    "kics": [
+      "KIC_Munitions",
+      "KIC_AdvancedMaterials"
+    ],
+    "supplies_to": [
+      "Bharat Dynamics Limited",
+      "Hindustan Aeronautics Limited"
+    ],
+    "capabilities": [
+      {
+        "title": "Military High Explosives, Warheads & Pinaka Rocket Propellants",
+        "description": "Indigenous mass manufacture of HMX/RDX military high explosives, Pinaka multi-barrel rocket composite propellants, and warheads for loitering munitions (Nagastra-1).",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_Munitions"
+      }
+    ],
+    "products": [
+      {
+        "name": "Pinaka 214mm Extended Range Rocket Solid Propellant Grain",
+        "description": "Case-bonded hydroxyl-terminated polybutadiene (HTPB) composite solid propellant motor delivering 75km extended artillery range.",
+        "part_number": "PN-IND-SOL-PNK01",
+        "fsc_code": "1336",
+        "nsn_code": "1336-72-881-9021",
+        "platforms": [
+          "Platform_GroundCombatVehicle"
+        ],
+        "materials": [
+          "Material_Tungsten_HeavyAlloy",
+          "Material_ArmourSteel_MIL_A_46100"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Explosive Velocity of Detonation (VOD) & Closed-Bomb Burning Rate Analysis",
+        "description": "High-speed optical detonation velocity testing, strand burner propellant characterization, and shelf-life accelerated aging.",
+        "type": "EnergeticsTestingService",
+        "accreditation": "DRDO DGQA Approved"
+      }
+    ]
+  },
+  {
+    "legal_name": "Data Patterns (India) Limited",
+    "trade_name": "Data Patterns",
+    "cage_code": null,
+    "duns_number": null,
+    "business_number": "IN33AABCD2911L1",
+    "country": "IND",
+    "city": "Chennai",
+    "province": "Tamil Nadu",
+    "website": "https://www.datapatternsindia.com",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "Cert_SCOMET_Compliant"
+    ],
+    "domains": [
+      "AirPlatform",
+      "MaritimePlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_HAL_Tejas_LCA",
+      "Platform_SurfaceCombatant"
+    ],
+    "kics": [
+      "KIC_SensorsSonar",
+      "KIC_DefenceSystemsIntegration"
+    ],
+    "supplies_to": [
+      "Bharat Electronics Limited",
+      "Hindustan Aeronautics Limited"
+    ],
+    "capabilities": [
+      {
+        "title": "Digital Radar Processors, Missile Guidance Computers & Electronic Warfare Units",
+        "description": "Design and manufacture of multi-core digital signal processors for active phased array radars, fiber-optic avionics computers, and seeker electronic modules.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_SensorsSonar"
+      }
+    ],
+    "products": [
+      {
+        "name": "Airborne Radar Real-Time Signal Processing Unit (RSPU)",
+        "description": "High-throughput FPGA-based radar signal processor executing pulse Doppler filtering and target track-while-scan algorithms.",
+        "part_number": "PN-IND-DTP-RSP01",
+        "fsc_code": "5841",
+        "nsn_code": "5841-72-551-8912",
+        "platforms": [
+          "Platform_HAL_Tejas_LCA"
+        ],
+        "materials": [
+          "Material_Aluminium_7075_T6"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Avionics DO-254 Hardware & DO-178C Software Verification",
+        "description": "Formal hardware design assurance, timing closure validation, and military flight-critical software code auditing.",
+        "type": "AvionicsCertificationService",
+        "accreditation": "CEMILAC Certified"
+      }
+    ]
+  },
+  {
+    "legal_name": "Astra Microwave Products Limited",
+    "trade_name": "Astra Microwave",
+    "cage_code": null,
+    "duns_number": null,
+    "business_number": "IN36AABCA3012M1",
+    "country": "IND",
+    "city": "Hyderabad",
+    "province": "Telangana",
+    "website": "https://www.astramwp.com",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "Cert_SCOMET_Compliant"
+    ],
+    "domains": [
+      "AirPlatform",
+      "MaritimePlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_HAL_Tejas_LCA",
+      "Platform_SurfaceCombatant"
+    ],
+    "kics": [
+      "KIC_SensorsSonar",
+      "KIC_DefenceSystemsIntegration"
+    ],
+    "supplies_to": [
+      "Bharat Electronics Limited",
+      "Bharat Dynamics Limited"
+    ],
+    "capabilities": [
+      {
+        "title": "Gallium Nitride (GaN) Active Phased Array Radar T/R Modules & Telemetry Subsystems",
+        "description": "Design and cleanroom packaging of quad-core Transmit/Receive (T/R) modules for Uttam AESA airborne radar and missile radar proximity fuzes.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_SensorsSonar"
+      }
+    ],
+    "products": [
+      {
+        "name": "X-Band GaN Radar Transmit/Receive (T/R) Module",
+        "description": "High-efficiency Gallium Nitride multi-chip module delivering 20W pulsed RF power for active phased array radar antennas.",
+        "part_number": "PN-IND-AST-TRM01",
+        "fsc_code": "5963",
+        "nsn_code": "5963-72-991-3812",
+        "platforms": [
+          "Platform_HAL_Tejas_LCA"
+        ],
+        "materials": [
+          "Material_GalliumNitride_GaN",
+          "Material_SiliconCarbide_SiC"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "RF Cleanroom Microwave Module Wire Bonding & Automated Vector Network Analysis",
+        "description": "Automatic gold wire ball bonding, hermetic seam welding, and multi-port S-parameter RF testing up to 40 GHz.",
+        "type": "MicroelectronicTestingService",
+        "accreditation": "ISO 9001"
+      }
+    ]
+  },
+  {
+    "legal_name": "Kalyani Strategic Systems Limited",
+    "trade_name": "Kalyani Defence (Bharat Forge)",
+    "cage_code": null,
+    "duns_number": null,
+    "business_number": "IN27AABCK2919N1",
+    "country": "IND",
+    "city": "Pune",
+    "province": "Maharashtra",
+    "website": "https://www.kalyanigroup.com",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "Cert_SCOMET_Compliant",
+      "FacilitySecurity_TopSecret"
+    ],
+    "domains": [
+      "LandPlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_GroundCombatVehicle",
+      "Platform_ArmouredCombatVehicle"
+    ],
+    "kics": [
+      "KIC_GroundCombatVehicles",
+      "KIC_Munitions",
+      "KIC_AdvancedMaterials"
+    ],
+    "supplies_to": [
+      "Tata Advanced Systems Limited",
+      "Larsen & Toubro Limited - Defence"
+    ],
+    "capabilities": [
+      {
+        "title": "Artillery Systems (ATAGS), Heavy Precision Forgings & Armoured Combat Vehicles",
+        "description": "Indigenous development of 155mm 52-cal Advanced Towed Artillery Gun System (ATAGS), electroslag refined gun steel forgings, and M4 mine-protected armoured vehicles.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_GroundCombatVehicles"
+      }
+    ],
+    "products": [
+      {
+        "name": "155mm 52-Caliber Electroslag Refined Forged Artillery Barrel",
+        "description": "High-strength autofrettaged forged steel barrel assembly for indigenous towed and truck-mounted heavy artillery systems.",
+        "part_number": "PN-IND-KLY-ATAGS",
+        "fsc_code": "1025",
+        "nsn_code": "1025-72-401-9921",
+        "platforms": [
+          "Platform_GroundCombatVehicle"
+        ],
+        "materials": [
+          "Material_ArmourSteel_MIL_A_46100",
+          "Material_Titanium_Ti6Al4V"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Heavy Gun Barrel Autofrettage & Ultrasonic Flaw Characterization",
+        "description": "Ultra-high pressure hydraulic bore expansion, full-length ultrasonic immersion scanning, and metallurgy grain flow inspection.",
+        "type": "ForgingInspectionService",
+        "accreditation": "DRDO Approved"
+      }
+    ]
+  },
+  {
+    "legal_name": "Sika Interplant Systems Limited",
+    "trade_name": "Sika Interplant",
+    "cage_code": null,
+    "duns_number": null,
+    "business_number": "IN29AABCS3019P1",
+    "country": "IND",
+    "city": "Bengaluru",
+    "province": "Karnataka",
+    "website": "https://www.sikaglobal.com",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "Cert_SCOMET_Compliant"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_HAL_Tejas_LCA",
+      "Platform_RotaryWing"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems",
+      "KIC_InServiceSupport"
+    ],
+    "supplies_to": [
+      "Hindustan Aeronautics Limited",
+      "Dynamatic Technologies Limited"
+    ],
+    "capabilities": [
+      {
+        "title": "Airborne Hydraulic Actuators, Rescue Winches & Aircraft MRO Engineering",
+        "description": "Design and manufacture of landing gear steering and retraction hydraulic actuators, military helicopter rescue hoists, and tactical searchlights.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_AerospaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Helicopter Electric Rescue Hoist Assembly",
+        "description": "Variable-speed externally mounted electric rescue winch with 600 lb lift capacity for military search and rescue helicopters.",
+        "part_number": "PN-IND-SIK-HST01",
+        "fsc_code": "1680",
+        "nsn_code": "1680-72-118-2049",
+        "platforms": [
+          "Platform_RotaryWing"
+        ],
+        "materials": [
+          "Material_Aluminium_7075_T6",
+          "Material_Titanium_Ti6Al4V"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Hydraulic Flight Control Actuator Dynamic Proof Pressure Overhaul",
+        "description": "5000-psi hydraulic fluid contamination cleaning, dynamic stroke seal replacement, and load cell response testing.",
+        "type": "HydraulicsOverhaulService",
+        "accreditation": "DGCA Part 145"
+      }
+    ]
   }
 ]

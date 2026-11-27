@@ -30,7 +30,7 @@ def test_uk_harvester(tmp_path):
     harvester = UKHarvester()
     harvester.output_dir = tmp_path
     records = harvester.harvest(limit=25)
-    assert len(records) == 14
+    assert len(records) == 25
     for r in records:
         assert r["country"] == "GBR"
         assert r["legal_name"]
@@ -41,7 +41,7 @@ def test_eu_harvester(tmp_path):
     harvester = EUHarvester()
     harvester.output_dir = tmp_path
     records = harvester.harvest(limit=25)
-    assert len(records) == 14
+    assert len(records) == 25
     for r in records:
         assert len(r["country"]) == 3
         assert r["legal_name"]

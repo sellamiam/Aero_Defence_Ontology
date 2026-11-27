@@ -879,6 +879,279 @@ class AustraliaHarvester(BaseHarvester):
                         'tier': 'Tier1Supplier',
                         'trade_name': 'Thomas Global Systems',
                         'website': 'https://www.thomas-global.com'}
+        ,
+{
+                "legal_name": "Lovitt Technologies Australia Pty Ltd",
+                "trade_name": "Lovitt Technologies",
+                "cage_code": None,
+                "duns_number": None,
+                "business_number": "AU31004819284",
+                "country": "AUS",
+                "city": "Montmorency",
+                "province": "VIC",
+                "website": "https://www.lovitt.com.au",
+                "tier": "Tier2Supplier",
+                "controlled_goods": True,
+                "itar_compliant": True,
+                "certifications": [
+                                "AS9100D",
+                                "ISO9001",
+                                "DISP_Level3"
+                ],
+                "domains": [
+                                "AirPlatform",
+                                "DomainDefence"
+                ],
+                "platforms": [
+                                "Platform_F35_Lightning_II",
+                                "Platform_FA18_SuperHornet"
+                ],
+                "kics": [
+                                "KIC_AerospaceSystems",
+                                "KIC_AdvancedMaterials"
+                ],
+                "supplies_to": [
+                                "Lockheed Martin Corporation",
+                                "The Boeing Company",
+                                "Ferra Engineering Pty Ltd"
+                ],
+                "capabilities": [
+                                {
+                                                "title": "Precision 5-Axis Heavy Titanium & Superalloy CNC Machining",
+                                                "description": "Complex machining of structural F-35 airframe titanium components, engine mounts, and pylon attach fittings from solid monolithic billets.",
+                                                "trl": 9,
+                                                "mrl": 9,
+                                                "kic": "KIC_AerospaceSystems"
+                                }
+                ],
+                "products": [
+                                {
+                                                "name": "F-35 Engine Mount Tension Link Structural Fitting",
+                                                "description": "Monolithic 5-axis machined titanium Ti-6Al-4V tension link supporting F135 turbofan engine loads.",
+                                                "part_number": "PN-AUS-LVT-F35ML",
+                                                "fsc_code": "1560",
+                                                "nsn_code": "1560-66-812-4019",
+                                                "platforms": [
+                                                                "Platform_F35_Lightning_II"
+                                                ],
+                                                "materials": [
+                                                                "Material_Titanium_Ti6Al4V"
+                                                ]
+                                }
+                ],
+                "services": [
+                                {
+                                                "name": "High-Speed Titanium Monolithic CMM Metrology & Fluorescent Penetrant Inspection",
+                                                "description": "Sub-micron laser scanning CMM verification, dye penetrant surface flaw detection, and surface shot-peening recertification.",
+                                                "type": "PrecisionInspectionService",
+                                                "accreditation": "NADCAP NDT"
+                                }
+                ]
+},
+{
+                "legal_name": "Gilmour Space Technologies Pty Ltd",
+                "trade_name": "Gilmour Space",
+                "cage_code": None,
+                "duns_number": None,
+                "business_number": "AU48602918274",
+                "country": "AUS",
+                "city": "Helensvale",
+                "province": "QLD",
+                "website": "https://www.gspacetech.com",
+                "tier": "Prime",
+                "controlled_goods": True,
+                "itar_compliant": True,
+                "certifications": [
+                                "AS9100D",
+                                "ISO9001",
+                                "DISP_Level2"
+                ],
+                "domains": [
+                                "SpacePlatform",
+                                "DomainSpace",
+                                "DomainDefence"
+                ],
+                "platforms": [
+                                "Platform_SpaceLaunchVehicle"
+                ],
+                "kics": [
+                                "KIC_SpaceSystems",
+                                "KIC_AdvancedMaterials"
+                ],
+                "supplies_to": [
+                                "Electro Optic Systems Pty Ltd",
+                                "BAE Systems Australia Limited"
+                ],
+                "capabilities": [
+                                {
+                                                "title": "Hybrid Rocket Propulsion & Sovereign Orbital Launch Vehicle (Eris)",
+                                                "description": "Indigenous development of proprietary hybrid rocket propulsion systems, composite propellant tanks, and dedicated orbital satellite launch capability.",
+                                                "trl": 8,
+                                                "mrl": 7,
+                                                "kic": "KIC_SpaceSystems"
+                                }
+                ],
+                "products": [
+                                {
+                                                "name": "Sirius Hybrid Rocket Motor Propulsion Unit",
+                                                "description": "Single-burn proprietary polymer-solid fuel and liquid oxygen hybrid rocket motor generating 115 kN thrust.",
+                                                "part_number": "PN-AUS-GLM-SRS01",
+                                                "fsc_code": "1336",
+                                                "nsn_code": "1336-66-992-1029",
+                                                "platforms": [
+                                                                "Platform_SpaceLaunchVehicle"
+                                                ],
+                                                "materials": [
+                                                                "Material_CarbonFiber_Composite",
+                                                                "Material_Inconel_718"
+                                                ]
+                                }
+                ],
+                "services": [
+                                {
+                                                "name": "Static Rocket Motor Test Stand Firing & High-Altitude Flight Operations",
+                                                "description": "Multi-channel load cell thrust logging, chamber pressure telemetry analysis, and orbital trajectory range safety support.",
+                                                "type": "LaunchRangeService",
+                                                "accreditation": "ASA Launch Permit"
+                                }
+                ]
+},
+{
+                "legal_name": "G.H. Varley Pty Ltd",
+                "trade_name": "Varley Group",
+                "cage_code": None,
+                "duns_number": None,
+                "business_number": "AU78000008271",
+                "country": "AUS",
+                "city": "Tomago",
+                "province": "NSW",
+                "website": "https://www.varleygroup.com",
+                "tier": "Tier2Supplier",
+                "controlled_goods": True,
+                "itar_compliant": True,
+                "certifications": [
+                                "AS9100D",
+                                "ISO9001",
+                                "DISP_Level3"
+                ],
+                "domains": [
+                                "LandPlatform",
+                                "DomainDefence"
+                ],
+                "platforms": [
+                                "Platform_ArmouredCombatVehicle",
+                                "Platform_GroundCombatVehicle"
+                ],
+                "kics": [
+                                "KIC_GroundCombatVehicles",
+                                "KIC_C4ISRSystems"
+                ],
+                "supplies_to": [
+                                "Lockheed Martin Corporation",
+                                "Raytheon Company",
+                                "BAE Systems Australia Limited"
+                ],
+                "capabilities": [
+                                {
+                                                "title": "Ruggedized Deployable Military Shelters & Missile Ground Support Equipment",
+                                                "description": "Turnkey engineering of ISO tactical communications shelters, radar transport trailers, and missile canister mechanical transporters.",
+                                                "trl": 9,
+                                                "mrl": 9,
+                                                "kic": "KIC_GroundCombatVehicles"
+                                }
+                ],
+                "products": [
+                                {
+                                                "name": "Tactical Expandable Command & Control (C2) Container Shelter",
+                                                "description": "EMI-shielded ISO 20-foot expandable shelter with integrated environmental control and power conditioning for field tactical operations.",
+                                                "part_number": "PN-AUS-VRL-C2S20",
+                                                "fsc_code": "5411",
+                                                "nsn_code": "5411-66-419-8812",
+                                                "platforms": [
+                                                                "Platform_ArmouredCombatVehicle",
+                                                                "Platform_GroundCombatVehicle"
+                                                ],
+                                                "materials": [
+                                                                "Material_Aluminium_7075_T6"
+                                                ]
+                                }
+                ],
+                "services": [
+                                {
+                                                "name": "Shelter High-Attenuation RF Shielding Certification & Climatic Chamber Testing",
+                                                "description": "Mil-Std-188-125 EMP attenuation verification, rain intrusion testing, and extreme desert/arctic environmental conditioning.",
+                                                "type": "ShelterTestingService",
+                                                "accreditation": "ISO 9001"
+                                }
+                ]
+},
+{
+                "legal_name": "DefendTex Pty Ltd",
+                "trade_name": "DefendTex",
+                "cage_code": None,
+                "duns_number": None,
+                "business_number": "AU59169284102",
+                "country": "AUS",
+                "city": "Melbourne",
+                "province": "VIC",
+                "website": "https://www.defendtex.com",
+                "tier": "Tier2Supplier",
+                "controlled_goods": True,
+                "itar_compliant": True,
+                "certifications": [
+                                "AS9100D",
+                                "ISO9001",
+                                "DISP_Level3"
+                ],
+                "domains": [
+                                "LandPlatform",
+                                "DomainDefence"
+                ],
+                "platforms": [
+                                "Platform_TacticalUAS"
+                ],
+                "kics": [
+                                "KIC_Munitions",
+                                "KIC_RemotelyPilotedSystems"
+                ],
+                "supplies_to": [
+                                "Electro Optic Systems Pty Ltd",
+                                "NIOA Group Pty Ltd"
+                ],
+                "capabilities": [
+                                {
+                                                "title": "Loitering Munition Drone Systems & Advanced Energetic Nanomaterials",
+                                                "description": "Design and manufacture of 40mm tube-launched Drone-40 loitering munitions, counter-defilade kinetic warheads, and swarm logic algorithms.",
+                                                "trl": 8,
+                                                "mrl": 8,
+                                                "kic": "KIC_Munitions"
+                                }
+                ],
+                "products": [
+                                {
+                                                "name": "Drone-40 Tube-Launched Tactical Loitering Munition",
+                                                "description": "40mm grenade launcher deployed reconnaissance and anti-armor loitering munition with 45-minute flight endurance.",
+                                                "part_number": "PN-AUS-DFX-D40",
+                                                "fsc_code": "1330",
+                                                "nsn_code": "1330-66-881-2099",
+                                                "platforms": [
+                                                                "Platform_TacticalUAS"
+                                                ],
+                                                "materials": [
+                                                                "Material_CarbonFiber_Composite",
+                                                                "Material_Aluminium_7075_T6"
+                                                ]
+                                }
+                ],
+                "services": [
+                                {
+                                                "name": "Autonomous Drone Swarm Flight Path Simulation & Target Tracking Verification",
+                                                "description": "Hardware-in-the-loop swarm coordinate navigation testing and warhead safe-and-arm electronic qualification.",
+                                                "type": "DroneSafetyService",
+                                                "accreditation": "CASA / ADF Approved"
+                                }
+                ]
+}
         ]
 
     def harvest(self, limit: Optional[int] = None) -> List[Dict[str, Any]]:

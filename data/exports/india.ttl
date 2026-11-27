@@ -2,101 +2,6 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-aero:Company_Bharat_Dynamics a aero:Company,
-        aero:PrimeContractor ;
-    aero:businessNumber "IN36AAACB0001Z5"^^xsd:string ;
-    aero:cageCode "1824A"^^xsd:string ;
-    aero:controlledGoodsRegistered true ;
-    aero:hasCapability aero:Cap_Bharat_Dynamics_1,
-        aero:Cap_Bharat_Dynamics_2 ;
-    aero:headquartersCity "Hyderabad"^^xsd:string ;
-    aero:headquartersCountry "IND"^^xsd:string ;
-    aero:headquartersProvince "Telangana"^^xsd:string ;
-    aero:holdsCertification aero:Cert_AS9100D,
-        aero:Cert_FacilitySecurity_TopSecret,
-        aero:Cert_ISO9001,
-        aero:Cert_SCOMET_Compliant ;
-    aero:itarCompliant true ;
-    aero:legalName "Bharat Dynamics Limited"^^xsd:string ;
-    aero:manufacturesProduct aero:Product_Bharat_Dynamics_Astra_Beyond_Visual_Range_BVR_Air_to_Air_Missile,
-        aero:Product_Bharat_Dynamics_Varunastra_Heavyweight_Anti_Submarine_Torpedo ;
-    aero:operatesInDomain aero:AirPlatform,
-        aero:DomainDefence,
-        aero:LandPlatform,
-        aero:MaritimePlatform ;
-    aero:providesService aero:Service_Bharat_Dynamics_Missile_In_Canister_Depot_Inspection_and_Life_Extension_SLEP,
-        aero:Service_Bharat_Dynamics_Missile_Seeker_RF_and_Optical_Hardware_in_the_Loop_Simulation,
-        aero:Service_Bharat_Dynamics_Precision_Missile_Gyro_and_Actuator_Cleanroom_Assembly,
-        aero:Service_Bharat_Dynamics_Solid_Propellant_Grain_Radiography_and_Bond_Line_Ultrasonic_Testing,
-        aero:Service_Bharat_Dynamics_Strategic_Munitions_Storage_Safety_and_Spares_Logistics ;
-    aero:tradeName "BDL"^^xsd:string ;
-    aero:website "https://bdl-india.in"^^xsd:anyURI .
-
-aero:Company_Bharat_Electronics a aero:Company,
-        aero:PrimeContractor ;
-    aero:businessNumber "IN29AAACB0001Z2"^^xsd:string ;
-    aero:cageCode "1812A"^^xsd:string ;
-    aero:controlledGoodsRegistered true ;
-    aero:hasCapability aero:Cap_Bharat_Electronics_1,
-        aero:Cap_Bharat_Electronics_2,
-        aero:Cap_Bharat_Electronics_3 ;
-    aero:headquartersCity "Bengaluru"^^xsd:string ;
-    aero:headquartersCountry "IND"^^xsd:string ;
-    aero:headquartersProvince "Karnataka"^^xsd:string ;
-    aero:holdsCertification aero:Cert_AS9100D,
-        aero:Cert_FacilitySecurity_TopSecret,
-        aero:Cert_ISO9001,
-        aero:Cert_NATO_AQAP2110,
-        aero:Cert_SCOMET_Compliant ;
-    aero:itarCompliant true ;
-    aero:legalName "Bharat Electronics Limited"^^xsd:string ;
-    aero:manufacturesProduct aero:Product_Bharat_Electronics_HUMSA_NG_Advanced_Naval_ActivePassive_Sonar,
-        aero:Product_Bharat_Electronics_STARS_V_Software_Defined_Radio_SDR,
-        aero:Product_Bharat_Electronics_Uttam_AESA_Fire_Control_Radar ;
-    aero:operatesInDomain aero:AirPlatform,
-        aero:DomainC4ISR,
-        aero:DomainDefence,
-        aero:LandPlatform,
-        aero:MaritimePlatform ;
-    aero:providesService aero:Service_Bharat_Electronics_Defence_Microelectronics_Packaging_and_PCB_SMT_Overhaul,
-        aero:Service_Bharat_Electronics_Depot_Level_Maintenance_and_Field_Spares_Support,
-        aero:Service_Bharat_Electronics_Naval_Combat_System_Shipboard_Integration_and_Harbour_Trials,
-        aero:Service_Bharat_Electronics_Radar_and_EW_Anechoic_Chamber_RF_Qualification_Testing,
-        aero:Service_Bharat_Electronics_Tactical_C4ISR_Cyber_Hardening_and_Vulnerability_Assessment ;
-    aero:tradeName "BEL"^^xsd:string ;
-    aero:website "https://bel-india.in"^^xsd:anyURI .
-
-aero:Company_Larsen_Toubro_Defence a aero:Company,
-        aero:PrimeContractor ;
-    aero:businessNumber "IN27AAACL0001Z4"^^xsd:string ;
-    aero:cageCode "1876A"^^xsd:string ;
-    aero:controlledGoodsRegistered true ;
-    aero:hasCapability aero:Cap_Larsen_Toubro_Defence_1,
-        aero:Cap_Larsen_Toubro_Defence_2,
-        aero:Cap_Larsen_Toubro_Defence_3 ;
-    aero:headquartersCity "Mumbai"^^xsd:string ;
-    aero:headquartersCountry "IND"^^xsd:string ;
-    aero:headquartersProvince "Maharashtra"^^xsd:string ;
-    aero:holdsCertification aero:Cert_AS9100D,
-        aero:Cert_FacilitySecurity_TopSecret,
-        aero:Cert_ISO9001,
-        aero:Cert_NATO_AQAP2110,
-        aero:Cert_SCOMET_Compliant ;
-    aero:itarCompliant true ;
-    aero:legalName "Larsen & Toubro Limited - Defence"^^xsd:string ;
-    aero:manufacturesProduct aero:Product_Larsen_Toubro_Defence_K9_Vajra_T_155mm52_Calibre_Tracked_Self_Propelled_Howitzer,
-        aero:Product_Larsen_Toubro_Defence_Submarine_Modular_Pressure_Hull_Section ;
-    aero:operatesInDomain aero:DomainDefence,
-        aero:LandPlatform,
-        aero:MaritimePlatform ;
-    aero:providesService aero:Service_Larsen_Toubro_Defence_Artillery_Fire_Control_Ballistic_Calibration_and_Range_Testing,
-        aero:Service_Larsen_Toubro_Defence_Heavy_Marine_Hydraulic_and_Weapon_Launcher_Depot_Maintenance,
-        aero:Service_Larsen_Toubro_Defence_Precision_Heavy_7_Axis_Floor_Borer_Machining,
-        aero:Service_Larsen_Toubro_Defence_Submarine_Pressure_Hull_Non_Destructive_Radiography_and_Ultrasonic_NDT,
-        aero:Service_Larsen_Toubro_Defence_Warship_In_Service_Fleet_Support_and_Dockyard_Modernization ;
-    aero:tradeName "L&T Defence"^^xsd:string ;
-    aero:website "https://www.larsentoubro.com/defence"^^xsd:anyURI .
-
 aero:Company_Paras_Defence_And_Space_Technologies a aero:Company,
         aero:Tier1Supplier ;
     aero:businessNumber "IN27AAACP0003Z8"^^xsd:string ;
@@ -209,6 +114,13 @@ aero:Company_ideaForge_Technology a aero:Company,
     aero:tradeName "ideaForge"^^xsd:string ;
     aero:website "https://ideaforgetech.com"^^xsd:anyURI .
 
+aero:Cap_Astra_Microwave_Products_1 a aero:Capability ;
+    rdfs:label "Gallium Nitride (GaN) Active Phased Array Radar T/R Modules & Telemetry Subsystems"^^xsd:string ;
+    aero:alignedWithKIC aero:KIC_SensorsSonar ;
+    aero:capabilityDescription "Design and cleanroom packaging of quad-core Transmit/Receive (T/R) modules for Uttam AESA airborne radar and missile radar proximity fuzes."^^xsd:string ;
+    aero:mrlValue 9 ;
+    aero:trlValue 9 .
+
 aero:Cap_Bharat_Dynamics_1 a aero:Capability ;
     rdfs:label "Guided Missile System Manufacturing & Final Integration"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_Munitions ;
@@ -241,6 +153,13 @@ aero:Cap_Bharat_Electronics_3 a aero:Capability ;
     rdfs:label "Tactical Electronic Warfare (EW) and ECM/ESM Suites"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_SensorsSonar ;
     aero:capabilityDescription "Wideband digital receivers, DRFM-based radar jammers, missile approach warning systems, and integrated defensive aids suites."^^xsd:string ;
+    aero:mrlValue 9 ;
+    aero:trlValue 9 .
+
+aero:Cap_Data_Patterns_India_1 a aero:Capability ;
+    rdfs:label "Digital Radar Processors, Missile Guidance Computers & Electronic Warfare Units"^^xsd:string ;
+    aero:alignedWithKIC aero:KIC_SensorsSonar ;
+    aero:capabilityDescription "Design and manufacture of multi-core digital signal processors for active phased array radars, fiber-optic avionics computers, and seeker electronic modules."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
@@ -279,6 +198,13 @@ aero:Cap_Hindustan_Aeronautics_3 a aero:Capability ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
+aero:Cap_Kalyani_Strategic_Systems_1 a aero:Capability ;
+    rdfs:label "Artillery Systems (ATAGS), Heavy Precision Forgings & Armoured Combat Vehicles"^^xsd:string ;
+    aero:alignedWithKIC aero:KIC_GroundCombatVehicles ;
+    aero:capabilityDescription "Indigenous development of 155mm 52-cal Advanced Towed Artillery Gun System (ATAGS), electroslag refined gun steel forgings, and M4 mine-protected armoured vehicles."^^xsd:string ;
+    aero:mrlValue 9 ;
+    aero:trlValue 9 .
+
 aero:Cap_Larsen_Toubro_Defence_1 a aero:Capability ;
     rdfs:label "Submarine Pressure Hull Construction and Heavy Mechanical Systems"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_NavalShipbuilding ;
@@ -311,6 +237,20 @@ aero:Cap_Paras_Defence_And_Space_Technologies_2 a aero:Capability ;
     rdfs:label "Electromagnetic Pulse (EMP) Shielding and High-Power Microwave Protection"^^xsd:string ;
     aero:alignedWithKIC aero:KIC_CyberResilience ;
     aero:capabilityDescription "Full EMP / HEMP MIL-STD-188-125 shielded enclosures, power and signal line surge suppression filters, and TEMPEST server racks."^^xsd:string ;
+    aero:mrlValue 9 ;
+    aero:trlValue 9 .
+
+aero:Cap_Sika_Interplant_Systems_1 a aero:Capability ;
+    rdfs:label "Airborne Hydraulic Actuators, Rescue Winches & Aircraft MRO Engineering"^^xsd:string ;
+    aero:alignedWithKIC aero:KIC_AerospaceSystems ;
+    aero:capabilityDescription "Design and manufacture of landing gear steering and retraction hydraulic actuators, military helicopter rescue hoists, and tactical searchlights."^^xsd:string ;
+    aero:mrlValue 9 ;
+    aero:trlValue 9 .
+
+aero:Cap_Solar_Industries_India_1 a aero:Capability ;
+    rdfs:label "Military High Explosives, Warheads & Pinaka Rocket Propellants"^^xsd:string ;
+    aero:alignedWithKIC aero:KIC_Munitions ;
+    aero:capabilityDescription "Indigenous mass manufacture of HMX/RDX military high explosives, Pinaka multi-barrel rocket composite propellants, and warheads for loitering munitions (Nagastra-1)."^^xsd:string ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
@@ -377,68 +317,47 @@ aero:Cap_ideaForge_Technology_2 a aero:Capability ;
     aero:mrlValue 9 ;
     aero:trlValue 9 .
 
-aero:Company_Dynamatic_Technologies a aero:Company,
-        aero:Tier1Supplier ;
-    aero:businessNumber "IN29AAACD0001Z6"^^xsd:string ;
-    aero:cageCode "1910A"^^xsd:string ;
-    aero:controlledGoodsRegistered true ;
-    aero:hasCapability aero:Cap_Dynamatic_Technologies_1,
-        aero:Cap_Dynamatic_Technologies_2 ;
-    aero:headquartersCity "Bengaluru"^^xsd:string ;
-    aero:headquartersCountry "IND"^^xsd:string ;
-    aero:headquartersProvince "Karnataka"^^xsd:string ;
-    aero:holdsCertification aero:Cert_AS9100D,
-        aero:Cert_ISO9001,
-        aero:Cert_NADCAP_Chemical,
-        aero:Cert_NADCAP_NDT,
-        aero:Cert_NADCAP_Welding ;
-    aero:itarCompliant true ;
-    aero:legalName "Dynamatic Technologies Limited"^^xsd:string ;
-    aero:manufacturesProduct aero:Product_Dynamatic_Technologies_P_8_Poseidon_Aft_Pylon_and_Cargo_Door_Assembly,
-        aero:Product_Dynamatic_Technologies_Tejas_LCA_Front_Fuselage_Major_Subassembly ;
-    aero:operatesInDomain aero:AirPlatform,
-        aero:DomainAeronautics,
-        aero:DomainDefence ;
-    aero:providesService aero:Service_Dynamatic_Technologies_Aerospace_Coordinate_Metrology_and_Laser_Tracker_Verification,
-        aero:Service_Dynamatic_Technologies_Aerospace_Surface_Treatment_Anodizing_Chemical_Conversion,
-        aero:Service_Dynamatic_Technologies_Complex_Major_Assembly_Jigs_Tooling_Design,
-        aero:Service_Dynamatic_Technologies_JIT_Aerospace_Global_Supply_Logistics_Management,
-        aero:Service_Dynamatic_Technologies_Structural_Subassembly_Depot_Repair_and_Modification ;
-    aero:suppliesTo aero:Company_Hindustan_Aeronautics ;
-    aero:tradeName "Dynamatic Aerospace"^^xsd:string ;
-    aero:website "https://www.dynamatics.com"^^xsd:anyURI .
-
-aero:Company_Tata_Advanced_Systems a aero:Company,
+aero:Company_Larsen_Toubro_Defence a aero:Company,
         aero:PrimeContractor ;
-    aero:businessNumber "IN36AAACT0001Z3"^^xsd:string ;
-    aero:cageCode "1850A"^^xsd:string ;
+    aero:businessNumber "IN27AAACL0001Z4"^^xsd:string ;
+    aero:cageCode "1876A"^^xsd:string ;
     aero:controlledGoodsRegistered true ;
-    aero:hasCapability aero:Cap_Tata_Advanced_Systems_1,
-        aero:Cap_Tata_Advanced_Systems_2,
-        aero:Cap_Tata_Advanced_Systems_3 ;
-    aero:headquartersCity "Hyderabad"^^xsd:string ;
+    aero:hasCapability aero:Cap_Larsen_Toubro_Defence_1,
+        aero:Cap_Larsen_Toubro_Defence_2,
+        aero:Cap_Larsen_Toubro_Defence_3 ;
+    aero:hasDirectSupplier aero:Company_Kalyani_Strategic_Systems ;
+    aero:headquartersCity "Mumbai"^^xsd:string ;
     aero:headquartersCountry "IND"^^xsd:string ;
-    aero:headquartersProvince "Telangana"^^xsd:string ;
+    aero:headquartersProvince "Maharashtra"^^xsd:string ;
     aero:holdsCertification aero:Cert_AS9100D,
         aero:Cert_FacilitySecurity_TopSecret,
         aero:Cert_ISO9001,
+        aero:Cert_NATO_AQAP2110,
         aero:Cert_SCOMET_Compliant ;
     aero:itarCompliant true ;
-    aero:legalName "Tata Advanced Systems Limited"^^xsd:string ;
-    aero:manufacturesProduct aero:Product_Tata_Advanced_Systems_AH_64_Apache_Primary_Fuselage_Assembly,
-        aero:Product_Tata_Advanced_Systems_Wheeled_Armoured_Platform_WhAP_8x8 ;
-    aero:operatesInDomain aero:AirPlatform,
-        aero:DomainAeronautics,
-        aero:DomainDefence,
-        aero:LandPlatform ;
-    aero:providesService aero:Service_Tata_Advanced_Systems_Aerostructures_5_Axis_Milling_and_Autoclave_Processing,
-        aero:Service_Tata_Advanced_Systems_Aircraft_Subassembly_Non_Destructive_Ultrasonic_C_Scan_Inspection,
-        aero:Service_Tata_Advanced_Systems_Armoured_Vehicle_Hull_Ballistic_and_Blast_Qualification,
-        aero:Service_Tata_Advanced_Systems_Military_Aircraft_Flight_Line_Preparation_and_Delivery_Acceptance,
-        aero:Service_Tata_Advanced_Systems_Turnkey_Defence_Program_Supply_Chain_and_Global_Logistics ;
-    aero:suppliesTo aero:Company_Hindustan_Aeronautics ;
-    aero:tradeName "TASL"^^xsd:string ;
-    aero:website "https://www.tataadvancedsystems.com"^^xsd:anyURI .
+    aero:legalName "Larsen & Toubro Limited - Defence"^^xsd:string ;
+    aero:manufacturesProduct aero:Product_Larsen_Toubro_Defence_K9_Vajra_T_155mm52_Calibre_Tracked_Self_Propelled_Howitzer,
+        aero:Product_Larsen_Toubro_Defence_Submarine_Modular_Pressure_Hull_Section ;
+    aero:operatesInDomain aero:DomainDefence,
+        aero:LandPlatform,
+        aero:MaritimePlatform ;
+    aero:providesService aero:Service_Larsen_Toubro_Defence_Artillery_Fire_Control_Ballistic_Calibration_and_Range_Testing,
+        aero:Service_Larsen_Toubro_Defence_Heavy_Marine_Hydraulic_and_Weapon_Launcher_Depot_Maintenance,
+        aero:Service_Larsen_Toubro_Defence_Precision_Heavy_7_Axis_Floor_Borer_Machining,
+        aero:Service_Larsen_Toubro_Defence_Submarine_Pressure_Hull_Non_Destructive_Radiography_and_Ultrasonic_NDT,
+        aero:Service_Larsen_Toubro_Defence_Warship_In_Service_Fleet_Support_and_Dockyard_Modernization ;
+    aero:tradeName "L&T Defence"^^xsd:string ;
+    aero:website "https://www.larsentoubro.com/defence"^^xsd:anyURI .
+
+aero:Product_Astra_Microwave_Products_X_Band_GaN_Radar_TransmitReceive_TR_Module a aero:Product ;
+    rdfs:label "X-Band GaN Radar Transmit/Receive (T/R) Module"^^xsd:string ;
+    aero:dependsOnMaterial aero:Material_GalliumNitride_GaN,
+        aero:Material_SiliconCarbide_SiC ;
+    aero:deployedOnPlatform aero:Platform_HAL_Tejas_LCA ;
+    aero:fscCode "5963"^^xsd:string ;
+    aero:nsnCode "5963-72-991-3812"^^xsd:string ;
+    aero:partNumber "PN-IND-AST-TRM01"^^xsd:string ;
+    aero:productDescription "High-efficiency Gallium Nitride multi-chip module delivering 20W pulsed RF power for active phased array radar antennas."^^xsd:string .
 
 aero:Product_Bharat_Dynamics_Astra_Beyond_Visual_Range_BVR_Air_to_Air_Missile a aero:Product ;
     rdfs:label "Astra Beyond-Visual-Range (BVR) Air-to-Air Missile"^^xsd:string ;
@@ -490,6 +409,15 @@ aero:Product_Bharat_Electronics_Uttam_AESA_Fire_Control_Radar a aero:Product ;
     aero:partNumber "PN-IND-BEL-UTM01"^^xsd:string ;
     aero:productDescription "Multi-mode solid-state Gallium Arsenide/Gallium Nitride AESA airborne radar providing long-range air-to-air tracking and high-resolution SAR ground imaging."^^xsd:string .
 
+aero:Product_Data_Patterns_India_Airborne_Radar_Real_Time_Signal_Processing_Unit_RSPU a aero:Product ;
+    rdfs:label "Airborne Radar Real-Time Signal Processing Unit (RSPU)"^^xsd:string ;
+    aero:dependsOnMaterial aero:Material_Aluminium_7075_T6 ;
+    aero:deployedOnPlatform aero:Platform_HAL_Tejas_LCA ;
+    aero:fscCode "5841"^^xsd:string ;
+    aero:nsnCode "5841-72-551-8912"^^xsd:string ;
+    aero:partNumber "PN-IND-DTP-RSP01"^^xsd:string ;
+    aero:productDescription "High-throughput FPGA-based radar signal processor executing pulse Doppler filtering and target track-while-scan algorithms."^^xsd:string .
+
 aero:Product_Dynamatic_Technologies_P_8_Poseidon_Aft_Pylon_and_Cargo_Door_Assembly a aero:Product ;
     rdfs:label "P-8 Poseidon Aft Pylon and Cargo Door Assembly"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_AluminiumLithium_2055,
@@ -540,6 +468,16 @@ aero:Product_Hindustan_Aeronautics_Tejas_Light_Combat_Aircraft_LCA_Mk_1A a aero:
     aero:partNumber "PN-IND-HAL-LCA1A"^^xsd:string ;
     aero:productDescription "Supersonic multi-role tactical fighter featuring AESA radar, electronic warfare suite, air-to-air refueling, and precision strike integration."^^xsd:string .
 
+aero:Product_Kalyani_Strategic_Systems_155mm_52_Caliber_Electroslag_Refined_Forged_Artillery_Barrel a aero:Product ;
+    rdfs:label "155mm 52-Caliber Electroslag Refined Forged Artillery Barrel"^^xsd:string ;
+    aero:dependsOnMaterial aero:Material_ArmourSteel_MIL_A_46100,
+        aero:Material_Titanium_Ti6Al4V ;
+    aero:deployedOnPlatform aero:Platform_GroundCombatVehicle ;
+    aero:fscCode "1025"^^xsd:string ;
+    aero:nsnCode "1025-72-401-9921"^^xsd:string ;
+    aero:partNumber "PN-IND-KLY-ATAGS"^^xsd:string ;
+    aero:productDescription "High-strength autofrettaged forged steel barrel assembly for indigenous towed and truck-mounted heavy artillery systems."^^xsd:string .
+
 aero:Product_Larsen_Toubro_Defence_K9_Vajra_T_155mm52_Calibre_Tracked_Self_Propelled_Howitzer a aero:Product ;
     rdfs:label "K9 Vajra-T 155mm/52 Calibre Tracked Self-Propelled Howitzer"^^xsd:string ;
     aero:dependsOnMaterial aero:Material_Titanium_Ti6Al4V ;
@@ -576,6 +514,26 @@ aero:Product_Paras_Defence_And_Space_Technologies_Hyperspectral_Space_Satellite_
     aero:nsnCode "5860-72-910-1938"^^xsd:string ;
     aero:partNumber "PN-IND-PRS-OPT01"^^xsd:string ;
     aero:productDescription "Diffraction-limited optical telescope payload for Earth observation nanosatellite constellations."^^xsd:string .
+
+aero:Product_Sika_Interplant_Systems_Helicopter_Electric_Rescue_Hoist_Assembly a aero:Product ;
+    rdfs:label "Helicopter Electric Rescue Hoist Assembly"^^xsd:string ;
+    aero:dependsOnMaterial aero:Material_Aluminium_7075_T6,
+        aero:Material_Titanium_Ti6Al4V ;
+    aero:deployedOnPlatform aero:Platform_RotaryWing ;
+    aero:fscCode "1680"^^xsd:string ;
+    aero:nsnCode "1680-72-118-2049"^^xsd:string ;
+    aero:partNumber "PN-IND-SIK-HST01"^^xsd:string ;
+    aero:productDescription "Variable-speed externally mounted electric rescue winch with 600 lb lift capacity for military search and rescue helicopters."^^xsd:string .
+
+aero:Product_Solar_Industries_India_Pinaka_214mm_Extended_Range_Rocket_Solid_Propellant_Grain a aero:Product ;
+    rdfs:label "Pinaka 214mm Extended Range Rocket Solid Propellant Grain"^^xsd:string ;
+    aero:dependsOnMaterial aero:Material_ArmourSteel_MIL_A_46100,
+        aero:Material_Tungsten_HeavyAlloy ;
+    aero:deployedOnPlatform aero:Platform_GroundCombatVehicle ;
+    aero:fscCode "1336"^^xsd:string ;
+    aero:nsnCode "1336-72-881-9021"^^xsd:string ;
+    aero:partNumber "PN-IND-SOL-PNK01"^^xsd:string ;
+    aero:productDescription "Case-bonded hydroxyl-terminated polybutadiene (HTPB) composite solid propellant motor delivering 75km extended artillery range."^^xsd:string .
 
 aero:Product_Tata_Advanced_Systems_AH_64_Apache_Primary_Fuselage_Assembly a aero:Product ;
     rdfs:label "AH-64 Apache Primary Fuselage Assembly"^^xsd:string ;
@@ -651,6 +609,14 @@ aero:Product_ideaForge_Technology_SWITCH_UAV_Tactical_Fixed_Wing_VTOL_Drone a ae
     aero:nsnCode "1550-72-910-1955"^^xsd:string ;
     aero:partNumber "PN-IND-IDF-SWT01"^^xsd:string ;
     aero:productDescription "Hybrid VTOL tactical surveillance drone with over 2 hours endurance, 15km operational range, and daylight/thermal dual payloads."^^xsd:string .
+
+aero:Service_Astra_Microwave_Products_RF_Cleanroom_Microwave_Module_Wire_Bonding_Automated_Vector_Network_Analysis a aero:MicroelectronicTestingService,
+        aero:Service ;
+    rdfs:label "RF Cleanroom Microwave Module Wire Bonding & Automated Vector Network Analysis"^^xsd:string ;
+    aero:serviceAccreditation "ISO 9001"^^xsd:string ;
+    aero:serviceDescription "Automatic gold wire ball bonding, hermetic seam welding, and multi-port S-parameter RF testing up to 40 GHz."^^xsd:string ;
+    aero:supportsPlatform aero:Platform_HAL_Tejas_LCA,
+        aero:Platform_SurfaceCombatant .
 
 aero:Service_Bharat_Dynamics_Missile_In_Canister_Depot_Inspection_and_Life_Extension_SLEP a aero:MROService,
         aero:Service ;
@@ -752,6 +718,14 @@ aero:Service_Bharat_Electronics_Tactical_C4ISR_Cyber_Hardening_and_Vulnerability
         aero:Platform_Submarine,
         aero:Platform_SurfaceCombatant .
 
+aero:Service_Data_Patterns_India_Avionics_DO_254_Hardware_DO_178C_Software_Verification a aero:AvionicsCertificationService,
+        aero:Service ;
+    rdfs:label "Avionics DO-254 Hardware & DO-178C Software Verification"^^xsd:string ;
+    aero:serviceAccreditation "CEMILAC Certified"^^xsd:string ;
+    aero:serviceDescription "Formal hardware design assurance, timing closure validation, and military flight-critical software code auditing."^^xsd:string ;
+    aero:supportsPlatform aero:Platform_HAL_Tejas_LCA,
+        aero:Platform_SurfaceCombatant .
+
 aero:Service_Dynamatic_Technologies_Aerospace_Coordinate_Metrology_and_Laser_Tracker_Verification a aero:Service,
         aero:TestingQualificationService ;
     rdfs:label "Aerospace Coordinate Metrology and Laser Tracker Verification"^^xsd:string ;
@@ -842,6 +816,14 @@ aero:Service_Hindustan_Aeronautics_Military_Aeroengine_Performance_Testing_and_H
         aero:Platform_RotaryWing,
         aero:Platform_Su30MKI_Flanker .
 
+aero:Service_Kalyani_Strategic_Systems_Heavy_Gun_Barrel_Autofrettage_Ultrasonic_Flaw_Characterization a aero:ForgingInspectionService,
+        aero:Service ;
+    rdfs:label "Heavy Gun Barrel Autofrettage & Ultrasonic Flaw Characterization"^^xsd:string ;
+    aero:serviceAccreditation "DRDO Approved"^^xsd:string ;
+    aero:serviceDescription "Ultra-high pressure hydraulic bore expansion, full-length ultrasonic immersion scanning, and metallurgy grain flow inspection."^^xsd:string ;
+    aero:supportsPlatform aero:Platform_ArmouredCombatVehicle,
+        aero:Platform_GroundCombatVehicle .
+
 aero:Service_Larsen_Toubro_Defence_Artillery_Fire_Control_Ballistic_Calibration_and_Range_Testing a aero:Service,
         aero:TestingQualificationService ;
     rdfs:label "Artillery Fire Control Ballistic Calibration and Range Testing"^^xsd:string ;
@@ -931,6 +913,22 @@ aero:Service_Paras_Defence_And_Space_Technologies_Submarine_Optronic_Mast_Optica
     aero:supportsPlatform aero:Platform_ArmouredCombatVehicle,
         aero:Platform_LEOSatellite,
         aero:Platform_Submarine .
+
+aero:Service_Sika_Interplant_Systems_Hydraulic_Flight_Control_Actuator_Dynamic_Proof_Pressure_Overhaul a aero:HydraulicsOverhaulService,
+        aero:Service ;
+    rdfs:label "Hydraulic Flight Control Actuator Dynamic Proof Pressure Overhaul"^^xsd:string ;
+    aero:serviceAccreditation "DGCA Part 145"^^xsd:string ;
+    aero:serviceDescription "5000-psi hydraulic fluid contamination cleaning, dynamic stroke seal replacement, and load cell response testing."^^xsd:string ;
+    aero:supportsPlatform aero:Platform_HAL_Tejas_LCA,
+        aero:Platform_RotaryWing .
+
+aero:Service_Solar_Industries_India_Explosive_Velocity_of_Detonation_VOD_Closed_Bomb_Burning_Rate_Analysis a aero:EnergeticsTestingService,
+        aero:Service ;
+    rdfs:label "Explosive Velocity of Detonation (VOD) & Closed-Bomb Burning Rate Analysis"^^xsd:string ;
+    aero:serviceAccreditation "DRDO DGQA Approved"^^xsd:string ;
+    aero:serviceDescription "High-speed optical detonation velocity testing, strand burner propellant characterization, and shelf-life accelerated aging."^^xsd:string ;
+    aero:supportsPlatform aero:Platform_GroundCombatVehicle,
+        aero:Platform_TacticalUAS .
 
 aero:Service_Tata_Advanced_Systems_Aerostructures_5_Axis_Milling_and_Autoclave_Processing a aero:EngineeringService,
         aero:Service ;
@@ -1097,6 +1095,254 @@ aero:Service_ideaForge_Technology_Military_UAV_Remote_Pilot_Training_and_Mission
     aero:serviceDescription "DGCA-certified drone pilot training, night-vision thermal sensor reconnaissance tactics, and tactical emergency recovery protocols."^^xsd:string ;
     aero:supportsPlatform aero:Platform_TacticalUAS .
 
+aero:Company_Astra_Microwave_Products a aero:Company,
+        aero:Tier2Supplier ;
+    aero:businessNumber "IN36AABCA3012M1"^^xsd:string ;
+    aero:controlledGoodsRegistered true ;
+    aero:hasCapability aero:Cap_Astra_Microwave_Products_1 ;
+    aero:headquartersCity "Hyderabad"^^xsd:string ;
+    aero:headquartersCountry "IND"^^xsd:string ;
+    aero:headquartersProvince "Telangana"^^xsd:string ;
+    aero:holdsCertification aero:Cert_AS9100D,
+        aero:Cert_ISO9001,
+        aero:Cert_SCOMET_Compliant ;
+    aero:itarCompliant true ;
+    aero:legalName "Astra Microwave Products Limited"^^xsd:string ;
+    aero:manufacturesProduct aero:Product_Astra_Microwave_Products_X_Band_GaN_Radar_TransmitReceive_TR_Module ;
+    aero:operatesInDomain aero:AirPlatform,
+        aero:DomainDefence,
+        aero:MaritimePlatform ;
+    aero:providesService aero:Service_Astra_Microwave_Products_RF_Cleanroom_Microwave_Module_Wire_Bonding_Automated_Vector_Network_Analysis ;
+    aero:suppliesTo aero:Company_Bharat_Dynamics,
+        aero:Company_Bharat_Electronics ;
+    aero:tradeName "Astra Microwave"^^xsd:string ;
+    aero:website "https://www.astramwp.com"^^xsd:anyURI .
+
+aero:Company_Bharat_Dynamics a aero:Company,
+        aero:PrimeContractor ;
+    aero:businessNumber "IN36AAACB0001Z5"^^xsd:string ;
+    aero:cageCode "1824A"^^xsd:string ;
+    aero:controlledGoodsRegistered true ;
+    aero:hasCapability aero:Cap_Bharat_Dynamics_1,
+        aero:Cap_Bharat_Dynamics_2 ;
+    aero:hasDirectSupplier aero:Company_Astra_Microwave_Products,
+        aero:Company_Solar_Industries_India ;
+    aero:headquartersCity "Hyderabad"^^xsd:string ;
+    aero:headquartersCountry "IND"^^xsd:string ;
+    aero:headquartersProvince "Telangana"^^xsd:string ;
+    aero:holdsCertification aero:Cert_AS9100D,
+        aero:Cert_FacilitySecurity_TopSecret,
+        aero:Cert_ISO9001,
+        aero:Cert_SCOMET_Compliant ;
+    aero:itarCompliant true ;
+    aero:legalName "Bharat Dynamics Limited"^^xsd:string ;
+    aero:manufacturesProduct aero:Product_Bharat_Dynamics_Astra_Beyond_Visual_Range_BVR_Air_to_Air_Missile,
+        aero:Product_Bharat_Dynamics_Varunastra_Heavyweight_Anti_Submarine_Torpedo ;
+    aero:operatesInDomain aero:AirPlatform,
+        aero:DomainDefence,
+        aero:LandPlatform,
+        aero:MaritimePlatform ;
+    aero:providesService aero:Service_Bharat_Dynamics_Missile_In_Canister_Depot_Inspection_and_Life_Extension_SLEP,
+        aero:Service_Bharat_Dynamics_Missile_Seeker_RF_and_Optical_Hardware_in_the_Loop_Simulation,
+        aero:Service_Bharat_Dynamics_Precision_Missile_Gyro_and_Actuator_Cleanroom_Assembly,
+        aero:Service_Bharat_Dynamics_Solid_Propellant_Grain_Radiography_and_Bond_Line_Ultrasonic_Testing,
+        aero:Service_Bharat_Dynamics_Strategic_Munitions_Storage_Safety_and_Spares_Logistics ;
+    aero:tradeName "BDL"^^xsd:string ;
+    aero:website "https://bdl-india.in"^^xsd:anyURI .
+
+aero:Company_Bharat_Electronics a aero:Company,
+        aero:PrimeContractor ;
+    aero:businessNumber "IN29AAACB0001Z2"^^xsd:string ;
+    aero:cageCode "1812A"^^xsd:string ;
+    aero:controlledGoodsRegistered true ;
+    aero:hasCapability aero:Cap_Bharat_Electronics_1,
+        aero:Cap_Bharat_Electronics_2,
+        aero:Cap_Bharat_Electronics_3 ;
+    aero:hasDirectSupplier aero:Company_Astra_Microwave_Products,
+        aero:Company_Data_Patterns_India ;
+    aero:headquartersCity "Bengaluru"^^xsd:string ;
+    aero:headquartersCountry "IND"^^xsd:string ;
+    aero:headquartersProvince "Karnataka"^^xsd:string ;
+    aero:holdsCertification aero:Cert_AS9100D,
+        aero:Cert_FacilitySecurity_TopSecret,
+        aero:Cert_ISO9001,
+        aero:Cert_NATO_AQAP2110,
+        aero:Cert_SCOMET_Compliant ;
+    aero:itarCompliant true ;
+    aero:legalName "Bharat Electronics Limited"^^xsd:string ;
+    aero:manufacturesProduct aero:Product_Bharat_Electronics_HUMSA_NG_Advanced_Naval_ActivePassive_Sonar,
+        aero:Product_Bharat_Electronics_STARS_V_Software_Defined_Radio_SDR,
+        aero:Product_Bharat_Electronics_Uttam_AESA_Fire_Control_Radar ;
+    aero:operatesInDomain aero:AirPlatform,
+        aero:DomainC4ISR,
+        aero:DomainDefence,
+        aero:LandPlatform,
+        aero:MaritimePlatform ;
+    aero:providesService aero:Service_Bharat_Electronics_Defence_Microelectronics_Packaging_and_PCB_SMT_Overhaul,
+        aero:Service_Bharat_Electronics_Depot_Level_Maintenance_and_Field_Spares_Support,
+        aero:Service_Bharat_Electronics_Naval_Combat_System_Shipboard_Integration_and_Harbour_Trials,
+        aero:Service_Bharat_Electronics_Radar_and_EW_Anechoic_Chamber_RF_Qualification_Testing,
+        aero:Service_Bharat_Electronics_Tactical_C4ISR_Cyber_Hardening_and_Vulnerability_Assessment ;
+    aero:tradeName "BEL"^^xsd:string ;
+    aero:website "https://bel-india.in"^^xsd:anyURI .
+
+aero:Company_Data_Patterns_India a aero:Company,
+        aero:Tier2Supplier ;
+    aero:businessNumber "IN33AABCD2911L1"^^xsd:string ;
+    aero:controlledGoodsRegistered true ;
+    aero:hasCapability aero:Cap_Data_Patterns_India_1 ;
+    aero:headquartersCity "Chennai"^^xsd:string ;
+    aero:headquartersCountry "IND"^^xsd:string ;
+    aero:headquartersProvince "Tamil Nadu"^^xsd:string ;
+    aero:holdsCertification aero:Cert_AS9100D,
+        aero:Cert_ISO9001,
+        aero:Cert_SCOMET_Compliant ;
+    aero:itarCompliant true ;
+    aero:legalName "Data Patterns (India) Limited"^^xsd:string ;
+    aero:manufacturesProduct aero:Product_Data_Patterns_India_Airborne_Radar_Real_Time_Signal_Processing_Unit_RSPU ;
+    aero:operatesInDomain aero:AirPlatform,
+        aero:DomainDefence,
+        aero:MaritimePlatform ;
+    aero:providesService aero:Service_Data_Patterns_India_Avionics_DO_254_Hardware_DO_178C_Software_Verification ;
+    aero:suppliesTo aero:Company_Bharat_Electronics,
+        aero:Company_Hindustan_Aeronautics ;
+    aero:tradeName "Data Patterns"^^xsd:string ;
+    aero:website "https://www.datapatternsindia.com"^^xsd:anyURI .
+
+aero:Company_Dynamatic_Technologies a aero:Company,
+        aero:Tier1Supplier ;
+    aero:businessNumber "IN29AAACD0001Z6"^^xsd:string ;
+    aero:cageCode "1910A"^^xsd:string ;
+    aero:controlledGoodsRegistered true ;
+    aero:hasCapability aero:Cap_Dynamatic_Technologies_1,
+        aero:Cap_Dynamatic_Technologies_2 ;
+    aero:hasDirectSupplier aero:Company_Sika_Interplant_Systems ;
+    aero:headquartersCity "Bengaluru"^^xsd:string ;
+    aero:headquartersCountry "IND"^^xsd:string ;
+    aero:headquartersProvince "Karnataka"^^xsd:string ;
+    aero:holdsCertification aero:Cert_AS9100D,
+        aero:Cert_ISO9001,
+        aero:Cert_NADCAP_Chemical,
+        aero:Cert_NADCAP_NDT,
+        aero:Cert_NADCAP_Welding ;
+    aero:itarCompliant true ;
+    aero:legalName "Dynamatic Technologies Limited"^^xsd:string ;
+    aero:manufacturesProduct aero:Product_Dynamatic_Technologies_P_8_Poseidon_Aft_Pylon_and_Cargo_Door_Assembly,
+        aero:Product_Dynamatic_Technologies_Tejas_LCA_Front_Fuselage_Major_Subassembly ;
+    aero:operatesInDomain aero:AirPlatform,
+        aero:DomainAeronautics,
+        aero:DomainDefence ;
+    aero:providesService aero:Service_Dynamatic_Technologies_Aerospace_Coordinate_Metrology_and_Laser_Tracker_Verification,
+        aero:Service_Dynamatic_Technologies_Aerospace_Surface_Treatment_Anodizing_Chemical_Conversion,
+        aero:Service_Dynamatic_Technologies_Complex_Major_Assembly_Jigs_Tooling_Design,
+        aero:Service_Dynamatic_Technologies_JIT_Aerospace_Global_Supply_Logistics_Management,
+        aero:Service_Dynamatic_Technologies_Structural_Subassembly_Depot_Repair_and_Modification ;
+    aero:suppliesTo aero:Company_Hindustan_Aeronautics ;
+    aero:tradeName "Dynamatic Aerospace"^^xsd:string ;
+    aero:website "https://www.dynamatics.com"^^xsd:anyURI .
+
+aero:Company_Kalyani_Strategic_Systems a aero:Company,
+        aero:Tier1Supplier ;
+    aero:businessNumber "IN27AABCK2919N1"^^xsd:string ;
+    aero:controlledGoodsRegistered true ;
+    aero:hasCapability aero:Cap_Kalyani_Strategic_Systems_1 ;
+    aero:headquartersCity "Pune"^^xsd:string ;
+    aero:headquartersCountry "IND"^^xsd:string ;
+    aero:headquartersProvince "Maharashtra"^^xsd:string ;
+    aero:holdsCertification aero:Cert_AS9100D,
+        aero:Cert_FacilitySecurity_TopSecret,
+        aero:Cert_ISO9001,
+        aero:Cert_SCOMET_Compliant ;
+    aero:itarCompliant true ;
+    aero:legalName "Kalyani Strategic Systems Limited"^^xsd:string ;
+    aero:manufacturesProduct aero:Product_Kalyani_Strategic_Systems_155mm_52_Caliber_Electroslag_Refined_Forged_Artillery_Barrel ;
+    aero:operatesInDomain aero:DomainDefence,
+        aero:LandPlatform ;
+    aero:providesService aero:Service_Kalyani_Strategic_Systems_Heavy_Gun_Barrel_Autofrettage_Ultrasonic_Flaw_Characterization ;
+    aero:suppliesTo aero:Company_Larsen_Toubro_Defence,
+        aero:Company_Tata_Advanced_Systems ;
+    aero:tradeName "Kalyani Defence (Bharat Forge)"^^xsd:string ;
+    aero:website "https://www.kalyanigroup.com"^^xsd:anyURI .
+
+aero:Company_Sika_Interplant_Systems a aero:Company,
+        aero:Tier2Supplier ;
+    aero:businessNumber "IN29AABCS3019P1"^^xsd:string ;
+    aero:controlledGoodsRegistered true ;
+    aero:hasCapability aero:Cap_Sika_Interplant_Systems_1 ;
+    aero:headquartersCity "Bengaluru"^^xsd:string ;
+    aero:headquartersCountry "IND"^^xsd:string ;
+    aero:headquartersProvince "Karnataka"^^xsd:string ;
+    aero:holdsCertification aero:Cert_AS9100D,
+        aero:Cert_ISO9001,
+        aero:Cert_SCOMET_Compliant ;
+    aero:itarCompliant true ;
+    aero:legalName "Sika Interplant Systems Limited"^^xsd:string ;
+    aero:manufacturesProduct aero:Product_Sika_Interplant_Systems_Helicopter_Electric_Rescue_Hoist_Assembly ;
+    aero:operatesInDomain aero:AirPlatform,
+        aero:DomainDefence ;
+    aero:providesService aero:Service_Sika_Interplant_Systems_Hydraulic_Flight_Control_Actuator_Dynamic_Proof_Pressure_Overhaul ;
+    aero:suppliesTo aero:Company_Dynamatic_Technologies,
+        aero:Company_Hindustan_Aeronautics ;
+    aero:tradeName "Sika Interplant"^^xsd:string ;
+    aero:website "https://www.sikaglobal.com"^^xsd:anyURI .
+
+aero:Company_Solar_Industries_India a aero:Company,
+        aero:Tier1Supplier ;
+    aero:businessNumber "IN27AABCS2918K1"^^xsd:string ;
+    aero:controlledGoodsRegistered true ;
+    aero:hasCapability aero:Cap_Solar_Industries_India_1 ;
+    aero:headquartersCity "Nagpur"^^xsd:string ;
+    aero:headquartersCountry "IND"^^xsd:string ;
+    aero:headquartersProvince "Maharashtra"^^xsd:string ;
+    aero:holdsCertification aero:Cert_AS9100D,
+        aero:Cert_FacilitySecurity_TopSecret,
+        aero:Cert_ISO9001,
+        aero:Cert_SCOMET_Compliant ;
+    aero:itarCompliant true ;
+    aero:legalName "Solar Industries India Limited"^^xsd:string ;
+    aero:manufacturesProduct aero:Product_Solar_Industries_India_Pinaka_214mm_Extended_Range_Rocket_Solid_Propellant_Grain ;
+    aero:operatesInDomain aero:AirPlatform,
+        aero:DomainDefence,
+        aero:LandPlatform ;
+    aero:providesService aero:Service_Solar_Industries_India_Explosive_Velocity_of_Detonation_VOD_Closed_Bomb_Burning_Rate_Analysis ;
+    aero:suppliesTo aero:Company_Bharat_Dynamics,
+        aero:Company_Hindustan_Aeronautics ;
+    aero:tradeName "Solar Industries (Economic Explosives)"^^xsd:string ;
+    aero:website "https://www.solargroup.com"^^xsd:anyURI .
+
+aero:Company_Tata_Advanced_Systems a aero:Company,
+        aero:PrimeContractor ;
+    aero:businessNumber "IN36AAACT0001Z3"^^xsd:string ;
+    aero:cageCode "1850A"^^xsd:string ;
+    aero:controlledGoodsRegistered true ;
+    aero:hasCapability aero:Cap_Tata_Advanced_Systems_1,
+        aero:Cap_Tata_Advanced_Systems_2,
+        aero:Cap_Tata_Advanced_Systems_3 ;
+    aero:hasDirectSupplier aero:Company_Kalyani_Strategic_Systems ;
+    aero:headquartersCity "Hyderabad"^^xsd:string ;
+    aero:headquartersCountry "IND"^^xsd:string ;
+    aero:headquartersProvince "Telangana"^^xsd:string ;
+    aero:holdsCertification aero:Cert_AS9100D,
+        aero:Cert_FacilitySecurity_TopSecret,
+        aero:Cert_ISO9001,
+        aero:Cert_SCOMET_Compliant ;
+    aero:itarCompliant true ;
+    aero:legalName "Tata Advanced Systems Limited"^^xsd:string ;
+    aero:manufacturesProduct aero:Product_Tata_Advanced_Systems_AH_64_Apache_Primary_Fuselage_Assembly,
+        aero:Product_Tata_Advanced_Systems_Wheeled_Armoured_Platform_WhAP_8x8 ;
+    aero:operatesInDomain aero:AirPlatform,
+        aero:DomainAeronautics,
+        aero:DomainDefence,
+        aero:LandPlatform ;
+    aero:providesService aero:Service_Tata_Advanced_Systems_Aerostructures_5_Axis_Milling_and_Autoclave_Processing,
+        aero:Service_Tata_Advanced_Systems_Aircraft_Subassembly_Non_Destructive_Ultrasonic_C_Scan_Inspection,
+        aero:Service_Tata_Advanced_Systems_Armoured_Vehicle_Hull_Ballistic_and_Blast_Qualification,
+        aero:Service_Tata_Advanced_Systems_Military_Aircraft_Flight_Line_Preparation_and_Delivery_Acceptance,
+        aero:Service_Tata_Advanced_Systems_Turnkey_Defence_Program_Supply_Chain_and_Global_Logistics ;
+    aero:suppliesTo aero:Company_Hindustan_Aeronautics ;
+    aero:tradeName "TASL"^^xsd:string ;
+    aero:website "https://www.tataadvancedsystems.com"^^xsd:anyURI .
+
 aero:Company_Hindustan_Aeronautics a aero:Company,
         aero:PrimeContractor ;
     aero:businessNumber "IN29AAACH0001Z1"^^xsd:string ;
@@ -1105,7 +1351,10 @@ aero:Company_Hindustan_Aeronautics a aero:Company,
     aero:hasCapability aero:Cap_Hindustan_Aeronautics_1,
         aero:Cap_Hindustan_Aeronautics_2,
         aero:Cap_Hindustan_Aeronautics_3 ;
-    aero:hasDirectSupplier aero:Company_Dynamatic_Technologies,
+    aero:hasDirectSupplier aero:Company_Data_Patterns_India,
+        aero:Company_Dynamatic_Technologies,
+        aero:Company_Sika_Interplant_Systems,
+        aero:Company_Solar_Industries_India,
         aero:Company_Tata_Advanced_Systems ;
     aero:headquartersCity "Bengaluru"^^xsd:string ;
     aero:headquartersCountry "IND"^^xsd:string ;
