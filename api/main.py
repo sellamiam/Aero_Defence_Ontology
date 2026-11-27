@@ -14,8 +14,9 @@ from api.dashboard import DASHBOARD_HTML
 app = FastAPI(
     title="Aerospace & Defence Ontology & Matching Engine API",
     description=(
-        "Production REST and SPARQL 1.1 query interface for the Canadian, EU, and UK "
-        "Aerospace & Defence ontology, company profiles, products, services, capabilities, and matching engine."
+        "Production REST and SPARQL 1.1 query interface for the Canadian, US, UK, EU, "
+        "Australian, New Zealand, and Indian Aerospace & Defence ontology, company profiles, "
+        "products, services, capabilities, and matching engine."
     ),
     version="2.0.0",
     docs_url="/docs",

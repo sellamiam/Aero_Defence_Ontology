@@ -718,8 +718,7 @@ class EUHarvester(BaseHarvester):
         return records
 
     def harvest(self, limit: Optional[int] = None) -> List[Dict[str, Any]]:
-        target = limit if limit is not None else 220
-        records = self._generate_eu_ecosystem(target_count=target)
+        records = self._get_flagship_eu_companies()
         if limit is not None:
             records = records[:limit]
         self.save_raw(records, "eu_aero_defence_catalog.json")

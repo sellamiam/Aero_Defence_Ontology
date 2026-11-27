@@ -1,7 +1,7 @@
 # Aerospace & Defence Global Supply Chain Knowledge Graph & Ontology
 ### Multi-Jurisdiction Sovereign Capability Datasets (W3C OWL 2 / RDF 1.1 / SPARQL 1.1)
 
-A multi-jurisdiction sovereign capability Knowledge Graph and formal ontology spanning 6 allied industrial ecosystems: **Canada** (1,000 contractors), the **United Kingdom** (160 contractors), the **European Union** (220 contractors across 9 nations), **India** (180 contractors), **Australia** (120 contractors), and **New Zealand** (60 contractors) — comprising **1,740 verified defence suppliers** and **156,768 formal RDF knowledge triples**.
+A multi-jurisdiction sovereign capability Knowledge Graph and formal ontology spanning 7 allied industrial ecosystems: the **United States** (1,371 contractors), **Canada** (1,000 contractors), the **European Union** (220 contractors across 9 nations), **India** (180 contractors), the **United Kingdom** (160 contractors), **Australia** (120 contractors), and **New Zealand** (60 contractors) — comprising **3,111 verified defence suppliers** and **235,525 formal RDF knowledge triples**.
 
 Engineered for sovereign resilience modeling, multi-tier supply chain traceability (`Tier-0 Prime -> Tier-1 Subsystem -> Tier-2 Specialist -> Raw Material`), neural-symbolic procurement matching, and agent-based discrete-event supply chain simulations.
 
@@ -13,13 +13,14 @@ The repository provides standalone, self-contained RDF Turtle (`.ttl`) knowledge
 
 | Distribution Artifact | File Path | Enterprise Suppliers | RDF Triples | File Size | Jurisdictional Scope & Industrial Base |
 | :--- | :--- | :---: | :---: | :---: | :--- |
-| 🌐 **Master Global KG** | `data/exports/Aero_Defence_Global_Supply_Chain_Ontology.ttl` | **1,740** | **156,768** | **10.74 MB** | Unified global supply chain graph covering all 6 jurisdictions with cross-border prime-subcontractor linkages |
-| 🇨🇦 **Canada** | `data/exports/canada.ttl` | **1,000** | **94,362** | **6.14 MB** | Complete Canadian defence base (Bombardier, CAE, MDA, GDLS, Magellan, Héroux-Devtek, IMP, etc.) |
-| 🇬🇧 **United Kingdom** | `data/exports/uk.ttl` | **160** | **14,148** | **1.03 MB** | UK MOD tier-1 & tier-2 supply network (BAE Systems, Rolls-Royce, Babcock, QinetiQ, Ultra, Chemring) |
-| 🇪🇺 **European Union** | `data/exports/eu.ttl` | **220** | **19,134** | **1.39 MB** | EU defence industrial base across 9 nations (Airbus, Thales, Leonardo, Rheinmetall, Saab, Dassault, Kongsberg) |
-| 🇮🇳 **India** | `data/exports/india.ttl` | **180** | **15,906** | **1.20 MB** | Major DPSUs & private aerospace (HAL, BEL, BDL, TASL, L&T Defence, Bharat Forge, Tonbo Imaging) |
-| 🇦🇺 **Australia** | `data/exports/australia.ttl` | **120** | **10,756** | **0.77 MB** | Sovereign industrial capabilities & DISP accredited firms (Austal, CEA Technologies, Electro Optic Systems) |
-| 🇳🇿 **New Zealand** | `data/exports/new_zealand.ttl` | **60** | **5,013** | **0.36 MB** | Advanced space, propulsion & niche aerospace (Rocket Lab, Dawn Aerospace, Tait Communications, Zenith) |
+| 🌐 **Master Global KG** | `data/exports/Aero_Defence_Global_Supply_Chain_Ontology.ttl` | **3,111** | **235,525** | **15.14 MB** | Unified global supply chain graph covering all 7 jurisdictions with cross-border prime-subcontractor linkages |
+| 🇺🇸 **United States** | `data/exports/usa.ttl` | **1,371** | **79,180** | **4.42 MB** | Verified US defence & aerospace industrial base across all 50 states/DC (Lockheed Martin, RTX, Northrop Grumman, Boeing, GD, L3Harris, HII, SpaceX, etc.) |
+| 🇨🇦 **Canada** | `data/exports/canada.ttl` | **1,000** | **94,475** | **6.14 MB** | Complete Canadian defence base (Bombardier, CAE, MDA, GDLS, Magellan, Héroux-Devtek, IMP, etc.) |
+| 🇬🇧 **United Kingdom** | `data/exports/uk.ttl` | **160** | **14,261** | **1.04 MB** | UK MOD tier-1 & tier-2 supply network (BAE Systems, Rolls-Royce, Babcock, QinetiQ, Ultra, Chemring) |
+| 🇪🇺 **European Union** | `data/exports/eu.ttl` | **220** | **19,247** | **1.40 MB** | EU defence industrial base across 9 nations (Airbus, Thales, Leonardo, Rheinmetall, Saab, Dassault, Kongsberg) |
+| 🇮🇳 **India** | `data/exports/india.ttl` | **180** | **16,019** | **1.21 MB** | Major DPSUs & private aerospace (HAL, BEL, BDL, TASL, L&T Defence, Bharat Forge, Tonbo Imaging) |
+| 🇦🇺 **Australia** | `data/exports/australia.ttl` | **120** | **10,869** | **0.78 MB** | Sovereign industrial capabilities & DISP accredited firms (Austal, CEA Technologies, Electro Optic Systems) |
+| 🇳🇿 **New Zealand** | `data/exports/new_zealand.ttl` | **60** | **5,276** | **0.36 MB** | Advanced space, propulsion & niche aerospace (Rocket Lab, Dawn Aerospace, Tait Communications, Zenith) |
 
 *All datasets conform strictly to W3C Turtle 1.1 syntax and load into native triplestores (Oxigraph, GraphDB, Stardog, Virtuoso, Apache Jena) in < 0.25 seconds with 0 syntax errors.*
 
@@ -125,7 +126,7 @@ The ontology enforces rigorous semantic grounding and domain formalisms:
                                                               |
                                          +--------------------+--------------------+
                                          |    Multi-Jurisdiction Knowledge Graphs  |
-                                         |     (156,768 Triples | 1,740 Entities)  |
+                                         |     (235,525 Triples | 3,111 Entities)  |
                                          +-----------------------------------------+
 ```
 
@@ -162,7 +163,7 @@ The test suite validates SHACL constraints, OWL DL consistency, geographic leak-
 ```bash
 PYTHONPATH=. pytest -v tests/
 ```
-*All 14 automated tests verify formal ontology contracts, SPARQL endpoint determinism, and mathematical score normalization.*
+*All 16 automated tests verify formal ontology contracts, SPARQL endpoint determinism, and mathematical score normalization.*
 
 ---
 

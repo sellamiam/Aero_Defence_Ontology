@@ -82,3 +82,82 @@ aero:Platform_LAV_6_0_CombatSupport a aero:LandPlatform ;
 aero:Platform_SpaceLaunchVehicle a aero:SpacePlatform ;
     rdfs:label "Orbital Space Launch Vehicle (Electron, Eris, SSLV)"@en .
 
+### United States Defence & Aerospace Platforms
+aero:Platform_B21_Raider a aero:AirPlatform ;
+    rdfs:label "Northrop Grumman B-21 Raider Long-Range Strike Stealth Bomber"@en ;
+    skos:altLabel "B-21", "LRS-B" .
+
+aero:Platform_F22_Raptor a aero:AirPlatform ;
+    rdfs:label "Lockheed Martin F-22A Raptor 5th Generation Air Dominance Fighter"@en ;
+    skos:altLabel "F-22" .
+
+aero:Platform_F15EX_EagleII a aero:AirPlatform ;
+    rdfs:label "Boeing F-15EX Eagle II Multi-Role Combat Aircraft"@en ;
+    skos:altLabel "F-15EX" .
+
+aero:Platform_FA18_SuperHornet a aero:AirPlatform ;
+    rdfs:label "Boeing F/A-18E/F Super Hornet & EA-18G Growler Carrier Combat Aircraft"@en ;
+    skos:altLabel "F/A-18E/F", "EA-18G" .
+
+aero:Platform_KC46_Pegasus a aero:AirPlatform ;
+    rdfs:label "Boeing KC-46A Pegasus Aerial Refueling Tanker & Strategic Transport"@en ;
+    skos:altLabel "KC-46A" .
+
+aero:Platform_CH53K_KingStallion a aero:AirPlatform ;
+    rdfs:label "Sikorsky CH-53K King Stallion Heavy-Lift Cargo Helicopter"@en ;
+    skos:altLabel "CH-53K" .
+
+aero:Platform_UH60_BlackHawk a aero:AirPlatform ;
+    rdfs:label "Sikorsky UH-60 / HH-60 / MH-60 Black Hawk & Seahawk Multi-Mission Helicopter"@en ;
+    skos:altLabel "UH-60", "MH-60R", "H-60" .
+
+aero:Platform_AH64_Apache a aero:AirPlatform ;
+    rdfs:label "Boeing AH-64E Apache Guardian Attack Helicopter"@en ;
+    skos:altLabel "AH-64E" .
+
+aero:Platform_V22_Osprey a aero:AirPlatform ;
+    rdfs:label "Bell Boeing V-22 Osprey Tiltrotor Military Aircraft"@en ;
+    skos:altLabel "MV-22", "CV-22" .
+
+aero:Platform_DDG51_ArleighBurke a aero:MaritimePlatform ;
+    rdfs:label "Arleigh Burke-Class (DDG-51) Aegis Guided Missile Destroyer"@en ;
+    skos:altLabel "DDG-51", "Flight III Destroyer" .
+
+aero:Platform_ColumbiaClass_Submarine a aero:MaritimePlatform ;
+    rdfs:label "Columbia-Class (SSBN-826) Nuclear Ballistic Missile Submarine"@en ;
+    skos:altLabel "SSBN-826" .
+
+aero:Platform_VirginiaClass_Submarine a aero:MaritimePlatform ;
+    rdfs:label "Virginia-Class (SSN-774) Nuclear Fast Attack Submarine"@en ;
+    skos:altLabel "SSN-774" .
+
+aero:Platform_FordClass_Carrier a aero:MaritimePlatform ;
+    rdfs:label "Gerald R. Ford-Class (CVN-78) Nuclear Aircraft Carrier"@en ;
+    skos:altLabel "CVN-78" .
+
+aero:Platform_M1A2_Abrams a aero:LandPlatform ;
+    rdfs:label "M1A2 Abrams SEPv3 / M1E3 Main Battle Tank"@en ;
+    skos:altLabel "M1A2 SEPv3" .
+
+aero:Platform_M2_Bradley a aero:LandPlatform ;
+    rdfs:label "M2/M3 Bradley Infantry Fighting Vehicle & AMPV Family"@en ;
+    skos:altLabel "M2A4 Bradley" .
+
+aero:Platform_Stryker_ICV a aero:LandPlatform ;
+    rdfs:label "Stryker 8x8 Infantry Carrier & Double-V Hull Combat Vehicle"@en ;
+    skos:altLabel "Stryker DVH" .
+
+aero:Platform_JLTV a aero:LandPlatform ;
+    rdfs:label "Joint Light Tactical Vehicle (JLTV) 4x4 Mobility Platform"@en .
+
+aero:Platform_Patriot_PAC3 a aero:LandPlatform ;
+    rdfs:label "MIM-104 Patriot / PAC-3 MSE Integrated Air & Missile Defense System"@en ;
+    skos:altLabel "PAC-3 MSE" .
+
+aero:Platform_THAAD a aero:LandPlatform ;
+    rdfs:label "Terminal High Altitude Area Defense (THAAD) Anti-Ballistic Missile System"@en .
+
+aero:Platform_Falcon9_Heavy a aero:SpacePlatform ;
+    rdfs:label "SpaceX Falcon 9 & Falcon Heavy Reusable National Security Space Launch System"@en ;
+    skos:altLabel "Falcon 9", "Falcon Heavy" .
+

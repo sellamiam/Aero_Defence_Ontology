@@ -1132,8 +1132,7 @@ class IndiaHarvester(BaseHarvester):
         return records
 
     def harvest(self, limit: Optional[int] = None) -> List[Dict[str, Any]]:
-        target = limit if limit is not None else 180
-        records = self._generate_indian_ecosystem(target_count=target)
+        records = self._get_flagship_indian_companies()
         if limit is not None:
             records = records[:limit]
         self.save_raw(records, "india_aero_defence_catalog.json")

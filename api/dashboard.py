@@ -916,9 +916,13 @@ SELECT ?companyName ?city ?province ?cage ?capabilityTitle ?trl WHERE {
                     <div class="graph-actions">
                         <select id="graph-country-select" onchange="onGraphFilterChange()">
                             <option value="ALL">All Jurisdictions</option>
+                            <option value="USA">United States (USA)</option>
                             <option value="CAN">Canada (CAN)</option>
                             <option value="GBR">United Kingdom (GBR)</option>
                             <option value="EU">European Union (EU)</option>
+                            <option value="AUS">Australia (AUS)</option>
+                            <option value="IND">India (IND)</option>
+                            <option value="NZL">New Zealand (NZL)</option>
                         </select>
                         <button class="btn-tool" onclick="togglePhysics()" id="btn-physics" title="Pause / Resume Physics">⏸ Freeze</button>
                         <button class="btn-tool" onclick="fitGraph()" title="Center Graph">⌖ Fit</button>
@@ -1522,7 +1526,24 @@ SELECT ?companyName ?city ?province ?cage ?capabilityTitle ?trl WHERE {
             }
         }
 
+        async function loadDashboardStats() {
+            try {
+                const res = await fetch('/api/v1/stats');
+                if (!res.ok) return;
+                const data = await res.json();
+                const triplesEl = document.getElementById('stat-triples');
+                const entitiesEl = document.getElementById('stat-entities');
+                if (triplesEl && data.total_triples) {
+                    triplesEl.innerText = Number(data.total_triples).toLocaleString();
+                }
+                if (entitiesEl && data.total_capabilities) {
+                    entitiesEl.innerText = Number(data.total_capabilities).toLocaleString();
+                }
+            } catch (e) { /* keep defaults */ }
+        }
+
         window.onload = function() {
+            loadDashboardStats();
             initGraph();
             loadProfile('L2108'); // Default load Flying Colours Corp
         };

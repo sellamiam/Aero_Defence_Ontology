@@ -13,8 +13,8 @@ SELECT ?companyName ?cageCode ?country ?city ?website ?clearance
        (GROUP_CONCAT(DISTINCT ?productDetail; separator=" | ") AS ?allProducts)
        (GROUP_CONCAT(DISTINCT ?capDetail; separator=" | ") AS ?allCapabilities)
 WHERE {
-    # Bind CAGE of selected node (e.g. L0429 for CAE Inc., Z0D95 for Quickstep, K0657 for BAE)
-    VALUES ?cageCode { "L0429" "Z0D95" "K0657" "F0259" "H0001" }
+    # Bind CAGE of selected node (e.g. L0429 for CAE Inc., 64059 for Lockheed Martin, Z0D95 for Quickstep, K0657 for BAE)
+    VALUES ?cageCode { "L0429" "64059" "Z0D95" "K0657" "F0259" "H0001" }
 
     ?company aero:cageCode ?cageCode ;
              aero:legalName ?companyName ;

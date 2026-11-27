@@ -73,7 +73,7 @@ def main():
     parser.add_argument("--query-file", type=str, help="Path to .rq SPARQL query file")
     parser.add_argument("--preset", "-p", choices=["competence", "platform", "services", "dossier"],
                         help="Run built-in simulation preset")
-    parser.add_argument("--country", "-c", type=str, default="CAN", help="Target country filter for presets (e.g. CAN, GBR, FRA, AUS, NZL, IND)")
+    parser.add_argument("--country", "-c", type=str, default="CAN", help="Target country filter for presets (e.g. CAN, USA, GBR, FRA, AUS, NZL, IND)")
     parser.add_argument("--kic", type=str, default="KIC_AdvancedMaterials", help="KIC identifier for competence preset")
     parser.add_argument("--platform", type=str, default="Platform_F35_Lightning_II", help="Platform identifier for platform preset")
     parser.add_argument("--cage", type=str, default="L2391", help="CAGE code for dossier preset")

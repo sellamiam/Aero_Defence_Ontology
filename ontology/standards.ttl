@@ -67,6 +67,41 @@ aero:Cert_ISO14001 a aero:QualityStandard ;
 aero:Cert_ISO27001 a aero:SecurityClearanceStandard ;
     rdfs:label "ISO/IEC 27001 Information Security Management"@en .
 
+### US Aerospace, Defence & Cybersecurity Standards
+aero:Cert_AS9110C a aero:QualityStandard ;
+    rdfs:label "AS9110 Rev C (Aerospace Maintenance Organization Quality Management)"@en ;
+    skos:altLabel "AS9110" ;
+    rdfs:comment "Aerospace quality management system standard specifically for maintenance, repair, and overhaul (MRO) organizations."@en .
+
+aero:Cert_AS9120B a aero:QualityStandard ;
+    rdfs:label "AS9120 Rev B (Aerospace Stockist and Distributor Quality Management)"@en ;
+    skos:altLabel "AS9120" ;
+    rdfs:comment "Quality management standard for aerospace pass-through distributors, stockists, and supply chain logistics providers."@en .
+
+aero:Cert_CMMC_Level3 a aero:SecurityClearanceStandard ;
+    rdfs:label "CMMC Level 3 (Cybersecurity Maturity Model Certification - Expert / Enhanced)"@en ;
+    skos:altLabel "CMMC L3" ;
+    rdfs:comment "DoD Cybersecurity Maturity Model Certification Level 3 aligned with NIST SP 800-172 for critical defence programs and APT resilience."@en .
+
+aero:Cert_FAA_Part145 a aero:QualityStandard ;
+    rdfs:label "FAA Part 145 Certified Repair Station (14 CFR Part 145)"@en ;
+    skos:altLabel "FAA Part 145" ;
+    rdfs:comment "Federal Aviation Administration repair station certification for airframe, powerplant, propeller, radio, instrument, and accessory maintenance."@en .
+
+aero:Cert_DFARS_NIST800171 a aero:SecurityClearanceStandard ;
+    rdfs:label "DFARS 252.204-7012 / NIST SP 800-171 CUI Compliance"@en ;
+    skos:altLabel "NIST SP 800-171", "DFARS 7012" ;
+    rdfs:comment "US Department of Defense Defense Federal Acquisition Regulation Supplement requirement for safeguarding Covered Defense Information (CDI / CUI)."@en .
+
+aero:Cert_FAA_TSO_Certified a aero:QualityStandard ;
+    rdfs:label "FAA Technical Standard Order (TSO) Authorization"@en .
+
+aero:Cert_NASA_Approved a aero:QualityStandard ;
+    rdfs:label "NASA Flight Hardware & Mission Assurance Approved Supplier"@en .
+
+aero:Cert_ESA_Qualified a aero:QualityStandard ;
+    rdfs:label "European Space Agency (ESA) Flight Hardware Qualified"@en .
+
 ### Strategic & Critical Defence Materials
 aero:Material_Titanium_Ti6Al4V a aero:CriticalMaterial ;
     rdfs:label "Titanium Alloy Ti-6Al-4V (Grade 5 Aerospace)"@en ;
@@ -95,4 +130,32 @@ aero:Material_SingleCrystal_Superalloy a aero:CriticalMaterial ;
 aero:Material_Kevlar_Aramid a aero:CriticalMaterial ;
     rdfs:label "Kevlar / Para-Aramid Ballistic Fiber"@en ;
     skos:definition "Synthetic aromatic polyamide fiber delivering superior energy absorption for spall liners, body armour, and rotor containment."@en .
+
+aero:Material_AluminiumLithium_2055 a aero:CriticalMaterial ;
+    rdfs:label "Aluminium-Lithium Alloy 2055 / 2195 (Aerospace & Cryogenic Tankage)"@en ;
+    skos:definition "Low-density, high-stiffness aluminium-lithium structural alloy used in fighter fuselages, cryogenic rocket propellant tanks, and naval hulls."@en .
+
+aero:Material_Beryllium_Optical a aero:CriticalMaterial ;
+    rdfs:label "Optical & Aerospace Grade Beryllium (O-30 / I-220H)"@en ;
+    skos:definition "Ultra-stiff, lightweight metal for space telescope mirrors, EO/IR gimbal housings, inertial guidance gyros, and nuclear/missile structures."@en .
+
+aero:Material_HighPurity_Beryllium a aero:CriticalMaterial ;
+    rdfs:label "High-Purity Beryllium Aerospace Grade"@en ;
+    skos:definition "High-purity structural and optical beryllium for precision targeting optics and space systems."@en .
+
+aero:Material_Rhenium_Refractory a aero:CriticalMaterial ;
+    rdfs:label "Rhenium Refractory Metal & Superalloy Additive"@en ;
+    skos:definition "Ultra-high melting point refractory metal critical for rocket thruster nozzles, hypersonic leading edges, and single-crystal turbine blades."@en .
+
+aero:Material_Tungsten_HeavyAlloy a aero:CriticalMaterial ;
+    rdfs:label "Tungsten Heavy Alloy (WHA) & Kinetic Penetrator Material"@en ;
+    skos:definition "High-density tungsten alloy used in armor-piercing kinetic energy penetrators, fragmentation warheads, radiation shielding, and counterweights."@en .
+
+aero:Material_RareEarth_Neodymium a aero:CriticalMaterial ;
+    rdfs:label "Neodymium-Iron-Boron (NdFeB) & Samarium-Cobalt Rare Earth Magnets"@en ;
+    skos:definition "Sintered rare-earth permanent magnets essential for missile fin actuators, F-35 electric actuation, sonar transducers, and TWT/radar amplifiers."@en .
+
+aero:Material_RadarAbsorbentMaterial_RAM a aero:CriticalMaterial ;
+    rdfs:label "Radar Absorbent Material (RAM) & Low-Observable Coatings"@en ;
+    skos:definition "Electromagnetic wave-attenuating stealth coatings and structural radar-absorbing composites for 5th/6th-generation combat aircraft."@en .
 

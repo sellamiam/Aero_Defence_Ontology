@@ -48,9 +48,17 @@ class EntityResolutionPipeline:
             from harvesters.canada_harvester import CanadaHarvester
             from harvesters.uk_harvester import UKHarvester
             from harvesters.eu_harvester import EUHarvester
+            from harvesters.australia_harvester import AustraliaHarvester
+            from harvesters.nz_harvester import NewZealandHarvester
+            from harvesters.india_harvester import IndiaHarvester
+            from harvesters.usa_harvester import USAHarvester
             CanadaHarvester().harvest()
             UKHarvester().harvest()
             EUHarvester().harvest()
+            AustraliaHarvester().harvest()
+            NewZealandHarvester().harvest()
+            IndiaHarvester().harvest()
+            USAHarvester().harvest()
             raw_files = list(self.raw_dir.glob("*_catalog.json"))
 
         all_raw_records: List[Dict[str, Any]] = []
@@ -66,33 +74,37 @@ class EntityResolutionPipeline:
         logger.info(f"Loaded {len(all_raw_records)} raw records across regions.")
 
         resolved_by_cage: Dict[str, Dict[str, Any]] = {}
-        resolved_by_norm_name: Dict[str, str] = {}  # norm_name -> cage_code
+        resolved_by_norm_name: Dict[tuple, str] = {}  # (country, norm_name) -> cage_code
         subsidiary_links_count = 0
         total_capabilities = 0
 
         for r in all_raw_records:
             cage = r.get("cage_code")
+            country = r.get("country", "")
             norm_name = self._normalize_name(r.get("legal_name", ""))
+            norm_key = (country, norm_name)
 
             # Link corporate parent if applicable
             legal_name = r.get("legal_name", "")
             if legal_name in self.parent_subsidiary_rules:
                 r["parent_company"] = self.parent_subsidiary_rules[legal_name]
+            if r.get("parent_company"):
                 subsidiary_links_count += 1
 
             if cage and cage in resolved_by_cage:
                 # Merge existing record
                 existing = resolved_by_cage[cage]
-                # Combine unique certs, capabilities, etc.
-                existing["certifications"] = list(set(existing["certifications"] + r.get("certifications", [])))
-                existing["kics"] = list(set(existing["kics"] + r.get("kics", [])))
-                existing["platforms"] = list(set(existing["platforms"] + r.get("platforms", [])))
+                existing["certifications"] = list(set(existing.get("certifications", []) + r.get("certifications", [])))
+                existing["kics"] = list(set(existing.get("kics", []) + r.get("kics", [])))
+                existing["platforms"] = list(set(existing.get("platforms", []) + r.get("platforms", [])))
                 continue
 
-            if norm_name in resolved_by_norm_name:
-                prior_cage = resolved_by_norm_name[norm_name]
+            if norm_key in resolved_by_norm_name:
+                prior_cage = resolved_by_norm_name[norm_key]
                 existing = resolved_by_cage[prior_cage]
-                existing["certifications"] = list(set(existing["certifications"] + r.get("certifications", [])))
+                existing["certifications"] = list(set(existing.get("certifications", []) + r.get("certifications", [])))
+                existing["kics"] = list(set(existing.get("kics", []) + r.get("kics", [])))
+                existing["platforms"] = list(set(existing.get("platforms", []) + r.get("platforms", [])))
                 continue
 
             # Register record
@@ -101,7 +113,7 @@ class EntityResolutionPipeline:
                 r["cage_code"] = cage
 
             resolved_by_cage[cage] = r
-            resolved_by_norm_name[norm_name] = cage
+            resolved_by_norm_name[norm_key] = cage
             total_capabilities += len(r.get("capabilities", []))
 
         resolved_list = list(resolved_by_cage.values())

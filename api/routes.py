@@ -200,7 +200,7 @@ def get_company(cage_code: str):
 @router.get("/graph/subgraph", summary="Fetch Dynamic Knowledge Graph Subgraph")
 def get_graph_subgraph(
     cage: Optional[str] = Query(None, description="Focus on a specific company by CAGE"),
-    country: Optional[str] = Query(None, description="Filter by country (e.g. CAN, GBR, FRA, DEU, EU, ALL)"),
+    country: Optional[str] = Query(None, description="Filter by country (e.g. CAN, USA, GBR, FRA, DEU, EU, AUS, NZL, IND, ALL)"),
     mode: str = Query("ecosystem", description="Graph perspective: ecosystem, company, tier, platform"),
     limit: int = Query(60, description="Max entities to load"),
 ):
@@ -538,7 +538,7 @@ def list_kics():
 
 @router.get("/stats", summary="Get Ontology Graph Statistics")
 def get_graph_statistics():
-    """Returns high-level graph metrics and entity distributions across Canada, UK, and EU."""
+    """Returns high-level graph metrics and entity distributions across Canada, USA, UK, EU, Australia, New Zealand, and India."""
     store = get_graph_store()
     sparql = """
         PREFIX aero: <https://w3id.org/aerospace-defence#>
@@ -548,16 +548,26 @@ def get_graph_statistics():
         } GROUP BY ?country ORDER BY DESC(?count)
     """
     country_dist = store.query_sparql(sparql)
+    cap_rows = store.query_sparql("""
+        PREFIX aero: <https://w3id.org/aerospace-defence#>
+        SELECT (COUNT(DISTINCT ?cap) AS ?caps) WHERE { ?cap a aero:Capability . }
+    """)
+    total_caps = int(cap_rows[0]["caps"]) if cap_rows else 0
     return {
         "total_triples": len(store.store),
+        "total_capabilities": total_caps,
         "companies_by_country": country_dist,
         "supported_standards": [
-            "AS9100D",
+            "AS9100D / AS9110C / AS9120B",
             "ISO 9001:2015",
             "Controlled Goods Program (Canada)",
+            "ITAR / EAR Export Compliance",
+            "CMMC Level 2/3 & DFARS NIST SP 800-171",
+            "FAA Part 145",
             "NATO AQAP 2110",
             "Cyber Essentials Plus (UK)",
-            "NADCAP (Composites, NDT, Chemical)",
+            "DISP Levels 2 & 3 (Australia)",
+            "NADCAP (Composites, NDT, Chemical, Heat Treating, Welding)",
         ],
     }
 

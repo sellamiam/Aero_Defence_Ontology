@@ -54,6 +54,82 @@ CANADIAN_CITY_PROVINCE = {
     "st. john's": "NL",
 }
 
+# US City -> State mapping (excludes cities already in CANADIAN_CITY_PROVINCE like London/Cambridge/Victoria/Richmond)
+US_CITY_STATE = {
+    "los angeles": "CA",
+    "el segundo": "CA",
+    "palmdale": "CA",
+    "san diego": "CA",
+    "sunnyvale": "CA",
+    "santa clara": "CA",
+    "hawthorne": "CA",
+    "costa mesa": "CA",
+    "irvine": "CA",
+    "torrance": "CA",
+    "san jose": "CA",
+    "seattle": "WA",
+    "everett": "WA",
+    "kent": "WA",
+    "tukwila": "WA",
+    "huntsville": "AL",
+    "tucson": "AZ",
+    "mesa": "AZ",
+    "phoenix": "AZ",
+    "tempe": "AZ",
+    "scottsdale": "AZ",
+    "fort worth": "TX",
+    "dallas": "TX",
+    "grand prairie": "TX",
+    "austin": "TX",
+    "houston": "TX",
+    "san antonio": "TX",
+    "wichita": "KS",
+    "st. louis": "MO",
+    "hartford": "CT",
+    "east hartford": "CT",
+    "stratford": "CT",
+    "windsor locks": "CT",
+    "groton": "CT",
+    "bethesda": "MD",
+    "linthicum": "MD",
+    "arlington": "VA",
+    "reston": "VA",
+    "falls church": "VA",
+    "mclean": "VA",
+    "chantilly": "VA",
+    "newport news": "VA",
+    "herndon": "VA",
+    "orlando": "FL",
+    "melbourne": "FL",
+    "palm bay": "FL",
+    "clearwater": "FL",
+    "colorado springs": "CO",
+    "littleton": "CO",
+    "denver": "CO",
+    "boulder": "CO",
+    "cincinnati": "OH",
+    "evendale": "OH",
+    "dayton": "OH",
+    "cleveland": "OH",
+    "boston": "MA",
+    "lexington": "MA",
+    "andover": "MA",
+    "waltham": "MA",
+    "bedford": "MA",
+    "pascagoula": "MS",
+    "bath": "ME",
+    "charlotte": "NC",
+    "indianapolis": "IN",
+    "nashua": "NH",
+    "salt lake city": "UT",
+    "magna": "UT",
+    "cedar rapids": "IA",
+    "sterling heights": "MI",
+    "troy": "MI",
+    "savannah": "GA",
+    "marietta": "GA",
+}
+
 # Province / State normalization
 PROVINCES = {
     "ontario": ("CAN", "ON"),
@@ -68,6 +144,51 @@ PROVINCES = {
     "mb": ("CAN", "MB"),
     "nova scotia": ("CAN", "NS"),
     "ns": ("CAN", "NS"),
+    # US States (full unambiguous names only; 2-letter codes handled case-sensitively in geo phrases)
+    "california": ("USA", "CA"),
+    "virginia": ("USA", "VA"),
+    "maryland": ("USA", "MD"),
+    "texas": ("USA", "TX"),
+    "alabama": ("USA", "AL"),
+    "arizona": ("USA", "AZ"),
+    "washington": ("USA", "WA"),
+    "florida": ("USA", "FL"),
+    "connecticut": ("USA", "CT"),
+    "massachusetts": ("USA", "MA"),
+    "ohio": ("USA", "OH"),
+    "kansas": ("USA", "KS"),
+    "missouri": ("USA", "MO"),
+    "utah": ("USA", "UT"),
+    "michigan": ("USA", "MI"),
+    "pennsylvania": ("USA", "PA"),
+    "georgia": ("USA", "GA"),
+    "colorado": ("USA", "CO"),
+    "north carolina": ("USA", "NC"),
+    "south carolina": ("USA", "SC"),
+    "new jersey": ("USA", "NJ"),
+    "new york": ("USA", "NY"),
+    "minnesota": ("USA", "MN"),
+    "new hampshire": ("USA", "NH"),
+    "indiana": ("USA", "IN"),
+    "tennessee": ("USA", "TN"),
+    "nevada": ("USA", "NV"),
+    "oregon": ("USA", "OR"),
+    "illinois": ("USA", "IL"),
+    "wisconsin": ("USA", "WI"),
+    "oklahoma": ("USA", "OK"),
+    "new mexico": ("USA", "NM"),
+    "iowa": ("USA", "IA"),
+    "kentucky": ("USA", "KY"),
+    "louisiana": ("USA", "LA"),
+    "mississippi": ("USA", "MS"),
+    "maine": ("USA", "ME"),
+}
+
+US_STATE_CODES = {
+    "CA", "VA", "MD", "TX", "AL", "AZ", "WA", "FL", "CT", "MA",
+    "OH", "KS", "MO", "UT", "MI", "PA", "GA", "CO", "NC", "SC",
+    "NJ", "NY", "MN", "NH", "IN", "TN", "NV", "OR", "IL", "WI",
+    "OK", "NM", "IA", "KY", "LA", "MS", "ME", "DC",
 }
 
 # Country aliases
@@ -101,6 +222,15 @@ COUNTRIES = {
     "usa": "USA",
     "us": "USA",
     "united states": "USA",
+    "american": "USA",
+    "australia": "AUS",
+    "australian": "AUS",
+    "aus": "AUS",
+    "new zealand": "NZL",
+    "nzl": "NZL",
+    "india": "IND",
+    "indian": "IND",
+    "ind": "IND",
 }
 
 # Common Aerospace & Defence Typo Normalization
@@ -280,50 +410,76 @@ class QueryParser:
 
         # 3. Extract Geographic Entities (Province, City, Country)
         # Check patterns like "in Ontario", "in Quebec", "in Canada", "in the UK", "near Toronto"
-        geo_pattern = r"\b(?:in|near|around|from|based\s+in)\s+(?:the\s+)?([A-Za-z\s]+?)(?:$|\b(?=with|for|having|who|that))"
+        geo_pattern = r"\b(?:in|near|around|from|based\s+in)\s+(?:the\s+)?([A-Za-z.\s]+?)(?:$|\b(?=with|for|having|who|that))"
         geo_match = re.search(geo_pattern, text, re.IGNORECASE)
-        
+
         extracted_geo_phrase = None
         if geo_match:
-            candidate = geo_match.group(1).strip().lower()
-            # Test candidate against known provinces, cities, countries
-            for prov_name, (cntry, prov_code) in PROVINCES.items():
-                if prov_name in candidate:
+            raw_candidate = geo_match.group(1).strip()
+            candidate = raw_candidate.lower()
+            # Test candidate against known provinces/states (longest match first, word-boundary safe)
+            for prov_name, (cntry, prov_code) in sorted(PROVINCES.items(), key=lambda x: len(x[0]), reverse=True):
+                if re.search(rf"\b{re.escape(prov_name)}\b", candidate):
                     target_country = cntry
                     target_region = prov_code
                     extracted_geo_phrase = geo_match.group(0)
                     break
 
+            # Case-sensitive check for 2-letter US state abbreviations inside geo phrase (e.g. "in TX", "in CA")
             if not target_region:
-                for city_name, prov_code in CANADIAN_CITY_PROVINCE.items():
-                    if city_name in candidate:
+                for st_code in US_STATE_CODES:
+                    if re.search(rf"\b{st_code}\b", raw_candidate):
+                        target_country = "USA"
+                        target_region = st_code
+                        extracted_geo_phrase = geo_match.group(0)
+                        break
+
+            if not target_region:
+                for city_name, prov_code in sorted(CANADIAN_CITY_PROVINCE.items(), key=lambda x: len(x[0]), reverse=True):
+                    if re.search(rf"\b{re.escape(city_name)}\b", candidate):
                         target_country = "CAN"
                         target_region = prov_code
                         target_city = city_name.title()
                         extracted_geo_phrase = geo_match.group(0)
                         break
 
+            if not target_region:
+                for city_name, state_code in sorted(US_CITY_STATE.items(), key=lambda x: len(x[0]), reverse=True):
+                    if re.search(rf"\b{re.escape(city_name)}\b", candidate):
+                        target_country = "USA"
+                        target_region = state_code
+                        target_city = city_name.title()
+                        extracted_geo_phrase = geo_match.group(0)
+                        break
+
             if not target_country:
-                for c_name, c_code in COUNTRIES.items():
-                    if c_name in candidate:
+                for c_name, c_code in sorted(COUNTRIES.items(), key=lambda x: len(x[0]), reverse=True):
+                    if re.search(rf"\b{re.escape(c_name)}\b", candidate):
                         target_country = c_code
                         extracted_geo_phrase = geo_match.group(0)
                         break
 
-        # Also direct standalone checks if "in X" wasn't used but words like "Ontario" appear
+        # Also direct standalone checks if "in X" wasn't used but words like "Ontario" or "California" appear
         if not target_region:
-            for prov_name, (cntry, prov_code) in PROVINCES.items():
-                if re.search(rf"\b{prov_name}\b", text, re.IGNORECASE):
+            for prov_name, (cntry, prov_code) in sorted(PROVINCES.items(), key=lambda x: len(x[0]), reverse=True):
+                if len(prov_name) <= 2:
+                    # Require exact uppercase for 2-letter codes to avoid matching English words like "on"
+                    if re.search(rf"\b{re.escape(prov_name.upper())}\b", text):
+                        target_country = cntry
+                        target_region = prov_code
+                        text = re.sub(rf"\b{re.escape(prov_name.upper())}\b", "", text)
+                        break
+                elif re.search(rf"\b{re.escape(prov_name)}\b", text, re.IGNORECASE):
                     target_country = cntry
                     target_region = prov_code
-                    text = re.sub(rf"\b{prov_name}\b", "", text, flags=re.IGNORECASE)
+                    text = re.sub(rf"\b{re.escape(prov_name)}\b", "", text, flags=re.IGNORECASE)
                     break
 
         if not target_country:
-            for c_name, c_code in COUNTRIES.items():
-                if re.search(rf"\b{c_name}\b", text, re.IGNORECASE):
+            for c_name, c_code in sorted(COUNTRIES.items(), key=lambda x: len(x[0]), reverse=True):
+                if re.search(rf"\b{re.escape(c_name)}\b", text, re.IGNORECASE):
                     target_country = c_code
-                    text = re.sub(rf"\b{c_name}\b", "", text, flags=re.IGNORECASE)
+                    text = re.sub(rf"\b{re.escape(c_name)}\b", "", text, flags=re.IGNORECASE)
                     break
 
         # Remove the extracted geo phrase from text so it does not contaminate technical matching

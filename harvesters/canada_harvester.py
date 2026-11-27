@@ -6,6 +6,8 @@ and NATO NCAGE coding standards.
 """
 
 from typing import List, Dict, Any, Optional
+from pathlib import Path
+import json
 import random
 import hashlib
 from harvesters.base import BaseHarvester, RawCompanyRecord
@@ -14,8 +16,11 @@ from harvesters.base import BaseHarvester, RawCompanyRecord
 class CanadaHarvester(BaseHarvester):
     """Harvester for Canadian Aerospace and Defence industrial base."""
 
-    def __init__(self):
-        super().__init__(region_name="Canada")
+    def __init__(self, data_file: Optional[Path] = None, output_dir: Optional[Path] = None):
+        super().__init__(region_name="Canada", output_dir=output_dir)
+        self.data_file = data_file or (
+            Path(__file__).resolve().parent / "data" / "canada_verified_suppliers.json"
+        )
 
     def _get_flagship_canadian_companies(self) -> List[Dict[str, Any]]:
         """Returns the core flagship Canadian A&D prime integrators and tier 1 suppliers."""
@@ -1080,9 +1085,13 @@ class CanadaHarvester(BaseHarvester):
         return records
 
     def harvest(self, limit: Optional[int] = None) -> List[Dict[str, Any]]:
-        """Harvests Canadian A&D data and serializes output."""
-        target = limit if limit is not None else 1000
-        records = self._generate_canadian_ecosystem_records(target_count=target)
+        """Harvests verified Canadian A&D companies and serializes output."""
+        if self.data_file.exists():
+            with open(self.data_file, "r", encoding="utf-8") as f:
+                records: List[Dict[str, Any]] = json.load(f)
+        else:
+            records = self._get_flagship_canadian_companies()
+
         if limit is not None:
             records = records[:limit]
         self.save_raw(records, "canada_aero_defence_catalog.json")

@@ -14,8 +14,8 @@ WHERE {
     # 1. Target platform (bind from current simulation node or scenario platform)
     VALUES ?platform { aero:Platform_F35_Lightning_II }
 
-    # 2. Target jurisdiction option (bind dynamically in simulation, defaults to all 6 for testing)
-    VALUES ?country { "CAN" "AUS" "GBR" "FRA" "IND" "NZL" }
+    # 2. Target jurisdiction option (bind dynamically in simulation, defaults to all 7 for testing)
+    VALUES ?country { "CAN" "USA" "AUS" "GBR" "FRA" "IND" "NZL" }
 
     ?company aero:legalName ?companyName ;
              aero:headquartersCountry ?country ;

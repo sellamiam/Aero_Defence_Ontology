@@ -10,8 +10,8 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 SELECT DISTINCT ?companyName ?country ?city ?serviceType ?serviceName ?accreditation
 WHERE {
-    # Target Country (bind dynamically in simulation; defaults to all 6 for testing)
-    VALUES ?country { "CAN" "IND" "GBR" "FRA" "AUS" "NZL" }
+    # Target Country (bind dynamically in simulation; defaults to all 7 for testing)
+    VALUES ?country { "CAN" "USA" "IND" "GBR" "FRA" "AUS" "NZL" }
 
     # Target Service Type (aero:MROService, aero:TestingQualificationService, aero:EngineeringService, etc.)
     VALUES ?serviceClass { aero:MROService }

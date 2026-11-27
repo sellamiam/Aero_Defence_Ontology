@@ -11,7 +11,7 @@
 
 In response to your simulation requirements for multi-jurisdiction supplier exploration and alternative node matching, we have generated an exhaustive, production-grade **Aerospace & Defence Global Supply Chain Knowledge Graph**. 
 
-The dataset provides deep coverage across all **6 requested jurisdictions** (Canada, United Kingdom, European Union, Australia, New Zealand, and India), linking **1,740 enterprise nodes**, **3,442 technical capabilities**, **3,464 military-grade products**, and **8,558 fully-specified services** into a single cohesive semantic graph comprising **156,768 formal W3C RDF triples**.
+The dataset provides deep coverage across all **7 requested jurisdictions** (United States, Canada, United Kingdom, European Union, Australia, New Zealand, and India), linking **3,111 enterprise nodes** into a single cohesive semantic graph comprising **235,525 formal W3C RDF triples**.
 
 All output files are completely standalone and self-contained: each file embeds its own formal OWL 2 schema headers, class hierarchies, object/datatype properties, NATO codification ontologies, and Key Industrial Capability (KIC) taxonomies. They can be queried directly in Oxigraph, GraphDB, Apache Jena, Blazegraph, Protégé, or any compliant SPARQL 1.1 engine without external network dependencies.
 
@@ -23,13 +23,14 @@ All files have been generated, validated, and placed directly on your **Desktop*
 
 | File Name | Jurisdiction / Scope | Companies | Triples | File Size | Desktop Location |
 |:---|:---|:---:|:---:|:---:|:---|
-| **`Aero_Defence_Global_Supply_Chain_Ontology.ttl`** | **Global Unified Master** (All 6 Jurisdictions) | **1,740** | **156,768** | **10.74 MB** | `~/Desktop/Aero_Defence_Global_Supply_Chain_Ontology.ttl` |
-| **`canada.ttl`** | Canada (CAN) | 1,000 | 94,362 | 6.14 MB | `~/Desktop/canada.ttl` |
-| **`uk.ttl`** | United Kingdom (GBR) | 160 | 14,148 | 1.03 MB | `~/Desktop/uk.ttl` |
-| **`eu.ttl`** | European Union (FRA, DEU, ITA, ESP, SWE, NLD, BEL, etc.) | 220 | 19,134 | 1.39 MB | `~/Desktop/eu.ttl` |
-| **`australia.ttl`** | Australia (AUS) | 120 | 10,756 | 0.77 MB | `~/Desktop/australia.ttl` |
-| **`new_zealand.ttl`** | New Zealand (NZL) | 60 | 5,013 | 0.36 MB | `~/Desktop/new_zealand.ttl` |
-| **`india.ttl`** | India (IND) | 180 | 15,906 | 1.20 MB | `~/Desktop/india.ttl` |
+| **`Aero_Defence_Global_Supply_Chain_Ontology.ttl`** | **Global Unified Master** (All 7 Jurisdictions) | **3,111** | **235,525** | **15.14 MB** | `~/Desktop/Aero_Defence_Global_Supply_Chain_Ontology.ttl` |
+| **`usa.ttl`** | United States (USA) | 1,371 | 79,180 | 4.42 MB | `~/Desktop/usa.ttl` |
+| **`canada.ttl`** | Canada (CAN) | 1,000 | 94,475 | 6.14 MB | `~/Desktop/canada.ttl` |
+| **`uk.ttl`** | United Kingdom (GBR) | 160 | 14,261 | 1.04 MB | `~/Desktop/uk.ttl` |
+| **`eu.ttl`** | European Union (FRA, DEU, ITA, ESP, SWE, NLD, BEL, etc.) | 220 | 19,247 | 1.40 MB | `~/Desktop/eu.ttl` |
+| **`australia.ttl`** | Australia (AUS) | 120 | 10,869 | 0.78 MB | `~/Desktop/australia.ttl` |
+| **`new_zealand.ttl`** | New Zealand (NZL) | 60 | 5,276 | 0.36 MB | `~/Desktop/new_zealand.ttl` |
+| **`india.ttl`** | India (IND) | 180 | 16,019 | 1.21 MB | `~/Desktop/india.ttl` |
 
 > **Note**: An identical backup set is preserved in the repository at `data/exports/`. These files are completely separate from the active web application database and can be queried or modified independently.
 

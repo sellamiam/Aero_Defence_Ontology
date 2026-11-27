@@ -11,9 +11,9 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 SELECT DISTINCT ?companyName ?cageCode ?tier ?city ?targetCountry ?capTitle ?trl
        (GROUP_CONCAT(DISTINCT ?certLabel; separator=", ") AS ?certifications)
 WHERE {
-    # 1. Target alternative country filter (bind dynamically from UI button in simulation: e.g. "CAN", "AUS", "GBR", "FRA", "NZL", "IND")
-    # Defaults to all 6 jurisdictions so this query runs out-of-the-box on ANY .ttl file:
-    VALUES ?targetCountry { "CAN" "AUS" "GBR" "FRA" "NZL" "IND" }
+    # 1. Target alternative country filter (bind dynamically from UI button in simulation: e.g. "CAN", "USA", "AUS", "GBR", "FRA", "NZL", "IND")
+    # Defaults to all 7 jurisdictions so this query runs out-of-the-box on ANY .ttl file:
+    VALUES ?targetCountry { "CAN" "USA" "AUS" "GBR" "FRA" "NZL" "IND" }
     
     # 2. Competence alignment (bind from selected node's KIC)
     VALUES ?targetKIC { aero:KIC_AdvancedMaterials }

@@ -1,0 +1,2565 @@
+[
+  {
+    "legal_name": "CBS Manufacturing Company, Inc.",
+    "trade_name": "CBS Manufacturing",
+    "cage_code": null,
+    "country": "USA",
+    "city": "East Hartford",
+    "province": "CT",
+    "website": "https://www.cbsmfg.com",
+    "tier": "Tier2Supplier",
+    "controlled_goods": false,
+    "itar_compliant": true,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainAeronautics",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_F35_Lightning_II",
+      "Platform_UH60_BlackHawk"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems",
+      "KIC_AdvancedMaterials"
+    ],
+    "capabilities": [
+      {
+        "title": "Precision Aero-Engine & Housing Machining",
+        "description": "5-axis CNC machining of complex housings, castings, and turbine engine components.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_AerospaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Machined Aero-Engine Housings",
+        "description": "Precision-machined complex castings and housings for gas turbine engines.",
+        "part_number": null,
+        "fsc_code": "2840",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_F35_Lightning_II",
+          "Platform_UH60_BlackHawk"
+        ],
+        "materials": [
+          "Material_Inconel_718",
+          "Material_Titanium_Ti6Al4V"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Build-to-Print Aerospace CNC Machining",
+        "description": "Multi-axis CNC milling and turning of flight-critical engine hardware.",
+        "type": "EngineeringService",
+        "accreditation": "AS9100D"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Pratt & Whitney",
+      "Collins Aerospace"
+    ],
+    "source_note": "ACM Aerospace Alley member directory"
+  },
+  {
+    "legal_name": "Joining Technologies, Inc.",
+    "trade_name": "Joining Technologies",
+    "cage_code": null,
+    "country": "USA",
+    "city": "East Windsor",
+    "province": "CT",
+    "website": "https://www.joiningtech.com",
+    "tier": "Tier2Supplier",
+    "controlled_goods": false,
+    "itar_compliant": true,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "AS9100D",
+      "NADCAP_Welding",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "AirPlatform",
+      "SpacePlatform",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "Platform_F35_Lightning_II",
+      "Platform_SpaceLaunchVehicle"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems",
+      "KIC_AdvancedMaterials"
+    ],
+    "capabilities": [
+      {
+        "title": "Laser & Electron Beam Welding & Additive Cladding",
+        "description": "Precision laser welding, electron beam welding, and laser cladding for jet engine and space propulsion components.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_AdvancedMaterials"
+      }
+    ],
+    "products": [
+      {
+        "name": "Laser-Welded Aero-Engine Assemblies",
+        "description": "Hermetically sealed and precision-welded superalloy turbine and sensor assemblies.",
+        "part_number": null,
+        "fsc_code": "2840",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_F35_Lightning_II",
+          "Platform_SpaceLaunchVehicle"
+        ],
+        "materials": [
+          "Material_Inconel_718",
+          "Material_Titanium_Ti6Al4V"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "NADCAP Laser & EB Welding",
+        "description": "Contract laser welding, EBW, and metallurgical process development.",
+        "type": "EngineeringService",
+        "accreditation": "NADCAP"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Pratt & Whitney",
+      "Collins Aerospace"
+    ],
+    "source_note": "ACM Aerospace Alley member directory"
+  },
+  {
+    "legal_name": "C&M Corporation",
+    "trade_name": "C&M",
+    "cage_code": null,
+    "country": "USA",
+    "city": "Wauregan",
+    "province": "CT",
+    "website": "https://www.cmcorporation.com",
+    "tier": "Tier2Supplier",
+    "controlled_goods": false,
+    "itar_compliant": true,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "AirPlatform",
+      "LandPlatform",
+      "DomainC4ISR"
+    ],
+    "platforms": [
+      "Platform_UH60_BlackHawk",
+      "Platform_JLTV"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems",
+      "KIC_SensorsSonar"
+    ],
+    "capabilities": [
+      {
+        "title": "Military & Aerospace Cable Assemblies",
+        "description": "Design and manufacture of ruggedized bulk cable, coil cords, and overmolded mil-spec wire harnesses.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_AerospaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Mil-Spec Interconnect Cable Harnesses",
+        "description": "Ruggedized shielded cable assemblies for tactical vehicles and avionics.",
+        "part_number": null,
+        "fsc_code": "6150",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_UH60_BlackHawk",
+          "Platform_JLTV"
+        ],
+        "materials": [
+          "Material_CarbonFiber_Composite"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Custom Cable & Harness Engineering",
+        "description": "Build-to-print and custom mil-spec interconnect manufacturing.",
+        "type": "EngineeringService",
+        "accreditation": "AS9100D"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Sikorsky Aircraft",
+      "General Dynamics"
+    ],
+    "source_note": "Company website"
+  },
+  {
+    "legal_name": "Edro Engineering, Inc.",
+    "trade_name": "Edro Engineering",
+    "cage_code": null,
+    "country": "USA",
+    "city": "Plainville",
+    "province": "CT",
+    "website": "https://www.edroeng.com",
+    "tier": "SMESupplier",
+    "controlled_goods": false,
+    "itar_compliant": true,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "AS9100D",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "Platform_F35_Lightning_II",
+      "Platform_KC46_Pegasus"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Precision Aerospace Turned & Milled Parts",
+        "description": "CNC turning and milling of aerospace engine and airframe fittings, bushings, and sleeves.",
+        "trl": 9,
+        "mrl": 8,
+        "kic": "KIC_AerospaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Aerospace Bushings & Precision Fittings",
+        "description": "Tight-tolerance turned and milled structural and engine hardware.",
+        "part_number": null,
+        "fsc_code": "5365",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_F35_Lightning_II",
+          "Platform_KC46_Pegasus"
+        ],
+        "materials": [
+          "Material_Titanium_Ti6Al4V",
+          "Material_Inconel_718"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "AS9100D Contract Machining",
+        "description": "Production CNC turning and milling for aerospace OEMs.",
+        "type": "EngineeringService",
+        "accreditation": "AS9100D"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Pratt & Whitney",
+      "Collins Aerospace"
+    ],
+    "source_note": "ACM Aerospace Alley member"
+  },
+  {
+    "legal_name": "Apex Tool & Manufacturing, Inc.",
+    "trade_name": "Apex Tool",
+    "cage_code": null,
+    "country": "USA",
+    "city": "Windsor",
+    "province": "CT",
+    "website": "https://www.apextoolmfg.com",
+    "tier": "SMESupplier",
+    "controlled_goods": false,
+    "itar_compliant": true,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "AS9100D",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "Platform_F35_Lightning_II",
+      "Platform_UH60_BlackHawk"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Aerospace Sheet Metal & Precision Machining",
+        "description": "Precision sheet metal fabrication, hydroforming, and CNC machining for aircraft structures.",
+        "trl": 9,
+        "mrl": 8,
+        "kic": "KIC_AerospaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Formed Aerospace Sheet Metal Brackets",
+        "description": "Precision-formed and machined aluminum and titanium airframe brackets.",
+        "part_number": null,
+        "fsc_code": "1560",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_F35_Lightning_II",
+          "Platform_UH60_BlackHawk"
+        ],
+        "materials": [
+          "Material_Titanium_Ti6Al4V"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Aerospace Sheet Metal Fabrication",
+        "description": "Hydroforming, stamping, and CNC machining.",
+        "type": "EngineeringService",
+        "accreditation": "AS9100D"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Sikorsky Aircraft",
+      "Collins Aerospace"
+    ],
+    "source_note": "ACM Aerospace Alley member"
+  },
+  {
+    "legal_name": "Connecticut Tool & Manufacturing Co.",
+    "trade_name": "CTM",
+    "cage_code": null,
+    "country": "USA",
+    "city": "Bristol",
+    "province": "CT",
+    "website": "https://www.ctm-co.com",
+    "tier": "SMESupplier",
+    "controlled_goods": false,
+    "itar_compliant": true,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "AS9100D",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "Platform_F35_Lightning_II",
+      "Platform_CH53K_KingStallion"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Precision Aerospace Tooling & Components",
+        "description": "CNC machining of flight-critical aerospace brackets, housings, and precision tooling.",
+        "trl": 9,
+        "mrl": 8,
+        "kic": "KIC_AerospaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Precision Machined Aero Housings",
+        "description": "Multi-axis machined aluminum and titanium aerospace housings.",
+        "part_number": null,
+        "fsc_code": "1560",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_F35_Lightning_II",
+          "Platform_CH53K_KingStallion"
+        ],
+        "materials": [
+          "Material_Titanium_Ti6Al4V"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "AS9100D Precision Machining",
+        "description": "Build-to-print CNC milling and turning.",
+        "type": "EngineeringService",
+        "accreditation": "AS9100D"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Pratt & Whitney",
+      "Sikorsky Aircraft"
+    ],
+    "source_note": "ACM member"
+  },
+  {
+    "legal_name": "D&N Machining, Inc.",
+    "trade_name": "D&N Machining",
+    "cage_code": null,
+    "country": "USA",
+    "city": "Manchester",
+    "province": "CT",
+    "website": "https://www.dnmachining.com",
+    "tier": "SMESupplier",
+    "controlled_goods": false,
+    "itar_compliant": true,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "AS9100D",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "Platform_F35_Lightning_II",
+      "Platform_UH60_BlackHawk"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "5-Axis CNC Machining of Superalloys",
+        "description": "Precision CNC milling and turning of Inconel, titanium, and stainless steel aerospace parts.",
+        "trl": 9,
+        "mrl": 8,
+        "kic": "KIC_AerospaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Superalloy Engine Brackets & Mounts",
+        "description": "Precision-machined high-temp alloy engine mounts.",
+        "part_number": null,
+        "fsc_code": "2840",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_F35_Lightning_II",
+          "Platform_UH60_BlackHawk"
+        ],
+        "materials": [
+          "Material_Inconel_718",
+          "Material_Titanium_Ti6Al4V"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Superalloy CNC Machining",
+        "description": "Contract 5-axis machining for aerospace propulsion.",
+        "type": "EngineeringService",
+        "accreditation": "AS9100D"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Pratt & Whitney",
+      "Collins Aerospace"
+    ],
+    "source_note": "ACM member"
+  },
+  {
+    "legal_name": "Flanagan Industries, Inc.",
+    "trade_name": "Flanagan Industries",
+    "cage_code": null,
+    "country": "USA",
+    "city": "Glastonbury",
+    "province": "CT",
+    "website": "https://www.flanaganind.com",
+    "tier": "Tier2Supplier",
+    "controlled_goods": false,
+    "itar_compliant": true,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "AS9100D",
+      "NADCAP_NDT",
+      "NADCAP_Welding",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "Platform_F35_Lightning_II",
+      "Platform_F15EX_EagleII"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Jet Engine Sheet Metal & Ring Assemblies",
+        "description": "Precision machining, TIG/resistance welding, and sheet metal fabrication for jet engines.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_AerospaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Jet Engine Shrouds & Ring Assemblies",
+        "description": "Welded and machined superalloy gas turbine rings and shrouds.",
+        "part_number": null,
+        "fsc_code": "2840",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_F35_Lightning_II",
+          "Platform_F15EX_EagleII"
+        ],
+        "materials": [
+          "Material_Inconel_718",
+          "Material_Titanium_Ti6Al4V"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "NADCAP Welding & Machining",
+        "description": "Aerospace engine component fabrication and NDT.",
+        "type": "EngineeringService",
+        "accreditation": "NADCAP"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Pratt & Whitney",
+      "GE Aerospace"
+    ],
+    "source_note": "ACM member"
+  },
+  {
+    "legal_name": "G&W Machine Co., Inc.",
+    "trade_name": "G&W Machine",
+    "cage_code": null,
+    "country": "USA",
+    "city": "East Windsor",
+    "province": "CT",
+    "website": "https://www.gwmachine.com",
+    "tier": "SMESupplier",
+    "controlled_goods": false,
+    "itar_compliant": true,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "AS9100D",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "Platform_UH60_BlackHawk",
+      "Platform_F35_Lightning_II"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Precision Aerospace Milling & Turning",
+        "description": "CNC milling, turning, and grinding of aerospace structural and engine components.",
+        "trl": 9,
+        "mrl": 8,
+        "kic": "KIC_AerospaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Precision Machined Aero Fittings",
+        "description": "Tight-tolerance machined aerospace fittings and housings.",
+        "part_number": null,
+        "fsc_code": "1560",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_UH60_BlackHawk",
+          "Platform_F35_Lightning_II"
+        ],
+        "materials": [
+          "Material_Titanium_Ti6Al4V"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "AS9100D Contract Machining",
+        "description": "Build-to-print CNC machining.",
+        "type": "EngineeringService",
+        "accreditation": "AS9100D"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Pratt & Whitney",
+      "Sikorsky Aircraft"
+    ],
+    "source_note": "ACM member"
+  },
+  {
+    "legal_name": "L&I Precision Machining, Inc.",
+    "trade_name": "L&I Precision",
+    "cage_code": null,
+    "country": "USA",
+    "city": "New Britain",
+    "province": "CT",
+    "website": "https://www.liprecision.com",
+    "tier": "SMESupplier",
+    "controlled_goods": false,
+    "itar_compliant": true,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "AS9100D",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "Platform_F35_Lightning_II",
+      "Platform_UH60_BlackHawk"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "CNC Swiss & Multi-Axis Machining",
+        "description": "Precision Swiss turning and 5-axis milling for aerospace and defense hardware.",
+        "trl": 9,
+        "mrl": 8,
+        "kic": "KIC_AerospaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Precision Swiss-Turned Aerospace Pins",
+        "description": "Tight-tolerance pins, shafts, and bushings for flight controls.",
+        "part_number": null,
+        "fsc_code": "5315",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_F35_Lightning_II",
+          "Platform_UH60_BlackHawk"
+        ],
+        "materials": [
+          "Material_Titanium_Ti6Al4V"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "AS9100D Swiss Machining",
+        "description": "High-volume precision Swiss turning.",
+        "type": "EngineeringService",
+        "accreditation": "AS9100D"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Collins Aerospace",
+      "Sikorsky Aircraft"
+    ],
+    "source_note": "ACM member"
+  },
+  {
+    "legal_name": "Kaman Specialty Bearings & Engineered Products",
+    "trade_name": "Kaman Specialty Bearings",
+    "cage_code": null,
+    "country": "USA",
+    "city": "Bloomfield",
+    "province": "CT",
+    "website": "https://www.kamanaerosystems.com",
+    "tier": "Tier2Supplier",
+    "controlled_goods": false,
+    "itar_compliant": true,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "AS9100D",
+      "NADCAP_NDT",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "Platform_UH60_BlackHawk",
+      "Platform_F35_Lightning_II"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Self-Lubricating Aerospace Bearings",
+        "description": "Design and manufacture of KAron self-lubricating bearings and mechanical flight control assemblies.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_AerospaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "KAron Self-Lubricating Airframe Bearings",
+        "description": "High-load, maintenance-free spherical and journal bearings.",
+        "part_number": null,
+        "fsc_code": "3120",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_UH60_BlackHawk",
+          "Platform_F35_Lightning_II"
+        ],
+        "materials": [
+          "Material_Titanium_Ti6Al4V"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Bearing Qualification & Testing",
+        "description": "Load, wear, and environmental qualification of aerospace bearings.",
+        "type": "TestingQualificationService",
+        "accreditation": "AS9100D"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Sikorsky Aircraft",
+      "Boeing",
+      "Lockheed Martin"
+    ],
+    "source_note": "Company website"
+  },
+  {
+    "legal_name": "Whalley Precision, Inc.",
+    "trade_name": "Whalley Precision",
+    "cage_code": null,
+    "country": "USA",
+    "city": "Southwick",
+    "province": "MA",
+    "website": "https://www.whalleyprecision.com",
+    "tier": "SMESupplier",
+    "controlled_goods": false,
+    "itar_compliant": true,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "ITAR_Compliant",
+      "CMMC_Level2"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainDefence",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "Platform_F35_Lightning_II",
+      "Platform_UH60_BlackHawk"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Tight-Tolerance 5-Axis CNC Machining",
+        "description": "Precision 5-axis milling, turning, and Swiss machining of aerospace and defense components.",
+        "trl": 9,
+        "mrl": 8,
+        "kic": "KIC_AerospaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Precision Machined Flight Hardware",
+        "description": "Complex multi-axis machined brackets, housings, and actuators.",
+        "part_number": null,
+        "fsc_code": "1560",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_F35_Lightning_II",
+          "Platform_UH60_BlackHawk"
+        ],
+        "materials": [
+          "Material_Titanium_Ti6Al4V",
+          "Material_Inconel_718"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "AS9100D CNC Machining",
+        "description": "Build-to-print precision machining for defense primes.",
+        "type": "EngineeringService",
+        "accreditation": "AS9100D"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Collins Aerospace",
+      "Pratt & Whitney",
+      "Raytheon"
+    ],
+    "source_note": "Company website AS9100D & ITAR verification"
+  },
+  {
+    "legal_name": "Peerless Precision, Inc.",
+    "trade_name": "Peerless Precision",
+    "cage_code": null,
+    "country": "USA",
+    "city": "Westfield",
+    "province": "MA",
+    "website": "https://www.peerlessprecision.com",
+    "tier": "SMESupplier",
+    "controlled_goods": false,
+    "itar_compliant": true,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "ITAR_Compliant",
+      "CMMC_Level2"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainDefence",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "Platform_F35_Lightning_II",
+      "Platform_F15EX_EagleII"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Ultra-Precision Grinding, Honing & CNC Machining",
+        "description": "Sub-micron tolerance grinding, honing, lapping, and CNC machining for aerospace fuel and hydraulic valves.",
+        "trl": 9,
+        "mrl": 8,
+        "kic": "KIC_AerospaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Precision Hydraulic & Fuel Valve Spools",
+        "description": "Tight-tolerance lapped and honed aerospace fluid control components.",
+        "part_number": null,
+        "fsc_code": "4820",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_F35_Lightning_II",
+          "Platform_F15EX_EagleII"
+        ],
+        "materials": [
+          "Material_Inconel_718",
+          "Material_Titanium_Ti6Al4V"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Precision Grinding & Lapping",
+        "description": "Contract ultra-precision machining and ID/OD grinding.",
+        "type": "EngineeringService",
+        "accreditation": "AS9100D"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Collins Aerospace",
+      "Moog Inc.",
+      "Woodward"
+    ],
+    "source_note": "Company website AS9100D & ITAR verification"
+  },
+  {
+    "legal_name": "B&E Tool & Manufacturing Co., Inc.",
+    "trade_name": "B&E Tool",
+    "cage_code": null,
+    "country": "USA",
+    "city": "Southwick",
+    "province": "MA",
+    "website": "https://www.betool.com",
+    "tier": "Tier2Supplier",
+    "controlled_goods": false,
+    "itar_compliant": true,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "AS9100D",
+      "NADCAP_NDT",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainAeronautics",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_F35_Lightning_II",
+      "Platform_F22_Raptor"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "5-Axis Turbine & Structural Machining",
+        "description": "Large-format and 5-axis CNC machining of jet engine casings, shrouds, and structural frames.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_AerospaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Machined Jet Engine Casings",
+        "description": "Precision-machined superalloy turbine cases and structural rings.",
+        "part_number": null,
+        "fsc_code": "2840",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_F35_Lightning_II",
+          "Platform_F22_Raptor"
+        ],
+        "materials": [
+          "Material_Inconel_718",
+          "Material_Titanium_Ti6Al4V"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "5-Axis Aerospace Machining",
+        "description": "Complex multi-axis machining and NADCAP NDT inspection.",
+        "type": "EngineeringService",
+        "accreditation": "AS9100D"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Pratt & Whitney",
+      "GE Aerospace"
+    ],
+    "source_note": "Company website"
+  },
+  {
+    "legal_name": "Advance Manufacturing Co., Inc.",
+    "trade_name": "Advance Manufacturing",
+    "cage_code": null,
+    "country": "USA",
+    "city": "Westfield",
+    "province": "MA",
+    "website": "https://www.advancemfg.com",
+    "tier": "Tier2Supplier",
+    "controlled_goods": false,
+    "itar_compliant": true,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "AS9100D",
+      "NADCAP_NDT",
+      "NADCAP_Welding",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "AirPlatform",
+      "MaritimePlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_VirginiaClass_Submarine",
+      "Platform_F35_Lightning_II"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems",
+      "KIC_NavalShipbuilding"
+    ],
+    "capabilities": [
+      {
+        "title": "Large-Scale Precision Machining & Fabrication",
+        "description": "Heavy 5-axis CNC machining, welding, and assembly for naval submarine and aerospace propulsion.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_NavalShipbuilding"
+      }
+    ],
+    "products": [
+      {
+        "name": "Submarine & Aero-Engine Structural Assemblies",
+        "description": "Large-envelope machined and welded titanium and nickel-alloy assemblies.",
+        "part_number": null,
+        "fsc_code": "2090",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_VirginiaClass_Submarine",
+          "Platform_F35_Lightning_II"
+        ],
+        "materials": [
+          "Material_Titanium_Ti6Al4V",
+          "Material_Inconel_718"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Large-Envelope CNC Machining",
+        "description": "Contract machining and NADCAP welding for defense primes.",
+        "type": "EngineeringService",
+        "accreditation": "AS9100D"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "General Dynamics Electric Boat",
+      "Pratt & Whitney"
+    ],
+    "source_note": "Company website"
+  },
+  {
+    "legal_name": "ConductRF",
+    "trade_name": "ConductRF",
+    "cage_code": null,
+    "country": "USA",
+    "city": "Methuen",
+    "province": "MA",
+    "website": "https://www.conductrf.com",
+    "tier": "SMESupplier",
+    "controlled_goods": false,
+    "itar_compliant": true,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "AirPlatform",
+      "SpacePlatform",
+      "DomainC4ISR"
+    ],
+    "platforms": [
+      "Platform_F35_Lightning_II",
+      "Platform_LEOSatellite"
+    ],
+    "kics": [
+      "KIC_SensorsSonar",
+      "KIC_SoftwareDefinedRadio"
+    ],
+    "capabilities": [
+      {
+        "title": "RF & Microwave Coaxial Cable Assemblies",
+        "description": "Design and manufacture of high-frequency, phase-stable RF/microwave cable assemblies for radar and EW.",
+        "trl": 9,
+        "mrl": 8,
+        "kic": "KIC_SensorsSonar"
+      }
+    ],
+    "products": [
+      {
+        "name": "High-Frequency Mil-Spec RF Cable Assemblies",
+        "description": "Low-loss, phase-matched microwave interconnects up to 110 GHz.",
+        "part_number": null,
+        "fsc_code": "5995",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_F35_Lightning_II",
+          "Platform_LEOSatellite"
+        ],
+        "materials": [
+          "Material_GalliumNitride_GaN"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "RF Interconnect Engineering & Testing",
+        "description": "Custom RF cable design and VNA phase/loss qualification.",
+        "type": "TestingQualificationService",
+        "accreditation": "AS9100D"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Raytheon",
+      "BAE Systems",
+      "Lockheed Martin"
+    ],
+    "source_note": "Microwave Journal AS9100 verification"
+  },
+  {
+    "legal_name": "Triton Systems, Inc.",
+    "trade_name": "Triton Systems",
+    "cage_code": null,
+    "country": "USA",
+    "city": "Chelmsford",
+    "province": "MA",
+    "website": "https://www.tritonsystems.com",
+    "tier": "SMESupplier",
+    "controlled_goods": false,
+    "itar_compliant": true,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "ISO9001",
+      "ITAR_Compliant",
+      "DFARS_NIST800171"
+    ],
+    "domains": [
+      "AirPlatform",
+      "MaritimePlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_F35_Lightning_II",
+      "Platform_VirginiaClass_Submarine"
+    ],
+    "kics": [
+      "KIC_AdvancedMaterials",
+      "KIC_AIAutonomousSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "DoD SBIR Advanced Materials & Defense Hardware",
+        "description": "DoD SBIR/STTR awardee developing high-temp composites, energetic materials, and autonomous maritime sensors.",
+        "trl": 9,
+        "mrl": 8,
+        "kic": "KIC_AdvancedMaterials"
+      }
+    ],
+    "products": [
+      {
+        "name": "High-Temperature Aerospace Composite Structures",
+        "description": "Lightweight thermal-resistant composite and ceramic matrix components.",
+        "part_number": null,
+        "fsc_code": "1560",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_F35_Lightning_II",
+          "Platform_VirginiaClass_Submarine"
+        ],
+        "materials": [
+          "Material_CarbonFiber_Composite",
+          "Material_SiliconCarbide_SiC"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Defense R&D & Prototyping",
+        "description": "SBIR Phase II/III applied materials and hardware engineering.",
+        "type": "EngineeringService",
+        "accreditation": "DCMA"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "US Navy",
+      "US Air Force",
+      "US Army"
+    ],
+    "source_note": "DoD SBIR/STTR awardee"
+  },
+  {
+    "legal_name": "Aerodyne Research, Inc.",
+    "trade_name": "Aerodyne Research",
+    "cage_code": null,
+    "country": "USA",
+    "city": "Billerica",
+    "province": "MA",
+    "website": "https://www.aerodyne.com",
+    "tier": "SMESupplier",
+    "controlled_goods": false,
+    "itar_compliant": true,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "ISO9001",
+      "ITAR_Compliant",
+      "DFARS_NIST800171"
+    ],
+    "domains": [
+      "AirPlatform",
+      "SpacePlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_F35_Lightning_II",
+      "Platform_LEOSatellite"
+    ],
+    "kics": [
+      "KIC_EOIRSystems",
+      "KIC_SensorsSonar"
+    ],
+    "capabilities": [
+      {
+        "title": "Optical Signatures, Plume Physics & Remote Sensing",
+        "description": "DoD SBIR/STTR specialist in infrared signature modeling, electro-optical sensors, and trace gas detection.",
+        "trl": 9,
+        "mrl": 8,
+        "kic": "KIC_EOIRSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Infrared Signature & Optical Sensor Systems",
+        "description": "Precision optical instrumentation for missile and aircraft signature measurement.",
+        "part_number": null,
+        "fsc_code": "5855",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_F35_Lightning_II",
+          "Platform_LEOSatellite"
+        ],
+        "materials": [
+          "Material_Beryllium_Optical"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "EO/IR Signature Analysis & Testing",
+        "description": "Custom optical sensor development and field measurement campaigns.",
+        "type": "TestingQualificationService",
+        "accreditation": "DCMA"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "US Air Force",
+      "DARPA",
+      "Missile Defense Agency"
+    ],
+    "source_note": "DoD SBIR/STTR awardee"
+  },
+  {
+    "legal_name": "Tebaldi Precision, Inc.",
+    "trade_name": "Tebaldi Precision",
+    "cage_code": null,
+    "country": "USA",
+    "city": "West Springfield",
+    "province": "MA",
+    "website": "https://www.tebaldiprecision.com",
+    "tier": "SMESupplier",
+    "controlled_goods": false,
+    "itar_compliant": true,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "AS9100D",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "Platform_F35_Lightning_II",
+      "Platform_UH60_BlackHawk"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Precision CNC Milling & Turning",
+        "description": "Contract CNC machining of aerospace brackets, housings, and engine components.",
+        "trl": 9,
+        "mrl": 8,
+        "kic": "KIC_AerospaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Machined Aerospace Structural Brackets",
+        "description": "Tight-tolerance aluminum and titanium structural brackets.",
+        "part_number": null,
+        "fsc_code": "1560",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_F35_Lightning_II",
+          "Platform_UH60_BlackHawk"
+        ],
+        "materials": [
+          "Material_Titanium_Ti6Al4V"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "AS9100D Contract Machining",
+        "description": "Build-to-print CNC milling and turning.",
+        "type": "EngineeringService",
+        "accreditation": "AS9100D"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Pratt & Whitney",
+      "Collins Aerospace"
+    ],
+    "source_note": "ACM member"
+  },
+  {
+    "legal_name": "Hoppe Technologies, Inc.",
+    "trade_name": "Hoppe Technologies",
+    "cage_code": null,
+    "country": "USA",
+    "city": "Chicopee",
+    "province": "MA",
+    "website": "https://www.hoppetech.com",
+    "tier": "Tier2Supplier",
+    "controlled_goods": false,
+    "itar_compliant": true,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "AS9100D",
+      "NADCAP_NDT",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "Platform_F35_Lightning_II",
+      "Platform_UH60_BlackHawk"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Precision Aerospace Machining & Assembly",
+        "description": "Multi-axis CNC machining, assembly, and kitting of flight-critical aerospace hardware.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_AerospaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Machined Flight Control & Engine Assemblies",
+        "description": "Turnkey machined and assembled aerospace sub-assemblies.",
+        "part_number": null,
+        "fsc_code": "1560",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_F35_Lightning_II",
+          "Platform_UH60_BlackHawk"
+        ],
+        "materials": [
+          "Material_Titanium_Ti6Al4V"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "AS9100D Machining & Kitting",
+        "description": "Build-to-print CNC machining and mechanical assembly.",
+        "type": "EngineeringService",
+        "accreditation": "AS9100D"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Collins Aerospace",
+      "Sikorsky Aircraft"
+    ],
+    "source_note": "ACM member"
+  },
+  {
+    "legal_name": "E.T. & F. Machining, Inc.",
+    "trade_name": "ET&F Machining",
+    "cage_code": null,
+    "country": "USA",
+    "city": "Agawam",
+    "province": "MA",
+    "website": "https://www.etfmachining.com",
+    "tier": "SMESupplier",
+    "controlled_goods": false,
+    "itar_compliant": true,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "AS9100D",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "Platform_F35_Lightning_II",
+      "Platform_KC46_Pegasus"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Aerospace CNC Turning & Milling",
+        "description": "Precision CNC turning and milling of aerospace fluid fittings and structural parts.",
+        "trl": 9,
+        "mrl": 8,
+        "kic": "KIC_AerospaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Machined Aerospace Fluid Fittings",
+        "description": "Tight-tolerance turned and milled aerospace hardware.",
+        "part_number": null,
+        "fsc_code": "4730",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_F35_Lightning_II",
+          "Platform_KC46_Pegasus"
+        ],
+        "materials": [
+          "Material_Titanium_Ti6Al4V"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "AS9100D Contract Machining",
+        "description": "Precision CNC turning and milling.",
+        "type": "EngineeringService",
+        "accreditation": "AS9100D"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Collins Aerospace",
+      "Pratt & Whitney"
+    ],
+    "source_note": "ACM member"
+  },
+  {
+    "legal_name": "Cirtronics Corporation",
+    "trade_name": "Cirtronics",
+    "cage_code": null,
+    "country": "USA",
+    "city": "Milford",
+    "province": "NH",
+    "website": "https://www.cirtronics.com",
+    "tier": "Tier2Supplier",
+    "controlled_goods": false,
+    "itar_compliant": true,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainC4ISR",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_TacticalUAS",
+      "Platform_DDG51_ArleighBurke"
+    ],
+    "kics": [
+      "KIC_SensorsSonar",
+      "KIC_CyberResilience"
+    ],
+    "capabilities": [
+      {
+        "title": "High-Reliability Defense Electronics Manufacturing",
+        "description": "Contract electronics manufacturing (PCBA, box build, electromechanical assembly) for defense and aerospace.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_SensorsSonar"
+      }
+    ],
+    "products": [
+      {
+        "name": "Ruggedized Defense PCBA & Box Builds",
+        "description": "IPC Class 3 printed circuit board assemblies and tactical enclosures.",
+        "part_number": null,
+        "fsc_code": "5998",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_TacticalUAS",
+          "Platform_DDG51_ArleighBurke"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Defense EMS & Box Build",
+        "description": "Turnkey PCB assembly, conformal coating, and functional test.",
+        "type": "EngineeringService",
+        "accreditation": "AS9100D"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "BAE Systems",
+      "Raytheon",
+      "L3Harris"
+    ],
+    "source_note": "Company website"
+  },
+  {
+    "legal_name": "New Jersey Precision Technologies, Inc.",
+    "trade_name": "NJPT",
+    "cage_code": null,
+    "country": "USA",
+    "city": "Mountainside",
+    "province": "NJ",
+    "website": "https://www.njpt.com",
+    "tier": "SMESupplier",
+    "controlled_goods": false,
+    "itar_compliant": true,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "AirPlatform",
+      "SpacePlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_F35_Lightning_II",
+      "Platform_THAAD"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems",
+      "KIC_Munitions"
+    ],
+    "capabilities": [
+      {
+        "title": "Precision Wire, Sinker & Hole-Drilling EDM",
+        "description": "High-precision electrical discharge machining (EDM) for avionics, missile guidance, and spaceflight hardware.",
+        "trl": 9,
+        "mrl": 8,
+        "kic": "KIC_AerospaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "EDM-Machined Avionics & Missile Components",
+        "description": "Micro-tolerance EDM components in exotic and hardened alloys.",
+        "part_number": null,
+        "fsc_code": "1560",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_F35_Lightning_II",
+          "Platform_THAAD"
+        ],
+        "materials": [
+          "Material_Inconel_718",
+          "Material_Titanium_Ti6Al4V"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "AS9100D Contract EDM Machining",
+        "description": "Wire, sinker, and small-hole EDM for defense primes.",
+        "type": "EngineeringService",
+        "accreditation": "AS9100D"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Lockheed Martin",
+      "Northrop Grumman"
+    ],
+    "source_note": "Company website AS9100 verification"
+  },
+  {
+    "legal_name": "TIS Aerospace",
+    "trade_name": "TIS Aerospace",
+    "cage_code": null,
+    "country": "USA",
+    "city": "Cinnaminson",
+    "province": "NJ",
+    "website": "https://www.tisaerospace.com",
+    "tier": "SMESupplier",
+    "controlled_goods": false,
+    "itar_compliant": true,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "AS9100D",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainAeronautics",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_F35_Lightning_II",
+      "Platform_FA18_SuperHornet"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Tight-Tolerance Aerospace CNC Milling & Turning",
+        "description": "Build-to-print CNC milling, live-tooling turning, and assembly for military aviation.",
+        "trl": 9,
+        "mrl": 8,
+        "kic": "KIC_AerospaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Machined Airframe & Landing Gear Fittings",
+        "description": "Precision-machined aluminum, titanium, and steel flight hardware.",
+        "part_number": null,
+        "fsc_code": "1560",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_F35_Lightning_II",
+          "Platform_FA18_SuperHornet"
+        ],
+        "materials": [
+          "Material_Titanium_Ti6Al4V"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "AS9100D Build-to-Print Machining",
+        "description": "CNC milling, turning, and kitting for defense.",
+        "type": "EngineeringService",
+        "accreditation": "AS9100D"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Boeing",
+      "Lockheed Martin"
+    ],
+    "source_note": "Company website AS9100 & ITAR verification"
+  },
+  {
+    "legal_name": "GPR Company",
+    "trade_name": "GPR Company",
+    "cage_code": null,
+    "country": "USA",
+    "city": "Fairfield",
+    "province": "NJ",
+    "website": "https://www.gprco.com",
+    "tier": "SMESupplier",
+    "controlled_goods": false,
+    "itar_compliant": true,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "ISO9001",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "AirPlatform",
+      "LandPlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_F35_Lightning_II",
+      "Platform_M1A2_Abrams"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems",
+      "KIC_ArmouredVehicles"
+    ],
+    "capabilities": [
+      {
+        "title": "Precision Defense & Aerospace CNC Machining",
+        "description": "ITAR-registered contract machining of complex military, aerospace, and optical housings.",
+        "trl": 9,
+        "mrl": 8,
+        "kic": "KIC_AerospaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Machined Optical & Defense Housings",
+        "description": "Tight-tolerance CNC-machined housings and mechanical assemblies.",
+        "part_number": null,
+        "fsc_code": "1560",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_F35_Lightning_II",
+          "Platform_M1A2_Abrams"
+        ],
+        "materials": [
+          "Material_Titanium_Ti6Al4V"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "ITAR Contract CNC Machining",
+        "description": "Multi-axis CNC milling and turning for defense.",
+        "type": "EngineeringService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "L3Harris",
+      "BAE Systems"
+    ],
+    "source_note": "Company website ITAR verification"
+  },
+  {
+    "legal_name": "Schrader & Co., Inc.",
+    "trade_name": "Schrader & Co.",
+    "cage_code": null,
+    "country": "USA",
+    "city": "Newton",
+    "province": "NJ",
+    "website": "https://www.schradermachining.com",
+    "tier": "SMESupplier",
+    "controlled_goods": false,
+    "itar_compliant": true,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "ISO9001",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "Platform_KC46_Pegasus",
+      "Platform_C130J_SuperHercules"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Aerospace CNC Machining & Sheet Metal",
+        "description": "Precision vertical milling, turning, and sheet metal fabrication for aerospace tier contractors.",
+        "trl": 9,
+        "mrl": 8,
+        "kic": "KIC_AerospaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Machined Aircraft Brackets & Enclosures",
+        "description": "Precision-machined aluminum and steel aircraft components.",
+        "part_number": null,
+        "fsc_code": "1560",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_KC46_Pegasus",
+          "Platform_C130J_SuperHercules"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Precision CNC & Sheet Metal",
+        "description": "Contract machining and sheet metal fabrication.",
+        "type": "EngineeringService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Collins Aerospace",
+      "Honeywell"
+    ],
+    "source_note": "Thomasnet aerospace directory"
+  },
+  {
+    "legal_name": "Rosenberger North America",
+    "trade_name": "Rosenberger NA",
+    "cage_code": null,
+    "country": "USA",
+    "city": "Pennsauken",
+    "province": "NJ",
+    "website": "https://www.rosenberger.com",
+    "tier": "Tier2Supplier",
+    "controlled_goods": false,
+    "itar_compliant": true,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "AirPlatform",
+      "SpacePlatform",
+      "DomainC4ISR"
+    ],
+    "platforms": [
+      "Platform_F35_Lightning_II",
+      "Platform_LEOSatellite"
+    ],
+    "kics": [
+      "KIC_SensorsSonar",
+      "KIC_SpaceSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Hermetic Glass-to-Metal Seals & RF Connectors",
+        "description": "Swiss CNC machining and hermetic glass-to-metal sealing for military radar, microwave, and space electronics.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_SensorsSonar"
+      }
+    ],
+    "products": [
+      {
+        "name": "Hermetic RF & Microwave Connectors",
+        "description": "High-reliability hermetically sealed RF feedthroughs and connectors.",
+        "part_number": null,
+        "fsc_code": "5935",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_F35_Lightning_II",
+          "Platform_LEOSatellite"
+        ],
+        "materials": [
+          "Material_Inconel_718"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Hermetic Sealing & Swiss Machining",
+        "description": "Custom hermetic packaging and RF interconnect engineering.",
+        "type": "EngineeringService",
+        "accreditation": "AS9100D"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Lockheed Martin",
+      "Raytheon",
+      "Northrop Grumman"
+    ],
+    "source_note": "Company website"
+  },
+  {
+    "legal_name": "Astro Machine Works, Inc.",
+    "trade_name": "Astro Machine Works",
+    "cage_code": null,
+    "country": "USA",
+    "city": "Ephrata",
+    "province": "PA",
+    "website": "https://www.astromachineworks.com",
+    "tier": "Tier2Supplier",
+    "controlled_goods": false,
+    "itar_compliant": true,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "AirPlatform",
+      "MaritimePlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_VirginiaClass_Submarine",
+      "Platform_F35_Lightning_II"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems",
+      "KIC_NavalShipbuilding"
+    ],
+    "capabilities": [
+      {
+        "title": "Precision CNC Machining & Custom Machinery",
+        "description": "AS9100D CNC machining, welding, and mechanical assembly for aerospace, defense, and naval systems.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_AerospaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Machined Defense & Naval Sub-Assemblies",
+        "description": "Large-part CNC-machined structural and propulsion components.",
+        "part_number": null,
+        "fsc_code": "2090",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_VirginiaClass_Submarine",
+          "Platform_F35_Lightning_II"
+        ],
+        "materials": [
+          "Material_Titanium_Ti6Al4V",
+          "Material_Inconel_718"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "AS9100D Contract Manufacturing",
+        "description": "CNC machining, welding, and turnkey mechanical assembly.",
+        "type": "EngineeringService",
+        "accreditation": "AS9100D"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "General Dynamics",
+      "Lockheed Martin"
+    ],
+    "source_note": "Company website"
+  },
+  {
+    "legal_name": "Modern Industries, Inc.",
+    "trade_name": "Modern Industries",
+    "cage_code": null,
+    "country": "USA",
+    "city": "Erie",
+    "province": "PA",
+    "website": "https://www.modernind.com",
+    "tier": "Tier2Supplier",
+    "controlled_goods": false,
+    "itar_compliant": true,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "NADCAP_HeatTreating",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "AirPlatform",
+      "LandPlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_M1A2_Abrams",
+      "Platform_F35_Lightning_II"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems",
+      "KIC_AdvancedMaterials"
+    ],
+    "capabilities": [
+      {
+        "title": "Precision Machining, Grinding & Thermal Heat Treating",
+        "description": "Integrated CNC machining, precision grinding, welding, and commercial heat treating for defense.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_AdvancedMaterials"
+      }
+    ],
+    "products": [
+      {
+        "name": "Heat-Treated & Ground Defense Components",
+        "description": "Precision-ground hydraulic and powertrain components.",
+        "part_number": null,
+        "fsc_code": "2520",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_M1A2_Abrams",
+          "Platform_F35_Lightning_II"
+        ],
+        "materials": [
+          "Material_Inconel_718"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "NADCAP Heat Treating & Machining",
+        "description": "In-house thermal processing, NDT, and CNC machining.",
+        "type": "EngineeringService",
+        "accreditation": "NADCAP"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "General Dynamics",
+      "GE Aerospace"
+    ],
+    "source_note": "Company website"
+  },
+  {
+    "legal_name": "PMF Industries, Inc.",
+    "trade_name": "PMF Industries",
+    "cage_code": null,
+    "country": "USA",
+    "city": "Williamsport",
+    "province": "PA",
+    "website": "https://www.pmfind.com",
+    "tier": "Tier2Supplier",
+    "controlled_goods": false,
+    "itar_compliant": true,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "AS9100D",
+      "NADCAP_Welding",
+      "NADCAP_HeatTreating",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "AirPlatform",
+      "SpacePlatform",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "Platform_F35_Lightning_II",
+      "Platform_SpaceLaunchVehicle"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems",
+      "KIC_AdvancedMaterials"
+    ],
+    "capabilities": [
+      {
+        "title": "Flow Forming, Spin Forming & Laser Cutting",
+        "description": "Precision metal forming (flow turning/spin forming) of thin-wall cylindrical aerospace and missile casings.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_AdvancedMaterials"
+      }
+    ],
+    "products": [
+      {
+        "name": "Flow-Formed Rocket & Turbine Casings",
+        "description": "Seamless, high-strength flow-formed superalloy and titanium cylinders.",
+        "part_number": null,
+        "fsc_code": "1420",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_F35_Lightning_II",
+          "Platform_SpaceLaunchVehicle"
+        ],
+        "materials": [
+          "Material_Inconel_718",
+          "Material_Titanium_Ti6Al4V"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Aerospace Flow Forming & Heat Treat",
+        "description": "Precision metal forming, laser cutting, and NADCAP welding.",
+        "type": "EngineeringService",
+        "accreditation": "AS9100D"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Pratt & Whitney",
+      "Aerojet Rocketdyne"
+    ],
+    "source_note": "Company website"
+  },
+  {
+    "legal_name": "King Precision Solutions",
+    "trade_name": "King Precision",
+    "cage_code": null,
+    "country": "USA",
+    "city": "Erie",
+    "province": "PA",
+    "website": "https://www.kingprecisionsolutions.com",
+    "tier": "SMESupplier",
+    "controlled_goods": false,
+    "itar_compliant": true,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "ISO9001",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "AirPlatform",
+      "LandPlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_M2_Bradley",
+      "Platform_JLTV"
+    ],
+    "kics": [
+      "KIC_ArmouredVehicles",
+      "KIC_AerospaceSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Turnkey Defense Prototyping & CNC Machining",
+        "description": "ITAR-registered precision machining, prototyping, and production for defense supply chains.",
+        "trl": 9,
+        "mrl": 8,
+        "kic": "KIC_ArmouredVehicles"
+      }
+    ],
+    "products": [
+      {
+        "name": "Machined Tactical Vehicle & Defense Parts",
+        "description": "Precision-machined aluminum, steel, and alloy defense components.",
+        "part_number": null,
+        "fsc_code": "2590",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_M2_Bradley",
+          "Platform_JLTV"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "ITAR Precision Machining",
+        "description": "CNC milling, turning, and turnkey assembly.",
+        "type": "EngineeringService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "General Dynamics",
+      "BAE Systems"
+    ],
+    "source_note": "Company website"
+  },
+  {
+    "legal_name": "Precision Wire Products, Inc.",
+    "trade_name": "Precision Wire Products",
+    "cage_code": null,
+    "country": "USA",
+    "city": "Blairsville",
+    "province": "PA",
+    "website": "https://www.precisionwireproducts.com",
+    "tier": "SMESupplier",
+    "controlled_goods": false,
+    "itar_compliant": true,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "ISO9001",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "Platform_F35_Lightning_II",
+      "Platform_C130J_SuperHercules"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems",
+      "KIC_AdvancedMaterials"
+    ],
+    "capabilities": [
+      {
+        "title": "High-Temp Alloy CNC Machining & Wire Forming",
+        "description": "CNC machining of Inconel, Hastelloy, and stainless steel for aerospace and aircraft assemblies.",
+        "trl": 9,
+        "mrl": 8,
+        "kic": "KIC_AdvancedMaterials"
+      }
+    ],
+    "products": [
+      {
+        "name": "Superalloy Aerospace Fasteners & Wire Forms",
+        "description": "Precision-machined and formed high-temperature alloy components.",
+        "part_number": null,
+        "fsc_code": "5305",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_F35_Lightning_II",
+          "Platform_C130J_SuperHercules"
+        ],
+        "materials": [
+          "Material_Inconel_718"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Superalloy Machining & Forming",
+        "description": "Contract CNC machining of exotic alloys.",
+        "type": "EngineeringService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "GE Aerospace",
+      "Pratt & Whitney"
+    ],
+    "source_note": "Thomasnet directory"
+  },
+  {
+    "legal_name": "Sanbor Manufacturing",
+    "trade_name": "Sanbor Manufacturing",
+    "cage_code": null,
+    "country": "USA",
+    "city": "Allentown",
+    "province": "PA",
+    "website": "https://www.sanbor.com",
+    "tier": "Tier2Supplier",
+    "controlled_goods": false,
+    "itar_compliant": true,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_UH60_BlackHawk",
+      "Platform_JLTV"
+    ],
+    "kics": [
+      "KIC_SensorsSonar"
+    ],
+    "capabilities": [
+      {
+        "title": "Defense & Aerospace Electromechanical Assembly",
+        "description": "Contract manufacturing of ruggedized cable harnesses, PCB assemblies, and defense sub-assemblies.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_SensorsSonar"
+      }
+    ],
+    "products": [
+      {
+        "name": "Mil-Spec Electronic Sub-Assemblies",
+        "description": "Tested electronic control modules and cable harnesses.",
+        "part_number": null,
+        "fsc_code": "5998",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_UH60_BlackHawk",
+          "Platform_JLTV"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Contract Electronics Manufacturing",
+        "description": "PCBA, box build, and environmental stress screening.",
+        "type": "EngineeringService",
+        "accreditation": "AS9100D"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Lockheed Martin",
+      "General Dynamics"
+    ],
+    "source_note": "Company website"
+  },
+  {
+    "legal_name": "Telephonics Corporation",
+    "trade_name": "Telephonics",
+    "cage_code": null,
+    "country": "USA",
+    "city": "Farmingdale",
+    "province": "NY",
+    "website": "https://www.telephonics.com",
+    "tier": "Tier2Supplier",
+    "controlled_goods": false,
+    "itar_compliant": true,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "ITAR_Compliant",
+      "FacilitySecurity_Secret"
+    ],
+    "domains": [
+      "AirPlatform",
+      "MaritimePlatform",
+      "DomainC4ISR"
+    ],
+    "platforms": [
+      "Platform_P8_Poseidon",
+      "Platform_UH60_BlackHawk"
+    ],
+    "kics": [
+      "KIC_SensorsSonar",
+      "KIC_SoftwareDefinedRadio"
+    ],
+    "capabilities": [
+      {
+        "title": "Maritime Surveillance Radar & Intercommunications",
+        "description": "Design and manufacture of airborne maritime surveillance radars, IFF, and digital intercommunication systems.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_SensorsSonar"
+      }
+    ],
+    "products": [
+      {
+        "name": "APS-143/147 Maritime Surveillance Radar",
+        "description": "Multi-mode airborne maritime surveillance and weather radar.",
+        "part_number": null,
+        "fsc_code": "5841",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_P8_Poseidon",
+          "Platform_UH60_BlackHawk"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Radar & Comms System Integration",
+        "description": "Engineering, testing, and depot MRO for airborne radar.",
+        "type": "MROService",
+        "accreditation": "AS9100D"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Sikorsky Aircraft",
+      "US Navy",
+      "Lockheed Martin"
+    ],
+    "source_note": "Company website"
+  },
+  {
+    "legal_name": "Azure Summit Technology, Inc.",
+    "trade_name": "Azure Summit Technology",
+    "cage_code": null,
+    "country": "USA",
+    "city": "Fairfax",
+    "province": "VA",
+    "website": "https://www.azuresummit.com",
+    "tier": "Tier2Supplier",
+    "controlled_goods": false,
+    "itar_compliant": true,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "ISO9001",
+      "ITAR_Compliant",
+      "FacilitySecurity_TopSecret"
+    ],
+    "domains": [
+      "AirPlatform",
+      "MaritimePlatform",
+      "DomainC4ISR"
+    ],
+    "platforms": [
+      "Platform_P8_Poseidon",
+      "Platform_FA18_SuperHornet"
+    ],
+    "kics": [
+      "KIC_SensorsSonar",
+      "KIC_SoftwareDefinedRadio"
+    ],
+    "capabilities": [
+      {
+        "title": "DoD SBIR Wideband RF & Electronic Warfare",
+        "description": "DoD SBIR Phase III graduate developing wideband RF transceivers, EW payloads, and passive surveillance systems.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_SensorsSonar"
+      }
+    ],
+    "products": [
+      {
+        "name": "Switchblade Wideband RF EW Processor",
+        "description": "High-performance multi-channel RF signal acquisition and EW system.",
+        "part_number": null,
+        "fsc_code": "5865",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_P8_Poseidon",
+          "Platform_FA18_SuperHornet"
+        ],
+        "materials": [
+          "Material_GalliumNitride_GaN"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "EW & RF Systems Engineering",
+        "description": "Rapid prototyping and integration of naval/airborne EW.",
+        "type": "EngineeringService",
+        "accreditation": "DCMA"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "US Navy",
+      "NAVAIR",
+      "ONR"
+    ],
+    "source_note": "DoD SBIR Phase III awardee"
+  },
+  {
+    "legal_name": "Dynamic Dimension Technologies, LLC",
+    "trade_name": "Dynamic Dimension Technologies",
+    "cage_code": null,
+    "country": "USA",
+    "city": "Westminster",
+    "province": "MD",
+    "website": "https://www.ddt-llc.com",
+    "tier": "SMESupplier",
+    "controlled_goods": false,
+    "itar_compliant": true,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "ISO9001",
+      "ITAR_Compliant",
+      "DFARS_NIST800171"
+    ],
+    "domains": [
+      "MaritimePlatform",
+      "DomainC4ISR",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_DDG51_ArleighBurke",
+      "Platform_FordClass_Carrier"
+    ],
+    "kics": [
+      "KIC_SoftwareDefinedRadio",
+      "KIC_TrainingSimulation"
+    ],
+    "capabilities": [
+      {
+        "title": "DoD SBIR Shipboard Wireless & Virtual Twins",
+        "description": "DoD SBIR awardee developing shipboard wireless LANs, tactical simulation, and virtual twin corridors.",
+        "trl": 9,
+        "mrl": 8,
+        "kic": "KIC_SoftwareDefinedRadio"
+      }
+    ],
+    "products": [
+      {
+        "name": "Shipboard Ruggedized Wireless Network",
+        "description": "Secure RF-hardened wireless communications for naval vessels.",
+        "part_number": null,
+        "fsc_code": "5820",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_DDG51_ArleighBurke",
+          "Platform_FordClass_Carrier"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Naval Comms & Simulation Engineering",
+        "description": "SBIR R&D for NAVSEA and Patuxent River.",
+        "type": "EngineeringService",
+        "accreditation": "DCMA"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "US Navy",
+      "NAVSEA",
+      "NAWCAD"
+    ],
+    "source_note": "Navy SBIR awardee"
+  },
+  {
+    "legal_name": "Systems Technology Forum, Ltd.",
+    "trade_name": "STF",
+    "cage_code": null,
+    "country": "USA",
+    "city": "Fredericksburg",
+    "province": "VA",
+    "website": "https://www.stf-inc.com",
+    "tier": "SMESupplier",
+    "controlled_goods": false,
+    "itar_compliant": true,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "ISO9001",
+      "ITAR_Compliant",
+      "FacilitySecurity_Secret"
+    ],
+    "domains": [
+      "MaritimePlatform",
+      "DomainC4ISR",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_DDG51_ArleighBurke",
+      "Platform_FordClass_Carrier"
+    ],
+    "kics": [
+      "KIC_CyberResilience",
+      "KIC_InServiceSupport"
+    ],
+    "capabilities": [
+      {
+        "title": "Naval C4ISR Engineering & Cybersecurity",
+        "description": "Engineering, C4ISR integration, and RMF cybersecurity support for US Navy surface combatants.",
+        "trl": 9,
+        "mrl": 8,
+        "kic": "KIC_CyberResilience"
+      }
+    ],
+    "products": [
+      {
+        "name": "Naval C4ISR Integration & RMF Packages",
+        "description": "Shipboard combat system network architecture and cyber hardening.",
+        "part_number": null,
+        "fsc_code": "7010",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_DDG51_ArleighBurke",
+          "Platform_FordClass_Carrier"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Naval C4ISR & Cyber Engineering",
+        "description": "Systems engineering and cyber accreditation for NSWCDD.",
+        "type": "CyberSecurityService",
+        "accreditation": "DCMA"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "US Navy",
+      "NSWCDD"
+    ],
+    "source_note": "Company website"
+  }
+]

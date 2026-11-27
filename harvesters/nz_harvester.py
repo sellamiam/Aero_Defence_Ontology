@@ -804,8 +804,7 @@ class NewZealandHarvester(BaseHarvester):
         return records
 
     def harvest(self, limit: Optional[int] = None) -> List[Dict[str, Any]]:
-        target = limit if limit is not None else 60
-        records = self._generate_nz_ecosystem(target_count=target)
+        records = self._get_flagship_nz_companies()
         if limit is not None:
             records = records[:limit]
         self.save_raw(records, "nz_aero_defence_catalog.json")

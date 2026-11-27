@@ -1,0 +1,4068 @@
+[
+  {
+    "legal_name": "Irving Shipbuilding Inc.",
+    "trade_name": "Irving Shipbuilding",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Halifax",
+    "province": "NS",
+    "website": "https://shipsforcanada.ca",
+    "tier": "Prime",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Secret",
+    "certifications": [
+      "ISO9001",
+      "ISO14001",
+      "FacilitySecurity_Secret"
+    ],
+    "domains": [
+      "MaritimePlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_Type26_GlobalCombatShip",
+      "Platform_SurfaceCombatant"
+    ],
+    "kics": [
+      "KIC_NavalShipbuilding",
+      "KIC_DefenceSystemsIntegration",
+      "KIC_InServiceSupport"
+    ],
+    "capabilities": [
+      {
+        "title": "Naval Combatant Shipbuilding & Integration",
+        "description": "Prime contractor for Canada's National Shipbuilding Strategy combatant package, building Arctic and Offshore Patrol Ships (AOPS) and River-class destroyers.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_NavalShipbuilding"
+      }
+    ],
+    "products": [
+      {
+        "name": "Harry DeWolf-class Arctic and Offshore Patrol Ship",
+        "description": "Ice-capable naval patrol vessel built for the Royal Canadian Navy.",
+        "part_number": "AOPS-RCN",
+        "fsc_code": "1905",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_SurfaceCombatant"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Naval Vessel Construction & Modernization",
+        "description": "Full-lifecycle naval shipbuilding, modular assembly, and combatant integration.",
+        "type": "EngineeringService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": "J.D. Irving, Limited",
+    "supplies_to": [
+      "Royal Canadian Navy",
+      "Canadian Coast Guard"
+    ],
+    "source_note": "National Shipbuilding Strategy Prime / ACADA"
+  },
+  {
+    "legal_name": "IMP Group International Inc.",
+    "trade_name": "IMP Aerospace & Defence",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Halifax",
+    "province": "NS",
+    "website": "https://www.impgroup.com",
+    "tier": "Prime",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Secret",
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "FacilitySecurity_Secret"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainDefence",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "Platform_FixedWingTransport",
+      "Platform_RotaryWing",
+      "Platform_P8_Poseidon"
+    ],
+    "kics": [
+      "KIC_InServiceSupport",
+      "KIC_AerospaceSystems",
+      "KIC_DefenceSystemsIntegration"
+    ],
+    "capabilities": [
+      {
+        "title": "Military Aircraft In-Service Support & Aerostructures",
+        "description": "Total aircraft life-cycle support, depot-level MRO, avionics upgrades, and aerostructures manufacturing for military fleets.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_InServiceSupport"
+      }
+    ],
+    "products": [
+      {
+        "name": "Aircraft Structural Assemblies & Wire Harnesses",
+        "description": "Precision machined aerostructures and military-grade aerospace wire harnesses.",
+        "part_number": "IMP-AERO-01",
+        "fsc_code": "1560",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_FixedWingTransport",
+          "Platform_RotaryWing"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Military Fleet MRO & In-Service Support",
+        "description": "Depot-level maintenance, repair, overhaul, and modernization for RCAF CP-140 Aurora, CH-149 Cormorant, and C-130 fleets.",
+        "type": "MROService",
+        "accreditation": "AS9100D"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Royal Canadian Air Force",
+      "Boeing",
+      "Lockheed Martin"
+    ],
+    "source_note": "ACADA / CADSI / Major Canadian Defence Prime"
+  },
+  {
+    "legal_name": "Lockheed Martin Canada Inc.",
+    "trade_name": "Lockheed Martin Canada (Dartmouth)",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Dartmouth",
+    "province": "NS",
+    "website": "https://www.lockheedmartin.com/en-ca",
+    "tier": "Prime",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Top Secret / SCI",
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "FacilitySecurity_TopSecret"
+    ],
+    "domains": [
+      "MaritimePlatform",
+      "DomainDefence",
+      "DomainC4ISR"
+    ],
+    "platforms": [
+      "Platform_SurfaceCombatant",
+      "Platform_Type26_GlobalCombatShip"
+    ],
+    "kics": [
+      "KIC_DefenceSystemsIntegration",
+      "KIC_SensorsSonar",
+      "KIC_InServiceSupport"
+    ],
+    "capabilities": [
+      {
+        "title": "Naval Combat Management Systems Integration",
+        "description": "Design, integration, and sustainment of the CMS 330 naval combat management system for Halifax-class frigates and River-class destroyers.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_DefenceSystemsIntegration"
+      }
+    ],
+    "products": [
+      {
+        "name": "CMS 330 Combat Management System",
+        "description": "Integrated naval command and control, sensor fusion, and weapons control system.",
+        "part_number": "CMS-330",
+        "fsc_code": "1290",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_SurfaceCombatant",
+          "Platform_Type26_GlobalCombatShip"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Naval Combat Systems Engineering & Sustainment",
+        "description": "Full-lifecycle combat system integration, software upgrades, and in-service support.",
+        "type": "EngineeringService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": "Lockheed Martin Corporation",
+    "supplies_to": [
+      "Royal Canadian Navy",
+      "Irving Shipbuilding Inc."
+    ],
+    "source_note": "ACADA / CADSI / Dartmouth Naval Hub"
+  },
+  {
+    "legal_name": "General Dynamics Mission Systems - Canada",
+    "trade_name": "GDMS-C (Dartmouth)",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Dartmouth",
+    "province": "NS",
+    "website": "https://gdmissionsystems.ca",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Top Secret / SCI",
+    "certifications": [
+      "ISO9001",
+      "FacilitySecurity_TopSecret"
+    ],
+    "domains": [
+      "MaritimePlatform",
+      "DomainDefence",
+      "DomainC4ISR"
+    ],
+    "platforms": [
+      "Platform_SurfaceCombatant",
+      "Platform_Submarine",
+      "Platform_P8_Poseidon"
+    ],
+    "kics": [
+      "KIC_SensorsSonar",
+      "KIC_DefenceSystemsIntegration",
+      "KIC_SoftwareDefinedRadio"
+    ],
+    "capabilities": [
+      {
+        "title": "Underwater Acoustics & Naval C4ISR",
+        "description": "Development of sonobuoy processing, towed array sonar, and integrated maritime C4ISR systems.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_SensorsSonar"
+      }
+    ],
+    "products": [
+      {
+        "name": "Maritime Acoustic Processing Systems",
+        "description": "Anti-submarine warfare acoustic processors and tactical display systems.",
+        "part_number": "GDMS-ASW-01",
+        "fsc_code": "5845",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_SurfaceCombatant",
+          "Platform_P8_Poseidon"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Naval C4ISR Integration & Support",
+        "description": "Engineering and sustainment for naval underwater warfare and mission systems.",
+        "type": "EngineeringService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": "General Dynamics Corporation",
+    "supplies_to": [
+      "Royal Canadian Navy",
+      "Royal Canadian Air Force"
+    ],
+    "source_note": "ACADA / Dartmouth Maritime Defence Cluster"
+  },
+  {
+    "legal_name": "Ultra Electronics Maritime Systems Inc.",
+    "trade_name": "Ultra Maritime (Dartmouth)",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Dartmouth",
+    "province": "NS",
+    "website": "https://www.umaritime.com",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Secret",
+    "certifications": [
+      "ISO9001",
+      "AS9100D",
+      "FacilitySecurity_Secret"
+    ],
+    "domains": [
+      "MaritimePlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_SurfaceCombatant",
+      "Platform_Submarine",
+      "Platform_P8_Poseidon"
+    ],
+    "kics": [
+      "KIC_SensorsSonar",
+      "KIC_NavalShipbuilding"
+    ],
+    "capabilities": [
+      {
+        "title": "Anti-Submarine Warfare (ASW) & Sonar Systems",
+        "description": "Design and manufacture of sonobuoys, hull-mounted and towed-array sonar systems, and naval acoustic sensors.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_SensorsSonar"
+      }
+    ],
+    "products": [
+      {
+        "name": "AN/SSQ-series Sonobuoys & Towed Array Sonar",
+        "description": "Expendable and deployed underwater acoustic sensors for ASW.",
+        "part_number": "UEMS-ASW-53",
+        "fsc_code": "5845",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_P8_Poseidon",
+          "Platform_SurfaceCombatant"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Sonar Testing & Calibration",
+        "description": "Acoustic transducer testing, calibration, and naval ASW support.",
+        "type": "TestingQualificationService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": "Ultra Electronics",
+    "supplies_to": [
+      "Royal Canadian Navy",
+      "US Navy",
+      "UK Royal Navy"
+    ],
+    "source_note": "ACADA / Dartmouth ASW Hub"
+  },
+  {
+    "legal_name": "Thales Canada Inc.",
+    "trade_name": "Thales Canada (Halifax)",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Halifax",
+    "province": "NS",
+    "website": "https://www.thalesgroup.com/en/countries/americas/canada",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Secret",
+    "certifications": [
+      "ISO9001",
+      "FacilitySecurity_Secret"
+    ],
+    "domains": [
+      "MaritimePlatform",
+      "DomainDefence",
+      "DomainC4ISR"
+    ],
+    "platforms": [
+      "Platform_SurfaceCombatant"
+    ],
+    "kics": [
+      "KIC_InServiceSupport",
+      "KIC_DefenceSystemsIntegration",
+      "KIC_SensorsSonar"
+    ],
+    "capabilities": [
+      {
+        "title": "Naval In-Service Support (AJISS)",
+        "description": "Prime contractor for Arctic and Offshore Patrol Ships and Joint Support Ships In-Service Support (AJISS).",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_InServiceSupport"
+      }
+    ],
+    "products": [
+      {
+        "name": "Naval Electronic Warfare & Radar Systems",
+        "description": "Integrated naval EW, radar, and optronics sustainment packages.",
+        "part_number": "THALES-AJISS",
+        "fsc_code": "5840",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_SurfaceCombatant"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "AJISS Naval Fleet Sustainment",
+        "description": "Comprehensive in-service support, maintenance, and logistics for RCN vessels.",
+        "type": "LogisticsSupportService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": "Thales Group",
+    "supplies_to": [
+      "Royal Canadian Navy",
+      "Canadian Coast Guard"
+    ],
+    "source_note": "Invest Nova Scotia / Halifax Defence Cluster"
+  },
+  {
+    "legal_name": "Babcock Canada Inc.",
+    "trade_name": "Babcock Canada (Halifax)",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Halifax",
+    "province": "NS",
+    "website": "https://www.babcockcanada.com",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Secret",
+    "certifications": [
+      "ISO9001",
+      "ISO14001",
+      "FacilitySecurity_Secret"
+    ],
+    "domains": [
+      "MaritimePlatform",
+      "DomainDefence",
+      "DomainC4ISR"
+    ],
+    "platforms": [
+      "Platform_Submarine",
+      "Platform_SurfaceCombatant"
+    ],
+    "kics": [
+      "KIC_InServiceSupport",
+      "KIC_NavalShipbuilding",
+      "KIC_SoftwareDefinedRadio"
+    ],
+    "capabilities": [
+      {
+        "title": "Submarine Sustainment & Strategic HF/LF/VLF Communications",
+        "description": "In-service support for Victoria-class submarines and lead for Team INSPIRE strategic military radio communications.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_InServiceSupport"
+      }
+    ],
+    "products": [
+      {
+        "name": "Team INSPIRE Strategic Communications",
+        "description": "Modernized HF, LF, and VLF naval communications infrastructure.",
+        "part_number": "BABCOCK-INSPIRE",
+        "fsc_code": "5820",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_Submarine",
+          "Platform_SurfaceCombatant"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Submarine & Naval Fleet In-Service Support",
+        "description": "Deep-level refit, engineering, and sustainment for naval vessels.",
+        "type": "MROService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": "Babcock International Group",
+    "supplies_to": [
+      "Royal Canadian Navy",
+      "Department of National Defence"
+    ],
+    "source_note": "Invest Nova Scotia / Team INSPIRE"
+  },
+  {
+    "legal_name": "L3Harris Technologies Canada",
+    "trade_name": "L3Harris (Halifax)",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Halifax",
+    "province": "NS",
+    "website": "https://www.l3harris.com",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Secret",
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "FacilitySecurity_Secret"
+    ],
+    "domains": [
+      "MaritimePlatform",
+      "DomainDefence",
+      "DomainC4ISR"
+    ],
+    "platforms": [
+      "Platform_SurfaceCombatant"
+    ],
+    "kics": [
+      "KIC_SoftwareDefinedRadio",
+      "KIC_DefenceSystemsIntegration",
+      "KIC_SensorsSonar"
+    ],
+    "capabilities": [
+      {
+        "title": "Integrated Maritime Combat & Tactical Communications",
+        "description": "Tactical communications, integrated platform management, and electronic warfare support for naval fleets.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_SoftwareDefinedRadio"
+      }
+    ],
+    "products": [
+      {
+        "name": "Naval Tactical Communications Suite",
+        "description": "Secure tactical radio and datalink systems for maritime operations.",
+        "part_number": "L3H-MAR-COM",
+        "fsc_code": "5820",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_SurfaceCombatant"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Maritime Electronic Warfare & Comms Support",
+        "description": "Engineering and sustainment for naval communications and EW.",
+        "type": "EngineeringService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": "L3Harris Technologies",
+    "supplies_to": [
+      "Royal Canadian Navy"
+    ],
+    "source_note": "Halifax Defence Cluster"
+  },
+  {
+    "legal_name": "Airbus Atlantic Composites",
+    "trade_name": "Airbus Atlantic (Lunenburg)",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Lunenburg",
+    "province": "NS",
+    "website": "https://www.airbus.com",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "AS9100D",
+      "NADCAP_Composites",
+      "NADCAP_NDT"
+    ],
+    "domains": [
+      "AirPlatform",
+      "SpacePlatform",
+      "DomainAeronautics",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_FixedWingTransport",
+      "Platform_SpaceLaunchVehicle"
+    ],
+    "kics": [
+      "KIC_AdvancedMaterials",
+      "KIC_AerospaceSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Advanced Composite Aerostructures",
+        "description": "Design, tooling, and manufacturing of lightweight composite leading edges, fairings, radomes, and space pressure vessels.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_AdvancedMaterials"
+      }
+    ],
+    "products": [
+      {
+        "name": "Composite Radomes & Aerostructures",
+        "description": "High-performance carbon/resin composite aircraft structures and de-icing systems.",
+        "part_number": "AA-LUN-COMP",
+        "fsc_code": "1560",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_FixedWingTransport"
+        ],
+        "materials": [
+          "Material_CarbonFiber_Composite"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Composite Tooling & NDT Inspection",
+        "description": "Robotic composite fabrication and non-destructive testing.",
+        "type": "TestingQualificationService",
+        "accreditation": "AS9100D"
+      }
+    ],
+    "parent_company": "Airbus",
+    "supplies_to": [
+      "Airbus",
+      "Global Aerospace OEMs"
+    ],
+    "source_note": "ACOA / Invest Nova Scotia"
+  },
+  {
+    "legal_name": "Fleetway Inc.",
+    "trade_name": "Fleetway",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Dartmouth",
+    "province": "NS",
+    "website": "https://www.fleetway.ca",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Secret",
+    "certifications": [
+      "ISO9001",
+      "FacilitySecurity_Secret"
+    ],
+    "domains": [
+      "MaritimePlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_SurfaceCombatant",
+      "Platform_Type26_GlobalCombatShip"
+    ],
+    "kics": [
+      "KIC_InServiceSupport",
+      "KIC_NavalShipbuilding"
+    ],
+    "capabilities": [
+      {
+        "title": "Marine Engineering & Configuration Management",
+        "description": "Naval architecture, marine engineering, integrated logistics support (ILS), and configuration management for RCN vessels.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_InServiceSupport"
+      }
+    ],
+    "products": [
+      {
+        "name": "Naval Technical Data & ILS Packages",
+        "description": "Digital configuration management and lifecycle engineering documentation.",
+        "part_number": "FW-ILS-RCN",
+        "fsc_code": "1905",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_SurfaceCombatant"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Naval In-Service Support & Engineering",
+        "description": "Marine engineering, design, and logistics support for naval fleets.",
+        "type": "EngineeringService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": "Irving Shipbuilding Inc.",
+    "supplies_to": [
+      "Irving Shipbuilding Inc.",
+      "Royal Canadian Navy"
+    ],
+    "source_note": "ACADA / Irving Shipbuilding"
+  },
+  {
+    "legal_name": "GeoSpectrum Technologies Inc.",
+    "trade_name": "GeoSpectrum Technologies",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Dartmouth",
+    "province": "NS",
+    "website": "https://www.geospectrum.ca",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Secret",
+    "certifications": [
+      "ISO9001"
+    ],
+    "domains": [
+      "MaritimePlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_SurfaceCombatant",
+      "Platform_Submarine"
+    ],
+    "kics": [
+      "KIC_SensorsSonar",
+      "KIC_NavalShipbuilding"
+    ],
+    "capabilities": [
+      {
+        "title": "Underwater Acoustic Transducers & Sonar",
+        "description": "Design and manufacture of hydrophones, acoustic transducers, and towed-array sonar systems for naval defence.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_SensorsSonar"
+      }
+    ],
+    "products": [
+      {
+        "name": "TRAPS Towed Reelable Active Passive Sonar",
+        "description": "Compact variable-depth sonar system for naval vessels.",
+        "part_number": "GTI-TRAPS",
+        "fsc_code": "5845",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_SurfaceCombatant"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Acoustic Calibration & Marine Engineering",
+        "description": "Custom underwater acoustic system design and testing.",
+        "type": "EngineeringService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": "Elbit Systems",
+    "supplies_to": [
+      "Royal Canadian Navy",
+      "Allied Navies"
+    ],
+    "source_note": "COVE / ACADA"
+  },
+  {
+    "legal_name": "MetOcean Telematics Ltd.",
+    "trade_name": "MetOcean Telematics",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Dartmouth",
+    "province": "NS",
+    "website": "https://www.metocean.com",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "ISO9001"
+    ],
+    "domains": [
+      "MaritimePlatform",
+      "SpacePlatform",
+      "DomainDefence",
+      "DomainC4ISR"
+    ],
+    "platforms": [
+      "Platform_SurfaceCombatant",
+      "Platform_LEOSatellite"
+    ],
+    "kics": [
+      "KIC_SensorsSonar",
+      "KIC_SoftwareDefinedRadio"
+    ],
+    "capabilities": [
+      {
+        "title": "Satellite Telemetry & Defence Tracking Systems",
+        "description": "Iridium-based satellite tracking, oceanographic data buoys, and covert military tracking solutions.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_SoftwareDefinedRadio"
+      }
+    ],
+    "products": [
+      {
+        "name": "STREAM & Tactical Satellite Beacons",
+        "description": "Ruggedized satellite telemetry and asset tracking beacons for harsh environments.",
+        "part_number": "MET-SAT-01",
+        "fsc_code": "5825",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_SurfaceCombatant"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Custom Telemetry Engineering",
+        "description": "Design and integration of satellite-enabled sensor systems.",
+        "type": "EngineeringService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Department of National Defence",
+      "US DoD"
+    ],
+    "source_note": "Dartmouth Ocean Tech Cluster"
+  },
+  {
+    "legal_name": "JASCO Applied Sciences Ltd.",
+    "trade_name": "JASCO Applied Sciences",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Dartmouth",
+    "province": "NS",
+    "website": "https://www.jasco.com",
+    "tier": "SMESupplier",
+    "controlled_goods": false,
+    "itar_compliant": false,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "ISO9001"
+    ],
+    "domains": [
+      "MaritimePlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_SurfaceCombatant"
+    ],
+    "kics": [
+      "KIC_SensorsSonar"
+    ],
+    "capabilities": [
+      {
+        "title": "Underwater Acoustic Modelling & Monitoring",
+        "description": "Autonomous underwater acoustic recorders and propagation modelling for marine defence and environmental compliance.",
+        "trl": 9,
+        "mrl": 8,
+        "kic": "KIC_SensorsSonar"
+      }
+    ],
+    "products": [
+      {
+        "name": "AMAR G4 Autonomous Multichannel Acoustic Recorder",
+        "description": "Deep-water passive acoustic monitoring system.",
+        "part_number": "JASCO-AMAR-G4",
+        "fsc_code": "5845",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_SurfaceCombatant"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Acoustic Impact Assessment & Modelling",
+        "description": "Underwater noise modelling and acoustic range characterization.",
+        "type": "TestingQualificationService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Royal Canadian Navy",
+      "DRDC Atlantic"
+    ],
+    "source_note": "Dartmouth Ocean Tech Cluster"
+  },
+  {
+    "legal_name": "Nautel Limited",
+    "trade_name": "Nautel",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Hackett's Cove",
+    "province": "NS",
+    "website": "https://www.nautel.com",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Secret",
+    "certifications": [
+      "ISO9001"
+    ],
+    "domains": [
+      "DomainDefence",
+      "DomainC4ISR",
+      "MaritimePlatform"
+    ],
+    "platforms": [
+      "Platform_SurfaceCombatant",
+      "Platform_Submarine"
+    ],
+    "kics": [
+      "KIC_SoftwareDefinedRadio"
+    ],
+    "capabilities": [
+      {
+        "title": "High-Power Strategic RF & Sonar Transmitters",
+        "description": "Design and manufacture of solid-state HF, LF, VLF radio transmitters and navigational beacons for military communications.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_SoftwareDefinedRadio"
+      }
+    ],
+    "products": [
+      {
+        "name": "Solid-State LF/VLF Naval Transmitters",
+        "description": "High-reliability strategic communications transmitters for submarine and fleet command.",
+        "part_number": "NAUTEL-VLF-100",
+        "fsc_code": "5820",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_Submarine"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "RF Systems Engineering & Support",
+        "description": "Custom RF transmitter design and lifecycle support.",
+        "type": "EngineeringService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Babcock Canada Inc.",
+      "Department of National Defence"
+    ],
+    "source_note": "Team INSPIRE / ACADA"
+  },
+  {
+    "legal_name": "Bluedrop Training & Simulation Inc.",
+    "trade_name": "Bluedrop Training & Simulation",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Halifax",
+    "province": "NS",
+    "website": "https://www.bluedrop.com",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Secret",
+    "certifications": [
+      "ISO9001",
+      "FacilitySecurity_Secret"
+    ],
+    "domains": [
+      "AirPlatform",
+      "MaritimePlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_FixedWingTransport",
+      "Platform_RotaryWing",
+      "Platform_SurfaceCombatant"
+    ],
+    "kics": [
+      "KIC_TrainingSimulation"
+    ],
+    "capabilities": [
+      {
+        "title": "Virtual & Mixed-Reality Military Training Systems",
+        "description": "Development of rear-crew mission trainers, virtual maintenance trainers, and defence courseware.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_TrainingSimulation"
+      }
+    ],
+    "products": [
+      {
+        "name": "Hoist & Rear-Crew Mission Simulator",
+        "description": "High-fidelity VR/MR simulator for military helicopter and transport rear crews.",
+        "part_number": "BDTS-SIM-01",
+        "fsc_code": "6930",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_RotaryWing",
+          "Platform_FixedWingTransport"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Defence Simulation & Courseware Development",
+        "description": "Turnkey training systems integration and interactive courseware.",
+        "type": "SimulationTrainingService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Royal Canadian Air Force",
+      "Royal Canadian Navy",
+      "Boeing"
+    ],
+    "source_note": "Invest Nova Scotia / ACADA"
+  },
+  {
+    "legal_name": "Rosborough Boats",
+    "trade_name": "Rosborough Boats",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Halifax",
+    "province": "NS",
+    "website": "https://www.rosboroughboats.com",
+    "tier": "SMESupplier",
+    "controlled_goods": false,
+    "itar_compliant": false,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "ISO9001"
+    ],
+    "domains": [
+      "MaritimePlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_SurfaceCombatant"
+    ],
+    "kics": [
+      "KIC_NavalShipbuilding"
+    ],
+    "capabilities": [
+      {
+        "title": "Custom Patrol, Rescue & Defence Workboats",
+        "description": "Design and construction of heavy-duty composite and aluminum patrol, security, and search-and-rescue vessels.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_NavalShipbuilding"
+      }
+    ],
+    "products": [
+      {
+        "name": "Rough Water Patrol & Rescue Craft",
+        "description": "High-speed rigid-hull and composite patrol boats for naval and coast guard use.",
+        "part_number": "RB-PATROL-34",
+        "fsc_code": "1940",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_SurfaceCombatant"
+        ],
+        "materials": [
+          "Material_CarbonFiber_Composite"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Patrol Boat Refit & Repair",
+        "description": "Hull repair, propulsion upgrades, and outfitting for government vessels.",
+        "type": "MROService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Royal Canadian Navy",
+      "Canadian Coast Guard"
+    ],
+    "source_note": "Halifax Marine Cluster"
+  },
+  {
+    "legal_name": "A.F. Theriault & Son Ltd.",
+    "trade_name": "A.F. Theriault & Son",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Meteghan River",
+    "province": "NS",
+    "website": "https://www.aftheriaultboatyard.com",
+    "tier": "Tier2Supplier",
+    "controlled_goods": false,
+    "itar_compliant": false,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "ISO9001"
+    ],
+    "domains": [
+      "MaritimePlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_SurfaceCombatant"
+    ],
+    "kics": [
+      "KIC_NavalShipbuilding",
+      "KIC_InServiceSupport"
+    ],
+    "capabilities": [
+      {
+        "title": "Multi-Material Shipbuilding & Vessel Refits",
+        "description": "Construction and refit of steel, aluminum, and composite patrol boats, ferries, and research vessels up to 1,500 tons.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_NavalShipbuilding"
+      }
+    ],
+    "products": [
+      {
+        "name": "Hammerhead USV-T & Patrol Vessels",
+        "description": "Uncrewed surface target vessels and government patrol craft.",
+        "part_number": "AFT-PATROL-45",
+        "fsc_code": "1925",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_SurfaceCombatant"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Shipyard Refit & Conversion",
+        "description": "Dry-docking, hull conversion, and marine mechanical overhaul.",
+        "type": "MROService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Royal Canadian Navy",
+      "Canadian Coast Guard"
+    ],
+    "source_note": "Nova Scotia Marine Cluster"
+  },
+  {
+    "legal_name": "Hawboldt Industries (1989) Ltd.",
+    "trade_name": "Hawboldt Industries",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Chester",
+    "province": "NS",
+    "website": "https://www.hawboldt.ca",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "ISO9001"
+    ],
+    "domains": [
+      "MaritimePlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_SurfaceCombatant"
+    ],
+    "kics": [
+      "KIC_NavalShipbuilding"
+    ],
+    "capabilities": [
+      {
+        "title": "Heavy Marine Deck Machinery & LARS",
+        "description": "OEM of custom marine cranes, ROV/AUV winches, Launch and Recovery Systems (LARS), and non-ferrous marine castings.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_NavalShipbuilding"
+      }
+    ],
+    "products": [
+      {
+        "name": "Naval Launch & Recovery Systems (LARS)",
+        "description": "Heavy-duty winches and davits for deploying AUVs and RHIBs.",
+        "part_number": "HAW-LARS-01",
+        "fsc_code": "3950",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_SurfaceCombatant"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Deck Machinery Engineering & Overhaul",
+        "description": "Custom hydraulic and electric marine deck equipment engineering.",
+        "type": "EngineeringService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Irving Shipbuilding Inc.",
+      "Royal Canadian Navy"
+    ],
+    "source_note": "Nova Scotia Marine Cluster"
+  },
+  {
+    "legal_name": "Lunenburg Foundry & Engineering Ltd.",
+    "trade_name": "Lunenburg Foundry",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Lunenburg",
+    "province": "NS",
+    "website": "https://www.lunenburgfoundry.com",
+    "tier": "SMESupplier",
+    "controlled_goods": false,
+    "itar_compliant": false,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "ISO9001"
+    ],
+    "domains": [
+      "MaritimePlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_SurfaceCombatant"
+    ],
+    "kics": [
+      "KIC_NavalShipbuilding",
+      "KIC_AdvancedMaterials"
+    ],
+    "capabilities": [
+      {
+        "title": "Marine Castings & Heavy Machining",
+        "description": "Iron and non-ferrous marine castings, custom deck fittings, and vessel mechanical refits.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_NavalShipbuilding"
+      }
+    ],
+    "products": [
+      {
+        "name": "Marine Deck Fittings & Castings",
+        "description": "Ruggedized marine hardware and custom metal castings.",
+        "part_number": "LF-CAST-01",
+        "fsc_code": "2040",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_SurfaceCombatant"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Marine Machining & Vessel Refit",
+        "description": "Heavy machining and marine mechanical repair.",
+        "type": "MROService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Atlantic Canadian Shipyards"
+    ],
+    "source_note": "Nova Scotia Marine Cluster"
+  },
+  {
+    "legal_name": "Survival Systems Limited",
+    "trade_name": "Survival Systems",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Dartmouth",
+    "province": "NS",
+    "website": "https://www.survivalsystems.ca",
+    "tier": "SMESupplier",
+    "controlled_goods": false,
+    "itar_compliant": false,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "ISO9001"
+    ],
+    "domains": [
+      "AirPlatform",
+      "MaritimePlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_RotaryWing",
+      "Platform_SurfaceCombatant"
+    ],
+    "kics": [
+      "KIC_TrainingSimulation"
+    ],
+    "capabilities": [
+      {
+        "title": "Military Aircrew & Marine Survival Training",
+        "description": "Underwater egress, helicopter dunker, and sea survival training for military aircrews and naval personnel.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_TrainingSimulation"
+      }
+    ],
+    "products": [
+      {
+        "name": "METS Helicopter Underwater Egress Trainer",
+        "description": "Modular egress training simulator for military aircrew survival.",
+        "part_number": "SSL-METS-01",
+        "fsc_code": "6930",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_RotaryWing"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Aircrew & Naval Survival Training",
+        "description": "Certified emergency evacuation and sea survival training.",
+        "type": "SimulationTrainingService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Royal Canadian Air Force",
+      "Royal Canadian Navy"
+    ],
+    "source_note": "Dartmouth Defence Cluster"
+  },
+  {
+    "legal_name": "Enginuity Inc.",
+    "trade_name": "Enginuity",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Halifax",
+    "province": "NS",
+    "website": "https://www.enginuityinc.ca",
+    "tier": "SMESupplier",
+    "controlled_goods": true,
+    "itar_compliant": false,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "ISO9001"
+    ],
+    "domains": [
+      "MaritimePlatform",
+      "DomainDefence",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "Platform_SurfaceCombatant"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems",
+      "KIC_NavalShipbuilding"
+    ],
+    "capabilities": [
+      {
+        "title": "Defence & Marine Hardware Prototyping",
+        "description": "Mechanical, electrical, and systems engineering for aerospace, defence, and marine hardware prototyping.",
+        "trl": 8,
+        "mrl": 7,
+        "kic": "KIC_NavalShipbuilding"
+      }
+    ],
+    "products": [
+      {
+        "name": "Custom Marine & Defence Prototypes",
+        "description": "Specialized electromechanical hardware and test rigs.",
+        "part_number": "ENG-PROTO-01",
+        "fsc_code": "1990",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_SurfaceCombatant"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Product Development & Prototyping",
+        "description": "Full-cycle mechanical and systems engineering.",
+        "type": "EngineeringService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Department of National Defence",
+      "COVE"
+    ],
+    "source_note": "Invest Nova Scotia"
+  },
+  {
+    "legal_name": "Modest Tree Media Inc.",
+    "trade_name": "Modest Tree",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Halifax",
+    "province": "NS",
+    "website": "https://www.modesttree.com",
+    "tier": "SMESupplier",
+    "controlled_goods": true,
+    "itar_compliant": false,
+    "facility_security_clearance": "Secret",
+    "certifications": [
+      "ISO9001"
+    ],
+    "domains": [
+      "MaritimePlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_Type26_GlobalCombatShip",
+      "Platform_SurfaceCombatant"
+    ],
+    "kics": [
+      "KIC_TrainingSimulation"
+    ],
+    "capabilities": [
+      {
+        "title": "3D/VR Naval Training & Digital Twins",
+        "description": "3D, VR, and interactive training software for River-class destroyer sailors and naval maintenance.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_TrainingSimulation"
+      }
+    ],
+    "products": [
+      {
+        "name": "Xplorer 3D/VR Training Platform",
+        "description": "Interactive 3D virtual shipboard training environment.",
+        "part_number": "MT-XPLORER",
+        "fsc_code": "6930",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_Type26_GlobalCombatShip"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Naval VR Training Content Development",
+        "description": "Custom 3D/VR simulation and digital twin training.",
+        "type": "SimulationTrainingService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Irving Shipbuilding Inc.",
+      "Fleetway Inc.",
+      "Royal Canadian Navy"
+    ],
+    "source_note": "Irving Shipbuilding Supply Chain"
+  },
+  {
+    "legal_name": "Avalon Holographics Inc.",
+    "trade_name": "Avalon Holographics",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Dartmouth",
+    "province": "NS",
+    "website": "https://www.avalonholographics.com",
+    "tier": "SMESupplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "ISO9001"
+    ],
+    "domains": [
+      "DomainDefence",
+      "DomainC4ISR",
+      "MaritimePlatform"
+    ],
+    "platforms": [
+      "Platform_SurfaceCombatant"
+    ],
+    "kics": [
+      "KIC_DefenceSystemsIntegration",
+      "KIC_TrainingSimulation"
+    ],
+    "capabilities": [
+      {
+        "title": "3D Holographic Tactical Displays",
+        "description": "Next-generation glasses-free 3D holographic light-field displays for defence command and control and mission planning.",
+        "trl": 8,
+        "mrl": 7,
+        "kic": "KIC_DefenceSystemsIntegration"
+      }
+    ],
+    "products": [
+      {
+        "name": "NOVAC 3D Holographic Display",
+        "description": "High-resolution light-field display for C2 and geospatial visualization.",
+        "part_number": "AVALON-NOVAC",
+        "fsc_code": "7025",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_SurfaceCombatant"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Holographic Visualization Integration",
+        "description": "Integration of 3D light-field displays into defence C2 systems.",
+        "type": "EngineeringService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Department of National Defence",
+      "US DoD"
+    ],
+    "source_note": "ACADA"
+  },
+  {
+    "legal_name": "Maritime Launch Services Ltd.",
+    "trade_name": "Maritime Launch",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Halifax",
+    "province": "NS",
+    "website": "https://www.maritimelaunch.com",
+    "tier": "SMESupplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "ISO9001"
+    ],
+    "domains": [
+      "SpacePlatform",
+      "DomainSpace"
+    ],
+    "platforms": [
+      "Platform_SpaceLaunchVehicle",
+      "Platform_LEOSatellite"
+    ],
+    "kics": [
+      "KIC_SpaceSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Commercial Orbital Spaceport Operations",
+        "description": "Developing Spaceport Nova Scotia in Canso for small-to-medium class satellite launches into polar and sun-synchronous orbits.",
+        "trl": 7,
+        "mrl": 6,
+        "kic": "KIC_SpaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Spaceport Nova Scotia Launch Services",
+        "description": "Dedicated orbital launch complex and payload integration facilities.",
+        "part_number": "MLS-SPNS",
+        "fsc_code": "1810",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_SpaceLaunchVehicle"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Launch Site & Payload Integration",
+        "description": "Orbital launch campaign management and range safety.",
+        "type": "LogisticsSupportService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Commercial & Defence Satellite Operators"
+    ],
+    "source_note": "Invest Nova Scotia"
+  },
+  {
+    "legal_name": "Marswell Metal Industries Ltd.",
+    "trade_name": "Marswell Metal Industries",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Halifax",
+    "province": "NS",
+    "website": "https://www.marswell.ca",
+    "tier": "SMESupplier",
+    "controlled_goods": false,
+    "itar_compliant": false,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "ISO9001"
+    ],
+    "domains": [
+      "MaritimePlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_Type26_GlobalCombatShip",
+      "Platform_SurfaceCombatant"
+    ],
+    "kics": [
+      "KIC_AdvancedMaterials",
+      "KIC_NavalShipbuilding"
+    ],
+    "capabilities": [
+      {
+        "title": "Custom Lead Casting & Naval Ballast",
+        "description": "Precision lead casting, radiation shielding, and naval ballast solutions for shipbuilding.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_AdvancedMaterials"
+      }
+    ],
+    "products": [
+      {
+        "name": "Naval Ballast & Shielding Castings",
+        "description": "Custom-cast lead ballast and shielding blocks for naval vessels.",
+        "part_number": "MARS-LEAD-01",
+        "fsc_code": "2040",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_Type26_GlobalCombatShip"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Custom Metal Casting",
+        "description": "Precision lead and non-ferrous casting for marine defence.",
+        "type": "EngineeringService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Irving Shipbuilding Inc."
+    ],
+    "source_note": "Irving Shipbuilding Supply Chain"
+  },
+  {
+    "legal_name": "Marecomms Inc.",
+    "trade_name": "Marecomms",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Dartmouth",
+    "province": "NS",
+    "website": "https://www.marecomms.com",
+    "tier": "SMESupplier",
+    "controlled_goods": false,
+    "itar_compliant": false,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "ISO9001"
+    ],
+    "domains": [
+      "MaritimePlatform",
+      "DomainC4ISR"
+    ],
+    "platforms": [
+      "Platform_Submarine",
+      "Platform_SurfaceCombatant"
+    ],
+    "kics": [
+      "KIC_SensorsSonar",
+      "KIC_SoftwareDefinedRadio"
+    ],
+    "capabilities": [
+      {
+        "title": "High-Speed Underwater Acoustic Communications",
+        "description": "Robust acoustic modems for high-speed subsea data transmission in harsh marine environments.",
+        "trl": 8,
+        "mrl": 7,
+        "kic": "KIC_SensorsSonar"
+      }
+    ],
+    "products": [
+      {
+        "name": "Subsea Acoustic Modem",
+        "description": "High-bandwidth underwater wireless acoustic communication system.",
+        "part_number": "MARE-MODEM-01",
+        "fsc_code": "5845",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_Submarine"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Subsea Comms Engineering",
+        "description": "Custom underwater acoustic communication integration.",
+        "type": "EngineeringService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "COVE",
+      "Marine Robotics Integrators"
+    ],
+    "source_note": "COVE Resident"
+  },
+  {
+    "legal_name": "Glas Ocean Electric Inc.",
+    "trade_name": "Glas Ocean Electric",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Dartmouth",
+    "province": "NS",
+    "website": "https://www.glasoceanelectric.com",
+    "tier": "SMESupplier",
+    "controlled_goods": false,
+    "itar_compliant": false,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "ISO9001"
+    ],
+    "domains": [
+      "MaritimePlatform"
+    ],
+    "platforms": [
+      "Platform_SurfaceCombatant"
+    ],
+    "kics": [
+      "KIC_NavalShipbuilding"
+    ],
+    "capabilities": [
+      {
+        "title": "Electric Marine Propulsion Kits",
+        "description": "Electric propulsion conversion kits and smart marine charging systems for coastal and patrol vessels.",
+        "trl": 8,
+        "mrl": 7,
+        "kic": "KIC_NavalShipbuilding"
+      }
+    ],
+    "products": [
+      {
+        "name": "Marine Electric Propulsion System",
+        "description": "Low-acoustic-signature electric drive for workboats and patrol craft.",
+        "part_number": "GOE-DRIVE-01",
+        "fsc_code": "2010",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_SurfaceCombatant"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Vessel Electrification Engineering",
+        "description": "Marine hybrid/electric propulsion integration.",
+        "type": "EngineeringService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Commercial & Government Boat Builders"
+    ],
+    "source_note": "COVE Resident"
+  },
+  {
+    "legal_name": "Dartmouth Ocean Technologies Inc.",
+    "trade_name": "Dartmouth Ocean Technologies",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Dartmouth",
+    "province": "NS",
+    "website": "https://www.dartmouthocean.com",
+    "tier": "SMESupplier",
+    "controlled_goods": false,
+    "itar_compliant": false,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "ISO9001"
+    ],
+    "domains": [
+      "MaritimePlatform",
+      "DomainC4ISR"
+    ],
+    "platforms": [
+      "Platform_SurfaceCombatant"
+    ],
+    "kics": [
+      "KIC_SensorsSonar"
+    ],
+    "capabilities": [
+      {
+        "title": "Autonomous Ocean Sensing & Microfluidics",
+        "description": "In-situ microfluidic ocean sensors and autonomous environmental monitoring platforms.",
+        "trl": 8,
+        "mrl": 7,
+        "kic": "KIC_SensorsSonar"
+      }
+    ],
+    "products": [
+      {
+        "name": "Lab-on-Chip Subsea Chemical Sensor",
+        "description": "Compact autonomous subsea chemical and eDNA sensor.",
+        "part_number": "DOT-LOC-01",
+        "fsc_code": "6665",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_SurfaceCombatant"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Ocean Sensor Integration",
+        "description": "Integration of autonomous sensors onto AUVs and USVs.",
+        "type": "EngineeringService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "COVE",
+      "Ocean Research & Defence"
+    ],
+    "source_note": "COVE Resident"
+  },
+  {
+    "legal_name": "Ocean Sonics Ltd.",
+    "trade_name": "Ocean Sonics",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Truro Heights",
+    "province": "NS",
+    "website": "https://www.oceansonics.com",
+    "tier": "SMESupplier",
+    "controlled_goods": false,
+    "itar_compliant": false,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "ISO9001"
+    ],
+    "domains": [
+      "MaritimePlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_SurfaceCombatant",
+      "Platform_Submarine"
+    ],
+    "kics": [
+      "KIC_SensorsSonar"
+    ],
+    "capabilities": [
+      {
+        "title": "Smart Digital Hydrophones",
+        "description": "Design and manufacture of icListen smart digital hydrophones and underwater acoustic monitoring arrays.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_SensorsSonar"
+      }
+    ],
+    "products": [
+      {
+        "name": "icListen Smart Hydrophone",
+        "description": "Real-time digital hydrophone for underwater domain awareness.",
+        "part_number": "OS-ICLISTEN",
+        "fsc_code": "5845",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_SurfaceCombatant"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Hydrophone Calibration & Acoustic Support",
+        "description": "Calibration and deployment support for subsea acoustics.",
+        "type": "TestingQualificationService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Royal Canadian Navy",
+      "DRDC"
+    ],
+    "source_note": "Nova Scotia Ocean Tech"
+  },
+  {
+    "legal_name": "Cherubini Metal Works Ltd.",
+    "trade_name": "Cherubini Metal Works",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Dartmouth",
+    "province": "NS",
+    "website": "https://www.cherubinigroup.com",
+    "tier": "Tier2Supplier",
+    "controlled_goods": false,
+    "itar_compliant": false,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "ISO9001"
+    ],
+    "domains": [
+      "MaritimePlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_SurfaceCombatant",
+      "Platform_Type26_GlobalCombatShip"
+    ],
+    "kics": [
+      "KIC_NavalShipbuilding",
+      "KIC_AdvancedMaterials"
+    ],
+    "capabilities": [
+      {
+        "title": "Heavy Steel Fabrication for Naval Shipbuilding",
+        "description": "Heavy structural steel fabrication, modular assemblies, and marine infrastructure.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_NavalShipbuilding"
+      }
+    ],
+    "products": [
+      {
+        "name": "Naval Structural Steel Modules",
+        "description": "Precision-fabricated heavy steel modules for shipyards.",
+        "part_number": "CMW-NAV-01",
+        "fsc_code": "2010",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_Type26_GlobalCombatShip"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Heavy Steel Fabrication",
+        "description": "CWB-certified heavy structural steel fabrication.",
+        "type": "EngineeringService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Irving Shipbuilding Inc."
+    ],
+    "source_note": "Dartmouth Marine Supply Chain"
+  },
+  {
+    "legal_name": "Tri-Star Industries Ltd.",
+    "trade_name": "Tri-Star Industries",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Yarmouth",
+    "province": "NS",
+    "website": "https://www.tristarindustries.com",
+    "tier": "SMESupplier",
+    "controlled_goods": false,
+    "itar_compliant": false,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "ISO9001"
+    ],
+    "domains": [
+      "LandPlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_ArmouredCombatVehicle"
+    ],
+    "kics": [
+      "KIC_ArmouredVehicles"
+    ],
+    "capabilities": [
+      {
+        "title": "Emergency & Tactical Support Vehicles",
+        "description": "Custom manufacturing of ambulances, command vehicles, and specialized tactical support vehicles.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_ArmouredVehicles"
+      }
+    ],
+    "products": [
+      {
+        "name": "Mobile Command & Tactical Ambulance",
+        "description": "Ruggedized emergency and command vehicles for defence and civil agencies.",
+        "part_number": "TSI-CMD-01",
+        "fsc_code": "2310",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_ArmouredCombatVehicle"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Specialty Vehicle Upfitting",
+        "description": "Custom vehicle body fabrication and systems integration.",
+        "type": "EngineeringService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Department of National Defence",
+      "Provincial Governments"
+    ],
+    "source_note": "Nova Scotia Defence Manufacturing"
+  },
+  {
+    "legal_name": "PAL Aerospace Ltd.",
+    "trade_name": "PAL Aerospace",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "St. John's",
+    "province": "NL",
+    "website": "https://www.palaerospace.com",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Secret",
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "FacilitySecurity_Secret"
+    ],
+    "domains": [
+      "AirPlatform",
+      "MaritimePlatform",
+      "DomainDefence",
+      "DomainC4ISR"
+    ],
+    "platforms": [
+      "Platform_FixedWingTransport",
+      "Platform_P8_Poseidon"
+    ],
+    "kics": [
+      "KIC_DefenceSystemsIntegration",
+      "KIC_InServiceSupport",
+      "KIC_SensorsSonar"
+    ],
+    "capabilities": [
+      {
+        "title": "Airborne Maritime ISR & Special Missions",
+        "description": "Design, modification, and operation of special-mission maritime patrol and ISR aircraft, plus FWSAR in-service support.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_DefenceSystemsIntegration"
+      }
+    ],
+    "products": [
+      {
+        "name": "Dash 8 Maritime Patrol & ISR Modification",
+        "description": "Turnkey airborne maritime surveillance aircraft with integrated radar and EO/IR.",
+        "part_number": "PAL-ISR-D8",
+        "fsc_code": "1510",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_FixedWingTransport"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Airborne ISR Operations & FWSAR ISS",
+        "description": "Special mission aircraft operations and military fleet in-service support.",
+        "type": "MROService",
+        "accreditation": "AS9100D"
+      }
+    ],
+    "parent_company": "Exchange Income Corporation",
+    "supplies_to": [
+      "Royal Canadian Air Force",
+      "Airbus",
+      "Allied Governments"
+    ],
+    "source_note": "ACADA / NL Aerospace Anchor"
+  },
+  {
+    "legal_name": "Kraken Robotics Inc.",
+    "trade_name": "Kraken Robotics",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Mount Pearl",
+    "province": "NL",
+    "website": "https://www.krakenrobotics.com",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Secret",
+    "certifications": [
+      "ISO9001",
+      "FacilitySecurity_Secret"
+    ],
+    "domains": [
+      "MaritimePlatform",
+      "DomainDefence",
+      "DomainC4ISR"
+    ],
+    "platforms": [
+      "Platform_Submarine",
+      "Platform_SurfaceCombatant"
+    ],
+    "kics": [
+      "KIC_SensorsSonar",
+      "KIC_AIAutonomousSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Synthetic Aperture Sonar & Subsea Robotics",
+        "description": "High-resolution Synthetic Aperture Sonar (SAS), 3D acoustic imaging, SeaPower subsea batteries, and KATFISH towed mine-countermeasure vehicles.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_SensorsSonar"
+      }
+    ],
+    "products": [
+      {
+        "name": "KATFISH Towed Synthetic Aperture Sonar",
+        "description": "Actively stabilized towed underwater vehicle for naval mine countermeasures.",
+        "part_number": "KRK-KATFISH",
+        "fsc_code": "5845",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_SurfaceCombatant"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Subsea Mine Countermeasure & Route Survey",
+        "description": "Autonomous underwater survey and unexploded ordnance detection.",
+        "type": "EngineeringService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Royal Canadian Navy",
+      "NATO Navies"
+    ],
+    "source_note": "OceansAdvance / NL Ocean Tech"
+  },
+  {
+    "legal_name": "C-CORE",
+    "trade_name": "C-CORE",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "St. John's",
+    "province": "NL",
+    "website": "https://www.c-core.ca",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": false,
+    "facility_security_clearance": "Secret",
+    "certifications": [
+      "ISO9001"
+    ],
+    "domains": [
+      "SpacePlatform",
+      "MaritimePlatform",
+      "DomainSpace",
+      "DomainC4ISR"
+    ],
+    "platforms": [
+      "Platform_LEOSatellite",
+      "Platform_SurfaceCombatant"
+    ],
+    "kics": [
+      "KIC_SpaceSystems",
+      "KIC_SensorsSonar"
+    ],
+    "capabilities": [
+      {
+        "title": "Satellite Remote Sensing & LEO Communications",
+        "description": "Satellite-based Arctic maritime surveillance, ice engineering, and LEO demonstration satellites with optical laser links for DRDC.",
+        "trl": 8,
+        "mrl": 8,
+        "kic": "KIC_SpaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Coresight Maritime Surveillance Software",
+        "description": "Satellite SAR-based vessel and ice-hazard detection platform.",
+        "part_number": "CCORE-CORESIGHT",
+        "fsc_code": "7030",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_LEOSatellite"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Remote Sensing & Space Engineering",
+        "description": "Satellite payload development and Arctic maritime intelligence.",
+        "type": "EngineeringService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "DRDC",
+      "Canadian Coast Guard",
+      "Department of National Defence"
+    ],
+    "source_note": "OceansAdvance / DRDC Contractor"
+  },
+  {
+    "legal_name": "Rutter Inc.",
+    "trade_name": "Rutter",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "St. John's",
+    "province": "NL",
+    "website": "https://www.rutter.ca",
+    "tier": "Tier2Supplier",
+    "controlled_goods": false,
+    "itar_compliant": false,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "ISO9001"
+    ],
+    "domains": [
+      "MaritimePlatform",
+      "DomainDefence",
+      "DomainC4ISR"
+    ],
+    "platforms": [
+      "Platform_SurfaceCombatant"
+    ],
+    "kics": [
+      "KIC_SensorsSonar"
+    ],
+    "capabilities": [
+      {
+        "title": "Marine X-Band Radar Signal Processing",
+        "description": "sigma S6 radar signal processing for small target detection, ice navigation, oil spill detection, and wave monitoring.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_SensorsSonar"
+      }
+    ],
+    "products": [
+      {
+        "name": "sigma S6 Small Target & Ice Radar",
+        "description": "Advanced marine radar processor for naval and coast guard vessels.",
+        "part_number": "RUT-SIGMA-S6",
+        "fsc_code": "5840",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_SurfaceCombatant"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Marine Radar Integration & Support",
+        "description": "Radar signal processing integration for naval and icebreaker fleets.",
+        "type": "EngineeringService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Royal Canadian Navy",
+      "Canadian Coast Guard"
+    ],
+    "source_note": "OceansAdvance"
+  },
+  {
+    "legal_name": "SubC Imaging",
+    "trade_name": "SubC Imaging",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Clarenville",
+    "province": "NL",
+    "website": "https://www.subcimaging.com",
+    "tier": "SMESupplier",
+    "controlled_goods": false,
+    "itar_compliant": false,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "ISO9001"
+    ],
+    "domains": [
+      "MaritimePlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_Submarine",
+      "Platform_SurfaceCombatant"
+    ],
+    "kics": [
+      "KIC_EOIRSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Deep-Sea Optical Imaging & ROV Cameras",
+        "description": "Ruggedized subsea cameras, LED lighting, lasers, and DVR software for ROVs, AUVs, and defence inspection.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_EOIRSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Rayfin Subsea Camera System",
+        "description": "High-definition deep-ocean optical camera and laser scaling system.",
+        "part_number": "SUBC-RAYFIN",
+        "fsc_code": "6720",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_Submarine"
+        ],
+        "materials": [
+          "Material_Titanium_Ti6Al4V"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Subsea Imaging Integration",
+        "description": "Custom optical payload integration for underwater vehicles.",
+        "type": "EngineeringService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Department of National Defence",
+      "Offshore & Defence ROV Operators"
+    ],
+    "source_note": "NL Ocean Tech"
+  },
+  {
+    "legal_name": "Kongsberg Discovery Canada Ltd.",
+    "trade_name": "Kongsberg Discovery (St. John's)",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "St. John's",
+    "province": "NL",
+    "website": "https://www.kongsberg.com",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Secret",
+    "certifications": [
+      "ISO9001"
+    ],
+    "domains": [
+      "MaritimePlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_SurfaceCombatant",
+      "Platform_Submarine"
+    ],
+    "kics": [
+      "KIC_SensorsSonar",
+      "KIC_AIAutonomousSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Subsea Mapping, Acoustics & Marine Robotics",
+        "description": "Multibeam echosounders, underwater positioning, and autonomous underwater vehicles (AUVs) for naval hydrography.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_SensorsSonar"
+      }
+    ],
+    "products": [
+      {
+        "name": "HUGIN AUV & Multibeam Sonar",
+        "description": "Autonomous underwater vehicle and high-resolution hydrographic sonar.",
+        "part_number": "KONG-HUGIN",
+        "fsc_code": "5845",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_SurfaceCombatant"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Hydrographic & Subsea Robotics Support",
+        "description": "Technical support and training for naval subsea systems.",
+        "type": "EngineeringService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": "Kongsberg Gruppen",
+    "supplies_to": [
+      "Royal Canadian Navy",
+      "Canadian Hydrographic Service"
+    ],
+    "source_note": "NL Ocean Tech"
+  },
+  {
+    "legal_name": "Genoa Design International Ltd.",
+    "trade_name": "Genoa Design International",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Mount Pearl",
+    "province": "NL",
+    "website": "https://www.genoadesign.com",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": false,
+    "facility_security_clearance": "Secret",
+    "certifications": [
+      "ISO9001",
+      "FacilitySecurity_Secret"
+    ],
+    "domains": [
+      "MaritimePlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_SurfaceCombatant"
+    ],
+    "kics": [
+      "KIC_NavalShipbuilding"
+    ],
+    "capabilities": [
+      {
+        "title": "3D Naval Production Design & Digital Twin",
+        "description": "Detail design, 3D modeling, and production lofting for Canada's National Shipbuilding Strategy Joint Support Ships and Polar Icebreakers.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_NavalShipbuilding"
+      }
+    ],
+    "products": [
+      {
+        "name": "3D Ship Production Models",
+        "description": "Digital ship design and production work-package models.",
+        "part_number": "GENOA-3D-NSS",
+        "fsc_code": "1905",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_SurfaceCombatant"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Naval Detail Design & Engineering",
+        "description": "3D CAD/CAM production design for naval shipyards.",
+        "type": "EngineeringService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Seaspan Shipyards",
+      "Irving Shipbuilding Inc."
+    ],
+    "source_note": "National Shipbuilding Strategy"
+  },
+  {
+    "legal_name": "Virtual Marine Technology Inc.",
+    "trade_name": "Virtual Marine",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Paradise",
+    "province": "NL",
+    "website": "https://www.virtualmarine.ca",
+    "tier": "SMESupplier",
+    "controlled_goods": true,
+    "itar_compliant": false,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "ISO9001"
+    ],
+    "domains": [
+      "MaritimePlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_SurfaceCombatant"
+    ],
+    "kics": [
+      "KIC_TrainingSimulation"
+    ],
+    "capabilities": [
+      {
+        "title": "High-Fidelity Naval Bridge & Survival Simulators",
+        "description": "Maritime simulation systems for Royal Canadian Navy Harry DeWolf-class AOPS, ice navigation, and emergency evacuation.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_TrainingSimulation"
+      }
+    ],
+    "products": [
+      {
+        "name": "AOPS Bridge & Small Craft Simulator",
+        "description": "Full-mission naval navigation and ice-operations simulator.",
+        "part_number": "VM-SIM-AOPS",
+        "fsc_code": "6930",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_SurfaceCombatant"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Maritime Simulation & Training",
+        "description": "Custom naval simulator development and instructor-led training.",
+        "type": "SimulationTrainingService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Royal Canadian Navy",
+      "Canadian Coast Guard"
+    ],
+    "source_note": "OceansAdvance"
+  },
+  {
+    "legal_name": "Compusult Limited",
+    "trade_name": "Compusult",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Mount Pearl",
+    "province": "NL",
+    "website": "https://www.compusult.com",
+    "tier": "SMESupplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Secret",
+    "certifications": [
+      "ISO9001",
+      "FacilitySecurity_Secret"
+    ],
+    "domains": [
+      "MaritimePlatform",
+      "DomainDefence",
+      "DomainC4ISR"
+    ],
+    "platforms": [
+      "Platform_SurfaceCombatant",
+      "Platform_TacticalUAS"
+    ],
+    "kics": [
+      "KIC_DefenceSystemsIntegration",
+      "KIC_AIAutonomousSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Geospatial Maritime Domain Awareness & Uncrewed Systems",
+        "description": "Web Enterprise Suite (WES) geospatial data integration and uncrewed autonomous coastal surveillance systems for NATO and DND.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_DefenceSystemsIntegration"
+      }
+    ],
+    "products": [
+      {
+        "name": "Web Enterprise Suite (WES)",
+        "description": "OGC-compliant geospatial intelligence and maritime domain awareness software.",
+        "part_number": "COMP-WES-01",
+        "fsc_code": "7030",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_SurfaceCombatant"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Geospatial C4ISR Integration",
+        "description": "Custom geospatial software and autonomous sensor integration.",
+        "type": "EngineeringService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Department of National Defence",
+      "NATO",
+      "US DoD"
+    ],
+    "source_note": "OceansAdvance / DRDC"
+  },
+  {
+    "legal_name": "Apex Industries Inc.",
+    "trade_name": "Apex Industries",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Moncton",
+    "province": "NB",
+    "website": "https://www.apexindustries.com",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "AS9100D",
+      "ISO9001"
+    ],
+    "domains": [
+      "AirPlatform",
+      "MaritimePlatform",
+      "DomainDefence",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "Platform_FixedWingTransport",
+      "Platform_SurfaceCombatant"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems",
+      "KIC_NavalShipbuilding"
+    ],
+    "capabilities": [
+      {
+        "title": "Precision Aerospace & Naval Machining",
+        "description": "5-axis CNC machining, sheet metal fabrication, and structural assemblies for aerospace and naval defence.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_AerospaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Precision Machined Aerospace & Naval Components",
+        "description": "Close-tolerance metallic structural components and assemblies.",
+        "part_number": "APEX-CNC-01",
+        "fsc_code": "1560",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_FixedWingTransport"
+        ],
+        "materials": [
+          "Material_Titanium_Ti6Al4V"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Contract Aerospace Manufacturing",
+        "description": "AS9100D-certified precision machining and assembly.",
+        "type": "EngineeringService",
+        "accreditation": "AS9100D"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "IMP Aerospace & Defence",
+      "Irving Shipbuilding Inc."
+    ],
+    "source_note": "ONB / ACADA"
+  },
+  {
+    "legal_name": "Aerial Vehicle Safety Solutions Inc.",
+    "trade_name": "AVSS",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Fredericton",
+    "province": "NB",
+    "website": "https://www.avss.co",
+    "tier": "SMESupplier",
+    "controlled_goods": true,
+    "itar_compliant": false,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "ISO9001"
+    ],
+    "domains": [
+      "UASPlatform",
+      "DomainDefence",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "Platform_TacticalUAS"
+    ],
+    "kics": [
+      "KIC_RemotelyPilotedSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "UAS Parachute Recovery & Precision Delivery",
+        "description": "Dual-use drone parachute recovery systems, flight termination systems, and precision-guided aerial delivery for defence.",
+        "trl": 9,
+        "mrl": 8,
+        "kic": "KIC_RemotelyPilotedSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "PRS Parachute Recovery System",
+        "description": "ASTM-compliant ballistic parachute recovery system for commercial and tactical UAS.",
+        "part_number": "AVSS-PRS-01",
+        "fsc_code": "1670",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_TacticalUAS"
+        ],
+        "materials": [
+          "Material_Kevlar_Aramid"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "UAS Safety Systems Integration",
+        "description": "Integration of flight termination and recovery systems on UAVs.",
+        "type": "EngineeringService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Department of National Defence",
+      "Global UAS OEMs"
+    ],
+    "source_note": "ONB / Fredericton Defence Hub"
+  },
+  {
+    "legal_name": "Kognitiv Spark Inc.",
+    "trade_name": "Kognitiv Spark",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Fredericton",
+    "province": "NB",
+    "website": "https://www.kognitivspark.com",
+    "tier": "SMESupplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Secret",
+    "certifications": [
+      "ISO27001"
+    ],
+    "domains": [
+      "MaritimePlatform",
+      "AirPlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_SurfaceCombatant",
+      "Platform_FixedWingTransport"
+    ],
+    "kics": [
+      "KIC_TrainingSimulation",
+      "KIC_InServiceSupport"
+    ],
+    "capabilities": [
+      {
+        "title": "Secure Mixed Reality Remote Support",
+        "description": "RemoteSpark industrial mixed-reality software enabling secure, low-bandwidth remote expert assistance for Royal Canadian Navy technicians.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_InServiceSupport"
+      }
+    ],
+    "products": [
+      {
+        "name": "RemoteSpark Mixed Reality Platform",
+        "description": "Holographic remote-worker support software for defence maintenance.",
+        "part_number": "KS-REMOTESPARK",
+        "fsc_code": "7030",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_SurfaceCombatant"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "AR/MR Maintenance Enablement",
+        "description": "Deployment of mixed-reality workflows for military MRO.",
+        "type": "SimulationTrainingService",
+        "accreditation": "ISO27001"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Royal Canadian Navy",
+      "Department of National Defence"
+    ],
+    "source_note": "ONB / Canadian Defence Review"
+  },
+  {
+    "legal_name": "Bulletproof Solutions Inc.",
+    "trade_name": "Bulletproof",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Fredericton",
+    "province": "NB",
+    "website": "https://www.bulletproofsi.com",
+    "tier": "Tier2Supplier",
+    "controlled_goods": false,
+    "itar_compliant": false,
+    "facility_security_clearance": "Secret",
+    "certifications": [
+      "ISO27001"
+    ],
+    "domains": [
+      "DomainDefence",
+      "DomainC4ISR"
+    ],
+    "platforms": [],
+    "kics": [
+      "KIC_CyberResilience"
+    ],
+    "capabilities": [
+      {
+        "title": "Managed Extended Detection & Response (MXDR)",
+        "description": "24/7 SOC, cybersecurity compliance, and Microsoft 365 security services for government and defence supply chains.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_CyberResilience"
+      }
+    ],
+    "products": [
+      {
+        "name": "Bulletproof 365 Enterprise MXDR",
+        "description": "Managed security monitoring and threat response platform.",
+        "part_number": "BP-MXDR-365",
+        "fsc_code": "7030",
+        "nsn_code": null,
+        "platforms": [],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Managed Cybersecurity & Compliance",
+        "description": "24/7 SOC monitoring, penetration testing, and compliance.",
+        "type": "CyberSecurityService",
+        "accreditation": "ISO27001"
+      }
+    ],
+    "parent_company": "GLI",
+    "supplies_to": [
+      "Government of Canada",
+      "Enterprise Defence Suppliers"
+    ],
+    "source_note": "ONB / Fredericton Cyber Hub"
+  },
+  {
+    "legal_name": "Black Arcs Inc.",
+    "trade_name": "Black Arcs",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Fredericton",
+    "province": "NB",
+    "website": "https://www.blackarcs.com",
+    "tier": "SMESupplier",
+    "controlled_goods": false,
+    "itar_compliant": false,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "ISO9001"
+    ],
+    "domains": [
+      "DomainDefence",
+      "DomainC4ISR"
+    ],
+    "platforms": [],
+    "kics": [
+      "KIC_AIAutonomousSystems",
+      "KIC_TrainingSimulation"
+    ],
+    "capabilities": [
+      {
+        "title": "Geospatial AI & Digital Twin Simulation",
+        "description": "Agent-based digital twin simulation software for defence logistics, disaster response, and operational planning (DND IDEaS).",
+        "trl": 8,
+        "mrl": 7,
+        "kic": "KIC_AIAutonomousSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "CityTwin Geospatial Simulation",
+        "description": "Predictive digital twin modeling for defence and emergency response.",
+        "part_number": "BA-TWIN-01",
+        "fsc_code": "7030",
+        "nsn_code": null,
+        "platforms": [],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Predictive Simulation & Modeling",
+        "description": "Custom geospatial AI modeling for defence planning.",
+        "type": "SimulationTrainingService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Department of National Defence (IDEaS)"
+    ],
+    "source_note": "ACADA / DND IDEaS"
+  },
+  {
+    "legal_name": "Measurand Inc.",
+    "trade_name": "Measurand",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Fredericton",
+    "province": "NB",
+    "website": "https://www.measurand.com",
+    "tier": "SMESupplier",
+    "controlled_goods": false,
+    "itar_compliant": false,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "ISO9001"
+    ],
+    "domains": [
+      "DomainDefence"
+    ],
+    "platforms": [],
+    "kics": [
+      "KIC_SensorsSonar"
+    ],
+    "capabilities": [
+      {
+        "title": "Structural & Geotechnical Deformation Sensors",
+        "description": "Design and manufacture of ShapeArray (SAA) precision MEMS sensor arrays for critical infrastructure monitoring.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_SensorsSonar"
+      }
+    ],
+    "products": [
+      {
+        "name": "ShapeArray (SAA) Sensor",
+        "description": "Automated 3D deformation monitoring sensor array.",
+        "part_number": "MEAS-SAA-01",
+        "fsc_code": "6685",
+        "nsn_code": null,
+        "platforms": [],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Sensor Calibration & Monitoring Support",
+        "description": "Geotechnical instrumentation calibration and data support.",
+        "type": "TestingQualificationService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Critical Infrastructure & Defence Engineering"
+    ],
+    "source_note": "ONB"
+  },
+  {
+    "legal_name": "Moncton Flight College",
+    "trade_name": "MFC Training",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Moncton",
+    "province": "NB",
+    "website": "https://www.mfctraining.com",
+    "tier": "SMESupplier",
+    "controlled_goods": false,
+    "itar_compliant": false,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "ISO9001"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "Platform_FixedWingTransport"
+    ],
+    "kics": [
+      "KIC_TrainingSimulation"
+    ],
+    "capabilities": [
+      {
+        "title": "Commercial & Military Flight Training",
+        "description": "Premier Canadian flight training academy operating a large fleet of training aircraft and simulators.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_TrainingSimulation"
+      }
+    ],
+    "products": [
+      {
+        "name": "Integrated Pilot Training Curriculum",
+        "description": "Transport Canada-approved flight and simulator training.",
+        "part_number": "MFC-PILOT-01",
+        "fsc_code": "6930",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_FixedWingTransport"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Pilot & Simulator Flight Training",
+        "description": "Ab-initio and advanced multi-engine flight instruction.",
+        "type": "SimulationTrainingService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Commercial Airlines",
+      "Government Agencies"
+    ],
+    "source_note": "ONB"
+  },
+  {
+    "legal_name": "J.D. Irving, Limited",
+    "trade_name": "J.D. Irving",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Saint John",
+    "province": "NB",
+    "website": "https://www.jdirving.com",
+    "tier": "Prime",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Secret",
+    "certifications": [
+      "ISO9001",
+      "ISO14001",
+      "FacilitySecurity_Secret"
+    ],
+    "domains": [
+      "MaritimePlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_Type26_GlobalCombatShip",
+      "Platform_SurfaceCombatant"
+    ],
+    "kics": [
+      "KIC_NavalShipbuilding",
+      "KIC_InServiceSupport"
+    ],
+    "capabilities": [
+      {
+        "title": "Industrial Marine, Logistics & Shipbuilding",
+        "description": "Parent enterprise of Irving Shipbuilding, Fleetway, and Atlantic Towing, delivering naval shipbuilding and marine logistics.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_NavalShipbuilding"
+      }
+    ],
+    "products": [
+      {
+        "name": "Naval & Marine Logistics Services",
+        "description": "Integrated marine towing, heavy lift, and shipbuilding.",
+        "part_number": "JDI-MAR-01",
+        "fsc_code": "1905",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_SurfaceCombatant"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Marine Towing & Defence Logistics",
+        "description": "Heavy marine logistics and port operations.",
+        "type": "LogisticsSupportService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Royal Canadian Navy",
+      "Canadian Coast Guard"
+    ],
+    "source_note": "ACADA"
+  },
+  {
+    "legal_name": "StandardAero",
+    "trade_name": "StandardAero (Slemon Park)",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Summerside",
+    "province": "PE",
+    "website": "https://www.standardaero.com",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "AS9100D",
+      "AS9110C",
+      "FAA_Part145",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainAeronautics",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_FixedWingTransport",
+      "Platform_RotaryWing"
+    ],
+    "kics": [
+      "KIC_InServiceSupport",
+      "KIC_AerospaceSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Gas Turbine Engine MRO",
+        "description": "Maintenance, repair, and overhaul (MRO) of turboprop and turboshaft gas turbine engines for military and commercial aircraft.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_InServiceSupport"
+      }
+    ],
+    "products": [
+      {
+        "name": "Overhauled Turboprop & Turboshaft Engines",
+        "description": "Certified MRO of Pratt & Whitney Canada PT6A, PW100, and Rolls-Royce engines.",
+        "part_number": "SA-PEI-MRO",
+        "fsc_code": "2840",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_FixedWingTransport",
+          "Platform_RotaryWing"
+        ],
+        "materials": [
+          "Material_Inconel_718"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Aerospace Engine MRO & Test Cell",
+        "description": "Full-service gas turbine engine overhaul and dyno testing.",
+        "type": "MROService",
+        "accreditation": "AS9110C"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Royal Canadian Air Force",
+      "Global Aviation Operators"
+    ],
+    "source_note": "Slemon Park / Innovation PEI"
+  },
+  {
+    "legal_name": "Honeywell Engine Systems and Services",
+    "trade_name": "Honeywell (Slemon Park)",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Summerside",
+    "province": "PE",
+    "website": "https://aerospace.honeywell.com",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "AS9100D",
+      "FAA_Part145",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainAeronautics",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_FixedWingTransport",
+      "Platform_RotaryWing"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems",
+      "KIC_InServiceSupport"
+    ],
+    "capabilities": [
+      {
+        "title": "Aircraft Engine Systems & Accessories MRO",
+        "description": "Maintenance, repair, and servicing of Honeywell aircraft engine systems and accessories.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_InServiceSupport"
+      }
+    ],
+    "products": [
+      {
+        "name": "Engine Fuel Controls & Accessories",
+        "description": "Overhauled aerospace engine control systems.",
+        "part_number": "HON-PEI-ACC",
+        "fsc_code": "2915",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_FixedWingTransport"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Engine Systems MRO",
+        "description": "OEM-certified engine accessory repair and overhaul.",
+        "type": "MROService",
+        "accreditation": "FAA_Part145"
+      }
+    ],
+    "parent_company": "Honeywell International Inc.",
+    "supplies_to": [
+      "Global Aerospace & Defence Fleets"
+    ],
+    "source_note": "Slemon Park / Innovation PEI"
+  },
+  {
+    "legal_name": "MDS Coating Technologies Corp.",
+    "trade_name": "MDS Coating Technologies",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Summerside",
+    "province": "PE",
+    "website": "https://www.mdscoating.com",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "AS9100D",
+      "NADCAP_Chemical",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainAeronautics",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat",
+      "Platform_RotaryWing"
+    ],
+    "kics": [
+      "KIC_AdvancedMaterials",
+      "KIC_AerospaceSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Protective Ceramic & Diffusion Turbine Coatings",
+        "description": "Development and application of erosion- and corrosion-resistant ceramic and diffusion coatings for gas turbine compressor blades.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_AdvancedMaterials"
+      }
+    ],
+    "products": [
+      {
+        "name": "BlackGold Erosion-Resistant Coating",
+        "description": "Nanostructured ceramic/metallic coating for military helicopter and aircraft turbine blades.",
+        "part_number": "MDS-BG-01",
+        "fsc_code": "2840",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_RotaryWing",
+          "Platform_FixedWingCombat"
+        ],
+        "materials": [
+          "Material_Titanium_Ti6Al4V"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Aerospace Turbine Blade Coating",
+        "description": "NADCAP-accredited thin-film protective coating application.",
+        "type": "EngineeringService",
+        "accreditation": "AS9100D"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "US DoD",
+      "Rolls-Royce",
+      "Pratt & Whitney"
+    ],
+    "source_note": "Slemon Park / Innovation PEI"
+  },
+  {
+    "legal_name": "Action Aero Inc.",
+    "trade_name": "Action Aero",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Charlottetown",
+    "province": "PE",
+    "website": "https://www.actionaero.com",
+    "tier": "SMESupplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "AS9100D",
+      "AS9110C",
+      "FAA_Part145"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainAeronautics",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_C130J_SuperHercules",
+      "Platform_P8_Poseidon"
+    ],
+    "kics": [
+      "KIC_InServiceSupport",
+      "KIC_AerospaceSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "T56 / 501 Engine Accessories MRO",
+        "description": "Maintenance, repair, and overhaul of Rolls-Royce T56/501 engine accessories, fuel controls, and propellers.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_InServiceSupport"
+      }
+    ],
+    "products": [
+      {
+        "name": "Overhauled T56 Fuel Controls & Valves",
+        "description": "Certified MRO for C-130 and P-3/CP-140 engine accessories.",
+        "part_number": "AA-T56-FCU",
+        "fsc_code": "2915",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_C130J_SuperHercules"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Engine Accessory MRO",
+        "description": "FAA/TCCA-certified repair and overhaul of turboprop accessories.",
+        "type": "MROService",
+        "accreditation": "FAA_Part145"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Royal Canadian Air Force",
+      "Allied C-130 Operators"
+    ],
+    "source_note": "Charlottetown Airport Business Park"
+  },
+  {
+    "legal_name": "Tronosjet Maintenance Inc.",
+    "trade_name": "Tronosjet Maintenance",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Charlottetown",
+    "province": "PE",
+    "website": "https://www.tronosjet.com",
+    "tier": "SMESupplier",
+    "controlled_goods": false,
+    "itar_compliant": false,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "AS9110C"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "Platform_FixedWingTransport"
+    ],
+    "kics": [
+      "KIC_InServiceSupport"
+    ],
+    "capabilities": [
+      {
+        "title": "Heavy Aircraft Maintenance & Cargo Conversions",
+        "description": "Airframe heavy maintenance, structural modifications, and special-mission/cargo conversions.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_InServiceSupport"
+      }
+    ],
+    "products": [
+      {
+        "name": "Aircraft Cargo & Special Mission Conversions",
+        "description": "Structural airframe modification packages.",
+        "part_number": "TRON-MOD-01",
+        "fsc_code": "1510",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_FixedWingTransport"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Heavy Airframe MRO",
+        "description": "Scheduled heavy checks and structural modifications.",
+        "type": "MROService",
+        "accreditation": "AS9110C"
+      }
+    ],
+    "parent_company": "Tronos Group",
+    "supplies_to": [
+      "Regional & Special Mission Operators"
+    ],
+    "source_note": "Innovation PEI"
+  },
+  {
+    "legal_name": "Testori Americas Corp.",
+    "trade_name": "Testori Americas",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Summerside",
+    "province": "PE",
+    "website": "https://www.testori.ca",
+    "tier": "Tier2Supplier",
+    "controlled_goods": false,
+    "itar_compliant": false,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "AS9100D"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "Platform_FixedWingTransport"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems",
+      "KIC_AdvancedMaterials"
+    ],
+    "capabilities": [
+      {
+        "title": "Aircraft Interior Components & Composites",
+        "description": "Manufacturing of aircraft seating components, cabin soft goods, and lightweight interior profiles.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_AerospaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Aerospace Cabin & Seating Components",
+        "description": "Flame-retardant aircraft interior panels and seating assemblies.",
+        "part_number": "TEST-INT-01",
+        "fsc_code": "1680",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_FixedWingTransport"
+        ],
+        "materials": [
+          "Material_CarbonFiber_Composite"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Aircraft Interior Manufacturing",
+        "description": "Custom aerospace cabin component fabrication.",
+        "type": "EngineeringService",
+        "accreditation": "AS9100D"
+      }
+    ],
+    "parent_company": "Testori Group",
+    "supplies_to": [
+      "Global Aerospace OEMs"
+    ],
+    "source_note": "Slemon Park"
+  },
+  {
+    "legal_name": "Tube Fab Ltd.",
+    "trade_name": "Tube Fab",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Summerside",
+    "province": "PE",
+    "website": "https://www.tubefab.ca",
+    "tier": "SMESupplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "AS9100D",
+      "NADCAP_Welding"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainAeronautics"
+    ],
+    "platforms": [
+      "Platform_FixedWingTransport",
+      "Platform_RotaryWing"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Precision Aerospace Tube Bending & Sub-Assemblies",
+        "description": "CNC tube bending, welding, and fluid-conveyance sub-assemblies for aerospace engines and airframes.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_AerospaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Aerospace Hydraulic & Fuel Tubing",
+        "description": "Precision-bent titanium and stainless steel fluid lines.",
+        "part_number": "TF-TUBE-01",
+        "fsc_code": "4710",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_FixedWingTransport"
+        ],
+        "materials": [
+          "Material_Titanium_Ti6Al4V"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Precision Tube Fabrication",
+        "description": "AS9100D-certified aerospace tube bending and welding.",
+        "type": "EngineeringService",
+        "accreditation": "AS9100D"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Pratt & Whitney Canada",
+      "StandardAero"
+    ],
+    "source_note": "Slemon Park / Innovation PEI"
+  },
+  {
+    "legal_name": "Calian Technologies Ltd.",
+    "trade_name": "Calian (Halifax)",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Halifax",
+    "province": "NS",
+    "website": "https://www.calian.com",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Secret",
+    "certifications": [
+      "ISO9001",
+      "FacilitySecurity_Secret"
+    ],
+    "domains": [
+      "DomainDefence",
+      "DomainC4ISR",
+      "AirPlatform"
+    ],
+    "platforms": [
+      "Platform_SurfaceCombatant",
+      "Platform_FixedWingTransport"
+    ],
+    "kics": [
+      "KIC_InServiceSupport",
+      "KIC_TrainingSimulation",
+      "KIC_SoftwareDefinedRadio"
+    ],
+    "capabilities": [
+      {
+        "title": "Defence Engineering, Simulation & Secure Communications",
+        "description": "Engineering services, training system development, and secure satellite communications for DND and allied militaries.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_InServiceSupport"
+      }
+    ],
+    "products": [
+      {
+        "name": "Satellite Ground Systems & Defence Training Solutions",
+        "description": "Turnkey satellite ground terminals and military instructor-led and eLearning courseware.",
+        "part_number": "CAL-DEF-01",
+        "fsc_code": "7025",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_SurfaceCombatant"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Military Engineering & Training Support",
+        "description": "Full-lifecycle engineering support and training system design.",
+        "type": "EngineeringService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Department of National Defence",
+      "Canadian Armed Forces"
+    ],
+    "source_note": "CADSI / Atlantic Canada operations"
+  },
+  {
+    "legal_name": "Woodside Industries Ltd.",
+    "trade_name": "Woodside Industries",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Dartmouth",
+    "province": "NS",
+    "website": "https://shipsforcanada.ca",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": false,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "ISO9001"
+    ],
+    "domains": [
+      "MaritimePlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_Type26_GlobalCombatShip",
+      "Platform_SurfaceCombatant"
+    ],
+    "kics": [
+      "KIC_NavalShipbuilding"
+    ],
+    "capabilities": [
+      {
+        "title": "Modular Naval Ship Assembly & Fabrication",
+        "description": "Industrial modular assembly, pre-erection, and prefabrication for Irving Shipbuilding's national shipbuilding program.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_NavalShipbuilding"
+      }
+    ],
+    "products": [
+      {
+        "name": "Naval Ship Modular Block Assemblies",
+        "description": "Pre-outfitted ship block assemblies for the Halifax Shipyard.",
+        "part_number": "WSI-MOD-01",
+        "fsc_code": "1905",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_Type26_GlobalCombatShip"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Modular Marine Pre-Fabrication",
+        "description": "Industrial scale welding, cutting, and block assembly.",
+        "type": "EngineeringService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": "Irving Shipbuilding Inc.",
+    "supplies_to": [
+      "Irving Shipbuilding Inc."
+    ],
+    "source_note": "Irving Shipbuilding NSS supply chain"
+  },
+  {
+    "legal_name": "Clearwater Seafoods Defence Supply",
+    "trade_name": "Marine Fabricators Ltd.",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Dartmouth",
+    "province": "NS",
+    "website": "https://shipsforcanada.ca",
+    "tier": "Tier2Supplier",
+    "controlled_goods": false,
+    "itar_compliant": false,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "ISO9001"
+    ],
+    "domains": [
+      "MaritimePlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_SurfaceCombatant"
+    ],
+    "kics": [
+      "KIC_NavalShipbuilding"
+    ],
+    "capabilities": [
+      {
+        "title": "Naval Steel Cutting & Plate Preparation",
+        "description": "CNC plasma and flame cutting, steel plate preparation and warehousing for naval shipbuilding programs.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_NavalShipbuilding"
+      }
+    ],
+    "products": [
+      {
+        "name": "Cut & Marked Naval Steel Plates",
+        "description": "Precision-cut naval structural steel for shipyard assembly.",
+        "part_number": "MF-STEEL-01",
+        "fsc_code": "2010",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_SurfaceCombatant"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Steel Processing & Logistics",
+        "description": "Plate preparation, cutting, and logistics for naval shipyards.",
+        "type": "LogisticsSupportService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": "Irving Shipbuilding Inc.",
+    "supplies_to": [
+      "Irving Shipbuilding Inc."
+    ],
+    "source_note": "Irving Shipbuilding Dartmouth NSS"
+  },
+  {
+    "legal_name": "LamSar Inc.",
+    "trade_name": "LamSar",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Halifax",
+    "province": "NS",
+    "website": "https://www.lamsarinc.com",
+    "tier": "SMESupplier",
+    "controlled_goods": false,
+    "itar_compliant": false,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "ISO9001"
+    ],
+    "domains": [
+      "MaritimePlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_Type26_GlobalCombatShip",
+      "Platform_SurfaceCombatant"
+    ],
+    "kics": [
+      "KIC_NavalShipbuilding",
+      "KIC_AdvancedMaterials"
+    ],
+    "capabilities": [
+      {
+        "title": "Marine Materials Supply & Fabrication",
+        "description": "Supply of specialised materials, composites and technical goods for the River-class Destroyer construction at Irving Shipbuilding.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_NavalShipbuilding"
+      }
+    ],
+    "products": [
+      {
+        "name": "Composite Marine Laminates",
+        "description": "Structural composite and sandwich panels for naval construction.",
+        "part_number": "LAM-RCD-01",
+        "fsc_code": "2040",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_Type26_GlobalCombatShip"
+        ],
+        "materials": [
+          "Material_CarbonFiber_Composite"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Marine Technical Materials Supply",
+        "description": "Logistics and supply chain of speciality marine construction materials.",
+        "type": "LogisticsSupportService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Irving Shipbuilding Inc."
+    ],
+    "source_note": "Irving Shipbuilding RCD supply chain"
+  },
+  {
+    "legal_name": "Lunar Robotics Inc.",
+    "trade_name": "Lunar Robotics",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Halifax",
+    "province": "NS",
+    "website": "https://www.lunarrobotics.ca",
+    "tier": "SMESupplier",
+    "controlled_goods": false,
+    "itar_compliant": false,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "ISO9001"
+    ],
+    "domains": [
+      "MaritimePlatform",
+      "UASPlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_SurfaceCombatant",
+      "Platform_TacticalUAS"
+    ],
+    "kics": [
+      "KIC_AIAutonomousSystems",
+      "KIC_RemotelyPilotedSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Autonomous Underwater & Surface Vehicles",
+        "description": "Design and development of AI-enabled autonomous underwater and surface vehicles for maritime surveillance and defence.",
+        "trl": 7,
+        "mrl": 6,
+        "kic": "KIC_AIAutonomousSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Autonomous Marine Sensor Platform",
+        "description": "Unmanned surface vehicle with integrated sensing payload.",
+        "part_number": "LR-USV-01",
+        "fsc_code": "1925",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_SurfaceCombatant"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Autonomous Systems Engineering",
+        "description": "AI navigation and marine robotics system integration.",
+        "type": "EngineeringService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "COVE",
+      "Department of National Defence"
+    ],
+    "source_note": "COVE / Nova Scotia Ocean Tech"
+  },
+  {
+    "legal_name": "BioMimetic UX Inc.",
+    "trade_name": "BioMimetic UX",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Dartmouth",
+    "province": "NS",
+    "website": "https://www.cove.ca",
+    "tier": "SMESupplier",
+    "controlled_goods": false,
+    "itar_compliant": false,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "ISO9001"
+    ],
+    "domains": [
+      "MaritimePlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_SurfaceCombatant"
+    ],
+    "kics": [
+      "KIC_SensorsSonar",
+      "KIC_AIAutonomousSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Bio-Inspired Soft Robotics for Ocean Defence",
+        "description": "Bio-inspired compliant robotic grippers and soft actuators for subsea manipulators and marine defence sampling.",
+        "trl": 6,
+        "mrl": 5,
+        "kic": "KIC_AIAutonomousSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Soft Robotic Gripper Module",
+        "description": "Pneumatically actuated compliant gripper for underwater ROVs.",
+        "part_number": "BMX-GRIP-01",
+        "fsc_code": "5999",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_SurfaceCombatant"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Soft Robotics R&D",
+        "description": "Design and prototyping of bio-inspired marine actuators.",
+        "type": "EngineeringService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "COVE",
+      "Marine Research & Defence"
+    ],
+    "source_note": "COVE Start-Up Yard / Nova Scotia"
+  },
+  {
+    "legal_name": "EXO Technologies Inc.",
+    "trade_name": "EXO Technologies",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "St. John's",
+    "province": "NL",
+    "website": "https://www.exotechnologies.ca",
+    "tier": "SMESupplier",
+    "controlled_goods": false,
+    "itar_compliant": false,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "ISO9001"
+    ],
+    "domains": [
+      "MaritimePlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_SurfaceCombatant",
+      "Platform_Submarine"
+    ],
+    "kics": [
+      "KIC_SensorsSonar",
+      "KIC_AIAutonomousSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Subsea Inspection & Survey Technology",
+        "description": "Subsea remote inspection systems and AI-driven underwater anomaly detection for infrastructure and naval applications.",
+        "trl": 8,
+        "mrl": 7,
+        "kic": "KIC_SensorsSonar"
+      }
+    ],
+    "products": [
+      {
+        "name": "VERTEX Subsea Inspection System",
+        "description": "AI-enabled ROV-mounted inspection tool for underwater infrastructure.",
+        "part_number": "EXO-VERTEX-01",
+        "fsc_code": "6665",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_Submarine"
+        ],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Subsea Inspection & Surveying",
+        "description": "Remote ROV inspection for naval and offshore applications.",
+        "type": "EngineeringService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Offshore Oil & Defence Marine"
+    ],
+    "source_note": "OceansAdvance / COIC"
+  },
+  {
+    "legal_name": "Envysion Medical Technologies Inc.",
+    "trade_name": "ENVYSION Medical",
+    "cage_code": null,
+    "country": "CAN",
+    "city": "Moncton",
+    "province": "NB",
+    "website": "https://www.envysionmedical.com",
+    "tier": "SMESupplier",
+    "controlled_goods": false,
+    "itar_compliant": false,
+    "facility_security_clearance": "Unclassified / ITAR",
+    "certifications": [
+      "ISO9001"
+    ],
+    "domains": [
+      "DomainDefence"
+    ],
+    "platforms": [],
+    "kics": [
+      "KIC_InServiceSupport"
+    ],
+    "capabilities": [
+      {
+        "title": "Rugged Field Medical Devices",
+        "description": "Development of portable, ruggedized medical devices for combat casualty care and remote military medical settings.",
+        "trl": 8,
+        "mrl": 7,
+        "kic": "KIC_InServiceSupport"
+      }
+    ],
+    "products": [
+      {
+        "name": "Field Medical Diagnostic Device",
+        "description": "Compact ruggedized diagnostic tool for military medics.",
+        "part_number": "ENVY-MED-01",
+        "fsc_code": "6515",
+        "nsn_code": null,
+        "platforms": [],
+        "materials": []
+      }
+    ],
+    "services": [
+      {
+        "name": "Field Medical Systems Engineering",
+        "description": "Design and testing of portable medical systems.",
+        "type": "EngineeringService",
+        "accreditation": "ISO9001"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Canadian Armed Forces",
+      "DND"
+    ],
+    "source_note": "ONB / NB Defence Tech"
+  }
+]

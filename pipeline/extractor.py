@@ -31,8 +31,8 @@ class RDFTripleExtractor:
         self.exports_dir.mkdir(parents=True, exist_ok=True)
 
     def _slugify(self, text: str) -> str:
-        """Creates a safe URI fragment from a string."""
-        cleaned = re.sub(r"[^\w\s-]", "", str(text))
+        """Creates a safe ASCII URI fragment from a string."""
+        cleaned = re.sub(r"[^A-Za-z0-9\s-]", "", str(text))
         return re.sub(r"[\s_-]+", "_", cleaned).strip("_")
 
     def load_base_ontology(self, g: Graph) -> None:
@@ -139,24 +139,51 @@ class RDFTripleExtractor:
             if comp.get("parent_company"):
                 parent_name = comp["parent_company"]
                 parent_slug = self._slugify(parent_name)
+                parent_exists = parent_name in comp_uri_map
                 parent_uri = comp_uri_map.get(parent_name) or URIRef(f"https://w3id.org/aerospace-defence#Company_{parent_slug}")
-
-                parent_country = {
-                    "General Dynamics Corporation": "USA",
-                    "L3Harris Technologies, Inc.": "USA",
-                    "Rheinmetall AG": "DEU",
-                    "RTX Corporation": "USA",
-                    "Textron Inc.": "USA",
-                    "MBDA": "FRA",
-                    "BAE Systems plc": "GBR",
-                    "Airbus SE": "FRA",
-                }.get(parent_name, "USA")
 
                 g.add((comp_uri, AERO.subsidiaryOf, parent_uri))
                 g.add((parent_uri, AERO.hasSubsidiary, comp_uri))
-                g.add((parent_uri, RDF.type, AERO.Company))
-                g.add((parent_uri, AERO.legalName, Literal(parent_name, datatype=XSD.string)))
-                g.add((parent_uri, AERO.headquartersCountry, Literal(parent_country, datatype=XSD.string)))
+
+                if not parent_exists:
+                    parent_country = {
+                        "General Dynamics Corporation": "USA",
+                        "L3Harris Technologies, Inc.": "USA",
+                        "Rheinmetall AG": "DEU",
+                        "RTX Corporation": "USA",
+                        "Textron Inc.": "USA",
+                        "MBDA": "FRA",
+                        "BAE Systems plc": "GBR",
+                        "Airbus SE": "FRA",
+                        "Leonardo S.p.A.": "ITA",
+                        "Safran SA": "FRA",
+                        "Thales SA": "FRA",
+                        "Rolls-Royce plc": "GBR",
+                        "Rolls-Royce Holdings plc": "GBR",
+                        "QinetiQ Group plc": "GBR",
+                        "Chemring Group plc": "GBR",
+                        "Ultra Electronics Holdings Limited": "GBR",
+                        "Cobham Limited": "GBR",
+                        "Senior plc": "GBR",
+                        "Meggitt PLC": "GBR",
+                        "Saab AB": "SWE",
+                        "Kongsberg Gruppen ASA": "NOR",
+                        "Elbit Systems Ltd.": "ISR",
+                        "Israel Aerospace Industries Ltd.": "ISR",
+                        "Rafael Advanced Defense Systems Ltd.": "ISR",
+                        "CAE Inc.": "CAN",
+                        "Magellan Aerospace Corporation": "CAN",
+                        "Héroux-Devtek Inc.": "CAN",
+                        "LISI Group": "FRA",
+                        "SKF Group": "SWE",
+                        "Trelleborg AB": "SWE",
+                        "ST Engineering Ltd": "SGP",
+                        "Hanwha Aerospace Co., Ltd.": "KOR",
+                    }.get(parent_name, "USA")
+
+                    g.add((parent_uri, RDF.type, AERO.Company))
+                    g.add((parent_uri, AERO.legalName, Literal(parent_name, datatype=XSD.string)))
+                    g.add((parent_uri, AERO.headquartersCountry, Literal(parent_country, datatype=XSD.string)))
 
             # Supply Chain Relationships
             for prime_ref in comp.get("supplies_to", []):

@@ -30,6 +30,7 @@ from harvesters.eu_harvester import EUHarvester
 from harvesters.australia_harvester import AustraliaHarvester
 from harvesters.nz_harvester import NewZealandHarvester
 from harvesters.india_harvester import IndiaHarvester
+from harvesters.usa_harvester import USAHarvester
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(name)s: %(message)s")
 logger = logging.getLogger("GlobalExportBuilder")
@@ -67,6 +68,19 @@ def inject_cross_border_supply_chain_links(all_companies: List[Dict[str, Any]]) 
         ("Tonbo Imaging India Private Limited", ["Bharat Dynamics Limited"]),
         ("Dawn Aerospace Limited", ["Rocket Lab Limited"]),
         ("Flightcell International Limited", ["Bell Textron Canada Ltd."]),
+
+        # United States <-> Allied Cross-Border Supply Chain (F-35, P-8, Type 26, Space)
+        ("Magellan Aerospace Corporation", ["Lockheed Martin Corporation", "RTX Corporation"]),
+        ("Héroux-Devtek Inc.", ["The Boeing Company", "Lockheed Martin Corporation"]),
+        ("Quickstep Holdings Limited", ["Lockheed Martin Corporation", "Northrop Grumman Corporation"]),
+        ("Ferra Engineering Pty Ltd", ["The Boeing Company", "Lockheed Martin Corporation"]),
+        ("GKN Aerospace Services Limited", ["Lockheed Martin Corporation", "The Boeing Company"]),
+        ("Pratt & Whitney Canada Corp.", ["RTX Corporation", "The Boeing Company"]),
+        ("General Dynamics Land Systems-Canada", ["General Dynamics Corporation"]),
+        ("L3Harris MAS Inc.", ["L3Harris Technologies, Inc."]),
+        ("CAE Inc.", ["CAE USA Inc.", "Lockheed Martin Corporation"]),
+        ("Ultra Electronics Maritime Systems Canada", ["BAE Systems, Inc."]),
+        ("Rocket Lab Limited", ["Rocket Lab USA, Inc."]),
     ]
 
     for supplier_name, prime_names in linkages:
@@ -93,6 +107,7 @@ def main():
     # 1. Harvest each jurisdiction
     harvesters_config = [
         ("Canada", CanadaHarvester(), 1000, "canada.ttl"),
+        ("USA", USAHarvester(), None, "usa.ttl"),
         ("UK", UKHarvester(), 160, "uk.ttl"),
         ("EU", EUHarvester(), 220, "eu.ttl"),
         ("Australia", AustraliaHarvester(), 120, "australia.ttl"),
@@ -129,9 +144,15 @@ def main():
         target_path = EXPORTS_DIR / ttl_filename
         extractor.export_standalone_ttl(g, target_path)
 
-        # Copy to Desktop
+        # Write .txt copy alongside .ttl in data/exports/ and Desktop
+        txt_filename = Path(ttl_filename).with_suffix(".txt").name
+        target_txt_path = EXPORTS_DIR / txt_filename
+        shutil.copy2(target_path, target_txt_path)
+
         desktop_path = DESKTOP_DIR / ttl_filename
+        desktop_txt_path = DESKTOP_DIR / txt_filename
         shutil.copy2(target_path, desktop_path)
+        shutil.copy2(target_path, desktop_txt_path)
 
         file_size_mb = os.path.getsize(target_path) / (1024 * 1024)
         logger.info(f"-> Generated {ttl_filename}: {len(g)} triples, {file_size_mb:.2f} MB")
@@ -153,14 +174,19 @@ def main():
     logger.info("-" * 80)
 
     master_filename = "Aero_Defence_Global_Supply_Chain_Ontology.ttl"
+    master_txt_filename = "Aero_Defence_Global_Supply_Chain_Ontology.txt"
     master_path = EXPORTS_DIR / master_filename
+    master_txt_path = EXPORTS_DIR / master_txt_filename
     desktop_master_path = DESKTOP_DIR / master_filename
+    desktop_master_txt_path = DESKTOP_DIR / master_txt_filename
 
     logger.info(f"Building complete master RDF graph for all {len(all_harvested_companies)} companies...")
     master_graph = extractor.build_rdf_graph(companies=all_harvested_companies, include_schema=True)
 
     extractor.export_standalone_ttl(master_graph, master_path)
+    shutil.copy2(master_path, master_txt_path)
     shutil.copy2(master_path, desktop_master_path)
+    shutil.copy2(master_path, desktop_master_txt_path)
 
     master_size_mb = os.path.getsize(master_path) / (1024 * 1024)
     logger.info(f"-> MASTER GLOBAL ONTOLOGY GENERATED:")
@@ -194,7 +220,7 @@ def main():
         ?cap rdfs:label ?capTitle ;
              aero:alignedWithKIC aero:KIC_AdvancedMaterials ;
              aero:trlValue ?trl .
-        FILTER (?country IN ("AUS", "CAN", "GBR", "IND", "FRA"))
+        FILTER (?country IN ("AUS", "CAN", "GBR", "IND", "FRA", "USA"))
         FILTER (?trl >= 8)
     }
     ORDER BY ?country ?companyName

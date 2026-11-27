@@ -1,0 +1,1806 @@
+[
+  {
+    "legal_name": "Avcorp Industries Inc.",
+    "trade_name": "Avcorp Industries",
+    "cage_code": "37798",
+    "country": "CAN",
+    "city": "Delta",
+    "province": "BC",
+    "website": "https://www.avcorp.com",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Secret",
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "NADCAP_Composites",
+      "NADCAP_NDT",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainAeronautics",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat",
+      "Platform_FixedWingTransport",
+      "Platform_F35_Lightning_II"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems",
+      "KIC_AdvancedMaterials"
+    ],
+    "capabilities": [
+      {
+        "title": "Major Aerostructure Assembly & Advanced Composite Fabrication",
+        "description": "Design and manufacture of integrated metallic and advanced composite aerostructures for commercial and military aircraft, including F-35 outboard wings and Boeing 737 wheel well fairings.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_AerospaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "F-35 Outboard Wing Assembly",
+        "description": "Structural metallic and composite outboard wing components for the F-35 Lightning II joint strike fighter.",
+        "part_number": "PN-AVCORP-F35-OW",
+        "fsc_code": "1560",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_F35_Lightning_II"
+        ],
+        "materials": [
+          "Material_CarbonFiber_Composite",
+          "Material_Titanium_Ti6Al4V"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Aerostructure Structural Repair & Overhaul",
+        "description": "FAA/Transport Canada Part 145 certified repair, refurbishment, and structural overhaul of complex aircraft metallic and composite flight surfaces.",
+        "type": "MROService",
+        "accreditation": "FAA Part 145"
+      }
+    ],
+    "parent_company": "Latecoere Group",
+    "supplies_to": [
+      "Lockheed Martin Corporation",
+      "The Boeing Company",
+      "Bombardier Inc."
+    ],
+    "source_note": "AIAC / CADSI member; Delta BC facility; Lockheed Martin F-35 Tier-1 supplier"
+  },
+  {
+    "legal_name": "Cascade Aerospace Inc.",
+    "trade_name": "Cascade Aerospace",
+    "cage_code": "38224",
+    "country": "CAN",
+    "city": "Abbotsford",
+    "province": "BC",
+    "website": "https://www.cascadeaerospace.com",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Secret",
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainAeronautics",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_FixedWingTransport",
+      "Platform_C130J_SuperHercules"
+    ],
+    "kics": [
+      "KIC_InServiceSupport",
+      "KIC_AerospaceSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "C-130 Hercules Depot-Level Maintenance & Avionics Modernization",
+        "description": "Comprehensive primary airframe depot maintenance, heavy inspection, glass-cockpit avionics modernizations, and tactical airlift sustainment for Royal Canadian Air Force CC-130H/J fleets.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_InServiceSupport"
+      }
+    ],
+    "products": [
+      {
+        "name": "CC-130 Avionics Upgrade Kit Integration Kit",
+        "description": "Specialized tactical navigation and glass cockpit integration wiring harnesses and mounting kits for military transport aircraft.",
+        "part_number": "PN-CAS-C130-AV01",
+        "fsc_code": "1680",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_C130J_SuperHercules"
+        ],
+        "materials": [
+          "Material_Titanium_Ti6Al4V"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Military Aircraft Depot Heavy Maintenance (CC-130 / Q400)",
+        "description": "Comprehensive depot-level maintenance, structural modifications, outer wing box replacements, and full mission configuration.",
+        "type": "MROService",
+        "accreditation": "FAA Part 145"
+      }
+    ],
+    "parent_company": "IMP Group",
+    "supplies_to": [
+      "Department of National Defence",
+      "Lockheed Martin Corporation"
+    ],
+    "source_note": "CADSI / AIAC directory; Abbotsford BC facility; RCAF CC-130 In-Service Support contractor"
+  },
+  {
+    "legal_name": "KF Aerospace",
+    "trade_name": "KF Aerospace",
+    "cage_code": "39922",
+    "country": "CAN",
+    "city": "Kelowna",
+    "province": "BC",
+    "website": "https://www.kfaero.com",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Secret",
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainAeronautics",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_FixedWingTransport",
+      "Platform_RotaryWing"
+    ],
+    "kics": [
+      "KIC_TrainingSimulation",
+      "KIC_InServiceSupport"
+    ],
+    "capabilities": [
+      {
+        "title": "Military Flight Training Operations & Transport Fleet Sustainment",
+        "description": "Prime contractor managing the RCAF Contracted Flying Training and Support (CFTS) program in Southport, MB and commercial/military heavy MRO in Kelowna, BC and Hamilton, ON.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_TrainingSimulation"
+      }
+    ],
+    "products": [
+      {
+        "name": "B737 Cargo Conversion Modification Kits",
+        "description": "STC-approved Boeing 737 passenger-to-freighter main deck cargo door and floor reinforcement conversion structural packages.",
+        "part_number": "PN-KF-737-SFMOD",
+        "fsc_code": "1560",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_FixedWingTransport"
+        ],
+        "materials": [
+          "Material_Titanium_Ti6Al4V"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Military Pilot Primary & Rotary Wing Flight Training",
+        "description": "Comprehensive turnkey military aviation flight instruction, simulator training, ground school, and fleet lifecycle maintenance for RCAF aircrew.",
+        "type": "SimulationTrainingService",
+        "accreditation": "FAA Part 145"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Department of National Defence",
+      "Royal Canadian Air Force"
+    ],
+    "source_note": "CADSI / AIAC member; Kelowna BC; Lead for RCAF Future Aircrew Training (FAcT) joint venture"
+  },
+  {
+    "legal_name": "SEASPAN Shipyards (Vancouver Shipyards Co. Ltd.)",
+    "trade_name": "Seaspan Shipyards",
+    "cage_code": "38481",
+    "country": "CAN",
+    "city": "North Vancouver",
+    "province": "BC",
+    "website": "https://www.seaspan.com",
+    "tier": "Prime",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Secret",
+    "certifications": [
+      "ISO9001",
+      "ISO14001",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "MaritimePlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_SurfaceCombatant"
+    ],
+    "kics": [
+      "KIC_NavalShipbuilding",
+      "KIC_DefenceSystemsIntegration"
+    ],
+    "capabilities": [
+      {
+        "title": "Large Naval Non-Combatant & Polar Icebreaker Vessel Construction",
+        "description": "National Shipbuilding Strategy (NSS) non-combatant prime shipyard building Joint Support Ships (Protecteur-class), Offshore Oceanographic Science Vessels, and Heavy Polar Icebreakers.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_NavalShipbuilding"
+      }
+    ],
+    "products": [
+      {
+        "name": "Protecteur-Class Joint Support Ship (JSS)",
+        "description": "Auxiliary Oiler Replenishment (AOR) naval vessels providing fuel, ammunition, provisions, hospital facilities, and helicopter hangaring for naval task groups.",
+        "part_number": "PN-SEA-JSS-01",
+        "fsc_code": "1905",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_SurfaceCombatant"
+        ],
+        "materials": [
+          "Material_Titanium_Ti6Al4V"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Naval Ship Repair, Overhaul & Drydocking",
+        "description": "Heavy industrial drydocking, hull repair, mechanical propulsion overhaul, and mid-life modernization for naval and coast guard vessels.",
+        "type": "MROService",
+        "accreditation": "DCMA"
+      }
+    ],
+    "parent_company": "The Washington Companies",
+    "supplies_to": [
+      "Royal Canadian Navy",
+      "Canadian Coast Guard"
+    ],
+    "source_note": "CADSI / National Shipbuilding Strategy prime contractor; North Vancouver BC"
+  },
+  {
+    "legal_name": "UrtheCast Corp.",
+    "trade_name": "UrtheCast",
+    "cage_code": "L0DF9",
+    "country": "CAN",
+    "city": "Vancouver",
+    "province": "BC",
+    "website": "https://www.urthecast.com",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Secret",
+    "certifications": [
+      "ISO9001"
+    ],
+    "domains": [
+      "SpacePlatform",
+      "DomainSpace",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_LEOSatellite"
+    ],
+    "kics": [
+      "KIC_SpaceSystems",
+      "KIC_EOIRSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Earth Observation Satellite SAR & Optical Payload Data Systems",
+        "description": "Design and operation of spaceborne multi-spectral optical and Synthetic Aperture Radar (SAR) earth observation payloads for geospatial intelligence.",
+        "trl": 8,
+        "mrl": 7,
+        "kic": "KIC_SpaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "OptiSAR Space Payload Sensor Architecture",
+        "description": "Dual-band tandem satellite constellation payload combining high-resolution optical video and L-band / X-band Synthetic Aperture Radar.",
+        "part_number": "PN-URTH-SAR-01",
+        "fsc_code": "5841",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_LEOSatellite"
+        ],
+        "materials": [
+          "Material_SiliconCarbide_SiC"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Geospatial Satellite Analytics & Intelligence Processing",
+        "description": "Automated radar and electro-optical satellite imagery processing, change detection, and maritime surveillance intelligence analytics.",
+        "type": "EngineeringService",
+        "accreditation": "ISO/IEC 17025"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Canadian Space Agency",
+      "Department of National Defence"
+    ],
+    "source_note": "CADSI directory; Vancouver BC; Space Earth Observation and Geospatial Intelligence"
+  },
+  {
+    "legal_name": "Viking Air Limited",
+    "trade_name": "De Havilland Canada (Viking Air)",
+    "cage_code": "38847",
+    "country": "CAN",
+    "city": "North Saanich",
+    "province": "BC",
+    "website": "https://www.dehavilland.com",
+    "tier": "Prime",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Secret",
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainAeronautics",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_FixedWingTransport"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems",
+      "KIC_InServiceSupport"
+    ],
+    "capabilities": [
+      {
+        "title": "Twin Otter DHC-6 & Dash 8 Aircraft OEM Manufacturing & Modification",
+        "description": "Original equipment manufacturer of the Twin Otter Series 400 utility STOL military transport, CL-215/415 aerial waterbombers, and Dash 8 regional aircraft.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_AerospaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Twin Otter Guardian 400 Maritime Patrol Aircraft",
+        "description": "Military and special mission variant of the DHC-6 Twin Otter equipped with electro-optical/infrared sensors, search radar, and maritime patrol workstations.",
+        "part_number": "PN-DHC6-SER400-GUARDIAN",
+        "fsc_code": "1510",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_FixedWingTransport"
+        ],
+        "materials": [
+          "Material_Titanium_Ti6Al4V"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Legacy De Havilland Aircraft OEM Worldwide Fleet Support",
+        "description": "Global engineering, type-certificate engineering support, airframe spares manufacturing, and heavy structural repair for DHC-1 through DHC-8 aircraft.",
+        "type": "MROService",
+        "accreditation": "FAA Part 145"
+      }
+    ],
+    "parent_company": "Longview Aviation Capital Corp.",
+    "supplies_to": [
+      "Department of National Defence",
+      "United States Army",
+      "Global Defense Forces"
+    ],
+    "source_note": "AIAC / CADSI member; Victoria International Airport North Saanich BC; OEM DHC aircraft"
+  },
+  {
+    "legal_name": "Ascent Systems Technologies Inc.",
+    "trade_name": "Ascent Systems Technologies",
+    "cage_code": "L0CY8",
+    "country": "CAN",
+    "city": "Vancouver",
+    "province": "BC",
+    "website": "https://www.ascentsystems.ca",
+    "tier": "SMESupplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Secret",
+    "certifications": [
+      "ISO9001",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "DomainDefence",
+      "DomainC4ISR"
+    ],
+    "platforms": [
+      "Platform_FixedWingTransport",
+      "Platform_SurfaceCombatant"
+    ],
+    "kics": [
+      "KIC_SensorsSonar",
+      "KIC_CyberResilience"
+    ],
+    "capabilities": [
+      {
+        "title": "Ruggedized Embedded Computing & Naval Tactical Interface Systems",
+        "description": "Custom engineering of MIL-SPEC ruggedized computer architectures, tactical bus interfaces (MIL-STD-1553, ARINC 429), and edge processing hardware for harsh environments.",
+        "trl": 8,
+        "mrl": 8,
+        "kic": "KIC_SensorsSonar"
+      }
+    ],
+    "products": [
+      {
+        "name": "Rugged Mission Display & Interface Processor",
+        "description": "Conduction-cooled naval and airborne mission computing unit compliant with MIL-STD-810H and MIL-STD-461G.",
+        "part_number": "PN-AST-MDP-100",
+        "fsc_code": "7021",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_SurfaceCombatant"
+        ],
+        "materials": [
+          "Material_Titanium_Ti6Al4V"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Rugged Embedded Systems Qualification & EMI/EMC Testing",
+        "description": "Full lifecycle environmental, thermal, and electromagnetic compliance qualification and testing for military mission systems.",
+        "type": "TestingQualificationService",
+        "accreditation": "ISO/IEC 17025"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Lockheed Martin Canada",
+      "Seaspan Shipyards"
+    ],
+    "source_note": "CADSI member directory; Vancouver BC; Rugged military computing and systems integration"
+  },
+  {
+    "legal_name": "Pacific Safety Products Inc.",
+    "trade_name": "Med-Eng (PSP Division)",
+    "cage_code": "3AC52",
+    "country": "CAN",
+    "city": "Kelowna",
+    "province": "BC",
+    "website": "https://www.med-eng.com",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Secret",
+    "certifications": [
+      "ISO9001",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "LandPlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_ArmouredCombatVehicle"
+    ],
+    "kics": [
+      "KIC_ArmouredVehicles",
+      "KIC_AdvancedMaterials"
+    ],
+    "capabilities": [
+      {
+        "title": "Personal Ballistic Armour & Vehicle Protective Systems Fabrication",
+        "description": "Design and high-volume precision manufacturing of tactical body armor, bomb disposal blast suits, and ceramic/composite vehicle ballistic spall liners.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_AdvancedMaterials"
+      }
+    ],
+    "products": [
+      {
+        "name": "Tactical Modular Ballistic Vest System",
+        "description": "NIJ Level IV multi-hit ballistic ceramic plate carrier system engineered for armed forces and tactical police intervention units.",
+        "part_number": "PN-PSP-TAC-IV",
+        "fsc_code": "8470",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_ArmouredCombatVehicle"
+        ],
+        "materials": [
+          "Material_Kevlar_Aramid"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Ballistic Material Resistance Testing & Certification",
+        "description": "Indoor range ballistic testing, V50 limit determination, and environmental degradation testing for protective composites and ceramic armours.",
+        "type": "TestingQualificationService",
+        "accreditation": "ISO/IEC 17025"
+      }
+    ],
+    "parent_company": "Cadre Holdings",
+    "supplies_to": [
+      "Department of National Defence",
+      "RCMP",
+      "US Department of Defense"
+    ],
+    "source_note": "CADSI member directory; Kelowna BC facility; Med-Eng personal protective equipment"
+  },
+  {
+    "legal_name": "Barnett-Marsden Inc.",
+    "trade_name": "BMI Aerospace",
+    "cage_code": "L0BL2",
+    "country": "CAN",
+    "city": "Richmond",
+    "province": "BC",
+    "website": "https://www.bmiaerospace.com",
+    "tier": "SMESupplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Secret",
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainAeronautics",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat",
+      "Platform_RotaryWing"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems",
+      "KIC_AdvancedMaterials"
+    ],
+    "capabilities": [
+      {
+        "title": "Precision 5-Axis CNC Aerospace Machining & Complex Tooling",
+        "description": "High-precision 5-axis CNC machining of complex aerospace structural fittings, engine mounts, and helicopter transmission components in titanium and nickel alloys.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_AerospaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Titanium Rotor Pylon Structural Bracket",
+        "description": "Critical load-bearing 5-axis milled Ti-6Al-4V airframe bracket for military medium-lift rotorcraft.",
+        "part_number": "PN-BMI-TI-4482",
+        "fsc_code": "1560",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_RotaryWing"
+        ],
+        "materials": [
+          "Material_Titanium_Ti6Al4V"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Contract High-Tolerance 5-Axis Machining & CMM Inspection",
+        "description": "Tight-tolerance CNC milling, turning, non-destructive testing, and coordinate measuring machine inspection for flight-safety critical hardware.",
+        "type": "EngineeringService",
+        "accreditation": "AS9100D"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Boeing Canada",
+      "Avcorp Industries"
+    ],
+    "source_note": "AIAC / CADSI member; Richmond BC; AS9100D precision aerospace machining"
+  },
+  {
+    "legal_name": "Cellula Robotics Ltd.",
+    "trade_name": "Cellula Robotics",
+    "cage_code": "L04E8",
+    "country": "CAN",
+    "city": "Burnaby",
+    "province": "BC",
+    "website": "https://www.cellula.com",
+    "tier": "SMESupplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Secret",
+    "certifications": [
+      "ISO9001",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "MaritimePlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_Submarine",
+      "Platform_SurfaceCombatant"
+    ],
+    "kics": [
+      "KIC_NavalShipbuilding",
+      "KIC_AIAutonomousSystems",
+      "KIC_SensorsSonar"
+    ],
+    "capabilities": [
+      {
+        "title": "Long-Range Extra-Large Autonomous Underwater Vehicles (XLAUV)",
+        "description": "Turnkey engineering of fuel-cell powered, long-endurance autonomous subsea robotic platforms for subsea survey, mine countermeasures, and underwater acoustic intelligence.",
+        "trl": 8,
+        "mrl": 7,
+        "kic": "KIC_AIAutonomousSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Solus-LR Fuel-Cell Autonomous Underwater Vehicle",
+        "description": "Hydrogen fuel-cell powered long-range AUV capable of 2,000 km submerged operations for persistent naval undersea surveillance.",
+        "part_number": "PN-CELL-SOLUS-LR",
+        "fsc_code": "2090",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_Submarine"
+        ],
+        "materials": [
+          "Material_CarbonFiber_Composite",
+          "Material_Titanium_Ti6Al4V"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Subsea Robotics Engineering & Mission Software Development",
+        "description": "Custom naval subsea vehicle mechanical packaging, acoustic sensor integration, pressure hull finite element analysis, and autonomous navigation algorithm design.",
+        "type": "EngineeringService",
+        "accreditation": "ISO/IEC 17025"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Royal Canadian Navy",
+      "Defence Research and Development Canada (DRDC)"
+    ],
+    "source_note": "CADSI member directory; Burnaby BC; DRDC Solus-LR Autonomous Subsea developer"
+  },
+  {
+    "legal_name": "Analytical Systems Wear Technologies Inc.",
+    "trade_name": "Analytic Systems",
+    "cage_code": "3BA85",
+    "country": "CAN",
+    "city": "Delta",
+    "province": "BC",
+    "website": "https://www.analyticsystems.com",
+    "tier": "SMESupplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Secret",
+    "certifications": [
+      "ISO9001",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "AirPlatform",
+      "MaritimePlatform",
+      "LandPlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_FixedWingTransport",
+      "Platform_SurfaceCombatant",
+      "Platform_ArmouredCombatVehicle"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems",
+      "KIC_SensorsSonar"
+    ],
+    "capabilities": [
+      {
+        "title": "MIL-SPEC Rugged Power Conversion & Battery Charging Systems",
+        "description": "Design and manufacture of high-reliability pure sinewave inverters, DC-DC voltage converters, and multi-bank battery chargers for military naval, land vehicle, and airborne platforms.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_AerospaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "MIL-SPEC VTC1000 Series Rugged DC-DC Converter",
+        "description": "High-efficiency DC-DC voltage converter fully compliant with MIL-STD-461, MIL-STD-810, and MIL-STD-1275 vehicle power transients.",
+        "part_number": "PN-ANA-VTC1000-24",
+        "fsc_code": "6130",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_ArmouredCombatVehicle"
+        ],
+        "materials": [
+          "Material_Titanium_Ti6Al4V"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Power Electronics Thermal & Electrical Transient Qualification",
+        "description": "Custom power electronics design verification, environmental thermal chamber cycling, and MIL-STD electrical spike and surge testing.",
+        "type": "TestingQualificationService",
+        "accreditation": "ISO/IEC 17025"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "General Dynamics Land Systems-Canada",
+      "Raytheon Canada",
+      "Seaspan Shipyards"
+    ],
+    "source_note": "CADSI member directory; Delta BC; Military rugged power conversion equipment"
+  },
+  {
+    "legal_name": "Kobelt Manufacturing Co. Ltd.",
+    "trade_name": "Kobelt Manufacturing",
+    "cage_code": "37713",
+    "country": "CAN",
+    "city": "Surrey",
+    "province": "BC",
+    "website": "https://www.kobelt.com",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Confidential",
+    "certifications": [
+      "ISO9001"
+    ],
+    "domains": [
+      "MaritimePlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_SurfaceCombatant"
+    ],
+    "kics": [
+      "KIC_NavalShipbuilding"
+    ],
+    "capabilities": [
+      {
+        "title": "Naval Propulsion Controls & Hydraulic Steering Actuation Systems",
+        "description": "Precision bronze and stainless steel marine steering gears, pneumatic/electronic propulsion control heads, and heavy industrial shaft brakes for commercial and naval patrol craft.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_NavalShipbuilding"
+      }
+    ],
+    "products": [
+      {
+        "name": "Model 7080 Heavy Naval Hydraulic Steering Actuator",
+        "description": "Twin cylinder balanced hydraulic steering gear engineered for high-maneuverability naval patrol vessels and auxiliary warships.",
+        "part_number": "PN-KOB-7080-ACT",
+        "fsc_code": "2040",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_SurfaceCombatant"
+        ],
+        "materials": [
+          "Material_Titanium_Ti6Al4V"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Naval Steering & Propulsion Control Overhaul & Refit",
+        "description": "Depot and pier-side overhaul, hydrostatic testing, and sea-trial commissioning of hydraulic steering cylinders and electronic propulsion control links.",
+        "type": "MROService",
+        "accreditation": "DCMA"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Seaspan Shipyards",
+      "Canadian Coast Guard"
+    ],
+    "source_note": "CADSI directory; Surrey BC; Naval steering and propulsion control manufacturer"
+  },
+  {
+    "legal_name": "Raytheon Canada Limited (Calgary Operations)",
+    "trade_name": "Raytheon Canada",
+    "cage_code": "3A325",
+    "country": "CAN",
+    "city": "Calgary",
+    "province": "AB",
+    "website": "https://www.rtx.com",
+    "tier": "Prime",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Top Secret / SCI",
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "ISO27001",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainC4ISR",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat",
+      "Platform_SurfaceCombatant"
+    ],
+    "kics": [
+      "KIC_SensorsSonar",
+      "KIC_DefenceSystemsIntegration",
+      "KIC_SoftwareDefinedRadio"
+    ],
+    "capabilities": [
+      {
+        "title": "Air Defence Radar In-Service Support & Tactical Command Systems",
+        "description": "Operation, depot sustainment, software engineering, and hardware overhaul for the North Warning System (NWS), naval coastal surveillance radars, and tactical communications systems.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_SensorsSonar"
+      }
+    ],
+    "products": [
+      {
+        "name": "AN/FPS-117 North Warning Long-Range Radar Subsystems",
+        "description": "Solid-state L-band 3D phased array surveillance radar transmit/receive modules, signal processing hardware, and radome heating interfaces.",
+        "part_number": "PN-RAY-NWS-TRM",
+        "fsc_code": "5841",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_FixedWingCombat"
+        ],
+        "materials": [
+          "Material_GalliumNitride_GaN"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Radar Depot-Level Maintenance & Arctic Logistics Support",
+        "description": "Turnkey life-cycle engineering, depot repairs, firmware upgrades, and Arctic field technical support for Canadian air defence radar installations.",
+        "type": "MROService",
+        "accreditation": "DCMA"
+      }
+    ],
+    "parent_company": "RTX Corporation",
+    "supplies_to": [
+      "Department of National Defence",
+      "NORAD",
+      "Royal Canadian Air Force"
+    ],
+    "source_note": "CADSI / AIAC prime member; Calgary AB facility; North Warning System operations"
+  },
+  {
+    "legal_name": "NovAtel Inc.",
+    "trade_name": "Hexagon Autonomy & Positioning (NovAtel)",
+    "cage_code": "L0484",
+    "country": "CAN",
+    "city": "Calgary",
+    "province": "AB",
+    "website": "https://www.novatel.com",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Secret",
+    "certifications": [
+      "ISO9001",
+      "ISO14001",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "AirPlatform",
+      "UASPlatform",
+      "SpacePlatform",
+      "MaritimePlatform",
+      "LandPlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_TacticalUAS",
+      "Platform_ArmouredCombatVehicle",
+      "Platform_FixedWingCombat"
+    ],
+    "kics": [
+      "KIC_SensorsSonar",
+      "KIC_AIAutonomousSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Assured Position, Navigation & Timing (A-PNT) & Anti-Jam GPS Antennas",
+        "description": "Global leader in high-precision GNSS receivers, deeply coupled inertial navigation systems (SPAN), and multi-element Controlled Radiation Pattern Antennas (CRPA) for GPS anti-jamming.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_SensorsSonar"
+      }
+    ],
+    "products": [
+      {
+        "name": "GAJT-710ML Anti-Jam GPS Antenna System",
+        "description": "Seven-element null-forming controlled radiation pattern antenna (CRPA) mitigating intentional electronic jamming and spoofing on military combat vehicles and naval vessels.",
+        "part_number": "PN-NOV-GAJT-710ML",
+        "fsc_code": "5985",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_ArmouredCombatVehicle"
+        ],
+        "materials": [
+          "Material_CarbonFiber_Composite"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "GNSS Jamming Simulation & Navigation Resiliency Testing",
+        "description": "Anechoic chamber RF simulation, multi-source GNSS spoofing vulnerability analysis, and tightly coupled inertial navigation algorithmic characterization.",
+        "type": "TestingQualificationService",
+        "accreditation": "ISO/IEC 17025"
+      }
+    ],
+    "parent_company": "Hexagon AB",
+    "supplies_to": [
+      "Department of National Defence",
+      "US Army",
+      "Lockheed Martin Corporation"
+    ],
+    "source_note": "CADSI / Hexagon AB; Calgary AB HQ; Global defence standard for GPS anti-jam antennas"
+  },
+  {
+    "legal_name": "Canadian Commercial Corporation (Field Aviation / AVMAX)",
+    "trade_name": "Avmax Group Inc.",
+    "cage_code": "L0342",
+    "country": "CAN",
+    "city": "Calgary",
+    "province": "AB",
+    "website": "https://www.avmax.com",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Secret",
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainAeronautics",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_FixedWingTransport"
+    ],
+    "kics": [
+      "KIC_InServiceSupport",
+      "KIC_AerospaceSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Regional & Special Mission Aircraft Heavy Maintenance & Interior Modification",
+        "description": "Heavy structural MRO, avionics integrations, engineering STC design, and complete aircraft refurbishments for Bombardier Dash 8, CRJ, and military transport aircraft.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_InServiceSupport"
+      }
+    ],
+    "products": [
+      {
+        "name": "Dash 8-Q400 Long-Range Auxiliary Fuel Tank System",
+        "description": "Transport Canada / FAA certified internal auxiliary fuel system enabling extended operational flight range for maritime surveillance variants.",
+        "part_number": "PN-AVM-Q400-AUX01",
+        "fsc_code": "1560",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_FixedWingTransport"
+        ],
+        "materials": [
+          "Material_Titanium_Ti6Al4V"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Aircraft Heavy Structural Check (C/D Check) & Paint",
+        "description": "Full base maintenance, airframe non-destructive testing, corrosion control, military livery painting, and avionics modernization.",
+        "type": "MROService",
+        "accreditation": "FAA Part 145"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Royal Canadian Air Force",
+      "Commercial Fleet Operators"
+    ],
+    "source_note": "CADSI / AIAC directory; Calgary International Airport AB; Aviation heavy maintenance"
+  },
+  {
+    "legal_name": "Blackline Safety Corp.",
+    "trade_name": "Blackline Safety",
+    "cage_code": "L0B74",
+    "country": "CAN",
+    "city": "Calgary",
+    "province": "AB",
+    "website": "https://www.blacklinesafety.com",
+    "tier": "SMESupplier",
+    "controlled_goods": false,
+    "itar_compliant": true,
+    "facility_security_clearance": "Confidential",
+    "certifications": [
+      "ISO9001",
+      "ISO27001"
+    ],
+    "domains": [
+      "LandPlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_ArmouredCombatVehicle"
+    ],
+    "kics": [
+      "KIC_CBRNDefence",
+      "KIC_CyberResilience"
+    ],
+    "capabilities": [
+      {
+        "title": "Connected Personnel Toxic Gas & Radiological Detection Telemetry",
+        "description": "Wearable wireless environmental monitoring devices, multigas hazardous atmospheric detection, and cloud-connected live biometric telemetry for defence hazardous environment teams.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_CBRNDefence"
+      }
+    ],
+    "products": [
+      {
+        "name": "G7 EXO Cloud-Connected Area Gas & Radiation Monitor",
+        "description": "Drop-and-go perimeter hazardous gas and environmental monitoring station featuring 4G cellular and satellite telemetry for base defense.",
+        "part_number": "PN-BLK-G7EXO-01",
+        "fsc_code": "6665",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_ArmouredCombatVehicle"
+        ],
+        "materials": [
+          "Material_CarbonFiber_Composite"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Automated Cloud Telemetry & Emergency Response Monitoring",
+        "description": "24/7 live sensor data ingestion, real-time plume tracking, and military site security event monitoring services.",
+        "type": "CyberSecurityService",
+        "accreditation": "ISO/IEC 17025"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Department of National Defence",
+      "Industrial Emergency Teams"
+    ],
+    "source_note": "CADSI member directory; Calgary AB; Connected worker gas detection and security"
+  },
+  {
+    "legal_name": "Gemini Machine Works Ltd.",
+    "trade_name": "Gemini Machine Works",
+    "cage_code": "3BC81",
+    "country": "CAN",
+    "city": "Edmonton",
+    "province": "AB",
+    "website": "https://www.geminimachine.com",
+    "tier": "SMESupplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Secret",
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "LandPlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_ArmouredCombatVehicle"
+    ],
+    "kics": [
+      "KIC_ArmouredVehicles",
+      "KIC_AdvancedMaterials"
+    ],
+    "capabilities": [
+      {
+        "title": "Heavy Tactical Vehicle Armoured Hull Machining & Fabrication",
+        "description": "Large-envelope CNC machining, precision weldments, and ballistic steel structural subassemblies for light armoured vehicles (LAV) and heavy support trailers.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_ArmouredVehicles"
+      }
+    ],
+    "products": [
+      {
+        "name": "LAV Wheel Suspension Mounting Arm Assembly",
+        "description": "Heavy-duty forged and machined high-strength steel suspension control arms engineered for high-mobility combat vehicle drivetrains.",
+        "part_number": "PN-GEM-LAV-ARM01",
+        "fsc_code": "2530",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_ArmouredCombatVehicle"
+        ],
+        "materials": [
+          "Material_Titanium_Ti6Al4V"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Armoured Vehicle Component CNC Machining & CMM Inspection",
+        "description": "Contract manufacturing of heavy high-hardness armor steel plates, milling of suspension mounts, and Zeiss CMM laser inspection.",
+        "type": "EngineeringService",
+        "accreditation": "AS9100D"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "General Dynamics Land Systems-Canada"
+    ],
+    "source_note": "CADSI member; Edmonton AB; Large CNC machining for defence and heavy vehicle programs"
+  },
+  {
+    "legal_name": "AltaML Inc.",
+    "trade_name": "AltaML",
+    "cage_code": "L0E18",
+    "country": "CAN",
+    "city": "Edmonton",
+    "province": "AB",
+    "website": "https://www.altaml.com",
+    "tier": "SMESupplier",
+    "controlled_goods": false,
+    "itar_compliant": true,
+    "facility_security_clearance": "Secret",
+    "certifications": [
+      "ISO27001",
+      "ISO9001"
+    ],
+    "domains": [
+      "DomainC4ISR",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat",
+      "Platform_SurfaceCombatant"
+    ],
+    "kics": [
+      "KIC_AIAutonomousSystems",
+      "KIC_CyberResilience"
+    ],
+    "capabilities": [
+      {
+        "title": "Applied Defence AI / Machine Learning & Predictive Maintenance Models",
+        "description": "Custom neural network development for military aerospace predictive equipment failure modeling, intelligence triage, and computer vision target classification.",
+        "trl": 8,
+        "mrl": 7,
+        "kic": "KIC_AIAutonomousSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "AeroPredict Aircraft Fleet Predictive Maintenance AI Engine",
+        "description": "Telemetry analysis algorithm predicting rotorcraft gearbox and turbine engine failure modes using onboard vibration sensors.",
+        "part_number": "PN-ALTA-PRED-AI",
+        "fsc_code": "7030",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_FixedWingCombat"
+        ],
+        "materials": [
+          "Material_Titanium_Ti6Al4V"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Military Operational Machine Learning Model Engineering & Audit",
+        "description": "Algorithmic audit, bias mitigation, synthetic training data generation, and secure edge deployment for defense AI systems.",
+        "type": "EngineeringService",
+        "accreditation": "ISO/IEC 17025"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Department of National Defence",
+      "IDEaS Program Canada"
+    ],
+    "source_note": "CADSI directory; Edmonton AB; Canadian AI and defence machine learning developer"
+  },
+  {
+    "legal_name": "StandardAero Limited",
+    "trade_name": "StandardAero",
+    "cage_code": "37754",
+    "country": "CAN",
+    "city": "Winnipeg",
+    "province": "MB",
+    "website": "https://www.standardaero.com",
+    "tier": "Prime",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Secret",
+    "certifications": [
+      "AS9100D",
+      "AS9110C",
+      "ISO9001",
+      "NADCAP_NDT",
+      "NADCAP_Welding",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainAeronautics",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_FixedWingTransport",
+      "Platform_RotaryWing",
+      "Platform_C130J_SuperHercules",
+      "Platform_P8_Poseidon"
+    ],
+    "kics": [
+      "KIC_InServiceSupport",
+      "KIC_AerospaceSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Military Gas Turbine Engine Depot Repair & Overhaul (T56 / AE2100 / CF34)",
+        "description": "Global authorized military depot maintenance center for Rolls-Royce T56 / 501D engines on C-130 and P-3 aircraft, AE2100D3 on C-130J, and GE CF34/T700 military turboshaft engines.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_InServiceSupport"
+      }
+    ],
+    "products": [
+      {
+        "name": "T56-A-15 Turboprop Engine Overhaul Module",
+        "description": "Completely remanufactured and test-cell validated Rolls-Royce T56 turboprop power section and reduction gearbox module for C-130 Hercules aircraft.",
+        "part_number": "PN-STD-T56-MRO",
+        "fsc_code": "2840",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_C130J_SuperHercules"
+        ],
+        "materials": [
+          "Material_SingleCrystal_Superalloy",
+          "Material_Titanium_Ti6Al4V"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Depot Engine Test-Cell Certification & Component Repair",
+        "description": "Full-power dynamometer test-cell certification, laser cladding blade repairs, precision thermal barrier coatings, and complete gas turbine overhaul.",
+        "type": "MROService",
+        "accreditation": "FAA Part 145"
+      }
+    ],
+    "parent_company": "Carlyle Group",
+    "supplies_to": [
+      "Royal Canadian Air Force",
+      "United States Air Force",
+      "United States Navy"
+    ],
+    "source_note": "AIAC / CADSI prime member; Winnipeg MB; Global gas turbine engine depot"
+  },
+  {
+    "legal_name": "Boeing Canada Operations Ltd. (Winnipeg Division)",
+    "trade_name": "Boeing Canada Winnipeg",
+    "cage_code": "37785",
+    "country": "CAN",
+    "city": "Winnipeg",
+    "province": "MB",
+    "website": "https://www.boeing.ca",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Secret",
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "NADCAP_Composites",
+      "NADCAP_NDT",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainAeronautics",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat",
+      "Platform_FixedWingTransport",
+      "Platform_P8_Poseidon"
+    ],
+    "kics": [
+      "KIC_AdvancedMaterials",
+      "KIC_AerospaceSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Advanced Composite Aircraft Aerostructures & Acoustic Fairing Manufacturing",
+        "description": "Canada largest aerospace composite manufacturing facility, designing and fabricating acoustic engine nacelle liners, wing-to-body fairings, and flight surfaces for 737, 777, 787, and military derivatives (P-8A Poseidon).",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_AdvancedMaterials"
+      }
+    ],
+    "products": [
+      {
+        "name": "P-8A Poseidon Wing-to-Body Composite Fairing",
+        "description": "Autoclave-cured high-strength carbon fiber structural fairings optimizing aerodynamic efficiency and acoustic dampening on maritime patrol aircraft.",
+        "part_number": "PN-BCW-P8-W2BF",
+        "fsc_code": "1560",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_P8_Poseidon"
+        ],
+        "materials": [
+          "Material_CarbonFiber_Composite"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Autoclave Composite Tooling Design & NDT Ultrasonic Inspection",
+        "description": "Tool design, automated fiber placement (AFP), resin transfer molding (RTM), and phased array ultrasonic non-destructive testing for critical primary composites.",
+        "type": "EngineeringService",
+        "accreditation": "NADCAP"
+      }
+    ],
+    "parent_company": "The Boeing Company",
+    "supplies_to": [
+      "The Boeing Company",
+      "United States Navy",
+      "Royal Canadian Air Force"
+    ],
+    "source_note": "AIAC / CADSI member; Winnipeg MB facility; Boeing primary composite center"
+  },
+  {
+    "legal_name": "Magellan Aerospace, Winnipeg",
+    "trade_name": "Magellan Aerospace",
+    "cage_code": "37781",
+    "country": "CAN",
+    "city": "Winnipeg",
+    "province": "MB",
+    "website": "https://www.magellan.aero",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Secret",
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "NADCAP_Composites",
+      "NADCAP_NDT",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "AirPlatform",
+      "SpacePlatform",
+      "DomainDefence",
+      "DomainSpace"
+    ],
+    "platforms": [
+      "Platform_F35_Lightning_II",
+      "Platform_LEOSatellite",
+      "Platform_SpaceLaunchVehicle"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems",
+      "KIC_SpaceSystems",
+      "KIC_Munitions"
+    ],
+    "capabilities": [
+      {
+        "title": "Suborbital Rocket Launch Vehicles & Satellite Bus Manufacturing",
+        "description": "Prime manufacturer of the Black Brant suborbital sounding rocket family for NASA, small satellite buses (MAC-200), and F-35 Lightning II horizontal tail assemblies.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_SpaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Black Brant IX Suborbital Sounding Rocket Vehicle",
+        "description": "Two-stage solid propellant suborbital research launch system carrying scientific and microgravity payloads to altitudes up to 1,500 kilometers.",
+        "part_number": "PN-MAG-BB9-ROCKET",
+        "fsc_code": "1336",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_SpaceLaunchVehicle"
+        ],
+        "materials": [
+          "Material_CarbonFiber_Composite",
+          "Material_Titanium_Ti6Al4V"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Spacecraft Cleanroom Integration & Environmental Thermal Vacuum Testing",
+        "description": "Satellite system assembly, thermal vacuum chamber testing, vibration qualification, and orbital integration in Class 10,000 cleanroom facilities.",
+        "type": "TestingQualificationService",
+        "accreditation": "ISO/IEC 17025"
+      }
+    ],
+    "parent_company": "Magellan Aerospace Corporation",
+    "supplies_to": [
+      "NASA",
+      "Canadian Space Agency",
+      "Lockheed Martin Corporation"
+    ],
+    "source_note": "AIAC / CADSI prime member; Winnipeg MB; Sounding rocket and satellite manufacturer"
+  },
+  {
+    "legal_name": "Cormer Aerospace",
+    "trade_name": "Cormer Aerospace",
+    "cage_code": "L0219",
+    "country": "CAN",
+    "city": "Winnipeg",
+    "province": "MB",
+    "website": "https://www.cormeraerospace.com",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Secret",
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "NADCAP_Chemical",
+      "NADCAP_NDT",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "AirPlatform",
+      "DomainAeronautics",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat",
+      "Platform_F35_Lightning_II"
+    ],
+    "kics": [
+      "KIC_AerospaceSystems",
+      "KIC_AdvancedMaterials"
+    ],
+    "capabilities": [
+      {
+        "title": "Complex Monolithic Aircraft Structure Machining & Chemical Processing",
+        "description": "High-speed 5-axis monolithic CNC milling of large titanium and aluminum airframe bulkheads, combined with in-house NADCAP anodizing, passivation, and surface finishing.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_AerospaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Monolithic Wing Spar Structural Segment",
+        "description": "5-axis high-speed CNC machined 7050 aluminum wing spar providing primary structural load carriage on tactical aircraft.",
+        "part_number": "PN-COR-SPAR-7050",
+        "fsc_code": "1560",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_F35_Lightning_II"
+        ],
+        "materials": [
+          "Material_Titanium_Ti6Al4V"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "NADCAP Chemical Processing & Fluorescent Penetrant Inspection",
+        "description": "Surface finishing, chromate conversion coating, anodizing, and non-destructive testing of mission-critical flight structural parts.",
+        "type": "TestingQualificationService",
+        "accreditation": "NADCAP"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Boeing Canada",
+      "Lockheed Martin Corporation",
+      "Magellan Aerospace"
+    ],
+    "source_note": "AIAC / CADSI member; Winnipeg MB; Complex aerostructure machining"
+  },
+  {
+    "legal_name": "Precision ADM Inc.",
+    "trade_name": "Precision ADM",
+    "cage_code": "L0E45",
+    "country": "CAN",
+    "city": "Winnipeg",
+    "province": "MB",
+    "website": "https://www.precisionadm.com",
+    "tier": "SMESupplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Secret",
+    "certifications": [
+      "AS9100D",
+      "ISO9001",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "AirPlatform",
+      "SpacePlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_FixedWingCombat",
+      "Platform_SpaceLaunchVehicle"
+    ],
+    "kics": [
+      "KIC_AdvancedMaterials",
+      "KIC_AerospaceSystems"
+    ],
+    "capabilities": [
+      {
+        "title": "Metal Additive Manufacturing (3D Printing) of Titanium & Inconel Flight Hardware",
+        "description": "Direct Metal Laser Sintering (DMLS) of flight-certified titanium Ti-6Al-4V, Inconel 718, and aluminium aerospace propulsion and thermal management components.",
+        "trl": 8,
+        "mrl": 8,
+        "kic": "KIC_AdvancedMaterials"
+      }
+    ],
+    "products": [
+      {
+        "name": "Additive Titanium Conformal Heat Exchanger",
+        "description": "Laser-sintered Ti-6Al-4V heat exchanger with internal conformal fluid passages optimizing heat rejection in compact avionics bays.",
+        "part_number": "PN-PADM-HX-TI01",
+        "fsc_code": "1660",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_FixedWingCombat"
+        ],
+        "materials": [
+          "Material_Titanium_Ti6Al4V"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Additive Manufacturing Design Optimization & CT Scan Inspection",
+        "description": "Generative topology optimization for additive manufacturing, stress-relief heat treatment, and computed tomography (CT) scan porosity inspection.",
+        "type": "EngineeringService",
+        "accreditation": "AS9100D"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Magellan Aerospace",
+      "StandardAero",
+      "Defence Research and Development Canada"
+    ],
+    "source_note": "CADSI member directory; Winnipeg MB; AS9100D metal additive manufacturing center"
+  },
+  {
+    "legal_name": "Brandt Industries Canada Ltd. (Engineered Products)",
+    "trade_name": "Brandt Group of Companies",
+    "cage_code": "3AC21",
+    "country": "CAN",
+    "city": "Regina",
+    "province": "SK",
+    "website": "https://www.brandt.ca",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Secret",
+    "certifications": [
+      "ISO9001",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "LandPlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_ArmouredCombatVehicle"
+    ],
+    "kics": [
+      "KIC_ArmouredVehicles"
+    ],
+    "capabilities": [
+      {
+        "title": "Heavy Tactical Vehicle Chassis Weldments & Robotic Machining",
+        "description": "Heavy industrial manufacturing, high-precision robotic welding, and large-format laser/plasma cutting of high-hardness armor steel chassis for military vehicle programs.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_ArmouredVehicles"
+      }
+    ],
+    "products": [
+      {
+        "name": "Heavy Equipment Transport (HET) Tactical Trailer Chassis",
+        "description": "Severe-duty multi-axle tactical trailer frame engineered to transport main battle tanks and heavy armoured engineering vehicles.",
+        "part_number": "PN-BRN-HET-TRAILER",
+        "fsc_code": "2330",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_ArmouredCombatVehicle"
+        ],
+        "materials": [
+          "Material_Titanium_Ti6Al4V"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Heavy Steel Structural Fatigue & Proof Load Testing",
+        "description": "Non-destructive weld testing, magnetic particle inspection, multi-ton hydraulic load proof testing, and military polyurethane finish application.",
+        "type": "TestingQualificationService",
+        "accreditation": "ISO/IEC 17025"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "General Dynamics Land Systems-Canada",
+      "Department of National Defence"
+    ],
+    "source_note": "CADSI member directory; Regina SK; Heavy engineered defence vehicle fabrication"
+  },
+  {
+    "legal_name": "SED Systems (Calian Advanced Technologies)",
+    "trade_name": "Calian Advanced Technologies",
+    "cage_code": "37731",
+    "country": "CAN",
+    "city": "Saskatoon",
+    "province": "SK",
+    "website": "https://www.calian.com",
+    "tier": "Tier1Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Top Secret / SCI",
+    "certifications": [
+      "ISO9001",
+      "ISO27001",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "SpacePlatform",
+      "DomainSpace",
+      "DomainC4ISR",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_LEOSatellite"
+    ],
+    "kics": [
+      "KIC_SpaceSystems",
+      "KIC_SensorsSonar",
+      "KIC_SoftwareDefinedRadio"
+    ],
+    "capabilities": [
+      {
+        "title": "Satellite Ground Gateways, Deep-Space Antennas & RF In-Orbit Test Systems",
+        "description": "Global provider of satellite ground stations, TT&C systems, high-power uplink amplifiers, deep-space network antenna feeds, and RF in-orbit test (IOT) measurement systems.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_SpaceSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Saturrn Ka/Q/V-Band Satellite Tracking Ground Gateway",
+        "description": "High-throughput satellite communication gateway ground antenna system supporting defense LEO/MEO constellations and secure telemetry.",
+        "part_number": "PN-CAL-SATURRN-01",
+        "fsc_code": "5895",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_LEOSatellite"
+        ],
+        "materials": [
+          "Material_CarbonFiber_Composite"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Satellite In-Orbit Testing & RF Ground Station Turnkey Commissioning",
+        "description": "Worldwide deployment of satellite earth stations, antenna RF calibration, radome installation, and 24/7 mission ground operations support.",
+        "type": "EngineeringService",
+        "accreditation": "ISO/IEC 17025"
+      }
+    ],
+    "parent_company": "Calian Group Ltd.",
+    "supplies_to": [
+      "Canadian Space Agency",
+      "European Space Agency",
+      "Department of National Defence"
+    ],
+    "source_note": "CADSI / Calian Group; Saskatoon SK facility; Premier global satellite ground system engineering"
+  },
+  {
+    "legal_name": "Draganfly Innovations Inc.",
+    "trade_name": "Draganfly",
+    "cage_code": "L09C1",
+    "country": "CAN",
+    "city": "Saskatoon",
+    "province": "SK",
+    "website": "https://www.draganfly.com",
+    "tier": "Tier2Supplier",
+    "controlled_goods": true,
+    "itar_compliant": true,
+    "facility_security_clearance": "Secret",
+    "certifications": [
+      "ISO9001",
+      "ITAR_Compliant"
+    ],
+    "domains": [
+      "UASPlatform",
+      "DomainDefence"
+    ],
+    "platforms": [
+      "Platform_TacticalUAS"
+    ],
+    "kics": [
+      "KIC_RemotelyPilotedSystems",
+      "KIC_AIAutonomousSystems",
+      "KIC_SensorsSonar"
+    ],
+    "capabilities": [
+      {
+        "title": "Tactical Multirotor UAV Systems & Autonomous Sensor Payload Integration",
+        "description": "Pioneer in commercial and military unmanned aerial systems, designing folding carbon-fiber multirotor tactical drones, landmine detection sensor payloads, and AI vision systems.",
+        "trl": 9,
+        "mrl": 9,
+        "kic": "KIC_RemotelyPilotedSystems"
+      }
+    ],
+    "products": [
+      {
+        "name": "Commander 3XL Hybrid-Payload Tactical Drone",
+        "description": "High-endurance modular tactical multirotor UAV capable of lifting 22 lbs of optical, thermal, radar, or landmine detection sensor payloads.",
+        "part_number": "PN-DRG-CMD3XL-01",
+        "fsc_code": "1550",
+        "nsn_code": null,
+        "platforms": [
+          "Platform_TacticalUAS"
+        ],
+        "materials": [
+          "Material_CarbonFiber_Composite"
+        ]
+      }
+    ],
+    "services": [
+      {
+        "name": "Drone Sensor Payload Integration & Custom Flight Software Development",
+        "description": "Engineering specialized aerial sensor drop mechanisms, secure encrypted command-and-control datalinks, and tactical flight profile optimization.",
+        "type": "EngineeringService",
+        "accreditation": "ISO/IEC 17025"
+      }
+    ],
+    "parent_company": null,
+    "supplies_to": [
+      "Department of National Defence",
+      "Allied Defense Forces"
+    ],
+    "source_note": "CADSI member; Saskatoon SK; Tactical multirotor unmanned aerial systems manufacturer"
+  }
+]
