@@ -35,7 +35,6 @@ from harvesters.usa_harvester import USAHarvester
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(name)s: %(message)s")
 logger = logging.getLogger("GlobalExportBuilder")
 
-DESKTOP_DIR = Path("/Users/mohamedsellamia/Desktop")
 EXPORTS_DIR = ROOT_DIR / "data" / "exports"
 
 
@@ -149,14 +148,9 @@ def main():
         target_txt_path = EXPORTS_DIR / txt_filename
         shutil.copy2(target_path, target_txt_path)
 
-        desktop_path = DESKTOP_DIR / ttl_filename
-        desktop_txt_path = DESKTOP_DIR / txt_filename
-        shutil.copy2(target_path, desktop_path)
-        shutil.copy2(target_path, desktop_txt_path)
 
         file_size_mb = os.path.getsize(target_path) / (1024 * 1024)
         logger.info(f"-> Generated {ttl_filename}: {len(g)} triples, {file_size_mb:.2f} MB")
-        logger.info(f"   Copied to Desktop: {desktop_path}")
 
         export_summary.append({
             "jurisdiction": name,
@@ -165,7 +159,6 @@ def main():
             "triples": len(g),
             "size_mb": round(file_size_mb, 2),
             "path": str(target_path),
-            "desktop_path": str(desktop_path),
         })
 
     # 4. Export the unified master global ontology file
@@ -177,16 +170,12 @@ def main():
     master_txt_filename = "Aero_Defence_Global_Supply_Chain_Ontology.txt"
     master_path = EXPORTS_DIR / master_filename
     master_txt_path = EXPORTS_DIR / master_txt_filename
-    desktop_master_path = DESKTOP_DIR / master_filename
-    desktop_master_txt_path = DESKTOP_DIR / master_txt_filename
 
     logger.info(f"Building complete master RDF graph for all {len(all_harvested_companies)} companies...")
     master_graph = extractor.build_rdf_graph(companies=all_harvested_companies, include_schema=True)
 
     extractor.export_standalone_ttl(master_graph, master_path)
     shutil.copy2(master_path, master_txt_path)
-    shutil.copy2(master_path, desktop_master_path)
-    shutil.copy2(master_path, desktop_master_txt_path)
 
     master_size_mb = os.path.getsize(master_path) / (1024 * 1024)
     logger.info(f"-> MASTER GLOBAL ONTOLOGY GENERATED:")
@@ -194,7 +183,6 @@ def main():
     logger.info(f"   Total Companies: {len(all_harvested_companies)}")
     logger.info(f"   File Size: {master_size_mb:.2f} MB")
     logger.info(f"   Saved at: {master_path}")
-    logger.info(f"   Desktop copy: {desktop_master_path}")
 
     # 5. Fast verification with pyoxigraph
     logger.info("-" * 80)
@@ -267,7 +255,6 @@ def main():
         "master_file": {
             "name": master_filename,
             "path": str(master_path),
-            "desktop_path": str(desktop_master_path),
             "size_mb": round(master_size_mb, 2),
             "triples": len(master_graph),
         },
