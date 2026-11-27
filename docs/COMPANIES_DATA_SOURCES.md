@@ -2,24 +2,24 @@
 
 > **Integrity Guarantee**: 100% real-world registered commercial & defense enterprises. Zero synthetic placeholders, zero templated company names, zero hallucinated part numbers.
 
-- **Total Verified Companies**: 1,988
+### Direct Spreadsheet Downloads
+- **Excel Spreadsheet with Active Hyperlinks**: [COMPANIES_DATA_SOURCES.xlsx](file:///Users/mohamedsellamia/projects/Ontology/docs/COMPANIES_DATA_SOURCES.xlsx)
+- **Universal CSV Spreadsheet**: [COMPANIES_DATA_SOURCES.csv](file:///Users/mohamedsellamia/projects/Ontology/docs/COMPANIES_DATA_SOURCES.csv)
+- **Structured JSON Dataset**: [COMPANIES_DATA_SOURCES.json](file:///Users/mohamedsellamia/projects/Ontology/docs/COMPANIES_DATA_SOURCES.json)
+
+- **Total Verified Companies**: 2,026 across 7 allied jurisdictions
   - **United States Suppliers**: 1,604 verified firms (All 50 states + DC)
   - **Canadian Suppliers**: 384 verified firms (QC, ON, BC, AB, MB, SK, NS, NB, NL, PE)
+  - **Allied Partners (UK, EU, Australia, New Zealand, India)**: 38 verified key prime and specialized defense firms
 
 ## Primary Data Sources & Provenance References
-- CADSI (Canadian Association of Defence and Security Industries)
-- ISED (Innovation, Science and Economic Development Canada) Defence Marketplace
-- AIAC (Aerospace Industries Association of Canada)
-- Aéro Montréal Member Catalog
-- Ontario Aerospace Council (OAC) Directory
-- Atlantic Defence Industries Association (ADIA)
-- Defense News Top 100 Global Defense Companies
-- DoD SBIR / STTR Award Database
-- SAM.gov CAGE Database (DLA / NATO Commercial and Government Entity)
-- Aerospace Industries Association (AIA US)
-- AUVSI (Association for Uncrewed Vehicle Systems International)
-- Satellite Industry Association (SIA)
-- NADCAP & FAA Part 145 Certified Repair Station Directories
+- **United States**: SAM.gov CAGE Database (DLA / NATO Commercial and Government Entity), Defense News Top 100 Global Defense Companies, DoD SBIR / STTR Award Database, Aerospace Industries Association (AIA US), AUVSI, Satellite Industry Association (SIA), NADCAP & FAA Part 145 Certified Repair Station Directories
+- **Canada**: CADSI (Canadian Association of Defence and Security Industries), ISED (Innovation, Science and Economic Development Canada) Defence Marketplace, AIAC (Aerospace Industries Association of Canada), Aéro Montréal Member Catalog, Ontario Aerospace Council (OAC) Directory, Atlantic Canada Aerospace & Defence Association (ACADA / ADIA), STIQ Quebec
+- **United Kingdom**: ADS Group (Advancing Aerospace, Defence, Security and Space), UK MoD Defence Suppliers Directory
+- **European Union**: ASD Europe (AeroSpace and Defence Industries Association of Europe), European Defence Agency (EDA)
+- **Australia**: Australian Industry & Defence Network (AIDN), Australian Defence Export Office (ADEO)
+- **New Zealand**: New Zealand Defence Industry Association (NZDIA)
+- **India**: Society of Indian Defence Manufacturers (SIDM), Department of Defence Production (DDP Make in India)
 
 ## Verified Enterprise Directory
 

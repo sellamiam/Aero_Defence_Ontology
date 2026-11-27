@@ -9,6 +9,11 @@ Engineered for sovereign resilience modeling, multi-tier supply chain traceabili
 
 ## 1. Multi-Jurisdiction Knowledge Graph Distribution Files
 
+### Master Enterprise Directories & Provenance Spreadsheets
+- **Excel Master Spreadsheet (All Markets with Direct Links)**: [COMPANIES_DATA_SOURCES.xlsx](file:///Users/mohamedsellamia/projects/Ontology/docs/COMPANIES_DATA_SOURCES.xlsx)
+- **Universal CSV Master Directory**: [COMPANIES_DATA_SOURCES.csv](file:///Users/mohamedsellamia/projects/Ontology/docs/COMPANIES_DATA_SOURCES.csv)
+- **Provenance & Methodology Documentation**: [COMPANIES_DATA_SOURCES.md](file:///Users/mohamedsellamia/projects/Ontology/docs/COMPANIES_DATA_SOURCES.md)
+
 The repository provides standalone, self-contained RDF Turtle (`.ttl`) knowledge graphs. Each distribution file is fully autonomous, embedding its complete W3C OWL 2 schema, taxonomy classes, object properties, and enterprise instance assertions:
 
 | Distribution Artifact | File Path | Enterprise Suppliers | RDF Triples | File Size | Jurisdictional Scope & Industrial Base |
