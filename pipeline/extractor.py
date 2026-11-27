@@ -184,8 +184,10 @@ class RDFTripleExtractor:
 
         # Global deterministic company mapping: Name -> canonical URI, CAGE -> canonical URI
         comp_uri_map: Dict[str, URIRef] = {}
+        processed_comp_uris: Set[URIRef] = set()
         for comp in companies:
             comp_uri = self.get_company_uri(comp)
+            processed_comp_uris.add(comp_uri)
             legal_name = comp.get("legal_name")
             if legal_name:
                 comp_uri_map[legal_name] = comp_uri
@@ -271,11 +273,14 @@ class RDFTripleExtractor:
                 g.add((comp_uri, AERO.subsidiaryOf, parent_uri))
                 g.add((parent_uri, AERO.hasSubsidiary, comp_uri))
 
-                # Ensure target is typed as aero:Company in this graph
-                g.add((parent_uri, RDF.type, AERO.Company))
-                g.add((parent_uri, AERO.legalName, Literal(str(parent_name), datatype=XSD.string)))
-                parent_cntry = PARENT_COUNTRY_MAP.get(parent_name, "USA")
-                g.add((parent_uri, AERO.headquartersCountry, Literal(parent_cntry, datatype=XSD.string)))
+                # Only emit stubs if parent_uri is not among the fully-harvested companies in this batch
+                if parent_uri not in processed_comp_uris:
+                    g.add((parent_uri, RDF.type, AERO.Company))
+                    if not (parent_uri, AERO.legalName, None) in g:
+                        g.add((parent_uri, AERO.legalName, Literal(str(parent_name), datatype=XSD.string)))
+                    if not (parent_uri, AERO.headquartersCountry, None) in g:
+                        parent_cntry = PARENT_COUNTRY_MAP.get(parent_name, "USA")
+                        g.add((parent_uri, AERO.headquartersCountry, Literal(parent_cntry, datatype=XSD.string)))
 
             # Supply Chain Relationships (Deterministic cross-border resolving)
             for prime_ref in comp.get("supplies_to", []):
@@ -284,11 +289,14 @@ class RDFTripleExtractor:
                     g.add((comp_uri, AERO.suppliesTo, prime_uri))
                     g.add((prime_uri, AERO.hasDirectSupplier, comp_uri))
 
-                    # Ensure target is typed as aero:Company in this graph
-                    g.add((prime_uri, RDF.type, AERO.Company))
-                    g.add((prime_uri, AERO.legalName, Literal(str(prime_ref), datatype=XSD.string)))
-                    prime_cntry = PARENT_COUNTRY_MAP.get(prime_ref, "USA")
-                    g.add((prime_uri, AERO.headquartersCountry, Literal(prime_cntry, datatype=XSD.string)))
+                    # Only emit stubs if prime_uri is not among the fully-harvested companies in this batch
+                    if prime_uri not in processed_comp_uris:
+                        g.add((prime_uri, RDF.type, AERO.Company))
+                        if not (prime_uri, AERO.legalName, None) in g:
+                            g.add((prime_uri, AERO.legalName, Literal(str(prime_ref), datatype=XSD.string)))
+                        if not (prime_uri, AERO.headquartersCountry, None) in g:
+                            prime_cntry = PARENT_COUNTRY_MAP.get(prime_ref, "USA")
+                            g.add((prime_uri, AERO.headquartersCountry, Literal(prime_cntry, datatype=XSD.string)))
 
             # Certifications
             for cert_name in comp.get("certifications", []):

@@ -828,8 +828,7 @@ aero:Company_BAE_Systems_Australia_Limited a aero:Company,
         aero:Company_Ferra_Engineering_Pty_Ltd,
         aero:Company_Quickstep_Holdings_Limited ;
     aero:headquartersCity "Edinburgh Parks"^^xsd:string ;
-    aero:headquartersCountry "AUS"^^xsd:string,
-        "USA"^^xsd:string ;
+    aero:headquartersCountry "AUS"^^xsd:string ;
     aero:headquartersProvince "SA"^^xsd:string ;
     aero:holdsCertification aero:Cert_AS9100D,
         aero:Cert_DISP_Level3,

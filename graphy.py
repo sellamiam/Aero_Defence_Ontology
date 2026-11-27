@@ -1,59 +1,123 @@
-from rdflib import Graph
+import csv
 import glob
+from rdflib import Graph
 
 g = Graph()
 
-# Load all country TTL files in exports into one unified graph
-for ttl_file in glob.glob("/Users/mohamedsellamia/projects/Aero_Defence_Ontology/data/exports/*.ttl"):
+# Load all country/market TTL files (and schema if present in exports) into one unified graph
+ttl_files = sorted(glob.glob("/Users/mohamedsellamia/projects/Aero_Defence_Ontology/data/exports/*.ttl"))
+for ttl_file in ttl_files:
     g.parse(ttl_file, format="turtle")
 
-print(f"Unified graph loaded: {len(g)} triples\n")
+print(f"Loaded {len(ttl_files)} files | Unified graph: {len(g)} triples\n")
 
-# Example 1: Cross-border supply chain links (who supplies whom across countries)
-supply_query = """
-PREFIX aero: <https://w3id.org/aerospace-defence#>
-
-SELECT DISTINCT ?supplierName ?supplierCountry ?buyerName ?buyerCountry
-WHERE {
-    ?supplier aero:suppliesTo ?buyer ;
-              aero:legalName ?supplierName ;
-              aero:headquartersCountry ?supplierCountry .
-    ?buyer aero:legalName ?buyerName ;
-           aero:headquartersCountry ?buyerCountry .
-    FILTER(?supplierCountry != ?buyerCountry)
-}
-LIMIT 15
-"""
-
-print("=== CROSS-BORDER SUPPLIER LINKS ===")
-for row in g.query(supply_query):
-    print(f"{row.supplierName} ({row.supplierCountry}) --> {row.buyerName} ({row.buyerCountry})")
-
-# Example 2: Products by NSN/FSC code, critical material dependency, and target platform
-product_query = """
+# Full details for every company across all markets, including products and services
+company_details_query = """
 PREFIX aero: <https://w3id.org/aerospace-defence#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
-SELECT DISTINCT ?companyName ?country ?prodLabel ?nsn ?matLabel ?platLabel
+SELECT 
+    ?company
+    (SAMPLE(?legalName) AS ?Legal_Name)
+    (SAMPLE(?tradeName) AS ?Trade_Name)
+    (GROUP_CONCAT(DISTINCT REPLACE(STR(?tierType), "https://w3id.org/aerospace-defence#", ""); separator=" | ") AS ?Supplier_Tiers)
+    (SAMPLE(?cageCode) AS ?CAGE_Code)
+    (SAMPLE(?dunsNumber) AS ?DUNS)
+    (SAMPLE(?businessNumber) AS ?Business_Number)
+    (SAMPLE(?city) AS ?City)
+    (SAMPLE(?province) AS ?Province_State)
+    (SAMPLE(?country) AS ?Country)
+    (SAMPLE(?website) AS ?Website)
+    (SAMPLE(?clearance) AS ?Security_Clearance)
+    (SAMPLE(?cgp) AS ?CGP_Registered)
+    (SAMPLE(?itar) AS ?ITAR_Compliant)
+    (GROUP_CONCAT(DISTINCT STR(?domainName); separator=" | ") AS ?Domains)
+    (GROUP_CONCAT(DISTINCT STR(?certName); separator=" | ") AS ?Certifications)
+    (GROUP_CONCAT(DISTINCT STR(?capLabel); separator=" | ") AS ?Capabilities)
+    (GROUP_CONCAT(DISTINCT STR(?prodLabel); separator=" | ") AS ?Products)
+    (GROUP_CONCAT(DISTINCT STR(?servLabel); separator=" | ") AS ?Services)
 WHERE {
-    ?company aero:manufacturesProduct ?prod ;
-             aero:legalName ?companyName ;
-             aero:headquartersCountry ?country .
-    ?prod rdfs:label ?prodLabel .
-    OPTIONAL { ?prod aero:nsnCode ?nsn . }
-    OPTIONAL {
-        ?prod aero:dependsOnMaterial ?mat .
-        ?mat rdfs:label ?matLabel .
+    ?company a aero:Company .
+    
+    OPTIONAL { ?company aero:legalName ?legalName . }
+    OPTIONAL { ?company aero:tradeName ?tradeName . }
+    OPTIONAL { 
+        ?company a ?tierType . 
+        FILTER(?tierType != aero:Company && ?tierType != <http://www.w3.org/ns/org#Organization>)
     }
-    OPTIONAL {
-        ?prod aero:deployedOnPlatform ?plat .
-        ?plat rdfs:label ?platLabel .
+    OPTIONAL { ?company aero:cageCode ?cageCode . }
+    OPTIONAL { ?company aero:dunsNumber ?dunsNumber . }
+    OPTIONAL { ?company aero:businessNumber ?businessNumber . }
+    OPTIONAL { ?company aero:headquartersCity ?city . }
+    OPTIONAL { ?company aero:headquartersProvince ?province . }
+    OPTIONAL { ?company aero:headquartersCountry ?country . }
+    OPTIONAL { ?company aero:website ?website . }
+    OPTIONAL { ?company aero:facilitySecurityClearance ?clearance . }
+    OPTIONAL { ?company aero:controlledGoodsRegistered ?cgp . }
+    OPTIONAL { ?company aero:itarCompliant ?itar . }
+    
+    OPTIONAL { 
+        ?company aero:operatesInDomain ?domain .
+        BIND(REPLACE(STR(?domain), "https://w3id.org/aerospace-defence#", "") AS ?domainName)
     }
-    FILTER(BOUND(?matLabel) && BOUND(?platLabel))
+    
+    OPTIONAL { 
+        ?company aero:holdsCertification ?cert .
+        OPTIONAL { ?cert rdfs:label ?certLabelRaw . }
+        BIND(COALESCE(?certLabelRaw, REPLACE(STR(?cert), "https://w3id.org/aerospace-defence#", "")) AS ?certName)
+    }
+    
+    OPTIONAL { 
+        ?company aero:hasCapability ?cap .
+        ?cap rdfs:label ?capLabel .
+    }
+    
+    OPTIONAL { 
+        ?company aero:manufacturesProduct ?prod .
+        ?prod rdfs:label ?prodLabel .
+    }
+    
+    OPTIONAL { 
+        ?company aero:providesService ?serv .
+        ?serv rdfs:label ?servLabel .
+    }
+
+    # Filter out unharvested placeholder/stub nodes (buyers, parent stubs, generic sectors)
+    # A genuine verified enterprise must have at least one verified property (CAGE code, City, Website, Product, or Service)
+    FILTER(
+        BOUND(?cageCode) ||
+        BOUND(?city) ||
+        BOUND(?website) ||
+        BOUND(?prodLabel) ||
+        BOUND(?servLabel)
+    )
 }
-LIMIT 15
+GROUP BY ?company
+ORDER BY ?Country ?Legal_Name
 """
 
-print("\n=== PRODUCTS WITH CRITICAL MATERIALS & PLATFORMS ===")
-for row in g.query(product_query):
-    print(f"{row.companyName} ({row.country}) | {row.prodLabel} [NSN: {row.nsn}] | Material: {row.matLabel} | Platform: {row.platLabel}")
+results = list(g.query(company_details_query))
+print(f"=== ALL COMPANIES ACROSS ALL MARKETS ({len(results)} enterprises) ===\n")
+
+# Print first 10 rows as a console sanity check
+for row in results[:10]:
+    print(f"{row.Legal_Name} ({row.Country}) | Tier: {row.Supplier_Tiers or 'N/A'} | CAGE: {row.CAGE_Code or 'N/A'}")
+    print(f"  Products: {row.Products or 'None'}")
+    print(f"  Services: {row.Services or 'None'}\n")
+
+# Export all rows to CSV for full inspection
+output_csv = "/Users/mohamedsellamia/projects/Aero_Defence_Ontology/all_companies_full_details.csv"
+headers = [
+    "URI", "Legal_Name", "Trade_Name", "Supplier_Tiers", "CAGE_Code", "DUNS",
+    "Business_Number", "City", "Province_State", "Country", "Website",
+    "Security_Clearance", "CGP_Registered", "ITAR_Compliant", "Domains",
+    "Certifications", "Capabilities", "Products", "Services"
+]
+
+with open(output_csv, mode="w", newline="", encoding="utf-8") as f:
+    writer = csv.writer(f)
+    writer.writerow(headers)
+    for row in results:
+        writer.writerow([str(val) if val is not None else "" for val in row])
+
+print(f"Saved complete multi-market company dataset to: {output_csv}")

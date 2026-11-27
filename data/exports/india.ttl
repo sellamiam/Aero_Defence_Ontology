@@ -1118,8 +1118,7 @@ aero:Company_Hindustan_Aeronautics_Limited a aero:Company,
     aero:hasDirectSupplier aero:Company_Dynamatic_Technologies_Limited,
         aero:Company_Tata_Advanced_Systems_Limited ;
     aero:headquartersCity "Bengaluru"^^xsd:string ;
-    aero:headquartersCountry "IND"^^xsd:string,
-        "USA"^^xsd:string ;
+    aero:headquartersCountry "IND"^^xsd:string ;
     aero:headquartersProvince "Karnataka"^^xsd:string ;
     aero:holdsCertification aero:Cert_AS9100D,
         aero:Cert_FacilitySecurity_TopSecret,

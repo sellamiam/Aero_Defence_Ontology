@@ -63,7 +63,7 @@ def inject_cross_border_supply_chain_links(all_companies: List[Dict[str, Any]]) 
         ("CEA Technologies Pty Ltd", ["BAE Systems Australia Limited"]),
         ("Ultra Electronics Maritime Systems Inc.", ["Lockheed Martin Canada Inc."]),
         ("Rolls-Royce plc", ["BAE Systems plc"]),
-        ("Babcock Canada Inc.", ["Babcock International Group PLC"]),
+        ("Babcock Canada Inc.", ["Babcock International Group plc"]),
 
         # P-8 Poseidon / Maritime Patrol Supply Chain
         ("CAE Inc.", ["The Boeing Company"]),
